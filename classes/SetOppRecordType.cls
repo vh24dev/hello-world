@@ -37,7 +37,7 @@ public class SetOppRecordType {
             pageRef = Errors.page(errorSubject, errorMessage);
         } else if (this.opp.Backoffice__c == null) {
             pageRef = Errors.page('Fehler bei Übergabe des Prozesses.', 'Bitte tragen Sie einen Backoffice Mitarbeiter ein.');
-        } else if (this.opp.Legal_Protection_Insurance__c == null) {
+        } /* else if (this.opp.Legal_Protection_Insurance__c == null) {
             pageRef = Errors.page('Fehler bei Übergabe des Prozesses.', 'Bitte wählen Sie eine Rechtsschutzversicherung aus.');
         } else if (this.opp.Bank__c == null) {
             pageRef = Errors.page('Benötigtes Feld', 'Bitte tragen Sie einen Wert in das Kreditinstitut Feld ein.');
@@ -51,7 +51,7 @@ public class SetOppRecordType {
             pageRef = Errors.page('Benötigtes Feld', 'Bitte tragen Sie einen Wert in das Monatliche Raten Feld ein.');
         } else if (this.opp.Credit_Contract_Numbe__c == null) {
             pageRef = Errors.page('Benötigtes Feld', 'Bitte tragen Sie einen Wert in das Kreditvertragsnummer Feld ein.');
-        } else if (this.opp.Reference__c == null) {
+        } */else if (this.opp.Reference__c == null) {
             pageRef = Errors.page('Benötigtes Feld', 'Bitte tragen Sie einen Wert in das Aktenzeichen Feld ein.');
         } else {
             this.opp.StageName = 'Claim';

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?><CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label><!-- Account Id --></label>
+        <name>Account_Id__c</name>
+    </fields>
+    <fields>
+        <label><!-- Summe --></label>
+        <name>Amount__c</name>
+    </fields>
+    <fields>
+        <label><!-- Bankkonto --></label>
+        <name>Bank_Account_Owner__c</name>
+    </fields>
+    <fields>
+        <label><!-- CreatedDate_old --></label>
+        <name>CreatedDate_old__c</name>
+    </fields>
+    <fields>
+        <label><!-- Datum --></label>
+        <name>Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- External Id --></label>
+        <name>External_Id__c</name>
+    </fields>
+    <fields>
+        <help><!-- The date of the last execution of the &quot;transaction mapping process&quot; for this Transaction --></help>
+        <label><!-- Last mapping process at --></label>
+        <name>Last_mapping_process_at__c</name>
+    </fields>
+    <fields>
+        <label><!-- Mappingstatus --></label>
+        <name>Mapping_Error__c</name>
+    </fields>
+    <fields>
+        <help><!-- Contains the records the transaction was matched with based on the Purpose field. Note that if there are any mapping errors the transaction will not be linked to the record and marked as &quot;Processed&quot;. It&apos;s for debugging purposes mainly. --></help>
+        <label><!-- Matching records --></label>
+        <name>Matching_records__c</name>
+    </fields>
+    <fields>
+        <label><!-- Methode --></label>
+        <name>Method__c</name>
+    </fields>
+    <fields>
+        <label><!-- Name --></label>
+        <name>Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Old_Id --></label>
+        <name>Old_Id__c</name>
+    </fields>
+    <fields>
+        <label><!-- Betreff --></label>
+        <name>Purpose__c</name>
+    </fields>
+    <fields>
+        <label><!-- Status --></label>
+        <name>Stage__c</name>
+        <picklistValues>
+            <masterLabel>Open</masterLabel>
+            <translation><!-- Open --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Processed</masterLabel>
+            <translation><!-- Processed --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- TransaktionImpID --></label>
+        <name>TransaktionImpID__c</name>
+    </fields>
+    <caseValues>
+        <caseType>Nominative</caseType>
+        <plural>false</plural>
+        <value>Transaktion</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Nominative</caseType>
+        <plural>true</plural>
+        <value>Transaktionen</value>
+    </caseValues>
+    <gender>Neuter</gender>
+</CustomObjectTranslation>

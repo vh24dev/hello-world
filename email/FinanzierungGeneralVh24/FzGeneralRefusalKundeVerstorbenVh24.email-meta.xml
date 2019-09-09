@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Kunde verstorben</description>
+    <encodingKey>UTF-8</encodingKey>
+    <name>FzGeneralRefusalKundeVerstorbenVh24</name>
+    <style>none</style>
+    <subject>Wir bekunden unser aufrichtiges Beileid | Ihre Bearbeitungsnummer: {!Opportunity.Number__c}</subject>
+    <textOnly>{!Contact.Salutation__c},
+
+wir bekunden hiermit unser aufrichtiges Beileid. Falls wir diese E-Mail an die Adresse des Verstorbenen gesendet haben sollten, dann weil uns die E-Mail des Rechtsnachfolgers nicht bekannt ist. Wir bitten hierfür um Ihr Verständnis. 
+
+Wir wurden mit der Wahrnehmung der rechtlichen Interessen gegen den Fahrzeughersteller beauftragt und dieser Auftrag wurde aufgrund des Todesfalles sodann widerrufen. 
+
+Daher teilen wir Ihnen mit, dass wir die Angelegenheit nicht weiter bearbeiten werden und das Mandat beendet ist. 
+
+Wir weisen darauf hin, dass etwaige Schadensersatzansprüche verjähren, sofern keine verjährungshemmenden Maßnahmen unternommen werden. 
+
+Sollten Sie, als Rechtsnachfolger Ihre Ansprüche gegen VW dennoch geltend machen wollen, beachten Sie bitte, dass diese spätestens zum 31.12.2018 verjähren. Für diesen Fall stehen wir Ihnen selbstverständlich gerne zur Verfügung. 
+
+Mit freundlichen Grüßen 
+
+
+{!User.FirstName} {!User.LastName} 
+{!User.Title}
+Abt. Diesel-Skandal</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

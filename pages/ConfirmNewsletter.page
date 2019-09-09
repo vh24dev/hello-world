@@ -1,0 +1,12 @@
+<apex:page docType="html-5.0" pageStyle="" wizard="false" sidebar="true" standardStylesheets="false" showHeader="false" showQuickActionVfHeader="false"  controller="NewsletterController" action="{!init}">
+    <apex:composition template="{!$Site.Template}">
+        <apex:define name="body">
+            <h1>
+                Ihre Anmeldung zum Newsletter wurde bestätigt
+            </h1>
+            <p>
+                Sie können Ihre Zustimmung zum Erhalt des Newsletters jederzeit durch schriftliche Mitteilung oder durch Klick auf den Abmeldelink widerrufen.
+            </p>
+        </apex:define>
+    </apex:composition>
+</apex:page>

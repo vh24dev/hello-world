@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>2. Erinnerung nach On Hold</description>
+    <encodingKey>UTF-8</encodingKey>
+    <name>DieselskandalGeneralAutoFollowUpOnHold2Vr24</name>
+    <style>none</style>
+    <subject>⚠ {!Contact.FirstName} {!Contact.LastName}, so viel hat Sie der Diesel-Skandal bereits gekostet und warum Sie jetzt Ihr Geld zurück holen sollten.</subject>
+    <textOnly>{!Contact.Salutation__c},
+
+wie Sie der Tagespresse und der sonstigen Berichterstattung sicherlich entnommen haben, kommen im Zusammenhang mit dem sog. Abgasskandal beinahe täglich neue Erkenntnisse ans Tageslicht, welche auch für Ihren Fall von immenser Bedeutung sein können. 
+
+Wir warten daher aus prozessökonomischen Gründen die weiteren Entwicklungen in der Rechtssprechung ab, um dann in dem für Sie günstigsten Zeitpunkt gegen den Fahrzeughersteller vorzugehen. 
+
+Dies kann einige Zeit in Anspruch nehmen. Die einschlägigen Verjährungsfristen haben wir notiert und für Sie selbstverständlich im Blick. 
+
+Über die nächsten Schritte werden wir Sie rechtzeitig und unaufgefordert informieren. 
+
+Mit freundlichen Grüßen 
+
+{!User.FirstName} {!User.LastName} 
+{!User.Title}</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

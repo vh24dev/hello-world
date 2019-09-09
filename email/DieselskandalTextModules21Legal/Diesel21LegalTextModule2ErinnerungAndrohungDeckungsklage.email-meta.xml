@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>false</available>
+    <description>2. Erinnerung Androhung Deckungsklage (oben)</description>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Diesel21LegalTextModule2ErinnerungAndrohungDeckungsklage</name>
+    <style>none</style>
+    <subject>Sonstiges 3, oben</subject>
+    <type>text</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

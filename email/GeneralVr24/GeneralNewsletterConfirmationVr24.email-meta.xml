@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>GeneralNewsletterConfirmationVr24</description>
+    <encodingKey>UTF-8</encodingKey>
+    <name>GeneralNewsletterConfirmationVr24</name>
+    <style>none</style>
+    <subject>E-mail-Adresse bestätigen</subject>
+    <textOnly>{!Contact.Salutation__c},
+
+die Anmeldung zum kostenlosen VR24 Update ist fast geschafft:
+
+Sie müssen nur noch Ihre E-mail-Adresse bestätigen.
+
+Mit freundlichen Grüßen
+
+Ihr Service-Team
+von VerbraucherRechte24
+
+
+
+
+
+www.verbraucherrechte24.de
+
+VerbraucherRechte24 GmbH
+Albert-Roßhaupter-Straße 32
+81369 München
+
+Geschäftsführer: Steffen Matz, Matthias Hartmann</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

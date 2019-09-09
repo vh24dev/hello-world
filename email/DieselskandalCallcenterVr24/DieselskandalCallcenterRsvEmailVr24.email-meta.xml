@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Link zum Dokumentenupload</description>
+    <encodingKey>UTF-8</encodingKey>
+    <name>DieselskandalCallcenterRsvEmailVr24</name>
+    <style>none</style>
+    <subject>Jetzt handeln! Ihr Recht im Dieselskandal</subject>
+    <textOnly>{!Contact.Salutation__c},
+
+vielen Dank für das angenehme Gespräch und für die Übermittlung Ihrer Anfrage zur Klage.
+
+Da Sie Angaben über keine Rechtsschutzversicherung zu verfügen, warten wir aus prozessökonomischen Gründen die weiteren Entwicklungen in der Rechtssprechung ab, um dann in dem für Sie günstigsten Zeitpunkt gegen den Fahrzeughersteller vorzugehen. Dies kann einige Zeit in Anspruch nehmen. Die einschlägigen Verjährungsfristen haben wir notiert und für Sie selbstverständlich im Blick.
+
+Um  für Sie dennoch möglichst schnell tätig zu werden, möchten wir Ihnen ein einzigartiges Angebot machen. Wir haben drei Rechtsschutzversicherungen identifiziert, die die Kosten Ihrer Diesel-Klage auch rückwirkend abdecken - auch wenn Sie heute erst abschließen:
+
+- Advocard
+ADVOCARD Rechtsschutzversicherung AG
+Besenbinderhof 43
+20097 Hamburg
+Telefon: 040 23 73 10
+Telefax: 040 23 73 14 14
+E-Mail: nachricht@advocard.de
+
+- ARAG RSV
+ARAG SE
+ARAG Platz 1, 40472 Düsseldorf
+Telefon: 0211 98 700 700, Telefax: 0211 963-2850
+E-Mail: service@arag.de
+
+- BADISCHER Gemeinde-Versicherungs-Verband
+Durlacher Allee 56 76131 Karlsruhe
+Telefon: 0721 660-0
+Telefax: 0721 660-1688
+E-Mail: service@bgv.de
+
+Sobald Sie eine der drei Rechtsschutzversicherungen abgeschlossen und Ihre Rechtsschutz-Police erhalten haben, laden Sie diese bitte hier hoch:
+Rechtsschutz-Police hochladen
+
+
+Mit freundlichen Grüßen
+
+i. A. {!User.FirstName} {!User.LastName}
+
+
+www.verbraucherrechte24.de
+
+VerbraucherRechte24 GmbH
+Albert-Roßhaupter-Straße 32
+81369 München
+
+Geschäftsführer: Steffen Matz, Matthias Hartmann
+
+in Zusammenarbeit mit dem eingetragenen Rechtsdienstleister:
+
+VH24 GmbH
+Albert-Roßhaupter-Straße 32
+81369 München
+
+Geschäftsführer: Matthias Hartmann, Denis Krebs
+
+Handelsregister: München HRB 217774 Registriert beim Amtsgericht München unter 371 E – M 1779 als Inkassodienstleister gem. § 10 Abs.</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

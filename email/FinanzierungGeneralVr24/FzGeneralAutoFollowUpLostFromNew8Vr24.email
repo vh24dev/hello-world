@@ -1,0 +1,23 @@
+<span style="font-size:13px;"><span style="font-family: arial, helvetica, sans-serif;">
+{!Contact.Salutation__c},
+<p>in den vergangenen Tagen haben wir für Sie geprüft, ob Ihr Fahrzeug vom Dieselskandal betroffen ist.
+<br/>Nun ist es an der Zeit aktiv zu werden und gemeinsam mit uns Ihren Schadenersatz zu holen.
+<p>Gerne würden wir mit Ihnen das weitere Vorgehen besprechen, jedoch haben wir Sie telefonisch nicht erreicht.
+<p>Bitte um Rückruf unter der Nummer:
+089 - 215 413 118
+<p>Oder teilen Sie uns einfach per Email mit wann Sie am besten erreichbar sind: vormittags, nachmittags, abends.
+<br/>Unsere Spezialisten zu diesem Thema beraten Sie kostenlos!
+<p>
+Alternativ können Sie natürlich gerne:
+<a href="{!Opportunity.Form_Step_2_Link__c}" rel="noopener noreferrer" target="_blank"><b>Daten vervollständigen und Klage einreichen</b></a>
+<br/>Infos zum Widerruf einer eventuellen Fahrzeugfinanzierung einholen
+<p>... oder direkt mit Ihren Fragen auf diese Mail antworten.
+<p>
+<br/>Wir freuen uns darauf, für Sie tätig zu werden.<br/>
+<p>
+<p>Mit freundlichen Grüßen
+<p><span style="font-family: Calibri, Verdana, Arial, sans-serif; font-size: font-size: 14px;"><p>&nbsp;</p>
+<p><img style="width: 200px; height: 54px;" src="https://daks2k3a4ib2z.cloudfront.net/58d0ccc5a30805a8243d5fd9/58d22446e07be4a234dc816e_Verbraucherrechte_Logo_Lay01.png" alt="" /></p>
+<p><a href="http://www.verbraucherrechte24.de" target="_blank">www.verbraucherrechte24.de</a></p>
+<p><span style="font-family: Calibri, Verdana, Arial, sans-serif; font-size: 11px;"> VerbraucherRechte24 GmbH<br /> Albert-Ro&szlig;haupter-Stra&szlig;e 32<br /> 81369 M&uuml;nchen </span></p>
+<p><span style="font-family: Calibri, Verdana, Arial, sans-serif; font-size: 11px;"> Gesch&auml;ftsf&uuml;hrer: Steffen Matz, Matthias Hartmann </span></p><p><a href="{!Opportunity.URL_Abmeldung__c}" target="_blank"><span style="color: #0000cd;"><b>Abmelden</b></a>

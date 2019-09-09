@@ -1,0 +1,62 @@
+<apex:page pageStyle="" wizard="false" sidebar="false" standardStylesheets="false" showHeader="false" showQuickActionVfHeader="false" cache="false">
+    <head>
+        <!-- Google Tag Manager -->
+        <script>
+            (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);})(window,document,'script','dataLayer','GTM-55HDNQ');
+        </script>
+        <!-- End Google Tag Manager -->
+        <!--c:GoogleTrackerHeader /-->
+    </head> 
+    <body>
+        <!-- Google Tag Manager (noscript) -->
+        <noscript>
+        <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-55HDNQ" height="0" width="0" style="display:none;visibility:hidden"></iframe>
+        </noscript>
+        <!-- End Google Tag Manager (noscript) -->
+        <!--c:GoogleTrackerBody /-->
+    </body>
+    <div class="page-wrapper">
+        <!--c:GoogleTrackerHeader /-->
+        <apex:stylesheet value="{!URLFOR($Resource.VH24MissingDocumentsStyle)}"/>
+
+        <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet"/>
+ 
+        <link rel="apple-touch-icon" sizes="180x180" href="{!URLFOR($Resource.VH24_Assets, 'vh24/apple-touch-icon.png')}"/>
+        <link rel="icon" type="image/png" href="{!URLFOR($Resource.VH24_Assets, 'vh24/favicon-32x32.png')}" sizes="32x32"/>
+        <link rel="icon" type="image/png" href="{!URLFOR($Resource.VH24_Assets, 'vh24/favicon-16x16.png')}" sizes="16x16"/>
+        <link rel="mask-icon" href="{!URLFOR($Resource.VH24_Assets, 'vh24/safari-pinned-tab.svg')}" color="#888888"/>
+        <meta name="theme-color" content="#ffffff"/>
+        <meta name="msapplication-TileColor" content="#ffffff"/>
+        
+        <title>VH24 | <apex:insert name="title"/></title>
+
+        <header class="top-header">
+            <div class="top-banner">
+                <div class="logo">
+                    <apex:image url="{!URLFOR($Resource.VH24, 'images/V24_Logo.png')}"/>
+                </div>
+                <div class="contact">
+                    <div class="phone"><apex:image url="{!URLFOR($Resource.VH24, 'images/tel.png')}"/>
+                        0800 88 33 551
+                    </div>
+                    <div class="whatsapp">
+                        <apex:image url="{!URLFOR($Resource.VH24, 'images/whatsapp.png')}"/> 0151 26547808
+                    </div>
+                </div>
+            </div>
+            <apex:insert name="header"/>
+        </header>
+        
+        
+        <main>
+            <!--c:GoogleTrackerBody /-->
+            <apex:insert name="body"/>
+        </main>
+        
+        <footer>
+            <a target="_blank" href="https://www.verbraucherhilfe24.de/">Startseite</a> |
+            <a target="_blank"  href="https://www.verbraucherhilfe24.de/impressum/">Impressum</a> | 
+            <a target="_blank" href="https://www.verbraucherhilfe24.de/datenschutz/">Datenschutz</a>
+        </footer>
+    </div>
+</apex:page>

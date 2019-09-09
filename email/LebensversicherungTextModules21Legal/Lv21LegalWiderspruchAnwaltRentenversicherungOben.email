@@ -1,0 +1,7 @@
+Grund unserer Beauftragung ist die Tatsache, dass Sie unsere Mandantschaft nicht ordnungsgemäß über das ihr zustehende Widerspruchsrecht nach § 5a  VVG a.F. bzw. Widerrufsrecht nach § 8 Abs. 4 VVG a.F. belehrt haben.
+
+Unsere Mandantschaft hat im Jahr {!Opportunity.Inception_Year__c} mit Ihrem Versicherungsunternehmen eine  private Rentenversicherung (Versicherungsnummer: {!Opportunity.Insurance_Number__c}) abgeschlossen.
+
+Namens und in Vollmacht unserer Mandantschaft widersprechen wir dem Vertragsschluss des oben genannten Versicherungsvertrages bzw. widerrufen die auf Abschluss des oben genannten Vertrages gerichtete Willenserklärung. Der Vertrag gilt mithin als nicht abgeschlossen.
+
+Unsere Mandantschaft hat bei Vertragsschluss nicht sämtliche vom Gesetzgeber geforderten Unterlagen erhalten. Sie wurde insbesondere auch nicht in drucktechnisch deutlicher Form über ihr Widerspruchrecht nach § 5a VVG a.F. bzw. ihr Widerrufsrecht nach § 8 Abs. 4 VVG a.F. belehrt.

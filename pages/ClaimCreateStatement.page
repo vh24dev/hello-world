@@ -1,0 +1,9 @@
+<apex:page standardController="Claim__c" extensions="ClaimCreateStatement" showHeader="false">
+    <apex:pageBlock title="In Bearbeitung...">
+       <apex:form >
+            <apex:actionFunction name="renderPage" action="{!renderPage}"/>
+            <script>window.setTimeout(renderPage,1000)</script>
+            <apex:outputLabel value="Bitte warten..."/>
+       </apex:form>
+    </apex:pageBlock>
+</apex:page>

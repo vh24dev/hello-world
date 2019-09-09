@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Rückantwort RSV, oben</description>
+    <encodingKey>UTF-8</encodingKey>
+    <name>DieselJägerTextModuleRückantwortRsvOben</name>
+    <style>none</style>
+    <subject>Rückantwort RSV, oben</subject>
+    <type>text</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

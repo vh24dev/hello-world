@@ -1,0 +1,20 @@
+{!Contact.Salutation__c}, 
+
+leider müssen wir Ihnen mitteilen, dass unsere eingehende Prüfung ergeben hat, dass Ihr Fahrzeug aktuell vom Dieselskandal nicht betroffen ist. Daher müssen wir das Mandat niederlegen. 
+
+Für Ihr Vertrauen bedanken wir uns und hoffen, dass wir bei Ihrem nächsten Verbraucherrechts-Thema erneut unterstützen können! 
+
+Mit freundlichen Grüßen 
+
+i. A. {!User.FirstName} {!User.LastName} 
+
+Heinrich Jäger 
+J & C Anwälte 
+
+Sonnenstraße 18 
+80331 München 
+
+Telefon: +49 (0) 89 90 41 03 450 
+Telefax: +49 (0) 89 90 41 03 499 
+E-Mail: abgasskandal@jc-anwaelte.de 
+Web: www.jc-anwaelte.de

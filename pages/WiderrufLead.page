@@ -1,0 +1,204 @@
+<apex:page docType="html-5.0" controller="WiderrufLeadController" showHeader="false">
+    <apex:composition template="{!$Site.Template}">
+        <apex:define name="title">&nbsp;Lebensversicherung</apex:define>
+        <apex:define name="header">
+            <h2>Lebensversicherung prüfen:<br/>Machen Sie den Check!</h2>
+            <div class="progressbar">
+                <div class="prog-txt">
+                    <div id="angaben_zur_LV">
+                        <span>ANGABEN ZUR LEBENSVERSICHERUNG</span>
+                    </div>
+                    <div id="weitere_angaben">
+                        <span>WEITERE ANGABEN</span>
+                    </div>
+                </div>
+                <div class="progall">
+                    <svg class="progress">
+                        <line class="line1" x1="15" y1="15" x2="50%" y2="15" stroke="rgb(238,140,2)" stroke-width="3" />
+                        <line class="line2" x1="50%" y1="15" x2="100%" y2="15" stroke="rgb(216, 216, 216)" stroke-width="3" />
+                        <circle id="circle1" cx="15" cy="15" r="14" fill="rgb(238,140,2)" stroke="rgb(238,140,2)" stroke-width="1" />
+                        <circle id="circle2" stroke="rgb(216, 216, 216)" stroke-width="1" cx="50%" cy="15" r="14" fill="#fff" />
+                    </svg>
+                    <div class="prog1">
+                        <span>1</span>
+                    </div>
+                    <div class="prog2">
+                        <span>2</span>
+                    </div>
+                </div>
+            </div>
+        </apex:define>
+        
+        <apex:define name="body">
+            <div class="key-top-blue">
+                <ul>
+                    <li>Auch für bereits gekündigte und ausbezahlte Versicherungen möglich.</li>
+                    <li>Zusätzliche Nutzungsentschädigung für Ihre Beiträge.</li>
+                    <li>Rückerstattung der Verwaltungskosten und Provisionen.</li>
+                </ul>
+            </div>
+            <apex:form >
+                <div class="page1">
+                    <apex:pageMessage rendered="{!isError}" summary="{!errorMsg}" severity="warning" strength="3" />
+                    <h3>ANSPRUCH AUF WIDERRUF PRÜFEN:</h3>
+                    <div class="pflichtfeld">*Pflichtfeld</div>
+                    <p>Sind Sie mit der Entwicklung der Rendite Ihrer Versicherung zufrieden? <span class="reddot">*</span></p>
+                    
+                    <div class="low-check">
+                        <div>
+                            <apex:selectRadio value="{!question_a}" required="true">
+                                <apex:selectOptions value="{!noYesNope}"/>
+                            </apex:selectRadio>
+                        </div>
+                    </div>
+                    <p>
+                        Haben Sie Ihre Versicherung zwischen 1991 und 2007 abgeschlossen? <span class="reddot">*</span>
+                    </p>
+                    <div class="low-check">
+                        <div>
+                            <apex:selectRadio value="{!question_b}" required="true">
+                                <apex:selectOptions value="{!noYes}"/>
+                            </apex:selectRadio>
+                        </div>
+                    </div>
+                    <p>
+                        Ist Ihre Versicherung Bestandteil einer betrieblichen Altersvorsorge?  <span class="reddot">*</span>
+                    </p>
+                    <div class="low-check">
+                        <div>
+                            <apex:selectRadio value="{!question_c}">
+                                <apex:selectOptions value="{!noYes}"/>
+                            </apex:selectRadio>
+                        </div>
+                    </div>
+                    <p>
+                        Bei welcher Versicherung haben Sie Ihre Lebens- oder Rentenversicherung abgeschlossen? 
+                        <span class="reddot">*</span>
+                    </p>
+                    <div class="low-check">
+                        <div class="auto-sel">
+                            <apex:selectList value="{!question_d}" size="1" required="true">
+                                <apex:selectOptions value="{!insurersDynamic}"></apex:selectOptions>
+                            </apex:selectList>
+                        </div>
+                    </div>
+                    <p>
+                        Haben Sie eine Rechtschutzversicherung?
+                        <span class="reddot">*</span>
+                        <br/>
+                        Bitte beachten Sie, dass diese zum Zeitpunkt des Fahrzeugkaufs bereits aktiv gewesen sein muss.
+                    </p>
+                    <div class="low-check">
+                        <div>
+                            <apex:selectRadio value="{!question_d}">
+                                <apex:selectOptions value="{!noYes}"/>
+                            </apex:selectRadio>
+                        </div>
+                    </div>
+                </div>
+                <apex:commandButton value="WIDERRUF PRÜFEN" action="{!createLead}" />
+                
+                <div class="page2">
+                    <div class="block">
+                        Ihr Ergebnis {!question_a}
+                    </div>
+                    <p>
+                        Auf Basis Ihrer Eingabe und unserer Erfahrung mit gleichartigen Fällen gehen wir davon aus, dass <b>Sie vom BGH-Urteil profitieren</b> und zusätzliches Geld von Ihrer Versicherung zurückzubekommen.
+                    </p>
+                    <br/>
+                    <p>
+                        Je nach Umfang und Laufzeit berechnet sich Ihr Geldvorteil individuell. Unsere bisherige Erfahrung zeigt, dass im Durchschnitt die Gesellschaften <b>zusätzliche Zahlungen i.H.v. 10.000 Euro</b> leisten müssen, denn neben den eingezahlten Beiträgen können Sie auch eine Nutzungsentschädigung (Zinsen) für Ihre Beiträge geltend machen.
+                    </p>
+                    <br/>
+                    <hr/>
+                    <h2>
+                        Ihr nächster Schritt:
+                    </h2>
+                    <p>
+                        Gerne prüfen wir Ihren Ansprüche kostenfrei und unverbindlich und teilen Ihnen innerhalb von 48 Stunden mit, ob in Ihrem Fall ein Vorgehen gegen die Versicherungsgesellschaft aussichtsreich ist und wie viel Geld Sie forden können. 
+                    </p>
+                    <div class="block">
+                        Bitte tragen Sie Ihre Kontaktdaten in das untenstehende Formular ein.
+                    </div>
+                    <div>
+                        Name
+                        <div>
+                            Vorname
+                            <apex:input value="{!firstname}" required="true"/>   
+                        </div>
+                        <div>
+                            Nachname
+                            <apex:input value="{!lastname}" required="true"/>
+                        </div>
+                    </div>
+                    <div>
+                        <b>Email *</b>
+                        <apex:input value="{!email}" required="true"/>
+                    </div>
+                    <div>
+                        <b>Telefonnummer *</b>
+                        <apex:input value="{!phone}" required="true"/>
+                        Unter welcher Nummer können wir Sie erreichen?
+                    </div>
+                    <div>
+                        Verfügen Sie über eine Rechtschutzversicherung? *
+                        <apex:selectRadio value="{!legalInsurance}" required="true">
+                            <apex:selectOptions value="{!yesNo}"/>
+                        </apex:selectRadio>
+                    </div>
+                    
+                    <div>
+                        Datenschutzerklärung bestätigen.*
+                    </div>
+                    <div class="checkbox-wrapper kanzlei-txt">
+                        <apex:inputCheckbox id="pv" value="{!privacy}"/>
+                        <apex:outputLabel for="pv">
+                            Ja. Bitte kontaktieren Sie mich bzgl. meiner Lebensversicherung.
+                        </apex:outputLabel>
+                    </div>   
+                    
+                    <div>
+                        News-Service (optional)
+                    </div>
+                    <div class="checkbox-wrapper kanzlei-txt">
+                        <apex:inputCheckbox id="nl" value="{!newsletter}"/>
+                        <apex:outputLabel for="nl">Ja, bitte informieren Sie mich regelmäßig über neue Entwicklungen im Verbraucherschutz.</apex:outputLabel>
+                    </div>   
+                    <apex:commandButton value="Zurück"/>
+                    <apex:commandButton value="Jetzt Daten übermitteln" action="{!createLead}" />
+                </div>
+                
+            </apex:form>
+            <div class="keyfacts">
+                <ul>
+                    <li>Über 120.000 geprüfte Fälle</li>
+                    <li>Großes Netzwerk an spezialisierten Partneranwälten</li>
+                    <li>Kein Kostenrisiko für Sie*</li>
+                </ul>
+            </div>
+            <div class="flex-keyfacts">
+                <div class="hintergrund">
+                    <p><strong>HINTERGRUND</strong><br/>
+                        Wer zwischen <strong>1991 und 2007</strong> eine private Lebens- oder Rentenversicherung abgeschlossen hat, kann seinem Vertrag unter bestimmten Voraussetzungen noch immer widersprechen. Dies führt in vielen Fällen zu <strong>zusätzlichen Auszahlungen</strong>, die Sie sich nicht entgehen lassen sollten.</p>
+                </div>
+                <div class="zahlen">
+                    <p><strong>ZAHLEN</strong><br/>
+                        Für die Versicherungsgesellschaften geht es um sehr viel Geld. Die Allianz spricht  von einem 
+                        Geldbetrag in Höhe von bis zu <strong><a href="#">400 Milliarden</a></strong> Euro, den die Kunden zurückfordern können.
+                        Jedoch lehnen viele Gesellschaften Widerrufe pauschal ab und spielen so auf Zeit.</p>
+                </div>
+                <div class="vh24-txt">
+                    <p><strong>VERBRAUCHERHILFE24</strong> <br/>
+                        Fordern Sie jetzt die <strong>kostenfreie Beratung</strong> der Verbraucherhilfe24 an.
+                        Bereits über <strong>120.000 Verträge</strong> wurden durch die Verbraucherhilfe24 geprüft. 
+                        <br/><br/>
+                        Wir unterstützen Sie zusammen mit unseren externen Partneranwälten bei der Durchsetzung Ihrer Rechte.</p>
+                </div>
+            </div>
+            
+			<div class="prefooter">
+			<a target="_blank" href="https://www.verbraucherhilfe24.de/kosten/">*Weitere Infos zu etwaigen Kosten finden Sie hier.</a>
+			</div>
+        </apex:define>
+    </apex:composition>
+</apex:page>

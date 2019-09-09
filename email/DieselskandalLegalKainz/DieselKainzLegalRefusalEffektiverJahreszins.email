@@ -1,0 +1,20 @@
+{!Contact.Salutation__c}, 
+
+Ihre Bearbeitungsnummer: {!Opportunity.Number__c}. 
+
+die Überprüfung der Wirtschaftlichkeit Ihrer eingereichten Unterlagen hat ergeben, dass wir in Ihrer Sache nicht weiter vorgehen, da der effektive Jahreszins bei 0% liegt. Daher müssen wir Ihr Mandat niederlegen. Für Ihr Vertrauen bedanken wir uns und wünschen Ihnen für Ihre private und berufliche Zukunft alles Gute. 
+
+Mit freundlichen Grüßen 
+
+i. A. {!User.FirstName} {!User.LastName} 
+
+CLLB Rechtsanwälte 
+Cocron, Liebl, Leitz, Braun, Kainz, Sittner Partnerschaft mbB München - Berlin 
+
+Liebigstr. 21 
+80538 München 
+Tel.: +49-89-552 999 50 
+Fax.:+49-89-552 999 90 
+mail: kanzlei@cllb.de 
+
+Ref-Nr: {!Claim__c.Id}

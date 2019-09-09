@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Absage wegen Kenntnis</description>
+    <encodingKey>UTF-8</encodingKey>
+    <name>DieselGeneralRefusalAbsageWegenKenntnisVr24</name>
+    <style>none</style>
+    <subject>Sie haben Ihr Auto verkauft | Ihre Bearbeitungsnummer: {!Opportunity.Number__c}</subject>
+    <textOnly>{!Contact.Salutation__c},
+
+
+Ihre Bearbeitungsnummer: {!Opportunity.Number__c}.
+
+Vielen Dank für Ihr Vertrauen,
+
+leider können wir Ihren Fall nicht weiterbearbeiten und beenden im Zuge dessen das Klageverfahren gegen den Hersteller. 
+ 
+Aufgrund der Tatsache, dass zum Kauf des KFZ bereits Kenntnis über den Dieselabgasskandal und der daraus folgenden Mängel bestanden haben muss fehlt der rechtliche Hintergrund dagegen vorzugehen.
+
+Die Abgasaffäre war bereits seit September 2015 öffentlich in den Medien vertreten und damit hinlänglich bekannt. 
+ 
+Wir bedanken uns diesbezüglich für Ihr Verständnis.
+
+
+Mit freundlichen Grüßen 
+{!User.FirstName} {!User.LastName} 
+{!User.Title}</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

@@ -1,0 +1,11 @@
+<apex:page standardController="Correspondence__c" extensions="CorrLegalOpposition" showHeader="false">
+    <apex:pageBlock title="In Bearbeitung...">
+       <apex:form >
+            <apex:actionFunction name="renderPage" action="{!renderPage}"/>
+            <script>window.setTimeout(renderPage, 1000);</script>
+            <apex:outputLabel value="Bitte warten..."/>
+            <apex:pageMessage rendered="{!errorClerk}" summary="Bitte hinterlegen Sie einen Sachbearbeiter auf dem Fall!" severity="warning" strength="3" />
+            <apex:pageMessages />
+       </apex:form>
+    </apex:pageBlock>
+</apex:page>

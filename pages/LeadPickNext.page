@@ -1,0 +1,6 @@
+<apex:page standardController="Lead" extensions="LeadPickNextExtension"
+           showHeader="false" action="{! pickNext}">
+    <apex:pageBlock title="In Bearbeitung....">
+        <apex:pageMessages />
+    </apex:pageBlock>
+</apex:page>

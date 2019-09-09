@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?><CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label><!-- Anfrage --></label>
+        <name>Anfrage__c</name>
+        <relationshipLabel><!-- Klagepakete --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Bezeichnung --></label>
+        <name>Label__c</name>
+    </fields>
+    <fields>
+        <label><!-- Old Id --></label>
+        <name>Old_Id__c</name>
+    </fields>
+    <fields>
+        <label><!-- Old Klagepaket ID --></label>
+        <name>Old_Klagepaket_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Typ --></label>
+        <name>Type__c</name>
+    </fields>
+    <caseValues>
+        <caseType>Nominative</caseType>
+        <plural>false</plural>
+        <value>Klagepaket</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Nominative</caseType>
+        <plural>true</plural>
+        <value>Klagepakete</value>
+    </caseValues>
+    <gender>Neuter</gender>
+</CustomObjectTranslation>

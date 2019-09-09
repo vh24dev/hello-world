@@ -1,0 +1,7 @@
+<apex:page standardController="Date_Record__c" extensions="DateRecordSendMail"
+           showHeader="false" action="{! renderPage}">
+    <apex:pageBlock title="In Bearbeitung....">
+        <apex:pageMessage rendered="{!NOT(errorMsg = '')}" summary="Bitte hinterlegen Sie {!errorMsg}." severity="warning" strength="3" />
+        <apex:pageMessages />
+    </apex:pageBlock>
+</apex:page>

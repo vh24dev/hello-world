@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>1. Erinnerung nach On Hold</description>
+    <encodingKey>UTF-8</encodingKey>
+    <name>DieselskandalGeneralAutoFollowUpOnHold1Vr24</name>
+    <style>none</style>
+    <subject>Ihr DieselSchaden: Warum Volkswagen seine Kunden nicht freiwillig entschädigen wird.</subject>
+    <textOnly>Sehr geehrte(r) {!Contact.Salutation} {!Contact.FirstName} {!Contact.LastName},
+
+vor einigen Wochen haben Sie uns eine Anfrage zur Klage im Dieselskandal übermittelt.
+Das Sie über keine Rechtschutzversicherung verfügen, warten wir aus prozessökonomischen Gründen die weiteren Entwicklungen in der Rechtssprechung ab, um dann in dem für Sie günstigsten Zeitpunkt gegen den Fahrzeughersteller vorzugehen.
+
+Dies kann einige Zeit in Anspruch nehmen. Die einschlägige Verjährungsfristen haben wir notiert und für Sie selbstverständlich im Blick.
+
+
+Mit freundlichen Grüßen
+
+{!User.FirstName} {!User.LastName}
+{!User.Title}
+Abt. Diesel-Skandal
+
+
+www.verbraucherrechte24.de
+
+VerbraucherRechte24 GmbH
+Albert-Roßhaupter-Straße 32
+81369 München
+
+Geschäftsführer: Steffen Matz, Matthias Hartmann
+
+Jetzt austragen</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

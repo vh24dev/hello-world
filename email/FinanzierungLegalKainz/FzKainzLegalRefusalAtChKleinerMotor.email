@@ -1,0 +1,23 @@
+{!Contact.Salutation__c}, 
+
+Ihre Bearbeitungsnummer: {!Opportunity.Number__c}. 
+
+In Österreich/Schweiz liegen andere Fristen vor, diese sind leider schon verjährt. 
+Daher müssen wir Ihr Mandat leider niederlegen. Für Ihr Vertrauen bedanken wir uns und wünschen Ihnen für Ihre private und berufliche Zukunft alles Gute. 
+
+Mit freundlichen Grüßen 
+
+
+Rechtsanwalt Dr. Henning Leitz 
+Partner 
+
+CLLB Rechtsanwälte 
+Cocron, Liebl, Leitz, Braun, Kainz, Sittner Partnerschaft mbB München - Berlin 
+
+Liebigstr. 21 
+80538 München 
+Tel.: +49-89-552 999 50 
+Fax.:+49-89-552 999 90 
+mail: kanzlei@cllb.de 
+
+Ref-Nr: {!Claim__c.Id}

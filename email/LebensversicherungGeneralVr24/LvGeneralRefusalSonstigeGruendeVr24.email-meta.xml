@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Sonstige Gründe</description>
+    <encodingKey>UTF-8</encodingKey>
+    <name>LvGeneralRefusalSonstigeGruendeVr24</name>
+    <style>none</style>
+    <subject>Überprüfung Ihrer Lebensversicherung | Bearbeitungsnummer: {!Opportunity.Number__c}</subject>
+    <textOnly>{!Contact.Salutation__c},
+
+vor geraumer Zeit hatten Sie sich bei uns auf der Website widerruf.jetzt zum Thema Rückabwicklung von Lebens-/ Rentenversicherungen angemeldet, um sich informieren zu lassen.
+
+Bisher konnten wir Sie leider nicht erreichen, trotz mehrfacher Versuche.
+Gerne würden wir für Sie tätig werden und Ihre Ansprüche kostenlos und unverbindlich prüfen.
+
+Unsere Erfahrung ist es, dass viele Versicherungsnehmer mit zusätzlichen Zahlungen rechnen können. Vielleicht auch Sie.
+
+Sollte noch Interesse an einer juristischen und wirtschaftlichen Prüfung bestehen, bitten wir Sie mit uns in Kontakt zu treten.
+
+Sie können uns gerne anrufen unter: 089 215 413 10 
+oder eine E-Mail schicken an: service@verbraucherrechte24.de
+
+Sofern Sie keine Prüfung Ihrer Verträge wünschen, ist es nicht notwendig, mit uns in Kontakt zu treten, da wir Ihren Vorgang vorerst geschlossen haben.
+
+Mit freundlichen Grüßen
+
+
+
+{!User.FirstName} {!User.LastName} 
+{!User.Title}</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

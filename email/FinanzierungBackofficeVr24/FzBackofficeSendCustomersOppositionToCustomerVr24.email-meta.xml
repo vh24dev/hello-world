@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Vorprüfung positiv - Dokumente ausfüllen</description>
+    <encodingKey>UTF-8</encodingKey>
+    <name>FzBackofficeSendCustomersOppositionToCustomerVr24</name>
+    <style>none</style>
+    <subject>{!Opportunity.Number__c} | Dienstleistungsvertrag und Vollmachten</subject>
+    <textOnly>{!Contact.Salutation__c},
+
+wir freuen uns Ihnen mitteilen zu können, dass die Vorprüfung durch unsere Anwälte ein für Sie positives Ergebnis erbracht hat.
+
+Der von Ihnen eingereichte Versicherungsvertrag von der {!Opportunity.Insurance_Name__c} hat für Sie ein mögliches Ertragspotential zwischen {!Opportunity.Potential_20__c} Euro und {!Opportunity.Potential__c} Euro zuzüglich zu dem genannten Rückkaufswert Ihrer Versicherung ergeben.
+
+Da Sie scheinbar weder ausreichend über Ihre Rechte, noch über die speziellen Eigenschaften Ihres Versicherungsvertrages ordnungsgemäß aufgeklärt wurden, haben Sie Anspruch auf das oben genannte Ertragspotential.
+
+Sie können Ihr Recht durch einen Widerspruch, Widerruf, Rücktritt, Schadenersatzanspruch, oder den Anspruch auf zusätzliche Versicherungsleistungen geltend machen.
+
+Wir sind sehr zuversichtlich, die genannte Summe für Sie einfordern zu können und würden aus diesem Grund gerne für Sie tätig werden. Auch übernehmen wir auf Wunsch gerne bis zu 100% das Prozessrisiko, sowie alle anfallenden Sachbearbeitungs-, Anwalts- und Gerichtskosten.
+
+Bitte füllen Sie die im Anhang beigefügten Dokumente vollständig aus: 
+
+1. Dienstleistungsvertrag Verbraucherrechte24 (3 Seiten)
+
+2. Vollmacht Verbraucherrechte24
+
+3. Vollmacht des jeweiligen Anwalts
+
+Bitte behalten Sie das Muster-Widerrufsformular und die AGB. 
+
+
+Damit dürfen wir Ihre Interessen auch unter Einhaltung der geltenden Datenschutzrichtlinien vertreten.
+
+Mit Beauftragung der Verbraucherrechte24 treten Sie zu keiner Zeit Ihre Rechte als Vertragsinhaber ab, das ist für die Vertretung Ihres Interesses nicht von Nöten!
+
+Senden Sie uns bitte alle erforderlichen Unterlagen komplett ausgefüllt und unterschrieben als PDF per E-Mail an: service@verbraucherrechte24.de 
+
+Auf postalischen Weg an:
+
+Verbraucherrechte24 
+Abt.:Lebensversicherungen
+Albert-Roßhaupter-Str. 32
+81369 München
+
+Oder gerne auch per Fax an: +49 (0)89 215 413 199
+
+Sollten Sie mehrere Versicherungsverträge bei uns eingereicht haben, benötigen wir aus datenschutzrechtlichen Gründen die Unterlagen separat für jeden einzelnen Vorgang. Beachten Sie bitte, dass diese von allen Versicherungsnehmern unter Angabe des Datums unterschrieben sein müssen.
+
+Beste Grüße
+
+
+{!User.FirstName} {!User.LastName} 
+{!User.Title}</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

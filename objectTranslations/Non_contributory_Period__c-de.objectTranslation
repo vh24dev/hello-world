@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?><CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label><!-- Active Clean --></label>
+        <name>Active_Clean__c</name>
+    </fields>
+    <fields>
+        <label><!-- Active --></label>
+        <name>Active__c</name>
+    </fields>
+    <fields>
+        <label><!-- Ende --></label>
+        <name>End__c</name>
+    </fields>
+    <fields>
+        <label><!-- Old Beitragsfreie Zeit ID --></label>
+        <name>Old_Beitragsfreie_Zeit_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Anfrage --></label>
+        <name>Opportunity__c</name>
+        <relationshipLabel><!-- Beitragsfreie Zeiten --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Start --></label>
+        <name>Start__c</name>
+    </fields>
+    <caseValues>
+        <caseType>Nominative</caseType>
+        <plural>false</plural>
+        <value>Beitragsfreie Zeit</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Nominative</caseType>
+        <plural>true</plural>
+        <value>Beitragsfreie Zeiten</value>
+    </caseValues>
+    <gender>Feminine</gender>
+    <validationRules>
+        <errorMessage><!-- Ungültige Datumsangabe. Es muss der Monatserste gewählt werden. --></errorMessage>
+        <name>X1st_Of_Month</name>
+    </validationRules>
+</CustomObjectTranslation>

@@ -1,0 +1,36 @@
+Sehr geehrte/r {!Contact.Salutation} {!Contact.LastName}, 
+
+nachdem sich der Hersteller einer außergerichtlichen Einigung endgültig verweigert hatte, das entsprechende Schreiben des Herstellers ist diesem Schreiben zu Ihrer Kenntnisnahme beigefügt, haben wir bei Ihrer Rechtsschutzversicherung um Erteilung einer Kostendeckungszusage für das gerichtliche Vorgehen gegen den Hersteller angefragt. 
+
+Der nächste Schritt ist daher nunmehr die Erhebung der Klage. 
+
+Nach den uns vorliegenden Informationen sind Sie immer noch der Eigentümer des Kfz. 
+Sollten Sie das Kfz zwischenzeitlich verkauft haben und daher nicht mehr dessen Eigentümer sein, bitten wir Sie den folgenden Link zu verwenden und Ihre Antworten zu hinterlegen: 
+
+Eigentümerschaft bestätigen:
+{!Claim__c.URL_to_Ownership__c}
+
+Ansonsten gehen wir davon aus, dass Sie noch immer der Eigentümer des Kfz sind. 
+
+Sollten wir innerhalb der nächsten 3 Tage nichts anderslautendes von Ihnen hören, werden wir die Klage in der Ihnen übersandten Form, nach Erteilung der gerichtlichen Deckungszusage seitens der Rechtschutzversicherung, beim zuständigen Gericht einreichen. 
+ 
+
+Mit freundlichen Grüßen 
+
+
+Wilhelm Lachmair
+Rechtsanwalt und Fachanwalt für
+Bank- und Kapitalmarktrecht, Arbeitsrecht
+
+
+Rechtsanwälte 
+Wilhelm Lachmair & Kollegen
+Ismaninger Straße 19
+81675 München
+
+ 
+Tel.: +49 (0) 89 41 32 433-0
+Fax: +49 (0) 89 21 63 33-31
+dieselgate@ra-lachmair.de
+www.ra-lachmair.de
+Ref-Nr: {!Correspondence__c.Id}

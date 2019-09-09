@@ -1,0 +1,3 @@
+Die Klagepartei hat ab dem {!Opportunity.Inception_Date_Clean__c} somit monatliche Beiträge in Höhe von {!Opportunity.Contribution_Life_Insurance__c} Euro gezahlt.
+
+Somit ergibt sich ein gezahlter Gesamtbetrag in Höhe von {!Opportunity.00N0Y00000FbMAl} Euro.

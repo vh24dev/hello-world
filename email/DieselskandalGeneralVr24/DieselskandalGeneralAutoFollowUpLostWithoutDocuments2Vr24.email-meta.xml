@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>false</available>
+    <description>2. Erinnerung nach Lost - ohne Dokumente</description>
+    <encodingKey>UTF-8</encodingKey>
+    <name>DieselskandalGeneralAutoFollowUpLostWithoutDocuments2Vr24</name>
+    <style>none</style>
+    <subject>[Daten vervollständigen] Dieselauto Klage - {!Contact.FirstName} {!Contact.LastName} - {!Opportunity.Number__c}</subject>
+    <textOnly>{!Contact.Salutation__c},
+
+Sie haben gestern eine Prüfung auf eine Schadensersatzforderung beantragt.
+Unsere erste Prüfung Ihrer Angaben hat ergeben, dass Sie die Kriterien für eine erfolgsversprechende Schadenersatzklage erfüllen.
+Wichtig: Wir brauchen noch einige Daten von Ihnen.
+
+Daten gleich vervollständigen und Recht bekommen:
+
+Sie klagen übrigens völlig Stress- und risikofrei: Wir prüfen Ihren Fall vorab und übernehmen die komplette Abwicklung für Sie.
+
+•	Sie entscheiden, was mit Ihrem Fahrzeug passiert
+•	Keine Gerichtstermine für Sie
+•	Keine Prozesskosten
+
+Mit Rechtschutzversicherung können Sie heute schon loslegen. Auch Ohne Rechtschutzversicherung informieren wir Sie gerne in den nächsten Monaten über Ihre Möglichkeiten.
+Handeln Sie jetzt und schützen Sie sich vor Problemen, die durch Ihren manipulierten Diesel auf Sie zukommen:
+
+•	Wertverlust beim Wiederverkauf
+•	Dieselfahrverbote in deutschen Städten
+•	Hoher Wartungsaufwand, mögliche technische Probleme
+
+Machen Sie es wie tausende andere Dieselbesitzer und holen Sie sich Ihr Geld zurück.
+Bis zu 10.000€ zusätzlicher Schadenersatz.
+
+Haben Sie noch Fragen dazu?
+
+Rufen Sie uns doch einfach an:
+089 - 215 413 118
+
+Oder teilen Sie uns einfach per Email mit wann Sie am besten erreichbar sind: vormittags, nachmittags, abends.
+
+Unsere Spezialisten zu diesem Thema beraten Sie kostenlos!
+Wir freuen uns darauf, für Sie tätig zu werden.
+
+
+
+Mit freundlichen Grüßen
+
+
+
+www.verbraucherrechte24.de
+
+VerbraucherRechte24 GmbH
+Albert-Roßhaupter-Straße 32
+81369 München
+
+Geschäftsführer: Steffen Matz, Matthias Hartmann</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

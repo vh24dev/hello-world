@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>AGB anfordern - Template</description>
+    <encodingKey>UTF-8</encodingKey>
+    <name>DieselskandalCallcenterFormstep2LinkVr24</name>
+    <style>none</style>
+    <subject>Jetzt handeln! Ihr Recht im Dieselskandal</subject>
+    <textOnly>Auftragsdaten in wenigen Schritten hochladen.
+
+{!Lead.Salutation} {!Lead.FirstName} {!Lead.LastName},
+
+wir haben Ihre Anfrage für die Durchsetzung Ihrer Rechte im Dieselskandal erhalten und können
+bestätigen, dass Ihre Chancen auf Schadensersatz sehr gut sind.
+Um für Sie tätig werden zu können, benötigen wir noch weitere Informationen von Ihnen.
+
+
+Daten jetzt vervollständigen.Nur noch wenige Informationen und wir werden für Sie tätig!
+
+
+Noch Fragen?
+
+Wenn Sie Fragen haben oder mit uns direkt telefonieren möchten, erreichen Sie uns unter 089 - 215 413 118 oder Sie fordern einfach einen Rückruf an.
+
+
+Wir freuen uns darauf, für Sie tätig zu werden.
+
+
+
+www.verbraucherrechte24.de
+
+VerbraucherRechte24 GmbH
+Albert-Roßhaupter-Straße 32
+81369 München
+
+Geschäftsführer: Steffen Matz, Matthias Hartmann
+
+in Zusammenarbeit mit dem eingetragenen Rechtsdienstleister:</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

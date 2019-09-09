@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Keine Widerrufsbelehrung</description>
+    <encodingKey>UTF-8</encodingKey>
+    <name>DieselskandalGeneralRefusalKeineWiderrufsbelehrungVr24</name>
+    <style>none</style>
+    <subject>Keine Widerrufsbelehrung | Ihre Bearbeitungsnummer: {!Opportunity.Number__c}</subject>
+    <textOnly>{!Contact.Salutation__c}, 
+
+Ihre Bearbeitungsnummer: {!Opportunity.Number__c}. 
+
+Leider können wir Ihren Vorgang nicht weiterführen, da Ihr Vertrag, ohne Widerrufsbelehrung, nicht anfechtbar ist. 
+Daher müssen wir Ihr Mandat leider niederlegen. Für Ihr Vertrauen bedanken wir uns und wünschen Ihnen für Ihre private und beruflich Zukunft alles Gute. 
+
+Mit freundlichen Grüßen 
+
+{!User.FirstName} {!User.LastName} 
+{!User.Title} 
+Abt. Diesel-Skandal</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>false</available>
+    <description>Unterlagen nachfordern Mandant</description>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Lv21LegalLegalClaimRequestDocumentsContact</name>
+    <style>none</style>
+    <subject>Lebensversicherung21LegalLegalClaimRequestDocuments</subject>
+    <type>text</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

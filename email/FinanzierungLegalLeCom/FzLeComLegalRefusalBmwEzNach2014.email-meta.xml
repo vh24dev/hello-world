@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>BMW Erstzulassung nach 2014</description>
+    <encodingKey>UTF-8</encodingKey>
+    <name>FzLeComLegalRefusalBmwEzNach2014</name>
+    <style>none</style>
+    <subject>Ihre Bearbeitungsnummer: {!Opportunity.Number__c} | Aktenzeichen: {!Claim__c.Reference__c}</subject>
+    <type>text</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

@@ -1,0 +1,14 @@
+<apex:page standardController="Claim__c" extensions="SetOppRefund" showheader="false">
+    <apex:pageBlock title="Erstattungsbetrag hinterlegen:">
+        <apex:form >
+            <apex:outputLabel value="Erstattungsbetrag: "/><br /><br />
+            <apex:inputField required="true" value="{!parOpportunity.Refund__c}" id="refund"/>
+            <br /><br />
+            <apex:outputText >
+                <b>Hinweis: Hier bitte unbedingt den genauen Berag angeben, da er als Basis für die Abrechnung ggü. dem Mandanten dient.</b>
+            </apex:outputText>
+            <br /><br />
+            <apex:commandButton value="Speichern" action="{!renderPage}" />
+        </apex:form>
+    </apex:pageBlock>
+</apex:page>

@@ -1,0 +1,11 @@
+<apex:page docType="html" >
+    <apex:composition template="{!$Site.Template}">
+        <apex:define name="body">  
+            <div>
+                <p>
+                    Sie haben erfolgreich bestätigt, dass Sie der Fahrzeugeigentümer sind.
+                </p>
+            </div>
+        </apex:define>
+    </apex:composition>
+</apex:page>

@@ -1,0 +1,23 @@
+<span style="font-size:13px;"><span style="font-family: arial, helvetica, sans-serif;">
+<h3>Bitte Ihre Auftragsdaten vervollständigen.</h3>
+<p>{!Contact.Salutation__c},</p>
+<p>wir haben Ihre Anfrage für die Durchsetzung Ihrer Rechte im Dieselskandal erhalten und können<br/>
+bestätigen, dass Ihre Chancen auf Schadensersatz sehr gut sind.<br/>
+Um für Sie tätig werden zu können, benötigen wir noch weitere Informationen von Ihnen.<br/>
+<p><br/>
+
+<a href="{!Opportunity.Form_Step_2_Link__c}" rel="noopener noreferrer" target="_blank"><b>Daten jetzt vervollständigen.</b></a>
+<p><br/>
+Wir freuen uns darauf, für Sie tätig zu werden.<p><br/>
+<b>Noch Fragen?</b><br/>
+<p>Wenn Sie Fragen haben oder mit uns direkt telefonieren möchten, erreichen Sie uns unter <b>089 - 215 413 118</b> oder Sie fordern einfach <a href="{!Opportunity.Customer_Callback_Link__c}" rel="noopener noreferrer" target="_blank"><b>einen Rückruf</b></a> an.
+<p><br/>Wir freuen uns darauf, für Sie tätig zu werden.<br/>
+<p>&nbsp;</p>
+<p><img style="width: 200px; height: 54px;" src="https://daks2k3a4ib2z.cloudfront.net/58d0ccc5a30805a8243d5fd9/58d22446e07be4a234dc816e_Verbraucherrechte_Logo_Lay01.png" alt="" /></p>
+<p><a href="http://www.verbraucherrechte24.de" target="_blank">www.verbraucherrechte24.de</a></p>
+<p><span style="font-family: Calibri, Verdana, Arial, sans-serif; font-size: 11px;"> VerbraucherRechte24 GmbH<br /> Albert-Ro&szlig;haupter-Stra&szlig;e 32<br /> 81369 M&uuml;nchen </span></p>
+<p><span style="font-family: Calibri, Verdana, Arial, sans-serif; font-size: 11px;"> Gesch&auml;ftsf&uuml;hrer: Steffen Matz, Matthias Hartmann</span>
+
+</p>
+
+<p><span style="font-family: Calibri, Verdana, Arial, sans-serif;">&nbsp;<p><a href="{!Opportunity.URL_Abmeldung__c}" target="_blank"><span style="color: #0000cd;"><b>Abmelden</b></a>

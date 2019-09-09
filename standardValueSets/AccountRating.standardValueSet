@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StandardValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sorted>false</sorted>
+    <standardValue>
+        <fullName>Sehr vielversprechend</fullName>
+        <default>false</default>
+        <label>Sehr vielversprechend</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Vielversprechend</fullName>
+        <default>false</default>
+        <label>Vielversprechend</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Nicht vielversprechend</fullName>
+        <default>false</default>
+        <label>Nicht vielversprechend</label>
+    </standardValue>
+</StandardValueSet>

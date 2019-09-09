@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Antragsmodell</fullName>
+        <default>false</default>
+        <label>Antragsmodell</label>
+    </customValue>
+    <customValue>
+        <fullName>Policenmodell</fullName>
+        <default>false</default>
+        <label>Policenmodell</label>
+    </customValue>
+    <masterLabel>Lawsuit Types</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

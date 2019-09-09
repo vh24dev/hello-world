@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Kein wirtschaftliches Potential</description>
+    <encodingKey>UTF-8</encodingKey>
+    <name>LvGeneralRefusalKeinWirtschaftlichesPotentialVr24</name>
+    <style>none</style>
+    <subject>Überprüfung Ihrer Lebensversicherung | Bearbeitungsnummer: {!Opportunity.Number__c}</subject>
+    <textOnly>{!Contact.Salutation__c},
+
+die Überprüfung Ihres eingereichten Versicherungsvertrags von der {!Opportunity.Insurance_Name__c} hat ergeben, dass man hier in juristischer Sicht zwar vorgehen könnte, aber wirtschaftlich kein Potential für Sie erwirtschaftbar ist.
+
+Unserer Ansicht nach bestehen bei Ihrem Versicherungsvertrag momentan keine wirtschaftlichen Ansprüche, die ein weiteres Vorgehen nicht rechtfertigen würden. Wir bitten Sie darüber hinaus um Verständnis, dass wir im Rahmen einer kostenfreien Prüfung keine detaillierte Begründung unserer Entscheidung vornehmen.
+
+Vielen Dank für Ihr Vertrauen und dass Sie uns beauftragt haben!
+
+Bei Rückfragen können Sie mich gerne unter meiner Nummer {!User.Phone} erreichen oder Sie schreiben mir eine E-Mail an service@verbraucherrechte24.de .
+
+Mit freundlichen Grüßen
+
+
+{!User.FirstName} {!User.LastName}
+{!User.Title}</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

@@ -1,0 +1,8 @@
+<apex:page showheader="false">
+    <apex:messages />
+    <apex:pageBlock title="Fehler!">
+       <apex:form >
+            <apex:outputLabel value="Daten unvollständig für diese Aktion. Bitte ergänzen und erneut versuchen."/>     
+        </apex:form>
+    </apex:pageBlock>
+</apex:page>

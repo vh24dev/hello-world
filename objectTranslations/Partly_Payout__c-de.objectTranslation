@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?><CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label><!-- Betrag --></label>
+        <name>Amount__c</name>
+    </fields>
+    <fields>
+        <label><!-- Datum --></label>
+        <name>Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Old Id --></label>
+        <name>Old_Id__c</name>
+    </fields>
+    <fields>
+        <label><!-- Old Teilauszahlung ID --></label>
+        <name>Old_Teilauszahlung_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Opportunity Id --></label>
+        <name>Opportunity_Id__c</name>
+    </fields>
+    <fields>
+        <label><!-- Anfrage --></label>
+        <name>Opportunity__c</name>
+        <relationshipLabel><!-- Teilauszahlungen --></relationshipLabel>
+    </fields>
+    <caseValues>
+        <caseType>Nominative</caseType>
+        <plural>false</plural>
+        <value>Teilauszahlung</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Nominative</caseType>
+        <plural>true</plural>
+        <value>Teilauszahlungen</value>
+    </caseValues>
+    <gender>Feminine</gender>
+    <validationRules>
+        <errorMessage><!-- Ungültige Datumsangabe. Es muss der Monatserste gewählt werden. --></errorMessage>
+        <name>X1st_Of_Month</name>
+    </validationRules>
+</CustomObjectTranslation>

@@ -1,0 +1,8 @@
+<apex:page showheader="true">
+    <apex:messages />
+    <apex:pageBlock title="Fehler!">
+       <apex:form >
+            <apex:outputLabel value="Leider gibt es aktuell keine verfügbaren Anfragen. Bitte später versuchen."/>     
+        </apex:form>
+    </apex:pageBlock>
+</apex:page>

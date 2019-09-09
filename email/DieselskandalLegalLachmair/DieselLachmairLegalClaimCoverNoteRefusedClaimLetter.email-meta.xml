@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Deckungsabsage_außergerichtlich</description>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Mdt_AW Deckungsabsage_außergerichtlich</name>
+    <style>none</style>
+    <subject>Deckungsabsage außergerichtlich Ihrer Rechtsschutzversicherung, Ref-Nr: {!Claim__c.Id}</subject>
+    <type>text</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

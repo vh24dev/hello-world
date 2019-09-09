@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Fehlende Dokumente</description>
+    <encodingKey>UTF-8</encodingKey>
+    <name>LvCallcenterDocumentsIncompleteVh24</name>
+    <style>none</style>
+    <subject>Wir benötigen weitere Informationen von Ihnen | Bearbeitungsnummer: {!Opportunity.Number__c}</subject>
+    <textOnly>Bitte Ihre Auftragsdaten vervollständigen.
+{!Contact.Salutation__c},
+
+Wir haben Ihre Anfrage erhalten und werden umgehend die nächsten Schritte zur
+Rechtsdurchsetzung einleiten. Um für Sie tätig werden zu können, benötigen wir noch weitere Informationen von Ihnen.
+
+Jetzt Daten vervollständigen
+
+Noch Fragen?
+
+Wenn Sie Fragen haben oder mit uns direkt telefonieren möchten, erreichen Sie uns unter  089 - 124 147 418
+
+Wir freuen uns darauf, für Sie tätig zu werden.
+
+Mit freundlichen Grüßen
+
+
+
+VH24 GmbH
+Albert-Roßhaupter-Str. 32
+81369 München
+Telefon: 089 - 124 147 418
+Kontakt: office@verbraucherhilfe24.de
+
+www.verbraucherhilfe24.de
+
+Registergericht beim Amtsgericht München unter 371 E - M 1779 als Inkassodienstleister gem. §10 abs. 1 RDG | Handelsregister: HRB 217774 Amtsgericht München | USt-IDNr: DE277526577
+
+Abmelden</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

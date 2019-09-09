@@ -1,0 +1,16 @@
+Stornierung zu Kostennote {!Cancellation__c.Cost_Note__r.Number__c}, Schadennummer {!Claim__c.Legal_Protection_Insurance_Case_Number__c} | Aktenzeichen: {!Cancellation__c.Cost_Note__r.Claim__r.Reference__c}
+
+Mit freundlichen Grüßen 
+
+
+i. A. {!User.FirstName} {!User.LastName} 
+
+Dr. Dominic Krutisch 
+LeCom - Legal & Compliance 
+Rechtsanwaltsgesellschaft mbH
+
+Albert-Roßhaupter-Str. 32 
+81369 München 
+
+Tel.: 089 / 588088710 
+Fax: 089 / 588088711

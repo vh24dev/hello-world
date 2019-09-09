@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Email geht automatisch raus wenn Kunde auf LP angibt &quot;keine RS&quot; --&gt; on-hold</description>
+    <encodingKey>UTF-8</encodingKey>
+    <name>LvGeneralOpportunityOnHoldInsertVr24</name>
+    <style>none</style>
+    <subject>VerbraucherRechte24 | Ihre Bearbeitungsnummer: {!Opportunity.Number__c}</subject>
+    <textOnly>{!Contact.Salutation__c},
+
+vielen Dank für Ihr Vertrauen, welches Sie mit unserer Mandatierung zum Ausdruck gebracht haben. 
+In Anbetracht der Vielzahl der hier im Hause zu bearbeitenden Fälle und der hierbei erforderlichen Sorgfalt, wird die Prüfung Ihrer Rechte einige Zeit in Anspruch nehmen. Wir werden uns unaufgefordert wieder mit Ihnen in Verbindung setzen. 
+
+Mit freundlichen Grüßen 
+
+
+{!User.FirstName} {!User.LastName} 
+{!User.Title}</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

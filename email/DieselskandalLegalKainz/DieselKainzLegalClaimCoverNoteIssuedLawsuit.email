@@ -1,0 +1,27 @@
+{!Contact.Salutation__c},
+
+Ihre Rechtsschutzversicherung hat die Deckungszusage zur Klage für Ihren Fall erteilt. 
+
+Als nächstes werden wir eine Kostennote erstellen und zur Anweisung 
+an Ihre Rechtsschutzversicherung senden. 
+
+Nach Zahlungseingang wird der Weg der Klage beschritten. 
+
+Über den weiteren Verlauf halten wir Sie selbstverständlich auf dem Laufenden. 
+
+Mit freundlichen Grüßen 
+
+
+Rechtsanwalt Dr. Henning Leitz
+Partner
+
+CLLB Rechtsanwälte
+Cocron, Liebl, Leitz, Braun, Kainz, Sittner Partnerschaft mbB München - Berlin
+
+Liebigstr. 21
+80538 München
+Tel.: +49-89-552 999 50
+Fax.:+49-89-552 999 90
+mail: kanzlei@cllb.de
+
+Ref-Nr: {!Claim__c.Id}

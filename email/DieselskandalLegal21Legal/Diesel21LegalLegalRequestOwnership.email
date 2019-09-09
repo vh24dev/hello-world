@@ -1,0 +1,37 @@
+Sehr geehrte/r {!Contact.Salutation} {!Contact.LastName}, 
+
+Ihr Fahrzeughersteller, bzw. Motorhersteller, hat eine Einigung im außergerichtlichen Verfahren abgelehnt. 
+
+Wenn Ihr Fall nicht durch eine Rechtsschutzversicherung abgedeckt ist, 
+werden Sie durch uns im Rahmen einer Sammelklage, nach erfolgreichen Grundsatzurteilen, im Laufe des Jahres 2018 vertreten. 
+Wir werden Sie im Rahmen der Vorbereitungen zur Sammelklage dann entsprechend über das weitere Vorgehen informieren. 
+
+Sollte Ihre Rechtsschutzversicherung bisher noch keine Deckungszusage für die Klage erteilt haben, werden wir hier zeitnah um Deckung anfragen. 
+Als dringende Voraussetzung benötigen wir von Ihnen die Bestätigung, dass Sie noch der Eigentümer des Fahrzeugs sind. Hierfür bitten wir Sie den folgenden Link zu verwenden und Ihre Antwort zu hinterlegen: 
+
+Eigentümerschaft bestätigen:
+{!Claim__c.URL_to_Ownership__c}
+
+
+Wir werden im Falle der Deckungszusage, die bei bereits erteilter außergerichtlicher Zusage ein Routinevorgang sein sollte, die Klage Anfang 2018 anstrengen und Sie über den weiteren Verlauf informieren. Wann mit einem konkreten Verhandlungstermin zu rechnen ist, hängt von der Auslastung des zuständigen Gerichts ab und kann durch die Kanzlei nicht beeinflusst werden. 
+
+
+
+Mit freundlichen Grüßen 
+
+Wilhelm Lachmair
+Rechtsanwalt und Fachanwalt für
+Bank- und Kapitalmarktrecht, Arbeitsrecht
+
+
+Rechtsanwälte 
+Wilhelm Lachmair & Kollegen
+Ismaninger Straße 19
+81675 München
+
+ 
+Tel.: +49 (0) 89 21 63 33-10
+Fax: +49 (0) 89 21 63 33-31
+dieselgate@ra-lachmair.de
+www.ra-lachmair.de
+Ref-Nr: {!Correspondence__c.Id}

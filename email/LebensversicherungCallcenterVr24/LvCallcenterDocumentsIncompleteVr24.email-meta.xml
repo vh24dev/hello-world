@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Fehlende Dokumente</description>
+    <encodingKey>UTF-8</encodingKey>
+    <name>LvCallcenterDocumentsIncompleteVr24</name>
+    <style>none</style>
+    <subject>Wir benötigen weitere Informationen von Ihnen | Bearbeitungsnummer: {!Opportunity.Number__c}</subject>
+    <textOnly>{!Contact.Salutation__c},
+
+vielen Dank für die Übermittlung Ihrer Unterlagen von der {!Opportunity.Insurance_Name__c} mit der Versicherungsnummer {!Opportunity.Insurance_Number__c} zur Prüfung einer möglichen Rückabwicklung.
+
+Leider fehlen uns noch weitere Informationen / Unterlagen von Ihnen, um einen möglichen Anspruch ermitteln zu können.
+
+Bitte senden Sie uns noch folgende Informationen / Unterlagen:
+
+- 
+
+Bitte senden Sie uns Ihre Unterlagen wie gehabt per Mail an:
+service@verbraucherrechte24.de
+
+oder per Fax an:
+089 - 215 413 199
+
+oder mit der Post an:
+
+VerbraucherRechte24 GmbH
+Service-Team Lebensversicherung
+Albert-Roßhaupter-Str. 32
+81369 München
+
+Bei Rückfragen können Sie mich gerne unter meiner Nummer {!User.Phone} erreichen oder Sie schreiben mir eine E-Mail an service@verbraucherrechte24.de .
+
+Mit freundlichen Grüßen
+
+
+{!User.FirstName} {!User.LastName}
+{!User.Title}</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

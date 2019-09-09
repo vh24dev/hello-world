@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?><CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label><!-- Währung --></label>
+        <name>Currency__c</name>
+    </fields>
+    <fields>
+        <label><!-- Datum --></label>
+        <name>Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Fund Isin --></label>
+        <name>Fund_Isin__c</name>
+    </fields>
+    <fields>
+        <label><!-- Fund Label --></label>
+        <name>Fund_Label__c</name>
+    </fields>
+    <fields>
+        <label><!-- Fonds --></label>
+        <name>Fund__c</name>
+        <relationshipLabel><!-- Kurse --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- KURSImpID --></label>
+        <name>KURSImpID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Old Kurs ID --></label>
+        <name>Old_Kurs_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Entwicklung --></label>
+        <name>Trend__c</name>
+    </fields>
+    <fields>
+        <label><!-- Wert --></label>
+        <name>Value__c</name>
+    </fields>
+    <caseValues>
+        <caseType>Nominative</caseType>
+        <plural>false</plural>
+        <value>Kurs</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Nominative</caseType>
+        <plural>true</plural>
+        <value>Kurse</value>
+    </caseValues>
+    <gender>Masculine</gender>
+</CustomObjectTranslation>

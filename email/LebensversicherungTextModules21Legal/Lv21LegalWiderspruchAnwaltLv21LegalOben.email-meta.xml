@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>false</available>
+    <description>Lebensversicherung (oben)</description>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Lv21LegalWiderspruchAnwaltLv21LegalOben</name>
+    <style>none</style>
+    <subject>Lebensversicherung, Teil 1</subject>
+    <type>text</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Ja</fullName>
+        <default>false</default>
+        <label>Ja</label>
+    </customValue>
+    <customValue>
+        <fullName>Nein</fullName>
+        <default>false</default>
+        <label>Nein</label>
+    </customValue>
+    <masterLabel>Abschluss zwischen 1991 und 2007</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

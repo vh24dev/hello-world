@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Widerspruch durch Kunden</fullName>
+        <default>false</default>
+        <label>Widerspruch durch Kunden</label>
+    </customValue>
+    <customValue>
+        <fullName>Deckungsanfrage für Widerspruch</fullName>
+        <default>false</default>
+        <label>Deckungsanfrage für Widerspruch</label>
+    </customValue>
+    <customValue>
+        <fullName>Widerspruch durch Anwalt</fullName>
+        <default>false</default>
+        <label>Widerspruch durch Anwalt</label>
+    </customValue>
+    <customValue>
+        <fullName>Deckungsanfrage für Anspruchsschreiben</fullName>
+        <default>false</default>
+        <label>Deckungsanfrage für Anspruchsschreiben</label>
+    </customValue>
+    <customValue>
+        <fullName>Anspruchsschreiben</fullName>
+        <default>false</default>
+        <label>Anspruchsschreiben</label>
+    </customValue>
+    <customValue>
+        <fullName>Deckungsanfrage für Klage</fullName>
+        <default>false</default>
+        <label>Deckungsanfrage für Klage</label>
+    </customValue>
+    <customValue>
+        <fullName>Klageschrift</fullName>
+        <default>false</default>
+        <label>Klageschrift</label>
+    </customValue>
+    <customValue>
+        <fullName>Deckungsanfrage für Berufung</fullName>
+        <default>false</default>
+        <label>Deckungsanfrage für Berufung</label>
+    </customValue>
+    <customValue>
+        <fullName>Berufungsschrift</fullName>
+        <default>false</default>
+        <label>Berufungsschrift</label>
+    </customValue>
+    <customValue>
+        <fullName>Berufungsbegründung</fullName>
+        <default>false</default>
+        <label>Berufungsbegründung</label>
+    </customValue>
+    <customValue>
+        <fullName>Gerichtskostenrechnung</fullName>
+        <default>false</default>
+        <label>Gerichtskostenrechnung</label>
+    </customValue>
+    <customValue>
+        <fullName>Replik</fullName>
+        <default>false</default>
+        <label>Replik</label>
+    </customValue>
+    <customValue>
+        <fullName>Vollmacht §141 ZPO</fullName>
+        <default>false</default>
+        <label>Vollmacht §141 ZPO</label>
+    </customValue>
+    <customValue>
+        <fullName>Eingehend</fullName>
+        <default>false</default>
+        <label>Eingehend</label>
+    </customValue>
+    <customValue>
+        <fullName>Fristverlängerung</fullName>
+        <default>false</default>
+        <label>Fristverlängerung</label>
+    </customValue>
+    <customValue>
+        <fullName>Verteidigungsanzeige</fullName>
+        <default>false</default>
+        <label>Verteidigungsanzeige</label>
+    </customValue>
+    <customValue>
+        <fullName>Deckungsanfrage Verteidigungsanzeige</fullName>
+        <default>false</default>
+        <label>Deckungsanfrage Verteidigungsanzeige</label>
+    </customValue>
+    <customValue>
+        <fullName>Sonstiges</fullName>
+        <default>false</default>
+        <label>Sonstiges</label>
+    </customValue>
+    <customValue>
+        <fullName>Berufungserwiderung</fullName>
+        <default>false</default>
+        <label>Berufungserwiderung</label>
+    </customValue>
+    <customValue>
+        <fullName>Einspruch</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Einspruch</label>
+    </customValue>
+    <masterLabel>Correspondence Types</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

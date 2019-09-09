@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?><CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label><!-- BypassProcessBuilder --></label>
+        <name>BypassProcessBuilder__c</name>
+    </fields>
+    <fields>
+        <label><!-- CREATEDDATE_old --></label>
+        <name>CREATEDDATE_old__c</name>
+    </fields>
+    <fields>
+        <label><!-- Claim Stage --></label>
+        <name>Claim_Stage__c</name>
+    </fields>
+    <fields>
+        <label><!-- Fall --></label>
+        <name>Claim__c</name>
+        <relationshipLabel><!-- Termine --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Kommentar --></label>
+        <name>Comment__c</name>
+    </fields>
+    <fields>
+        <label><!-- Gerichtliches Aktenzeichen --></label>
+        <name>Court_Reference__c</name>
+    </fields>
+    <fields>
+        <label><!-- Datum --></label>
+        <name>Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Termin bestätigt --></label>
+        <name>Date_confirmed__c</name>
+    </fields>
+    <fields>
+        <label><!-- Email Kunde --></label>
+        <name>Email_Kunde__c</name>
+    </fields>
+    <fields>
+        <label><!-- Ende --></label>
+        <name>End__c</name>
+    </fields>
+    <fields>
+        <label><!-- Warnzeitraum vor Termin --></label>
+        <name>Follow_up_Period__c</name>
+    </fields>
+    <fields>
+        <label><!-- Form Hash 1 --></label>
+        <name>Form_Hash_1__c</name>
+    </fields>
+    <fields>
+        <label><!-- Anwalt --></label>
+        <name>Legal__c</name>
+        <relationshipLabel><!-- Termine --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Link Terminsvertreter Bestätigungslink --></label>
+        <name>Link_RepresentativeConfirmationDate__c</name>
+    </fields>
+    <fields>
+        <label><!-- Ort Gericht des Kunden --></label>
+        <name>Location_Court_Customer__c</name>
+    </fields>
+    <fields>
+        <label><!-- Ort Gericht des Gegners --></label>
+        <name>Location_Court__c</name>
+    </fields>
+    <fields>
+        <label><!-- Ort --></label>
+        <name>Location__c</name>
+    </fields>
+    <fields>
+        <label><!-- Name Terminsvertreter --></label>
+        <name>Name_Terminsvertreter__c</name>
+    </fields>
+    <fields>
+        <label><!-- Old Termin ID --></label>
+        <name>Old_Termin_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Opportunity Id --></label>
+        <name>Opportunity_Id__c</name>
+    </fields>
+    <fields>
+        <label><!-- Opportunity Number --></label>
+        <name>Opportunity_Number__c</name>
+    </fields>
+    <fields>
+        <label><!-- Bestätigungsdatum des Terminsvertreters --></label>
+        <name>Representative_Confirmation_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- OLD Terminsvertreter Bestätigungslink --></label>
+        <name>Representative_Confirmation_Link__c</name>
+    </fields>
+    <fields>
+        <label><!-- Terminsvertreter --></label>
+        <name>Representative__c</name>
+        <relationshipLabel><!-- Termine --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Sent Mail Flag 1 --></label>
+        <name>Sent_Mail_Flag_1__c</name>
+    </fields>
+    <fields>
+        <label><!-- Sent Mail Flag 2 --></label>
+        <name>Sent_Mail_Flag_2__c</name>
+    </fields>
+    <fields>
+        <label><!-- Status --></label>
+        <name>Stage__c</name>
+    </fields>
+    <fields>
+        <label><!-- Beginn --></label>
+        <name>Start__c</name>
+    </fields>
+    <fields>
+        <label><!-- Bezeichnung --></label>
+        <name>Subject__c</name>
+    </fields>
+    <fields>
+        <label><!-- TerminImpID --></label>
+        <name>TerminImpID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Terminprotokoll --></label>
+        <name>Terminprotokoll__c</name>
+    </fields>
+    <fields>
+        <label><!-- Web form token --></label>
+        <name>Token__c</name>
+    </fields>
+    <fields>
+        <label><!-- Typ --></label>
+        <name>Type__c</name>
+    </fields>
+    <fields>
+        <label><!-- URL Terminsvertreter Bestätigungslink --></label>
+        <name>URL_RepresentativeConfirmationDate__c</name>
+    </fields>
+    <fields>
+        <label><!-- 2ndEmailtoContactSent --></label>
+        <name>X2ndEmailtoContactSent__c</name>
+    </fields>
+    <caseValues>
+        <caseType>Nominative</caseType>
+        <plural>false</plural>
+        <value>Termin</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Nominative</caseType>
+        <plural>true</plural>
+        <value>Termine</value>
+    </caseValues>
+    <gender>Masculine</gender>
+</CustomObjectTranslation>

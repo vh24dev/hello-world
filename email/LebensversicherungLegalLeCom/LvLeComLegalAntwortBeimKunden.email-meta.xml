@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>weitere Dokumente benötigt</description>
+    <encodingKey>UTF-8</encodingKey>
+    <name>LvLeComLegalAntwortBeimKunden</name>
+    <style>none</style>
+    <subject>Ablehnungsschreiben übermitteln | Bearbeitungsnummer: {!Opportunity.Number__c} | Aktenzeichen: {!Correspondence__c.Claim__r.Reference__c}</subject>
+    <textOnly>{!Contact.Salutation__c},
+
+in oben genannter Angelegenheit ist Ihr Widerrufsschreiben vor nunmehr drei Wochen an die Versicherung gesendet worden. Da der Versicherung eine Frist von zwei Wochen gesetzt wurde, müssten Sie zwischenzeitlich das Antwortschreiben der Versicherung erhalten haben.
+
+Falls Ihnen das Antwortschreiben der Versicherung zugegangen ist, bitten wir Sie uns das Schreiben der Versicherung zu übersenden. Sollten Sie uns bis zum Termin eine Woche kein Antwortschreiben der Versicherung übermittelt haben, gehen wir davon aus, dass Sie kein Antwortschreiben erhalten haben.
+
+Wir werden bei Ihrer Rechtsschutzversicherung umgehend um Deckungszusage bitten, sobald uns das Antwortschreiben vorliegt oder die Versicherung innerhalb der gesetzten Frist nicht reagiert hat.
+
+Vielen Dank.
+
+Mit freundlichen Grüßen
+
+Ihre Verbraucherhilfe24
+
+
+
+VH24 GmbH
+Albert-Roßhaupter-Str. 32
+81369 München
+Telefon: 089 - 124 147 413
+Kontakt: office@verbraucherhilfe24.de
+
+www.verbraucherhilfe24.de
+
+Registergericht beim Amtsgericht München unter 371 E - M 1779 als Inkassodienstleister gem. §10 abs. 1 RDG | Handelsregister: HRB 217774 Amtsgericht München | USt-IDNr: DE277526577
+
+Abmelden</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

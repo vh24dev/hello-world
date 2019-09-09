@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Kunde</fullName>
+        <default>false</default>
+        <label>Kunde</label>
+    </customValue>
+    <customValue>
+        <fullName>System</fullName>
+        <default>false</default>
+        <label>System</label>
+    </customValue>
+    <masterLabel>Claim Transmitters</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

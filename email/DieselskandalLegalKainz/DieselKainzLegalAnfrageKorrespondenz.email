@@ -1,0 +1,20 @@
+<span style="font-size:13px;"><span style="font-family: arial, helvetica, sans-serif;">
+Sehr geehrte Damen und Herren, 
+<p>
+anbei überlassen wir das diesseitige Schreiben mit der Bitte um Kenntnisnahme. 
+<p>
+Mit freundlichen Grüßen 
+<p>
+i. A. {!User.FirstName} {!User.LastName} 
+<p>
+Rechtsanwalt Dr. Henning Leitz<br> 
+Partner 
+<br/>CLLB Rechtsanwälte<br>Cocron, Liebl, Leitz, Braun, Kainz, Sittner Partnerschaft mbB München - Berlin 
+<p>
+Liebigstr. 21  
+<br/>80538 München
+<p>
+Telefon: +49-89-552 999 50 
+<br/>Telefax: +49-89-552 999 90 
+<br/>E-Mail: kanzlei@cllb.de  
+Ref-Nr: {!Claim__c.Id}

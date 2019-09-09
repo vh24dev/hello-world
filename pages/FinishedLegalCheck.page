@@ -1,0 +1,12 @@
+<apex:page standardController="Opportunity" extensions="FinishedLegalCheck" showheader="false">
+    <apex:pageBlock title="Klagemodell wählen:">
+        <apex:form >
+            <apex:outputLabel value="Klagemodell: "/><br />
+
+            <apex:inputField value="{!parOpportunity.Lawsuit_Type__c}" id="lawsuitType" required="true"/>
+
+            <br /><br />
+            <apex:commandButton value="Abschließen" action="{!renderPage}" /> 
+        </apex:form>
+    </apex:pageBlock>
+</apex:page>

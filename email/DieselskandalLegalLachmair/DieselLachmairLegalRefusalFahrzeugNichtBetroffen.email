@@ -1,0 +1,27 @@
+Sehr geehrte(r) {!Contact.Salutation} {!Contact.FirstName} {!Contact.LastName}, 
+
+nach der Überprüfung Ihrer eingereichten Fahrzeugunterlagen haben wir festgestellt, dass Ihr Fahrzeug nicht vom Abgas-Skandal betroffen ist.
+
+Aus diesem Grund werden wir Ihre Akte {!Opportunity.Number__c} bei uns schließen und die Verbraucherhilfe24 hierüber informieren. 
+Die Verbraucherhilfe24 wird auf Sie zukommen, sofern sich - bezogen auf Ihr Fahrzeug - etwas an der aktuellen Rechtslage ändert.
+
+
+
+Mit freundlichen Grüßen 
+
+Wilhelm Lachmair 
+Rechtsanwalt und Fachanwalt für 
+Bank- und Kapitalmarktrecht, Arbeitsrecht 
+
+
+Rechtsanwälte 
+Wilhelm Lachmair & Kollegen 
+Ismaninger Straße 19 
+81675 München 
+
+
+Tel.: +49 (0) 89 41 32 433-0
+Fax: +49 (0) 89 21 63 33-31 
+dieselgate@ra-lachmair.de 
+www.ra-lachmair.de 
+Ref-Nr: {!Claim__c.Id}

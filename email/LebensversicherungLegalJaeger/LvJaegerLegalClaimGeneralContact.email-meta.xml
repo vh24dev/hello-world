@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Freie Mail Mandant</description>
+    <encodingKey>UTF-8</encodingKey>
+    <name>LvJägerLegalClaimGeneralContact</name>
+    <style>none</style>
+    <subject>Schadensnummer {!Claim__c.Legal_Protection_Insurance_Case_Number__c} | Aktenzeichen: {!Claim__c.Reference__c}</subject>
+    <type>text</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

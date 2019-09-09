@@ -1,0 +1,27 @@
+<span style="font-size:13px;"><span style="font-family: arial, helvetica, sans-serif;">
+{!Contact.Salutation__c},
+<p>bestimmt haben Sie noch einige Fragen zu einer möglichen Schadenersatzklage. 
+<br/>Bevor Sie Ihre <a href="{!Opportunity.Form_Step_2_Link__c}" rel="noopener noreferrer" target="_blank"><b>Daten vervollständigen und Klage einreichen</b></a>, wollen wir daher darauf eingehen.
+<p>Die Top 3 Fragen zur Abwicklung:
+<br/>Habe ich mit meinem Auto überhaupt Ansprüche?
+<br/>Ein erster Check hatte ein positives Ergebnis, sie können gerne weitere Angaben mit uns besprechen.
+<p>Worauf habe ich Anspruch?
+<br/>Aktuell ist ein Schadenersatz in Höhe von bis zu 10.000€ möglich. Der tatsächliche Schadenersatz und ob Sie ihr Fahrzeug behalten oder zurückgeben wollen, wird von Fall zu Fall entschieden.
+<p>Wie stehen die Erfolgschancen?
+<br/>Die Chancen stehen gut, denn der Hersteller Ihres Fahrzeuges hat einen Fehler gemacht, der nun in ersten Urteilen auch als solcher bestätigt wurde.
+<p>Ihre nächsten Schritte:
+<p>1.	Vervollständigen Sie Ihre Fahrzeugdaten und die Beauftragung.
+<br/>2.	Wir reichen nach erfolgreicher Prüfung Ihre Klage ein.
+<br/>3.	Sie erhalten laufende Updates zur Klage und entscheiden selbst, wie Sie weiter vorgehen.
+<p>Ihre individuellen Fragen können Sie als Antwort auf diese Mail stellen oder Sie kontaktieren unsere Experten telefonisch unter:
+<p>089 - 124 147 413
+<p>Oder teilen Sie uns einfach per Email mit wann Sie am besten erreichbar sind: vormittags, nachmittags, abends.
+<p>Unsere Spezialisten zu diesem Thema beraten Sie kostenlos!
+<br/>Wir freuen uns darauf, für Sie tätig zu werden.<br/>
+<p>
+<p>Mit freundlichen Grüßen
+<p><span style="font-family: Calibri, Verdana, Arial, sans-serif; font-size: font-size: 14px;"><p>&nbsp;</p>
+<p><img style="width: 200px; height: 54px;" src="https://daks2k3a4ib2z.cloudfront.net/58d0ccc5a30805a8243d5fd9/58d22446e07be4a234dc816e_Verbraucherrechte_Logo_Lay01.png" alt="" /></p>
+<p><a href="http://www.verbraucherrechte24.de" target="_blank">www.verbraucherrechte24.de</a></p>
+<p><span style="font-family: Calibri, Verdana, Arial, sans-serif; font-size: 11px;"> VerbraucherRechte24 GmbH<br /> Albert-Ro&szlig;haupter-Stra&szlig;e 32<br /> 81369 M&uuml;nchen </span></p>
+<p><span style="font-family: Calibri, Verdana, Arial, sans-serif; font-size: 11px;"> Gesch&auml;ftsf&uuml;hrer: Steffen Matz, Matthias Hartmann </span></p><p><a href="{!Opportunity.URL_Abmeldung__c}" target="_blank"><span style="color: #0000cd;"><b>Abmelden</b></a>

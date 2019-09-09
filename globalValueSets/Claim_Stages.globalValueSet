@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Draft</fullName>
+        <default>true</default>
+        <label>Entwurf</label>
+    </customValue>
+    <customValue>
+        <fullName>Customers Opposition</fullName>
+        <default>false</default>
+        <label>Kundenwiderspruch</label>
+    </customValue>
+    <customValue>
+        <fullName>Legal Opposition</fullName>
+        <default>false</default>
+        <label>Anwaltswiderspruch</label>
+    </customValue>
+    <customValue>
+        <fullName>Claim Letter</fullName>
+        <default>false</default>
+        <label>Anspruchsschreiben</label>
+    </customValue>
+    <customValue>
+        <fullName>Lawsuit</fullName>
+        <default>false</default>
+        <label>Klage</label>
+    </customValue>
+    <customValue>
+        <fullName>Class Action</fullName>
+        <default>false</default>
+        <label>Sammelklage</label>
+    </customValue>
+    <customValue>
+        <fullName>Appeal</fullName>
+        <default>false</default>
+        <label>Berufung</label>
+    </customValue>
+    <customValue>
+        <fullName>Processing</fullName>
+        <default>false</default>
+        <label>Abwicklung</label>
+    </customValue>
+    <customValue>
+        <fullName>Finished</fullName>
+        <default>false</default>
+        <label>Abgeschlossen</label>
+    </customValue>
+    <customValue>
+        <fullName>On Hold</fullName>
+        <default>false</default>
+        <label>Warten auf Grundsatzurteil</label>
+    </customValue>
+    <customValue>
+        <fullName>Canceled</fullName>
+        <default>false</default>
+        <label>Abbruch</label>
+    </customValue>
+    <customValue>
+        <fullName>Verteidigungsanzeige</fullName>
+        <default>false</default>
+        <label>Verteidigungsanzeige</label>
+    </customValue>
+    <customValue>
+        <fullName>Examination</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Examination</label>
+    </customValue>
+    <customValue>
+        <fullName>Success</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Success</label>
+    </customValue>
+    <customValue>
+        <fullName>Failure</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Failure</label>
+    </customValue>
+    <customValue>
+        <fullName>Open</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Open</label>
+    </customValue>
+    <description>Claim stages.</description>
+    <masterLabel>Claim Stages</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

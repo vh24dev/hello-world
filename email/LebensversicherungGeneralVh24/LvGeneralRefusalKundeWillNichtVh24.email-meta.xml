@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Kunde will nicht</description>
+    <encodingKey>UTF-8</encodingKey>
+    <name>LvGeneralRefusalKundeWillNichtVh24</name>
+    <style>none</style>
+    <subject>Überprüfung Ihrer Lebensversicherung | Bearbeitungsnummer: {!Opportunity.Number__c}</subject>
+    <textOnly>{!Contact.Salutation__c},
+
+wie Sie uns mitgeteilt haben, besteht von Ihrer Seite aus kein Interesse mehr an einer kostenlosen, juristischen Prüfung Ihres Lebens-/ Rentenversicherungsvertrages bezüglich einer möglichen Rückabwicklung.
+
+Daher schließen wir den Vorgang bei uns.
+
+Sollten Sie zukünftig wieder Interesse haben, können Sie mich unter meiner Nummer {!User.Phone} erreichen oder Sie schreiben mir eine E-Mail an lebensversicherung@verbraucherhilfe24.de .
+
+Mit freundlichen Grüßen
+
+
+{!User.FirstName} {!User.LastName} {!User.Title}
+
+
+
+VH24 GmbH
+Albert-Roßhaupter-Str. 32
+81369 München
+Telefon: 089 - 124 147 418
+Kontakt: office@verbraucherhilfe24.de
+
+www.verbraucherhilfe24.de
+
+Registergericht beim Amtsgericht München unter 371 E - M 1779 als Inkassodienstleister gem. §10 abs. 1 RDG | Handelsregister: HRB 217774 Amtsgericht München | USt-IDNr: DE277526577
+
+Abmelden</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

@@ -1,0 +1,52 @@
+<span style="font-size:13px;"><span style="font-family: arial, helvetica, sans-serif;">
+{!Contact.Salutation__c}, 
+<p>
+vielen Dank für die Einsendung der Vollmachten. Diese haben wir erhalten und Ihre Dokumente sind nun vollständig. 
+<p>
+Ihr Potential liegt bei ca. {!Correspondence__c.Claim__r.Opportunity__r.Potential_20__c} €. 
+<p>
+Im nächsten Schritt leiten wir das Widerspruchsverfahren ein. 
+<p>
+Mit diesem Schreiben erklären Sie Ihren Widerspruch gegen Ihren Versicherungsvertrag. 
+<p>
+Anbei senden wir Ihnen das vorgefertigte Widerspruchsschreiben im Anhang zu, mit der Bitte dieses unterschrieben an uns zurückzusenden. 
+<p>
+<p>
+Bitte beachten: 
+<p>
+Senden Sie das im Anhang hinterlegte Widerspruchsschreiben bitte unterschrieben: 
+<p>
+-an unsere Fax-Nummer +49 (89) 124 14 74 19 
+<p>
+-per Post an: 
+<br/>Verbraucherhilfe24 
+<br/>Abt. Lebensversicherung 
+<br/>Albert-Roßhaupter-Str. 32 
+<br/>81369 München 
+<p>
+-oder gerne auch als PDF per E-Mail an: lebensversicherung@verbraucherhilfe24.de 
+<p>
+<p>
+Hierauf sollten Sie innerhalb der nächsten 14 - 21 Tage eine Antwort von der Versicherung erhalten. Senden Sie uns diese bitte umgehend zu. 
+<p>
+Ab diesem Zeitpunkt haben wir einen juristischen Fall und können, falls die Versicherung den Widerspruch zurückweist oder ein zu niedriges Vergleichsangebot unterbreitet, unseren Partneranwalt einschalten. Dies besprechen wir zu gegebener Zeit. 
+<p>
+Bei Fragen stehe ich Ihnen gerne zur Verfügung. 
+<p>
+Mit freundlichen Grüßen 
+<p>
+<p>
+{!User.FirstName} {!User.LastName} 
+{!User.Title} 
+<p>
+<p>
+<p><img alt="" src="https://www.verbraucherhilfe24.de/wp-content/uploads/v24-logo-1.png" /></p>
+<span style="font-size:11px;"><span style="Calibri Light;">
+VH24 GmbH<br/>
+Albert-Roßhaupter-Str. 32<br/>
+81369 München<br/>
+Telefon: <b>089 - 124 147 418</b><br/>
+Kontakt: office@verbraucherhilfe24.de
+<p>
+Registergericht beim Amtsgericht München unter 371 E - <b>M 1779 als Inkassodienstleister gem. §10 abs. 1 RDG</b> | Handelsregister: HRB 217774 Amtsgericht München | USt-IDNr: DE277526577
+<p><a href="{!Opportunity.URL_Abmeldung__c}" target="_blank"><span style="color: #0000cd;"><b>Abmelden</b></a>

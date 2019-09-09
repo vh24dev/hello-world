@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Unterlagen zusenden</description>
+    <encodingKey>UTF-8</encodingKey>
+    <name>LvCallcenterWebformDateCommitmentConfirmationVh24</name>
+    <style>none</style>
+    <subject>Bitte schicken Sie uns Ihre Unterlagen zur Überprüfung | Bearbeitungsnummer: {!Opportunity.Number__c}</subject>
+    <textOnly>{!Contact.Salutation__c},
+
+vielen Dank für das freundliche Gespräch.
+
+Wir freuen uns, dass wir Ihre Verträge für Sie prüfen dürfen und haben die Prüfung Ihrer Unterlagen für den {!Opportunity.Date_Commitment_Clean__c} eingeplant.
+
+Ihre persönliche Bearbeitungsnummer lautet: {!Opportunity.Number__c}.
+
+Für die kostenlose, juristische Überprüfung benötigen wir von Ihnen folgende Unterlagen in digitaler Form, bzw. als Kopien in folgender Reihenfolge:
+
+1. Die vollständig ausgefüllte Checkliste
+2. Falls vorhanden der Antrag
+3. Versicherungspolice inklusive Begleitschreiben
+4. Widerrufsbelehrung (bitte nicht die kompletten AGB)
+5. Informationen zu beitragsfreien Zeiten und Dynamikverlauf. (Bei Unterbrechungen benötigen wir möglichst genaue Angaben)
+6. Bei fondsgebundenen Verträgen die Fonds - falls es Fondswechsel gab, die genauen Daten hierzu
+7. Bei laufenden Verträgen den aktuellen Rückkaufswert (möglichst nicht älter als 3 Monate)
+8. Bei gekündigten Verträgen das Kündigungsdatum und den Auszahlungsbetrag
+
+
+Sollten Ihnen nicht mehr alle Unterlagen vorliegen, übersenden Sie uns bitte noch die verfügbaren Informationen/Unterlagen und informieren uns kurz darüber.
+
+Hinweis: Der Abschluss Ihrer Versicherung muss innerhalb des Zeitraumes 01.01.1991 bis 31.12.2007 liegen! Nur dann ist die Rückabwicklung möglich. (Ausnahme: in Österreich geschlossene Verträge haben den Zeitraum 01.01.1991 bis 31.12.2012)
+
+Gerne können Sie auch die Checkliste online nutzen, falls Sie die beigefügte nicht ausdrucken möchten.
+Nutzen Sie hierzu den nachstehenden Link:
+{!Opportunity.Checklist_Link__c}
+
+
+Senden Sie uns Ihre vollständigen Unterlagen
+
+per E-Mail an:
+lebensversicherung@verbraucherhilfe24.de
+(Bitte geben Sie Ihre Bearbeitungsnummer BN im Betreff der E-Mail an)
+
+oder per Fax an:
++49 (0)89 1124 147 419
+(Bitte geben Sie Ihre Bearbeitungsnummer auf dem ersten Blatt (Checkliste) mit an)
+
+oder per Post an:
+
+Verbraucherhilfe24
+Abt.: Lebensversicherung Online
+Albert-Roßhaupter-Str. 32
+81369 München
+
+
+Bei Rückfragen können Sie mich gerne unter meiner Nummer {!User.Phone} erreichen oder Sie schreiben mir eine E-Mail an lebensversicherung@verbraucherhilfe24.de .
+
+Mit freundlichen Grüßen
+
+
+{!User.FirstName} {!User.LastName} {!User.Title}
+
+
+
+VH24 GmbH
+Albert-Roßhaupter-Str. 32
+81369 München
+Telefon: 089 - 124 147 418
+Kontakt: office@verbraucherhilfe24.de
+
+www.verbraucherhilfe24.de
+
+Registergericht beim Amtsgericht München unter 371 E - M 1779 als Inkassodienstleister gem. §10 abs. 1 RDG | Handelsregister: HRB 217774 Amtsgericht München | USt-IDNr: DE277526577
+
+Abmelden</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

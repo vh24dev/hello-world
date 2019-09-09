@@ -1,0 +1,29 @@
+<span style="font-size:13px;"><span style="font-family: arial, helvetica, sans-serif;">
+<h3>Bitte Ihre Auftragsdaten vervollständigen.</h3><br/>
+{!Contact.Salutation__c},
+<p>Wir haben Ihren Auftrag erhalten und werden umgehend die nächsten Schritte zur<br/>
+Rechtsdurchsetzung einleiten. Folgende Unterlagen werden hierfür benötigt (als Kopie, Scan oder Foto):<br/>
+<p><b>1. Versicherungsantrag<br/>
+2. Versicherungsvertrag<br/>
+3. Unterschriebene Anwaltliche Vollmacht (siehe Anhang)</b> 
+<p><span style="font-size:11px;"><span style="font-family: arial, helvetica, sans-serif;">
+<a href="{!Opportunity.Document_Upload_Link__c}" rel="noopener noreferrer" target="_blank"><b>Dokumente hochladen</b></a><br/><i>Hinweis: Sie können die Dokumente auch mit Ihrer Handy-Kamera abfotografieren und die Bilder hier hochladen!</i><br/>
+<br/><p><b>Alternative Kontaktmöglichkeiten:</b><br/>
+Senden Sie die Unterlagen alternativ als Scan oder Foto unter Angabe der Vorgangsnummer {!Opportunity.Number__c}<br/>
+per <b>Email</b> an: service@verbraucherrechte24.de 
+<p><br/>
+Oder per <b>Post</b> an:<br/>
+<i>Verbraucherrechte24<br/>
+Abt. Lebensversicherung<br/>
+Albert-Roßhaupter-Str. 32<br/>
+81369 München<br/></i>
+<p>
+<p>Wenn Sie lieber den weiteren Prozess mit uns am Telefon besprechen  möchten, rufen Sie uns auch gerne an <b>089 - 124 147 418</b><br/>Oder fordern Sie <a href="{!Opportunity.Customer_Callback_Link__c}" rel="noopener noreferrer" target="_blank"><b>einen Rückruf</a></b> an.
+<p> Mit freundlichen Grüßen
+<p>Ihre Verbraucherrechte24
+<p><img style="width: 200px; height: 54px;" src="https://daks2k3a4ib2z.cloudfront.net/58d0ccc5a30805a8243d5fd9/58d22446e07be4a234dc816e_Verbraucherrechte_Logo_Lay01.png" alt="" /></p>
+<p><a href="http://www.verbraucherrechte24.de" target="_blank">www.verbraucherrechte24.de</a></p>
+<p><span style="font-family: Calibri, Verdana, Arial, sans-serif; font-size: 11px;"> VerbraucherRechte24 GmbH<br /> Albert-Ro&szlig;haupter-Stra&szlig;e 32<br /> 81369 M&uuml;nchen </span></p>
+<p><span style="font-family: Calibri, Verdana, Arial, sans-serif; font-size: 11px;"> Gesch&auml;ftsf&uuml;hrer: Steffen Matz, Matthias Hartmann </span></p>
+<p><span style="font-family: Calibri, Verdana, Arial, sans-serif; font-size: 11px;">in Zusammenarbeit mit dem eingetragenen Rechtsdienstleister:</span></p><p><a href="{!Opportunity.URL_Abmeldung__c}" target="_blank"><span style="color: #0000cd;"><b>Abmelden</b></a>
+<p><span style="font-family: Calibri, Verdana, Arial, sans-serif; font-size: 9px;">

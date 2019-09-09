@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>2. Schreiben Porsche, Unten</description>
+    <encodingKey>UTF-8</encodingKey>
+    <name>DieselLeComTextModule2SchreibenPorscheUnten</name>
+    <style>none</style>
+    <subject>2. Schreiben Porsche, Unten</subject>
+    <type>text</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

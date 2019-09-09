@@ -1,0 +1,10 @@
+<apex:page showHeader="false" title="{!$Label.site.authorization_required}" id="Unauthorized" cache="false">
+    <apex:composition template="DieselskandalTemplate">
+        <apex:define name="body">
+            <h2>
+				Unauthorized                
+            </h2>
+        </apex:define>
+    </apex:composition>
+    <site:previewAsAdmin />
+</apex:page>

@@ -1,0 +1,9 @@
+{!error} 
+
+Here are some details: 
+
+Request: 
+{!request} 
+
+Response: 
+{!response}

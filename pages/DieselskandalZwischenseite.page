@@ -1,0 +1,35 @@
+<apex:page docType="html-5.0" pageStyle="" wizard="false" sidebar="true" showHeader="false" showQuickActionVfHeader="false"  controller="LeadAnmeldungController" standardStylesheets="false">
+    <apex:composition template="DieselskandalTemplate">
+        <apex:define name="title"> Dieselskandal</apex:define>
+        <apex:define name="header">
+            <h2>Betroffen vom Dieselskandal:<br />IHRE CHANCEN STEHEN GUT!</h2>
+        </apex:define>
+        <apex:define name="body">
+            <main>
+                <h3>Eine erste Prüfung  Ihrer Angaben hat ergeben: Sie haben voraussichtlich Anspruch auf Schadensersatz. Wir machen uns für Sie stark!</h3>
+                <div class="txt-border">
+                    <h2 class="orange-head">WAS WIR BIETEN</h2>
+                    <div class="keyf1">
+                        <ul>
+                            <li>Über 120.000 geprüfte Fälle</li>
+                            <li>Großes Netzwerk an spezialisierten Partneranwälten</li> 
+                            <li>Kein Kostenrisiko für Sie*</li> 
+                        </ul>
+                    </div>
+                    <h2 class="orange-head">WAS WIR BIETEN</h2>
+                    <div class="keyf2">
+                        <ul>
+                            <li>Kontaktdaten vervollständigen und AGB bestätigen</li>
+                            <li>Fallbezogene Prüfung &amp; Ersteinschätzung über unsere Partneranwälte.</li>
+                            <li>Entscheidung über das weitere Vorgehen in Absprache mit Ihnen.</li> 
+                        </ul>
+                    </div>
+                </div>
+                <apex:outputLink value="/Step2?token={!token}"><button type="button" class="senden">ZUR ANMELDUNG</button></apex:outputLink>
+                <div class="prefooter2">
+                    <apex:outputLink target="_blank" value="https://www.verbraucherhilfe24.de/kosten/">*Weitere Infos zu etwaigen Kosten finden Sie hier.</apex:outputLink>
+                </div>
+            </main>
+        </apex:define>
+    </apex:composition>
+</apex:page>

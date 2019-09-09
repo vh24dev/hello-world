@@ -1,0 +1,14 @@
+<apex:page standardController="Opportunity" extensions="QuestionToCallcenter" showheader="false">
+       <apex:pageBlock title="Frage eingeben:">
+       <apex:form >
+            <apex:outputLabel value="Frage: "/><br />
+            <div class = "requiredInput">
+            <div class = "requiredBlock"></div>
+            <apex:inputTextarea value="{!parDescription}" id="question" style="width:600px;height:300px"/>
+            </div>
+            <br /><br />
+            <apex:commandButton value="Senden" action="{!renderPage}" />
+        </apex:form>
+        <apex:pageMessage rendered="{!errorRendered}" summary="Bitte hinterlegen Sie einen Kontakt im Feld 'Callcenter'!" severity="warning" strength="3" />
+    </apex:pageBlock>
+</apex:page>

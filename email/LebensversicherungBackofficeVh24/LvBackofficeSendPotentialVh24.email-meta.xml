@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>LvBackofficeSendPotentialVh24</description>
+    <encodingKey>UTF-8</encodingKey>
+    <name>LvBackofficeSendPotentialVh24</name>
+    <style>none</style>
+    <subject>{!Correspondence__c.Claim__r.Opportunity__r.Number__c}: Ihre Anfrage zur Vertragsprüfung</subject>
+    <textOnly>{!Contact.Salutation__c},
+
+vielen Dank für die Einsendung der Vollmacht.
+
+Ihr Potential liegt bei ca. {!Correspondence__c.Claim__r.Opportunity__r.Potential_20__c} €.
+
+Im nächsten Schritt leiten wir das Widerspruchsverfahren ein.
+
+Bei Fragen stehe ich Ihnen gerne zur Verfügung.
+
+Mit freundlichen Grüßen
+
+
+{!User.FirstName} {!User.LastName} {!User.Title}
+
+
+
+
+VH24 GmbH
+Albert-Roßhaupter-Str. 32
+81369 München
+Telefon: 089 - 124 147 418
+Kontakt: office@verbraucherhilfe24.de
+
+Registergericht beim Amtsgericht München unter 371 E - M 1779 als Inkassodienstleister gem. §10 abs. 1 RDG | Handelsregister: HRB 217774 Amtsgericht München | USt-IDNr: DE277526577
+
+Abmelden</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

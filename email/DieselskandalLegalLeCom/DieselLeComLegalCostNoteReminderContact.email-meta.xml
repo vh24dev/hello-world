@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Kostennote Selbstbeteiligung Erinnerung</description>
+    <encodingKey>UTF-8</encodingKey>
+    <name>DieselLeComLegalCostNoteReminderContact</name>
+    <style>none</style>
+    <subject>Erinnerung zur Vorschusskostennote {!Cost_Note_Reminder__c.Cost_Note__r.Number__c}, Ref-Nr: {!Cost_Note_Reminder__c.Id} | Aktenzeichen: {!Cost_Note_Reminder__c.Cost_Note__r.Claim__r.Reference__c}</subject>
+    <type>text</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

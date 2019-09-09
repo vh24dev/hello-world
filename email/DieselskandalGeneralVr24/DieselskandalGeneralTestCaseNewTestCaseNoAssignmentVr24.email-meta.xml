@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Musterfeststellungsklage #1</description>
+    <encodingKey>UTF-8</encodingKey>
+    <name>DieselskandalGeneralTestCaseNewTestCaseNoAssignmentVr24</name>
+    <style>none</style>
+    <subject>[Ihre Anmeldung zur Dieselklage] Jetzt zur Musterfeststellungsklage (MFK) anmelden | Bearbeitungsnummer: {!Opportunity.Number__c}</subject>
+    <textOnly>Bestätigung Teilnahme MFK
+
+{!Contact.Salutation__c},
+
+es ist nun eine Weile her, dass Sie auf unserer Seite eine Anfrage zur Durchsetzung Ihrer Verbraucherrechte im Dieselskandal gestellt haben.
+Ihre Geduld hat sich gelohnt, denn die Rechtslage hat sich eindeutig zu Ihren Gunsten entwickelt.
+Wir können jetzt im Rahmen der Musterfeststellungsklage die Rechtsdurchsetzung für Sie anstoßen und benötigen dafür lediglich Ihre Zustimmung.
+
+Bitte hier Ihre Zustimmung erteilen:
+{!Test_Case__c.URL_ConfirmationLink__c}
+
+Ja, ich möchte an der MFK teilnehmen!
+
+Handeln Sie unbedingt jetzt, denn die Verjährungsfrist läuft Ende 2018 ab. Danach ist es zu spät!
+Daher bitte um Teilnahmebestätigung bis zum 19. Dezember 2018 *).
+*) sollten Sie sich bis zum 19.12.2018 nicht anmelden, gehen wir davon aus, dass Sie kein Interesse an der Teilnahme bei der MFK haben. Ihre bereits erteilte Mandatierung im Dieselskandal wäre dann nicht mehr gültig.
+
+Musterfeststellungsklage - Warum mit VR24?
+
+Eine Anmeldung über die VR24 bietet entscheidende Vorteile:
+
+
+Kostenfreie Anmeldung zur Musterfeststellungsklage
+Parallel zur Musterfeststellungsklage kann durch die Partneranwälte der VR24 bereits mit VW verhandelt werden
+Im Einzelfall können deutlich schnellere Ergebnisse erzielt werden, da der Ausgang der Musterfeststellungsklage – voraussichtliche Dauer 1,5 bis 2 Jahre - nicht zwingend abgewartet werden muss.
+Es besteht jederzeit die Möglichkeit auf Entwicklungen der Rechtsprechung zu reagieren und gegebenenfalls die Anmeldung eines betroffenen Kunden zurückzunehmen und eine individuelle Klage zu erheben.
+Mit der Anmeldung über VR24 stellen Sie sicher, dass alle formellen Anforderungen und Fristen rechtssicher eingehalten werden.
+
+
+Sollten Sie nicht mehr an einer Klage gegen Ihren Autohersteller interessiert sein, können Sie hier Ihr Mandat widerrufen:
+{!Opportunity.URL_Abmeldung__c}
+
+Wir freuen uns darauf, für Sie tätig zu werden.
+
+Mit freundlichen Grüßen
+
+i. A. {!User.FirstName} {!User.LastName}
+
+
+www.verbraucherrechte24.de
+
+VerbraucherRechte24 GmbH
+Albert-Roßhaupter-Straße 32
+81369 München
+
+Geschäftsführer: Steffen Matz, Matthias Hartmann
+
+in Zusammenarbeit mit dem eingetragenen Rechtsdienstleister:
+
+Abmelden
+{!Opportunity.URL_Abmeldung__c}</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

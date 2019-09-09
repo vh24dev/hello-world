@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Fehlende Vollmacht</description>
+    <encodingKey>UTF-8</encodingKey>
+    <name>LvCallcenterDidNotReceiveAuthorizationVr24</name>
+    <style>none</style>
+    <subject>Wir haben Ihren Auftrag noch nicht erhalten. | Ihre Bearbeitungsnummer: {!Opportunity.Number__c}</subject>
+    <textOnly>{!Contact.Salutation__c},
+
+leider haben wir die Vollmacht für unseren Anwalt noch nicht zurückerhalten. Wir können erst für Sie tätig werden, wenn uns dieses Dokument vorliegt.
+
+
+Bitte senden Sie uns die Vollmacht über einen der folgenden Wege:
+
+per E-Mail an:
+service@verbraucherrechte24.de
+
+oder
+per Fax an: 089 - 215 413 199
+
+oder
+mit der Post an:
+
+VerbraucherRechte24 GmbH
+Service-Team
+Albert-Roßhaupter-Str. 32
+81369 München
+
+
+Sollten Sie Rückfragen haben, rufen Sie mich gerne unter meiner unten angegebenen Telefonnummer an oder schreiben Sie mir eine E-Mail an: service@verbraucherrechte24.de (bitte geben Sie Ihre Bearbeitungsnummer an)
+
+Mit freundlichen Grüßen
+
+
+{!User.FirstName} {!User.LastName}
+{!User.Title}</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

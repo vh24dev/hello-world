@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?><CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label><!-- Unique name --></label>
+        <name>DeveloperName__c</name>
+    </fields>
+    <fields>
+        <label><!-- Label --></label>
+        <name>Label__c</name>
+    </fields>
+    <fields>
+        <label><!-- Old cloudworx Document Template ID --></label>
+        <name>Old_cloudworx_Document_Template_ID__c</name>
+    </fields>
+    <caseValues>
+        <caseType>Nominative</caseType>
+        <plural>false</plural>
+        <value>Document Template</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Nominative</caseType>
+        <plural>true</plural>
+        <value>Document Templates</value>
+    </caseValues>
+    <gender>Neuter</gender>
+</CustomObjectTranslation>

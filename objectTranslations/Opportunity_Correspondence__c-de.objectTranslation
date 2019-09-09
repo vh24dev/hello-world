@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?><CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label><!-- Autocreate Document --></label>
+        <name>Autocreate_Document__c</name>
+    </fields>
+    <fields>
+        <label><!-- Autosend Email --></label>
+        <name>Autosend_Email__c</name>
+    </fields>
+    <fields>
+        <label><!-- BypassProcessBuilder --></label>
+        <name>BypassProcessBuilder__c</name>
+    </fields>
+    <fields>
+        <label><!-- Created Date Old Org --></label>
+        <name>Created_Date_Old_Org__c</name>
+    </fields>
+    <fields>
+        <label><!-- Datum --></label>
+        <name>Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Zeit bis Wiedervorlage --></label>
+        <name>Follow_up_Period__c</name>
+    </fields>
+    <fields>
+        <label><!-- KorrOppImpID --></label>
+        <name>KorrOppImpID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Old Korrespondenz ID --></label>
+        <name>Old_Korrespondenz_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Opportunity Id --></label>
+        <name>Opportunity_Id__c</name>
+    </fields>
+    <fields>
+        <label><!-- Anfrage --></label>
+        <name>Opportunity__c</name>
+        <relationshipLabel><!-- Korrespondenz --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Partner --></label>
+        <name>Partner__c</name>
+    </fields>
+    <fields>
+        <help><!-- DO NOT USE THIS FIELD MANUALLY. --></help>
+        <label><!-- Send Mail TemplateID --></label>
+        <name>Send_Mail_TemplateID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Status --></label>
+        <name>Stage__c</name>
+    </fields>
+    <fields>
+        <label><!-- Frist --></label>
+        <name>Term__c</name>
+    </fields>
+    <fields>
+        <label><!-- Textbausteine --></label>
+        <name>Text_Modules__c</name>
+    </fields>
+    <caseValues>
+        <caseType>Nominative</caseType>
+        <plural>false</plural>
+        <value>Korrespondenz</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Nominative</caseType>
+        <plural>true</plural>
+        <value>Korrespondenzen</value>
+    </caseValues>
+    <gender>Feminine</gender>
+    <recordTypes>
+        <label><!-- Dieselskandal --></label>
+        <name>Dieselskandal</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Finanzierung --></label>
+        <name>Finanzierung</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Lebensversicherung --></label>
+        <name>Lebensversicherung</name>
+    </recordTypes>
+    <webLinks>
+        <label><!-- Create_Document_Pdf --></label>
+        <name>Create_Document_Pdf</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Send_Document_To_Partner_Via_Email --></label>
+        <name>Send_Document_To_Partner_Via_Email</name>
+    </webLinks>
+</CustomObjectTranslation>

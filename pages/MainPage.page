@@ -1,0 +1,10 @@
+<apex:page docType="html-5.0" controller="WiderrufLeadController" showHeader="false">
+    <apex:composition template="{!$Site.Template}">
+        <apex:define name="title">&nbsp;Lebensversicherung</apex:define>
+        <apex:define name="header">
+            <h2>Not Found!</h2>
+        </apex:define>
+        
+        <apex:define name="body">OK</apex:define>
+    </apex:composition>
+</apex:page>

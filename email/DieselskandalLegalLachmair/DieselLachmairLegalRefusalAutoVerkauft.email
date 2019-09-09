@@ -1,0 +1,11 @@
+Sehr geehrte(r) {!Contact.Salutation} {!Contact.FirstName} {!Contact.LastName}, 
+
+
+hiermit bestätigen wir Ihren Widerruf wegen Verkauf Ihres Fahrzeugs. 
+Wir legen hiermit das Mandat nieder.
+Ihre Bearbeitungsnummer: {!Opportunity.Number__c} 
+
+
+Mit freundlichen Grüßen 
+{!User.FirstName} {!User.LastName} 
+{!User.Title}

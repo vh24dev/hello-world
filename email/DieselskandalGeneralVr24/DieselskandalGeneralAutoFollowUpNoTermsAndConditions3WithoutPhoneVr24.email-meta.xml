@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>3. Erinnerung nach Anmeldung</description>
+    <encodingKey>UTF-8</encodingKey>
+    <name>DieselskandalGeneralAutoFollowUpNoTermsAndConditions3WithoutPhoneVr24</name>
+    <style>none</style>
+    <subject>Jetzt handeln! Ihr Recht im Dieselskandal / Ihre Bearbeitungsnummer: {!Opportunity.Number__c}</subject>
+    <textOnly>Chance nicht verstreichen lassen!
+
+{!Contact.Salutation__c},
+
+Ihre Chance auf Rechtsdurchsetzung im Dieselskandal steht weiterhin sehr gut! Nutzen Sie diese – und vervollständigen Sie Ihre bereits angefangene Anfrage auf unserer Seite.
+
+
+
+Nur noch wenige Informationen und wir werden für Sie tätig!
+
+
+Daten jetzt vervollständigen.
+
+
+Mit freundlichen Grüßen,
+
+Ihr Service-Team
+VerbraucherRechte24
+
+
+
+
+www.verbraucherrechte24.de
+
+VerbraucherRechte24 GmbH
+Albert-Roßhaupter-Straße 32
+81369 München
+
+Geschäftsführer: Steffen Matz, Matthias Hartmann
+
+Jetzt austragen</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

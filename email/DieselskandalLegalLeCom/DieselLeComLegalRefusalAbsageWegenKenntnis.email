@@ -1,0 +1,28 @@
+{!Contact.Salutation__c},
+
+Ihre Bearbeitungsnummer: {!Opportunity.Number__c}.
+
+Vielen Dank für Ihr Vertrauen,
+
+leider können wir Ihren Fall nicht weiterbearbeiten und beenden im Zuge dessen das Klageverfahren gegen den Hersteller.
+
+Aufgrund der Tatsache, dass zum Kauf des KFZ bereits Kenntnis über den Dieselabgasskandal und der daraus folgenden Mängel bestanden haben muss fehlt der rechtliche Hintergrund dagegen vorzugehen.
+
+Die Abgasaffäre war bereits seit September 2015 öffentlich in den Medien vertreten und damit hinlänglich bekannt.
+
+Wir bedanken uns diesbezüglich für Ihr Verständnis.
+
+Mit freundlichen Grüßen 
+
+
+i. A. {!User.FirstName} {!User.LastName} 
+
+Dr. Dominic Krutisch 
+LeCom - Legal & Compliance 
+Rechtsanwaltsgesellschaft mbH
+
+Albert-Roßhaupter-Str. 32 
+81369 München 
+
+Tel.: 089 / 588088710 
+Fax: 089 / 588088711

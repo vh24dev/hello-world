@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?><CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <help><!-- Base URL to the docgen server --></help>
+        <label><!-- API Base URL --></label>
+        <name>API_Base_URL__c</name>
+    </fields>
+    <fields>
+        <help><!-- Authentication for the docgen server --></help>
+        <label><!-- API PWD --></label>
+        <name>API_PWD__c</name>
+    </fields>
+    <fields>
+        <help><!-- Authentication for the docgen server --></help>
+        <label><!-- API Username --></label>
+        <name>API_Username__c</name>
+    </fields>
+    <fields>
+        <help><!-- These settings will only be considered when is this field is checked. The functionality will throw an error if more than one is checked at any given time --></help>
+        <label><!-- Is Active --></label>
+        <name>Is_Active__c</name>
+    </fields>
+    <fields>
+        <help><!-- Token which needs to be provided when calling Salesforce&apos;s Document Generation webhook --></help>
+        <label><!-- SF Webhook Token --></label>
+        <name>SF_Webhook_Token__c</name>
+    </fields>
+    <caseValues>
+        <caseType>Nominative</caseType>
+        <plural>false</plural>
+        <value>Document Generation API Setting</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Nominative</caseType>
+        <plural>true</plural>
+        <value>Document Generation API Settings</value>
+    </caseValues>
+    <gender>Neuter</gender>
+</CustomObjectTranslation>

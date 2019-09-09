@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Telefonnummer neu anfordern</description>
+    <encodingKey>UTF-8</encodingKey>
+    <name>LvCallcenterWrongPhoneNumberVr24</name>
+    <style>none</style>
+    <subject>Wir konnten Sie leider nicht erreichen | Bitte prüfen Sie Ihre Telefonnummer | Ihre Bearbeitungsnummer: {!Opportunity.Number__c}</subject>
+    <textOnly>{!Contact.Salutation__c},
+
+Sie haben uns um einen Rückruf gebeten bzgl. einer möglichen Rückabwicklung Ihrer Lebens-/ Rentenversicherung.
+
+Leider konnten wir Sie telefonisch nicht erreichen. Offenbar haben wir Ihre Telefonnummer nicht richtig gespeichert.
+
+Folgende Telefonnummer ist bei uns hinterlegt: {!Contact.Phone}
+
+Bitte senden Sie uns eine Telefonnummer, unter der wir Sie erreichen können an: service@verbraucherrechte24.de
+
+Gerne prüfen wir kostenfrei, ob ein Widerruf ihrer Versicherung auf Basis der aktuellen Rechtsprechung möglich ist und wie viel Geld sie in diesem Fall zusätzlich zurückbekommen können.
+
+Bei Rückfragen können Sie mich gerne unter meiner Nummer {!User.Phone} erreichen oder Sie schreiben mir eine E-Mail an service@verbraucherrechte24.de .
+
+Mit freundlichen Grüßen
+
+
+{!User.FirstName} {!User.LastName}
+{!User.Title}</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

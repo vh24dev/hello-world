@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>false</available>
+    <description>Begrüßungsschreiben</description>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Diesel21LegalLegalSendWelcomeLetter</name>
+    <style>none</style>
+    <subject>Nachricht von RAe Wilhelm Lachmair und Kollegen</subject>
+    <textOnly>Sehr geehrte/r {!Contact.Salutation} {!Contact.LastName}, 
+
+wir möchten Sie herzlich begrüßen und senden Ihnen anbei 
+erste Informationen zu Ihrem Mandat. 
+
+Mit freundlichen Grüßen, 
+{!User.FirstName} {!User.LastName} 
+{!User.Title} 
+
+Wilhelm Lachmair &amp; Kollegen
+Ismaninger Straße 19
+81675 München</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

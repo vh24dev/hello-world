@@ -1,0 +1,52 @@
+<span style="font-size:13px;"><span style="font-family: arial, helvetica, sans-serif;">
+{!Contact.Salutation__c},
+<p>
+wie telefonisch besprochen, gibt es vier unterschiedliche Varianten, die ich Ihnen gerne anhand von Beispielen erläutere. 
+<p>
+<b>Angenommen Sie möchten Ihr Auto behalten und haben keine Rechtsschutzversicherung. </b>
+<p>
+In diesem Fall beträgt unser Honorar 35 %.
+<br/>Im Schnitt liegt der Streitwert bei 30% des Kaufpreises. 
+<br/>Wenn der Kaufpreis 20.000,00 € beträgt, wäre der Streitwert somit bei 6.000,00 € (30% Streitwert des Kaufpreises).
+<br/>Im Erfolgsfall erhalten wir für die Abwicklung und Strategischen Schreiben 35 %, dies entspricht bei 6.000 € Streitwert etwa 2.100 € Honorar (35% vom Streitwert).
+<p>
+<b>Angenommen Sie möchten Ihr Auto zurückgeben und haben keine Rechtsschutzversicherung.</b>
+<p>
+In diesem Fall beträgt unser Honorar 11 %.
+<br/>Angenommen das Auto hat vor 5 Jahren 25.000 € gekostet. 
+<br>Bei der Variante Rückgabe wird der Kaufpreis von 25.000 €, abzüglich der Nutzungsentschädigung die abhängig von den gefahrenen Kilometern ist, aktuell bspw. 5.000 €, vom Hersteller angefordert.  
+<br/>Der aktuelle Wert des Fahrzeugs wird laut Schwackeliste ermittelt und beträgt bspw. 10.000 €.
+<br/>Die Differenz beträgt 10.000 € zwischen dem eingeklagten Wert und dem aktuellen Wert des Fahrzeugs.
+<br/>Von diesem Wert erhalten wir bei Rückgabe 11%. Bei einer Differenz von 10.000 € entspricht das etwa 1.100 €.
+<p>
+<b>Angenommen Sie möchten Ihr Auto behalten und haben eine Rechtsschutzversicherung. </b>
+<p>
+In diesem Fall beträgt unser Honorar 15 %.
+<br/>Im Schnitt liegt der Streitwert bei 30% des Kaufpreises. 
+<br/>Wenn der Kaufpreis 20.000,00 € beträgt, wäre der Streitwert somit bei 6.000,00 € (30% Streitwert des Kaufpreises)
+<br/>Im Erfolgsfall erhalten wir für die Abwicklung und Strategischen Schreiben 15 %, dies entspricht bei 6.000 € Streitwert etwa 900 € Honorar (15% vom Streitwert).
+<p>
+<b>Angenommen Sie möchten Ihr Auto zurückgeben und haben eine Rechtsschutzversicherung.</b>
+<p>
+In diesem Fall beträgt unser Honorar 6%.
+<br/>Angenommen das Auto hat vor 5 Jahren 25.000 € gekostet. 
+<br>Bei der Variante Rückgabe wird der Kaufpreis von 25.000 €, abzüglich der Nutzungsentschädigung die abhängig von den gefahrenen Kilometern ist, aktuell bspw. 5.000 €, vom Hersteller angefordert.  
+<br/>Der aktuelle Wert des Fahrzeugs wird laut Schwackeliste ermittelt und beträgt bspw. 10.000 €.
+<br/>Die Differenz beträgt 10.000 € zwischen dem eingeklagten Wert und dem aktuellen Wert des Fahrzeugs.
+<br/>Von diesem Wert erhalten wir bei Rückgabe 6%. Bei einer Differenz von 10.000 € entspricht das etwa 600 €.
+<p>
+Bei Rückfragen, rufen Sie mich gerne an unter meiner Nummer: {!User.Phone}  oder schreiben Sie mir eine E-Mail: auto@verbraucherhilfe24.de
+<p>
+Ihre Verbraucherhilfe24<p></span>
+<p><img alt="" src="https://www.verbraucherhilfe24.de/wp-content/uploads/v24-logo-1.png" /></p>
+<span style="font-size:11px;"><span style="Calibri Light;">
+VH24 GmbH<br/>
+Albert-Roßhaupter-Str. 32<br/>
+81369 München<br/>
+Telefon: <b>089 - 124 147 413</b><br/>
+Kontakt: office@verbraucherhilfe24.de
+<p>
+www.verbraucherhilfe24.de
+<p>
+Registergericht beim Amtsgericht München unter 371 E - <b>M 1779 als Inkassodienstleister gem. §10 abs. 1 RDG</b> | Handelsregister: HRB 217774 Amtsgericht München | USt-IDNr: DE277526577
+<p><a href="{!Opportunity.URL_Abmeldung__c}" target="_blank"><span style="color: #0000cd;"><b>Abmelden</b></a>

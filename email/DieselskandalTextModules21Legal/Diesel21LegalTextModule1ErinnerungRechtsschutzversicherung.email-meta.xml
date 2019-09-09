@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>false</available>
+    <description>1. Erinnerung Rechtsschutzversicherung</description>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Diesel21LegalTextModule1ErinnerungRechtsschutzversicherung</name>
+    <style>none</style>
+    <subject>Sonstiges 2, oben</subject>
+    <type>text</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Draft</fullName>
+        <default>true</default>
+        <label>Entwurf</label>
+    </customValue>
+    <customValue>
+        <fullName>Lawsuit</fullName>
+        <default>false</default>
+        <label>Klage</label>
+    </customValue>
+    <customValue>
+        <fullName>Processing</fullName>
+        <default>false</default>
+        <label>Abwicklung</label>
+    </customValue>
+    <customValue>
+        <fullName>Finished</fullName>
+        <default>false</default>
+        <label>Abgeschlossen</label>
+    </customValue>
+    <customValue>
+        <fullName>Canceled</fullName>
+        <default>false</default>
+        <label>Abbruch</label>
+    </customValue>
+    <masterLabel>Class Action Statuses</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

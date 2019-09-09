@@ -1,0 +1,5 @@
+<apex:page standardController="Opportunity" extensions="IncreaseFollowUpCount"
+           showHeader="false" action="{! renderPage}">
+    <apex:pageBlock title="In Bearbeitung....">
+    </apex:pageBlock>
+</apex:page>

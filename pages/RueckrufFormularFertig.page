@@ -1,0 +1,13 @@
+<apex:page docType="html">
+    <apex:composition template="DieselskandalTemplate">
+        <apex:define name="body">
+            
+            <h2>
+                Danke für Ihre Nachricht
+            </h2>
+            <p>
+                Wir werden uns umgehend telefonisch bei Ihnen melden.
+            </p>
+        </apex:define>
+    </apex:composition>
+</apex:page>

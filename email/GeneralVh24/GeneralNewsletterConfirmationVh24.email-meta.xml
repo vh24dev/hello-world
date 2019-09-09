@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>GeneralNewsletterConfirmationVh24</description>
+    <encodingKey>UTF-8</encodingKey>
+    <name>GeneralNewsletterConfirmationVh24</name>
+    <style>none</style>
+    <subject>E-mail-Adresse bestätigen</subject>
+    <textOnly>{!Contact.Salutation__c},
+
+die Anmeldung zum kostenlosen VH24 Update ist fast geschafft:
+
+Sie müssen nur noch Ihre E-mail-Adresse bestätigen.
+
+Mit freundlichen Grüßen
+
+Ihr Service-Team
+Verbraucherhilfe24</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

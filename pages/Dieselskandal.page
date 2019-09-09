@@ -1,0 +1,138 @@
+<apex:page docType="html-5.0" pageStyle="" wizard="false" sidebar="true" showHeader="false" showQuickActionVfHeader="false" controller="DieselLeadController" standardStylesheets="false" >
+<!--<apex:page docType="html-5.0" pageStyle="" wizard="false" sidebar="true" showHeader="false" showQuickActionVfHeader="false" action="{!redirectNew}" controller="DieselLeadController" standardStylesheets="false" >-->
+    <apex:composition template="DieselskandalTemplate">
+        <apex:define name="title"> Dieselskandal</apex:define>
+        <apex:define name="header">
+            <h2>Betroffen vom Dieselskandal:<br/>Machen Sie den Check!</h2>
+            <div class="progressbar">
+                <div class="prog-txt">
+                    <div id="angaben_zum_Auto">
+                        <span>ANGABEN ZUM AUTO</span>
+                    </div>
+                    <div id="weitere_angaben">
+                        <span>WEITERE ANGABEN</span>
+                    </div>
+                </div>
+                <div class="progall">
+                    <svg class="progress">
+                        <line class="line1" x1="15" y1="15" x2="50%" y2="15" stroke="rgb(238,140,2)" stroke-width="3" />
+                        <line class="line2" x1="50%" y1="15" x2="100%" y2="15" stroke="rgb(216, 216, 216)" stroke-width="3" />
+                        <circle id="circle1" cx="15" cy="15" r="14" fill="rgb(238,140,2)" stroke="rgb(238,140,2)" stroke-width="1" />
+                        <circle id="circle2" stroke="rgb(216, 216, 216)" stroke-width="1" cx="50%" cy="15" r="14" fill="#fff" />
+                    </svg>
+                    <div class="prog1">
+                        <span>1</span>
+                    </div>
+                    <div class="prog2">
+                        <span>2</span>
+                    </div>
+                </div>
+            </div>
+        </apex:define>
+        <apex:define name="body">
+            <apex:form >
+                <h3> ANSPRUCH AUF SCHADENSERSATZ PRÜFEN: </h3>
+                <div class="pflichtfeld"> * Pflichtfeld </div>
+                <label for="automarke">Wie lautet Ihre Automarke<span class="reddot">*</span></label>
+                <div class="auto-sel">
+                    <apex:selectList value="{!brand}" size="1" required="true">
+                        <apex:selectOptions value="{!brandOptions}"/>
+                    </apex:selectList>
+                </div>
+                <label for="modell">Um welches Modell handelt es sich?</label>
+                <div class="auto-sel">
+                    <apex:selectList value="{!model}" size="1" required="true">
+                        <apex:selectOptions value="{!modelOptions}"/>
+                    </apex:selectList>
+                </div>
+                <label for="motortyp">Welcher Motortyp?</label>
+                <div class="auto-sel">
+                    <apex:selectList value="{!engineType}" size="1" required="true">
+                        <apex:selectOptions value="{!engineTypeOptions}"/>
+                    </apex:selectList>
+                </div>
+                <label for="jahr">In welchem Jahr haben Sie das Fahrzeug gekauft?<span class="reddot">*</span></label>
+                <div class="auto-sel">
+                    <apex:selectList value="{!purchasePeriod}" size="1" required="true">
+                        <apex:selectOptions value="{!purchasePeriodOptions}"/>
+                    </apex:selectList>
+                </div>
+                <div class="low-check">
+                    <p>Wie haben Sie Ihr Fahrzeug finanziert?</p>
+                    <apex:outputpanel id="thePageBlock" layout="block">
+                        <apex:actionRegion >
+                            
+                            <apex:selectRadio id="ftSel" immediate="true" value="{!FinancingType}" required="true">
+                                <apex:selectOptions id="fOpt" value="{!financingOptions}"/>
+                                <apex:actionSupport event="onchange" rerender="thePageBlock"/>
+                            </apex:selectRadio>
+                        </apex:actionRegion>
+                        
+                        <apex:outputpanel id="xxxpbs2" rendered="{!FinancingType == 'Finanzierung'}" layout="block" styleClass="div-1">
+                            <p>Wie hoch ist der Finanzierungsbetrag?<br/><span>Hierbei geht es um die geliehene Summe - Ihre Selbstbeteiligung nicht mit eingerechnet.</span></p>
+                            <div class="auto-sel">
+                                <apex:selectList value="{!financeAmount}" size="1" required="true">
+                                    <apex:selectOptions id="faOpt" value="{!financeAmountOptions}"/>
+                                </apex:selectList>
+                            </div>
+                            
+                        </apex:outputpanel>
+                        <apex:outputpanel id="xxxpbs4" rendered="{!FinancingType == 'Sonstiges'}" layout="block" styleClass="div-2">
+                            <label for="sonstiges">Bitte hier eine Angabe machen:</label>
+                            
+                            <apex:input value="{!otherFinancingType}" />
+                        </apex:outputpanel>
+                    </apex:outputpanel>
+                </div>
+         
+                <div class="low-check">
+                    
+                    <div class="low-rad">
+                        <p><br/> Haben Sie eine Rechtschutzversicherung?<span class="reddot">*</span></p>
+                        <p class="rv-txt">Bitte beachten Sie, dass diese zum Zeitpunkt des Fahrzeugkaufs bereits aktiv gewesen sein muss.</p>
+                    </div>
+                    
+                    <apex:outputpanel id="lvInsu" layout="block">
+                        <apex:actionRegion >
+                            <apex:selectRadio id="lvSel" value="{!legal_insurance}">
+                                <apex:selectOptions id="lvOpt" value="{!legalInsuranceOptions}"/>
+                                <apex:actionSupport event="onchange" reRender="lvInsu"/>
+                            </apex:selectRadio>
+                        </apex:actionRegion>
+
+                        <apex:outputpanel id="rv-ja" rendered="{!legal_insurance == 'Ja'}" layout="block" styleClass="div-3">
+                            <div class="div-3">
+                                <p>
+                                    <span>
+                                        Mit Rechtsschutzversicherung
+                                        sind alle Verfahrenskosten (abzgl. evtl. Selbstbehalt) gedeckt.
+                                        Nur im Erfolgsfall berechnen wir ein anteiliges Serviceentgelt, das zwischen 6 und 17 Prozent der für Sie erkämpften Summe liegt.
+                                    </span>
+                                    <br/>
+                                    <br/>
+                                    Bei welcher Versicherungsgesellschaft wurde diese abgeschlossen?
+                                    <br/>
+                                    <br/>
+                                    Name der Rechtschutzversicherung:
+                                </p>
+                                <apex:input />
+                            </div>
+                        </apex:outputpanel>
+                    </apex:outputpanel> 
+                </div>
+                <div class="low-rad"></div>
+                <apex:commandButton value="SCHADENSERSATZ PRÜFEN" action="{!createLead}"/>
+                <div class="keyfacts">
+                    <ul>
+                        <li>Über 120.000 geprüfte Fälle</li>
+                        <li>Großes Netzwerk an spezialisierten Partneranwälten</li>
+                        <li>Kein Kostenrisiko für Sie*</li>
+                    </ul>
+                </div>
+                <div class="prefooter">
+                    <a target="_blank" href="https://www.verbraucherhilfe24.de/kosten/">*Weitere Infos zu etwaigen Kosten finden Sie hier.</a>
+                </div>
+            </apex:form>
+        </apex:define>
+    </apex:composition>
+</apex:page>

@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?><CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label><!-- Summe --></label>
+        <name>Amount__c</name>
+    </fields>
+    <fields>
+        <label><!-- CREATEDDATE_old --></label>
+        <name>CREATEDDATE_old__c</name>
+    </fields>
+    <fields>
+        <label><!-- Provision --></label>
+        <name>Commission__c</name>
+        <relationshipLabel><!-- Zahlungseingänge --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Zahlungsinhalt --></label>
+        <name>Content__c</name>
+    </fields>
+    <fields>
+        <label><!-- Kostennote --></label>
+        <name>Cost_Note__c</name>
+        <relationshipLabel><!-- Zahlungseingänge --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Datum --></label>
+        <name>Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- ID_old --></label>
+        <name>ID_old__c</name>
+    </fields>
+    <fields>
+        <label><!-- Methode --></label>
+        <name>Method__c</name>
+    </fields>
+    <fields>
+        <label><!-- Old Id --></label>
+        <name>Old_Id__c</name>
+    </fields>
+    <fields>
+        <label><!-- Old Zahlungseingang ID --></label>
+        <name>Old_Zahlungseingang_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Opportunity Id --></label>
+        <name>Opportunity_Id__c</name>
+    </fields>
+    <fields>
+        <label><!-- Zahlungsabsender --></label>
+        <name>Sender_Type__c</name>
+    </fields>
+    <fields>
+        <label><!-- Bezeichnung Zahlungsabsender --></label>
+        <name>Sender__c</name>
+    </fields>
+    <fields>
+        <label><!-- Test --></label>
+        <name>Test__c</name>
+    </fields>
+    <fields>
+        <label><!-- Transaktion --></label>
+        <name>Transaction__c</name>
+        <relationshipLabel><!-- Zahlungseingänge (Kostennote) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- ZahleingImpID --></label>
+        <name>ZahleingImpID__c</name>
+    </fields>
+    <caseValues>
+        <caseType>Nominative</caseType>
+        <plural>false</plural>
+        <value>Zahlungseingang</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Nominative</caseType>
+        <plural>true</plural>
+        <value>Zahlungseingänge</value>
+    </caseValues>
+    <gender>Feminine</gender>
+</CustomObjectTranslation>

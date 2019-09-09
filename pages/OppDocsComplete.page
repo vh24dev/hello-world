@@ -1,0 +1,6 @@
+<apex:page standardController="Opportunity" extensions="OppDocsExtension"
+           showHeader="false" action="{! complete}">
+    <apex:pageBlock title="In Bearbeitung....">
+        <apex:pageMessages />
+    </apex:pageBlock>
+</apex:page>

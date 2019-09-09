@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>3,0 Motor Kauf nach Sep 2015, Oben</description>
+    <encodingKey>UTF-8</encodingKey>
+    <name>FzJägerTextModuleRsv30MotorKaufNachSep2015Oben</name>
+    <style>none</style>
+    <subject>TitelRsv30MotorKaufNachSep2015, oben</subject>
+    <type>text</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

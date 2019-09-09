@@ -1,0 +1,22 @@
+<span style="font-size:13px;"><span style="font-family: arial, helvetica, sans-serif;">
+<p>{!Contact.Salutation__c},
+<br/><br/>
+vor einigen Wochen haben Sie uns eine Anfrage zur Klage übermittelt. 
+<br/>Da Sie über keine Rechtschutzversicherung verfügen, warten wir aus prozessökonomischen Gründen die weiteren Entwicklungen in der Rechtssprechung ab, 
+um dann in dem für Sie günstigsten Zeitpunkt gegen den Fahrzeughersteller vorzugehen. 
+<p>
+Dies kann einige Zeit in Anspruch nehmen. Die einschlägigen Verjährungsfristen haben wir notiert und für Sie selbstverständlich im Blick. 
+<p>
+<p>
+Mit freundlichen Grüßen 
+<p>
+{!User.FirstName} {!User.LastName} 
+<br/>{!User.Title} 
+<br>Abt. Diesel-Skandal
+<p><img style="width: 200px; height: 54px;" src="https://daks2k3a4ib2z.cloudfront.net/58d0ccc5a30805a8243d5fd9/58d22446e07be4a234dc816e_Verbraucherrechte_Logo_Lay01.png" alt="" /></p>
+<p><a href="http://www.verbraucherrechte24.de" target="_blank">www.verbraucherrechte24.de</a></p>
+<p><span style="font-family: Calibri, Verdana, Arial, sans-serif; font-size: 11px;"> VerbraucherRechte24 GmbH<br /> Albert-Ro&szlig;haupter-Stra&szlig;e 32<br /> 81369 M&uuml;nchen </span></p>
+<p><span style="font-family: Calibri, Verdana, Arial, sans-serif; font-size: 11px;"> Gesch&auml;ftsf&uuml;hrer: Steffen Matz, Matthias Hartmann </span></p>
+<p><span style="font-family: Calibri, Verdana, Arial, sans-serif; font-size: 11px;">in Zusammenarbeit mit dem eingetragenen Rechtsdienstleister:</span></p>
+<p><span style="font-family: Calibri, Verdana, Arial, sans-serif; font-size: 9px;">
+<a href="{!Opportunity.URL_Abmeldung__c}" target="_blank"><span style="color: #0000cd;"><b>Abmelden</b></a>

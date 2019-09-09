@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?><Workflow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <alerts>
+        <fullName>PartnerConfirmationEmail</fullName>
+        <description>PartnerConfirmationEmail</description>
+        <protected>false</protected>
+        <recipients>
+            <field>Email__c</field>
+            <type>email</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>Partner_Community/PartnerRegistrationConfirmationEmail</template>
+    </alerts>
+    <alerts>
+        <fullName>Partner_Invitation</fullName>
+        <description>Partner Invitation</description>
+        <protected>false</protected>
+        <recipients>
+            <field>Email__c</field>
+            <type>email</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>Partner_Community/Partner_Invitation_Email</template>
+    </alerts>
+    <rules>
+        <fullName>PartnerConfirmationEmail</fullName>
+        <actions>
+            <name>PartnerConfirmationEmail</name>
+            <type>Alert</type>
+        </actions>
+        <active>true</active>
+        <criteriaItems>
+            <field>Invitation__c.Status__c</field>
+            <operation>equals</operation>
+            <value>Accepted</value>
+        </criteriaItems>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+    </rules>
+    <rules>
+        <fullName>Send Invitation</fullName>
+        <actions>
+            <name>Partner_Invitation</name>
+            <type>Alert</type>
+        </actions>
+        <active>true</active>
+        <criteriaItems>
+            <field>Invitation__c.Status__c</field>
+            <operation>equals</operation>
+            <value>Sent</value>
+        </criteriaItems>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+    </rules>
+</Workflow>

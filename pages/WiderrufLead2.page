@@ -1,0 +1,15 @@
+<apex:page docType="html-5.0" controller="WiderrufLeadController">
+    <apex:composition template="{!$Site.Template}">
+        <apex:define name="body">
+            <h2>
+                Vielen Dank für Ihre Anfrage!
+            </h2>
+            <p>
+                Zu der von Ihnen angegebenen Zeit wird sich ein Mitarbeiter bei Ihnen melden um Fragen bzgl. der Rückabwicklung Ihrer Lebensversicherung zu besprechen. 
+            </p>
+            <p>
+                Ihr Team der Verbraucherhilfe24
+            </p>
+        </apex:define>
+    </apex:composition>
+</apex:page>

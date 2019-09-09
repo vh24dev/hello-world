@@ -1,0 +1,18 @@
+{!Contact.Salutation__c}, 
+
+ausweislich Ihres Versicherungsvertrages haben Sie mit Ihrer Rechtsschutzversicherung eine Selbstbeteiligung vereinbart. Anbei übersenden wir Ihnen in der Anlage eine entsprechende Kostennote verbunden mit der Bitte um zeitnahen Ausgleich des Rechnungsbetrages. 
+
+Mit freundlichen Grüßen 
+
+
+i. A. {!User.FirstName} {!User.LastName} 
+
+Dr. Dominic Krutisch 
+LeCom - Legal & Compliance 
+Rechtsanwaltsgesellschaft mbH 
+
+Albert-Roßhaupter-Str. 32 
+81369 München 
+
+Tel.: 089 / 588088710 
+Fax: 089 / 588088711

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Mfk nicht bestätigt</description>
+    <encodingKey>UTF-8</encodingKey>
+    <name>FzGeneralRefusalMfkNichtBestaetigtVh24</name>
+    <style>none</style>
+    <subject>Sie haben die Musterfeststellungsklage nicht bestätigt | Ihre Bearbeitungsnummer: {!Opportunity.Number__c}</subject>
+    <textOnly>{!Contact.Salutation__c},
+
+in vorbezeichneter Angelegenheit mussten wir leider feststellen, dass Sie offensichtlich kein Interesse daran haben, dass wir Sie im Klageregister zur Musterfeststellungklage registrieren und somit auch künftig Ihre Ansprüche gegenüber der Volkswagen AG für Sie durchsetzen.
+
+Dies bedauern wir sehr.
+
+Wir müssen wir Ihnen daher aber mitteilen, dass wir das bestehende Vertragsverhältnis mit dem heutigen Tage beenden und das Mandat hiermit niederlegen. Wir weisen Sie ausdrücklich darauf hin, dass wir für die Einhaltung von Fristen, auch im Hinblick auf eine etwaig drohende Verjährung Ihrer Ansprüche nunmehr nicht mehr verantwortlich sind.
+
+Rein vorsorglich teilen wir Ihnen mit, dass die Ansprüche gegenüber der VW AG mit hoher Wahrscheinlichkeit zum Ende diesen Jahres,d.h. mit Ablauf des 31.12.2018 verjähren.
+
+
+Wir bedanken uns für das uns durch Ihre Beauftragung entgegengebrachte Vertrauen und wünschen Ihnen auch in Zukunft alles Gute.
+
+Mit freundlichen Grüßen
+
+i. A. {!User.FirstName} {!User.LastName}
+
+Heinrich Jäger
+J &amp; C Anwälte
+
+Sonnenstraße 18
+80331 München
+
+Telefon: +49 (0) 89 90 41 03 450
+Telefax: +49 (0) 89 90 41 03 499
+E-Mail: abgasskandal@jc-anwaelte.de
+Web: www.jc-anwaelte.de</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

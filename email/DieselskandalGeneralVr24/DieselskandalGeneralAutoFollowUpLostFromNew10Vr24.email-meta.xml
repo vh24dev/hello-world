@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>false</available>
+    <description>10. Erinnerung - New</description>
+    <encodingKey>UTF-8</encodingKey>
+    <name>DieselskandalGeneralAutoFollowUpLostFromNew10Vr24</name>
+    <style>none</style>
+    <subject>Betreff: [Daten vervollständigen] Letzte Chance auf Dieselklage - {!Contact.FirstName} {!Contact.LastName}</subject>
+    <textOnly>{!Contact.Salutation__c},
+
+leider haben wir immer noch nicht alle Unterlagen für die Bearbeitung Ihrer Dieselklage erhalten.
+Wir möchten Sie darüber in Kenntnis setzen, dass das Ihre letzte Gelegenheit ist, Schadensersatzansprüche durch unsere Hilfe geltend zu machen.
+Bitte reichen Sie dazu noch die letzten Unterlagen innerhalb der nächsten 72 Stunden nach. Informieren Sie uns gerne telefonisch unter der 089 - 215 413 118, falls Sie es so schnell nicht schaffen sollten.
+
+Jetzt Daten hochladen
+
+(Wichtig: Der Anspruch auf Schadensersatz endet am 31.12.2018)
+
+Haben Sie noch Fragen dazu?
+
+Rufen Sie uns doch einfach an:
+089 - 215 413 118
+
+Oder teilen Sie uns einfach per Email mit wann Sie am besten erreichbar sind: vormittags, nachmittags, abends.
+
+Unsere Spezialisten zu diesem Thema beraten Sie kostenlos!
+
+Ihre Bearbeitungsnummer: {!Opportunity.Number__c}
+Wir freuen uns darauf, für Sie tätig zu werden.
+
+
+Mit freundlichen Grüßen
+
+
+
+www.verbraucherrechte24.de
+
+VerbraucherRechte24 GmbH
+Albert-Roßhaupter-Straße 32
+81369 München
+
+Geschäftsführer: Steffen Matz, Matthias Hartmann</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

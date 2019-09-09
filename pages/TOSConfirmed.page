@@ -1,0 +1,12 @@
+<apex:page docType="html">
+    <apex:composition template="{!$Site.Template}">
+        <apex:define name="body">
+            <h3>
+                AGBs bestätigt
+            </h3>
+            <p>
+                Vielen Dank, dass Sie die AGBs bestätigt haben.
+            </p>
+        </apex:define>
+    </apex:composition>
+</apex:page>

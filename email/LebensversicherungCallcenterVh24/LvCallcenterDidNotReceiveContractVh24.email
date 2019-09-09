@@ -1,0 +1,20 @@
+<span style="font-size:13px;"><span style="font-family: arial, helvetica, sans-serif;">{!Contact.Salutation__c},<br /><br />leider haben wir den&nbsp;<strong>Dienstleistungsvertrag</strong> &nbsp;noch nicht zur&uuml;ckerhalten. Wir k&ouml;nnen erst f&uuml;r Sie t&auml;tig werden, wenn uns dieses Dokument vorliegt.&nbsp;<br /></span></p>
+<p><strong><span style="font-family: Arial, helvetica, sans-serif; font-size: font-size: 13px;"><br />Bitte senden sie uns den unterschriebenen Dienstleistungsvertrag&nbsp;&uuml;ber einen der folgenden Wege:</span></strong></p>
+<div><span style="font-family: Arial,  helvetica,sans-serif;">per E-Mail an:</span></div>
+<div><span style="font-family:  Arial, helvetica, sans-serif; font-size: font-size: 13px;"><a href="mailto:lebensversicherung@verbraucherhilfe24.de">lebensversicherung@verbraucherhilfe24.de</a><br /><br /></span></div>
+<span style="font-family: Arial, helvetica, sans-serif; font-size: font-size: 13px;">oder <br />per Fax: 089 124 14 74 19 <br />
+<div><span style="font-family: Arial, helvetica, sans-serif; font-size: font-size: 13px;"><br />oder<br />mit der Post an: <br /><br />Verbraucherhilfe24<br />Abt. Lebensversicherung<br />Albert-Ro&szlig;haupter-Str. 32 <br />81369 M&uuml;nchen <br /><br /><br />Sollten Sie&nbsp;R&uuml;ckfragen haben, rufen Sie mich&nbsp;gerne jederzeit an unter meiner Nummer: 089 124 147 418&nbsp; oder schreiben sie mir&nbsp;eine E-Mail an: <a href="mailto:lebensversicherung@verbraucherhilfe24.de">lebensversicherung@verbraucherhilfe24.de</a>&nbsp;(bitte geben Sie Ihre Bearbeitungsnummer an)<br /><br />Mit freundlichen Gr&uuml;&szlig;en <br />{!User.FirstName} {!User.LastName}&nbsp;</span></div>
+<div>{!User.Title}</div>
+
+<p><img alt="" src="https://www.verbraucherhilfe24.de/wp-content/uploads/v24-logo-1.png" /></p>
+<span style="font-size:11px;"><span style="Calibri Light;">
+VH24 GmbH<br/>
+Albert-Roßhaupter-Str. 32<br/>
+81369 München<br/>
+Telefon: <b>089 - 124 147 418</b><br/>
+Kontakt: office@verbraucherhilfe24.de
+<p>
+www.verbraucherhilfe24.de
+<p>
+Registergericht beim Amtsgericht München unter 371 E - <b>M 1779 als Inkassodienstleister gem. §10 abs. 1 RDG</b> | Handelsregister: HRB 217774 Amtsgericht München | USt-IDNr: DE277526577
+<p><a href="{!Opportunity.URL_Abmeldung__c}" target="_blank"><span style="color: #0000cd;"><b>Abmelden</b></a>

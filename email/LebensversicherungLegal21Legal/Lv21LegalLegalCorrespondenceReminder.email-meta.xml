@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>false</available>
+    <description>Erinnerung</description>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Lv21LegalLegalCorrespondenceReminder</name>
+    <style>none</style>
+    <subject>Lebensversicherung21LegalLegalCorrespondenceReminder</subject>
+    <type>text</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

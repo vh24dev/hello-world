@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Kunden Information</description>
+    <encodingKey>UTF-8</encodingKey>
+    <name>FzLeComLegalCorrespondenceCustomerInformation</name>
+    <style>none</style>
+    <subject>{!Correspondence__c.Claim__r.Reference__c} | {!Correspondence__c.Claim__r.Opportunity__r.Number__c}: Ihre Anfrage zur Vertragsprüfung | Aktenzeichen: {!Correspondence__c.Claim__r.Reference__c}</subject>
+    <type>text</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

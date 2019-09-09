@@ -1,0 +1,24 @@
+Sehr geehrte Damen und Herren, 
+
+in vorbezeichneter Angelegenheit erinnern wir Sie an unsere Kostennote, welche wir Ihnen mit der Bitte um Ausgleich übersandt hatten. 
+
+Bei der Überprüfung der Zahlungseingänge mussten wir feststellen, dass auf unsere Zahlungsaufforderung hier noch keine Zahlung erfolgt ist. 
+
+Wir bitten Sie daher, den noch offenen Betrag in Höhe von {!Cost_Note__c.Amount_Open_By_Legal_Prot_Insurance__c} EUR zeitnah auf unser, Ihnen bekanntes, Konto zu überweisen. 
+
+Für die Überprüfung des entsprechenden Zahlungseingangs erlauben wir uns eine interne Frist von 14 Tagen, nach Erhalt dieser E-Mail. 
+
+Mit freundlichen Grüßen 
+
+i. A. {!User.FirstName} {!User.LastName} 
+
+Heinrich Jäger 
+J & C Anwälte 
+
+Sonnenstraße 18 
+80331 München 
+
+Telefon: +49 (0) 89 90 41 03 444 
+Telefax: +49 (0) 89 90 41 03 499 
+E-Mail: lebensversicherung@jc-anwaelte.de 
+Web: www.jc-anwaelte.de

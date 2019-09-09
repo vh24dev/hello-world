@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?><CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <help><!-- The Organization Wide Email Address to be used as sender of a Diesel Vollmacht. Note that the Address needs to first be created and activated in Setup -&gt; Email -&gt; Organization-Wide Addresses. If empty, the running user&apos;s email address is used. --></help>
+        <label><!-- Diesel Vollmacht OrgWide Sender Email --></label>
+        <name>Diesel_Vollmacht_OrgWide_Sender_Email__c</name>
+    </fields>
+    <fields>
+        <label><!-- Is Active --></label>
+        <name>Is_Active__c</name>
+    </fields>
+    <fields>
+        <help><!-- The Organization Wide Email Address to be used as sender of a LV Vollmacht. Note that the Address needs to first be created and activated in Setup -&gt; Email -&gt; Organization-Wide Addresses. If empty, the running user&apos;s email address is used. --></help>
+        <label><!-- LV Vollmacht OrgWide Sender Email --></label>
+        <name>LV_Vollmacht_OrgWide_Sender_Email__c</name>
+    </fields>
+    <caseValues>
+        <caseType>Nominative</caseType>
+        <plural>false</plural>
+        <value>OrgWide Email Settings</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Nominative</caseType>
+        <plural>true</plural>
+        <value>OrgWide Email Settings</value>
+    </caseValues>
+    <gender>Neuter</gender>
+</CustomObjectTranslation>

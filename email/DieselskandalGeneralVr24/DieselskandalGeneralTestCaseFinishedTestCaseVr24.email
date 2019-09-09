@@ -1,0 +1,22 @@
+<span style="font-size:13px;"><span style="font-family: arial, helvetica, sans-serif;">
+<b>Eintragung im Klageregister</b>
+<p>
+{!Contact.Salutation__c},
+<p>
+Sie haben uns mit Ihrer Eintragung in das Klageregister beauftragt. 
+<br/><b>Hiermit bestätigen wir diese Eintragung und damit die Anmeldung zur Musterfeststellungsklage im Dieselskandal.</b> 
+<p>
+Nun gilt es für Sie Geduld zu haben, denn das Verfahren wird nach Einschätzung von Rechtsexperten Zeit brauchen. Wir werden Sie jedoch in den nächsten Monaten über den Stand der Klage informieren und Sie erhalten von uns eine gesonderte Mitteilung sobald es einen Feststellungsurteil gibt.
+<p>
+Wir wünschen viel Erfolg und freuen uns darauf, mit Ihnen die nächsten Schritte zur Durchsetzung Ihrer Rechte zu gehen.
+<p>
+Mit freundlichen Grüßen 
+<p>
+i. A. {!User.FirstName} {!User.LastName} 
+<p><img style="width: 200px; height: 54px;" src="https://daks2k3a4ib2z.cloudfront.net/58d0ccc5a30805a8243d5fd9/58d22446e07be4a234dc816e_Verbraucherrechte_Logo_Lay01.png" alt="" /></p>
+<p><a href="http://www.verbraucherrechte24.de" target="_blank">www.verbraucherrechte24.de</a></p>
+<p><span style="font-family: Calibri, Verdana, Arial, sans-serif; font-size: 11px;"> VerbraucherRechte24 GmbH<br /> Albert-Ro&szlig;haupter-Stra&szlig;e 32<br /> 81369 M&uuml;nchen </span></p>
+<p><span style="font-family: Calibri, Verdana, Arial, sans-serif; font-size: 11px;"> Gesch&auml;ftsf&uuml;hrer: Steffen Matz, Matthias Hartmann </span></p>
+<p><span style="font-family: Calibri, Verdana, Arial, sans-serif; font-size: 11px;">in Zusammenarbeit mit dem eingetragenen Rechtsdienstleister:</span></p>
+<p><span style="font-family: Calibri, Verdana, Arial, sans-serif; font-size: 9px;">
+<a href="{!Opportunity.URL_Abmeldung__c}" target="_blank"><span style="color: #0000cd;"><b>Abmelden</b></a>

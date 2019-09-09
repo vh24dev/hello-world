@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Warten</description>
+    <encodingKey>UTF-8</encodingKey>
+    <name>LvBackofficeSetClaimOnHoldVr24</name>
+    <style>none</style>
+    <subject>{!Claim__c.Opportunity__r.Number__c}: Ihre Anfrage zur Vertragsprüfung</subject>
+    <textOnly>{!Contact.Salutation__c},
+
+Ihr Vertrag bei der {!Claim__c.Opportunity__r.Insurance_Name__c} liegt uns aktuell zur weiteren Bearbeitung vor. Der Widerruf wurde von unserem Partneranwalt erklärt und damit auch dem Rechtseinwand der Verwirkung diesbezüglich vorgebeugt. Wir warten derzeit ein Urteil gegen die {!Claim__c.Opportunity__r.Insurance_Name__c} in einem sehr ähnlichen Fall ab, in dem wir uns auf dem Klageweg befinden. 
+
+Gerade auch im Hinblick auf das ausstehende Urteil sehen wir für Sie sehr gute Erfolgsaussichten und kommen nach Urteilsverkündung schnellstens auf Sie zu. 
+
+Mit freundlichen Grüßen
+
+i. A. {!User.FirstName} {!User.LastName} 
+
+{!Claim__c.Opportunity__r.Legal__r.FirstName}  {!Claim__c.Opportunity__r.Legal__r.LastName}
+{!Claim__c.Opportunity__r.Legal__r.CompanyName}
+
+{!Claim__c.Opportunity__r.Legal__r.Street} 
+{!Claim__c.Opportunity__r.Legal__r.PostalCode} {!Claim__c.Opportunity__r.Legal__r.City}
+
+Tel: {!Claim__c.Opportunity__r.Legal__r.Phone} 
+Fax: {!Claim__c.Opportunity__r.Legal__r.Fax}</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Kunde widerruft unsere Dienstleistung</description>
+    <encodingKey>UTF-8</encodingKey>
+    <name>DieselskandalGeneralRefusalKundeHatWiderrufenVr24</name>
+    <style>none</style>
+    <subject>Sie haben Ihren Auftrag widerrufen | Ihre Bearbeitungsnummer: {!Opportunity.Number__c}</subject>
+    <textOnly>{!Contact.Salutation__c},
+
+
+Ihre Bearbeitungsnummer: {!Opportunity.Number__c}
+
+Sie haben uns mit der Wahrnehmung Ihrer Schadensersatzansprüche gegen Ihren Fahrzeughersteller beauftragt und diesen Auftrag sodann widerrufen. 
+Daher werden wir für Sie nicht mehr tätig mit der Folge, dass vermeintliche Schadensersatzansprüche verjähren, sofern keine verjährungshemmende Maßnahmen unternommen werden. 
+Sollten Sie Ihre Ansprüche gegen den Konzern dennoch durchsetzen möchten, beachten Sie bitte, dass diese spätestens am 31.12.2018 verjähren. Für diesen Fall sollten Sie sich umgehend mit einem Rechtsanwalt in Verbindung setzen. 
+Für Ihr Vertrauen bedanken wir uns und wünschen Ihnen für Ihre private und berufliche Zukunft alles Gute.
+
+
+Mit freundlichen Grüßen
+{!User.FirstName} {!User.LastName}
+{!User.Title}</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

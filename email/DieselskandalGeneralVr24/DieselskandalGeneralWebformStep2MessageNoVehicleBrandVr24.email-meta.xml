@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Bitte Informationen ergänzen, Step 3 nach Anmeldung</description>
+    <encodingKey>UTF-8</encodingKey>
+    <name>DieselskandalGeneralWebformStep2MessageNoVehicleBrandVr24</name>
+    <style>none</style>
+    <subject>{!Contact.FirstName} {!Contact.LastName}, vielen Dank für die Anfrage. Bitte klicken Sie auf den Link in der E-Mail</subject>
+    <textOnly>{!Contact.Salutation__c},
+
+vielen Dank für Ihre Anfrage.
+
+Gerne unterstützen wir Sie zusammen mit unseren Partnerkanzleien und fordern für Sie Schadenersatz gegenüber dem Automobilkonzern.
+
+Bitte ergänzen Sie weitere Informationen, um im nächsten Schritt einen konkreten Vorschlag für das weitere Vorgehen zu erhalten.
+
+1. Schritt: Wir haben Ihre Anfrage erhalten.
+2. Schritt: Bitte ergänzen Sie hier Ihre Informationen
+
+
+Über die VerbraucherRechte24:
+Wir haben es uns zur Aufgabe gemacht, Menschen bei der Durchsetzung ihrer Rechte optimal zu unterstützen. Wir kümmern uns von der Vertragsprüfung bis zur gerichtlichen Durchsetzung, zusammen mit unseren spezialisierten Partnerkanzleien, um zahlreiche Themen. Zusammen mit unseren Partnern haben wir bereits über 40.000 Verträge aus unterschiedlichen Bereichen überprüft.
+
+Das sind die Fakten zum Diesel-Skandal:
+
+3 Gründe, warum der Hersteller auch in Deutschland seine getäuschten Diesel-Kunden entschädigen muss und warum Sie jetzt aktiv werden sollten.
+
+1. Die Täuschung
+Diesel-Kunden wurden vorsätzlich getäuscht. Die Leistungsdaten wurden mit offenbar krimineller Energie manipuliert und es wurde nicht geliefert was bezahlt wurde.
+
+2. Die Technik
+Es ist völlig unklar, ob die Umrüstung nicht langfristig zu höherem Verschleiß führt. Auf jeden Fall führt sie zu einem erhöhten Fahrzeugverbrauch. Dies hat der TÜV bereits festgestellt.
+Darüber hinaus gibt es bereits heute zahlreiche Fälle von Diesel-Besitzern, die nach der Umrüstung von Problemen mit Verrußungen im Abgassystem sprechen.
+Ein weiteres starkes Indiz, dass hier etwas nicht stimmt: der Hersteller weigert sich, den umgerüsteten Fahrzeugen Garantie zu geben. Als Kunden machen Sie somit das Update auf eigenes Risiko.
+Alleine dem gesunden Menschenverstand fällt es schwer zu glauben, dass ein einfaches Softwareupdate alle chemischen und technischen Probleme lösen kann und aus der Dreckschleuder einen Saubermann macht.
+Die Frage, die sich anschließt:  Wozu hat der Konzern die Schummel-Software benötigt, wenn alles so einfach ist??
+
+3. Die Schadstoffe
+Diesel-PKW sind spätestens nach dem Diesel-Skandal Auslaufmodelle. Das Umweltbundesamt erklärt, dass die betroffenen Fahrzeuge aber auch neue Dieselfahrzeuge, die Stickoxid-Grenzwerte um ein vielfaches übersteigen. Auch neue Euro-6-Diesel stoßen noch sechs Mal mehr Stickstoffoxide aus als erlaubt.
+Das führt dazu, dass die Grenzwerte in den Städten schon heute kaum eingehalten werden können.
+Die daraus resultierenden Belastungen für die Gesundheit der Anwohner sind enorm.  Es ist daher mehr als wahrscheinlich, dass Dieselfahrzeuge bald von Fahrverboten betroffen sein werden.
+
+Unser Fazit:
+Jeder einzelne Punkt führt dazu, dass Dieselfahrzeuge an Wert verlieren und zukünftig nur noch schwer verkauft werden können. Der  KFZ-Händlerverband rechnet damit, dass jetzt schon ein Wertverlust von mindestens 20% entstanden ist.
+
+Unsere Forderung:
+Wir fordern vom Konzern einen fairen Umgang mit den geschädigten Kunden.
+Wie in den USA müssen die Fahrzeuge zurückgekauft und/oder die Kunden entschädigt werden.
+Hinweise auf eine existentielle Bedrohung vom Hersteller lassen wir nicht gelten, da die Gewinne sprudeln wie selten zuvor. Im ersten Quartal 2017 alleine waren es 4400000000 Euro (4,4 Mrd.).
+
+Was können Sie als Geschädigter jetzt machen?
+Vielleicht sind Sie zufrieden mit Ihrem Fahrzeug und wollen es weiterhin behalten. Viele Kunden halten dem Konzern die Treue oder ihnen ist es egal, dass ihr Fahrzeug an Wert verliert, dass die Abgaswerte nicht den gesetzlichen Vorgaben entsprechen und dass sie vielleicht bald nicht mehr damit überallhin fahren dürfen.
+
+Wem das jedoch nicht egal ist und wer sich vom Konzern betrogen fühlt, der muss jetzt aktiv werden.
+Sie können Ihre Ansprüche selbst an den Konzern übermitteln, auf eigene Kosten einen Anwalt einschalten oder Sie schließen sich unserer Initiative an und wir kümmern uns in Ihrem Namen um eine faire Entschädigung durch den Automobilkonzern.
+
+Schadenersatz: Rückzahlung bis zur Höhe Ihres Autokaufpreises möglich
+Kein Kostenrisiko für Sie! Keine Anzahlung, keine Gerichtskosten.
+100% Auszahlung, wenn Sie über eine Rechtschutzversicherung verfügen.
+Kein Risiko für Sie auch ohne Rechtschutzversicherung. Vergütung nur bei erfolgreicher Auszahlung.
+
+Ihr nächster Schritt: Bitte ergänzen Sie hier Ihre Informationen
+
+Mit freundlichen Grüßen,
+Ihr Service-Team
+VerbraucherRechte24
+
+
+
+
+
+www.verbraucherrechte24.de
+
+VerbraucherRechte24 GmbH
+Albert-Roßhaupter-Straße 32
+81369 München
+
+Geschäftsführer: Steffen Matz, Matthias Hartmann
+
+
+Jetzt austragen</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

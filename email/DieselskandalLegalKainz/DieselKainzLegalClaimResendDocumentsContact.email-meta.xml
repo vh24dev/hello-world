@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>DieselKainzLegalClaimResendDocumentsContact</name>
+    <style>none</style>
+    <subject>Nachricht von CLLB Rechtsanwälte, Ref-Nr: {!Claim__c.Id}, Vertrags-Nr.: {!Claim__c.Opportunity__r.CS_Number__c} | Aktenzeichen: {!Claim__c.Reference__c}</subject>
+    <type>text</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

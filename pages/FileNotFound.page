@@ -1,0 +1,15 @@
+<apex:page showHeader="false" title="{!$Label.site.file_not_found}" cache="false">
+    <apex:composition template="{!$Site.Template}">
+        <apex:define name="body">
+            <div class="center">
+                <h2>Link ist nicht (mehr) gültig</h2>
+                <p>
+                    Sie haben entweder das Formular bereits verschickt oder die Gültigkeit des Links ist abgelaufen. 
+                </p>
+                <p>
+                    Bitte wenden Sie sich an Ihren Anprechpartner unter der Telefonnummer 089 / 124 147 413 und fordern Sie einen neuen Link zum Abschicken Ihrer Daten. 
+                </p>
+            </div>
+        </apex:define>
+    </apex:composition>
+</apex:page>

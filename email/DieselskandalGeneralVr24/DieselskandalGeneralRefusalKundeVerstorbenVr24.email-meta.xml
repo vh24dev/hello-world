@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Kunde verstorben</description>
+    <encodingKey>UTF-8</encodingKey>
+    <name>DieselskandalGeneralRefusalKundeVerstorbenVr24</name>
+    <style>none</style>
+    <subject>Sie haben Ihren Auftrag widerrufen | Ihre Bearbeitungsnummer: {!Opportunity.Number__c}</subject>
+    <textOnly>{!Contact.Salutation__c},
+
+leider müssen wir ihren Vorgang schließen, da sich der Autokauf außerhalb des Zeitraums befindet in der der Diesel-Skandal publik wurde. Der Zeitraum beläuft sich von 01.01.2008 - 22.09.2015. Für Ihr Vertrauen bedanken wir uns und wünschen Ihnen für Ihre private und berufliche Zukunft alles Gute.
+
+Mit freundlichen Grüßen
+
+{!User.FirstName} {!User.LastName}
+{!User.Title}</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

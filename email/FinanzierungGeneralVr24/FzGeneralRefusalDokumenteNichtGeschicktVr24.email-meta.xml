@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Dokumente nicht geschickt</description>
+    <encodingKey>UTF-8</encodingKey>
+    <name>FzGeneralRefusalDokumenteNichtGeschicktVr24</name>
+    <style>none</style>
+    <subject>Ihre Anfrage zum Dieselskandal mit der Bearbeitungsnummer: {!Opportunity.Number__c}</subject>
+    <textOnly>{!Contact.Salutation__c},
+
+wir bedanken uns ganz herzlich für das Vertrauen in unser Haus, das Sie mit der Registrierung Ihres Fahrzeugs auf unserer Homepage zum Ausdruck gebracht haben.
+Für die weitere Bearbeitung Ihres Falles benötigen wir noch weitere Informationen. Aus diesem Grund haben wir bereits mehrfach versucht Sie telefonisch zu erreichen- leider ohne Erfolg.
+
+Im Einzelnen benötigen wir folgende Unterlagen von Ihnen:
+
+1. Ihren Fahrzeugschein (Vorder- und Rückseite)
+2. Ihr Fahrzeug-Angebot oder Ihre Rechnung
+3. Die unterschrieben Anwaltlichs-Vollmacht
+
+Sie können uns Kopien bzw. Bilder/Scans der Dokumente über einen der folgende Wege übermitteln:
+
+Nutzen Sie folgendes Upload-Formular:
+Tipp: Mit Ihrem Handy können Sie einfach Fotos von den Dokumenten machen und diese unter folgendem Link hochladen.
+
+
+&gt;&gt; Jetzt Unterlagen hochladen &lt;&lt;
+
+
+
+oder schicken Sie uns eine E-Mail an: diesel-schaden@verbraucherrechte24.de
+
+oder mit der Post an:
+VerbraucherRechte24 GmbH
+Abt. Diesel-Skandal
+Albert-Roßhaupter-Str. 32
+81369 München
+
+
+Der Übersendung Ihrer Unterlagen sehen wir mit Freude entgegen.
+
+Haben Sie bereits vorab vielen Dank für Ihre Mühen.
+
+Mit freundlichen Grüßen
+
+
+
+www.verbraucherrechte24.de
+
+VerbraucherRechte24 GmbH
+Albert-Roßhaupter-Straße 32
+81369 München
+
+Geschäftsführer: Steffen Matz, Matthias Hartmann</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

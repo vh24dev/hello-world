@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Dokumente nicht geschickt</description>
+    <encodingKey>UTF-8</encodingKey>
+    <name>LvGeneralRefusalDokumenteNichtGeschicktVh24</name>
+    <style>none</style>
+    <subject>Überprüfung Ihrer Lebensversicherung | Bearbeitungsnummer: {!Opportunity.Number__c}</subject>
+    <textOnly>{!Contact.Salutation__c},
+
+leider konnte ich Sie telefonisch nicht erreichen.
+
+Vor einiger Zeit hatten Sie sich mit einer Kollegin über das Thema Rückabwicklung von Lebensversicherungen bezüglich Ihrer {!Opportunity.Insurance_Name__c} unterhalten. Da Sie diesbezüglich die kostenlose, juristische Prüfung beabsichtigten, wollten Sie uns die Unterlagen zu Ihrem Vertrag zu kommen lassen.
+
+Leider haben wir bislang keine Unterlagen bzw. nicht die notwendigen Unterlagen erhalten.
+
+Da wir bislang nichts weiter von Ihnen gehört haben, werden wir den Vorgang bei uns vorerst schließen.
+
+Sollte noch Interesse an einer Prüfung bestehen, können Sie mich gerne telefonisch unter der 089 124 147 418 oder per Email an die lebensversicherung@verbraucherhilfe24.de erreichen und die geforderten Unterlagen nachreichen.
+
+Mit freundlichen Grüßen
+
+
+{!User.FirstName} {!User.LastName} {!User.Title}
+
+
+
+VH24 GmbH
+Albert-Roßhaupter-Str. 32
+81369 München
+Telefon: 089 - 124 147 418
+Kontakt: office@verbraucherhilfe24.de
+
+www.verbraucherhilfe24.de
+
+Registergericht beim Amtsgericht München unter 371 E - M 1779 als Inkassodienstleister gem. §10 abs. 1 RDG | Handelsregister: HRB 217774 Amtsgericht München | USt-IDNr: DE277526577
+
+Abmelden</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

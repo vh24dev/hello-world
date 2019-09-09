@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Beginn Fristlauf an Erhalt Bedingungen geknüpft</description>
+    <encodingKey>UTF-8</encodingKey>
+    <name>LvLeComWiderspruchAnwaltFehlerBeginnFristlaufAnErhaltGeknüpft</name>
+    <style>none</style>
+    <subject>Fehler: Beginn Fristlauf an Erhalt Bedingungen geknüpft</subject>
+    <type>text</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

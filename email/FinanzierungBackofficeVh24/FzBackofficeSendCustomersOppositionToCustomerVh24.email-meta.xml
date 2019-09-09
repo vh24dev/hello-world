@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Kundenwiderspruchsvorlage an Kunden versenden</description>
+    <encodingKey>UTF-8</encodingKey>
+    <name>FzBackofficeSendCustomersOppositionToCustomerVh24</name>
+    <style>none</style>
+    <subject>{!Opportunity.Number__c} | Wichtige Info: Der Widerruf ist fast geschafft!</subject>
+    <textOnly>{!Contact.Salutation__c},
+
+Sie wurden neulich von uns in Sachen Widerruf Kfz-Finanzierung kontaktiert. Jetzt nur noch das angehängte Formular ausfüllen, an uns zurückschicken und Ihr Widerruf und Rechtsanspruch kann durchgesetzt werden!
+
+Nutzen Sie diese einmalige Chance, Ihr Dieselauto ohne Wertverlust rechtzeitig abzustoßen, bevor noch weitere Skandale oder Fahrverbote den Preisverfall Ihres Autos noch weiter in die Höhe treiben. Das Kfz-Finanzierungs-Team steht jederzeit für Ihre Fragen telefonisch zur Verfügung.
+
+Verlieren Sie keine Zeit und kein Geld und senden Sie bitte gleich heute das ausgefüllte Formular als Scan oder Foto per Email oder mit der Post an uns zurück. Wir kümmern uns dann um alles Weitere!
+
+Senden Sie uns bitte alle erforderlichen Unterlagen komplett ausgefüllt und unterschrieben als PDF per E-Mail an: auto@verbraucherhilfe24.de
+
+Auf postalischen Weg an:
+
+Verbraucherhilfe24
+Abt.: Kfz-Finanzierung
+Albert-Roßhaupter-Str. 32
+81369 München
+
+Oder gerne auch per Fax an: +49 (0)89 124 147 419
+
+Mit diesem Schreiben erklären Sie Ihren Widerspruch gegen Ihren Darlehensvertrag.
+
+Hierauf sollten Sie innerhalb der nächsten 14 - 21 Tage eine Antwort von der Versicherung erhalten. Senden Sie uns diese bitte umgehend zu.
+
+Beste Grüße
+
+{!User.FirstName} {!User.LastName}
+{!User.Title}
+
+
+VH24 GmbH
+Albert-Roßhaupter-Str. 32
+81369 München
+PHONE 089 - 124 147 413
+WEB www.verbraucherhilfe24.de
+VH24 GmbH, Albert-Roßhaupter-Str. 32, 81369 München / Kontakt: office@verbraucherhilfe24.de
+Registergericht beim Amtsgericht München unter 371 E - M 1779 als Inkassodienstleister gem. §10 abs. 1 RDG Handelsregister: HRB 217774 Amtsgericht München USt-IDNr: DE277526577
+Abmelden</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

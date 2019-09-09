@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Rückfrage RSV an Mandant Vorvertraglich mit Task Mdt_AW</description>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Mdt_AW Sonstige Antwort Vorvertraglich</name>
+    <style>none</style>
+    <subject>Rückfrage zum Status Ihrer Rechtsschutzversicherung</subject>
+    <type>text</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

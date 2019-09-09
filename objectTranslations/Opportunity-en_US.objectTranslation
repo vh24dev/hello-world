@@ -1,0 +1,1643 @@
+<?xml version="1.0" encoding="utf-8"?><CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label><!-- AGB Kunde erreicht --></label>
+        <name>AGB_Kunde_erreicht__c</name>
+    </fields>
+    <fields>
+        <label><!-- AGB/Kunde nicht erreicht --></label>
+        <name>AGB_Kunde_nicht_erreicht__c</name>
+    </fields>
+    <fields>
+        <label><!-- Abschluss zwischen 1991 und 2007 --></label>
+        <name>Abschluss_zwischen_1991_und_2007__c</name>
+    </fields>
+    <fields>
+        <label><!-- Absolute Unfall-Todesfallleistung --></label>
+        <name>Accidential_Death_Benefit_Absolute__c</name>
+    </fields>
+    <fields>
+        <label><!-- Prozentuale Unfall-Todesfallleistung --></label>
+        <name>Accidential_Death_Benefit_Percentage__c</name>
+    </fields>
+    <fields>
+        <label><!-- Art der Unfall-Todesfallleistung --></label>
+        <name>Accidential_Death_Benefit_Type__c</name>
+    </fields>
+    <fields>
+        <label><!-- Account Id --></label>
+        <name>Account_Id__c</name>
+    </fields>
+    <fields>
+        <label><!-- Account Name --></label>
+        <name>Account_Name__c</name>
+    </fields>
+    <fields>
+        <help><!-- VH24 oder VR24. --></help>
+        <label><!-- Unternehmen --></label>
+        <name>Account__c</name>
+        <relationshipLabel><!-- Opportunities (Unternehmen) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Active Non-contributory Periods --></label>
+        <name>Active_Non_contributory_Periods__c</name>
+    </fields>
+    <fields>
+        <label><!-- Actual Refund --></label>
+        <name>Actual_Refund__c</name>
+    </fields>
+    <fields>
+        <label><!-- AdWords Campaign --></label>
+        <name>AdWords_Campaign__c</name>
+    </fields>
+    <fields>
+        <label><!-- AdWords Content --></label>
+        <name>AdWords_Content__c</name>
+    </fields>
+    <fields>
+        <label><!-- AdWords Medium --></label>
+        <name>AdWords_Medium__c</name>
+    </fields>
+    <fields>
+        <label><!-- AdWords Source --></label>
+        <name>AdWords_Source__c</name>
+    </fields>
+    <fields>
+        <label><!-- AdWords Term --></label>
+        <name>AdWords_Term__c</name>
+    </fields>
+    <fields>
+        <label><!-- Admin --></label>
+        <name>Admin__c</name>
+    </fields>
+    <fields>
+        <label><!-- Anzahlung --></label>
+        <name>Advance_Payment__c</name>
+    </fields>
+    <fields>
+        <label><!-- Aktenzeichen-Zusatz --></label>
+        <name>Aktenzeichen_Zusatz__c</name>
+    </fields>
+    <fields>
+        <label><!-- Bereits informiert --></label>
+        <name>Already_Informed__c</name>
+    </fields>
+    <fields>
+        <label><!-- Amount In Dispute Clean --></label>
+        <name>Amount_In_Dispute_Clean__c</name>
+    </fields>
+    <fields>
+        <label><!-- Streitwert --></label>
+        <name>Amount_In_Dispute__c</name>
+    </fields>
+    <fields>
+        <label><!-- Erhaltene Beiträge --></label>
+        <name>Amounts_Received__c</name>
+    </fields>
+    <fields>
+        <label><!-- AnfrageFilter --></label>
+        <name>AnfrageFilter__c</name>
+    </fields>
+    <fields>
+        <label><!-- Effektive Jahreszins --></label>
+        <name>Annual_Percentage_Rate__c</name>
+    </fields>
+    <fields>
+        <label><!-- Application Date Clean --></label>
+        <name>Application_Date_Clean__c</name>
+    </fields>
+    <fields>
+        <label><!-- Antragsdatum --></label>
+        <name>Application_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Auftragstyp --></label>
+        <name>Assignment_Type__c</name>
+    </fields>
+    <fields>
+        <label><!-- Abtretung --></label>
+        <name>Assignment__c</name>
+    </fields>
+    <fields>
+        <label><!-- Authorization Count --></label>
+        <name>Authorization_Count__c</name>
+    </fields>
+    <fields>
+        <label><!-- Anzahl Auto-Follow-ups --></label>
+        <name>Auto_Follow_up_Count__c</name>
+    </fields>
+    <fields>
+        <label><!-- Nächstes Auto-Follow-up --></label>
+        <name>Auto_Follow_up_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Automarke --></label>
+        <name>Automarke__c</name>
+    </fields>
+    <fields>
+        <label><!-- Automatisches Follow-up 2 --></label>
+        <name>Automatisches_Follow_up_2__c</name>
+    </fields>
+    <fields>
+        <label><!-- Geplantes Absagedatum --></label>
+        <name>Autoset_Lost_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Follow-up Journeys automatisch starten --></label>
+        <name>Autostart_Auto_Follow_up_Journeys__c</name>
+    </fields>
+    <fields>
+        <label><!-- Verfügbarkeit --></label>
+        <name>Availability__c</name>
+    </fields>
+    <fields>
+        <label><!-- Backoffice Email --></label>
+        <name>Backoffice_Email__c</name>
+    </fields>
+    <fields>
+        <label><!-- Backoffice Name --></label>
+        <name>Backoffice_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Backoffice --></label>
+        <name>Backoffice__c</name>
+        <relationshipLabel><!-- Anfragen (Backoffice) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Kreditinstitut --></label>
+        <name>Bank__c</name>
+        <relationshipLabel><!-- Opportunities (Kreditinstitut) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Vor dem 22.09.2015 gekauft --></label>
+        <name>Before_2015__c</name>
+    </fields>
+    <fields>
+        <label><!-- Bemerkung --></label>
+        <name>Bemerkung_LV__c</name>
+    </fields>
+    <fields>
+        <label><!-- Bestandteil betriebl. Altersvorsorge --></label>
+        <name>Bestandteil_betriebl_Altersvorsorge__c</name>
+    </fields>
+    <fields>
+        <label><!-- Browser --></label>
+        <name>Browser__c</name>
+    </fields>
+    <fields>
+        <label><!-- Budget Confirmed --></label>
+        <name>Budget_Confirmed__c</name>
+    </fields>
+    <fields>
+        <label><!-- BypassProcessBuilder --></label>
+        <name>BypassProcessBuilder__c</name>
+    </fields>
+    <fields>
+        <label><!-- CM Tracking --></label>
+        <name>CM_Tracking__c</name>
+    </fields>
+    <fields>
+        <label><!-- CS Nummer --></label>
+        <name>CS_Number__c</name>
+    </fields>
+    <fields>
+        <label><!-- Calculated Compensation --></label>
+        <name>Calculated_Compensation__c</name>
+    </fields>
+    <fields>
+        <label><!-- Kalenderwoche --></label>
+        <name>Calendar_week__c</name>
+    </fields>
+    <fields>
+        <label><!-- Callcenter --></label>
+        <name>Callcenter__c</name>
+        <relationshipLabel><!-- Anfragen (Callcenter) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Kampagne --></label>
+        <name>Campaign__c</name>
+    </fields>
+    <fields>
+        <label><!-- Widerrufsbelehrung vollständig --></label>
+        <name>Cancellation_Instructions_Complete__c</name>
+    </fields>
+    <fields>
+        <label><!-- Checklist Information Complete --></label>
+        <name>Checklist_Information_Complete__c</name>
+    </fields>
+    <fields>
+        <label><!-- Link zur Checkliste - OLD --></label>
+        <name>Checklist_Link__c</name>
+    </fields>
+    <fields>
+        <label><!-- Claim Count --></label>
+        <name>Claim_Count__c</name>
+    </fields>
+    <fields>
+        <label><!-- Schadensersatz --></label>
+        <name>Claim_For_Compensation__c</name>
+    </fields>
+    <fields>
+        <label><!-- Claims Without Legal Agent --></label>
+        <name>Claims_Without_Legal_Agent__c</name>
+    </fields>
+    <fields>
+        <label><!-- Client Scale Id --></label>
+        <name>Client_Scale_Id__c</name>
+    </fields>
+    <fields>
+        <label><!-- Absagekommentar --></label>
+        <name>Comment_On_Loss__c</name>
+    </fields>
+    <fields>
+        <label><!-- Kommentar --></label>
+        <name>Comment__c</name>
+    </fields>
+    <fields>
+        <label><!-- Gewerbekunde --></label>
+        <name>Commercial_Customer__c</name>
+    </fields>
+    <fields>
+        <label><!-- 300000-Streitwert --></label>
+        <name>Comp2_Amount_In_Dispute__c</name>
+    </fields>
+    <fields>
+        <label><!-- 250000-Streitwert --></label>
+        <name>Comp_Amount_In_Dispute__c</name>
+    </fields>
+    <fields>
+        <label><!-- Unternehmen --></label>
+        <name>Company_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- 300000-Nutzungsentschädigung --></label>
+        <name>Comparison2_Compensation_Use__c</name>
+    </fields>
+    <fields>
+        <label><!-- 250000-Nutzungsentschädigung --></label>
+        <name>Comparison_Compensation_Use__c</name>
+    </fields>
+    <fields>
+        <label><!-- Vergleichs-Kilometer --></label>
+        <name>Comparison_Mileage__c</name>
+    </fields>
+    <fields>
+        <label><!-- Compensation For Use Clean --></label>
+        <name>Compensation_For_Use_Clean__c</name>
+    </fields>
+    <fields>
+        <label><!-- Nutzungsentschädigung --></label>
+        <name>Compensation_For_Use__c</name>
+    </fields>
+    <fields>
+        <label><!-- Vollmacht bestätigt --></label>
+        <name>Confirmed_Authorization__c</name>
+    </fields>
+    <fields>
+        <label><!-- Schadensersatzanspruch bestätigt --></label>
+        <name>Confirmed_Claim_For_Compensation__c</name>
+    </fields>
+    <fields>
+        <label><!-- Datenschutzerklärung bestätigt --></label>
+        <name>Confirmed_Privacy_Statement__c</name>
+    </fields>
+    <fields>
+        <label><!-- AGB bestätigt --></label>
+        <name>Confirmed_Terms_And_Conditions__c</name>
+    </fields>
+    <fields>
+        <label><!-- Contact Invalid --></label>
+        <name>Contact_Invalid__c</name>
+    </fields>
+    <fields>
+        <label><!-- Kunde --></label>
+        <name>Contact__c</name>
+        <relationshipLabel><!-- Anfragen --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Vertragliches Ende Beitragszahlungen --></label>
+        <name>Contractual_Payment_End__c</name>
+    </fields>
+    <fields>
+        <label><!-- Beitrag Lebensversicherung --></label>
+        <name>Contribution_Life_Insurance__c</name>
+    </fields>
+    <fields>
+        <label><!-- Gericht des Gegners --></label>
+        <name>Courtop__c</name>
+    </fields>
+    <fields>
+        <label><!-- CreateDate Lead --></label>
+        <name>CreateDate_Lead__c</name>
+    </fields>
+    <fields>
+        <label><!-- Created Date Old Org --></label>
+        <name>Created_Date_Old_Org__c</name>
+    </fields>
+    <fields>
+        <label><!-- Created Date --></label>
+        <name>Created_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Kreditvertragsnummer --></label>
+        <name>Credit_Contract_Numbe__c</name>
+    </fields>
+    <fields>
+        <label><!-- Aktueller Kilometerstand --></label>
+        <name>Current_Mileage__c</name>
+    </fields>
+    <fields>
+        <label><!-- Link zu Rückrufformular - OLD --></label>
+        <name>Customer_Callback_Link__c</name>
+    </fields>
+    <fields>
+        <label><!-- Link zu Rückrufformular (Staging) - OLD --></label>
+        <name>Customer_Callback_Staging_Link__c</name>
+    </fields>
+    <fields>
+        <label><!-- Kundennummer 5-stellig --></label>
+        <name>Customer_Number_5_Digit__c</name>
+    </fields>
+    <fields>
+        <label><!-- Kundennummer --></label>
+        <name>Customer_Number__c</name>
+    </fields>
+    <fields>
+        <label><!-- Date Commitment Clean --></label>
+        <name>Date_Commitment_Clean__c</name>
+    </fields>
+    <fields>
+        <label><!-- Datumszusage --></label>
+        <name>Date_Commitment__c</name>
+    </fields>
+    <fields>
+        <label><!-- Date Created --></label>
+        <name>Date_Created__c</name>
+    </fields>
+    <fields>
+        <label><!-- Tage seit letztem Statuswechsel --></label>
+        <name>Days_Since_Last_Stage_Change__c</name>
+    </fields>
+    <fields>
+        <label><!-- Absolute Todesfallleistung --></label>
+        <name>Death_Benefit_Absolute__c</name>
+    </fields>
+    <fields>
+        <label><!-- Prozentuale Todesfallleistung --></label>
+        <name>Death_Benefit_Percentage__c</name>
+    </fields>
+    <fields>
+        <label><!-- Art der Todesfallleistung --></label>
+        <name>Death_Benefit_Type__c</name>
+    </fields>
+    <fields>
+        <label><!-- Wertverlust bekannt? --></label>
+        <name>Depreciation_Known__c</name>
+    </fields>
+    <fields>
+        <label><!-- Beschreibung im Ergebnis, Zeile 1 --></label>
+        <name>Description_Row_1__c</name>
+    </fields>
+    <fields>
+        <label><!-- Beschreibung im Ergebnis, Zeile 2 --></label>
+        <name>Description_Row_2__c</name>
+    </fields>
+    <fields>
+        <label><!-- Beschreibung im Ergebnis, Zeile 3 --></label>
+        <name>Description_Row_3__c</name>
+    </fields>
+    <fields>
+        <label><!-- Diesel Code --></label>
+        <name>Diesel_Code__c</name>
+        <picklistValues>
+            <masterLabel>DIESEL1</masterLabel>
+            <translation><!-- DIESEL1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DIESEL2</masterLabel>
+            <translation><!-- DIESEL2 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DIESEL3</masterLabel>
+            <translation><!-- DIESEL3 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>kein Code</masterLabel>
+            <translation><!-- kein Code --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Discovery Completed --></label>
+        <name>Discovery_Completed__c</name>
+    </fields>
+    <fields>
+        <label><!-- Document Count --></label>
+        <name>Document_Count__c</name>
+    </fields>
+    <fields>
+        <label><!-- Link zum Dokumentenupload - OLD --></label>
+        <name>Document_Upload_Link__c</name>
+    </fields>
+    <fields>
+        <label><!-- Link zum Dokumentenupload (Staging)- OLD --></label>
+        <name>Document_Upload_Staging_Link__c</name>
+    </fields>
+    <fields>
+        <label><!-- Dokumente unvollständig --></label>
+        <name>Dokumente_unvollst_ndig__c</name>
+    </fields>
+    <fields>
+        <label><!-- Dokumente vollständig --></label>
+        <name>Dokumente_vollst_ndig__c</name>
+    </fields>
+    <fields>
+        <label><!-- Dokumentenerhalt prüfen --></label>
+        <name>Dokumentenerhalt_pruefen__c</name>
+    </fields>
+    <fields>
+        <label><!-- Duration Check to Claim --></label>
+        <name>Duration_Check_to_Claim__c</name>
+    </fields>
+    <fields>
+        <label><!-- Duration New to Check --></label>
+        <name>Duration_New_to_Check__c</name>
+    </fields>
+    <fields>
+        <label><!-- Dynamisierung --></label>
+        <name>Dynamization__c</name>
+    </fields>
+    <fields>
+        <label><!-- Email Repräsentant --></label>
+        <name>Email_Representative__c</name>
+    </fields>
+    <fields>
+        <label><!-- Email --></label>
+        <name>Email__c</name>
+    </fields>
+    <fields>
+        <label><!-- Abgasnorm --></label>
+        <name>Emission_Standard__c</name>
+    </fields>
+    <fields>
+        <label><!-- Enddatum Finanzierung --></label>
+        <name>Enddatum_Finanzierung__c</name>
+    </fields>
+    <fields>
+        <label><!-- Motorcode --></label>
+        <name>Engine_Code__c</name>
+    </fields>
+    <fields>
+        <label><!-- Motortyp --></label>
+        <name>Engine_Type__c</name>
+    </fields>
+    <fields>
+        <label><!-- Voraussichtliche Kilometer --></label>
+        <name>Expected_Mileage__c</name>
+    </fields>
+    <fields>
+        <label><!-- Ausgabe --></label>
+        <name>Expense__c</name>
+    </fields>
+    <fields>
+        <label><!-- Expiration Date Clean --></label>
+        <name>Expiration_Date_Clean__c</name>
+    </fields>
+    <fields>
+        <label><!-- Versicherungsende --></label>
+        <name>Expiration_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Ext. Review --></label>
+        <name>Ext_Review__c</name>
+    </fields>
+    <fields>
+        <label><!-- External Record Type Id --></label>
+        <name>External_Record_Type_Id__c</name>
+    </fields>
+    <fields>
+        <label><!-- External Sync Date --></label>
+        <name>External_Sync_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Facebook Ad ID --></label>
+        <name>Facebook_Ad_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Facebook Ad Name --></label>
+        <name>Facebook_Ad_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Facebook Campaign ID --></label>
+        <name>Facebook_Campaign_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Facebook Campaign Name --></label>
+        <name>Facebook_Campaign_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Facebook Set ID --></label>
+        <name>Facebook_Set_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Fax --></label>
+        <name>Fax__c</name>
+    </fields>
+    <fields>
+        <label><!-- Schlussrate --></label>
+        <name>Final_Installment__c</name>
+    </fields>
+    <fields>
+        <label><!-- Finanziert von --></label>
+        <name>Financed_by__c</name>
+    </fields>
+    <fields>
+        <label><!-- Finanzierungsvertrag aktiv --></label>
+        <name>Financing_Contract_Active__c</name>
+    </fields>
+    <fields>
+        <label><!-- Finanzierungsvertragsdatum Kategorie --></label>
+        <name>Financing_Contract_Date_Category__c</name>
+    </fields>
+    <fields>
+        <label><!-- Financing Contract Date Clean --></label>
+        <name>Financing_Contract_Date_Clean__c</name>
+    </fields>
+    <fields>
+        <label><!-- Finanzierungsvertragsdatum --></label>
+        <name>Financing_Contract_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Finanzierungsvertrag Gesamtbetrag --></label>
+        <name>Financing_Contract_Total_Value__c</name>
+    </fields>
+    <fields>
+        <label><!-- Finanzierungsart --></label>
+        <name>Financing_Type__c</name>
+    </fields>
+    <fields>
+        <label><!-- Finanzierungsvertrag Gesamtbetrag --></label>
+        <name>Finanzierungsvertrag_Gesamtbetrag__c</name>
+    </fields>
+    <fields>
+        <label><!-- Anzahl Follow-ups --></label>
+        <name>Follow_up_Count__c</name>
+    </fields>
+    <fields>
+        <label><!-- Follow up Journey 1 --></label>
+        <name>Follow_up_Journey_1__c</name>
+    </fields>
+    <fields>
+        <label><!-- Follow up Journey 2 --></label>
+        <name>Follow_up_Journey_2__c</name>
+    </fields>
+    <fields>
+        <label><!-- Follow up Journey 3 --></label>
+        <name>Follow_up_Journey_3__c</name>
+    </fields>
+    <fields>
+        <label><!-- Follow up Journey 4 --></label>
+        <name>Follow_up_Journey_4__c</name>
+    </fields>
+    <fields>
+        <label><!-- Zeit bis Follow-up --></label>
+        <name>Follow_up_Period__c</name>
+    </fields>
+    <fields>
+        <label><!-- Follow-up Variant --></label>
+        <name>Follow_up_Variant__c</name>
+    </fields>
+    <fields>
+        <label><!-- Automatisches Follow-up starten2 --></label>
+        <name>Followup_starten_2__c</name>
+    </fields>
+    <fields>
+        <label><!-- Form Hash 1 --></label>
+        <name>Form_Hash_1__c</name>
+    </fields>
+    <fields>
+        <label><!-- Formular Id --></label>
+        <name>Form_Id__c</name>
+    </fields>
+    <fields>
+        <label><!-- Link zu Formularstufe 2 - OLD --></label>
+        <name>Form_Step_2_Link__c</name>
+    </fields>
+    <fields>
+        <label><!-- Link zu Formularstufe 2 (Staging) - OLD --></label>
+        <name>Form_Step_2_Staging_Link__c</name>
+    </fields>
+    <fields>
+        <label><!-- Link zu Zwischenstufe - OLD --></label>
+        <name>Formstep_0_Link__c</name>
+    </fields>
+    <fields>
+        <label><!-- Link zu Zwischenstufe (Staging) - OLD --></label>
+        <name>Formstep_0_Staging_Link__c</name>
+    </fields>
+    <fields>
+        <label><!-- Zukünftige Ersparnis --></label>
+        <name>Future_Savings__c</name>
+    </fields>
+    <fields>
+        <label><!-- Account --></label>
+        <name>Gericht_des_Kunden__c</name>
+        <relationshipLabel><!-- Opportunities (Account) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Gerichtskosten (GK-RE) --></label>
+        <name>Gerichtskosten_GK_RE__c</name>
+    </fields>
+    <fields>
+        <label><!-- Höhe Finanzierungsbetrag --></label>
+        <name>H_he_Finanzierungsbetrag__c</name>
+    </fields>
+    <fields>
+        <label><!-- Has Financing --></label>
+        <name>Has_Financing__c</name>
+    </fields>
+    <fields>
+        <label><!-- Rechtsschutzversicherung vorhanden --></label>
+        <name>Has_Legal_Protection_Insurance__c</name>
+    </fields>
+    <fields>
+        <label><!-- HerokuID --></label>
+        <name>HerokuID__c</name>
+    </fields>
+    <fields>
+        <label><!-- IP --></label>
+        <name>IP__c</name>
+    </fields>
+    <fields>
+        <label><!-- Inception Date Clean --></label>
+        <name>Inception_Date_Clean__c</name>
+    </fields>
+    <fields>
+        <label><!-- Versicherungsbeginn --></label>
+        <name>Inception_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Inception Year --></label>
+        <name>Inception_Year__c</name>
+    </fields>
+    <fields>
+        <label><!-- Abschlusskosten Ansetzen --></label>
+        <name>Include_Aquisition_Costs__c</name>
+    </fields>
+    <fields>
+        <label><!-- Land des Abschlusses --></label>
+        <name>Insurance_Contract_Country__c</name>
+    </fields>
+    <fields>
+        <label><!-- Insurance Name --></label>
+        <name>Insurance_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Versicherungsnummer --></label>
+        <name>Insurance_Number__c</name>
+    </fields>
+    <fields>
+        <label><!-- Tarifbezeichnung --></label>
+        <name>Insurance_Rate__c</name>
+    </fields>
+    <fields>
+        <label><!-- Versicherungsstatus --></label>
+        <name>Insurance_Status__c</name>
+    </fields>
+    <fields>
+        <label><!-- Versicherungstyp --></label>
+        <name>Insurance_Type__c</name>
+    </fields>
+    <fields>
+        <label><!-- Versicherung --></label>
+        <name>Insurance__c</name>
+        <relationshipLabel><!-- Anfragen (Versicherung) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Versicherte Person 1 Geburtsdatum --></label>
+        <name>Insured_Person_1_Date_Of_Birth__c</name>
+    </fields>
+    <fields>
+        <label><!-- Versicherte Person 1 Vorname --></label>
+        <name>Insured_Person_1_First_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Versicherte Person 1 Geschlecht --></label>
+        <name>Insured_Person_1_Gender__c</name>
+    </fields>
+    <fields>
+        <label><!-- Versicherte Person 1 Nachname --></label>
+        <name>Insured_Person_1_Last_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Versicherte Person 2 Geburtsdatum --></label>
+        <name>Insured_Person_2_Date_Of_Birth__c</name>
+    </fields>
+    <fields>
+        <label><!-- Versicherte Person 2 Vorname --></label>
+        <name>Insured_Person_2_First_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Versicherte Person 2 Geschlecht --></label>
+        <name>Insured_Person_2_Gender__c</name>
+    </fields>
+    <fields>
+        <label><!-- Versicherte Person 2 Nachname --></label>
+        <name>Insured_Person_2_Last_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Versicherte Person 3 Geburtsdatum --></label>
+        <name>Insured_Person_3_Date_Of_Birth__c</name>
+    </fields>
+    <fields>
+        <label><!-- Versicherte Person 3 Vorname --></label>
+        <name>Insured_Person_3_First_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Versicherte Person 3 Geschlecht --></label>
+        <name>Insured_Person_3_Gender__c</name>
+    </fields>
+    <fields>
+        <label><!-- Versicherte Person 3 Nachname --></label>
+        <name>Insured_Person_3_Last_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Vermittler --></label>
+        <name>Intermediary__c</name>
+        <relationshipLabel><!-- Opportunities (Vermittler) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Rechnungsbetrag (netto) --></label>
+        <name>Invoice_Amount__c</name>
+    </fields>
+    <fields>
+        <label><!-- Invoices Without Accounting Agent --></label>
+        <name>Invoices_Without_Accounting_Agent__c</name>
+    </fields>
+    <fields>
+        <label><!-- Is My Opportunity --></label>
+        <name>Is_My_Opportunity__c</name>
+    </fields>
+    <fields>
+        <label><!-- Kaufdatum --></label>
+        <name>Kaufdatum__c</name>
+    </fields>
+    <fields>
+        <label><!-- Letzter Statuswechsel --></label>
+        <name>Last_Stage_Change__c</name>
+    </fields>
+    <fields>
+        <label><!-- Klagemodell --></label>
+        <name>Lawsuit_Type__c</name>
+        <picklistValues>
+            <masterLabel>Antragsmodell</masterLabel>
+            <translation><!-- Antragsmodell --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Policenmodell</masterLabel>
+            <translation><!-- Policenmodell --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Kanzlei --></label>
+        <name>Legal_Account__c</name>
+        <relationshipLabel><!-- Anfragen (Kanzlei) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Gerichtskosten bezahlt --></label>
+        <name>Legal_Charges_Paid__c</name>
+    </fields>
+    <fields>
+        <label><!-- Legal Company Name --></label>
+        <name>Legal_Company_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Anwaltsprozess --></label>
+        <name>Legal_Process_Type__c</name>
+    </fields>
+    <fields>
+        <label><!-- Selbstbehalt für Rechtsschutz --></label>
+        <name>Legal_Protection_Deductible__c</name>
+    </fields>
+    <fields>
+        <label><!-- Rechtsschutzversicherungsnummer --></label>
+        <name>Legal_Protection_Insurance_Number__c</name>
+    </fields>
+    <fields>
+        <label><!-- Rechtsschutzversicherung --></label>
+        <name>Legal_Protection_Insurance__c</name>
+        <relationshipLabel><!-- Anfragen (Rechtsschutzversicherung) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Anwalt --></label>
+        <name>Legal__c</name>
+        <relationshipLabel><!-- Anfragen (Anwalt) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Link Newsletter bestätigen --></label>
+        <name>LinkConfirmNewsletter__c</name>
+    </fields>
+    <fields>
+        <label><!-- Link MFK Einzelklage --></label>
+        <name>Link_MFK_Einzelklage__c</name>
+    </fields>
+    <fields>
+        <label><!-- Link zum Dokumentenupload --></label>
+        <name>Link_zum_Dokumentenupload__c</name>
+    </fields>
+    <fields>
+        <label><!-- Link zum Rückrufformular --></label>
+        <name>Link_zum_Rueckrufformular__c</name>
+    </fields>
+    <fields>
+        <label><!-- Link zur ABG Bestätigung --></label>
+        <name>Link_zur_ABG_Bestaetigung__c</name>
+    </fields>
+    <fields>
+        <label><!-- Link zur Abmeldung --></label>
+        <name>Link_zur_Abmeldung__c</name>
+    </fields>
+    <fields>
+        <label><!-- Location --></label>
+        <name>Location__c</name>
+    </fields>
+    <fields>
+        <label><!-- Loss Reason --></label>
+        <name>Loss_Reason__c</name>
+        <picklistValues>
+            <masterLabel>Lost to Competitor</masterLabel>
+            <translation><!-- Lost to Competitor --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>No Budget / Lost Funding</masterLabel>
+            <translation><!-- No Budget / Lost Funding --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>No Decision / Non-Responsive</masterLabel>
+            <translation><!-- No Decision / Non-Responsive --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation><!-- Other --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Price</masterLabel>
+            <translation><!-- Price --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- MFK Einzelklage Timestamp --></label>
+        <name>MFK_Einzelklage_Timestamp__c</name>
+    </fields>
+    <fields>
+        <label><!-- MFK Einzelklage --></label>
+        <name>MFK_Einzelklage__c</name>
+    </fields>
+    <fields>
+        <label><!-- MFK --></label>
+        <name>MFK__c</name>
+    </fields>
+    <fields>
+        <label><!-- Mandatierungsdatumtest --></label>
+        <name>Mandatierungsdatumtest__c</name>
+    </fields>
+    <fields>
+        <label><!-- Mandatierungstest --></label>
+        <name>Mandatierungstest__c</name>
+    </fields>
+    <fields>
+        <label><!-- Mandatierungsdatum --></label>
+        <name>Mandating_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Kilometerstand bei Kauf --></label>
+        <name>Mileage_On_Purchase__c</name>
+    </fields>
+    <fields>
+        <label><!-- Kilometerstand bei Verkauf --></label>
+        <name>Mileage_On_Sale__c</name>
+    </fields>
+    <fields>
+        <label><!-- Modell --></label>
+        <name>Modell__c</name>
+    </fields>
+    <fields>
+        <label><!-- Modifications Done Clean --></label>
+        <name>Modifications_Done_Clean__c</name>
+    </fields>
+    <fields>
+        <label><!-- Umrüstung bereits erfolgt --></label>
+        <name>Modifications_Done__c</name>
+    </fields>
+    <fields>
+        <label><!-- Monatliche Raten --></label>
+        <name>Monthly_Rate__c</name>
+    </fields>
+    <fields>
+        <label><!-- Keine weiteren Unterlagen vorhanden --></label>
+        <name>No_Further_Documents__c</name>
+    </fields>
+    <fields>
+        <label><!-- Bearbeitungsnummer --></label>
+        <name>Number__c</name>
+    </fields>
+    <fields>
+        <help><!-- Do not manipulate it manually. Used to keep track of pending docgen operations and subsequent email sending. --></help>
+        <label><!-- Number of Pending Vollmacht Docs --></label>
+        <name>Number_of_Pending_Vollmacht_Docs__c</name>
+    </fields>
+    <fields>
+        <label><!-- ON-Account --></label>
+        <name>ON_Account__c</name>
+    </fields>
+    <fields>
+        <label><!-- ON-Verguetungssatz inkl. USt.? --></label>
+        <name>ON_CompensationRateInclTax__c</name>
+    </fields>
+    <fields>
+        <label><!-- ON-Verguetungssatz --></label>
+        <name>ON_CompensationRate__c</name>
+    </fields>
+    <fields>
+        <label><!-- ON-Kundennummer --></label>
+        <name>ON_CustomerNo__c</name>
+    </fields>
+    <fields>
+        <label><!-- Last Error --></label>
+        <name>ON_InvoiceBuildError__c</name>
+    </fields>
+    <fields>
+        <label><!-- Invoice --></label>
+        <name>ON_Invoice__c</name>
+        <relationshipLabel><!-- Anfragen --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Is Line Item --></label>
+        <name>ON_IsItem__c</name>
+    </fields>
+    <fields>
+        <label><!-- Invoice Run --></label>
+        <name>ON_LastInvoiceRun__c</name>
+        <relationshipLabel><!-- Anfragen --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Mailing City --></label>
+        <name>ON_MailingCity__c</name>
+    </fields>
+    <fields>
+        <label><!-- Mailing Country --></label>
+        <name>ON_MailingCountry__c</name>
+    </fields>
+    <fields>
+        <label><!-- Mailing First Name --></label>
+        <name>ON_MailingFirstName__c</name>
+    </fields>
+    <fields>
+        <label><!-- Mailing Last Name --></label>
+        <name>ON_MailingLastName__c</name>
+    </fields>
+    <fields>
+        <label><!-- Mailing Postal Code --></label>
+        <name>ON_MailingPostalCode__c</name>
+    </fields>
+    <fields>
+        <label><!-- Mailing Street --></label>
+        <name>ON_MailingStreet__c</name>
+    </fields>
+    <fields>
+        <label><!-- ON-Mandatierungsdatum --></label>
+        <name>ON_MandateDate__c</name>
+    </fields>
+    <fields>
+        <label><!-- ON-Erstrittener_Betrag --></label>
+        <name>ON_ObtainedAmount__c</name>
+    </fields>
+    <fields>
+        <label><!-- Quantity --></label>
+        <name>ON_Quantity__c</name>
+    </fields>
+    <fields>
+        <label><!-- ON-Anrede --></label>
+        <name>ON_Salutation__c</name>
+    </fields>
+    <fields>
+        <label><!-- Service Date --></label>
+        <name>ON_ServiceDate__c</name>
+    </fields>
+    <fields>
+        <label><!-- ON-USt-Satz --></label>
+        <name>ON_TaxRate__c</name>
+    </fields>
+    <fields>
+        <label><!-- Template --></label>
+        <name>ON_Template__c</name>
+    </fields>
+    <fields>
+        <label><!-- Title --></label>
+        <name>ON_Title__c</name>
+    </fields>
+    <fields>
+        <label><!-- Unit Price --></label>
+        <name>ON_UnitPrice__c</name>
+    </fields>
+    <fields>
+        <label><!-- Old Anfrage ID --></label>
+        <name>Old_Anfrage_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Old Id --></label>
+        <name>Old_Id__c</name>
+    </fields>
+    <fields>
+        <label><!-- Alte Bearbeitungsnummer --></label>
+        <name>Old_Number__c</name>
+    </fields>
+    <fields>
+        <label><!-- OpportunityImpID --></label>
+        <name>OpportunityImpID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Sonstige Finanzierungsart --></label>
+        <name>Other_Financing_Type__c</name>
+    </fields>
+    <fields>
+        <label><!-- Fahrzeughalter ist Unternehmen --></label>
+        <name>Owner_Is_Company__c</name>
+    </fields>
+    <fields>
+        <label><!-- Bisher geleistete Rate --></label>
+        <name>Paid_Installments__c</name>
+    </fields>
+    <fields>
+        <label><!-- Eingezahlte Beiträge --></label>
+        <name>Paid_Up_Contributions__c</name>
+    </fields>
+    <fields>
+        <label><!-- Teilerstattungsbetrag --></label>
+        <name>Partial_Refund__c</name>
+    </fields>
+    <fields>
+        <label><!-- Partner External Id Input --></label>
+        <name>Partner_External_Id_Input__c</name>
+    </fields>
+    <fields>
+        <label><!-- Partner External Id --></label>
+        <name>Partner_External_Id__c</name>
+    </fields>
+    <fields>
+        <label><!-- Partner Id --></label>
+        <name>Partner_Id__c</name>
+    </fields>
+    <fields>
+        <label><!-- Partner --></label>
+        <name>Partner__c</name>
+        <relationshipLabel><!-- Opportunities (Partner) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Passed Follow up Journey2 --></label>
+        <name>Passed_Follow_up_Journey2__c</name>
+    </fields>
+    <fields>
+        <label><!-- Zahlweise --></label>
+        <name>Payment_Term__c</name>
+    </fields>
+    <fields>
+        <label><!-- Auszahlungsbetrag --></label>
+        <name>Payout_Amount__c</name>
+    </fields>
+    <fields>
+        <label><!-- Telefon --></label>
+        <name>Phone__c</name>
+    </fields>
+    <fields>
+        <label><!-- Policy Date Clean --></label>
+        <name>Policy_Date_Clean__c</name>
+    </fields>
+    <fields>
+        <label><!-- Datum des Versicherungsscheins --></label>
+        <name>Policy_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Potential - 20% --></label>
+        <name>Potential_20__c</name>
+    </fields>
+    <fields>
+        <label><!-- Potential --></label>
+        <name>Potential__c</name>
+    </fields>
+    <fields>
+        <label><!-- Prioritätsstufe --></label>
+        <name>Priority_Level__c</name>
+    </fields>
+    <fields>
+        <label><!-- Anspruchstyp --></label>
+        <name>Process_Type__c</name>
+    </fields>
+    <fields>
+        <label><!-- Bearbeitung --></label>
+        <name>Processing_Mode__c</name>
+    </fields>
+    <fields>
+        <label><!-- Product Count --></label>
+        <name>Product_Count__c</name>
+    </fields>
+    <fields>
+        <label><!-- Produkt --></label>
+        <name>Product__c</name>
+    </fields>
+    <fields>
+        <label><!-- Kaufdatum Kategorie --></label>
+        <name>Purchase_Date_Category__c</name>
+    </fields>
+    <fields>
+        <label><!-- Purchase Date Clean --></label>
+        <name>Purchase_Date_Clean__c</name>
+    </fields>
+    <fields>
+        <label><!-- Kaufdatum --></label>
+        <name>Purchase_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Purchase Price Clean --></label>
+        <name>Purchase_Price_Clean__c</name>
+    </fields>
+    <fields>
+        <label><!-- Kaufpreis --></label>
+        <name>Purchase_Price__c</name>
+    </fields>
+    <fields>
+        <label><!-- ROI Analysis Completed --></label>
+        <name>ROI_Analysis_Completed__c</name>
+    </fields>
+    <fields>
+        <label><!-- Absagegrund --></label>
+        <name>Reason_For_Loss__c</name>
+    </fields>
+    <fields>
+        <label><!-- Aktenzeichen --></label>
+        <name>Reference__c</name>
+    </fields>
+    <fields>
+        <label><!-- Referrer --></label>
+        <name>Referrer__c</name>
+    </fields>
+    <fields>
+        <label><!-- Erstattungsbetrag --></label>
+        <name>Refund__c</name>
+    </fields>
+    <fields>
+        <label><!-- Zulassungsdatum --></label>
+        <name>Registration_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- [Delete] Rendite --></label>
+        <name>Return__c</name>
+    </fields>
+    <fields>
+        <label><!-- Wiederspruchvereinbarung fehlt --></label>
+        <name>Revocation_Instruction_Missing__c</name>
+    </fields>
+    <fields>
+        <label><!-- SBMail --></label>
+        <name>SBMail__c</name>
+    </fields>
+    <fields>
+        <label><!-- Verkaufsdatum --></label>
+        <name>Sale_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Verkaufspreis --></label>
+        <name>Sale_Price__c</name>
+    </fields>
+    <fields>
+        <label><!-- Vertriebstyp --></label>
+        <name>Sales_Type__c</name>
+    </fields>
+    <fields>
+        <label><!-- Salutation --></label>
+        <name>Salutation__c</name>
+    </fields>
+    <fields>
+        <label><!-- Zweite Email --></label>
+        <name>Second_Email__c</name>
+    </fields>
+    <fields>
+        <label><!-- 2. Anwalt --></label>
+        <name>Second_Lawyer__c</name>
+        <relationshipLabel><!-- Anfragen (2. Anwalt) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- 2. Kanzlei --></label>
+        <name>Second_Legal_Account__c</name>
+        <relationshipLabel><!-- Anfragen (2. Kanzlei) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Zweites Telefon --></label>
+        <name>Second_Phone__c</name>
+    </fields>
+    <fields>
+        <label><!-- Sent Mail Flag 1 --></label>
+        <name>Sent_Mail_Flag_1__c</name>
+    </fields>
+    <fields>
+        <label><!-- Sent Mail Flag 2 --></label>
+        <name>Sent_Mail_Flag_2__c</name>
+    </fields>
+    <fields>
+        <label><!-- Sent Mail Flag 3 --></label>
+        <name>Sent_Mail_Flag_3__c</name>
+    </fields>
+    <fields>
+        <label><!-- Sent Mail Flag 4 --></label>
+        <name>Sent_Mail_Flag_4__c</name>
+    </fields>
+    <fields>
+        <label><!-- Sent Mail Flag 5 --></label>
+        <name>Sent_Mail_Flag_5__c</name>
+    </fields>
+    <fields>
+        <label><!-- Sent Mail Flag 6 --></label>
+        <name>Sent_Mail_Flag_6__c</name>
+    </fields>
+    <fields>
+        <label><!-- Set Backoffice Date --></label>
+        <name>Set_Backoffice_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Set Callcenter Date --></label>
+        <name>Set_Callcenter_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Set To Check Date --></label>
+        <name>Set_To_Check_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Set To Claim Date --></label>
+        <name>Set_To_Claim_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Set To Lost Date --></label>
+        <name>Set_To_Lost_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Set To New Date --></label>
+        <name>Set_To_New_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Set To On Hold Date --></label>
+        <name>Set_To_On_Hold_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Quelle --></label>
+        <name>Source__c</name>
+    </fields>
+    <fields>
+        <label><!-- Ist an Anwalt übergeben --></label>
+        <name>Stage_is_set_to_Claim__c</name>
+    </fields>
+    <fields>
+        <label><!-- Started Auto-Follow-up Journey 1 --></label>
+        <name>Started_Auto_Follow_up_Journey_1__c</name>
+    </fields>
+    <fields>
+        <label><!-- Started Auto-Follow-up Journey 2 --></label>
+        <name>Started_Auto_Follow_up_Journey_2__c</name>
+    </fields>
+    <fields>
+        <label><!-- Started Auto-Follow-up Journey 3 --></label>
+        <name>Started_Auto_Follow_up_Journey_3__c</name>
+    </fields>
+    <fields>
+        <label><!-- Started Auto-Follow-up Journey 4 --></label>
+        <name>Started_Auto_Follow_up_Journey_4__c</name>
+    </fields>
+    <fields>
+        <label><!-- Started Auto-Follow-up Journey 5 --></label>
+        <name>Started_Auto_Follow_up_Journey_5__c</name>
+    </fields>
+    <fields>
+        <label><!-- Started Auto-Follow-up Journey 6 --></label>
+        <name>Started_Auto_Follow_up_Journey_6__c</name>
+    </fields>
+    <fields>
+        <label><!-- Started Auto-Follow-up Journey 7 --></label>
+        <name>Started_Auto_Follow_up_Journey_7__c</name>
+    </fields>
+    <fields>
+        <label><!-- Started Auto-Follow-up Journey 8 --></label>
+        <name>Started_Auto_Follow_up_Journey_8__c</name>
+    </fields>
+    <fields>
+        <label><!-- Datum Rückkaufswert --></label>
+        <name>Surrender_Value_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Rückkaufswert --></label>
+        <name>Surrender_Value__c</name>
+    </fields>
+    <fields>
+        <label><!-- Tag --></label>
+        <name>Tag__c</name>
+    </fields>
+    <fields>
+        <label><!-- Task Controller --></label>
+        <name>Task_Controller__c</name>
+    </fields>
+    <fields>
+        <label><!-- Kündigungsdatum --></label>
+        <name>Termination_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- [Delete] Bereits gekündigt --></label>
+        <name>Termination__c</name>
+    </fields>
+    <fields>
+        <label><!-- Test --></label>
+        <name>Test__c</name>
+    </fields>
+    <fields>
+        <label><!-- Strecke --></label>
+        <name>Testing_Version__c</name>
+    </fields>
+    <fields>
+        <label><!-- Web form token --></label>
+        <name>Token__c</name>
+    </fields>
+    <fields>
+        <label><!-- URL Abmeldung --></label>
+        <name>URL_Abmeldung__c</name>
+    </fields>
+    <fields>
+        <label><!-- URL Newsletter bestätigen --></label>
+        <name>URL_ConfirmNewsletter__c</name>
+    </fields>
+    <fields>
+        <label><!-- URL Dokumentenupload --></label>
+        <name>URL_Dokumentenupload__c</name>
+    </fields>
+    <fields>
+        <label><!-- URL Rückrufformular --></label>
+        <name>URL_Rueckrufformular__c</name>
+    </fields>
+    <fields>
+        <label><!-- Unique Id --></label>
+        <name>Unique_Id__c</name>
+    </fields>
+    <fields>
+        <label><!-- Fondsgebundener Vertrag --></label>
+        <name>Unit_Linked_Contract__c</name>
+    </fields>
+    <fields>
+        <label><!-- Link zur Abmeldung - OLD --></label>
+        <name>Unsubscribe_Link__c</name>
+    </fields>
+    <fields>
+        <label><!-- Valuation_Date_Clean --></label>
+        <name>Valuation_Date_Clean__c</name>
+    </fields>
+    <fields>
+        <label><!-- Bewertungsdatum --></label>
+        <name>Valuation_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Fahrzeug betroffen --></label>
+        <name>Vehicle_Affected__c</name>
+    </fields>
+    <fields>
+        <label><!-- Fahrzeugmarke --></label>
+        <name>Vehicle_Brand_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Fahrzeughersteller --></label>
+        <name>Vehicle_Brand__c</name>
+        <relationshipLabel><!-- Anfragen (Fahrzeughersteller) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Fahrzeug Identifizierungsnummer --></label>
+        <name>Vehicle_Identification_Number__c</name>
+    </fields>
+    <fields>
+        <label><!-- Stadt --></label>
+        <name>Vehicle_Keeper_City__c</name>
+    </fields>
+    <fields>
+        <label><!-- Land --></label>
+        <name>Vehicle_Keeper_Country__c</name>
+    </fields>
+    <fields>
+        <label><!-- Name --></label>
+        <name>Vehicle_Keeper_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Postleitzahl --></label>
+        <name>Vehicle_Keeper_Postal_Code__c</name>
+    </fields>
+    <fields>
+        <label><!-- Straße --></label>
+        <name>Vehicle_Keeper_Street__c</name>
+    </fields>
+    <fields>
+        <label><!-- Fahrzeugtyp --></label>
+        <name>Vehicle_Type__c</name>
+    </fields>
+    <fields>
+        <label><!-- Versicherung (LV/RV) --></label>
+        <name>Versicherung_LV_RV__c</name>
+    </fields>
+    <fields>
+        <help><!-- Do not manipulate it manually. Used to keep track of pending docgen operations and subsequent email sending. --></help>
+        <label><!-- Vollmacht Email TemplateID --></label>
+        <name>Vollmacht_Email_TemplateID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Vollmacht sent --></label>
+        <name>Vollmacht_sent__c</name>
+    </fields>
+    <fields>
+        <label><!-- 15 Prozent von Kaufpreis --></label>
+        <name>X15_Prozent_von_Kaufpreis__c</name>
+    </fields>
+    <fields>
+        <label><!-- Zufriedenheit Renditenentwicklung --></label>
+        <name>Zufriedenheit_Renditenentwicklung__c</name>
+    </fields>
+    <caseValues>
+        <plural>false</plural>
+        <value>Anfrage</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Anfragen</value>
+    </caseValues>
+    <startsWith>Vowel</startsWith>
+    <recordTypes>
+        <label><!-- Dieselskandal --></label>
+        <name>Dieselskandal</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Finanzierung --></label>
+        <name>Finanzierung</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Lebensversicherung --></label>
+        <name>Lebensversicherung</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Master --></label>
+        <name>Master</name>
+    </recordTypes>
+    <validationRules>
+        <errorMessage><!-- Der Auftragstyp kann nicht RSV sein, wenn keine Rechtsschutzversicherung vorhanden ist. --></errorMessage>
+        <name>Auftragstyp_RSV_and_RSV_false</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Der Auftragstyp kann nicht &quot;Share&quot; sein, wenn eine Rechtsschutzversicherung vorhanden ist. --></errorMessage>
+        <name>Auftragstyp_equals_share_RSV_true</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Bitte wählen Sie einen Absagegrund aus. --></errorMessage>
+        <name>Closed_Lost_Grund</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Anfragen ohne Rechtsschutzversicherung und Motortyp EA189 können nicht an Anwalt oder Finanzierungsprozess übergeben werden. --></errorMessage>
+        <name>DG_Stage_Claim_Requirements</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Kilometerstand bei Kauf darf nicht größer sein als aktueller Kilometerstand. --></errorMessage>
+        <name>Milleage_Not_Bigger_On_Purchase</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Bitte tragen Sie einen Backoffice Mitarbeiter ein. --></errorMessage>
+        <name>Stage_Check_Backoffice_Mitarbeiter</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Es muss eine Rechtsschutzversicherung vorhanden sein. --></errorMessage>
+        <name>Stage_Check_RSV_vorhanden</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Bitte tragen Sie einen Callcenter Mitarbeiter ein. --></errorMessage>
+        <name>Stage_New_Callcenter_Mitarbeiter</name>
+    </validationRules>
+    <webLinks>
+        <label><!-- AGB_Follow_up_planen --></label>
+        <name>AGB_Follow_up_planen</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Ask_Callcenter --></label>
+        <name>Ask_Callcenter</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- CreateTestCase --></label>
+        <name>CreateTestCase</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Did_Not_Receive_Documents --></label>
+        <name>Did_Not_Receive_Documents</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Document_Upload_Link_Legal --></label>
+        <name>Document_Upload_Link_Legal</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Finished_Legal_Check --></label>
+        <name>Finished_Legal_Check</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Finished_Potential_Check --></label>
+        <name>Finished_Potential_Check</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Increase_FollowUp_Doc --></label>
+        <name>Increase_FollowUp_Doc</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Link_zum_Dokumentenupload --></label>
+        <name>Link_zum_Dokumentenupload</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- New_Invoice --></label>
+        <name>New_Invoice</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Opp_Docs_Complete --></label>
+        <name>Opp_Docs_Complete</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Opp_Docs_Incomplete --></label>
+        <name>Opp_Docs_Incomplete</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Opp_Link_To_AGB --></label>
+        <name>Opp_Link_To_AGB</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- RSV_Email --></label>
+        <name>RSV_Email</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Request_Contract --></label>
+        <name>Request_Contract</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Resend_Authorization --></label>
+        <name>Resend_Authorization</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Email_Docs --></label>
+        <name>SDOC__Email_Docs</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- S_Docs --></label>
+        <name>SDOC__S_Docs</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- S_Docs_Translated --></label>
+        <name>S_Docs_Translated</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Send_Email --></label>
+        <name>Send_Email</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Send_Example_Calculation --></label>
+        <name>Send_Example_Calculation</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Send_Example_Calculation_Fz --></label>
+        <name>Send_Example_Calculation_Fz</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Send_Sworn_Statement --></label>
+        <name>Send_Sworn_Statement</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- SetOppLost --></label>
+        <name>SetOppLost</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Set_Opp_Claim --></label>
+        <name>Set_Opp_Claim</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Set_Opp_to_Claim --></label>
+        <name>Set_Opp_to_Claim</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Set_Opportunity_Record_Type --></label>
+        <name>Set_Opportunity_Record_Type</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Set_To_Lost --></label>
+        <name>Set_To_Lost</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- StartOppAutoFollowUp --></label>
+        <name>StartOppAutoFollowUp</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Start_Phone_Call --></label>
+        <name>Start_Phone_Call</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- SyncToLegal --></label>
+        <name>SyncToLegal</name>
+    </webLinks>
+</CustomObjectTranslation>

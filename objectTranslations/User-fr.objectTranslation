@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?><CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label><!-- Account Id --></label>
+        <name>Account_Id__c</name>
+    </fields>
+    <fields>
+        <label><!-- BIC --></label>
+        <name>BIC__c</name>
+    </fields>
+    <fields>
+        <label><!-- Bank --></label>
+        <name>Bank__c</name>
+    </fields>
+    <fields>
+        <label><!-- Bypass process builder --></label>
+        <name>Bypass_process_builder__c</name>
+    </fields>
+    <fields>
+        <label><!-- Bypass validation rule --></label>
+        <name>Bypass_validation_rule__c</name>
+    </fields>
+    <fields>
+        <label><!-- Email Passwort --></label>
+        <name>Email_Password__c</name>
+    </fields>
+    <fields>
+        <label><!-- Email Server --></label>
+        <name>Email_Server__c</name>
+    </fields>
+    <fields>
+        <label><!-- Email User --></label>
+        <name>Email_User__c</name>
+    </fields>
+    <fields>
+        <label><!-- IBAN --></label>
+        <name>IBAN__c</name>
+    </fields>
+    <fields>
+        <label><!-- Local Court --></label>
+        <name>Local_Court__c</name>
+    </fields>
+    <fields>
+        <label><!-- Logo --></label>
+        <name>Logo__c</name>
+    </fields>
+    <fields>
+        <label><!-- Managing Directors --></label>
+        <name>Managing_Directors__c</name>
+    </fields>
+    <fields>
+        <help><!-- CTI Data Connector Login ID --></help>
+        <label><!-- CTI Data Connector Login ID --></label>
+        <name>Mirage__Mirage_OpenCTI_OwnLoginId__c</name>
+    </fields>
+    <fields>
+        <label><!-- Old User ID --></label>
+        <name>Old_User_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Im Auftrag --></label>
+        <name>On_Behalf__c</name>
+    </fields>
+    <fields>
+        <label><!-- Registry Number --></label>
+        <name>Registry_Number__c</name>
+    </fields>
+    <fields>
+        <label><!-- SMTP Password --></label>
+        <name>SMTP_Password__c</name>
+    </fields>
+    <fields>
+        <label><!-- SMTP Port --></label>
+        <name>SMTP_Port__c</name>
+    </fields>
+    <fields>
+        <label><!-- SMTP Server --></label>
+        <name>SMTP_Server__c</name>
+    </fields>
+    <fields>
+        <label><!-- SMTP User --></label>
+        <name>SMTP_User__c</name>
+    </fields>
+    <fields>
+        <label><!-- SSL Required --></label>
+        <name>SSL_Required__c</name>
+    </fields>
+    <fields>
+        <label><!-- Signature File ID --></label>
+        <name>Signature_File_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Signature --></label>
+        <name>Signature__c</name>
+    </fields>
+    <fields>
+        <label><!-- TLS Required --></label>
+        <name>TLS_Required__c</name>
+    </fields>
+    <fields>
+        <label><!-- Vat Number --></label>
+        <name>Vat_Number__c</name>
+    </fields>
+    <fields>
+        <label><!-- Default Marketing Cloud Page --></label>
+        <name>et4ae5__Default_ET_Page__c</name>
+    </fields>
+    <fields>
+        <label><!-- Default MID --></label>
+        <name>et4ae5__Default_MID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Marketing Cloud for AppExchange Admin --></label>
+        <name>et4ae5__ExactTargetForAppExchangeAdmin__c</name>
+    </fields>
+    <fields>
+        <label><!-- Marketing Cloud for AppExchange User --></label>
+        <name>et4ae5__ExactTargetForAppExchangeUser__c</name>
+    </fields>
+    <fields>
+        <label><!-- Marketing Cloud Username --></label>
+        <name>et4ae5__ExactTargetUsername__c</name>
+    </fields>
+    <fields>
+        <label><!-- @deprecated --></label>
+        <name>et4ae5__ExactTarget_OAuth_Token__c</name>
+    </fields>
+    <fields>
+        <label><!-- Valid Marketing Cloud Admin --></label>
+        <name>et4ae5__ValidExactTargetAdmin__c</name>
+    </fields>
+    <fields>
+        <label><!-- Valid Marketing Cloud User --></label>
+        <name>et4ae5__ValidExactTargetUser__c</name>
+    </fields>
+    <fields>
+        <help><!-- Used with the Campaign Monitor connector. Enter the users Campaign Monitor email address. --></help>
+        <label><!-- Campaign Monitor User --></label>
+        <name>wbsendit__Campaign_Monitor_User__c</name>
+    </fields>
+</CustomObjectTranslation>

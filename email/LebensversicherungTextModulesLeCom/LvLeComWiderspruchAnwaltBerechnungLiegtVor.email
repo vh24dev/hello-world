@@ -1,0 +1,7 @@
+Nach den versicherungsmathematischen Berechnungen zur Höhe des Rückabwicklungsanspruchs hat unsere Mandantschaft zum {!Opportunity.Valuation_Date_Clean__c} einen Rückerstattungsanspruch in Höhe von € {!Opportunity.Potential__c}. Zur Begründung der genauen Höhe verweisen wir auf die in der Anlage beigefügte Rückabwicklungsberechnung.
+
+Wir fordern Sie daher namens und in Vollmacht unserer Mandantschaft auf, bis zum
+
+{!Correspondence.Term__c}
+
+den unserer Mandantschaft zustehenden Betrag in Höhe von € {!Opportunity.Potential__c} nebst weiterer Nutzungen seit dem {!Opportunity.Inception_Date_Clean__c} auf unser Konto zu überweisen. Ausweislich der in der Anlage beigefügten Vollmacht sind wir zum Geldempfang bevollmächtigt.

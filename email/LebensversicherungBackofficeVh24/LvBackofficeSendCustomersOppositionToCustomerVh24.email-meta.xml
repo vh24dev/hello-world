@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Widerspruchsschreiben im Anhang</description>
+    <encodingKey>UTF-8</encodingKey>
+    <name>LvBackofficeSendCustomersOppositionToCustomerVh24</name>
+    <style>none</style>
+    <subject>{!Correspondence__c.Claim__r.Opportunity__r.Number__c}: Ihre Anfrage zur Vertragsprüfung</subject>
+    <textOnly>{!Contact.Salutation__c},
+
+vielen Dank für die Einsendung der Vollmachten. Diese haben wir erhalten und Ihre Dokumente sind nun vollständig.
+
+Ihr Potential liegt bei ca. {!Correspondence__c.Claim__r.Opportunity__r.Potential_20__c} €.
+
+Im nächsten Schritt leiten wir das Widerspruchsverfahren ein.
+
+Mit diesem Schreiben erklären Sie Ihren Widerspruch gegen Ihren Versicherungsvertrag.
+
+Anbei senden wir Ihnen das vorgefertigte Widerspruchsschreiben im Anhang zu, mit der Bitte dieses unterschrieben an uns zurückzusenden.
+
+
+Bitte beachten:
+
+Senden Sie das im Anhang hinterlegte Widerspruchsschreiben bitte unterschrieben:
+
+-an unsere Fax-Nummer +49 (89) 124 14 74 19
+
+-per Post an:
+Verbraucherhilfe24
+Abt. Lebensversicherung
+Albert-Roßhaupter-Str. 32
+81369 München
+
+-oder gerne auch als PDF per E-Mail an: lebensversicherung@verbraucherhilfe24.de
+
+
+Hierauf sollten Sie innerhalb der nächsten 14 - 21 Tage eine Antwort von der Versicherung erhalten. Senden Sie uns diese bitte umgehend zu.
+
+Ab diesem Zeitpunkt haben wir einen juristischen Fall und können, falls die Versicherung den Widerspruch zurückweist oder ein zu niedriges Vergleichsangebot unterbreitet, unseren Partneranwalt einschalten. Dies besprechen wir zu gegebener Zeit.
+
+Bei Fragen stehe ich Ihnen gerne zur Verfügung.
+
+Mit freundlichen Grüßen
+
+
+{!User.FirstName} {!User.LastName} {!User.Title}
+
+
+
+
+VH24 GmbH
+Albert-Roßhaupter-Str. 32
+81369 München
+Telefon: 089 - 124 147 418
+Kontakt: office@verbraucherhilfe24.de
+
+www.verbraucherhilfe24.de
+
+Registergericht beim Amtsgericht München unter 371 E - M 1779 als Inkassodienstleister gem. §10 abs. 1 RDG | Handelsregister: HRB 217774 Amtsgericht München | USt-IDNr: DE277526577
+
+Abmelden&gt;</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

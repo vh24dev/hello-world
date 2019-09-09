@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>false</available>
+    <description>9. Erinnerung - New</description>
+    <encodingKey>UTF-8</encodingKey>
+    <name>LvGeneralAutoFollowUpLostFromNew9Vr24</name>
+    <style>none</style>
+    <subject>Betreff: [Daten vervollständigen] Hilfe im Dieselskandal nur bis 31.12. - {!Contact.FirstName} {!Contact.LastName}</subject>
+    <textOnly>{!Contact.Salutation__c},
+
+es ist nun schon einige Zeit her, dass Sie einen Antrag auf Schadensersatz für Ihr Dieselfahrzeug gestellt haben. Mir möchten Sie freundlich daran erinnern,
+Ihre Daten zu vervollständigen. Dabei ist eine Klage ganz einfach: 5 Klicks und wir übernehmen den Rest für Sie:
+
+Daten vervollständigen und Klage einreichen
+
+(Wichtig: Der Anspruch auf Schadensersatz endet am 31.12.2018)
+
+Es geht um Ihr Geld, zögern Sie daher nicht, denn es gilt in diesem Fall Fristen einzuhalten.
+Danach ist es zu spät.
+
+Haben Sie noch Fragen dazu?
+
+Rufen Sie uns doch einfach an:
+089 - 124 147 413
+
+Oder teilen Sie uns einfach per Email mit wann Sie am besten erreichbar sind: vormittags, nachmittags, abends.
+
+Unsere Spezialisten zu diesem Thema beraten Sie kostenlos!
+
+Ihre Bearbeitungsnummer: {!Opportunity.Number__c}
+
+Sollten Sie nicht mehr an einer Klage gegen Ihren Autohersteller interessiert sein, können Sie Ihre Anfrage stornieren.
+
+
+Wir freuen uns darauf, für Sie tätig zu werden.
+
+
+Mit freundlichen Grüßen
+
+
+
+www.verbraucherrechte24.de
+
+VerbraucherRechte24 GmbH
+Albert-Roßhaupter-Straße 32
+81369 München
+
+Geschäftsführer: Steffen Matz, Matthias Hartmann</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

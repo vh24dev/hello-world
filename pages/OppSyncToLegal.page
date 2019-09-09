@@ -1,0 +1,12 @@
+<apex:page standardController="Opportunity" extensions="OppSyncToLegal" showheader="false">
+    <apex:pageBlock title="An Extern Übergeben">
+        <apex:form >
+            <apex:pageBlockSection showHeader="false">
+                <apex:selectList size="1" value="{!legal}">
+                    <apex:selectOptions value="{!legals}"/>
+                </apex:selectList>
+            </apex:pageBlockSection>
+            <apex:commandButton value="sync" action="{!renderPage}" />
+        </apex:form>
+    </apex:pageBlock>
+</apex:page>

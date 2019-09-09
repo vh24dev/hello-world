@@ -1,0 +1,29 @@
+{!Contact.Salutation__c}, 
+
+in vorbezeichneter Angelegenheit möchten wir Ihnen mitteilen, dass wir in Ihrer Angelegenheit gegen die {!Claim__c.Opportunity__r.Insurance_Name__c} in Bearbeitung treten. 
+
+Derzeit befinden wir uns mit einem gleichartigen Fall (Präzedenzfall) auf dem Klageweg und möchten hier ein Urteil abwarten, um anschließend Ihre Angelegenheit gegebenenfalls nachzuziehen. 
+
+Die Verbraucherrechte24 wird nach Urteilsverkündung unaufgefordert auf Sie zukommen, um weitere Schritte zu besprechen. 
+
+Rein vorsorglich möchten wir Sie noch auf Folgendes hinweisen: 
+Der Rückforderungsanspruch gegen eine Lebens- oder Rentenversicherung nach ausgeübtem Widerspruch verjährt drei Jahre zum Ende des Jahres, in dem der Widerspruch erklärt wurde. Nach den uns vorliegenden Unterlagen gehen wir davon aus, dass erstmals durch Sie im Jahr 2017 der Widerspruch erklärt wurde, so dass in diesem Fall der Rückforderungsanspruch aus Verjährungsgesichtspunkten spätestens zum 31.12.2020 gerichtlich geltend gemacht werden muss. Eine Verwirkung der Ansprüche kann u.U. früher eintreten. 
+
+Wir weisen darauf hin, dass wir ohne ausdrückliche Beauftragung – die derzeit nicht vorliegt – keine gesetzlichen oder vertraglichen Fristen überwachen und keine verjährungshemmenden Maßnahmen einleiten werden. Bitte wenden Sie sich hierzu an die Verbraucherrechte24. 
+
+Mit freundlichen Grüßen 
+
+
+Rechtsanwalt Dr. Henning Leitz 
+Partner 
+
+CLLB Rechtsanwälte 
+Cocron, Liebl, Leitz, Braun, Kainz, Sittner Partnerschaft mbB München - Berlin 
+
+Liebigstr. 21 
+80538 München 
+Tel.: +49-89-552 999 50 
+Fax.:+49-89-552 999 90 
+mail: kanzlei@cllb.de 
+
+Ref-Nr: {!Claim__c.Id}

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>RSV verweigert Deckung AG, Unten</description>
+    <encodingKey>UTF-8</encodingKey>
+    <name>DieselJägerTextModuleRsvVerweigertDeckungAgUnten</name>
+    <style>none</style>
+    <subject>TitelRsvVerweigertDeckungAg, unten</subject>
+    <type>text</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

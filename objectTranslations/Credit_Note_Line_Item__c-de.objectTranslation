@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?><CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label><!-- USt. berechnen --></label>
+        <name>Calculate_Vat__c</name>
+    </fields>
+    <fields>
+        <label><!-- Gutschrift --></label>
+        <name>Credit_Note__c</name>
+        <relationshipLabel><!-- Gutschriftspositionen --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Beschreibung --></label>
+        <name>Description__c</name>
+    </fields>
+    <fields>
+        <label><!-- Old Gutschriftsposition ID --></label>
+        <name>Old_Gutschriftsposition_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Old Id --></label>
+        <name>Old_Id__c</name>
+    </fields>
+    <fields>
+        <label><!-- Opportunity Id --></label>
+        <name>Opportunity_Id__c</name>
+    </fields>
+    <fields>
+        <label><!-- Honorar --></label>
+        <name>Price__c</name>
+    </fields>
+    <fields>
+        <label><!-- Bezeichnung --></label>
+        <name>Subject__c</name>
+    </fields>
+    <caseValues>
+        <caseType>Nominative</caseType>
+        <plural>false</plural>
+        <value>Gutschriftsposition</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Nominative</caseType>
+        <plural>true</plural>
+        <value>Gutschriftspositionen</value>
+    </caseValues>
+    <gender>Feminine</gender>
+</CustomObjectTranslation>

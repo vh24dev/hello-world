@@ -1,0 +1,52 @@
+<span style="font-size:13px;"><span style="font-family: arial, helvetica, sans-serif;">
+<b>Bestätigung Teilnahme MFK </b>
+<p>
+{!Contact.Salutation__c},
+<p>
+es ist nun eine Weile her, dass Sie auf unserer Seite eine Anfrage zur Durchsetzung Ihrer Verbraucherrechte im Dieselskandal gestellt haben. 
+<br/>Ihre Geduld hat sich gelohnt, denn die Rechtslage hat sich eindeutig zu Ihren Gunsten entwickelt.
+<br/>Wir können jetzt im Rahmen der Musterfeststellungsklage die Rechtsdurchsetzung für Sie anstoßen und benötigen dafür lediglich Ihre Zustimmung.
+<p>
+Bitte hier Ihre Zustimmung erteilen: 
+<p>
+<a href="{!Test_Case__c.URL_ConfirmationLink__c}" rel="noopener noreferrer" target="_blank"><b>Ja, ich möchte an der MFK teilnehmen!</b></a>
+<p>
+Handeln Sie unbedingt jetzt, denn die Verjährungsfrist läuft Ende 2018 ab. Danach ist es zu spät! 
+<span style="font-size:15px;"><span style="font-family: arial, helvetica, sans-serif;">
+<br/><b>Daher bitte um Teilnahmebestätigung bis zum 19. Dezember 2018 *).</b>
+ <br/>
+<span style="font-size:11px;"><span style="font-family: arial, helvetica, sans-serif;">
+<i>*) sollten Sie sich bis zum 19.12.2018 nicht anmelden, gehen wir davon aus, dass Sie kein Interesse an der Teilnahme bei der MFK haben. Ihre bereits erteilte Mandatierung im Dieselskandal wäre dann nicht mehr gültig.</i>
+<p>
+<span style="font-size:15px;"><span style="font-family: arial, helvetica, sans-serif;">
+<b>Musterfeststellungsklage - Warum mit VR24?</b>
+<p>
+<span style="font-size:13px;"><span style="font-family: arial, helvetica, sans-serif;">
+<b>Eine Anmeldung über die VR24 bietet entscheidende Vorteile:</b>
+<p>
+<ol>
+<li>Kostenfreie Anmeldung zur Musterfeststellungsklage<br/></li>
+<li>Parallel zur Musterfeststellungsklage kann durch die Partneranwälte der VR24 
+bereits mit VW verhandelt werden<br/></li> 
+<li>Im Einzelfall können deutlich schnellere Ergebnisse erzielt werden, da der Ausgang 
+der Musterfeststellungsklage – voraussichtliche Dauer 1,5 bis 2 Jahre - nicht zwingend abgewartet werden muss. <br/></li>
+<li>Es besteht jederzeit die Möglichkeit auf Entwicklungen der Rechtsprechung zu 
+reagieren und gegebenenfalls die Anmeldung eines betroffenen Kunden zurückzunehmen und eine individuelle Klage zu erheben. <br/></li>
+<li>Mit der Anmeldung über VR24 stellen Sie sicher, dass alle formellen Anforderungen 
+und Fristen rechtssicher eingehalten werden.</li></ol> 
+<p>
+<p>
+Sollten Sie nicht mehr an einer Klage gegen Ihren Autohersteller interessiert sein, können Sie hier Ihr <a href="{!Opportunity.URL_Abmeldung__c}" rel="noopener noreferrer" target="_blank"><b>Mandat widerrufen</b></a>
+<p>
+Wir freuen uns darauf, für Sie tätig zu werden.
+<p>
+Mit freundlichen Grüßen
+<p>
+i. A. {!User.FirstName} {!User.LastName} 
+<p><img style="width: 200px; height: 54px;" src="https://daks2k3a4ib2z.cloudfront.net/58d0ccc5a30805a8243d5fd9/58d22446e07be4a234dc816e_Verbraucherrechte_Logo_Lay01.png" alt="" /></p>
+<p><a href="http://www.verbraucherrechte24.de" target="_blank">www.verbraucherrechte24.de</a></p>
+<p><span style="font-family: Calibri, Verdana, Arial, sans-serif; font-size: 11px;"> VerbraucherRechte24 GmbH<br /> Albert-Ro&szlig;haupter-Stra&szlig;e 32<br /> 81369 M&uuml;nchen </span></p>
+<p><span style="font-family: Calibri, Verdana, Arial, sans-serif; font-size: 11px;"> Gesch&auml;ftsf&uuml;hrer: Steffen Matz, Matthias Hartmann </span></p>
+<p><span style="font-family: Calibri, Verdana, Arial, sans-serif; font-size: 11px;">in Zusammenarbeit mit dem eingetragenen Rechtsdienstleister:</span></p>
+<p><span style="font-family: Calibri, Verdana, Arial, sans-serif; font-size: 9px;">
+<a href="{!Opportunity.URL_Abmeldung__c}" target="_blank"><span style="color: #0000cd;"><b>Abmelden</b></a>

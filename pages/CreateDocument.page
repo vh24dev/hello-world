@@ -1,0 +1,8 @@
+<apex:page controller="CreateDocController" showHeader="false" action="{! createDoc}">
+    <apex:pageBlock title="In Bearbeitung...">
+       <apex:form >
+            <apex:actionFunction name="createDoc" action="{! createDoc}"/>
+            <apex:outputLabel value="Bitte warten. Das Dokument wird erzeugt."/>
+       </apex:form>
+    </apex:pageBlock>
+</apex:page>

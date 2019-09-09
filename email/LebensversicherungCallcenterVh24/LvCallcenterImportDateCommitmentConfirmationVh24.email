@@ -1,0 +1,80 @@
+<span style="font-size:13px;"><span style="font-family: arial, helvetica, sans-serif;">
+{!Contact.Salutation__c}, 
+<p>
+vielen Dank für das freundliche Gespräch. 
+<p>
+Als zugelassener Rechtsdienstleister ermitteln und archivieren wir bedeutsame Urteile aus dem verbraucherrechtlichen Bereich und unterstützen Kunden durch zielführende Leistungen, ihr Recht und ihr Geld (zurück) zu bekommen. 
+<p>
+Unser Team besteht aus Bank- und Finanzfachwirten sowie spezialisierten Anwälten mit viel Erfahrung im Durchsetzen von Verbraucherrechten, insbesondere im Thema Rückabwicklung von Lebensversicherungen. 
+<p>
+Nutzen auch Sie unser starkes Netzwerk und unsere Erfahrung aus über 45.000 bearbeiteten Verträgen. 
+<p>
+Die Aufgabe von VerbraucherRechte24 besteht in der Unterstützung bei der Durchsetzung Ihrer Rechte gegenüber Banken, Versicherungen und Konzernen – ohne Kostenrisiko für Sie. 
+<p>
+<p>
+Weitere Informationen über unsere Tätigkeitsschwerpunkte erhalten Sie unter: 
+www.verbraucherhilfe24.de/lebens-und-rentenversicherung/ 
+<p>
+<p>
+Wie funktioniert die Rückabwicklung Ihrer Lebensversicherungen? 
+<p>
+1. Wir lassen für Sie Lebens- und Rentenversicherungen, die im Zeitraum vom 1. Januar 1991 bis 31. Dezember 2007 abgeschlossen worden sind, von spezialisierten Anwälten prüfen. 
+<p>
+Eine Anspruchsgrundlage liegt vor, wenn Sie über Ihr Widerrufsrecht nicht ordnungsgemäß belehrt wurden sind oder formale Fehler gemacht wurden. Dies ist nach unserer Erfahrung bei CMI / Clerical Medical häufig der Fall (auch zahlreiche weitere Gesellschaften sind betroffen). 
+<p>
+<p>
+Betroffen sind gekündigte, laufende und regulär abgelaufene Lebens -und Rentenversicherungen. 
+<br/>Für die Erstprüfung benötigen wir idealerweise: 
+<p>
+Bei laufenden Verträgen: 
+<p>
+- Bestmöglich ausgefüllte Checkliste (siehe Anlage) 
+<br/>- Rückkaufswert (sollte nicht älter als 3 Monate sein) 
+<p>
+Bei gekündigten Verträgen: 
+<p>
+- Bestmöglich ausgefüllte Checkliste 
+<br/>- Höhe des ausgezahlten Rückkaufswertes inkl. Abrechnung des Versicherers 
+<p>
+<p>
+Je mehr Unterlagen Sie zur Verfügung stellen können, desto hilfreicher ist dies für die Anwälte. 
+<br/>Die Überprüfung Ihrer Verträge durch auf Clerical Medical spezialisierte Anwälte ist für Sie selbstverständlich kostenfrei.
+<p>
+<p>
+Bitten senden Sie uns die beigefügte ausgefüllte Checkliste und Ihre Unterlagen zurück und geben Sie bitte Ihre persönliche Bearbeitungsnummer an: {!Opportunity.Number__c} 
+<p>
+Antworten Sie auf unsere Mail oder schicken Sie eine E-Mail an: 
+<br/>lebensversicherung@verbraucherhilfe24.de 
+<p>
+oder 
+<br/>per Fax an: 
+<p>
+089 124 147 419
+<p>
+oder 
+<br/>mit der Post an: 
+<p>
+VerbraucherHilfe24 GmbH 
+<br/>Abt. Lebensversicherung 
+<br/>Albert-Roßhaupter-Str. 32 
+<br/>81369 München 
+<p>
+<p>
+Bei Rückfragen, rufen Sie mich gerne an unter meiner Nummer: {!User.Phone} oder schreiben Sie mir eine E-Mail: lebensversicherung@verbraucherhilfe24.de 
+<p>
+Mit freundlichen Grüßen 
+<br/>{!User.FirstName} {!User.LastName} 
+{!User.Title}
+<p>
+<p><img alt="" src="https://www.verbraucherhilfe24.de/wp-content/uploads/v24-logo-1.png" /></p>
+<span style="font-size:11px;"><span style="Calibri Light;">
+VH24 GmbH<br/>
+Albert-Roßhaupter-Str. 32<br/>
+81369 München<br/>
+Telefon: <b>089 - 124 147 418</b><br/>
+Kontakt: office@verbraucherhilfe24.de
+<p>
+www.verbraucherhilfe24.de
+<p>
+Registergericht beim Amtsgericht München unter 371 E - <b>M 1779 als Inkassodienstleister gem. §10 abs. 1 RDG</b> | Handelsregister: HRB 217774 Amtsgericht München | USt-IDNr: DE277526577
+<p><a href="{!Opportunity.URL_Abmeldung__c}" target="_blank"><span style="color: #0000cd;"><b>Abmelden</b></a>

@@ -1,0 +1,12 @@
+<apex:page pageStyle="" wizard="false" sidebar="true" standardStylesheets="false" showHeader="false" showQuickActionVfHeader="false" docType="html">
+    <apex:composition template="{!$Site.Template}">
+        <apex:define name="body">
+            <h3>
+                Sie wurden erfolgreich abgemeldet
+            </h3>
+            <p>
+                Schade, dass Sie uns verlassen! Wenn Sie Ihre Meinung ändern kontaktieren Sie uns wieder.
+            </p>
+        </apex:define>
+    </apex:composition>
+</apex:page>

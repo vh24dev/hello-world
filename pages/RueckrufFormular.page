@@ -1,0 +1,19 @@
+<apex:page docType="html" controller="RueckrufFormularController" action="{!init}" pageStyle="" wizard="false" sidebar="false" standardStylesheets="false" showHeader="false" showQuickActionVfHeader="false">
+    <apex:composition template="DieselskandalTemplate">
+        <apex:define name="title"> Dieselskandal</apex:define>
+        <apex:define name="body">
+            <h2>Wir rufen Sie gerne zurück.</h2>
+            <p>Gewünschtes Zeitfenster für einen Anruf:</p>
+            <apex:form >
+                <div class="checktime">
+                    <apex:selectCheckboxes value="{!timeSel}" required="true">
+                        <apex:selectOptions value="{!timeOptions}"/>
+                    </apex:selectCheckboxes>
+                </div>
+                <apex:commandButton action="{!confirm}" value="RÜCKRUF ANFORDERN"/>
+                <br />
+                <br />
+            </apex:form>
+        </apex:define>
+    </apex:composition>
+</apex:page>

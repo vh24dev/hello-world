@@ -1,0 +1,20 @@
+{!Contact.Salutation__c}, 
+
+ausweislich Ihres Versicherungsvertrages haben Sie mit Ihrer Rechtsschutzversicherung eine Selbstbeteiligung vereinbart. Anbei übersenden wir Ihnen in der Anlage eine entsprechende Kostennote verbunden mit der Bitte um zeitnahen Ausgleich des Rechnungsbetrages. 
+
+Mit freundlichen Grüßen 
+
+
+Rechtsanwalt Dr. Henning Leitz 
+Partner 
+
+CLLB Rechtsanwälte 
+Cocron, Liebl, Leitz, Braun, Kainz, Sittner Partnerschaft mbB München - Berlin 
+
+Liebigstr. 21 
+80538 München 
+Tel.: +49-89-552 999 50 
+Fax.:+49-89-552 999 90 
+mail: kanzlei@cllb.de 
+
+Ref-Nr: {!Claim__c.Id}

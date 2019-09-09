@@ -1,0 +1,25 @@
+Sehr geehrte/r {!Contact.Salutation} {!Contact.LastName}, 
+
+Ihr Fahrzeughersteller, bzw. Motorhersteller, hat eine Einigung im außergerichtlichen Verfahren abgelehnt. 
+
+Da Ihr Fall nicht durch eine Rechtsschutzversicherung abgedeckt ist, 
+werden Sie durch uns im Rahmen von gesammelten Klagen, nach erfolgreichen Grundsatzurteilen, im Laufe des Jahres 2018 vertreten. 
+Wir werden Sie im Rahmen der Vorbereitungen der gesammelten Klagen dann entsprechend über das weitere Vorgehen informieren. 
+
+Mit freundlichen Grüßen 
+
+
+{!Claim__c.Legal__r.Name} 
+{!Claim__c.Legal__r.Title} 
+
+
+{!Claim__c.Legal__r.CompanyName} 
+{!Claim__c.Legal__r.Street} 
+{!Claim__c.Legal__r.PostalCode} {!Claim__c.Legal__r.City} 
+
+
+Tel.: +49 (0) 89 41 32 433-0
+Fax: {!Claim__c.Legal__r.Fax} 
+Email: {!Claim__c.Legal__r.Email} 
+Web: www.ra-lachmair.de
+Ref-Nr: {!Claim__c.Id}

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>1. Erinnerung zum Dokumentenupload nach Anmeldung</description>
+    <encodingKey>UTF-8</encodingKey>
+    <name>DieselskandalGeneralAutoFollowUpNoDocuments1Vr24</name>
+    <style>none</style>
+    <subject>Bitte schicken Sie uns Ihre Dokumente | Ihr Service-Team der VerbraucherRechte24 | Ihre Bearbeitungsnummer: {!Opportunity.Number__c}</subject>
+    <textOnly>{!Contact.Salutation__c},
+
+
+
+wir haben Ihre Fahrzeugangaben und Ihren Auftrag erhalten. Wir werden umgehend die nächsten Schritte einleiten, um Ihre Verbraucherrechte durchzusetzen. Selbstverständlich informieren wir Sie kontinuierlich über den Stand der Dinge.
+
+Um ein schnelles Vorankommen zu ermöglichen, benötigen wir noch Unterlagen von Ihnen.
+
+Bitte übersenden Sie uns zeitnah:
+
+1. Die Kopie Ihres Fahrzeugscheins (Vorder- und Rückseite)
+2. Ihre Fahrzeug-Rechnung oder das Angebot in Kopie
+3. Die unterschriebene anwaltliche Vollmacht (im Anhang)
+
+Nutzen Sie dazu einfach folgenden Link:
+
+Dokumente hochladen
+
+Tipp: Wenn Sie den Link mit Ihrem Smartphone aufrufen, können Sie schnell und einfach ein Bild von den Dokumenten mit Ihrer Handy-Kamera aufnehmen und die Unterlagen sofort hochladen.
+
+Oder senden Sie uns eine E-Mail mit den Unterlagen an:
+
+diesel-schaden@verbraucherrechte24.de
+
+
+
+oder per Post an:
+
+Verbraucherrechte24
+Abt. Diesel-Skandal
+Albert-Roßhaupter-Str. 32
+81369 München
+
+Mit freundlichen Grüßen
+
+
+www.verbraucherrechte24.de
+
+VerbraucherRechte24 GmbH
+Albert-Roßhaupter-Straße 32
+81369 München
+
+Geschäftsführer: Steffen Matz, Matthias Hartmann
+
+Abmelden</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

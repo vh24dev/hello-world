@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>3. Erinnerung zum Dokumentenupload nach Anmeldung</description>
+    <encodingKey>UTF-8</encodingKey>
+    <name>DieselskandalGeneralAutoFollowUpNoDocuments3Vr24</name>
+    <style>none</style>
+    <subject>Dieselskandal: Noch ist es nicht zu spät! - Reichen Sie fehlende Unterlagen ein</subject>
+    <textOnly>{!Contact.Salutation__c},
+
+
+bis jetzt haben wir von Ihnen keine Unterlagen erhalten. Diese sind essentiell, um Ihre Verbraucherrechte durchsetzen zu können und Schadenersatz im Abgasskandal zu fordern.
+
+Es geht ganz einfach! Noch ist es nicht zu spät.
+
+Folgende Dokumente, benötigen wir unbedingt von Ihnen:
+
+1. Die Kopie Ihres Fahrzeugscheins (Vorder- und Rückseite)
+2. Ihre Fahrzeug-Rechnung oder das Angebot in Kopie
+3. Die unterschriebene anwaltliche Vollmacht (im Anhang)
+
+
+Laden Sie hier bequem und schnell Ihre Dokumente hoch
+
+Tipp: Öffnen Sie den Link mit Ihrem Smartphone, machen Sie direkt ein Bild von den Dokumenten mit Ihrer Handy-Kamera und laden die Dokumente mühelos hoch.
+
+Alternativ senden Sie uns eine E-Mail an:
+
+diesel-schaden@verbraucherrechte24.de
+
+oder schicken die benötigten Unterlagen per Post an:
+
+Verbraucherrechte24
+Abt. Diesel-Skandal
+Albert-Roßhaupter-Str. 32
+81369 München
+
+Alsbald Ihre Unterlagen bei uns eintreffen, werden wir unverzüglich aktiv. Natürlich setzen wir Sie über Neuigkeiten augenscheinlich in Kenntnis.
+
+Mit freundlichen Grüßen
+
+
+www.verbraucherrechte24.de
+
+VerbraucherRechte24 GmbH
+Albert-Roßhaupter-Straße 32
+81369 München
+
+Geschäftsführer: Steffen Matz, Matthias Hartmann
+
+Abmelden</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

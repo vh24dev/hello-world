@@ -1,0 +1,21 @@
+in vorbezeichneter Angelegenheit bedanken wir uns zunächst für die Erteilung der Deckungszusage für die 1. Instanz und übersenden Ihnen anbei die Anträge, welche wir in der mündlichen Verhandlung höchstwahrscheinlich stellen werden:
+
+Die Klageanträge werden wie folgt lauten: 
+
+1.	Die Beklagte wird verurteilt, Zug um Zug gegen Übereignung des Fahrzeugs der Marke {!Opportunity.Vehicle_Brand_Name__c} mit der Fahrgestellnummer {!Opportunity.Vehicle_Identification_Number__c} an die Klagepartei {!Opportunity.Amount_In_Dispute_Clean__c} nebst Zinsen 
+
+a.	in Höhe von 4% aus {!Opportunity.Purchase_Price_Clean__c} vom {!Opportunity.Purchase_Date_Clean__c} bis zum XX.XX.2018 sowie 
+b.	in Höhe von 5 Prozentpunkten über dem jeweiligen Basiszinssatz aus {!Opportunity.Amount_In_Dispute_Clean__c} seit dem XX.XX.2018 zu bezahlen. 
+
+2.	Es wird festgestellt, dass sich die Beklagte mit der Rücknahme des Fahrzeugs gemäß vorstehender Ziffer 1. in Annahmeverzug befindet. 
+
+3.	Die Beklagte wird verurteilt, die Klagepartei von den Kosten des außergerichtlichen Vorgehens in Höhe von {!Claim__c.Legal_Costs_Extrajudicial_Clean__c} nebst Zinsen in Höhe von 5 Prozentpunkten über dem Basiszinssatz seit dem {!Claim__c.Claim_Letter_Date_Clean__c} freizustellen. 
+
+4.	Die Beklagte trägt die Kosten des Rechtsstreits. 
+
+5.	Das Urteil ist – notfalls gegen Sicherheitsleistung – vorläufig vollstreckbar. 
+
+6.	Der Antrag auf Erlass eines Versäumnisurteils wird gemäß § 331 Abs. 3 Satz 2 ZPO hiermit gestellt. 
+
+
+All dies vorausgeschickt bitten wir um zeitnahe Bestätigung der Kostendeckungszusage.

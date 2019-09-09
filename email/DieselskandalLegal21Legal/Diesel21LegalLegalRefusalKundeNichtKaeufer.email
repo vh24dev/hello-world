@@ -1,0 +1,34 @@
+Sehr geehrte(r) {!Contact.Salutation} {!Contact.FirstName} {!Contact.LastName}, 
+
+
+Ihre Bearbeitungsnummer: {!Opportunity.Number__c} 
+
+Wir haben die Mitteilung erhalten, dass Sie nicht, bzw. nicht mehr Eigentümer des Fahrzeuges Ihres Mandats sind.
+
+Sachverhalt A: Haben Sie zwischenzeitlich Ihr Fahrzeug verkauft? 
+Dann müssen wir aufgrund des nun geänderten Sachverhaltes Ihr Mandat gesondert abwickeln und brauchen hierfür Zeit zur Prüfung.
+Wir halten Sie auf dem Laufenden und werden auf Sie zukommen.
+
+Sachverhalt B: Sind sie von Anbeginn des Mandats der Halter und nicht der Eigentümer des Fahrzeugs? 
+Bitte beachten Sie, dass wir den Auftrag und die Vollmacht immer von der Person benötigen, die auch im Kaufvertrag des Fahrzeugs steht, oder hierfür durch den Eigentümer bevollmächtigt ist. Bitte informieren Sie in diesem Fall den aktuellen Eigentümer, dieser kann sich bei Interesse gerne von uns vertreten lassen. Aus diesem Grund müssen wir Ihnen leider mitteilen, dass wir Ihr Mandat niederlegen müssen. 
+Für Ihr Vertrauen bedanken wir uns und wünschen Ihnen für Ihre private und berufliche Zukunft alles Gute.  
+
+
+Mit freundlichen Grüßen 
+
+Wilhelm Lachmair 
+Rechtsanwalt und Fachanwalt für 
+Bank- und Kapitalmarktrecht, Arbeitsrecht 
+
+
+Rechtsanwälte 
+Wilhelm Lachmair & Kollegen 
+Ismaninger Straße 19 
+81675 München 
+
+
+Tel.: +49 (0) 89 21 63 33-10 
+Fax: +49 (0) 89 21 63 33-31 
+dieselgate@ra-lachmair.de 
+www.ra-lachmair.de 
+Ref-Nr: {!Claim__c.Id}

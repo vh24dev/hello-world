@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Rückfrage zur Eigentümerschaft</description>
+    <encodingKey>UTF-8</encodingKey>
+    <name>DieselLeComLegalRequestOwnership</name>
+    <style>none</style>
+    <subject>Status des Mandats, Ref-Nr: {!Correspondence__c.Id} Aktenzeichen: {!Correspondence__c.Claim__r.Reference__c}</subject>
+    <textOnly>{!Contact.Salutation__c},
+
+nachdem sich der Hersteller einer außergerichtlichen Einigung endgültig verweigert hatte, das entsprechende Schreiben des Herstellers ist diesem Schreiben zu Ihrer Kenntnisnahme beigefügt, haben wir bei Ihrer Rechtsschutzversicherung um Erteilung einer Kostendeckungszusage für das gerichtliche Vorgehen gegen den Hersteller angefragt.
+
+Der nächste Schritt ist daher nunmehr die Erhebung der Klage.
+
+Nach den uns vorliegenden Informationen sind Sie immer noch der Eigentümer des Kfz. Sollten Sie das Kfz zwischenzeitlich verkauft haben und daher nicht mehr dessen Eigentümer sein, bitten wir Sie den folgenden Link zu verwenden und Ihre Antworten zu hinterlegen:
+
+
+Eigentümerschaft bestätigen
+
+Ansonsten gehen wir davon aus, dass Sie noch immer der Eigentümer des Kfz sind. Die bei Gericht einzureichende Klageschrift haben wir diesem Schreiben zu Ihrer Kenntnisnahme beigefügt. Sollten wir innerhalb der nächsten 3 Tage nichts anderslautendes von Ihnen hören, werden wir die Klage in der Ihnen übersandten Form, nach Erteilung der gerichtlichen Deckungszusage seitens der Rechtschutzversicherung, beim zuständigen Gericht einreichen.
+
+i. A. {!User.FirstName} {!User.LastName}
+
+Dr. Dominic Krutisch 
+LeCom - Legal &amp; Compliance
+Rechtsanwaltsgesellschaft mbH
+
+Albert-Roßhaupter-Str. 32 81369 München
+
+Tel.: 089 / 588088710 
+Fax: 089 / 588088711</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

@@ -1,0 +1,24 @@
+{!Contact.Salutation__c},
+
+Ihre Bearbeitungsnummer: {!Opportunity.Number__c}
+
+Sie haben uns mit der Wahrnehmung Ihrer rechtlichen Interessen gegen den Fahrzeughersteller beauftragt und diesen Auftrag sodann widerrufen. Daher teilen wir Ihnen hiermit mit, dass wir die Angelegenheit nicht weiterbearbeiten werden und das Mandat beendet ist.
+
+Wir weisen dennoch darauf hin, dass etwaige Schadensersatzansprüche verjähren, sofern keine verjährungshemmenden Maßnahmen unternommen werden.
+
+Für Ihr Vertrauen bedanken wir uns und hoffen, dass wir bei Ihrem nächsten Verbraucherrechts-Thema erneut unterstützen können!
+
+Mit freundlichen Grüßen 
+
+
+i. A. {!User.FirstName} {!User.LastName} 
+
+Dr. Dominic Krutisch 
+LeCom - Legal & Compliance 
+Rechtsanwaltsgesellschaft mbH
+
+Albert-Roßhaupter-Str. 32 
+81369 München 
+
+Tel.: 089 / 588088710 
+Fax: 089 / 588088711

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>8. Erinnerung nach Anmeldung</description>
+    <encodingKey>UTF-8</encodingKey>
+    <name>DieselskandalGeneralAutoFollowUpNoTermsAndConditions8WithoutPhoneVr24</name>
+    <style>none</style>
+    <subject>Hilfe im Dieselskandal - {!Contact.FirstName} {!Contact.LastName}</subject>
+    <textOnly>{!Contact.Salutation__c},
+
+es ist nun schon einige Wochen her, dass Sie sich auf verbraucherhilfe24.de über ein mögliches Vorgehen im Dieselskandal informiert haben.
+Es geht um Ihr Geld, zögern Sie daher nicht, denn es gilt in diesem Fall Fristen einzuhalten. Danach ist es zu spät.
+
+Scheinbar hatten Sie noch keine Gelegenheit, sich näher mit Ihren Schadenersatzansprüchen zu beschäftigen.
+
+Dabei ist eine Klage ganz einfach: 5 Klicks und wir übernehmen den Rest für Sie:
+Fahrzeugdaten vervollständigen und Klage einreichen
+
+Sollten Sie nicht mehr an einer Klage gegen Ihren Autohersteller interessiert sein,
+können Sie Ihre Anfrage stornieren
+
+
+Alternativ können Sie natürlich gerne:
+
+
+Infos zum Widerruf einer eventuellen Fahrzeugfinanzierung einholen
+
+
+...oder direkt mit Ihren Fragen auf diese Mail antworten, sollten Sie noch Fragen haben.
+
+Gerne möchten wir Sie bei Ihrem Anliegen unterstützen.
+
+Rufen Sie uns doch einfach an:
+089 - 215 413 118
+
+Ihre Bearbeitungsnummer: {!Opportunity.Number__c}
+
+
+
+Mit freundlichen Grüßen,
+
+Ihr Service-Team
+VerbraucherRechte24
+
+
+
+
+www.verbraucherrechte24.de
+
+VerbraucherRechte24 GmbH
+Albert-Roßhaupter-Straße 32
+81369 München
+
+Geschäftsführer: Steffen Matz, Matthias Hartmann
+
+Jetzt austragen</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

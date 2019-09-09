@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>monatlich</fullName>
+        <default>false</default>
+        <label>monatlich</label>
+    </customValue>
+    <customValue>
+        <fullName>halbjährlich</fullName>
+        <default>false</default>
+        <label>halbjährlich</label>
+    </customValue>
+    <customValue>
+        <fullName>jährlich</fullName>
+        <default>false</default>
+        <label>jährlich</label>
+    </customValue>
+    <customValue>
+        <fullName>einmalig</fullName>
+        <default>false</default>
+        <label>einmalig</label>
+    </customValue>
+    <masterLabel>Payment Terms</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

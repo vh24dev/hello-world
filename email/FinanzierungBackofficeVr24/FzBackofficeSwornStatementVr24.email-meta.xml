@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Eidesstattliche Versicherung</description>
+    <encodingKey>UTF-8</encodingKey>
+    <name>FzBackofficeSwornStatementVr24</name>
+    <style>none</style>
+    <subject>Eidesstattliche Versicherung | Bearbeitungsnummer: {!Opportunity.Number__c}</subject>
+    <textOnly>{!Contact.Salutation__c},
+
+da uns von Ihnen kein Kaufvertrag vorliegt, bitte ich sie, die Eidesstattliche Erklärung im Anhang auszufüllen und unterschrieben an uns zurück zusenden.
+
+Mit freundlichen Grüßen 
+
+
+{!User.FirstName} {!User.LastName} 
+{!User.Title}
+Team Kundenservice
+Verbraucherrechte24
+
+Telefon: +49 (0) 89 215 413 118
+Telefax: +49 (0) 89 90 41 03 499
+E-Mail: diesel-schaden@verbraucherrechte24.de
+Web: www.diesel-schaden.de</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

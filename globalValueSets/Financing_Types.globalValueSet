@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Leasing</fullName>
+        <default>false</default>
+        <label>Leasing</label>
+    </customValue>
+    <customValue>
+        <fullName>Finanzierung</fullName>
+        <default>false</default>
+        <label>Finanzierung</label>
+    </customValue>
+    <customValue>
+        <fullName>Eigenkapital</fullName>
+        <default>false</default>
+        <label>Eigenkapital</label>
+    </customValue>
+    <customValue>
+        <fullName>Sonstiges</fullName>
+        <default>false</default>
+        <label>Sonstiges</label>
+    </customValue>
+    <masterLabel>Financing Types</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

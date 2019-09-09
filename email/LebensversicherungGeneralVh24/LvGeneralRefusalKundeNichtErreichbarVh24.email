@@ -1,0 +1,31 @@
+<span style="font-size:13px;"><span style="font-family: arial, helvetica, sans-serif;">
+{!Contact.Salutation__c}, 
+<p>
+leider konnte ich Sie telefonisch nicht erreichen. 
+<p>
+Ich melde mich bei Ihnen, da Sie Ihre Daten auf unserer Website widerruf.jetzt zum Thema Rückabwicklung von Lebensversicherungen abgegeben haben und um einen Rückruf baten. 
+<p>
+Ich hatte bereits versucht Sie telefonisch und per Email zu erreichen, leider ohne Erfolg. 
+<p>
+Da wir bislang nichts weiter von Ihnen gehört haben, werden wir den Vorgang bei uns vorerst schließen. 
+<p>
+Sollte noch Interesse an einer Prüfung bestehen, können Sie mich gerne telefonisch unter der {!User.Phone} oder per Email an die lebensversicherung@verbraucherhilfe24.de erreichen, um weiteres zu besprechen. 
+<p>
+Mit freundlichen Grüßen 
+<p>
+<p>
+{!User.FirstName} {!User.LastName} 
+{!User.Title}
+<p>
+<p><img alt="" src="https://www.verbraucherhilfe24.de/wp-content/uploads/v24-logo-1.png" /></p>
+<span style="font-size:11px;"><span style="Calibri Light;">
+VH24 GmbH<br/>
+Albert-Roßhaupter-Str. 32<br/>
+81369 München<br/>
+Telefon: <b>089 - 124 147 418</b><br/>
+Kontakt: office@verbraucherhilfe24.de
+<p>
+www.verbraucherhilfe24.de
+<p>
+Registergericht beim Amtsgericht München unter 371 E - <b>M 1779 als Inkassodienstleister gem. §10 abs. 1 RDG</b> | Handelsregister: HRB 217774 Amtsgericht München | USt-IDNr: DE277526577
+<p><a href="{!Opportunity.URL_Abmeldung__c}" target="_blank"><span style="color: #0000cd;"><b>Abmelden</b></a>

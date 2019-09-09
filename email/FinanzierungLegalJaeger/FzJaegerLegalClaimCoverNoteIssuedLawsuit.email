@@ -1,0 +1,28 @@
+{!Contact.Salutation__c},
+
+Ihre Rechtsschutzversicherung hat die Deckungszusage zur Klage für Ihren Fall erteilt. 
+
+Als nächstes werden wir eine Kostennote erstellen und zur Anweisung 
+an Ihre Rechtsschutzversicherung senden. 
+
+Nach Zahlungseingang wird der Weg der Klage beschritten. 
+
+Über den weiteren Verlauf halten wir Sie selbstverständlich auf dem Laufenden. 
+
+Mit freundlichen Grüßen 
+
+
+H. Jäger 
+Rechtsanwalt 
+
+
+J & C Anwälte 
+Sonnenstraße 18 
+80331 München 
+
+
+Telefon: +49 (0) 89 90 41 03 450 
+Telefax: +49 (0) 89 90 41 03 499 
+E-Mail: abgasskandal@jc-anwaelte.de 
+Web: www.jc-anwaelte.de 
+Ref-Nr: {!Claim__c.Id}

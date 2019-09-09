@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Email geht automatisch raus wenn manuell auf &quot;Share / on Hold&quot; (im Prozess) umgestellt wird</description>
+    <encodingKey>UTF-8</encodingKey>
+    <name>LvGeneralOpportunityOnHoldUpdateVh24</name>
+    <style>none</style>
+    <subject>Verbraucherhilfe24 | Ihre Bearbeitungsnummer: {!Opportunity.Number__c}</subject>
+    <textOnly>{!Contact.Salutation__c}, 
+
+zunächst möchten wir uns bei Ihnen für das Vertrauen bedanken, das Sie mit unserer Beauftragung zum Ausdruck gebracht haben.
+
+Aktuell müssen wir feststellen, dass es zu „Ihrem Fall“ keine einheitliche und gefestigte Rechtsprechung gibt. Dies mit der Folge, dass die Erfolgsaussichten für ein gerichtliches Vorgehen derzeit nur schwer einzuschätzen.
+
+Erfahrungsgemäß gibt es jedoch verbraucherfreundliche Entwicklungen in der Rechtsprechung. Eben diese Entwicklungen werden für Sie im Blick haben und erst dann die nächsten Schritte einleiten, wenn für ein gerichtliches Vorgehen gute Erfolgsaussichten bestehen.
+
+Dies kann einige Zeit in Anspruch nehmen, sodass wir insoweit um Ihre Geduld bitten. Wir werden dann unaufgefordert wieder auf Sie zukommen.
+
+Hierbei haben wir natürlich sämtliche Fristen im Auge, sodass sichergestellt ist, dass Ihre Ansprüche nicht verjähren werden.
+
+
+Mit freundlichen Grüßen 
+
+{!User.FirstName} {!User.LastName} 
+{!User.Title}</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

@@ -1,0 +1,10 @@
+Sehr geehrte(r) {!Contact.Salutation} {!Contact.FirstName} {!Contact.LastName}, 
+
+
+hiermit bestätigen wir Ihren Widerruf. 
+Ihre Bearbeitungsnummer: {!Opportunity.Number__c} 
+
+
+Mit freundlichen Grüßen 
+{!User.FirstName} {!User.LastName} 
+{!User.Title}

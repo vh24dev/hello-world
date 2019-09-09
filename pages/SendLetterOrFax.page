@@ -1,0 +1,165 @@
+<apex:page controller="EmailUtilities" showheader="false">
+       <apex:pageBlock title="Brief oder Fax versenden">
+       <apex:form >
+            <apex:outputLabel value="{!headline}"/>
+            <br /><br />
+
+            <apex:pageBlockSection title="Konfiguriere Versand" columns="1">
+                <apex:selectList label="Versandart" value="{!sendingMode}" multiselect="false" size="1">
+                    <apex:selectOptions value="{!sendingModes}"/>
+                </apex:selectList>
+            </apex:pageBlockSection>
+            <br /><br />
+
+            <apex:pageBlockSection title="Wähle Anhänge des übergeordneten Objekts" columns="1" rendered="{!showParentAttachmentsList}">
+                <apex:pageBlockTable value="{!parentAttachmentList}" var="attachment" id="table">
+                    <apex:column >
+                        <apex:inputCheckbox value="{!attachment.selected}"/>
+                    </apex:column>
+                    <apex:column value="{!attachment.record.Name}" title="Name">
+                        <apex:facet name="header">Name</apex:facet>
+                    </apex:column>
+                </apex:pageBlockTable>
+                <br /><br />
+            </apex:pageBlockSection>
+
+            <apex:pageBlockSection title="Wähle zusätzliche Dokumente" columns="1" rendered="{!showDocumentsList}">
+                <apex:pageBlockTable value="{!documentList}" var="document" id="table">
+                    <apex:column >
+                        <apex:inputCheckbox value="{!document.selected}"/>
+                    </apex:column>
+                    <apex:column value="{!document.record.Name}" title="Name">
+                        <apex:facet name="header">Name</apex:facet>
+                    </apex:column>
+                    <apex:column value="{!document.record.Type__c}" title="Type">
+                        <apex:facet name="header">Type</apex:facet>
+                    </apex:column>
+                    <apex:column value="{!document.record.Comment__c}" title="Comment">
+                        <apex:facet name="header">Comment</apex:facet>
+                    </apex:column>
+                    <apex:column value="{!document.record.Link__c}" title="Link">
+                        <apex:facet name="header">Link</apex:facet>
+                    </apex:column>
+                </apex:pageBlockTable>
+                <br /><br />
+            </apex:pageBlockSection>
+
+            <apex:pageBlockSection title="Wähle zusätzlich Vollmacht" columns="1" rendered="{!showAuthorizationAttachmentsList}">
+                <apex:pageBlockTable value="{!authorizationAttachmentList}" var="authorization" id="table">
+                    <apex:column >
+                        <apex:inputCheckbox value="{!authorization.selected}"/>
+                    </apex:column>
+                    <apex:column value="{!authorization.attachment.Name}" title="Name">
+                        <apex:facet name="header">Name</apex:facet>
+                    </apex:column>
+                </apex:pageBlockTable>
+                <br /><br />
+            </apex:pageBlockSection>
+
+            <apex:pageBlockSection title="Wähle zusätzliche Korrespondenzen" columns="1" rendered="{!showCorrespondenceAttachmentsList}">
+                <apex:pageBlockTable value="{!correspondenceAttachmentList}" var="correspondence" id="table">
+                    <apex:column >
+                        <apex:inputCheckbox value="{!correspondence.selected}"/>
+                    </apex:column>
+                    <apex:column value="{!correspondence.attachment.Name}" title="Name">
+                        <apex:facet name="header">Name</apex:facet>
+                    </apex:column>
+                    <apex:column value="{!correspondence.record.Type__c}" title="Type">
+                        <apex:facet name="header">Typ</apex:facet>
+                    </apex:column>
+                    <apex:column value="{!correspondence.record.Description__c}" title="Description">
+                        <apex:facet name="header">Titel</apex:facet>
+                    </apex:column>
+                </apex:pageBlockTable>
+                <br /><br />
+            </apex:pageBlockSection>
+
+            <apex:pageBlockSection title="Wähle zusätzliche Kostennoten" columns="1" rendered="{!showCostNoteAttachmentsList}">
+                <apex:pageBlockTable value="{!costNoteAttachmentList}" var="costNote" id="table">
+                    <apex:column >
+                        <apex:inputCheckbox value="{!costNote.selected}"/>
+                    </apex:column>
+                    <apex:column value="{!costNote.attachment.Name}" title="Name">
+                        <apex:facet name="header">Name</apex:facet>
+                    </apex:column>
+                    <apex:column value="{!costNote.record.Number__c}" title="Number">
+                        <apex:facet name="header">Nummer</apex:facet>
+                    </apex:column>
+                    <apex:column value="{!costNote.record.Recipient__c}" title="Recipient">
+                        <apex:facet name="header">Empfänger</apex:facet>
+                    </apex:column>
+                    <apex:column value="{!costNote.record.Subject__c}" title="Subject">
+                        <apex:facet name="header">Betreff</apex:facet>
+                    </apex:column>
+                </apex:pageBlockTable>
+                <br /><br />
+            </apex:pageBlockSection>
+            
+            <apex:pageBlockSection title="Wähle zusätzliche Kostenbelege" columns="1" rendered="{!showReceiptAttachmentsList}">
+                <apex:pageBlockTable value="{!receiptAttachmentList}" var="receipt" id="table">
+                    <apex:column >
+                        <apex:inputCheckbox value="{!receipt.selected}"/>
+                    </apex:column>
+                    <apex:column value="{!receipt.attachment.Name}" title="Name">
+                        <apex:facet name="header">Name</apex:facet>
+                    </apex:column>
+                    <apex:column value="{!receipt.record.Number__c}" title="Number">
+                        <apex:facet name="header">Nummer</apex:facet>
+                    </apex:column>
+                    <apex:column value="{!receipt.record.Label__c}" title="Label">
+                        <apex:facet name="header">Bezeichnung</apex:facet>
+                    </apex:column>
+                    <apex:column value="{!receipt.record.Type__c}" title="Type">
+                        <apex:facet name="header">Typ</apex:facet>
+                    </apex:column>
+                    <apex:column value="{!receipt.record.Category__c}" title="Category">
+                        <apex:facet name="header">Kategorie</apex:facet>
+                    </apex:column>
+                </apex:pageBlockTable>
+                <br /><br />
+            </apex:pageBlockSection>
+            
+            <apex:pageBlockSection title="Wähle zusätzliche Anhänge aus Terminen" columns="1" rendered="{!showDateAttachmentsList}">
+                <apex:pageBlockTable value="{!dateAttachmentList}" var="thisDate" id="table">
+                    <apex:column >
+                        <apex:inputCheckbox value="{!thisDate.selected}"/>
+                    </apex:column>
+                    <apex:column value="{!thisDate.attachment.Name}" title="Name">
+                        <apex:facet name="header">Name</apex:facet>
+                    </apex:column>
+                    <apex:column value="{!thisDate.record.Date__c}" title="Date">
+                        <apex:facet name="header">Datum</apex:facet>
+                    </apex:column>
+                    <apex:column value="{!thisDate.record.Type__c}" title="Type">
+                        <apex:facet name="header">Typ</apex:facet>
+                    </apex:column>
+                    <apex:column value="{!thisDate.record.Subject__c}" title="Subject">
+                        <apex:facet name="header">Bezeichnung</apex:facet>
+                    </apex:column>
+                </apex:pageBlockTable>
+                <br /><br />
+            </apex:pageBlockSection>
+            
+            <apex:pageBlockSection title="Wähle zusätzliche Anhänge der Anfrage" columns="1" rendered="{!showOpportunityAttachmentsList}">
+                <apex:pageBlockTable value="{!opportunityAttachmentList}" var="attachment" id="table">
+                    <apex:column >
+                        <apex:inputCheckbox value="{!attachment.selected}"/>
+                    </apex:column>
+                    <apex:column value="{!attachment.record.Name}" title="Name">
+                        <apex:facet name="header">Name</apex:facet>
+                    </apex:column>
+                </apex:pageBlockTable>
+                <br /><br />
+            </apex:pageBlockSection>
+
+            <apex:pageBlockSection title="Weitere Anhänge hinzufügen" columns="1" rendered="{!showManualAttachments}">
+                <apex:inputFile value="{!attachment1Input.Body}" filename="{!attachment1Input.Name}"/>
+                <apex:inputFile value="{!attachment2Input.Body}" filename="{!attachment2Input.Name}"/>
+                <apex:inputFile value="{!attachment3Input.Body}" filename="{!attachment3Input.Name}"/>      
+                <br /><br />
+            </apex:pageBlockSection>
+
+            <apex:commandButton value="Senden" action="{!sendButton}" /> 
+        </apex:form>
+    </apex:pageBlock>
+</apex:page>

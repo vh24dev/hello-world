@@ -1,0 +1,14 @@
+<apex:page docType="html-5.0" pageStyle="" wizard="false" sidebar="true" standardStylesheets="false" showHeader="false" showQuickActionVfHeader="false"  controller="ConfirmMFKController" action="{!init}">
+    <apex:composition template="{!$Site.Template}">
+        <apex:define name="body">
+            <h1>
+                Ihre Anmeldung zur Musterfeststellungsklage wurde bestätigt
+            </h1>
+            <p>
+                Beachten Sie: Ab dem 20.11.2018 werden wir für Sie die Registrierung für die Musterfeststellungsklage durchführen.
+                <br/>
+                Danach werden Sie von uns über den weiteren Verlauf informiert.
+            </p>
+        </apex:define>
+    </apex:composition>
+</apex:page>

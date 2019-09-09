@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Gutschrift Rechtsschutzversicherung</description>
+    <encodingKey>UTF-8</encodingKey>
+    <name>FzLeComLegalCreditNote</name>
+    <style>none</style>
+    <subject>Vorschusskostennote zu Versicherungsnummer {!Cost_Note__c.Claim__r.Opportunity__r.Legal_Protection_Insurance_Number__c} | Aktenzeichen: {!Cost_Note__c.Claim__r.Reference__c}</subject>
+    <type>text</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

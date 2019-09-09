@@ -1,0 +1,37 @@
+<apex:page standardController="Claim__c" extensions="SetClaimResult" showheader="false">
+    <apex:pageBlock title="Ergebnis dokumentieren:">
+        <apex:form >
+
+            <span style="margin: 15px;display: block;">
+                <apex:outputLabel value="Antwortdatum: "/><br />
+                <apex:inputField required="true" value="{!parClaim.Response_Lawsuit__c}" id="response"/>
+            </span>
+
+            <!--
+            <apex:outputLabel value="Ergebnis: "/><br />
+            <apex:inputField required="true" value="{!parClaim.Result__c}" id="result"/>
+            <br /><br />
+            -->
+
+            <apex:pageBlockSection showHeader="false">
+                <apex:selectList size="1" value="{!parClaim.Result__c}">
+                    <apex:selectOptions value="{!results}"/>
+                    <apex:actionSupport event="onchange" reRender="wrapper" />
+                </apex:selectList>
+            </apex:pageBlockSection>
+
+            <apex:outputPanel layout="none" id="wrapper">
+                <apex:pageBlockSection showHeader="false" columns="1" id="sec1" rendered="{!parClaim.Result__c != 'No Response'}">
+                    <apex:selectRadio value="{!parClaim.Cover_Note_Scope__c}" rendered="{!parClaim.Result__c != 'Arrangement'}">
+                        <apex:selectOptions value="{!appeal}"/>
+                    </apex:selectRadio>
+                    <apex:selectRadio value="{!parClaim.Arrangement__c}" rendered="{!parClaim.Result__c == 'Arrangement'}">
+                        <apex:selectOptions value="{!accepted}"/>
+                    </apex:selectRadio>
+                </apex:pageBlockSection>
+            </apex:outputPanel>
+
+            <apex:commandButton value="Dokumentieren" action="{!renderPage}" />
+        </apex:form>
+    </apex:pageBlock>
+</apex:page>

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?><CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label><!-- USt. berechnen --></label>
+        <name>Calculate_Vat__c</name>
+    </fields>
+    <fields>
+        <label><!-- Kostennote --></label>
+        <name>Cost_Note__c</name>
+        <relationshipLabel><!-- Kostenpunkte --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Beschreibung --></label>
+        <name>Description__c</name>
+    </fields>
+    <fields>
+        <label><!-- Gesamt (brutto) --></label>
+        <name>Gross_Price__c</name>
+    </fields>
+    <fields>
+        <label><!-- Honorar (brutto) --></label>
+        <name>Gross_Total_Price__c</name>
+    </fields>
+    <fields>
+        <label><!-- Old Id --></label>
+        <name>Old_Id__c</name>
+    </fields>
+    <fields>
+        <label><!-- Old Kostenpunkt ID --></label>
+        <name>Old_Kostenpunkt_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Opportunity Id --></label>
+        <name>Opportunity_Id__c</name>
+    </fields>
+    <fields>
+        <label><!-- Honorar --></label>
+        <name>Price__c</name>
+    </fields>
+    <fields>
+        <label><!-- Kürzung --></label>
+        <name>Reduction__c</name>
+    </fields>
+    <fields>
+        <label><!-- Neu fakturiert --></label>
+        <name>Reinvoiced__c</name>
+    </fields>
+    <fields>
+        <label><!-- Bezeichnung --></label>
+        <name>Subject__c</name>
+    </fields>
+    <fields>
+        <label><!-- Gesamt --></label>
+        <name>Total_Price__c</name>
+    </fields>
+    <fields>
+        <label><!-- Type --></label>
+        <name>Type__c</name>
+    </fields>
+    <caseValues>
+        <caseType>Nominative</caseType>
+        <plural>false</plural>
+        <value>Kostenpunkt</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Nominative</caseType>
+        <plural>true</plural>
+        <value>Kostenpunkte</value>
+    </caseValues>
+    <gender>Masculine</gender>
+</CustomObjectTranslation>

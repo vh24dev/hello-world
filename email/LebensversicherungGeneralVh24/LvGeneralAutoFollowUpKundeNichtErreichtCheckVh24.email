@@ -1,0 +1,31 @@
+<span style="font-size:13px;"><span style="font-family: arial, helvetica, sans-serif;">
+{!Contact.Salutation__c},
+<p>in den vergangenen Tagen haben wir für Sie geprüft, ob Ihre Versicherung rückabgewickelt werden kann. 
+<br/>Nun ist es an der Zeit aktiv zu werden!
+<p>Gerne würden wir mit Ihnen das weitere Vorgehen besprechen, jedoch haben wir Sie telefonisch nicht erreicht.
+<p>Bitte um Rückruf unter der Nummer:
+ 089 - 124 147 418
+<p>Oder teilen Sie uns einfach per Email mit wann Sie am besten erreichbar sind: vormittags, nachmittags, abends.
+<br/>Unsere Spezialisten zu diesem Thema beraten Sie kostenlos!
+<p>
+Alternativ können Sie natürlich gerne:
+<a href="{!Opportunity.Checklist_Link__c}" rel="noopener noreferrer" target="_blank"><b>Ihre Daten vervollständigen</b></a>
+<br/>(Bitte beachten Sie: Den Dokumentenupload finden Sie ganz unten im Formular)
+<p>
+Wir freuen uns darauf, für Sie tätig zu werden.<br/>
+<p>
+<p>Mit freundlichen Grüßen 
+<p>
+Ihre Verbraucherhilfe24<p></span>
+<p><img alt="" src="https://www.verbraucherhilfe24.de/wp-content/uploads/v24-logo-1.png" /></p>
+<span style="font-size:11px;"><span style="Calibri Light;">
+VH24 GmbH<br/>
+Albert-Roßhaupter-Str. 32<br/>
+81369 München<br/>
+Telefon: <b>089 - 124 147 418</b><br/>
+Kontakt: office@verbraucherhilfe24.de
+<p>
+www.verbraucherhilfe24.de
+<p>
+Registergericht beim Amtsgericht München unter 371 E - <b>M 1779 als Inkassodienstleister gem. §10 abs. 1 RDG</b> | Handelsregister: HRB 217774 Amtsgericht München | USt-IDNr: DE277526577
+<p><a href="{!Opportunity.URL_Abmeldung__c}" target="_blank"><span style="color: #0000cd;"><b>Abmelden</b></a>

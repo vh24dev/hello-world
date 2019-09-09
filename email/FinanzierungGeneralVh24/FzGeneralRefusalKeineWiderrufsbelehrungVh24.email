@@ -1,0 +1,26 @@
+<span style="font-size:13px;"><span style="font-family: arial, helvetica, sans-serif;">
+<p>{!Contact.Salutation__c},
+<p>
+Ihre Bearbeitungsnummer: {!Opportunity.Number__c}.
+<p>
+Leider können wir Ihren Vorgang nicht weiterführen, da Ihr Vertrag, ohne Widerrufsbelehrung, nicht anfechtbar ist. <br/>
+Daher müssen wir Ihr Mandat leider niederlegen. Für Ihr Vertrauen bedanken wir uns und wünschen Ihnen für Ihre private und beruflich Zukunft alles Gute. 
+<p>
+Mit freundlichen Grüßen
+<p>
+{!User.FirstName} {!User.LastName} 
+<br/>{!User.Title} 
+<br/>Abt. Diesel-Skandal
+<p>
+<p><img alt="" src="https://www.verbraucherhilfe24.de/wp-content/uploads/v24-logo-1.png" /></p>
+<span style="font-size:11px;"><span style="Calibri Light;">
+VH24 GmbH<br/>
+Albert-Roßhaupter-Str. 32<br/>
+81369 München<br/>
+Telefon: <b>089 - 124 147 413</b><br/>
+Kontakt: office@verbraucherhilfe24.de
+<p>
+www.verbraucherhilfe24.de
+<p>
+Registergericht beim Amtsgericht München unter 371 E - <b>M 1779 als Inkassodienstleister gem. §10 abs. 1 RDG</b> | Handelsregister: HRB 217774 Amtsgericht München | USt-IDNr: DE277526577
+<p><a href="{!Opportunity.URL_Abmeldung__c}" target="_blank"><span style="color: #0000cd;"><b>Abmelden</b></a>

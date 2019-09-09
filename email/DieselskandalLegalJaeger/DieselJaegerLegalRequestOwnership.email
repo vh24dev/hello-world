@@ -1,0 +1,33 @@
+<p>
+{!Contact.Salutation__c},
+<p>
+nachdem sich der Hersteller einer außergerichtlichen Einigung endgültig verweigert hatte, das entsprechende Schreiben des Herstellers ist diesem Schreiben zu Ihrer Kenntnisnahme beigefügt, haben wir bei Ihrer Rechtsschutzversicherung um Erteilung einer Kostendeckungszusage für das gerichtliche Vorgehen gegen den Hersteller angefragt. 
+<p>
+<b>Der nächste Schritt ist daher nunmehr die Erhebung der Klage.</b>
+<p>
+Nach den uns vorliegenden Informationen sind Sie immer noch der Eigentümer des Kfz.
+Sollten Sie das Kfz zwischenzeitlich verkauft haben und daher nicht mehr dessen Eigentümer sein, bitten wir Sie den folgenden Link zu verwenden und Ihre Antworten zu hinterlegen: 
+<p><br/>
+<b>
+<a href="{!Claim__c.URL_to_Ownership__c}" target="_blank" rel="noopener noreferrer">Eigentümerschaft bestätigen</a></b><br/>
+
+<p>
+Ansonsten gehen wir davon aus, dass Sie noch immer der Eigentümer des Kfz sind.
+
+Die bei Gericht einzureichende Klageschrift haben wir diesem Schreiben zu Ihrer Kenntnisnahme beigefügt. Sollten wir innerhalb der nächsten 3 Tage nichts anderslautendes von Ihnen hören, werden wir die Klage in der Ihnen übersandten Form, nach Erteilung der gerichtlichen Deckungszusage seitens der Rechtschutzversicherung, beim zuständigen Gericht einreichen.
+<p>
+i. A. {!User.FirstName} {!User.LastName} 
+<p>
+Heinrich Jäger 
+<br>J & C Anwälte 
+<p>
+Sonnenstraße 18 
+80331 München 
+<p>
+Telefon: +49 (0) 89 90 41 03 450 
+<br>Telefax: +49 (0) 89 90 41 03 499 
+<br>E-Mail: abgasskandal@jc-anwaelte.de 
+<br>Web: www.jc-anwaelte.de 
+<p>
+<p>
+Ref-Nr: {!Correspondence__c.Id}

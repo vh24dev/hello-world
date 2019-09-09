@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Fristbeginn unzutreffend dargestellt</description>
+    <encodingKey>UTF-8</encodingKey>
+    <name>LvLeComWiderspruchAnwaltFehlerFristbeginnUnzutreffendDargestellt</name>
+    <style>none</style>
+    <subject>Fehler: Fristbeginn unzutreffend dargestellt</subject>
+    <type>text</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

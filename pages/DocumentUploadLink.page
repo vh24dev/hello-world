@@ -1,0 +1,7 @@
+<apex:page standardController="Opportunity" extensions="DocumentUploadLink"
+           showHeader="false" action="{!renderPage}">
+    <apex:pageBlock title="In Bearbeitung....">
+        <apex:pageMessage rendered="{!errorContact}" summary="Bitte hinterlegen Sie einen Kontakt im Feld 'Kunde'!" severity="warning" strength="3" />
+        <apex:pageMessages />
+    </apex:pageBlock>
+</apex:page>

@@ -1,0 +1,151 @@
+<apex:page docType="html-5.0" controller="LeadAnmeldungController" standardStylesheets="false"  action="{!ensureLeadExists}">
+    <apex:composition template="DieselskandalTemplate">
+        <apex:define name="title"> {!pageConfig.pageTitle}</apex:define>
+        <apex:define name="header">
+            <h2>{!pageConfig.pageHeader}:<br/>IHRE CHANCEN STEHEN GUT!</h2>
+            
+            <div class="progressbar">
+                <div class="prog-txt">
+                    <div id="angaben_zum_Auto">
+                        <span>{!pageConfig.stepName}</span>
+                    </div>
+                    <div id="weitere_angaben2">
+                        <span>WEITERE ANGABEN</span>
+                    </div>
+                </div>
+                <div class="progall">
+                    <svg class="progress">
+                        <line class="line1" x1="15" y1="15" x2="50%" y2="15" stroke="rgb(238,140,2)" stroke-width="3" />
+                        <line class="line2" x1="50%" y1="15" x2="100%" y2="15" stroke="rgb(238,140,2)" stroke-width="3" />
+                        <circle id="circle1" cx="15" cy="15" r="14" fill="rgb(238,140,2)" stroke="rgb(238,140,2)" stroke-width="1" />
+                        <circle id="circle2" stroke="rgb(238,140,2)" stroke-width="1" cx="50%" cy="15" r="14" fill="rgb(238,140,2)" />
+                    </svg>
+                    <div class="prog1">
+                        <span>1</span>
+                    </div>
+                    <div class="prog2-2">
+                        <span>2</span>
+                    </div>
+                </div>
+            </div>
+        </apex:define>
+        
+        <apex:define name="body">
+            <p>Für eine optimale Bearbeitung benötigen wir Ihre Kontaktdaten, damit sich einer unserer Mitarbeiter mit Ihnen in Verbindung setzen kann.</p>
+            <apex:form >
+
+                <h3> IHRE KONTAKTDATEN: </h3>
+
+                <div class="pflichtfeld">*Pflichtfeld</div>
+                <div>
+                    <p>Anrede: <span class="reddot">*</span></p>
+                    <apex:selectRadio id="lvSel" value="{!title}">
+                        <apex:selectOptions id="lvOpt" value="{!titleOptions}"/>
+                    </apex:selectRadio>
+                    
+                    <div class="persdat">
+                        <div class="inputbox">
+                            <apex:input value="{!firstname}" required="true"/><label>Vorname <span class="reddot">*</span></label>
+                        </div>
+                        <div class="inputbox">
+                            <apex:input value="{!lastname}" required="true"/><label>Nachname <span class="reddot">*</span></label>
+                        </div>
+                        <div class="inputbox">
+                            <apex:input value="{!email}" required="true"/><label>E-Mail <span class="reddot">*</span></label>
+                        </div>
+                        <div class="inputbox">
+                            <apex:input value="{!phone}" required="true"/><label>Telefonnummer <span class="reddot">*</span></label>
+                        </div>
+                    </div>
+                </div>
+                
+                <p><br/>Ich bevorzuge eine Kontaktaufnahme via:</p>
+                <apex:outputpanel id="commBlock" layout="block">
+                    <apex:actionRegion >
+                        <apex:selectRadio immediate="true" value="{!commType}" required="true">
+                            <apex:selectOptions value="{!commOptions}"/>
+                            <apex:actionSupport event="onchange" reRender="commBlock"/>
+                        </apex:selectRadio>
+                    </apex:actionRegion>
+                    
+                    <apex:outputpanel id="xxx3pbs2" rendered="{!commType == 'Telefon'}" layout="block" styleClass="div-4">
+                        
+                        Gewünschtes Zeitfenster für einen Anruf:
+                        
+                        <div class="checktime">
+                            <apex:selectCheckboxes value="{!timeSel}" required="true">
+                                <apex:selectOptions value="{!timeOptions}"/>
+                            </apex:selectCheckboxes>
+                        </div>
+                        
+                    </apex:outputpanel>
+                </apex:outputpanel>
+                <!--
+                <h3> IHR DIESEL-CODE: </h3>
+                <label for="diesel-code">Bitte geben Sie hier Ihren <strong>Diesel-Code aus dem Flyer</strong> an:</label>
+                <div class="auto-sel">
+                    <apex:selectList value="{!dieselCode}" size="1" required="true">
+                        <apex:selectOptions value="{!codeOptions}"/>
+                    </apex:selectList>
+                </div>
+				-->
+                <p><br />Datenschutz</p>
+
+                <div class="checkbox-wrapper privacy-box agb-txt">
+                    <apex:inputCheckbox id="privacy-tos" value="{!privacy}" required="true"/>
+                    <apex:outputLabel for="privacy-tos">Ich habe die <a href="https://www.verbraucherhilfe24.de/datenschutz/" target="_blank">Datenschutzbestimmungen</a> gelesen und stimme diesen zu.<span class="reddot">*</span></apex:outputLabel>
+                </div>
+                <apex:outputPanel rendered="{!errorPrivacy}">
+                    <span class="reddot">Bitte bestätigen Sie die Datenschutzbestimmungen.</span>
+                </apex:outputPanel>
+
+                <p><br />Anmeldung zu unserem Newsletter</p>
+
+                <div class="checkbox-wrapper">
+                    <apex:inputCheckbox id="newsletter-terms" value="{!newsletter}" />
+                    <apex:outputLabel styleClass="news-txt" for="newsletter-terms">Ich möchte mich kostenlos und unverbindlich zum Newsletter anmelden und so über wichtige Entwicklungen im Verbraucherschutz informiert werden.</apex:outputLabel>
+                </div>
+
+
+                <div class="agb">
+                    <p>Grundlegend für den Auftrag sind <a href="{!agbUrl}">unsere AGB</a>.</p>
+                    <div class="checkbox-wrapper agb-box agb-txt">
+                        <apex:inputCheckbox id="agb-tos" value="{!tos}"/>
+                        <apex:outputLabel for="agb-tos">Ich beauftrage die VH24 GmbH (Verbraucherhilfe24) und bestätige die AGB.</apex:outputLabel>
+                    </div>
+                    <div class="checkbox-wrapper kanzlei-txt">
+                        <apex:inputCheckbox id="agb-authorization" value="{!authorization}"/>
+                        <apex:outputLabel for="agb-authorization">Ich bevollmächtige die Kanzlei LeCom - Legal &amp; Compliance Rechtsanwaltsgesellschaft mbH, meine Ansprüche gegenüber dem Hersteller durchzusetzen</apex:outputLabel>
+                    </div>
+                </div>
+
+                <apex:commandButton value="FORMULAR ABSCHICKEN" action="{!updateLead}"/><br/>
+
+                <div class="prefooter3">
+                    <div class="secure">
+                        <div class="secleft">
+                            <apex:image url="{!URLFOR($Resource.VH24, 'images/v24-trust.png')}"  alt="V24 Trust"/>
+                        </div>
+                        <div class="secright">
+                            DATENSICHERHEIT <br/>
+                            Der Schutz Ihrer Daten ist uns wichtig. Ihre Daten werden mittels TLS-Sicherheitszertifikat verschlüsselt übertragen.
+                        </div>
+                    </div>
+                    <div class="proven">
+                        <div class="provimg">
+                            <apex:image url="{!URLFOR($Resource.VH24, 'images/provenexpert-logo-with-claim.png')}"  alt="Proven Expert V24"/>
+                        </div>
+                        <div class="provstar">
+                            <apex:image url="{!URLFOR($Resource.VH24, 'images/Path-1.png')}"  alt="V24 Bewertungen"/>
+                            <apex:image url="{!URLFOR($Resource.VH24, 'images/Path-1.png')}"  alt="V24 Bewertungen"/>
+                            <apex:image url="{!URLFOR($Resource.VH24, 'images/Path-1.png')}"  alt="V24 Bewertungen"/>
+                            <apex:image url="{!URLFOR($Resource.VH24, 'images/Path-1.png')}"  alt="V24 Bewertungen"/>
+                            <apex:image url="{!URLFOR($Resource.VH24, 'images/Path.png')}"  alt="V24 Bewertungen"/>
+                            <a href="https://www.provenexpert.com/verbraucherhilfe24-de/">65 Bewertungen auf ProventExpert.com </a>
+                        </div>
+                    </div>
+                </div>
+            </apex:form>
+        </apex:define>
+    </apex:composition>
+</apex:page>

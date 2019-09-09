@@ -1,0 +1,24 @@
+{!Contact.Salutation__c},
+
+
+als dringende Voraussetzung, kurz vor dem Gerichtstermin, benötigen wir von Ihnen letztmalig die Bestätigung, dass Sie noch der Eigentümer des Fahrzeugs sind. 
+Hierfür bitten wir Sie den folgenden Link zu verwenden und Ihre Antworten zu hinterlegen: {!Claim__c.Ownership_Request_Link_1__c}
+
+Wir werden Sie über den weiteren Verlauf informieren. Wann mit einem konkreten Urteil zu rechnen ist, hängt von der Auslastung des zuständigen Gerichts ab und kann durch die Kanzlei nicht beeinflusst werden.  
+
+Vielen Dank im Voraus.   
+
+Mit freundlichen Grüßen 
+
+
+i. A. {!User.FirstName} {!User.LastName} 
+
+Dr. Dominic Krutisch 
+LeCom - Legal & Compliance 
+Rechtsanwaltsgesellschaft mbH
+
+Albert-Roßhaupter-Str. 32 
+81369 München 
+
+Tel.: 089 / 588088710 
+Fax: 089 / 588088711

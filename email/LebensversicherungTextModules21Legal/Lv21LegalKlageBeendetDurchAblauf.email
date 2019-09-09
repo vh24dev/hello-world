@@ -1,0 +1,1 @@
+Davon ist der bereits aufgrund Ablauf des gegenständlichen Vertrages ausbezahlte Betrag in Höhe von {!Opportunity.Payout_Amount__c} Euro in Abzug zu bringen. Somit ergibt sich ein Betrag in Höhe von {!Opportunity.Potential__c} Euro.

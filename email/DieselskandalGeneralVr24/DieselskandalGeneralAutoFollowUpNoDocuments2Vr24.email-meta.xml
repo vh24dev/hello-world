@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>2. Erinnerung zum Dokumentenupload nach Anmeldung</description>
+    <encodingKey>UTF-8</encodingKey>
+    <name>DieselskandalGeneralAutoFollowUpNoDocuments2Vr24</name>
+    <style>none</style>
+    <subject>Ihr Diesel-Auto Einfach Unterlagen einreichen, um Schadenersatz zu fordern</subject>
+    <textOnly>{!Contact.Salutation__c},
+
+
+um Ihre Schadenersatzforderung gegenüber Ihrem Autohersteller schnellstmöglich geltend zu machen, benötigen wir dringend noch folgende Unterlagen von Ihnen:
+
+1. Die Kopie Ihres Fahrzeugscheins (Vorder- und Rückseite)
+2. Ihre Fahrzeug-Rechnung oder das Angebot in Kopie
+3. Die unterschriebene anwaltliche Vollmacht (im Anhang)
+
+Hier können Sie bequem Dokumente hochladen
+
+Tipp: Wenn Sie den Link mit Ihrem Smartphone aufrufen, können Sie schnell und einfach ein Bild von den Dokumenten mit Ihrer Handy-Kamera aufnehmen und die Unterlagen sofort hochladen.
+
+Alternativ senden Sie uns eine E-Mail mit den Unterlagen an:
+
+diesel-schaden@verbraucherrechte24.de
+
+oder per Post an:
+
+Verbraucherrechte24
+Abt. Diesel-Skandal
+Albert-Roßhaupter-Str. 32
+81369 München
+
+Sobald es Neuigkeiten gibt, werden wir Sie umgehend informieren.
+
+Mit freundlichen Grüßen
+
+
+www.verbraucherrechte24.de
+
+VerbraucherRechte24 GmbH
+Albert-Roßhaupter-Straße 32
+81369 München
+
+Geschäftsführer: Steffen Matz, Matthias Hartmann
+
+Jetzt austragen: {!Opportunity.Unsubscribe_Link__c}
+
+
+Abmelden</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

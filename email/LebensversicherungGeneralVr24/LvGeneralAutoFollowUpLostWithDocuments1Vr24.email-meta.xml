@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>false</available>
+    <description>1. Erinnerung nach Lost - mit Dokumente</description>
+    <encodingKey>UTF-8</encodingKey>
+    <name>LvGeneralAutoFollowUpLostWithDocuments1Vr24</name>
+    <style>none</style>
+    <subject>Betreff: [Reminder] {!Contact.FirstName} {!Contact.LastName} bitte um Rückruf zur Schadenersatzklage Nr. {!Opportunity.Number__c}</subject>
+    <textOnly>{!Contact.Salutation__c},
+
+in den vergangenen Tagen haben wir für Sie geprüft, ob Ihr Fahrzeug vom Dieselskandal betroffen ist.
+Nun ist es an der Zeit aktiv zu werden und gemeinsam mit uns Ihren Schadenersatz zu holen.
+
+Gerne würden wir mit Ihnen das weitere Vorgehen besprechen, jedoch haben wir Sie telefonisch nicht erreicht.
+
+Bitte um Rückruf unter der Nummer: +49 (0) 89 90 41 03 450
+
+Oder teilen Sie uns einfach per Email mit wann Sie am besten erreichbar sind: vormittags, nachmittags, abends.
+Unsere Spezialisten zu diesem Thema beraten Sie kostenlos!
+
+Alternativ können Sie natürlich gerne: Fahrzeugdaten vervollständigen und Klage einreichen
+Infos zum Widerruf einer eventuellen Fahrzeugfinanzierung einholen
+
+... oder direkt mit Ihren Fragen auf diese Mail antworten.
+
+
+Wir freuen uns darauf, für Sie tätig zu werden.
+
+
+Mit freundlichen Grüßen
+
+
+
+www.verbraucherrechte24.de
+
+VerbraucherRechte24 GmbH
+Albert-Roßhaupter-Straße 32
+81369 München
+
+Geschäftsführer: Steffen Matz, Matthias Hartmann</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

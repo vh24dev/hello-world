@@ -1,0 +1,584 @@
+<apex:page sidebar="false" showHeader="false" controller="Registration" action="{!init}" >
+ <apex:pageMessages id="msgId"/>
+<apex:form id="form" >
+<html lang="de"  >
+  <head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
+    <meta name="description" content=""/>
+    <meta name="author" content="ec elements GmbH"/>
+    <title>Partnerportal Verbraucherhilfe24.de</title>
+
+        <!--<img src="https://partner.verbraucherhilfe24.de/images/favicon/favicon-16x16.png"  sizes="16x16"/>
+        <img src="https://partner.verbraucherhilfe24.de/images/favicon/favicon-32x32.png"  sizes="32x32"/>
+        <img src="https://partner.verbraucherhilfe24.de/images/favicon/favicon-96x96.png"  sizes="96x96"/>
+        <img src="https://partner.verbraucherhilfe24.de/images/favicon/favicon-192x192.png" sizes="192x192"/>-->
+
+
+    <link href="https://partner.verbraucherhilfe24.de/css/combined.css" rel="stylesheet"/>
+    <style>.js div#preloader { position: fixed; left: 0; top: 0; z-index: 9999; width: 100%; height: 100%; overflow: visible; background: #fff url('https://partner.verbraucherhilfe24.de/images/loading.gif') no-repeat center center; }</style>
+  </head>
+  <body>
+    <div id="preloader"></div>
+
+<div class="container marketing">
+    <div class="row">
+        <div class="col-md-12 text-center">
+            <img src="https://partner.verbraucherhilfe24.de/images/Verbraucherhilfe24-Logo.png" alt="" class="logo"/>
+        </div>
+    </div>
+    <div class="row">
+        <h1 class="text-center" style="display: block;">Werden Sie Kooperationspartner</h1>
+        <h2 class="text-center" style="display: block;">Nutzen Sie unser starkes Netzwerk von über 60 spezialisierten<br/>Rechtsanwälten aus unseren Partnerkanzleien
+        </h2>
+        <div class="alert alert-info" role="alert" style="fonts-size: 1.2em;">
+            <p class="lead">
+
+Sehr geehrter {!contact.Salutation} {!contact.LastName},
+                <br/> <br/> vielen Dank für die Aktivierung des Einladungslinks.
+
+<br/>Sie wurden von Herrn Matthias Hartmann in unser Partnernetzwerk eingeladen.<br/>
+            <br/>Die Vertragsbedingungen zu Ihrem Partnervertrag finden Sie hier:
+
+
+            <hr/>
+            <h3>Kooperationspartnervertrag</h3>
+            <div class="vertragskonditionen">
+
+<h3>Kooperationspartnervertrag</h3><br/>
+<br/>
+zwischen<br/>
+der<br/>
+DEMAFAIR GmbH<br/>
+Albert-Roßhaupter-Str. 32<br/>
+81369 München<br/>
+– nachfolgend: DEMAFAIR –<br/>
+<br/>
+und<br/>
+dem Kooperationspartner<br/>
+– Nachfolgend: KP –<br/>
+<br/>
+Präambel<br/>
+DEMAFAIR setzt als zugelassene Inkassogesellschaft Verbraucherrechte gegenüber Dritten durch. Zur Abgeltung ihrer Aufwendungen erhält DEMAFAIR einen Anteil der für die Verbraucher erstrittenen Forderungen. Die geltend gemachten Forderungen beruhen zumeist auf der Unwirksamkeit von Verbraucherverträgen. Zur weiteren Expansion benötigt DEMAFAIR weitere Kunden. KP will daher für den Vertrieb der DEMAFAIR selbständig tätig sein und deren Dienstleistungsportfolio vermarkten.<br/>
+Zur Regelung der generellen Form der Zusammenarbeit schließen die Parteien daher die nachfolgende Rahmenvereinbarung.<br/>
+<br/>
+§ 1<br/>
+Vertragsbedingungen, Laufzeit, Umfang<br/>
+1.  Der Kooperationspartnervertrag umfasst alle Leistungsmodule der DEMAFAIR, welche über das Portal Verbraucherhilfe24 angeboten werden. Für die Inanspruchnahme der Leistungen der DEMAFAIR ist ein jährliches Nutzungsentgelt in Höhe von pauschal 0,00 Euro zzgl. MWST, sowie eine einmalige Einrichtungsgebühr in Höhe von 0,00 Euro zzgl. MWST, zu entrichten.<br/>
+2.  Das Vertragsverhältnis beginnt am 12.06.2019 und läuft auf unbestimmte Zeit.<br/>
+3.  DEMAFAIR erbringt keine Rechtsberatungsleistungen und keine Zahlungsdienste im Sinne des § 1 Abs. 2 ZAG.<br/>
+<br/>
+§ 2<br/>
+Pflichten des Kooperationspartners<br/>
+1.  KP bewirbt das Geschäftsmodell der DEMAFAIR für die auf ihn entfallenden Leistungsmodule.<br/>
+2.  Soweit KP im Rahmen seiner Tätigkeit Vertragsunterlagen der Kunden erhält, wird wie folgt verfahren:  Nach Überprüfung der Verträge des Kunden durch die DEMAFAIR stellt der KP zur Kontaktaufnahme die Übermittlung folgender Dokumente – in der jeweils aktuellen Fassung – des jeweiligen Kunden sicher:<br/>
+a.  ausgefüllter und unterschriebener Dienstleistungsvertrag des Kunden<br/>
+b.  ausgefüllte und unterschriebene Vollmacht des Kunden<br/>
+3.  Der KP ist verpflichtet, die Interessen der DEMAFAIR zu wahren.<br/>
+4.  Der KP hat der DEMAFAIR, über alle zur Erreichung des Vertragszwecks erforderlichen Informationen, Nachricht zu geben.<br/>
+5.  Dem KP ist es für die Vertragslaufzeit und die Dauer von 3 Jahren nach Vertragsende nicht gestattet, mittels des von der DEMAFAIR betriebenen Modells auf dem Markt aufzutreten, es sei denn, die DEMAFAIR erklären hierzu im Vorfeld ihre schriftliche Zustimmung.<br/>
+6.  Der KP hat über alle Geschäftsgeheimnisse der DEMAFAIR während der Dauer des Vertrags und nach Beendigung des Vertrags Stillschweigen zu bewahren.<br/>
+7.  Der KP hat sicherzustellen, dass im Rahmen der, durch den KP vermittelte Verträge, die datenschutzrechtlichen Bestimmungen eingehalten werden.<br/>
+8.  Der KP ist nicht berechtigt, DEMAFAIR rechtsgeschäftlich zu vertreten oder im Namen der DEMAFAIR Zusagen abzugeben. KP ist ferner in keiner Weise berechtigt, den Firmennamen oder das Logo von DEMAFAIR, oder die Firmennamen oder Logos von verbundenen Unternehmen bzw. Marken wie V24, VH 24, Verbraucherhilfe 24, ohne ausdrückliche schriftliche Genehmigung von DEMAFAIR zu gebrauchen, unabhängig vom gewählten Medium. Veröffentlichungen in jeglicher Form (z.B. Anzeigen, Artikel, Interviews) seitens oder unter Beteiligung des KP über die DEMAFAIR und/oder den verbundenen Unternehmen bzw. Marken bedürfen der vorherigen schriftlichen Genehmigung von DEMAFAIR. Alle geistigen Eigentumsrechte der angebotenen Leistungsmodule und Services liegen ausschließlich bei DEMAFAIR; die Rechte daran gehen zu keinem Zeitpunkt auf den KP über. Der KP ist nicht berechtigt, Änderungen oder Modifikationen an den Leistungsmodulen vorzunehmen. Die Gestattung der Nutzung der Marketingmaterialien, der Logos und der Marken ist jederzeit widerruflich. Mit Beendigung dieses Vertrages enden alle Rechte des KP, das Marketingmaterial zu nutzen.<br/>
+9.  Sofern der KP Untervermittler einsetzt (etwa Handelsvertreter, eigene Mitarbeiter, etc.) verpflichtet sich der KP sicherzustellen, dass sich diese Untervermittler an die Regelungen dieses Vertrages so halten, als seien sie selbst Vertragspartei. Der KP haftet vollumfänglich für die eingeschalteten Untervermittler und ist verpflichtet, für jeden eingesetzten Untervermittler, der eine eigene ID erhält und keine selbständige Vertragsbeziehung zu DEMAFAIR eingeht, ein jährliches Nutzungsentgelt in Höhe von pauschal € 40,00 € zzgl. MWST zu zahlen.<br/>
+<br/>
+§ 3<br/>
+Pflichten der DEMAFAIR<br/>
+1.  Die erhaltenen persönlichen Daten werden von der DEMAFAIR ausschließlich im Rahmen der geltenden datenschutzrechtlichen Bestimmungen bearbeitet.<br/>
+2.  Die DEMAFAIR hat den KP mit allen sich auf die möglichen Geschäfte beziehenden Informationen bzw. aktuellen Unterlagen zu versehen.<br/>
+3.  Dem KP ist bekannt, dass zur Durchsetzung etwaiger Forderungen der Kunden die Einschaltung von Rechtsanwälten erforderlich ist. Der DEMAFAIR obliegt die Auswahl der Rechtsanwälte. Die DEMAFAIR bzw. die von ihr beauftragten Rechtsanwälte werden ausdrücklich ermächtigt, Kontakt zu den Kunden aufzunehmen, soweit dies für die Durchsetzung derer Rechte erforderlich ist.<br/>
+4.  Sollte ein Kunde des KP innerhalb von 6 Wochen nach erfolgter Information über das Bestehen eines möglichen Erstattungspotenzials keine Beauftragung der DEMAFAIR ausgesprochen haben oder der DEMAFAIR keine anderweitige Reaktion des Kunden vorliegen, ist DEMAFAIR berechtigt, diesen Kunden anzusprechen. Sollte hieraus eine erfolgreiche Vergütung der DEMAFAIR resultieren, erhält der KP 50% seiner vereinbarten Vergütung gemäß § 4.<br/>
+<br/>
+§ 4<br/>
+Vergütungsbestimmungen<br/>
+1.  Der KP erhält für seine Tätigkeit eine Vergütung.<br/>
+2.  Die Höhe der Vergütung richtet sich nach den von DEMAFAIR zugunsten der vermittelten Kunden durchgesetzten Forderungen. DEMAFAIR erhält in Abhängigkeit vom jeweiligen Produkt einen bestimmten Prozentsatz der beigetriebenen Forderungen als Honorar.<br/>
+3.  Von diesem Anspruch der DEMAFAIR sind die für die Durchsetzung entstehenden Kosten Dritter in Abzug zu bringen. Hierunter fallen insbesondere die Kosten für die Rechtsverfolgung durch Rechtsanwälte sowie Gerichtskosten und evtl. entstandene Kosten für Gutachten, soweit diese nicht vom Forderungsschuldner zu erstatten sind. Des Weiteren werden von dem Anspruch der DEMAFAIR die Honorare in Abzug gebracht, die DEMAFAIR ggf. an einen dem KP zugeschlüsselten Untervermittler, Servicedienstleister oder sonstigen Dritten in Bezug auf den KP zahlt oder diesem auf sonstige Weise wirtschaftlich leistet.<br/>
+4.  Die Höhe der Vergütung des KP, also die Höhe des prozentualen Anteils, ist abhängig vom jeweiligen Produkt der DEMAFAIR und ergibt sich aus der Anlage 1 zu dieser Vereinbarung. Die Anlage ist integraler Bestandteil dieser Vereinbarung. Der KP ist verpflichtet, die in der Vergütung enthaltene Umsatzsteuer selbständig und rechtzeitig abzuführen, wenn nicht unter den Parteien explizit vereinbart ist, das die DEMAFAIR die Umsatzsteuer für den KP direkt abführt (Kleinunternehmerregelung). Voraussetzung für den Vergütungsanspruch ist die vollständige und fristgerechte Bezahlung eines jährlichen Nutzungsentgeltes von pauschal 80,00 € p.a. zzgl. 20,00 € einmaliger Einrichtungsgebühr. Das Nutzungsentgelt wird mit Abschluss des Kooperationspartnervertrages fällig und wird per SEPA-Lastschriftmandat eingezogen.<br/>
+5.  DEMAFAIR behält sich eine Anpassung der Höhe dieser erfolgsabhängigen Vergütung für die Zukunft entsprechend der Marktlage und jeweiligen Sparte vor. Eine Anpassung wird dem KP unter Einhaltung einer Frist von 2 Monaten vor Wirksamwerden der Anpassung schriftlich mitgeteilt. Mit der vorbezeichneten Vergütung sind alle vertraglichen Ansprüche des KP aus dem mit dem Kunden vermittelten Auftrag für die vom KP vermittelten Kunden abgegolten.<br/>
+6.  Der Vergütungsanspruch des KP wird nach der Zahlung durch den Kunden fällig. Die Zahlung des anteiligen Erfolgshonorars erfolgt immer an zwei Terminen des Folgemonats per Überweisung. Dafür hinterlegt der KP bei DEMAFAIR eine gültige Kontoverbindung und die gültige Steuernummer in der Bundesrepublik Deutschland.<br/>
+<br/>
+§ 5<br/>
+Kündigung<br/>
+1.  Das Vertragsverhältnis kann von beiden Seiten ohne Angabe von Gründen mit einer Frist von 3 Monaten gekündigt werden.  Der KP erhält auch nach der Kündigung den unter § 4 genannten Vergütungsanspruch für die Kundenverträge, welche durch den KP bis zum Zeitpunkt der Kündigung der DEMAFAIR zugeführt wurden und eine Beauftragung des Kunden vorliegt.<br/>
+2.  Die DEMAFAIR kann aus wichtigem Grund auch ohne vorherige Abmahnung das Vertragsverhältnis ohne Einhaltung einer Frist kündigen. Ein wichtiger Grund liegt insbesondere dann vor, wenn<br/>
+a.  Über das Vermögen des KP die Eröffnung des Insolvenzverfahrens beantragt wird und er nicht binnen zwei Wochen nach Antragstellung der DEMAFAIR durch geeignete Urkunden belegen kann, dass der Insolvenzantrag zurückgenommen wurde.<br/>
+b.  Über das Vermögen des KP das Insolvenzverfahren eröffnet oder ein entsprechender Eröffnungsantrag mangels Masse abschlägig beschieden wurde.<br/>
+c.  Der KP gegen seine Pflichten aus dem § 2 Abs. 4, 5 und 7 verstößt.<br/>
+3.  Die Kündigung bedarf der Schriftform.<br/>
+<br/>
+§ 6<br/>
+Übertragbarkeit von Rechten und Pflichten<br/>
+1.  Die Rechte und Pflichten aus dieser Vereinbarung sind nicht übertragbar. Sollte der KP beabsichtigen, einzelne Leistungsverpflichtungen durch Dritte erbringen zu lassen, so ist dies vorab von der DEMAFAIR zu genehmigen.<br/>
+2.  Die Abtretung von Forderungen, die auf diesem Vertragsverhältnis bzw. seiner Anlagen beruhen, ist nicht zulässig.<br/>
+<br/>
+§ 7<br/>
+Geheimhaltung und Datenschutz<br/>
+1.  Die Parteien verpflichten sich, Dritten gegenüber strengstes Stillschweigen über diesen Vertrag und insbesondere bezüglich Art und Höhe der Vergütung zu wahren. Diese Pflicht besteht nach Beendigung dieses Vertrages fort. Dritte sind nicht zur Berufsverschwiegenheit verpflichtete Personen, insbesondere Steuerberater.<br/>
+2.  Der KP verpflichtet sich zur Einhaltung der Bestimmungen des Bundesdatenschutzgesetzes Die Verpflichtung des Datengeheimnisses besteht auch nach Beendigung dieses Vertrages fort.<br/>
+<br/>
+§ 8<br/>
+Sonstiges<br/>
+1.  Sollte der KP Untervermittler einsetzen, hat er sicher zu stellen, dass diese die Regelungen dieses Vertrages vollumfänglich beachten, als seien sie selbst Vertragspartei.<br/>
+2.  Für den Fall, dass einzelne Bestimmungen dieser Vereinbarung ganz oder teilweise unwirksam oder undurchführbar sind oder werden, oder für den Fall, dass diese Vereinbarung Lücken enthält, wird dadurch die Wirksamkeit der übrigen Bestimmungen dieser Vereinbarung nicht berührt. Anstelle der unwirksamen, undurchführbaren oder fehlenden Bestimmung gilt eine solche wirksame und durchführbare Bestimmung als zwischen den Parteien vereinbart, wie sie die Parteien unter Berücksichtigung des wirtschaftlichen Zwecks dieser Vereinbarung vereinbart hätten, wenn ihnen beim Abschluss dieser Vereinbarung die Unwirksamkeit, Undurchführbarkeit oder das Fehlen der betreffenden Bestimmung bewusst gewesen wäre. Die Parteien sind verpflichtet, eine solche Bestimmung in gebotener Form, jedoch zumindest schriftlich, zu bestätigen.<br/>
+3.  Es gilt das Recht der Bundesrepublik Deutschland unter Ausschluss des UN-Kaufrechts. Erfüllungsort und Gerichtsstand für alle Streitigkeiten aus und im Zusammenhang mit diesem Vertrag ist München.<br/>
+<br/>
+                </div>
+            <hr/>
+
+            <h3>Vergütungshöhe <small>gemäß § 4 Abs. 4 Kooperationspartnervertrag</small>
+            </h3>
+
+
+            <table style="background-color: #fff;" class="table table-bordered">
+                <tr>
+                    <th>Produkt</th>
+                    <th style="text-align: right;">Prozentsatz</th>
+                </tr>
+                <tr>
+                    <td>Kredite, Darlehenswiderruf</td>
+                    <td style="text-align: right;">20%</td>
+                </tr>
+                <tr>
+                    <td>Widerspruch Lebensversicherung</td>
+                    <td style="text-align: right;">20%</td>
+                </tr>
+                <tr>
+                    <td>Diesel-Abgasskandal</td>
+                    <td style="text-align: right;">20%</td>
+                </tr>
+                <tr>
+                    <td>PKV-Tarifoptimierung</td>
+                    <td style="text-align: right;">20%</td>
+                </tr>
+                <tr>
+                    <td>Kapitalanlagen</td>
+                    <td style="text-align: right;">20%</td>
+                </tr>
+                <tr>
+                    <td>Fluggastrechte</td>
+                    <td style="text-align: right;">20%</td>
+                </tr>
+                <tr>
+                    <td>Versicherungsschaden</td>
+                    <td style="text-align: right;">20%</td>
+                </tr>
+                <tr>
+                    <td>Verkehrsrecht</td>
+                    <td style="text-align: right;">20%</td>
+                </tr>
+            </table>
+
+            <small> Die angegebenen Prozentsätze verstehen sich brutto, enthalten also die gesetzliche Mehrwertsteuer, und beziehen sich auf das Honorar, das DEMAFAIR nach Abzug der in § 4 des
+                Kooperationspartnervertrages beschriebenen Kosten tatsächlich erhält. Diese Anlage kann jederzeit mit weiteren Produkten einseitig durch DEMAFAIR ergänzt werden. Hierzu ist zwischen den Parteien
+                vereinbart, dass eine Benachrichtigung bezüglich Produkt und Höhe des Prozentsatzes durch DEMAFAIR ausreichend ist. </small> <br/>
+
+
+            <hr/>
+
+            <p class="lead">
+
+
+                Nur noch wenige Angaben sind einzugeben, dann können Sie als Partner der Verbraucherhilfe24 vollumfänglich alle Services des Netzwerkes nutzen. <br/> <br/> <b>Bitte vervollständigen Sie folgende
+                    Eingabefelder mit Ihren Angaben.</b><br/> Im Anschluss erhalten Sie Ihre Partner ID sowie die individuellen Zugangsdaten zum Partner-Portal.<br/> Sollten Sie Fragen haben zu den Angaben oder
+                Unterstützung benötigen, wenden Sie sich gerne an Ihren Repräsentanten.
+            </p>
+            </p>
+        </div>
+    </div>
+    <div class="clearfix"></div>
+    <h2 class="text-center">Weil mir ein stark aufgestellter Partner wichtig ist!</h2>
+    <div class="row blue">
+        <div class="clearfix">
+            <br/> <br/>
+        </div>
+        <div class="col-sm-12">
+            <h3 class="text-center">Bitte nehmen Sie sich die Zeit und füllen Sie das folgende Dokument sorgfältig aus.</h3>
+            <div  class="form-horizontal" >
+                <input type="hidden" name="h" value="b474a4c766526c3c039382bb7f1217fb"/>
+                <div class="col-sm-10 col-sm-offset-2">
+                    <h3>Persönliche Daten</h3>
+                </div>
+                <div class="form-group">
+                    <label for="organisation" class="col-sm-2 control-label">Firma</label>
+                    <div class="col-sm-10">
+                        <apex:inputText value="{!company}" styleClass="form-control"  required="true" />
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="checkbox col-sm-10 col-sm-offset-2">
+                        <label>
+                            <input id="Kleinunternehmer" type="checkbox" name="Kleinunternehmer" value="1" /> <b>Ich nehme die
+                                Kleinunternehmer-Regelung in Anspruch</b> <br/> <small>Die Kleinunternehmerregelung gemäß § 19 UStG ist eine Vereinfachungsregelung im Umsatzsteuerrecht, die Unternehmern mit niedrigen Umsätzen
+                                ein Wahlrecht gewährt, weitgehend wie Nichtunternehmer behandelt zu werden. Umsatzgrenzen Kleinunternehmerregelung: Der maßgebende Umsatz zuzüglich der darauf entfallenden Steuer darf im
+                                vorangegangenen Kalenderjahr 17.500 Euro nicht übersteigen und übersteigt im laufenden Kalenderjahr die 50.000 Euro voraussichtlich nicht.</small>
+                        </label>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="salutation" class="col-sm-2 control-label">Anrede</label>
+                    <div class="col-sm-10">
+                        <apex:inputText value="{!salutation}" styleClass="form-control"/>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="title" class="col-sm-2 control-label">Titel</label>
+                    <div class="col-sm-10">
+                        <input class="form-control" id="title" type="text" name="title" value="" maxlength="80"/>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="firstname" class="col-sm-2 control-label">Vorname</label>
+                    <div class="col-sm-10">
+                         <apex:inputText value="{!firstName}" styleClass="form-control"/>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="lastname" class="col-sm-2 control-label">Nachname</label>
+                    <div class="col-sm-10">
+                         <apex:inputText value="{!lastName}" styleClass="form-control"/>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="email" class="col-sm-2 control-label">E-Mail</label>
+                    <div class="col-sm-10">
+                        <apex:inputText value="{!email}" styleClass="form-control"/>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="phone" class="col-sm-2 control-label">Telefon</label>
+                    <div class="col-sm-10">
+                        <apex:inputText value="{!phone}" styleClass="form-control"/>
+                    </div>
+                </div>
+                <div class="clearfix">
+                    <br/> <br/>
+                </div>
+                <div class="form-group">
+                    <label for="address" class="col-sm-2 control-label">Straße/Nr.</label>
+                    <div class="col-sm-10">
+                        <apex:inputText value="{!mailingStreet}" styleClass="form-control"/>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="postalcode" class="col-sm-2 control-label">Postleitzahl</label>
+                    <div class="col-sm-10">
+                         <apex:inputText value="{!mailingPostalCode}" styleClass="form-control"/>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="place" class="col-sm-2 control-label">Ort/Stadt</label>
+                    <div class="col-sm-10">
+                        <apex:inputText value="{!mailingCity}" styleClass="form-control"/>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="country" class="col-sm-2 control-label">Land</label>
+                    <div class="col-sm-10">
+                       <apex:inputText value="{!mailingCountry}" styleClass="form-control"/>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label for="vatid" class="col-sm-2 control-label">USt-IdNr.</label>
+                    <div class="col-sm-10">
+                        <input class="form-control" id="vatid" type="text" name="vatid" value="" maxlength="80"/>
+                        <p class="help-block" style="color:#fff;">falls vorhanden</p>
+                    </div>
+                </div>
+
+                <hr/>
+                <div class="col-sm-10 col-sm-offset-2">
+                    <h3>Bankverbindung</h3>
+                    <p>
+                        <small>Wir benötigen Ihre Bankverbindung für den Einzug der jährlichen Mitgliedsgebühren (s.o.) sowie für die Ausschüttung von etwaigen anteiligen Provisionen entsprechend unserer
+                            Partnervereinbarung. Hiermit ermächtige ich die VH24 GmbH (Gläubiger-ID: DE88ZZZ00000724236), die von mir zu entrichtenden Zahlungen zu Lasten des folgenden Kontos durch Lastschrift
+                            einzuziehen:</small>
+                    </p>
+                </div>
+                <div class="form-group">
+                    <label for="sepa_iban " class="col-sm-2 control-label">IBAN</label>
+                    <div class="col-sm-10">
+                         <apex:inputText value="{!iban}" id="iban"   styleClass="form-control" required="true" />
+                         <apex:message for="iban" style="color:red;"></apex:message>
+
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="sepa_bic " class="col-sm-2 control-label">BIC</label>
+                    <div class="col-sm-10">
+                       <apex:inputText value="{!bIC}" styleClass="form-control"  required="true" />
+                    </div>
+                </div>
+
+
+                <div class="col-sm-10 col-sm-offset-2">
+                    <small> Gleichzeitig weisen ich hiermit mein Kreditinstitut an, die von uns auf das o.g. Konto gezogenen Lastschriften einzulösen. Eine Erstattung des belasteten Betrags kann innerhalb von acht
+                        Wochen, beginnend mit dem Belastungsdatum, verlangt werden. Es gelten dabei die mit dem Kreditinstitut vereinbarten Bedingungen. <br/> Beachten Sie bitte, dass Sie für eine ausreichende Deckung
+                        Ihres Kontos Sorge zu tragen haben. Ist aufgrund eines von Ihnen zu vertretenden Grundes eine Teilnahme am Lastschriftverfahren nicht möglich oder erfolgt eine von Ihnen zu vertretende
+                        Rücklastschrift, sind Sie verpflichtet, die dafür anfallenden Gebühren zu erstatten.
+                    </small>
+                </div>
+                <div class="clearfix"></div>
+                <hr/>
+                <div class="col-sm-10 col-sm-offset-2">
+                    <h3>Angaben zu Ihrem Unternehmen</h3>
+                </div>
+
+                <div class="form-group">
+                    <label for="Branche" class="col-sm-2 control-label">Branche</label>
+                    <div class="col-sm-10">
+                        <select class="form-control" id="Branche" name="Branche" size="1" required="required">
+                            <option value="">Bitte auswählen...</option>
+<option value="Makler">Makler</option>
+<option value="Bank">Bank</option>
+<option value="Steuerberater">Steuerberater</option>
+<option value="sonstiges (bitte in Notiz vermerken)">sonstiges (bitte in Notiz vermerken)</option>
+                        </select>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label for="Haupttätigkeitsfelder" class="col-sm-2 control-label">Haupttätigkeit</label>
+                    <div class="col-sm-10">
+                        <select class="form-control" id="Haupttätigkeitsfelder" name="Haupttätigkeitsfelder" size="1" required="required">
+                            <option value="">Bitte auswählen...</option>
+<option value="Versicherungen">Versicherungen</option>
+<option value="Kapitalanlagen">Kapitalanlagen</option>
+<option value="Bausparverträge">Bausparverträge</option>
+<option value="Investment">Investment</option>
+<option value="sonstiges (bitte in Notiz vermerken)">sonstiges (bitte in Notiz vermerken)</option>
+                        </select>
+                    </div>
+                </div>
+
+                <div class="col-sm-10 col-sm-offset-2">
+                    <h3>Verantwortliche in Ihrem Unternehmen</h3>
+                    <p>Bitte Anrede, Name, Telefon und E-Mail hinterlegen</p>
+                </div>
+                <div class="form-group">
+                    <label for="Projektverantwortlich" class="col-sm-2 control-label">Leitung:</label>
+                    <div class="col-sm-10">
+                        <!-- <apex:inputText value="{!account.Leitung__c}" styleClass="form-control"  required="true" /> -->
+                        <input class="form-control" id="Projektverantwortlich" type="text" name="Projektverantwortlich" value=""
+                            maxlength="80"/>
+                        <div class="clearfix"></div>
+                        <small>Projektverantwortlicher/Portalassistent</small>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label for="Abrechnung" class="col-sm-2 control-label">Abrechnung</label>
+                    <div class="col-sm-10">
+                        <input class="form-control" id="Abrechnung" type="text" name="Abrechnung" value="" maxlength="80"/>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label for="Korrespondenz" class="col-sm-2 control-label">Korrespondenz</label>
+                    <div class="col-sm-10">
+                        <input class="form-control" id="Korrespondenz" type="text" name="Korrespondenz" value="" maxlength="80"/>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label for="Korrespondenz" class="col-sm-2 control-label">zusätzliche Bemerkungen</label>
+                    <div class="col-sm-10">
+                        <textarea id="note" name="note" class="form-control"></textarea>
+                    </div>
+                </div>
+
+
+                <hr/>
+
+                <div class="col-sm-10 col-sm-offset-2">
+                    <h3>Unterlagen</h3>
+
+                    <p>
+                        <b>Bitte laden Sie hier alle benötigten Unterlagen im .PDF-Format hoch<span class="red">*</span>:
+                        </b>
+                    </p>
+                </div>
+                <div class="form-group">
+
+                    <label for="files[]" class="col-sm-2 control-label" id="Auth"> Personalausweis </label>
+
+                    <div class=" col-sm-10">
+                        <input id="files" type="file" class="form-control" name="files[]" accept="application/pdf"  />
+                        <div class="clearfix"></div>
+                        <small>Sie können mehrere Dateien auswählen, maximale Dateigröße 16MB pro PDF</small>
+                    </div>
+                </div>
+
+                <hr/>
+
+                <div class="form-group">
+                    <div class="checkbox col-sm-10 col-sm-offset-2">
+                        <label>
+                            <input id="agreeSEPA" type="checkbox" name="agreeSEPA" value="1"  required="required"/> <b>Ich stimme hiermit dem
+                                SEPA-Einzugsverfahren zu.</b>
+                        </label>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <div class="checkbox col-sm-10 col-sm-offset-2">
+                        <label>
+                            <input id="agreePartnervertrag" type="checkbox" name="agreePartnervertrag" value="1"  required="required"/> <b>Ich
+                                stimme hiermit dem VH24-Partnervertrag zu.</b>
+                        </label>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <div class="checkbox col-sm-10 col-sm-offset-2">
+                        <label>
+                            <input id="agreeSCHUFA" type="checkbox" name="agreeSCHUFA" value="1"  required="required"/> Ich bin damit einverstanden,
+                            dass im Rahmen der geplanten Zusammenarbeit die gespeicherten Daten zu meiner Person bei der zuständigen Schufa-Auskunftsstelle eingeholt werden dürfen. Weiterhin versichere ich, dass meine
+                            vorstehenden Angaben vollständig und wahrheitsgemäß gemacht wurden.
+                        </label>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="checkbox col-sm-10 col-sm-offset-2">
+                        <label>
+                            <input id="agreeKontakt" type="checkbox" name="agreeKontakt" value="1"  required="required"/> Hiermit erkläre ich, dass
+                            ich weiterhin Informationen der VH24 GmbH sowie aller mit dieser Gesellschaft in Kooperation stehenden Gesellschaften über deren Services, Produkte, Produktinnovationen, etc. per E-Mail,
+                            Telefon und Post erhalten möchte.
+                        </label>
+                    </div>
+                </div>
+        
+                <div class="form-group">
+                    <div class="col-sm-10 col-sm-offset-2">
+                       <apex:commandButton reRender="form,msgId" action="{!doRegister}" styleClass="btn btn-success btn-lg" value="Jetzt Partner werden" />
+                       <!-- <button type="submit" name="send" class="btn btn-success btn-lg">Jetzt Partner werden</button>-->
+                    </div>
+                  
+                </div>
+                
+        </div>
+        </div> 
+        
+        <div class="clearfix">
+            <br/>
+        </div>
+    </div>
+    <div class="clearfix"></div>
+
+
+
+
+</div>
+ 
+
+
+<div class="clearfix">
+    <br/> <br/>
+</div>
+<h2 class="text-center">Noch Fragen?</h2>
+<h3 class="text-center">Unser Team beantwortet gerne Ihre Fragen unter +49 (0) 89 1241474-95</h3>
+<div class="clearfix">
+    <br/> <br/>
+</div>
+<div class="container">
+    <div class="col-sm-4 text-center">
+        <img src="https://partner.verbraucherhilfe24.de/images/img_partner-werden_1.jpg" alt="Lassen Sie uns gemeinsam geschädigten Verbrauchern helfen" class="img-responsive"/> <br/>
+        <p class="lead text-justify">Lassen Sie uns gemeinsam geschädigten Verbrauchern helfen, eine optimale Rückerstattung zu erwirken, oder die Rückabwicklung/Widerruf von Verträgen durch unsere
+            spezialisierten Rechtsanwälte durchführen zu lassen.</p>
+    </div>
+    <div class="col-sm-4">
+        <img src="https://partner.verbraucherhilfe24.de/images/img_partner-werden_2.jpg" alt="Als Kooperationspartner unterstützen wir Sie mit all unserem Fachwissen, fundierten Unterlagen und gezielten Webinaren"
+            class="img-responsive"/><br/>
+        <p class="lead text-justify">Als Kooperationspartner unterstützen wir Sie mit all unserem Fachwissen, fundierten Unterlagen und gezielten Webinaren. Wir freuen uns auf eine erfolgreiche
+            Zusammenarbeit!</p>
+    </div>
+    <div class="col-sm-4">
+        <img src="https://partner.verbraucherhilfe24.de/images/img_partner-werden_3.jpg" alt="Nach Eingabe Ihrer persönlichen Angaben erhalten Sie im Anschluss alle relevanten Vertragsunterlagen" class="img-responsive"/><br/>
+        <p class="lead text-justify">Nach Eingabe Ihrer persönlichen Angaben erhalten Sie im Anschluss alle relevanten Vertragsunterlagen für eine Kooperation per Email zugesandt.</p>
+    </div>
+</div>
+<div class="clearfix">
+    <br/> <br/>
+</div>
+  <div class="container-fluid">
+    <div class="clearfix"><br/><br/></div>
+      <div class="row blue">
+        <div class="container">
+          <div class="clearfix"><br/><br/></div>
+          <div class="col-xs-12 col-sm-3">
+            <h3>Informationen</h3>
+            <ul class="list-unstyled">
+              <li><a href="/kontakt.php">Kontakt &amp; Rückruf</a></li>
+              <li><a href="/schulungen-webinare.php">Schulungen &amp; Webinare</a></li>
+              <li><a href="/ueber-uns.php">Über uns</a></li>
+              <li><a href="/blog.php">Blog</a></li>
+              <li><a href="#" data-toggle="modal" data-target="#loginModal">Login</a></li>
+              <li><a href="/impressum.php">Impressum</a></li>
+              <li><a href="/datenschutz.php">Datenschutz</a></li>
+            </ul>
+          </div>
+          <div class="col-xs-12 col-sm-3">
+            <h3>Sparten</h3>
+            <ul class="list-unstyled">
+                <li><a href="/widerruf-darlehensvertraege.php">Darlehensverträge</a></li>
+                <li><a href="/widerruf-lebensversicherung.php">Lebensversicherung</a></li>
+                <li><a href="/abgasskandal.php">Abgasskandal</a></li>
+                <!-- <li><a href="/private-krankenversicherung.php">Krankenversicherung</a></li>
+                <li><a href="/verkehrsrecht.php">Verkehrsrecht</a></li>
+                <li><a href="/fonds-kapitalanlagen.php">Fonds &amp; Kapitalanlagen</a></li>
+                <li><a href="/fluggastrecht.php">Fluggastrechte</a></li>
+                <li><a href="/versicherungsschaden.php">Versicherungsschaden</a></li> -->
+            </ul>
+          </div>
+          <div class="col-xs-12 col-sm-3">
+            <h3>Kontakt</h3>
+            <p>
+              <b>VH24 GmbH</b>
+              <br/>
+              Albert-Roßhaupter-Straße 32<br/>
+              D 81369 München<br/>
+              <br/>
+              fon +49 [0] 89 – 1241474-95<br/>
+              fax +49 [0] 89 – 1241474-19<br/>
+              mail <a href="mailto:partnermanagement@verbraucherhilfe24.de">Partnermanagement</a>
+               </p>
+          </div>
+          <div class="col-xs-12 col-sm-3">
+            <h3>Presse</h3>
+
+            CKC CLAUDIA KRESSEL COMMUNICATION<br/>
+            Tel.: 040 – 64 53 83 12<br/>
+            E-Mail: <a href="mailto:info@kressel-communication.de">info@kressel-communication.de</a>
+
+          </div>
+          <div class="clearfix"><br/><br/></div>
+          <div class="clearfix"><br/><br/></div>
+        </div>
+        <div class="col-xs-12 col-sm-4 col-sm-offset-4 social">
+          <table>
+            <tr>
+              <td><a target="_blank" href="https://www.facebook.com/verbraucherhilfe24"><img src="https://partner.verbraucherhilfe24.de/images/facebook-logo.png" class="text-center"/></a></td>
+              <td><a target="_blank" href="https://www.youtube.com/channel/UCzrwfpat00bqbzV6f1mvU3Q"><img src="https://partner.verbraucherhilfe24.de/images/youtube-logo.png" class="text-center"/></a></td>
+              <td><a target="_blank" href="https://twitter.com/Verbrauch24"><img src="https://partner.verbraucherhilfe24.de/images/twitter-logo.png" class="text-center"/></a></td>
+              <td><a target="_blank" href="https://plus.google.com/u/0/b/100052784594997059357/100052784594997059357/posts"><img src="https://partner.verbraucherhilfe24.de/images/google-plus-logo.png" class="text-center"/></a></td>
+            </tr>
+          </table>
+        </div>
+        <div class="footer">
+          <footer>
+            <div class="clearfix"></div>
+              <p class="text-center">&copy; Copyright 2019 Verbraucherhilfe24.de</p>
+            <div class="clearfix"><br/></div>
+          </footer>
+        </div>
+        </div>
+      </div>    <script src="/js/combined.js"></script>
+    <script src="/js/a364cf0463f77552f94837b658b87362.js"></script>
+  </body>
+</html>
+
+</apex:form>
+
+
+</apex:page>

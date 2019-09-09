@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Rechnung positive Rückabwicklung</description>
+    <encodingKey>UTF-8</encodingKey>
+    <name>LvCallcenterInvoiceVr24</name>
+    <style>none</style>
+    <subject>{!Invoice__c.Opportunity__r.Number__c} Rechnung über positive Rückabwicklung</subject>
+    <textOnly>{!Contact.Salutation__c},
+
+anbei sende ich Ihnen Ihre Rechnung für die positive Rückabwicklung Ihrer Lebensversicherung.
+
+Bitte überweisen Sie den Gesamtbetrag in Höhe von {!Invoice__c.Amount__c} Euro unter Angabe der Rechnungsnummer {!Invoice__c.Number__c} bis zum {!Invoice__c.Due_Date__c} (Zahlungseingang auf unserem Konto).
+
+Ich danke Ihnen für Ihr entgegengebrachtes Vertrauen.
+
+Mit freundlichen Grüßen
+
+
+
+{!User.FirstName} {!User.LastName}
+
+
+
+
+www.verbraucherrechte24.de
+
+VerbraucherRechte24 GmbH
+Albert-Roßhaupter-Straße 32
+81369 München
+
+Geschäftsführer: Steffen Matz, Matthias Hartmann
+
+Kontakt
+
+Telefonnummer:   089 124 147 424
+E-Mail:  service@verbraucherrechte24.de
+
+
+
+
+Abmelden</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

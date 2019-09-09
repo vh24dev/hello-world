@@ -1,0 +1,17 @@
+<apex:page docType="html" controller="AbmeldenController" action="{!init}" pageStyle="" wizard="false" sidebar="true" standardStylesheets="false" showHeader="false" showQuickActionVfHeader="false">
+    <apex:composition template="{!$Site.Template}">
+        <apex:define name="body">
+            <apex:form >
+                <h3>
+                    Sind Sie sicher, dass Sie sich abmelden möchten?
+                </h3>
+                <p>
+                    <apex:selectRadio value="{!signedOut}">
+                        <apex:selectOptions value="{!YN}"/>
+                    </apex:selectRadio>
+                    <apex:commandButton action="{!optOut}" value="JETZT BESTÄTIGEN"/>
+                </p>
+            </apex:form>
+        </apex:define>
+    </apex:composition>
+</apex:page>

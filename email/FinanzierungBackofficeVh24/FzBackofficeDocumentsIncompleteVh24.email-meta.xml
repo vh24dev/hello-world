@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>weitere Dokumente benötigt</description>
+    <encodingKey>UTF-8</encodingKey>
+    <name>FzBackofficeDocumentsIncompleteVh24</name>
+    <style>none</style>
+    <subject>Wir benötigen weitere Informationen von Ihnen | Bearbeitungsnummer: {!Opportunity.Number__c}</subject>
+    <textOnly>{!Contact.Salutation__c},
+
+um Ihren Vorgang weiter bearbeiten zu können, benötigen wir bitte noch folgende Unterlagen / Informationen:
+
+- Vollmacht vom Käufer unterschrieben (im Anhang)
+
+- Fahrzeugschein (in Kopie)
+
+- Rechnung oder Kaufvertrag (in Kopie)
+
+- aktueller Kilometerstand
+
+- Rechtsschutzversicherung mit Mitgliedsnummer &amp; Höhe der Selbstbeteiligung (falls vorhanden)
+
+- Aktuelle Anschrift &amp; Telefonnummer
+
+- die Bescheinigung von dem gemachten Software Update oder das Schreiben zum Software Update
+
+-  Ist ihr Fahrzeug im Eigentum oder besteht eine Finanzierung, wenn ja, wie lange noch? Folgende Unterlagen/Informationen werden hierzu zusätzlich benötigt:
+
+- Betrag der Schlussrate
+
+- Darlehensvertrag (alle Seiten inkl. Widerrufsbelehrung)
+
+PS: Bitte beachten Sie: Falls Sie eine Zusendung der Dokumente per Post bevorzugen, bitten wir Sie folgende Adresse zu verwenden:
+Verbraucherhilfe24, Albert-Roßhaupter-Str. 32, 81369 München.
+
+
+Vielen Dank im Voraus!
+
+Mit freundlichen Grüßen 
+
+Ihre Verbraucherhilfe24 
+
+VH24 GmbH 
+Albert-Roßhaupter-Str. 32 
+81369 München 
+PHONE 089 - 124 147 413 
+WEB www.verbraucherhilfe24.de 
+VH24 GmbH, Albert-Roßhaupter-Str. 32, 81369 München / Kontakt: office@verbraucherhilfe24.de 
+Registergericht beim Amtsgericht München unter 371 E - M 1779 als Inkassodienstleister gem. §10 abs. 1 RDG Handelsregister: HRB 217774 Amtsgericht München USt-IDNr: DE277526577 
+Abmelden</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

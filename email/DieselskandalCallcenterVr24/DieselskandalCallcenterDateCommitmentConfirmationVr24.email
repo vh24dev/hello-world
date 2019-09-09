@@ -1,0 +1,22 @@
+<p><span style="font-family: Calibri, Verdana, Arial, sans-serif; font-size: font-size: 14px;">
+{!Contact.Salutation__c},
+<p>
+vielen Dank für das freundliche Gespräch.
+<p>
+Wir freuen uns, dass wir Ihre Verträge für Sie prüfen dürfen und haben die Prüfung Ihrer Unterlagen für den {!Opportunity.Date_Commitment_Clean__c} eingeplant. 
+<p>
+Ihre persönliche Bearbeitungsnummer lautet: {!Opportunity.Number__c}.
+<p>
+Bei Rückfragen, rufen Sie mich gerne an unter meiner Nummer: {!User.Phone} oder schreiben Sie mir eine E-Mail: diesel-schaden@verbraucherrechte24.de
+<p>
+Mit freundlichen Grüßen
+{!User.FirstName} {!User.LastName}
+{!User.Title}
+<p>&nbsp;</p>
+<hr />
+<p><img style="width: 200px; height: 54px;" src="https://daks2k3a4ib2z.cloudfront.net/58d0ccc5a30805a8243d5fd9/58d22446e07be4a234dc816e_Verbraucherrechte_Logo_Lay01.png" alt="" /></p>
+<p><a href="http://www.verbraucherrechte24.de" target="_blank">www.verbraucherrechte24.de</a></p>
+<p><span style="font-family: Calibri, Verdana, Arial, sans-serif; font-size: 11px;"> VerbraucherRechte24 GmbH<br /> Albert-Ro&szlig;haupter-Stra&szlig;e 32<br /> 81369 M&uuml;nchen </span></p>
+<p><span style="font-family: Calibri, Verdana, Arial, sans-serif; font-size: 11px;"> Gesch&auml;ftsf&uuml;hrer: Steffen Matz, Matthias Hartmann<p><a href="{!Opportunity.URL_Abmeldung__c}" target="_blank"><span style="color: #0000cd;"><b>Abmelden</b></a> </span></p>
+<p><span style="font-family: Calibri, Verdana, Arial, sans-serif; font-size: 11px;">in Zusammenarbeit mit dem eingetragenen Rechtsdienstleister:</span></p>
+<p><span style="font-family: Calibri, Verdana, Arial, sans-serif; font-size: 9px;">

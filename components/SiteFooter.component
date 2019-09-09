@@ -1,0 +1,11 @@
+<apex:component id="footerComponent">
+  <div class="center-align">
+	
+			<a href="https://www.verbraucherhilfe24.de/impressum/" target="_blank">Impressum</a>
+		
+			&nbsp;&nbsp;|&nbsp;&nbsp;
+	
+			<a href="https://www.verbraucherhilfe24.de/datenschutz/" target="_blank">Datenschutz</a>
+	
+			</div>
+</apex:component>

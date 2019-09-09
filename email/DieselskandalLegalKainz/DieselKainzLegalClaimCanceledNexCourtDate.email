@@ -1,0 +1,23 @@
+{!Contact.Salutation__c},
+
+bitte nennen Sie uns die Höhe Ihres Selbstbehaltes bei Ihrer Rechtsschutzversicherung,  
+um spätere Rückfragen zu vermeiden.
+Vielen Dank im voraus.   
+ 
+
+Mit freundlichen Grüßen 
+
+
+Rechtsanwalt Dr. Henning Leitz
+Partner
+
+CLLB Rechtsanwälte
+Cocron, Liebl, Leitz, Braun, Kainz, Sittner Partnerschaft mbB München - Berlin
+
+Liebigstr. 21
+80538 München
+Tel.: +49-89-552 999 50
+Fax.:+49-89-552 999 90
+mail: kanzlei@cllb.de
+
+Ref-Nr: {!Claim__c.Id}

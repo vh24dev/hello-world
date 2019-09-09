@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Kunde nicht erreicht</description>
+    <encodingKey>UTF-8</encodingKey>
+    <name>DieselskandalGeneralAutoFollowUpCustomerNotReachedVh24</name>
+    <style>none</style>
+    <subject>Betreff: [Reminder] {!Lead.FirstName} {!Lead.LastName} bitte um Rückruf zur Schadenersatzklage Nr. {!Lead.Bearbeitungsnummer__c}</subject>
+    <textOnly>{!Lead.Salutation__c},
+
+
+in den vergangenen Tagen haben wir für Sie geprüft, ob Ihr Fahrzeug vom Dieselskandal betroffen ist.
+
+Gerne würden wir mit Ihnen das weitere Vorgehen besprechen, jedoch haben wir Sie telefonisch nicht erreicht.
+
+Bitte um Rückruf unter der Nummer: 089 - 124 147 413 oder Sie fordern einfach einen Rückruf an.
+
+Oder teilen Sie uns einfach per Email mit wann Sie am besten erreichbar sind: vormittags, nachmittags, abends. Unsere Spezialisten zu diesem Thema beraten Sie kostenlos!
+
+Wir weisen Sie drauf hin, dass wir - aufgrund Ihrer unmittelbar bevorstehenden Verjährungsfrist -, Ihren Fall nur fristgerecht weiterbearbeiten können, wenn Sie uns bis, 16.12.2018, die erforderlichen Daten übermitteln.
+
+Alternativ können Sie natürlich gerne auf direktem Wege ihre:
+
+
+Daten jetzt vervollständigen
+
+
+Hinweis: Sie können die Dokumente auch mit Ihrer Handy-Kamera abfotografieren und die Bilder hier hochladen!
+
+
+Oder per Post an (bitte Vorgangsnummer vermerken):
+Verbraucherhilfe24
+Abt. Diesel-Skandal
+Albert-Roßhaupter-Str. 32
+81369 München
+
+
+PS: wenn Sie Ihr Auto finanziert haben, informieren wie Sie gerne über die Möglichkeiten des Widerrufes der Kfz-finanzierung.
+
+
+Wir freuen uns darauf, für Sie tätig zu werden.
+
+
+Ihre Verbraucherhilfe24
+
+
+VH24 GmbH
+
+Albert-Roßhaupter-Str. 32
+81369 München
+
+PHONE 089 - 124 147 413
+FAX 089 - 124 147 419
+E-Mail office@verbraucherhilfe24.de
+WEB www.verbraucherhilfe24.de
+
+
+Registriert beim Amtsgericht München unter 371 E – M 1779 als Inkassodienstleister gem. § 10 Abs. 1 RDG Handelsregister: HRB 217774 Amtsgericht München USt-IDNr: DE277526577
+VH24 GmbH, Albert-Roßhaupter-Str. 32, 81369 München
+
+Abmelden
+
+​</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

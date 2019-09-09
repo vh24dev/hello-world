@@ -1,0 +1,9 @@
+{!User.Name} hat folgende Rückfrage:
+
+"{description}"
+
+Die Frage bezieht sich auf folgenden Fall:
+
+https://verbraucherhilfe24.lightning.force.com/{!Claim__c.Id}
+
+Um die Frage zu beantworten bitte auf diese Email antworten.

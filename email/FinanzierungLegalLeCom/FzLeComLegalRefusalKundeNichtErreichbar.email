@@ -1,0 +1,26 @@
+{!Contact.Salutation__c},
+ 
+Ihre Bearbeitungsnummer: {!Opportunity.Number__c} 
+ 
+Bei der Durchsicht Ihrer Unterlagen ist uns aufgefallen, dass Sie der Halter und nicht der Eigentümer des streitgegenständlichen Fahrzeugs sind. Ansprüche gegen den Hersteller stehen grds. nur dem Eigentümer des Fahrzeugs zu. Daher benötigen wir zur Geltendmachung der Ansprüche eine wirksame Vollmacht des KFZ-Eigentümers. Bitte informieren Sie den Eigentümer, dieser kann sich zur Wahrnehmung seiner rechtlichen Interessen gerne von der Verbraucherhilfe24 vertreten lassen. 
+
+Anliegend übersenden wir Ihnen eine entsprechende Vollmacht.
+
+All dies vorausgeschickt müssen wir Ihnen leider mitteilen, dass wir Ihr Mandat niederlegen müssen. 
+
+Für Ihr Vertrauen bedanken wir uns.
+
+Mit freundlichen Grüßen 
+
+
+i. A. {!User.FirstName} {!User.LastName} 
+
+Dr. Dominic Krutisch 
+LeCom - Legal & Compliance 
+Rechtsanwaltsgesellschaft mbH
+
+Albert-Roßhaupter-Str. 32 
+81369 München 
+
+Tel.: 089 / 588088710 
+Fax: 089 / 588088711

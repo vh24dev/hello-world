@@ -1,0 +1,7 @@
+<apex:page standardController="Date_Authorization__c" extensions="TerminvollmachtSendMail"
+           showHeader="false" action="{!renderPage}">
+    <apex:pageBlock title="In Bearbeitung....">
+        <apex:pageMessage rendered="{!errorRec}" summary="Bitte hinterlegen Sie einen Kontakt im Feld 'Terminsvertreter' auf dem Termin!" severity="warning" strength="3" />
+        <apex:pageMessages />
+    </apex:pageBlock>
+</apex:page>

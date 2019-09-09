@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?><CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <fullName>Default_Owner_username__c</fullName>
+        <externalId>false</externalId>
+        <fieldManageability>SubscriberControlled</fieldManageability>
+        <inlineHelpText>The username of the user which will be used as default Owner for such things as Uploaded documents, instead of the Guest User.</inlineHelpText>
+        <label>Default Owner username</label>
+        <required>true</required>
+        <type>Email</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Disable_Auto_Email_Sending__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <fieldManageability>SubscriberControlled</fieldManageability>
+        <inlineHelpText>When checked, emails won't be sent automatically.</inlineHelpText>
+        <label>Disable Auto Email Sending</label>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Disable_all_triggers__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <fieldManageability>SubscriberControlled</fieldManageability>
+        <inlineHelpText>When checked, no triggers will run.</inlineHelpText>
+        <label>Disable all triggers</label>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Is_Active__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <fieldManageability>SubscriberControlled</fieldManageability>
+        <label>Is Active</label>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>OppsOnClaimCache_Query_LIMIT__c</fullName>
+        <defaultValue>(8000)</defaultValue>
+        <externalId>false</externalId>
+        <fieldManageability>SubscriberControlled</fieldManageability>
+        <inlineHelpText>Do not change this unless you know what you're doing. It sets the number of records queried on the Batch job that caches the last Opps on Claim.</inlineHelpText>
+        <label>OppsOnClaimCache Query LIMIT</label>
+        <precision>10</precision>
+        <required>true</required>
+        <scale>0</scale>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Reassign_if_owned_by__c</fullName>
+        <externalId>false</externalId>
+        <fieldManageability>SubscriberControlled</fieldManageability>
+        <inlineHelpText>Usernames of users which will have their Opps reassigned to the Default Owner. Separated by ';'.</inlineHelpText>
+        <label>Reassign if owned by</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Reassign_if_owner_by__c</fullName>
+        <externalId>false</externalId>
+        <fieldManageability>SubscriberControlled</fieldManageability>
+        <inlineHelpText>Usernames of users which will have their Opps reassigned to the Default Owner. Separated by ';'.</inlineHelpText>
+        <label>Reassign if owner by</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <label>General Settings</label>
+    <pluralLabel>General Settings</pluralLabel>
+    <visibility>Public</visibility>
+</CustomObject>

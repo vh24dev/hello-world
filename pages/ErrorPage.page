@@ -1,0 +1,14 @@
+<apex:page docType="html" controller="ErrorPage">
+    <apex:composition template="{!$Site.Template}">
+        <apex:define name="body">
+            <apex:form >
+                <h3>
+					{!errorHeader}
+                </h3>
+                <p>
+					{!errorBody}
+                </p>
+            </apex:form>
+        </apex:define>
+    </apex:composition>
+</apex:page>

@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?><CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label><!-- Anfrage --></label>
+        <name>Anfrage__c</name>
+        <relationshipLabel><!-- Sammelklagen --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- BypassProcessBuilder --></label>
+        <name>BypassProcessBuilder__c</name>
+    </fields>
+    <fields>
+        <label><!-- Gerichtliches Aktenzeichen --></label>
+        <name>Court_Reference__c</name>
+    </fields>
+    <fields>
+        <label><!-- Landgericht --></label>
+        <name>District_Court__c</name>
+        <relationshipLabel><!-- Sammelklagen (Landgericht) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Zeit bis Wiedervorlage --></label>
+        <name>Follow_up_Period__c</name>
+    </fields>
+    <fields>
+        <label><!-- Is My Class Action --></label>
+        <name>Is_My_Class_Action__c</name>
+    </fields>
+    <fields>
+        <label><!-- Datum Klage --></label>
+        <name>Lawsuit_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Anwalt --></label>
+        <name>Legal__c</name>
+        <relationshipLabel><!-- Sammelklagen --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Nächster Gerichtstermin --></label>
+        <name>Next_Court_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Old Sammelklage ID --></label>
+        <name>Old_Sammelklage_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Gegner --></label>
+        <name>Opponent__c</name>
+        <relationshipLabel><!-- Sammelklagen (Gegner) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Korrespondenzanwalt --></label>
+        <name>Opposing_Counsel__c</name>
+        <relationshipLabel><!-- Sammelklagen --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Aktenzeichen --></label>
+        <name>Reference__c</name>
+    </fields>
+    <fields>
+        <label><!-- Antwort Klage --></label>
+        <name>Response_Lawsuit__c</name>
+    </fields>
+    <fields>
+        <label><!-- Ergebnis --></label>
+        <name>Result__c</name>
+    </fields>
+    <fields>
+        <label><!-- Status --></label>
+        <name>Stage__c</name>
+    </fields>
+    <caseValues>
+        <caseType>Nominative</caseType>
+        <plural>false</plural>
+        <value>Sammelklage</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Nominative</caseType>
+        <plural>true</plural>
+        <value>Sammelklagen</value>
+    </caseValues>
+    <gender>Feminine</gender>
+    <validationRules>
+        <errorMessage><!-- Korrespondenzanwalt muss Gegner zugeordnet sein. --></errorMessage>
+        <name>CheckOpposingCounselAccountId</name>
+    </validationRules>
+</CustomObjectTranslation>

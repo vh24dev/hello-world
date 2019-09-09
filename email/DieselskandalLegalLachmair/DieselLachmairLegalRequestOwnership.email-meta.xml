@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Aktueller Status Ihres Mandats, Rückfrage zu Ihrer Klage -mit RSV-</description>
+    <encodingKey>UTF-8</encodingKey>
+    <name>DieselLachmairLegalRequestOwnership</name>
+    <style>none</style>
+    <subject>Aktueller Status Ihres Mandats, Rückfrage zu Ihrer Klage, Ref-Nr: {!Correspondence__c.Id}</subject>
+    <type>text</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

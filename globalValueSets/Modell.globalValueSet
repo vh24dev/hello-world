@@ -1,0 +1,430 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>550 d</fullName>
+        <default>false</default>
+        <label>550 d</label>
+    </customValue>
+    <customValue>
+        <fullName>750 d</fullName>
+        <default>false</default>
+        <label>750 d</label>
+    </customValue>
+    <customValue>
+        <fullName>A1</fullName>
+        <default>false</default>
+        <label>A1</label>
+    </customValue>
+    <customValue>
+        <fullName>A3</fullName>
+        <default>false</default>
+        <label>A3</label>
+    </customValue>
+    <customValue>
+        <fullName>A4</fullName>
+        <default>false</default>
+        <label>A4</label>
+    </customValue>
+    <customValue>
+        <fullName>A5</fullName>
+        <default>false</default>
+        <label>A5</label>
+    </customValue>
+    <customValue>
+        <fullName>A6</fullName>
+        <default>false</default>
+        <label>A6</label>
+    </customValue>
+    <customValue>
+        <fullName>A7</fullName>
+        <default>false</default>
+        <label>A7</label>
+    </customValue>
+    <customValue>
+        <fullName>A8</fullName>
+        <default>false</default>
+        <label>A8</label>
+    </customValue>
+    <customValue>
+        <fullName>Alhambra</fullName>
+        <default>false</default>
+        <label>Alhambra</label>
+    </customValue>
+    <customValue>
+        <fullName>Amarok</fullName>
+        <default>false</default>
+        <label>Amarok</label>
+    </customValue>
+    <customValue>
+        <fullName>Beetle</fullName>
+        <default>false</default>
+        <label>Beetle</label>
+    </customValue>
+    <customValue>
+        <fullName>C 180</fullName>
+        <default>false</default>
+        <label>C 180</label>
+    </customValue>
+    <customValue>
+        <fullName>C 200</fullName>
+        <default>false</default>
+        <label>C 200</label>
+    </customValue>
+    <customValue>
+        <fullName>C 300</fullName>
+        <default>false</default>
+        <label>C 300</label>
+    </customValue>
+    <customValue>
+        <fullName>Caddy</fullName>
+        <default>false</default>
+        <label>Caddy</label>
+    </customValue>
+    <customValue>
+        <fullName>Cascada</fullName>
+        <default>false</default>
+        <label>Cascada</label>
+    </customValue>
+    <customValue>
+        <fullName>Cayenne</fullName>
+        <default>false</default>
+        <label>Cayenne</label>
+    </customValue>
+    <customValue>
+        <fullName>CLS 350</fullName>
+        <default>false</default>
+        <label>CLS 350</label>
+    </customValue>
+    <customValue>
+        <fullName>E 300</fullName>
+        <default>false</default>
+        <label>E 300</label>
+    </customValue>
+    <customValue>
+        <fullName>E 350</fullName>
+        <default>false</default>
+        <label>E 350</label>
+    </customValue>
+    <customValue>
+        <fullName>Fabia</fullName>
+        <default>false</default>
+        <label>Fabia</label>
+    </customValue>
+    <customValue>
+        <fullName>G 350</fullName>
+        <default>false</default>
+        <label>G 350</label>
+    </customValue>
+    <customValue>
+        <fullName>GL 350</fullName>
+        <default>false</default>
+        <label>GL 350</label>
+    </customValue>
+    <customValue>
+        <fullName>GLC 220</fullName>
+        <default>false</default>
+        <label>GLC 220</label>
+    </customValue>
+    <customValue>
+        <fullName>GLC 250</fullName>
+        <default>false</default>
+        <label>GLC 250</label>
+    </customValue>
+    <customValue>
+        <fullName>GLE 250</fullName>
+        <default>false</default>
+        <label>GLE 250</label>
+    </customValue>
+    <customValue>
+        <fullName>GLE 350</fullName>
+        <default>false</default>
+        <label>GLE 350</label>
+    </customValue>
+    <customValue>
+        <fullName>GLK 220</fullName>
+        <default>false</default>
+        <label>GLK 220</label>
+    </customValue>
+    <customValue>
+        <fullName>GLK 250</fullName>
+        <default>false</default>
+        <label>GLK 250</label>
+    </customValue>
+    <customValue>
+        <fullName>GLS 350</fullName>
+        <default>false</default>
+        <label>GLS 350</label>
+    </customValue>
+    <customValue>
+        <fullName>Golf</fullName>
+        <default>false</default>
+        <label>Golf</label>
+    </customValue>
+    <customValue>
+        <fullName>Ibiza,</fullName>
+        <default>false</default>
+        <label>Ibiza,</label>
+    </customValue>
+    <customValue>
+        <fullName>Insignia</fullName>
+        <default>false</default>
+        <label>Insignia</label>
+    </customValue>
+    <customValue>
+        <fullName>Jetta</fullName>
+        <default>false</default>
+        <label>Jetta</label>
+    </customValue>
+    <customValue>
+        <fullName>Leon</fullName>
+        <default>false</default>
+        <label>Leon</label>
+    </customValue>
+    <customValue>
+        <fullName>Macan</fullName>
+        <default>false</default>
+        <label>Macan</label>
+    </customValue>
+    <customValue>
+        <fullName>ML 250</fullName>
+        <default>false</default>
+        <label>ML 250</label>
+    </customValue>
+    <customValue>
+        <fullName>ML 350</fullName>
+        <default>false</default>
+        <label>ML 350</label>
+    </customValue>
+    <customValue>
+        <fullName>Octavia</fullName>
+        <default>false</default>
+        <label>Octavia</label>
+    </customValue>
+    <customValue>
+        <fullName>Panamera</fullName>
+        <default>false</default>
+        <label>Panamera</label>
+    </customValue>
+    <customValue>
+        <fullName>Passat</fullName>
+        <default>false</default>
+        <label>Passat</label>
+    </customValue>
+    <customValue>
+        <fullName>Passat CC</fullName>
+        <default>false</default>
+        <label>Passat CC</label>
+    </customValue>
+    <customValue>
+        <fullName>Phaeton</fullName>
+        <default>false</default>
+        <label>Phaeton</label>
+    </customValue>
+    <customValue>
+        <fullName>Polo</fullName>
+        <default>false</default>
+        <label>Polo</label>
+    </customValue>
+    <customValue>
+        <fullName>Q3</fullName>
+        <default>false</default>
+        <label>Q3</label>
+    </customValue>
+    <customValue>
+        <fullName>Q5</fullName>
+        <default>false</default>
+        <label>Q5</label>
+    </customValue>
+    <customValue>
+        <fullName>Q7</fullName>
+        <default>false</default>
+        <label>Q7</label>
+    </customValue>
+    <customValue>
+        <fullName>Rapid</fullName>
+        <default>false</default>
+        <label>Rapid</label>
+    </customValue>
+    <customValue>
+        <fullName>S 300</fullName>
+        <default>false</default>
+        <label>S 300</label>
+    </customValue>
+    <customValue>
+        <fullName>S 350</fullName>
+        <default>false</default>
+        <label>S 350</label>
+    </customValue>
+    <customValue>
+        <fullName>Scirocco</fullName>
+        <default>false</default>
+        <label>Scirocco</label>
+    </customValue>
+    <customValue>
+        <fullName>Sharan</fullName>
+        <default>false</default>
+        <label>Sharan</label>
+    </customValue>
+    <customValue>
+        <fullName>SLC 250</fullName>
+        <default>false</default>
+        <label>SLC 250</label>
+    </customValue>
+    <customValue>
+        <fullName>SLK 250</fullName>
+        <default>false</default>
+        <label>SLK 250</label>
+    </customValue>
+    <customValue>
+        <fullName>Sprinter</fullName>
+        <default>false</default>
+        <label>Sprinter</label>
+    </customValue>
+    <customValue>
+        <fullName>Superb</fullName>
+        <default>false</default>
+        <label>Superb</label>
+    </customValue>
+    <customValue>
+        <fullName>Tiguan</fullName>
+        <default>false</default>
+        <label>Tiguan</label>
+    </customValue>
+    <customValue>
+        <fullName>Toledo</fullName>
+        <default>false</default>
+        <label>Toledo</label>
+    </customValue>
+    <customValue>
+        <fullName>Touareg</fullName>
+        <default>false</default>
+        <label>Touareg</label>
+    </customValue>
+    <customValue>
+        <fullName>Touran</fullName>
+        <default>false</default>
+        <label>Touran</label>
+    </customValue>
+    <customValue>
+        <fullName>Vito</fullName>
+        <default>false</default>
+        <label>Vito</label>
+    </customValue>
+    <customValue>
+        <fullName>Vito Tourer</fullName>
+        <default>false</default>
+        <label>Vito Tourer</label>
+    </customValue>
+    <customValue>
+        <fullName>V-Klasse</fullName>
+        <default>false</default>
+        <label>V-Klasse</label>
+    </customValue>
+    <customValue>
+        <fullName>Zafira</fullName>
+        <default>false</default>
+        <label>Zafira</label>
+    </customValue>
+    <customValue>
+        <fullName>Anderes Modell</fullName>
+        <default>false</default>
+        <label>Anderes Modell</label>
+    </customValue>
+    <customValue>
+        <fullName>SQ5</fullName>
+        <default>false</default>
+        <label>SQ5</label>
+    </customValue>
+    <customValue>
+        <fullName>TT</fullName>
+        <default>false</default>
+        <label>TT</label>
+    </customValue>
+    <customValue>
+        <fullName>A 180</fullName>
+        <default>false</default>
+        <label>A 180</label>
+    </customValue>
+    <customValue>
+        <fullName>B 180</fullName>
+        <default>false</default>
+        <label>B 180</label>
+    </customValue>
+    <customValue>
+        <fullName>B 180 CDI</fullName>
+        <default>false</default>
+        <label>B 180 CDI</label>
+    </customValue>
+    <customValue>
+        <fullName>B 200</fullName>
+        <default>false</default>
+        <label>B 200</label>
+    </customValue>
+    <customValue>
+        <fullName>B 220</fullName>
+        <default>false</default>
+        <label>B 220</label>
+    </customValue>
+    <customValue>
+        <fullName>C 220</fullName>
+        <default>false</default>
+        <label>C 220</label>
+    </customValue>
+    <customValue>
+        <fullName>C 250</fullName>
+        <default>false</default>
+        <label>C 250</label>
+    </customValue>
+    <customValue>
+        <fullName>E 200</fullName>
+        <default>false</default>
+        <label>E 200</label>
+    </customValue>
+    <customValue>
+        <fullName>E 220</fullName>
+        <default>false</default>
+        <label>E 220</label>
+    </customValue>
+    <customValue>
+        <fullName>E 250</fullName>
+        <default>false</default>
+        <label>E 250</label>
+    </customValue>
+    <customValue>
+        <fullName>GLA 200</fullName>
+        <default>false</default>
+        <label>GLA 200</label>
+    </customValue>
+    <customValue>
+        <fullName>GLA 220</fullName>
+        <default>false</default>
+        <label>GLA 220</label>
+    </customValue>
+    <customValue>
+        <fullName>GLK 200</fullName>
+        <default>false</default>
+        <label>GLK 200</label>
+    </customValue>
+    <customValue>
+        <fullName>GLK 350</fullName>
+        <default>false</default>
+        <label>GLK 350</label>
+    </customValue>
+    <customValue>
+        <fullName>Exeo</fullName>
+        <default>false</default>
+        <label>Exeo</label>
+    </customValue>
+    <customValue>
+        <fullName>Ibiza</fullName>
+        <default>false</default>
+        <label>Ibiza</label>
+    </customValue>
+    <customValue>
+        <fullName>Yeti</fullName>
+        <default>false</default>
+        <label>Yeti</label>
+    </customValue>
+    <masterLabel>Modell</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

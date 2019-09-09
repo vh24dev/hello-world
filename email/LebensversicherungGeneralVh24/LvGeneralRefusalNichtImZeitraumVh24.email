@@ -1,0 +1,33 @@
+<span style="font-size:13px;"><span style="font-family: arial, helvetica, sans-serif;">
+{!Contact.Salutation__c},
+<p>
+die Überprüfung Ihres eingereichten Versicherungsvertrags von der {!Opportunity.Insurance_Name__c} hat ergeben, dass wir in Ihrer Sache nach der aktuellen Rechtsprechung leider nicht weiter vorgehen können.
+<p>
+Diese besagt derzeit, dass eine Rückabwicklung von Lebens-/ Rentenversicherungsverträge nur möglich ist, wenn der Abschluss in dem Zeitraum zwischen dem 01.01.1991 und dem 31.12.2007 liegt.
+<p>
+Wir beobachten die rechtliche Entwicklung und neuesten Gerichtsurteile sehr genau. Sobald sich die rechtliche Situation zu Ihren Gunsten ändert, werden wir aktiv auf Sie zukommen.
+<p>
+Unserer Ansicht nach bestehen bei Ihrem Versicherungsvertrag momentan keine Ansprüche, die ein weiteres Vorgehen nicht rechtfertigen würden. Wir bitten Sie darüber hinaus um Verständnis, dass wir im Rahmen einer kostenfreien Prüfung keine detaillierte Begründung unserer Entscheidung vornehmen.
+<p>
+Vielen Dank für Ihr Vertrauen und dass Sie uns beauftragt haben!
+<p>
+Bei Rückfragen können Sie mich gerne unter meiner Nummer {!User.Phone} erreichen oder Sie schreiben mir eine E-Mail an lebensversicherung@verbraucherhilfe24.de.
+<p>
+Mit freundlichen Grüßen
+<p>
+<p>
+{!User.FirstName} {!User.LastName}
+{!User.Title}
+<p>
+<p><img alt="" src="https://www.verbraucherhilfe24.de/wp-content/uploads/v24-logo-1.png" /></p>
+<span style="font-size:11px;"><span style="Calibri Light;">
+VH24 GmbH<br/>
+Albert-Roßhaupter-Str. 32<br/>
+81369 München<br/>
+Telefon: <b>089 - 124 147 418</b><br/>
+Kontakt: office@verbraucherhilfe24.de
+<p>
+www.verbraucherhilfe24.de
+<p>
+Registergericht beim Amtsgericht München unter 371 E - <b>M 1779 als Inkassodienstleister gem. §10 abs. 1 RDG</b> | Handelsregister: HRB 217774 Amtsgericht München | USt-IDNr: DE277526577
+<p><a href="{!Opportunity.URL_Abmeldung__c}" target="_blank"><span style="color: #0000cd;"><b>Abmelden</b></a>

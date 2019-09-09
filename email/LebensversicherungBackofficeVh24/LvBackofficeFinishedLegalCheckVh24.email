@@ -1,0 +1,25 @@
+<span style="font-size:13px;"><span style="font-family: arial, helvetica, sans-serif;">
+{!Contact.Salutation__c}, 
+<p>
+die eingereichten Unterlagen von der {!Opportunity.Insurance_Name__c} mit der Versicherungsnummer {!Opportunity.Insurance_Number__c} wurde von unserem Team aus erfahrenen und spezialisierten Rechtsanwälten und Fachjuristen juristisch geprüft. 
+<p>
+Wir freuen uns, Ihnen mitteilen zu können, dass in juristischer Sicht Ihr Vertrag angreifbar ist. 
+<p>
+Im nächsten Schritt werden wir nun Ihre Unterlagen in die Abteilung Berechnung übergeben. Diese erste Berechnung dient als Grundlage, ob eine Rückabwicklung aus wirtschaftlicher Sicht für Sie sinnvoll ist. 
+<p>
+In der Regel erhalten Sie innerhalb von 4-5 Werktagen eine entsprechende Rückmeldung von uns. Ist Ihr Vertrag auch wirtschaftlich angreifbar, werden wir Ihnen alle weiteren Schritte in einem Gespräch erläutern. 
+<p>
+Mit freundlichen Grüßen 
+<p>
+i. A. {!User.FirstName} {!User.LastName} 
+<p>
+Heinrich Jäger 
+<br/>J & C Anwälte 
+<p>
+Sonnenstraße 18 
+<br/>80331 München 
+<p>
+Telefon: +49 (0) 89 90 41 03 444 
+<br/>Telefax: +49 (0) 89 90 41 03 499 
+<br/>E-Mail: info@jc-anwaelte.de 
+<br/>Web: www.jc-anwaelte.de

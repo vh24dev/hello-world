@@ -1,0 +1,17 @@
+<apex:page docType="html" controller="VehicleOwnerController" action="{!init}">
+    <apex:composition template="{!$Site.Template}">
+        <apex:define name="body">              
+            <h2>Dokumente zu Ihrem Auftrag</h2>
+            <h3>
+                Nach Übermittlung der Unterlagen werden wir umgehend für Sie tätig!
+            </h3>
+            <p>
+                Hier können Sie die Muster-Vollmacht(en) herunterladen:
+            </p>
+            <ul>
+                <li>link 1</li>
+                <li>link 2</li>
+            </ul>
+        </apex:define>
+    </apex:composition>
+</apex:page>

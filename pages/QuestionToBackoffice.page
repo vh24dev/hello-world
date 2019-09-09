@@ -1,0 +1,13 @@
+<apex:page standardController="Claim__c" extensions="QuestionToBackoffice" showheader="false">
+       <apex:pageBlock title="Frage eingeben:">
+       <apex:form >
+            <apex:outputLabel value="Frage: "/><br />
+            <div class = "requiredInput">
+            <div class = "requiredBlock"></div>
+            <apex:inputTextarea value="{!parDescription}" id="question" style="width:600px;height:300px" required="true"/>
+            </div>
+            <br /><br />
+            <apex:commandButton value="Senden" action="{!renderPage}" />
+        </apex:form>
+    </apex:pageBlock>
+</apex:page>

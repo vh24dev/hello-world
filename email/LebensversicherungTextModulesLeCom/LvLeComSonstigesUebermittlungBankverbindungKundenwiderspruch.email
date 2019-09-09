@@ -1,0 +1,10 @@
+in obiger Angelegenheit teile ich unter Bezugnahme auf Ihr Zeichen {!Correspondence__c.Partner_Reference__c} meine Bankverbindung wie folgt mit:
+
+Kontoinhaber: {!Contact.Account_Holder__c}
+Bankname: {!Contact.Bank_Name__c}
+IBAN: {!Contact.IBAN__c}
+BIC: {!Contact.BIC__c}
+
+Ich weise darauf hin, dass die Mitteilung meiner Bankverbindung selbstverständlich keinen Verzicht auf weitere Ansprüche aus der Rückabwicklung des Versicherungsbeitrags bedeutet, ebenso kein Anerkenntnis des ermittelten Rückabwicklungsbetrags. 
+
+Ich behalte mir daher ausdrücklich vor noch weitere Ansprüche aufgrund des Widerspruchs geltend zu machen.

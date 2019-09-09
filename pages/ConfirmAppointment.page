@@ -1,0 +1,10 @@
+<apex:page docType="html-5.0" pageStyle="" wizard="false" sidebar="true" standardStylesheets="false" showHeader="false" showQuickActionVfHeader="false"  controller="ConfirmAppointmentController" action="{!init}">
+    <apex:composition template="{!$Site.Template}">
+        <apex:define name="body">
+            <apex:pageMessage rendered="{!isError}" summary="{!errorMsg}" severity="warning" strength="3" />
+            <h1>
+                Ihre Termibestätigung wurde hinterlegt!
+            </h1>
+        </apex:define>
+    </apex:composition>
+</apex:page>

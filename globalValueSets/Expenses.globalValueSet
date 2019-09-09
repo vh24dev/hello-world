@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Nettoverzinsung</fullName>
+        <default>true</default>
+        <label>Nettoverzinsung</label>
+    </customValue>
+    <customValue>
+        <fullName>Eigenkapitalrendite</fullName>
+        <default>false</default>
+        <label>Eigenkapitalrendite</label>
+    </customValue>
+    <masterLabel>Expenses</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

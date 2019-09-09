@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>false</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>FzGeneralAutoFollowUpLostWithDocuments7Vr24</name>
+    <style>none</style>
+    <subject>Betreff: [Reminder] Diesel Schadenersatz, so geht es weiter -  Nr. {!Opportunity.Number__c}</subject>
+    <textOnly>{!Contact.Salutation__c},
+
+bestimmt haben Sie noch einige Fragen zu einer möglichen Schadenersatzklage.
+Bevor Sie Ihre Fahrzeugdaten vervollständigen und Klage einreichen, wollen wir daher darauf eingehen.
+
+Die Top 3 Fragen zur Abwicklung:
+Habe ich mit meinem Auto überhaupt Ansprüche?
+Ein erster Check hatte ein positives Ergebnis, sie können gerne weitere Angaben mit uns besprechen.
+
+Worauf habe ich Anspruch?
+Aktuell ist ein Schadenersatz in Höhe von bis zu 10.000€ möglich. Der tatsächliche Schadenersatz und ob Sie ihr Fahrzeug behalten oder zurückgeben wollen, wird von Fall zu Fall entschieden.
+
+Wie stehen die Erfolgschancen?
+Die Chancen stehen gut, denn der Hersteller Ihres Fahrzeuges hat einen Fehler gemacht, der nun in ersten Urteilen auch als solcher bestätigt wurde.
+
+Ihre nächsten Schritte:
+
+1.	Vervollständigen Sie Ihre Fahrzeugdaten und die Beauftragung.
+2.	Wir reichen nach erfolgreicher Prüfung Ihre Klage ein.
+3.	Sie erhalten laufende Updates zur Klage und entscheiden selbst, wie Sie weiter vorgehen.
+
+Ihre individuellen Fragen können Sie als Antwort auf diese Mail stellen oder Sie kontaktieren unsere Experten telefonisch unter:
+
+089 - 215 413 118
+
+Oder teilen Sie uns einfach per Email mit wann Sie am besten erreichbar sind: vormittags, nachmittags, abends.
+
+Unsere Spezialisten zu diesem Thema beraten Sie kostenlos!
+Wir freuen uns darauf, für Sie tätig zu werden.
+
+
+Mit freundlichen Grüßen
+
+
+
+www.verbraucherrechte24.de
+
+VerbraucherRechte24 GmbH
+Albert-Roßhaupter-Straße 32
+81369 München
+
+Geschäftsführer: Steffen Matz, Matthias Hartmann</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

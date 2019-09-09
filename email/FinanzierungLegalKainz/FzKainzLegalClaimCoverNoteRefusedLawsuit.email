@@ -1,0 +1,26 @@
+{!Contact.Salutation__c}, 
+
+leider hat Ihre Rechtsschutzversicherung die Kostenübernahme für das Klageverfahren endgültig abgelehnt. 
+
+Wir bitten Sie, sich wegen des weiteren Vorgehens an die Verbraucherhilfe24 zu wenden. 
+
+Selbstverständlich können wir auch das Mandat zu den üblichen gesetzlichen Gebühren weiterführen. Bitte teilen Sie mit, wie wir verfahren sollen. Sollten wir innerhalb der nächsten vier Wochen nichts von Ihnen hören, gehen wir davon aus, dass Sie die erste Alternative bevorzugen. 
+
+Über den weiteren Verlauf halten wir Sie selbstverständlich auf dem Laufenden. 
+
+Mit freundlichen Grüßen 
+
+
+Rechtsanwalt Dr. Henning Leitz 
+Partner 
+
+CLLB Rechtsanwälte 
+Cocron, Liebl, Leitz, Braun, Kainz, Sittner Partnerschaft mbB München - Berlin 
+
+Liebigstr. 21 
+80538 München 
+Tel.: +49-89-552 999 50 
+Fax.:+49-89-552 999 90 
+mail: kanzlei@cllb.de 
+
+Ref-Nr: {!Claim__c.Id}

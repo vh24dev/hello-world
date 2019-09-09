@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Anmeldelink Callcenter</description>
+    <encodingKey>UTF-8</encodingKey>
+    <name>FzCallcenterFormstep2LinkVh24</name>
+    <style>none</style>
+    <subject>Jetzt handeln! Ihr Recht auf Schadensersatz</subject>
+    <textOnly>Auftragsdaten in wenigen Schritten hochladen.
+
+{!Lead.Salutation__c},
+
+wir haben Ihre Anfrage für die Durchsetzung Ihrer Rechte erhalten und können
+bestätigen, dass Ihre Chancen auf Schadensersatz sehr gut sind.
+Um für Sie tätig werden zu können, benötigen wir noch weitere Informationen von Ihnen.
+
+
+Daten jetzt vervollständigen. Nur noch wenige Informationen und wir werden für Sie tätig!
+
+
+Noch Fragen?
+
+Wenn Sie Fragen haben oder mit uns direkt telefonieren möchten, erreichen Sie uns unter 089 - 124 147 413 oder Sie fordern einfach einen Rückruf an.
+
+
+Wir freuen uns darauf, für Sie tätig zu werden.
+
+Ihre Verbraucherhilfe24
+
+
+
+VH24 GmbH
+Albert-Roßhaupter-Str. 32
+81369 München
+PHONE 089 - 124 147 413
+FAX 089 - 124 147 419
+WEB www.verbraucherhilfe24.de
+
+
+Registriert beim Amtsgericht München unter 371 E – M 1779 als Inkassodienstleister gem. § 10 Abs. 1 RDG Handelsregister: HRB 217774 Amtsgericht München USt-IDNr: DE277526577
+VH24 GmbH, Albert-Roßhaupter-Str. 32, 81369 München / Kontakt: office@verbraucherhilfe24.de
+
+Jetzt austragen</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

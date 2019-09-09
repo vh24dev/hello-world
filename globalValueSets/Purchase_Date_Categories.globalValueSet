@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Vor 2008</fullName>
+        <default>false</default>
+        <label>Vor 2008</label>
+    </customValue>
+    <customValue>
+        <fullName>2008-2015</fullName>
+        <default>false</default>
+        <label>2008-2015</label>
+    </customValue>
+    <customValue>
+        <fullName>Nach_2015</fullName>
+        <default>false</default>
+        <label>Nach 2015</label>
+    </customValue>
+    <masterLabel>Purchase Date Categories</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

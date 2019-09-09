@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Nicht im Zeitraum</description>
+    <encodingKey>UTF-8</encodingKey>
+    <name>FzGeneralRefusalNichtImZeitraumVh24</name>
+    <style>none</style>
+    <subject>Erwerb des Kfz nach Bekanntwerden des Mangels | Ihre Bearbeitungsnummer: {!Opportunity.Number__c}</subject>
+    <textOnly>{!Contact.Salutation__c},
+
+leider müssen wir ihren Vorgang schließen, da Ihr Fahrzeug sich nicht im angreifbarem Zeitraum befindet. Für Ihr Vertrauen bedanken wir uns und wünschen Ihnen für Ihre private und berufliche Zukunft alles Gute.
+
+Mit freundlichen Grüßen 
+
+
+{!User.FirstName} {!User.LastName} 
+{!User.Title}
+Abt. Diesel-Skandal</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

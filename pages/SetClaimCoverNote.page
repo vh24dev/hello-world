@@ -1,0 +1,36 @@
+<apex:page standardController="Claim__c" extensions="SetClaimCoverNote" showheader="false">
+    <apex:pageBlock title="Deckungszusage dokumentieren:" rendered="{!renderKlage}">
+        <apex:form >
+            <apex:outputLabel value="Antwortdatum: "/><br />
+            <apex:inputField required="true" value="{!parClaim.Response_Lawsuit__c}" id="response"/>
+            <br /><br />
+            <apex:outputLabel value="Ergebnis: "/><br />
+            <apex:inputField required="true" value="{!parClaim.Cover_Note__c}" id="covernote"/>
+            <br /><br />
+            <apex:outputLabel value="Absagegrund: "/><br />
+            <apex:inputField required="false" value="{!parClaim.Reason_For_Cover_Note_Refusal__c}" id="reasonforrefusal"/>
+            <br /><br /><br />
+            <apex:commandButton value="Dokumentieren" action="{!renderPage}" />
+        </apex:form>
+    </apex:pageBlock>
+    <apex:pageBlock title="Deckungszusage dokumentieren:" rendered="{! renderKlage = false}">
+        <apex:form >
+            <apex:outputLabel value="Antwortdatum: "/><br />
+            <apex:inputField required="true" value="{!parClaim.Response_Lawsuit__c}" id="response"/>
+            <br /><br />
+            <apex:outputLabel value="Ergebnis: "/><br />
+            <apex:inputField required="true" value="{!parClaim.Cover_Note__c}" id="covernote"/>
+            <br /><br />
+            <apex:outputLabel value="Schadensnummer: "/><br />
+            <apex:inputField required="true" value="{!parClaim.Legal_Protection_Insurance_Case_Number__c}" id="casenumber"/>
+            <br /><br />
+            <apex:outputLabel value="Selbstbehalt: "/><br />
+            <apex:inputField required="true" value="{!parOpportunity.Legal_Protection_Deductible__c}" id="deductible"/>
+            <br /><br />
+            <apex:outputLabel value="Deckungsumfang: "/><br />
+            <apex:inputField value="{!parClaim.Cover_Note_Scope__c}" id="covernotescope"/>
+            <br /><br />
+            <apex:commandButton value="Dokumentieren" action="{!renderPage}" /> 
+        </apex:form>
+    </apex:pageBlock>
+</apex:page>

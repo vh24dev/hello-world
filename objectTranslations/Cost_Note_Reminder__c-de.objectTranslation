@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?><CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label><!-- BypassProcessBuilder --></label>
+        <name>BypassProcessBuilder__c</name>
+    </fields>
+    <fields>
+        <label><!-- Kostennote --></label>
+        <name>Cost_Note__c</name>
+        <relationshipLabel><!-- Mahnungen --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Created Date Old Org --></label>
+        <name>Created_Date_Old_Org__c</name>
+    </fields>
+    <fields>
+        <label><!-- Date Clean --></label>
+        <name>Date_Clean__c</name>
+    </fields>
+    <fields>
+        <label><!-- Datum --></label>
+        <name>Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Fälligkeitsdatum --></label>
+        <name>Due_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- MAHNKOSTImpID --></label>
+        <name>MAHNKOSTImpID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Number --></label>
+        <name>Number__c</name>
+    </fields>
+    <fields>
+        <label><!-- Old Id --></label>
+        <name>Old_Id__c</name>
+    </fields>
+    <fields>
+        <label><!-- Old Mahnung ID --></label>
+        <name>Old_Mahnung_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Opportunity Id --></label>
+        <name>Opportunity_Id__c</name>
+    </fields>
+    <fields>
+        <label><!-- Zahlungsfrist --></label>
+        <name>Payment_Term__c</name>
+    </fields>
+    <fields>
+        <label><!-- Empfänger --></label>
+        <name>Recipient__c</name>
+    </fields>
+    <fields>
+        <label><!-- Status --></label>
+        <name>Stage__c</name>
+    </fields>
+    <fields>
+        <label><!-- Wiedervorlage erstellen --></label>
+        <name>Wiedervorlage_erstellen__c</name>
+    </fields>
+    <fields>
+        <label><!-- customerCostNoteReminderExisting --></label>
+        <name>customerCostNoteReminderExisting__c</name>
+    </fields>
+    <fields>
+        <label><!-- insuranceCostNoteReminderExisting --></label>
+        <name>insuranceCostNoteReminderExisting__c</name>
+    </fields>
+    <caseValues>
+        <caseType>Nominative</caseType>
+        <plural>false</plural>
+        <value>Mahnung</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Nominative</caseType>
+        <plural>true</plural>
+        <value>Mahnungen</value>
+    </caseValues>
+    <gender>Feminine</gender>
+    <webLinks>
+        <label><!-- Create_Reminder --></label>
+        <name>Create_Reminder</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Send_Reminder --></label>
+        <name>Send_Reminder</name>
+    </webLinks>
+</CustomObjectTranslation>

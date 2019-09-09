@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Außergerichtlich</fullName>
+        <default>false</default>
+        <label>Außergerichtlich</label>
+    </customValue>
+    <customValue>
+        <fullName>I. Instanz</fullName>
+        <default>false</default>
+        <label>I. Instanz</label>
+    </customValue>
+    <customValue>
+        <fullName>Berufung</fullName>
+        <default>false</default>
+        <label>Berufung</label>
+    </customValue>
+    <customValue>
+        <fullName>Selbstbehalt</fullName>
+        <default>false</default>
+        <label>Selbstbehalt</label>
+    </customValue>
+    <customValue>
+        <fullName>Verteidigungsanzeige</fullName>
+        <default>false</default>
+        <label>Verteidigungsanzeige</label>
+    </customValue>
+    <customValue>
+        <fullName>Abschluss</fullName>
+        <default>false</default>
+        <label>Abschluss</label>
+    </customValue>
+    <customValue>
+        <fullName>Sonstiges</fullName>
+        <default>false</default>
+        <label>Sonstiges</label>
+    </customValue>
+    <masterLabel>Cost Note Types</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?><CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label><!-- Datum Abtretungswiderruf --></label>
+        <name>Assignment_Revocation_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- OLD Abtretungswiderrufslink --></label>
+        <name>Assignment_Revocation_Link__c</name>
+    </fields>
+    <fields>
+        <label><!-- Anzahl Auto-Follow-ups --></label>
+        <name>Auto_Follow_up_Count__c</name>
+    </fields>
+    <fields>
+        <label><!-- Nächstes Auto-Follow-up --></label>
+        <name>Auto_Follow_up_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Follow-up Journeys automatisch starten --></label>
+        <name>Autostart_Auto_Follow_up_Journeys__c</name>
+    </fields>
+    <fields>
+        <label><!-- BypassProcessBuilder --></label>
+        <name>BypassProcessBuilder__c</name>
+    </fields>
+    <fields>
+        <label><!-- Link zum Bestätigungslink --></label>
+        <name>ConfirmationLink__c</name>
+    </fields>
+    <fields>
+        <label><!-- Bestätigungsdatum --></label>
+        <name>Confirmation_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- OLD Bestätigungslink --></label>
+        <name>Confirmation_Link__c</name>
+    </fields>
+    <fields>
+        <label><!-- Form Hash 1 --></label>
+        <name>Form_Hash_1__c</name>
+    </fields>
+    <fields>
+        <label><!-- Form Hash 2 --></label>
+        <name>Form_Hash_2__c</name>
+    </fields>
+    <fields>
+        <label><!-- Link zum Abtretungslink --></label>
+        <name>LinkAssignmentRevocation__c</name>
+    </fields>
+    <fields>
+        <label><!-- MusterImpID --></label>
+        <name>MusterImpID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Old Musterfeststellungsklage ID --></label>
+        <name>Old_Musterfeststellungsklage_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Old Opportunity ID --></label>
+        <name>Old_Opportunity_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Opportunity Id --></label>
+        <name>Opportunity_Id__c</name>
+    </fields>
+    <fields>
+        <label><!-- Opportunity --></label>
+        <name>Opportunity__c</name>
+        <relationshipLabel><!-- Musterfeststellungsklagen --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Started Auto-Follow-up Journey 1 --></label>
+        <name>Started_Auto_Follow_up_Journey_1__c</name>
+    </fields>
+    <fields>
+        <label><!-- Status --></label>
+        <name>Status__c</name>
+    </fields>
+    <fields>
+        <label><!-- Web Form Token --></label>
+        <name>Token__c</name>
+    </fields>
+    <fields>
+        <label><!-- URL Abtretungslink --></label>
+        <name>URL_Abtretungslink__c</name>
+    </fields>
+    <fields>
+        <label><!-- URL Bestätigungslink --></label>
+        <name>URL_ConfirmationLink__c</name>
+    </fields>
+    <caseValues>
+        <caseType>Nominative</caseType>
+        <plural>false</plural>
+        <value>Musterfeststellungsklage</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Nominative</caseType>
+        <plural>true</plural>
+        <value>Musterfeststellungsklagen</value>
+    </caseValues>
+    <gender>Feminine</gender>
+    <webLinks>
+        <label><!-- Create_Document --></label>
+        <name>Create_Document</name>
+    </webLinks>
+</CustomObjectTranslation>

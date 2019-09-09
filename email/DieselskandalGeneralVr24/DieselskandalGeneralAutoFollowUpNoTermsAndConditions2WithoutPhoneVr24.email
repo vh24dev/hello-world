@@ -1,0 +1,31 @@
+<span style="font-size:13px;"><span style="font-family: arial, helvetica, sans-serif;">
+<p>{!Contact.Salutation__c},</p>
+<p>nutzen Sie die Chance und klagen Sie jetzt gegen den Hersteller Ihres Dieselautos!<br/>
+Unsere erste Prüfung Ihrer Angaben hat ergeben, dass Sie die Kriterien für eine erfolgsversprechende Schadensersatzklage erfüllen.<br/>
+<br/>
+<a href="{!Opportunity.Form_Step_2_Link__c}" rel="noopener noreferrer" target="_blank"><b>Daten gleich vervollständigen und Recht bekommen</b></a>
+<br/>
+<p>Sie klagen übrigens völlig Stress- und risikofrei: Wir prüfen Ihren Fall vorab und übernehmen die komplette Abwicklung für Sie.<br/>
+<p>- Keine Gerichtstermine für Sie<br/>
+- Keine Prozesskosten<br/>
+<p>Mit Rechtsschutzversicherung können Sie heute schon loslegen.<br/>
+Auch Ohne Rechstschutzversicherung informieren wir Sie gerne in den nächsten Monaten über Ihre Möglichkeiten.<br/>
+<p>Handeln Sie jetzt und schützen Sie sich vor Problemen, die durch Ihren manipulierten Diesel auf Sie zukommen:<br/>
+<p>- Wertverlust beim Wiederverkauf<br/>
+- Dieselfahrverbote in deutschen Städten<br/>
+- Hoher Wartungsaufwand, mögliche technische Probleme<br/>
+<p>Machen Sie es wie tausende andere Dieselbesitzer und holen Sie sich Ihr Geld zurück.<br/> 
+Bis zu 10.000€ zusätzlicher Schadenersatz.<br/> 
+<p>Sie haben noch Fragen zum weiteren Vorgehen?<br/> 
+Rufen Sie uns gerne an:<br/>
+089 - 215 413 118<br/>
+<p>
+oder antworten Sie auf diese Mail.<br/>
+<p><img style="width: 200px; height: 54px;" src="https://daks2k3a4ib2z.cloudfront.net/58d0ccc5a30805a8243d5fd9/58d22446e07be4a234dc816e_Verbraucherrechte_Logo_Lay01.png" alt="" /></p>
+<p><a href="http://www.verbraucherrechte24.de" target="_blank">www.verbraucherrechte24.de</a></p>
+<p><span style="font-family: Calibri, Verdana, Arial, sans-serif; font-size: 11px;"> VerbraucherRechte24 GmbH<br /> Albert-Ro&szlig;haupter-Stra&szlig;e 32<br /> 81369 M&uuml;nchen </span></p>
+<p><span style="font-family: Calibri, Verdana, Arial, sans-serif; font-size: 11px;"> Gesch&auml;ftsf&uuml;hrer: Steffen Matz, Matthias Hartmann</span>
+
+</p>
+
+<p><span style="font-family: Calibri, Verdana, Arial, sans-serif;">&nbsp;<p><a href="{!Opportunity.URL_Abmeldung__c}" target="_blank"><span style="color: #0000cd;"><b>Abmelden</b></a>

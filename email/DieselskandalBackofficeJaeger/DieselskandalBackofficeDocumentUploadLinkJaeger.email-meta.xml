@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Link zum Dokumentenupload</description>
+    <encodingKey>UTF-8</encodingKey>
+    <name>DieselskandalBackofficeDocumentUploadLinkJäger</name>
+    <style>none</style>
+    <subject>Jetzt handeln! Ihr Recht im Dieselskandal</subject>
+    <textOnly>Bitte Ihre Auftragsdaten vervollständigen.
+{!Contact.Salutation__c},
+
+Wir nehmen Bezug auf Ihre Anfrage für die Rechtsdurchsetzung im Dieselskandal. Wir warten noch auf die Vervollständigung Ihrer Daten, damit wir die Rechtsdurchsetzung für Sie starten können.
+
+Dokumente hochladen
+Hinweis: Sie können die Dokumente auch mit Ihrer Handy-Kamera abfotografieren und die Bilder hier hochladen!
+
+
+Oder per Post an (bitte Vorgangsnummer vermerken):
+Verbraucherhilfe24
+Abt. Diesel-Skandal
+Albert-Roßhaupter-Str. 32
+81369 München
+
+Wenn Sie lieber den weiteren Prozess mit uns am Telefon besprechen  möchten, rufen Sie uns auch gerne an 089 124 147 413
+Oder fordern Sie einen Rückruf an.
+
+Mit freundlichen Grüßen
+
+Ihre Verbraucherhilfe24
+
+
+
+VH24 GmbH
+Albert-Roßhaupter-Str. 32
+81369 München
+Telefon: 089 - 124 147 413
+Kontakt: office@verbraucherhilfe24.de
+
+www.verbraucherhilfe24.de
+
+Registergericht beim Amtsgericht München unter 371 E - M 1779 als Inkassodienstleister gem. §10 abs. 1 RDG | Handelsregister: HRB 217774 Amtsgericht München | USt-IDNr: DE277526577
+
+
+Abmelden
+
+
+Widerrufserklärung inkl. AGB</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

@@ -1,0 +1,21 @@
+{!Contact.Salutation__c},
+
+Ihre Bearbeitungsnummer: {!Opportunity.Number__c}.
+
+BMW hat am 01.06.2014 die Widerrufsbelehrung und auch den Darlehens- bzw. Leasingvertrag so angepasst, dass nur noch kleine Fehler enthalten sind. Deshalb können die Verträge von BMW ab diesem Zeitpunkt nicht erfolgsversprechende bearbeitet werden. 
+Daher müssen wir Ihr Mandat leider niederlegen. Für Ihr Vertrauen bedanken wir uns und wünschen Ihnen für Ihre private und berufliche Zukunft alles Gute.
+
+Mit freundlichen Grüßen 
+
+
+i. A. {!User.FirstName} {!User.LastName} 
+
+Dr. Dominic Krutisch 
+LeCom - Legal & Compliance 
+Rechtsanwaltsgesellschaft mbH
+
+Albert-Roßhaupter-Str. 32 
+81369 München 
+
+Tel.: 089 / 588088710 
+Fax: 089 / 588088711

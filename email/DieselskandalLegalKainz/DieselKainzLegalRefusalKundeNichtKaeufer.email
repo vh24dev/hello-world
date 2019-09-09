@@ -1,0 +1,24 @@
+!Contact.Salutation__c}, 
+
+Ihre Bearbeitungsnummer: {!Opportunity.Number__c} 
+
+Bei der Durchsicht Ihrer Unterlagen ist uns aufgefallen, dass Sie nicht der Eigentümer des streitgegenständlichen Fahrzeugs sind. Ansprüche gegen den Hersteller stehen grundsätzlich nur diesem zu. Wir benötigen zur Geltendmachung der Ansprüche eine wirksame Vollmacht des KFZ-Eigentümers. 
+
+Aus diesem Grund müssen wir Ihnen leider mitteilen, dass wir Ihr Mandat niederlegen müssen. 
+
+Für Ihr Vertrauen bedanken wir uns und hoffen, dass wir bei Ihrem nächsten Verbraucherrechts-Thema erneut unterstützen können! 
+
+Mit freundlichen Grüßen 
+
+i. A. {!User.FirstName} {!User.LastName} 
+
+CLLB Rechtsanwälte 
+Cocron, Liebl, Leitz, Braun, Kainz, Sittner Partnerschaft mbB München - Berlin 
+
+Liebigstr. 21 
+80538 München 
+Tel.: +49-89-552 999 50 
+Fax.:+49-89-552 999 90 
+mail: kanzlei@cllb.de 
+
+Ref-Nr: {!Claim__c.Id}

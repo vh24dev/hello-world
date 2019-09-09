@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="utf-8"?><CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label><!-- Accounting --></label>
+        <name>Accounting__c</name>
+        <relationshipLabel><!-- Gutschriften --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Summe (Kunde) --></label>
+        <name>Amount_For_Customer__c</name>
+    </fields>
+    <fields>
+        <label><!-- Summe (RSV) --></label>
+        <name>Amount_For_Legal_Prot_Insurance__c</name>
+    </fields>
+    <fields>
+        <label><!-- Offene Summe (Kunde) --></label>
+        <name>Amount_Open_To_Customer__c</name>
+    </fields>
+    <fields>
+        <label><!-- Offene Summe (RSV) --></label>
+        <name>Amount_Open_To_Legal_Prot_Insurance__c</name>
+    </fields>
+    <fields>
+        <label><!-- Offene Summe --></label>
+        <name>Amount_Open__c</name>
+    </fields>
+    <fields>
+        <label><!-- Gezahlte Summe (Kunde) --></label>
+        <name>Amount_Paid_To_Customer__c</name>
+    </fields>
+    <fields>
+        <label><!-- Gezahlte Summe (RSV) --></label>
+        <name>Amount_Paid_To_Legal_Prot_Insurance__c</name>
+    </fields>
+    <fields>
+        <label><!-- Gezahlte Summe --></label>
+        <name>Amount_Paid__c</name>
+    </fields>
+    <fields>
+        <label><!-- Summe --></label>
+        <name>Amount__c</name>
+    </fields>
+    <fields>
+        <label><!-- Belegdatum --></label>
+        <name>Belegdatum__c</name>
+    </fields>
+    <fields>
+        <label><!-- Belegfeld 1 --></label>
+        <name>Belegfeld_1__c</name>
+    </fields>
+    <fields>
+        <label><!-- Belegfeld 2 --></label>
+        <name>Belegfeld_2__c</name>
+    </fields>
+    <fields>
+        <label><!-- Buchungstext --></label>
+        <name>Buchungstext__c</name>
+    </fields>
+    <fields>
+        <label><!-- BypassProcessBuilder --></label>
+        <name>BypassProcessBuilder__c</name>
+    </fields>
+    <fields>
+        <label><!-- CREATEDDATE_old --></label>
+        <name>CREATEDDATE_old__c</name>
+    </fields>
+    <fields>
+        <label><!-- Fall --></label>
+        <name>Claim__c</name>
+        <relationshipLabel><!-- Gutschriften --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Credit Note Payment Sum --></label>
+        <name>Credit_Note_Payment_Sum__c</name>
+    </fields>
+    <fields>
+        <label><!-- Date Clean --></label>
+        <name>Date_Clean__c</name>
+    </fields>
+    <fields>
+        <label><!-- Datum --></label>
+        <name>Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Selbstbehalt --></label>
+        <name>Deductible__c</name>
+    </fields>
+    <fields>
+        <label><!-- Due Date Clean --></label>
+        <name>Due_Date_Clean__c</name>
+    </fields>
+    <fields>
+        <label><!-- Fälligkeitsdatum --></label>
+        <name>Due_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Gegenkonto --></label>
+        <name>Gegenkonto__c</name>
+    </fields>
+    <fields>
+        <label><!-- GutschrImpID --></label>
+        <name>GutschrImpID__c</name>
+    </fields>
+    <fields>
+        <label><!-- ID_old --></label>
+        <name>ID_old__c</name>
+    </fields>
+    <fields>
+        <label><!-- Kennzeichen --></label>
+        <name>Kennzeichen__c</name>
+    </fields>
+    <fields>
+        <label><!-- Kontonummer --></label>
+        <name>Kontonummer__c</name>
+    </fields>
+    <fields>
+        <label><!-- Nummer --></label>
+        <name>Number__c</name>
+    </fields>
+    <fields>
+        <label><!-- Old Gutschrift ID --></label>
+        <name>Old_Gutschrift_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Opportunity Account Id --></label>
+        <name>Opportunity_Account_Id__c</name>
+    </fields>
+    <fields>
+        <label><!-- Opportunity Id --></label>
+        <name>Opportunity_Id__c</name>
+    </fields>
+    <fields>
+        <label><!-- Opportunity Record Type Id --></label>
+        <name>Opportunity_Record_Type_Id__c</name>
+    </fields>
+    <fields>
+        <label><!-- Opportunity Vehicle Brand Id --></label>
+        <name>Opportunity_Vehicle_Brand_Id__c</name>
+    </fields>
+    <fields>
+        <label><!-- Outro --></label>
+        <name>Outro__c</name>
+    </fields>
+    <fields>
+        <label><!-- Zahlungsfrist --></label>
+        <name>Payment_Term__c</name>
+    </fields>
+    <fields>
+        <label><!-- Aktenzeichen --></label>
+        <name>Reference__c</name>
+    </fields>
+    <fields>
+        <label><!-- Status --></label>
+        <name>Stage__c</name>
+    </fields>
+    <fields>
+        <label><!-- Betreff --></label>
+        <name>Subject__c</name>
+    </fields>
+    <fields>
+        <label><!-- Test --></label>
+        <name>Test__c</name>
+    </fields>
+    <fields>
+        <label><!-- Total Price With Vat --></label>
+        <name>Total_Price_With_Vat__c</name>
+    </fields>
+    <fields>
+        <label><!-- Gesamthonorar --></label>
+        <name>Total_Price__c</name>
+    </fields>
+    <fields>
+        <label><!-- USt. --></label>
+        <name>Total_VAT__c</name>
+    </fields>
+    <fields>
+        <label><!-- Umsatz --></label>
+        <name>Umsatz__c</name>
+    </fields>
+    <fields>
+        <label><!-- Hochgeladen --></label>
+        <name>Uploaded_To_Dropbox__c</name>
+    </fields>
+    <caseValues>
+        <caseType>Nominative</caseType>
+        <plural>false</plural>
+        <value>Gutschrift</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Nominative</caseType>
+        <plural>true</plural>
+        <value>Gutschriften</value>
+    </caseValues>
+    <gender>Feminine</gender>
+    <webLinks>
+        <label><!-- Send_Credit_Note --></label>
+        <name>Send_Credit_Note</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- create_creditnote --></label>
+        <name>create_creditnote</name>
+    </webLinks>
+</CustomObjectTranslation>

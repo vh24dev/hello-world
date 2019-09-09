@@ -1,0 +1,6 @@
+<apex:page standardController="Cost_Note__c" extensions="SendCostNote"
+           showHeader="false" action="{!renderPage}">
+    <apex:pageBlock title="In Bearbeitung....">
+        <apex:pageMessages />
+    </apex:pageBlock>
+</apex:page>

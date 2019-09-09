@@ -1,0 +1,29 @@
+{!Contact.Salutation__c}, bzw. Rechtsnachfolger, 
+
+
+Ihre Bearbeitungsnummer: {!Opportunity.Number__c} 
+
+bekunden wir hiermit unser aufrichtiges Beileid. Falls wir diese E-Mail an die Adresse des Verstorbenen gesendet haben sollten, dann weil uns die E-Mail des Rechtsnachfolgers nicht bekannt ist. Wir bitten hierfür um Ihr Verständnis. 
+
+Wir wurden mit der Wahrnehmung der rechtlichen Interessen gegen den Fahrzeughersteller beauftragt und dieser Auftrag wurde aufgrund des Todesfalles sodann widerrufen. 
+Daher teilen wir Ihnen mit, dass wir die Angelegenheit nicht weiter bearbeiten werden und das Mandat beendet ist.
+
+Wir weisen darauf hin, dass etwaige Schadensersatzansprüche verjähren, sofern keine verjährungshemmenden Maßnahmen unternommen werden.
+ 
+Sollten Sie, als Rechtsnachfolger Ihre Ansprüche gegen VW dennoch geltend machen wollen, beachten Sie bitte, dass diese spätestens zum 31.12.2018 verjähren. Für diesen Fall stehen wir Ihnen selbstverständlich gerne zur Verfügung. 
+
+
+Mit freundlichen Grüßen 
+
+i. A. {!User.FirstName} {!User.LastName} 
+
+Heinrich Jäger 
+J & C Anwälte 
+
+Sonnenstraße 18 
+80331 München 
+
+Telefon: +49 (0) 89 90 41 03 450 
+Telefax: +49 (0) 89 90 41 03 499 
+E-Mail: abgasskandal@jc-anwaelte.de 
+Web: www.jc-anwaelte.de

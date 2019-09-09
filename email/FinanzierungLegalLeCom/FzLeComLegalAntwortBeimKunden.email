@@ -1,0 +1,27 @@
+<span style="font-size:13px;"><span style="font-family: arial, helvetica, sans-serif;">
+{!Contact.Salutation__c}, 
+<p>
+in oben genannter Angelegenheit ist Ihr Widerrufsschreiben vor nunmehr drei Wochen an die Bank gesendet worden. Da der Bank eine Frist von zwei Wochen gesetzt wurde, müssten Sie zwischenzeitlich das Antwortschreiben der Bank erhalten haben.
+<p>
+Falls Ihnen das Antwortschreiben der Bank zugegangen ist, bitten wir Sie uns das Schreiben der Bank zu übersenden. Sollten Sie uns bis zum Termin eine Woche kein Antwortschreiben der Bank übermittelt haben, gehen wir davon aus, dass Sie kein Antwortschreiben erhalten haben.
+<p>
+Wir werden bei Ihrer Rechtsschutzversicherung umgehend um Deckungszusage bitten, sobald uns das Antwortschreiben vorliegt oder die Bank innerhalb der gesetzten Frist nicht reagiert hat.
+Vielen Dank.
+<p>
+Mit freundlichen Grüßen
+<p>
+Ihre Verbraucherhilfe24
+<p>
+<p><img alt="" src="https://www.verbraucherhilfe24.de/wp-content/uploads/v24-logo-1.png" /></p>
+<span style="font-size:11px;"><span style="Calibri Light;">
+VH24 GmbH<br/>
+Albert-Roßhaupter-Str. 32<br/>
+81369 München<br/>
+Telefon: <b>089 - 124 147 413</b><br/>
+Kontakt: office@verbraucherhilfe24.de
+<p>
+www.verbraucherhilfe24.de
+<p>
+Registergericht beim Amtsgericht München unter 371 E - <b>M 1779 als Inkassodienstleister gem. §10 abs. 1 RDG</b> | Handelsregister: HRB 217774 Amtsgericht München | USt-IDNr: DE277526577
+<p>
+<a href="{!Opportunity.URL_Abmeldung__c}" target="_blank"><span style="color: #0000cd;"><b>Abmelden</b></a>

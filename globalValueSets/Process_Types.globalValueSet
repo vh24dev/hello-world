@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>LV_Opposition</fullName>
+        <default>false</default>
+        <label>Widerspruch</label>
+    </customValue>
+    <customValue>
+        <fullName>LV_Compensation</fullName>
+        <default>false</default>
+        <label>Schadenersatz</label>
+    </customValue>
+    <customValue>
+        <fullName>LV_Performance</fullName>
+        <default>false</default>
+        <label>Erfüllungsanspruch</label>
+    </customValue>
+    <customValue>
+        <fullName>DG_Return</fullName>
+        <default>false</default>
+        <label>Rückgabe</label>
+    </customValue>
+    <customValue>
+        <fullName>DG_Keep</fullName>
+        <default>false</default>
+        <label>Behalten</label>
+    </customValue>
+    <customValue>
+        <fullName>DG_Don&apos;t Know</fullName>
+        <default>false</default>
+        <label>Unentschlossen</label>
+    </customValue>
+    <masterLabel>Process Types</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

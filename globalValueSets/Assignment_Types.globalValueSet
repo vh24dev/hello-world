@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>RSV</fullName>
+        <default>false</default>
+        <label>RSV</label>
+    </customValue>
+    <customValue>
+        <fullName>Share</fullName>
+        <default>false</default>
+        <label>Share</label>
+    </customValue>
+    <customValue>
+        <fullName>Direkt</fullName>
+        <default>false</default>
+        <label>Direkt</label>
+    </customValue>
+    <customValue>
+        <fullName>50%</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>50%</label>
+    </customValue>
+    <customValue>
+        <fullName>RSV 20%</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>RSV 20%</label>
+    </customValue>
+    <masterLabel>Assignment Types</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

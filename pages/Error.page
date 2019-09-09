@@ -1,0 +1,9 @@
+<apex:page controller="ErrorController"
+           lightningStylesheets="{!$User.UIThemeDisplayed == 'Theme4d' || $User.UIThemeDisplayed == 'Theme4t'}"
+           showHeader="false">
+       <apex:pageBlock title="Error: {! title}">
+       <apex:form >
+            <apex:outputLabel value="{! message}"/>
+        </apex:form>
+    </apex:pageBlock>
+</apex:page>

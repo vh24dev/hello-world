@@ -1,0 +1,8 @@
+<apex:page standardController="Claim__c" extensions="ClaimSendTemplateToCustomer"
+           showHeader="false" action="{!renderPage}">
+    <apex:pageBlock title="In Bearbeitung....">
+        <apex:outputText value="{!ErrorMessage}" />
+        <apex:pageMessages />
+        
+    </apex:pageBlock>
+</apex:page>

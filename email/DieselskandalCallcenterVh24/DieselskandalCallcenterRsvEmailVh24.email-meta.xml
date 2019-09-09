@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>DieselskandalCallcenterRsvEmailVh24</description>
+    <encodingKey>UTF-8</encodingKey>
+    <name>DieselskandalCallcenterRsvEmailVh24</name>
+    <style>none</style>
+    <subject>Ihre Klage mit Rechtsschutz vorantreiben</subject>
+    <textOnly>{!Lead.Salutation__c},
+
+im Falle eines Schadensfalles können die Kosten juristischer Beratung und Beauftragung eines Rechtsanwaltes durch Ihre Rechtsschutzversicherung übernommen werden. Dies hängt entscheidend von der Art und dem Umfang Ihrer Rechtsschutzversicherung ab.
+
+Die VH24 möchte Sie darauf aufmerksam machen, dass bei Inanspruchnahme Ihrer Rechtsschutzversicherung eine Selbstbeteiligung anfallen kann. Ob und in welcher Höhe eine Selbstbeteiligung mit der Versicherung vereinbart wurde, können Sie aus Ihrem Versicherungsschein entnehmen.
+
+Wichtig: Fällt eine Selbstbeteiligung an, so wird diese ausdrücklich NICHT von der VH24 übernommen.
+Sie erhalten von Ihrer Rechtsschutzversicherung eine Selbstbeteiligungsrechnung, die bitte von Ihnen beglichen werden muss. Ab diesem Zeitpunkt werden sämtliche Anwalts- und Gerichtskosten von der Rechtsschutzversicherung übernommen.
+
+Sie haben sich bei uns auf der Internetseite registriert und uns mandatiert, hier wurde ganz klar darauf hingewiesen dass der Selbstbehalt, wenn vorhanden, selber getragen werden muss. (siehe unten)
+
+Ein Rücktritt ist aus diesem Grund nach den ersten 14 Tagen nicht mehr möglich.
+
+
+Ihre Verbraucherhilfe24
+
+
+
+VH24 GmbH
+Albert-Roßhaupter-Str. 32
+81369 München
+Telefon: 089 - 124 147 413
+Kontakt: office@verbraucherhilfe24.de
+
+www.verbraucherhilfe24.de
+
+Registergericht beim Amtsgericht München unter 371 E - M 1779 als Inkassodienstleister gem. §10 abs. 1 RDG | Handelsregister: HRB 217774 Amtsgericht München | USt-IDNr: DE277526577
+
+
+Abmelden
+
+
+Widerrufserklärung inkl. AGB</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

@@ -1,0 +1,6 @@
+Da Sie unserer Mandantschaft nicht binnen der gesetzten Frist sämtliche ihr zustehenden Ansprüche zurückgezahlt haben, befinden Sie sich in Verzug und haben daher auch die Kosten unserer Beauftragung zu tragen. Ausgehend von einem Gegenstandswert von 
+€ {!Opportunity.Potential__c} und unter Zugrundelegung einer 1,5 Geschäftsgebühr zuzüglich Auslagenpauschale und Umsatzsteuer ergeben sich daher Rechtsanwaltskosten in Höhe von € {!Claim__c.00N0Y00000HrI9v}. 
+
+Wir fordern Sie ferner auf, diese Rechtsanwaltskosten in Höhe von € {!Claim__c.00N0Y00000HrI9v} binnen der oben genannten Frist auf unser Konto zu überweisen. 
+
+Sofern Sie obigen Verpflichtungen nicht fristgemäß nachkommen, werden wir unserer Mandantschaft die klageweise Geltendmachung ihres Anspruches anraten.

@@ -1,0 +1,40 @@
+<span style="font-size:13px;"><span style="font-family: arial, helvetica, sans-serif;">
+{!Contact.Salutation__c},
+<p>wir bedanken uns ganz herzlich für das Vertrauen in unser Haus, das Sie mit der Registrierung Ihres Fahrzeugs auf unserer Homepage zum Ausdruck gebracht haben.
+<br/>Für die weitere Bearbeitung Ihres Falles benötigen wir noch weitere Informationen. Aus diesem Grund haben wir bereits mehrfach versucht Sie telefonisch zu erreichen- leider ohne Erfolg.
+<p>Im Einzelnen benötigen wir folgende Unterlagen von Ihnen:
+<p>1. Ihren Fahrzeugschein (Vorder- und Rückseite)
+<br/>2. Ihr Fahrzeug-Angebot oder Ihre Rechnung
+<br/>3. Die unterschrieben Anwaltlichs-Vollmacht
+<p>Sie können uns Kopien bzw. Bilder/Scans der Dokumente über einen der folgende Wege übermitteln:
+<p> Nutzen Sie folgendes Upload-Formular:
+<br /> Tipp: Mit Ihrem Handy können Sie einfach Fotos von den Dokumenten machen und diese unter folgendem Link hochladen.
+<p><br/><a href="{!Opportunity.URL_Dokumentenupload__c}" rel="noopener noreferrer" target="_blank"><b>>> Jetzt Unterlagen hochladen <<</b></a>
+<p>
+<p>
+<p>oder schicken Sie uns eine E-Mail an: abgasskandal@jc-anwaelte.de 
+<p> 
+<br/>oder mit der Post an: 
+<br/>Verbraucherhilfe24
+<br /> Abt. Diesel-Skandal
+<br /> Albert-Roßhaupter-Str. 32
+<br /> 81369 München
+<p>
+<br/>Der Übersendung Ihrer Unterlagen sehen wir mit Freude entgegen. 
+<p>Haben Sie bereits vorab vielen Dank für Ihre Mühen
+<p>
+Mit freundlichen Grüßen 
+<p>
+i. A. {!User.FirstName} {!User.LastName} 
+<p>
+<br/>Heinrich Jäger 
+<br/>J & C Anwälte 
+<p>
+Sonnenstraße 18 
+<br/>80331 München 
+<p>
+Telefon: +49 (0) 89 90 41 03 450 
+<br/>Telefax: +49 (0) 89 90 41 03 499 
+<br/>E-Mail: abgasskandal@jc-anwaelte.de 
+<br/>Web: www.jc-anwaelte.de
+<p><a href="{!Opportunity.URL_Abmeldung__c}" target="_blank"><span style="color: #0000cd;"><b>Abmelden</b></a>

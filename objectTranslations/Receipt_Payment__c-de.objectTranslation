@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?><CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label><!-- Summe --></label>
+        <name>Amount__c</name>
+    </fields>
+    <fields>
+        <label><!-- Datum --></label>
+        <name>Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- ID_Old --></label>
+        <name>ID_Old__c</name>
+    </fields>
+    <fields>
+        <label><!-- Methode --></label>
+        <name>Method__c</name>
+    </fields>
+    <fields>
+        <label><!-- Old Zahlung ID --></label>
+        <name>Old_Zahlung_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Opportunity Id --></label>
+        <name>Opportunity_Id__c</name>
+    </fields>
+    <fields>
+        <label><!-- Beleg --></label>
+        <name>Receipt__c</name>
+        <relationshipLabel><!-- Zahlung --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Test --></label>
+        <name>Test__c</name>
+    </fields>
+    <fields>
+        <label><!-- Transaktion --></label>
+        <name>Transaction__c</name>
+        <relationshipLabel><!-- Zahlung --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- ZahlungImpID --></label>
+        <name>ZahlungImpID__c</name>
+    </fields>
+    <caseValues>
+        <caseType>Nominative</caseType>
+        <plural>false</plural>
+        <value>Zahlung</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Nominative</caseType>
+        <plural>true</plural>
+        <value>Zahlung</value>
+    </caseValues>
+    <gender>Feminine</gender>
+</CustomObjectTranslation>

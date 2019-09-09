@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>DieselKainzLegalSendWelcomeLetter</name>
+    <style>none</style>
+    <subject>Nachricht von CLLB Rechtsanwälte, Vertrags-Nr.: {!Correspondence__c.Claim__r.Opportunity__r.CS_Number__c}  | Aktenzeichen: {!Correspondence__c.Claim__r.Reference__c}</subject>
+    <textOnly>{!Contact.Salutation__c},
+
+wir danken Ihnen zunächst für unsere Beauftragung und das damit zum Ausdruck gebrachte Vertrauen in unser Haus und übersenden Ihnen anbei erste Informationen zu Ihrem Mandat. 
+
+Mit freundlichen Grüßen 
+
+
+Rechtsanwalt Dr. Henning Leitz
+Partner
+
+CLLB Rechtsanwälte
+Cocron, Liebl, Leitz, Braun, Kainz, Sittner Partnerschaft mbB München - Berlin
+
+Liebigstr. 21
+80538 München
+Tel.: +49-89-552 999 50
+Fax.:+49-89-552 999 90
+mail: kanzlei@cllb.de</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

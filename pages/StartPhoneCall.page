@@ -1,0 +1,7 @@
+<apex:page standardController="Opportunity" extensions="StartPhoneCall" showHeader="false" action="{!renderPage}">
+    <apex:pageBlock title="In Bearbeitung....">
+       <apex:form >
+            <apex:pageMessage rendered="{!errorNoPhone}" summary="Bitte hinterlegen Sie eine Telefonnummer auf dem Kontakt!" severity="warning" strength="3" />
+       </apex:form>
+    </apex:pageBlock>
+</apex:page>

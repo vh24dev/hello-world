@@ -1,0 +1,3 @@
+Die Klagepartei hat im ersten Versicherungsjahr monatliche Beiträge in Höhe von {!Opportunity.Contribution_Life_Insurance__c} Euro gezahlt, in den Folgejahren jeweils monatliche Beiträge erhöht um eine jährliche Dynamik in Höhe von {!Opportunity.Dynamization__c} %.
+
+Somit ergibt sich ein gezahlter Gesamtbetrag in Höhe von {!Opportunity.00N0Y00000FbMAl} Euro.

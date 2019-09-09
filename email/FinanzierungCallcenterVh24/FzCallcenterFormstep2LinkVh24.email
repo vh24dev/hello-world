@@ -1,0 +1,28 @@
+<span style="font-size:13px;"><span style="font-family: arial, helvetica, sans-serif;">
+<h3>Auftragsdaten in wenigen Schritten hochladen.</h3>
+<p>{!Lead.Salutation__c},
+</p>
+<p>wir haben Ihre Anfrage für die Durchsetzung Ihrer Rechte erhalten und können<br/>
+bestätigen, dass Ihre Chancen auf Schadensersatz sehr gut sind.<br/>
+Um für Sie tätig werden zu können, benötigen wir noch weitere Informationen von Ihnen.<br/>
+<p><br/>
+
+<a href="{!Lead.URL_AGB_anfordern__c}" rel="noopener noreferrer" target="_blank"><b>Daten jetzt vervollständigen.</b></a></br>Nur noch wenige Informationen und wir werden für Sie tätig!<br/>
+<p>
+<p>
+<b>Noch Fragen?</b><br/>
+<p>Wenn Sie Fragen haben oder mit uns direkt telefonieren möchten, erreichen Sie uns unter <b>089 - 124 147 413</b> oder Sie fordern einfach <a href="{!Lead.URL_Rueckrufformular__c}" rel="noopener noreferrer" target="_blank"><b>einen Rückruf</b></a> an.
+<p><br/>Wir freuen uns darauf, für Sie tätig zu werden.<br/>
+<p>Ihre Verbraucherhilfe24<p></span>
+<p><img alt="" src="https://www.verbraucherhilfe24.de/wp-content/uploads/v24-logo-1.png" /></p>
+<span style="font-size:11px;"><span style="Calibri Light;">
+VH24 GmbH<br/>
+Albert-Roßhaupter-Str. 32<br/>
+81369 München<br/>
+Telefon: <b>089 - 124 147 413</b><br/>
+Kontakt: office@verbraucherhilfe24.de
+<p>
+www.verbraucherhilfe24.de
+<p>
+Registergericht beim Amtsgericht München unter 371 E - <b>M 1779 als Inkassodienstleister gem. §10 abs. 1 RDG</b> | Handelsregister: HRB 217774 Amtsgericht München | USt-IDNr: DE277526577
+<p><a href="{!Lead.URL_Abmeldung__c}" target="_blank"><span style="color: #0000cd;"><b>Abmelden</b></a>

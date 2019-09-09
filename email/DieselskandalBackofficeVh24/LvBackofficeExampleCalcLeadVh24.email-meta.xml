@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Beispielrechnung</description>
+    <encodingKey>UTF-8</encodingKey>
+    <name>LvBackofficeExampleCalcLeadVh24</name>
+    <style>none</style>
+    <subject>Beispielrechnung | Bearbeitungsnummer: {!Lead.Bearbeitungsnummer__c}</subject>
+    <textOnly>Was kostet eine Abwicklung über Verbraucherhilfe24?
+
+{!Lead.Salutation__c}
+
+wie telefonisch besprochen, gibt es unterschiedliche Varianten, die ich Ihnen gerne anhand von Beispielen erläutere.
+
+Wir kommunizieren unsere Kosten klar und deutlich an unsere Kunden und distanzieren uns von prätentiösen und vermeintlich kostenfreien Angeboten. Selbstverständlich müssen auch wir an unseren Services verdienen, um uns zu tragen.
+
+Unsere drei verschiedenen Abwicklungsmodelle lassen Ihnen von Anfang an die Wahl, für welchen Weg Sie sich entscheiden. Neben der direkten Beauftragung eines Partneranwalts, oder der Abwicklung des Falles über eine bestehende Rechtsschutzversicherung, bieten wir auch die Möglichkeit, die komplette Abwicklung für Sie zu übernehmen. Wir tragen dabei das Kosten- und Prozessrisiko und Sie bezahlen nur im Erfolgsfall. Wie hoch unser Anteil im Erfolgsfall ist, hängt von der Komplexität des Falles ab. Wir informieren Sie natürlich transparent vor Beauftragung bei der Mandatierung über die Höhe der Provision im Erfolgsfall. Als grobe Orientierung können wir einen Rahmen von 11 bis 35 Prozent der für Sie erkämpften Summe angeben.
+
+Beispiele zu Kosten- bzw. Honorarberechnungen bei Verbraucherhilfe24
+
+Die folgenden Rechenbeispiele sollen Ihnen einen Überblick über unsere Abwicklungskosten geben.​
+
+Sie haben eine Rechtsschutzversicherung
+
+Wenn Sie eine Rechtsschutzversicherung besitzen (und bereits beim Autokauf besaßen), können Sie sich an diesen Beispielen orientieren:​
+
+Beispielrechnung, wenn Sie Ihr Dieselfahrzeug behalten wollen.
+
+Beispielrechnung, wenn Sie Ihren Diesel nicht behalten wollen.
+
+Sie haben keine Rechtsschutzversicherung
+
+Wenn Sie keine Rechtsschutzversicherung besitzen, dienen Ihnen diese zwei Rechenbeispiele zur Orientierung:
+
+Rechenbeispiel für den Fall, dass Sie Ihren Dieselwagen behalten möchten.
+
+Rechenbeispiel für den Fall, dass Sie Ihren Diesel nicht behalten möchten.
+
+Ab wann entstehen Ihnen Kosten?
+
+Über eine einfache und kostenlose Online-Prüfung können Sie mit wenigen einfachen Fragen erheben, ob Sie mit Ihren Verträgen einen Anspruch auf Rückerstattung haben. Wir empfehlen Ihnen dann ein weiteres Vorgehen entsprechend dem zu erwartenden Erfolg. Danach entscheiden Sie selbst, wie wir für Sie aktiv werden sollen.
+
+Entscheiden Sie sich dafür unsere Services in Anspruch zu nehmen, werden alle Kosten, wie beispielsweise für die Einschaltung von Dienstleistern und Rechtsanwälten, in jedem Fall von uns übernommen. Nur, wenn für Sie eine Rückzahlung bzw. ein Erfolg erreicht wird, zahlen Sie eine Provision an uns.
+
+Verbraucherhilfe24 – Nutzen Sie unser starkes Netzwerk
+
+Wir vertreten Ihre Rechte! Verbraucherhilfe24 hat es sich zur Aufgabe gemacht, die Rechtsprechung in die Praxis umzusetzen und einen umfassenden Service aus einer Hand anzubieten.
+
+Starkes Netzwerk an Fachanwälten
+
+Durch unser Netzwerk von knapp 100 Spezial-Anwälten, helfen wir Ihnen bei der Durchsetzung Ihrer Ansprüche.Möglich macht dies unser effizientes Klageverfahren, mit dem wir die Interessen zahlreicher Geschädigter systematisch abwickeln und somit auch gegen große Konzerne Erfolge erzielen. Unser Team besteht aus Bank und Finanzfachwirten sowie spezialisierten Anwälten mit viel Erfahrung im Durchsetzen von Verbraucherrechten.
+
+Anlaufstelle für geschädigte Verbraucher
+
+Wir sehen uns als Anlaufstelle für geschädigte Verbraucher. Lassen Sie sich durch unsere erfahrenen Experten über die Rechtslage aufklären. Wir unterstützen Sie und greifen ein,
+wenn es für Ihren Fall Sinn macht. Gemeinsam ermitteln und archivieren wir bedeutsame Urteile aus dem verbraucherrechtlichen Bereich und unterstützen Sie durch zielführende Leistungen, Ihr Recht und Ihr Geld (zurück) zu bekommen.
+
+Ihre Verbraucherrechte durchsetzen
+
+Unsere Mission ist die Durchsetzung Ihrer Rechte gegenüber Banken, Versicherungen und Konzernen durch erfahrene Rechtsexperten – ohne Kostenrisiko für Sie. In vielen Verträgen, die Sie in den letzten Jahren abgeschlossen haben, sind unrechtmäßig Gebühren versteckt, fehlerhafte Vertragsklauseln enthalten oder Versicherungen inkludiert und abgeschlossen, die Sie eventuell nicht benötigen. Durch diese sinnlosen Vertragsbestandteile werden Sie entsprechend benachteiligt.
+
+Schnelle und kostenlose Vertragsprüfung
+
+Wir lassen prüfen, ob Sie beim jeweiligen Vertrag eine berechtigte Chance auf Rückerstattung haben und verschaffen Ihnen innerhalb von 48 Stunden Klarheit. Bei einem positiven Bescheid entscheiden Sie, ob unsere Dienstleister und Rechtsanwälte für Sie aktiv werden sollen.
+
+VH24 UPDATE
+
+Melden Sie sich zu unserem Newsletter gleich HIER an.
+
+VH24 GmbH
+Albert-Roßhaupter-Straße 32
+81369 München
+Tel.: 089 – 124 147 413
+Fax: 089 – 124 147 419
+email: office@verbraucherhilfe24.de
+www.verbraucherhilfe24.de
+
+Registriert beim Amtsgericht München unter: 371 E - M 1779 als Inkassodienstleister gem. §10 abs. 1 RDG I Handelsregister: HRB 217774 Amtsgericht München
+
+Widerrufserklärung inkl. AGB Anfrage widerrufen
+
+Abmelden</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

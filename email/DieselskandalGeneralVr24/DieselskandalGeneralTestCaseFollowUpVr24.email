@@ -1,0 +1,23 @@
+<span style="font-size:13px;"><span style="font-family: arial, helvetica, sans-serif;">
+<b>Noch keine Entscheidung</b> 
+<p>
+{!Contact.Salutation__c},
+<p>
+vor einiger Zeit haben wir Sie zur Teilnahme an der Musterfeststellungsklage angemeldet. 
+<p>
+Wie zu erwarten war, zieht sich die Klage hin. Die Autokonzerne sind bemüht die Klage abzuwenden und daher auch bereit durch alle Instanzen zu gehen. 
+Aber halten Sie unbedingt noch weiter durch – die Zeichen stehen für Sie und alle anderen dieselgeschädigten Verbraucher gut. Es wird sich für Sie lohnen! 
+<p>
+Sobald es einen Feststellungsurteil gibt, erhalten Sie von uns eine gesonderte Mitteilung sowie eine Empfehlung wie wir Sie bei der weiteren Rechtsdurchsetzung in Ihrem persönlichen Fall unterstützen können. 
+Wir wünschen Ihnen bis dahin eine gute Zeit und freuen uns darauf, bald mit Ihnen die nächsten Schritte zu gehen
+<p>
+Mit freundlichen Grüßen 
+<p>
+i. A. {!User.FirstName} {!User.LastName} 
+<p><img style="width: 200px; height: 54px;" src="https://daks2k3a4ib2z.cloudfront.net/58d0ccc5a30805a8243d5fd9/58d22446e07be4a234dc816e_Verbraucherrechte_Logo_Lay01.png" alt="" /></p>
+<p><a href="http://www.verbraucherrechte24.de" target="_blank">www.verbraucherrechte24.de</a></p>
+<p><span style="font-family: Calibri, Verdana, Arial, sans-serif; font-size: 11px;"> VerbraucherRechte24 GmbH<br /> Albert-Ro&szlig;haupter-Stra&szlig;e 32<br /> 81369 M&uuml;nchen </span></p>
+<p><span style="font-family: Calibri, Verdana, Arial, sans-serif; font-size: 11px;"> Gesch&auml;ftsf&uuml;hrer: Steffen Matz, Matthias Hartmann </span></p>
+<p><span style="font-family: Calibri, Verdana, Arial, sans-serif; font-size: 11px;">in Zusammenarbeit mit dem eingetragenen Rechtsdienstleister:</span></p>
+<p><span style="font-family: Calibri, Verdana, Arial, sans-serif; font-size: 9px;">
+<a href="{!Opportunity.URL_Abmeldung__c}" target="_blank"><span style="color: #0000cd;"><b>Abmelden</b></a>

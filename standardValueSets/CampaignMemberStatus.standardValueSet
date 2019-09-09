@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StandardValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sorted>true</sorted>
+    <standardValue>
+        <fullName>Eingeladen</fullName>
+        <default>false</default>
+        <label>Eingeladen</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Geantwortet</fullName>
+        <default>false</default>
+        <label>Geantwortet</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Gesendet</fullName>
+        <default>false</default>
+        <label>Gesendet</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Nicht erschienen</fullName>
+        <default>false</default>
+        <label>Nicht erschienen</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Registriert</fullName>
+        <default>false</default>
+        <label>Registriert</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Teilgenommen</fullName>
+        <default>false</default>
+        <label>Teilgenommen</label>
+    </standardValue>
+</StandardValueSet>

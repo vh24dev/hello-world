@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?><CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <fullName>Diesel_Vollmacht_OrgWide_Sender_Email__c</fullName>
+        <externalId>false</externalId>
+        <fieldManageability>DeveloperControlled</fieldManageability>
+        <inlineHelpText>The Organization Wide Email Address to be used as sender of a Diesel Vollmacht. Note that the Address needs to first be created and activated in Setup -&gt; Email -&gt; Organization-Wide Addresses. If empty, the running user's email address is used.</inlineHelpText>
+        <label>Diesel Vollmacht OrgWide Sender Email</label>
+        <required>false</required>
+        <type>Email</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Is_Active__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <fieldManageability>SubscriberControlled</fieldManageability>
+        <label>Is Active</label>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>LV_Vollmacht_OrgWide_Sender_Email__c</fullName>
+        <externalId>false</externalId>
+        <fieldManageability>SubscriberControlled</fieldManageability>
+        <inlineHelpText>The Organization Wide Email Address to be used as sender of a LV Vollmacht. Note that the Address needs to first be created and activated in Setup -&gt; Email -&gt; Organization-Wide Addresses. If empty, the running user's email address is used.</inlineHelpText>
+        <label>LV Vollmacht OrgWide Sender Email</label>
+        <required>false</required>
+        <type>Email</type>
+        <unique>false</unique>
+    </fields>
+    <label>OrgWide Email Settings</label>
+    <pluralLabel>OrgWide Email Settings</pluralLabel>
+    <visibility>Public</visibility>
+</CustomObject>

@@ -1,0 +1,37 @@
+<apex:page showheader="false">
+    <script type="text/javascript">
+    function getUrlVars() {
+        var vars = {};
+        var parts = window.location.href.replace(/[?&]+([^=&]+)=([^&]*)/gi, function(m,key,value) {
+            vars[key] = value;
+        });
+        return vars;
+    }
+    function getUrlParam(parameter, defaultvalue) {
+        var urlparameter = defaultvalue;
+        if(window.location.href.indexOf(parameter) > -1){
+            urlparameter = getUrlVars()[parameter];
+        }
+        return urlparameter;
+    }
+    function checkCloseTab() {
+        console.log("close check");
+        var closeTab = decodeURI(getUrlParam('closeTab','false'));
+        if (closeTab.toLowerCase() === 'true' || closeTab === '1') {
+            console.log("closing...");
+            window.close();
+        }
+    }
+    function redirect() {
+        checkCloseTab();
+        window.history.back();
+    }
+    window.setTimeout(redirect, 2000);
+    </script>
+    <h1>
+        Success!
+    </h1>
+    <p>
+        Sie werden in Kürze weitergeleitet.
+    </p>
+</apex:page>

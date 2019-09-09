@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Fehlende Rückantwort vor Ihrem Gerichtstermin</description>
+    <encodingKey>UTF-8</encodingKey>
+    <name>DieselLeComLegalClaimNoResponseLawsuitDate</name>
+    <style>none</style>
+    <subject>Fehlende Rückantwort vor Ihrem Gerichtstermin, Ihr Fall wird bald verhandelt, Ref-Nr: {!Claim__c.Id} Aktenzeichen: {!Claim__c.Reference__c}</subject>
+    <type>text</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

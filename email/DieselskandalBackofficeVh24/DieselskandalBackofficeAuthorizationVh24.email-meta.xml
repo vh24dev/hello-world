@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>weitere Dokumente benötigt mit Vollmacht im Anhang</description>
+    <encodingKey>UTF-8</encodingKey>
+    <name>DieselskandalBackofficeAuthorizationVh24</name>
+    <style>none</style>
+    <subject>Wir benötigen weitere Informationen von Ihnen | Bearbeitungsnummer: {!Opportunity.Number__c}</subject>
+    <textOnly>{!Contact.Salutation__c},
+
+leider fehlen uns noch weitere Dokumente von Ihnen um einen möglichen Anspruch errechnen zu können. Im Anhang finden Sie die notwendige Vollmacht. Bitte unterschreiben Sie diese und senden sie uns zurück.
+
+Bei Rückfragen, rufen Sie mich gerne an unter meiner Nummer: 089 - 124 147 413 oder schreiben Sie mir eine E-Mail an: auto@verbraucherhilfe24.de
+
+Mit freundlichen Grüßen
+
+Ihre Verbraucherhilfe24
+
+
+
+VH24 GmbH
+Albert-Roßhaupter-Str. 32
+81369 München
+Telefon: 089 - 124 147 413
+Kontakt: office@verbraucherhilfe24.de
+
+www.verbraucherhilfe24.de
+
+Registergericht beim Amtsgericht München unter 371 E - M 1779 als Inkassodienstleister gem. §10 abs. 1 RDG | Handelsregister: HRB 217774 Amtsgericht München | USt-IDNr: DE277526577
+
+
+Abmelden</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

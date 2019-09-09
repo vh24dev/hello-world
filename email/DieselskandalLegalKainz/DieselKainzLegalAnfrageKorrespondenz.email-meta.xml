@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Darlehensvertrag übermitteln</description>
+    <encodingKey>UTF-8</encodingKey>
+    <name>DieselKainzLegalAnfrageKorrespondenz</name>
+    <style>none</style>
+    <subject>Darlehensvertrag übermitteln | Bearbeitungsnummer: {!Opportunity.Number__c}</subject>
+    <textOnly>Sehr geehrte Damen und Herren,
+
+anbei überlassen wir das diesseitige Schreiben mit der Bitte um Kenntnisnahme.
+
+Mit freundlichen Grüßen
+
+i. A. {!User.FirstName} {!User.LastName}
+
+Rechtsanwalt Dr. Henning Leitz
+Partner
+CLLB Rechtsanwälte
+Cocron, Liebl, Leitz, Braun, Kainz, Sittner Partnerschaft mbB München - Berlin
+
+Liebigstr. 21
+80538 München
+
+Telefon: +49-89-552 999 50
+Telefax: +49-89-552 999 90
+E-Mail: kanzlei@cllb.de Ref-Nr: {!Claim__c.Id}</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

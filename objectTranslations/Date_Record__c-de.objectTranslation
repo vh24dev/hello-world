@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?><CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label><!-- BypassProcessBuilder --></label>
+        <name>BypassProcessBuilder__c</name>
+    </fields>
+    <fields>
+        <label><!-- Termin --></label>
+        <name>Date__c</name>
+        <relationshipLabel><!-- Terminprotokolle --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Old Terminprotokoll ID --></label>
+        <name>Old_Terminprotokoll_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Opportunity Id --></label>
+        <name>Opportunity_Id__c</name>
+    </fields>
+    <fields>
+        <label><!-- Protokoll --></label>
+        <name>Record__c</name>
+    </fields>
+    <fields>
+        <label><!-- Status --></label>
+        <name>Stage__c</name>
+    </fields>
+    <caseValues>
+        <caseType>Nominative</caseType>
+        <plural>false</plural>
+        <value>Terminprotokoll</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Nominative</caseType>
+        <plural>true</plural>
+        <value>Terminprotokolle</value>
+    </caseValues>
+    <gender>Neuter</gender>
+    <webLinks>
+        <label><!-- Create_Document_Docx --></label>
+        <name>Create_Document_Docx</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Create_Document_Pdf --></label>
+        <name>Create_Document_Pdf</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Send_Email --></label>
+        <name>Send_Email</name>
+    </webLinks>
+</CustomObjectTranslation>

@@ -1,0 +1,33 @@
+<apex:page docType="html-5.0" showHeader="false">
+    <apex:composition template="{!$Site.Template}">
+        <apex:define name="title">&nbsp;Lebensversicherung</apex:define>
+        <apex:define name="body">
+            <h3>Eine erste Prüfung  Ihrer Angaben hat ergeben: Sie haben  <strong>Aussicht auf Widerruf.</strong> Wir machen uns für Sie stark!</h3>
+            <div class="txt-border">
+                <h2 class="orange-head">WAS WIR BIETEN
+                </h2>
+                <div class="keyf1">
+                    <ul>
+                        <li>Über 120.000 geprüfte Fälle</li>
+                        <li>Großes Netzwerk an spezialisierten Partneranwälten</li> 
+                        <li>Kein Kostenrisiko für Sie*</li> 
+                    </ul>
+                </div>
+                <h2 class="orange-head">DIE NÄCHSTEN SCHRITTE
+                </h2>
+                <div class="keyf2">
+                    <ul>
+                        <li>Kontaktdaten vervollständigen und AGB bestätigen</li>
+                        <li>Fallbezogene Prüfung &amp; Ersteinschätzung
+                            über unsere Partneranwälte.</li>
+                        <li>Entscheidung über das weitere Vorgehen in Absprache mit Ihnen.</li> 
+                    </ul>
+                </div>
+            </div>
+            <a href="step2.html"><button type="button" class="senden">ZUR ANMELDUNG</button></a>
+            <div class="prefooter2">
+                <a target="_blank" href="https://www.verbraucherhilfe24.de/kosten/">*Weitere Infos zu etwaigen Kosten finden Sie hier.</a>
+            </div>        
+        </apex:define>
+    </apex:composition>
+</apex:page>

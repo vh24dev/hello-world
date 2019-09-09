@@ -1,0 +1,21 @@
+Sehr geehrte Damen und Herren, 
+
+bitte bestätigen Sie uns den Termin über folgenden Link:
+
+{!Date__c.URL_RepresentativeConfirmationDate__c}
+
+
+Mit freundlichen Grüßen 
+
+i. A. {!User.FirstName} {!User.LastName} 
+
+Heinrich Jäger 
+J & C Anwälte 
+
+Sonnenstraße 18 
+80331 München 
+
+Telefon: +49 (0) 89 90 41 03 450 
+Telefax: +49 (0) 89 90 41 03 499 
+E-Mail: abgasskandal@jc-anwaelte.de 
+Web: www.jc-anwaelte.de

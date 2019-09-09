@@ -1,0 +1,33 @@
+Sehr geehrte/r {!Contact.Salutation} {!Contact.LastName}, 
+
+leider hat Ihre Rechtsschutzversicherung die Kostenübernahme für das außergerichtliche Verfahren endgültig abgelehnt.
+
+Wir können den Vorgang zu den nicht versicherten Fällen umschlüsseln und hier ggf. beginnend ab Mitte 2018 auf eigenes 
+Risiko Ansprüche geltend machen. 
+Ihnen entstehen dabei keine Kosten, wir profitieren vom Erlös. 
+Selbstverständlich können wir auch das Mandat zu den üblichen gesetzlichen Gebühren weiterführen. 
+
+Bitte teilen Sie mit, wie wir verfahren sollen. 
+
+Sollten wir innerhalb der nächsten vier Wochen nichts von Ihnen hören, gehen wir davon aus, dass Sie die erste Alternative bevorzugen, 
+also die Durchsetzung auf unser Risiko. 
+
+Über den weiteren Verlauf halten wir Sie selbstverständlich auf dem Laufenden.
+
+Mit freundlichen Grüßen 
+
+
+{!Claim__c.Legal__r.Name} 
+{!Claim__c.Legal__r.Title} 
+
+
+{!Claim__c.Legal__r.CompanyName} 
+{!Claim__c.Legal__r.Street} 
+{!Claim__c.Legal__r.PostalCode} {!Claim__c.Legal__r.City} 
+
+
+Tel.: +49 (0) 89 41 32 433-0
+Fax: {!Claim__c.Legal__r.Fax} 
+Email: {!Claim__c.Legal__r.Email} 
+Web: www.ra-lachmair.de 
+Ref-Nr: {!Claim__c.Id}

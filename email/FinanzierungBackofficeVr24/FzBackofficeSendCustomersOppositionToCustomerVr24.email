@@ -1,0 +1,52 @@
+<!doctype html>
+<html>
+<body>
+{text_body}
+<hr />
+<p>
+	<img alt="" src="https://daks2k3a4ib2z.cloudfront.net/58d0ccc5a30805a8243d5fd9/58d22446e07be4a234dc816e_Verbraucherrechte_Logo_Lay01.png" style="width: 400px; height: 108px;" />
+</p>
+<p>
+	<span style="font-family:arial,helvetica,sans-serif;font-size:11px;">
+		www.verbraucherrechte24.de
+	</span>
+</p>
+<p>
+	<span style="font-family:arial,helvetica,sans-serif;font-size:11px;">
+		VerbraucherRechte24 GmbH<br />
+		Albert-Ro&szlig;haupter-Stra&szlig;e 32<br />
+		81369 M&uuml;nchen
+	</span>
+</p>
+<p>
+	<span style="font-family:arial,helvetica,sans-serif;font-size:11px;">
+		Gesch&auml;ftsf&uuml;hrer: Steffen Matz, Matthias Hartmann<p><a href="{!Opportunity.URL_Abmeldung__c}" target="_blank"><span style="color: #0000cd;"><b>Abmelden</b></a>
+	</span>
+</p>
+<p>
+	<span style="font-family:arial,helvetica,sans-serif;font-size:11px;">
+		<strong>
+			Kontakt
+		</strong>
+	</span>
+</p>
+<p>
+	<table align="left" border="0" cellpadding="0" cellspacing="0">
+		<tbody>
+			<tr>
+				<td><strong style="font-family: arial, helvetica, sans-serif; font-size: 11px;">Telefonnummer: &nbsp;</strong></td>
+				<td><strong style="font-family: arial, helvetica, sans-serif; font-size: 11px;">089 124 147 424</strong></td>
+			</tr>
+			<tr>
+				<td><strong style="font-family: arial, helvetica, sans-serif; font-size: 11px;">E-Mail:</strong></td>
+				<td><strong style="font-family: arial, helvetica, sans-serif; font-size: 11px;">service@verbraucherrechte24.de</strong></td>
+			</tr>
+		</tbody>
+	</table>
+</p>
+<br style="clear: both" />
+<br />
+<p>
+	
+</body>
+</html>

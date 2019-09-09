@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Musterfeststellungsklage #2</description>
+    <encodingKey>UTF-8</encodingKey>
+    <name>DieselskandalGeneralTestCaseFinishedTestCaseVr24</name>
+    <style>none</style>
+    <subject>[Ihre Anmeldung zur MFK] Bestätigung der Anmeldung | Bearbeitungsnummer: {!Opportunity.Number__c}</subject>
+    <textOnly>Eintragung im Klageregister
+
+{!Contact.Salutation__c},
+
+Sie haben uns mit Ihrer Eintragung in das Klageregister beauftragt.
+Hiermit bestätigen wir diese Eintragung und damit die Anmeldung zur Musterfeststellungsklage im Dieselskandal.
+
+Nun gilt es für Sie Geduld zu haben, denn das Verfahren wird nach Einschätzung von Rechtsexperten Zeit brauchen. Wir werden Sie jedoch in den nächsten Monaten über den Stand der Klage informieren und Sie erhalten von uns eine gesonderte Mitteilung sobald es einen Feststellungsurteil gibt.
+
+Wir wünschen viel Erfolg und freuen uns darauf, mit Ihnen die nächsten Schritte zur Durchsetzung Ihrer Rechte zu gehen.
+
+Mit freundlichen Grüßen
+
+i. A. {!User.FirstName} {!User.LastName}
+
+
+www.verbraucherrechte24.de
+
+VerbraucherRechte24 GmbH
+Albert-Roßhaupter-Straße 32
+81369 München
+
+Geschäftsführer: Steffen Matz, Matthias Hartmann
+
+in Zusammenarbeit mit dem eingetragenen Rechtsdienstleister:
+
+Abmelden
+{!Opportunity.URL_Abmeldung__c}</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

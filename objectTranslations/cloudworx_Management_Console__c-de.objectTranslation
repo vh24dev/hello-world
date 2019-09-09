@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?><CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label><!-- Deactivate Auto-Follow-ups --></label>
+        <name>Deactivate_Auto_Follow_ups__c</name>
+    </fields>
+    <fields>
+        <label><!-- Deactivate Auto Loss --></label>
+        <name>Deactivate_Auto_Loss__c</name>
+    </fields>
+    <fields>
+        <label><!-- Deactivate Autosend Authorization --></label>
+        <name>Deactivate_Autosend_Authorization__c</name>
+    </fields>
+    <fields>
+        <label><!-- Deactivate Autosend Cost Note Reminder --></label>
+        <name>Deactivate_Autosend_Cost_Note_Reminder__c</name>
+    </fields>
+    <fields>
+        <label><!-- Deactivate Autosend Invoice Reminder --></label>
+        <name>Deactivate_Autosend_Invoice_Reminder__c</name>
+    </fields>
+    <fields>
+        <label><!-- Deactivate Autosend Welcome Letter --></label>
+        <name>Deactivate_Autosend_Welcome_Letter__c</name>
+    </fields>
+    <fields>
+        <label><!-- Deactivate Dropbox Upload --></label>
+        <name>Deactivate_Dropbox_Upload__c</name>
+    </fields>
+    <fields>
+        <help><!-- If email is deactivated and a user is entered here, email is only deactivated for the user in this field. --></help>
+        <label><!-- Deactivate Email User --></label>
+        <name>Deactivate_Email_User__c</name>
+        <relationshipLabel><!-- Management Consoles (Deactivate Email User) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Deactivate Email --></label>
+        <name>Deactivate_Email__c</name>
+    </fields>
+    <fields>
+        <label><!-- Deactivate Sync To 21legal --></label>
+        <name>Deactivate_Sync_To_21legal__c</name>
+    </fields>
+    <fields>
+        <label><!-- Deactivate Task Creation --></label>
+        <name>Deactivate_Task_Creation__c</name>
+    </fields>
+    <fields>
+        <label><!-- Deactivate Transaction Mapping --></label>
+        <name>Deactivate_Transaction_Mapping__c</name>
+    </fields>
+    <fields>
+        <label><!-- Deactivate Transaction Receival --></label>
+        <name>Deactivate_Transaction_Receival__c</name>
+    </fields>
+    <fields>
+        <label><!-- Deactivate Trigger User --></label>
+        <name>Deactivate_Trigger_User__c</name>
+        <relationshipLabel><!-- Management Consoles (Deactivate Trigger User) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Deactivate Trigger --></label>
+        <name>Deactivate_Trigger__c</name>
+    </fields>
+    <fields>
+        <label><!-- Disable Queueable Chaining --></label>
+        <name>Disable_Queueable_Chaining__c</name>
+    </fields>
+    <fields>
+        <label><!-- Old cloudworx Management Console ID --></label>
+        <name>Old_cloudworx_Management_Console_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Send Email Via API --></label>
+        <name>Send_Email_Via_API__c</name>
+    </fields>
+    <caseValues>
+        <caseType>Nominative</caseType>
+        <plural>false</plural>
+        <value>Management Console</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Nominative</caseType>
+        <plural>true</plural>
+        <value>Management Consoles</value>
+    </caseValues>
+    <gender>Feminine</gender>
+</CustomObjectTranslation>

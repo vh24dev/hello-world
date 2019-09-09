@@ -1,0 +1,23 @@
+{!Contact.Salutation__c},
+
+wir danken Ihnen zunächst für unsere Beauftragung und das damit zum Ausdruck gebrachte Vertrauen in unser Haus. Wir weisen Sie darauf hin, dass Ihr Fahrzeug laut Aussage des Fahrzeugherstellers nicht von etwaigen Abgas-Manipulationen betroffen sein soll. Für eine tiefergehende Prüfung Ihrer Fahrzeugdaten benötigen wir noch Zeit. Wir melden uns baldmöglichst bei Ihnen und halten Sie auf dem Laufenden. 
+
+
+Ihre Bearbeitungsnummer: {!Opportunity.Number__c} 
+
+
+ 
+Mit freundlichen Grüßen 
+
+i. A. {!User.FirstName} {!User.LastName} 
+
+Heinrich Jäger 
+J & C Anwälte 
+
+Sonnenstraße 18 
+80331 München 
+
+Telefon: +49 (0) 89 90 41 03 450 
+Telefax: +49 (0) 89 90 41 03 499 
+E-Mail: abgasskandal@jc-anwaelte.de 
+Web: www.jc-anwaelte.de

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>weitere Dokumente benötigt</description>
+    <encodingKey>UTF-8</encodingKey>
+    <name>DieselskandalBackofficeDocumentsIncompleteVr24</name>
+    <style>none</style>
+    <subject>Wir benötigen weitere Informationen von Ihnen | Bearbeitungsnummer: {!Opportunity.Number__c}</subject>
+    <textOnly>{!Contact.Salutation__c},
+
+um Ihren Vorgang weiter bearbeiten zu können, benötigen wir bitte noch folgende Unterlagen / Informationen:
+
+- Vollmacht vom Käufer unterschrieben (im Anhang)
+
+- Fahrzeugschein (in Kopie)
+
+- Rechnung oder Kaufvertrag (in Kopie)
+
+- aktueller Kilometerstand
+
+- Rechtsschutzversicherung mit Mitgliedsnummer &amp; Höhe der Selbstbeteiligung (falls vorhanden)
+
+- Aktuelle Anschrift &amp; Telefonnummer
+
+- die Bescheinigung von dem gemachten Software Update oder das Schreiben zum Software Update
+
+
+Vielen Dank um Voraus!
+
+Mit freundlichen Grüßen 
+
+
+{!User.FirstName} {!User.LastName} 
+{!User.Title}
+Team Kundenservice
+Verbraucherrechte24
+
+Telefon: +49 (0) 89 215 413 118
+Telefax: +49 (0) 89 90 41 03 499
+E-Mail: diesel-schaden@verbraucherrechte24.de
+Web: www.diesel-schaden.de</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

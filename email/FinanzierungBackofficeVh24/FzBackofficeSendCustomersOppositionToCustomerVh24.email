@@ -1,0 +1,31 @@
+<span style="font-size:13px;"><span style="font-family: arial, helvetica, sans-serif;">
+{!Contact.Salutation__c},<br><br>
+
+<p>Sie wurden neulich von uns in Sachen Widerruf Kfz-Finanzierung kontaktiert. Jetzt nur noch das angeh&auml;ngte Formular ausf&uuml;llen, an uns zur&uuml;ckschicken und Ihr Widerruf und Rechtsanspruch kann durchgesetzt werden!</p>
+<p>Nutzen Sie diese einmalige Chance, Ihr Dieselauto ohne Wertverlust rechtzeitig abzusto&szlig;en, bevor noch weitere Skandale oder <a href="https://www.verbraucherhilfe24.de/dieselgate/diesel-fahrverbot/">Fahrverbote</a> den <a href="https://www.verbraucherhilfe24.de/dieselgate/preisverfall-bei-dieselfahrzeugen/">Preisverfall</a> Ihres Autos noch weiter in die H&ouml;he treiben. Das <span style="text-decoration: underline;">Kfz-Finanzierungs-Team</span> steht jederzeit f&uuml;r Ihre Fragen telefonisch zur Verf&uuml;gung.</p>
+
+<p><strong>Verlieren Sie keine Zeit und kein Geld und senden Sie bitte gleich heute das ausgef&uuml;llte Formular als Scan oder Foto per Email oder mit der Post an uns zur&uuml;ck. Wir k&uuml;mmern uns dann um alles Weitere!</strong></p>
+
+<p><span>Senden Sie uns bitte alle erforderlichen Unterlagen komplett ausgef&uuml;llt und unterschrieben als PDF per E-Mail an:&nbsp;</span><a href="mailto:auto@verbraucherhilfe24.de">auto@verbraucherhilfe24.de</a><span>&nbsp;</span><br /><br /><span>Auf postalischen Weg an:&nbsp;</span><br /><br /><span>Verbraucherhilfe24&nbsp;</span><br /><span>Abt.: Kfz-Finanzierung&nbsp;</span><br /><span>Albert-Ro&szlig;haupter-Str. 32&nbsp;</span><br /><span>81369 M&uuml;nchen&nbsp;</span><br /><br /><span>Oder gerne auch per Fax an: +49 (0)89 124 147 419&nbsp;</span>
+<p>
+Mit diesem Schreiben erklären Sie Ihren Widerspruch gegen Ihren Darlehensvertrag.
+<p>
+Hierauf sollten Sie innerhalb der nächsten 14 - 21 Tage eine Antwort von der Versicherung erhalten. Senden Sie uns diese bitte umgehend zu.
+<p>
+<span>Beste Gr&uuml;&szlig;e&nbsp;</span></p>
+
+{!User.FirstName} {!User.LastName}<br/>
+{!User.Title}
+
+<p><img alt="" src="https://www.verbraucherhilfe24.de/wp-content/uploads/v24-logo-1.png" /></p>
+<span style="font-size:11px;"><span style="Calibri Light;">
+VH24 GmbH<br/>
+Albert-Roßhaupter-Str. 32<br/>
+81369 München<br/>
+Telefon: <b>089 - 124 147 413</b><br/>
+Kontakt: office@verbraucherhilfe24.de
+<p>
+www.verbraucherhilfe24.de
+<p>
+Registergericht beim Amtsgericht München unter 371 E - <b>M 1779 als Inkassodienstleister gem. §10 abs. 1 RDG</b> | Handelsregister: HRB 217774 Amtsgericht München | USt-IDNr: DE277526577
+<p><a href="{!Opportunity.URL_Abmeldung__c}" target="_blank"><span style="color: #0000cd;"><b>Abmelden</b></a>

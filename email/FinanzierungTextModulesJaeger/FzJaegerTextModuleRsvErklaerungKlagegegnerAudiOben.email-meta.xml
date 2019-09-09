@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>RSV Erklärung Klagegegner Audi, Oben</description>
+    <encodingKey>UTF-8</encodingKey>
+    <name>FzJägerTextModuleRsvErklärungKlagegegnerAudiOben</name>
+    <style>none</style>
+    <subject>TitelRsvErklärungKlagegegnerAudi, oben</subject>
+    <type>text</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

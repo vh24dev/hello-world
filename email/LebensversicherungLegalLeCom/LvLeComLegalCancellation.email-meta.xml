@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Stornierung Kostennote Rechtsschutzversicherung</description>
+    <encodingKey>UTF-8</encodingKey>
+    <name>LvLeComLegalCancellation</name>
+    <style>none</style>
+    <subject>Stornierung zu Kostennote {!Cancellation__c.Cost_Note__r.Number__c}, Schadennummer {!Claim__c.Legal_Protection_Insurance_Case_Number__c} | Aktenzeichen: {!Cancellation__c.Cost_Note__r.Claim__r.Reference__c}</subject>
+    <type>text</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

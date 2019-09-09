@@ -1,0 +1,7 @@
+<apex:page standardController="Authorization__c" extensions="DidNotReceiveAuthorization"
+           showHeader="false" action="{! renderPage}">
+    <apex:pageBlock title="In Bearbeitung....">
+        <apex:pageMessage rendered="{!NOT(errorMsg = '')}" summary="Bitte hinterlegen Sie {!errorMsg}." severity="warning" strength="3" />
+        <apex:pageMessages />
+    </apex:pageBlock>
+</apex:page>

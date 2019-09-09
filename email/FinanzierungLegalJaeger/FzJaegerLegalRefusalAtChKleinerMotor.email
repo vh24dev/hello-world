@@ -1,0 +1,25 @@
+{!Contact.Salutation__c},
+ 
+Ihre Bearbeitungsnummer: {!Opportunity.Number__c} 
+
+Bei der Durchsicht Ihrer Unterlagen ist uns aufgefallen, dass Sie nach der Veräußerung des Fahrzeugs nicht mehr dessen Eigentümer sind. Ansprüche gegen den Hersteller stehen grds. nur dem Eigentümer des Fahrzeugs zu. 
+
+Aus diesem Grund müssen wir Ihnen leider mitteilen, dass wir Ihr Mandat niederlegen müssen und das Mandat beendet ist.
+
+Für Ihr Vertrauen bedanken wir uns. 
+
+ 
+Mit freundlichen Grüßen 
+
+i. A. {!User.FirstName} {!User.LastName} 
+
+Heinrich Jäger 
+J & C Anwälte 
+
+Sonnenstraße 18 
+80331 München 
+
+Telefon: +49 (0) 89 90 41 03 450 
+Telefax: +49 (0) 89 90 41 03 499 
+E-Mail: abgasskandal@jc-anwaelte.de 
+Web: www.jc-anwaelte.de

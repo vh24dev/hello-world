@@ -1,0 +1,9 @@
+{!Contact.Salutation__c},
+
+
+
+Mit freundlichen Grüßen
+
+
+{!User.FirstName} {!User.LastName} 
+{!User.Title}

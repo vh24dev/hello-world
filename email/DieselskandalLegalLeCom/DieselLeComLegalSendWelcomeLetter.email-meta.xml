@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Welcome Letter</description>
+    <encodingKey>UTF-8</encodingKey>
+    <name>DieselLeComLegalSendWelcomeLetter</name>
+    <style>none</style>
+    <subject>Schadensnummer {!Claim__c.Legal_Protection_Insurance_Case_Number__c} | Aktenzeichen: {!Claim__c.Reference__c}</subject>
+    <textOnly>{!Contact.Salutation__c}, 
+
+wir danken Ihnen zunächst für unsere Beauftragung und das damit zum Ausdruck gebrachte Vertrauen in unser Haus und übersenden Ihnen anbei erste Informationen zu Ihrem Mandat. 
+
+Mit freundlichen Grüßen 
+
+
+i. A. {!User.FirstName} {!User.LastName} 
+
+Dr. Dominic Krutisch 
+LeCom - Legal &amp; Compliance
+Rechtsanwaltsgesellschaft mbH 
+
+Albert-Roßhaupter-Str. 32 
+81369 München 
+
+Tel.: 089 / 588088710 
+Fax: 089 / 588088711</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

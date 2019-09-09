@@ -1,0 +1,6 @@
+<apex:page standardController="Claim__c" extensions="ClaimSetOnHold"
+           showHeader="false" action="{! renderPage}">
+    <apex:pageBlock title="In Bearbeitung....">
+        <apex:pageMessages />
+    </apex:pageBlock>
+</apex:page>

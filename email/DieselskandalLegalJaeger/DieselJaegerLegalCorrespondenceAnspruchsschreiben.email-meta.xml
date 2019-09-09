@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Anspruchsschreiben</description>
+    <encodingKey>UTF-8</encodingKey>
+    <name>DieselJägerLegalCorrespondenceAnspruchsschreiben</name>
+    <style>none</style>
+    <subject>Nachricht von J &amp; C Anwälte | Aktenzeichen: {!Correspondence__c.Claim__r.Reference__c}</subject>
+    <type>text</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

@@ -1,0 +1,27 @@
+{!Contact.Salutation__c}, 
+
+leider hat Ihre Rechtsschutzversicherung die Kostenübernahme für unsere anwaltliche Tätigkeit endgültig abgelehnt. 
+
+Das Mandat wird nun in der Variante ohne Rechtsschutz weitergeführt. Diese Prüfung wird einige Zeit in Anspruch nehmen. 
+
+Selbstverständlich können wir auch das Mandat zu den üblichen gesetzlichen Gebühren weiterführen. Bitte teilen Sie mit, wie wir verfahren sollen. Sollten wir innerhalb der nächsten vier Wochen nichts von Ihnen hören, gehen wir davon aus, dass Sie die erste Alternative bevorzugen. 
+
+Über den weiteren Verlauf halten wir Sie selbstverständlich auf dem Laufenden. 
+
+Mit freundlichen Grüßen 
+
+
+H. Jäger 
+Rechtsanwalt 
+
+
+J & C Anwälte 
+Sonnenstraße 18 
+80331 München 
+
+
+Telefon: +49 (0) 89 90 41 03 444 
+Telefax: +49 (0) 89 90 41 03 499 
+E-Mail: lebensversicherung@jc-anwaelte.de 
+Web: www.jc-anwaelte.de 
+Ref-Nr: {!Claim__c.Id}

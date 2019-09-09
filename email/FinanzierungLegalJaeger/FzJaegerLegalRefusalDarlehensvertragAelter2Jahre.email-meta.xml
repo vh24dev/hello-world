@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Darlehensvertrag älter als 2 Jahre</description>
+    <encodingKey>UTF-8</encodingKey>
+    <name>FzJägerLegalRefusalDarlehensvertragAelter2Jahre</name>
+    <style>none</style>
+    <subject>Ihre Bearbeitungsnummer: {!Opportunity.Number__c} | Aktenzeichen: {!Claim__c.Reference__c}</subject>
+    <type>text</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

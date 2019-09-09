@@ -1,0 +1,42 @@
+<span style="font-size:13px;"><span style="font-family: arial, helvetica, sans-serif;">
+{!Contact.Salutation__c},,
+<p>vielen Dank für das angenehme Gespräch und für die Übermittlung Ihrer Anfrage zur Klage.
+<p>Da Sie Angaben über keine Rechtsschutzversicherung zu verfügen, warten wir aus prozessökonomischen Gründen die weiteren Entwicklungen in der Rechtssprechung ab, um dann in dem für Sie günstigsten Zeitpunkt gegen den Fahrzeughersteller vorzugehen. Dies kann einige Zeit in Anspruch nehmen. Die einschlägigen Verjährungsfristen haben wir notiert und für Sie selbstverständlich im Blick.
+<p> Um  für Sie dennoch möglichst schnell tätig zu werden, möchten wir Ihnen ein einzigartiges Angebot machen. Wir haben drei Rechtsschutzversicherungen identifiziert, die die Kosten Ihrer Diesel-Klage auch rückwirkend abdecken - auch wenn Sie heute erst abschließen:
+<p>
+- Advocard
+<br>ADVOCARD Rechtsschutzversicherung AG
+<br/>Besenbinderhof 43
+<br/>20097 Hamburg
+<br/>Telefon: 040 23 73 10
+<br/>Telefax: 040 23 73 14 14
+<br/>E-Mail: nachricht@advocard.de
+<p>
+- ARAG RSV
+<br>ARAG SE
+<br>ARAG Platz 1, 40472 Düsseldorf 
+<br>Telefon: 0211 98 700 700, Telefax: 0211 963-2850 
+<br>E-Mail: service@arag.de
+<p>
+- BADISCHER Gemeinde-Versicherungs-Verband
+<br>Durlacher Allee 56
+76131 Karlsruhe
+<br>Telefon: 0721 660-0
+<br>Telefax: 0721 660-1688
+<br>E-Mail: service@bgv.de
+<p>
+Sobald Sie eine der drei Rechtsschutzversicherungen abgeschlossen und Ihre Rechtsschutz-Police erhalten haben, laden Sie diese bitte hier hoch: 
+<br/><a href="{!Opportunity.Document_Upload_Link__c}" rel="noopener noreferrer" target="_blank"><b>Rechtsschutz-Police hochladen</b></a>
+<p>
+<p>
+Mit freundlichen Grüßen
+ <p>
+i. A. {!User.FirstName} {!User.LastName} 
+<hr />
+<p><img style="width: 200px; height: 54px;" src="https://daks2k3a4ib2z.cloudfront.net/58d0ccc5a30805a8243d5fd9/58d22446e07be4a234dc816e_Verbraucherrechte_Logo_Lay01.png" alt="" /></p>
+<p><a href="http://www.verbraucherrechte24.de" target="_blank">www.verbraucherrechte24.de</a></p>
+<p><span style="font-family: Calibri, Verdana, Arial, sans-serif; font-size: 11px;"> VerbraucherRechte24 GmbH<br /> Albert-Ro&szlig;haupter-Stra&szlig;e 32<br /> 81369 M&uuml;nchen </span></p>
+<p><span style="font-family: Calibri, Verdana, Arial, sans-serif; font-size: 11px;"> Gesch&auml;ftsf&uuml;hrer: Steffen Matz, Matthias Hartmann </span></p>
+<p><span style="font-family: Calibri, Verdana, Arial, sans-serif; font-size: 11px;">in Zusammenarbeit mit dem eingetragenen Rechtsdienstleister:</span></p>
+<p><span style="font-family: Calibri, Verdana, Arial, sans-serif; font-size: 9px;"> VH24 GmbH<br /> Albert-Ro&szlig;haupter-Stra&szlig;e 32<br /> 81369 M&uuml;nchen </span></p>
+<p><span style="font-family: Calibri, Verdana, Arial, sans-serif; font-size: 9px;"> Gesch&auml;ftsf&uuml;hrer: Matthias Hartmann, Denis Krebs<br /><br /> Handelsregister: M&uuml;nchen HRB 217774 Registriert beim Amtsgericht M&uuml;nchen unter 371 E &ndash; M 1779 als Inkassodienstleister gem. &sect; 10 Abs.<p><a href="{!Opportunity.URL_Abmeldung__c}" target="_blank"><span style="color: #0000cd;"><b>Abmelden</b></a>

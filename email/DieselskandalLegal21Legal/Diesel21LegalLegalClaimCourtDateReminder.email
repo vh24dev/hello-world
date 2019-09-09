@@ -1,0 +1,28 @@
+Sehr geehrte/r  {!Contact.Salutation} {!Contact.LastName}, 
+
+als dringende Voraussetzung, kurz vor dem Gerichtstermin, benötigen wir von Ihnen letztmalig die Bestätigung, dass Sie noch der Eigentümer des Fahrzeugs sind. Weiterhin können Sie sich jetzt noch abschließend entscheiden, ob Sie Ihr Fahrzeug weiterhin behalten oder zurückgeben möchten. Falls Sie unentschlossen bleiben, würden wir versuchen die bestmögliche Variante für Sie durchzusetzen. Hierfür bitten wir Sie den folgenden Link zu verwenden und Ihre Antworten zu hinterlegen: {!Claim__c.Ownership_Request_Link_2__c} 
+
+Wir werden Sie über den weiteren Verlauf informieren. Wann mit einem konkreten Urteil zu rechnen ist, hängt von der Auslastung des zuständigen Gerichts ab und kann durch die Kanzlei nicht beeinflusst werden.  
+
+Vielen Dank im Voraus.   
+ 
+
+Mit freundlichen Grüßen
+
+
+Wilhelm Lachmair
+Rechtsanwalt und Fachanwalt für
+Bank- und Kapitalmarktrecht, Arbeitsrecht
+
+
+Rechtsanwälte 
+Wilhelm Lachmair & Kollegen
+Ismaninger Straße 19
+81675 München
+
+ 
+Tel.: +49 (0) 89 21 63 33-10
+Fax: +49 (0) 89 21 63 33-31
+dieselgate@ra-lachmair.de
+www.ra-lachmair.de
+Ref-Nr: {!Claim__c.Id}

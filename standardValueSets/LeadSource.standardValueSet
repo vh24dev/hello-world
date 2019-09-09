@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StandardValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sorted>false</sorted>
+    <standardValue>
+        <fullName>Webform</fullName>
+        <default>true</default>
+        <label>Webform</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Import</fullName>
+        <default>false</default>
+        <label>Import</label>
+    </standardValue>
+    <standardValue>
+        <fullName>API</fullName>
+        <default>false</default>
+        <label>API</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Manual</fullName>
+        <default>false</default>
+        <label>Manual</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Other</fullName>
+        <default>false</default>
+        <label>Other</label>
+    </standardValue>
+</StandardValueSet>

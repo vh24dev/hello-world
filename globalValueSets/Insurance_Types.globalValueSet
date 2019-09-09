@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Kapital-LV</fullName>
+        <default>false</default>
+        <label>Kapital-LV</label>
+    </customValue>
+    <customValue>
+        <fullName>Rentenversicherung</fullName>
+        <default>false</default>
+        <label>Rentenversicherung</label>
+    </customValue>
+    <customValue>
+        <fullName>fondsgebundene LV</fullName>
+        <default>false</default>
+        <label>fondsgebundene LV</label>
+    </customValue>
+    <customValue>
+        <fullName>fondsgebundene RV</fullName>
+        <default>false</default>
+        <label>fondsgebundene RV</label>
+    </customValue>
+    <customValue>
+        <fullName>Unfallversicherung</fullName>
+        <default>false</default>
+        <label>Unfallversicherung</label>
+    </customValue>
+    <customValue>
+        <fullName>betriebliche Altersvorsorge</fullName>
+        <default>false</default>
+        <label>betriebliche Altersvorsorge</label>
+    </customValue>
+    <customValue>
+        <fullName>Nutzung</fullName>
+        <default>false</default>
+        <label>Nutzung</label>
+    </customValue>
+    <customValue>
+        <fullName>sonstiges</fullName>
+        <default>false</default>
+        <label>sonstiges</label>
+    </customValue>
+    <masterLabel>Insurance Types</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

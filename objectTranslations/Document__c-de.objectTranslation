@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?><CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label><!-- BypassProcessBuilder --></label>
+        <name>BypassProcessBuilder__c</name>
+    </fields>
+    <fields>
+        <label><!-- Kommentar --></label>
+        <name>Comment__c</name>
+    </fields>
+    <fields>
+        <label><!-- External Id --></label>
+        <name>External_Id__c</name>
+    </fields>
+    <fields>
+        <label><!-- External Record Type Id --></label>
+        <name>External_Record_Type_Id__c</name>
+    </fields>
+    <fields>
+        <label><!-- Google Drive Id --></label>
+        <name>Google_Drive_Id__c</name>
+    </fields>
+    <fields>
+        <label><!-- Link 2 --></label>
+        <name>Link_2__c</name>
+    </fields>
+    <fields>
+        <label><!-- Link --></label>
+        <name>Link__c</name>
+    </fields>
+    <fields>
+        <label><!-- Long Name --></label>
+        <name>Long_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Neue Unterlagen --></label>
+        <name>Neue_Unterlagen__c</name>
+    </fields>
+    <fields>
+        <label><!-- Old Dokument ID --></label>
+        <name>Old_Dokument_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Old Id --></label>
+        <name>Old_Id__c</name>
+    </fields>
+    <fields>
+        <label><!-- Opportunity Id --></label>
+        <name>Opportunity_Id__c</name>
+    </fields>
+    <fields>
+        <label><!-- Anfrage --></label>
+        <name>Opportunity__c</name>
+        <relationshipLabel><!-- Dokumente --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Quelle --></label>
+        <name>Source__c</name>
+    </fields>
+    <fields>
+        <label><!-- Typ --></label>
+        <name>Type__c</name>
+    </fields>
+    <caseValues>
+        <caseType>Nominative</caseType>
+        <plural>false</plural>
+        <value>Dokument</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Nominative</caseType>
+        <plural>true</plural>
+        <value>Dokumente</value>
+    </caseValues>
+    <gender>Neuter</gender>
+    <recordTypes>
+        <label><!-- Dieselskandal --></label>
+        <name>Dieselskandal</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Finanzierung --></label>
+        <name>Finanzierung</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Lebensversicherung --></label>
+        <name>Lebensversicherung</name>
+    </recordTypes>
+    <webLinks>
+        <label><!-- Convert_To_PDF --></label>
+        <name>Convert_To_PDF</name>
+    </webLinks>
+</CustomObjectTranslation>

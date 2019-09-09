@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>1. Erinnerung nach Anmeldung</description>
+    <encodingKey>UTF-8</encodingKey>
+    <name>DieselskandalGeneralAutoFollowUpNoVehicleBrand1Vr24</name>
+    <style>none</style>
+    <subject>Dieselskandal: Ihr Fahrzeugdaten vervollständigen</subject>
+    <textOnly>{!Contact.Salutation__c},
+
+um Ihnen eine finale Einschätzung zu geben, ob Ihr Fahrzeug vom Dieselskandal betroffen ist und wie Sie schnellstmöglich zu Ihrem Schadenersatz kommen,
+benötigen wir noch ein paar einfach zu beantwortende Fahrzeugdaten von Ihnen:
+
+Jetzt Fahrzeugdaten vervollständigen
+
+Wir senden Ihnen binnen 48 Stunden eine persönliche Empfehlung zu.
+
+Handeln Sie jetzt und schützen Sie sich vor Problemen, die durch Ihren manipulierten Diesel auf Sie zukommen:
+
+- Wertverlust beim Wiederverkauf
+- Dieselfahrverbote in deutschen Städten
+- Hoher Wartungsaufwand, mögliche technische Probleme
+
+Machen Sie es wie tausende Dieselbesitzer und holen Sie sich Ihr Geld zurück.
+Bis zu 10.000€ zusätzlicher Schadenersatz. Verpassen Sie nicht die Frist.
+
+Sie haben noch Fragen zum weiteren Vorgehen?
+Rufen Sie uns gerne an:
+089 - 215 413 118
+
+oder antworten Sie auf diese Mail.
+
+
+
+
+www.verbraucherrechte24.de
+
+VerbraucherRechte24 GmbH
+Albert-Roßhaupter-Straße 32
+81369 München
+
+Geschäftsführer: Steffen Matz, Matthias Hartmann
+
+Jetzt austragen</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

@@ -1,0 +1,32 @@
+<span style="font-size:13px;"><span style="font-family: arial, helvetica, sans-serif;">
+{!Contact.Salutation__c}, 
+<p>
+leider kann ich Sie telefonisch nicht erreichen. 
+<p>
+Wir hatten uns über das Thema Rückabwicklung von Lebensversicherung bezüglich Ihrer {!Opportunity.Insurance_Name__c} unterhalten. Um diese zu prüfen, wollten Sie uns die Unterlagen zukommen lassen. 
+<p>
+Leider konnten wir bislang keinen Eingang verzeichnen. Gibt es Probleme mit den notwendigen Unterlagen? Bei Fragen können Sie mich gerne telefonisch erreichen unter der 089 124 147 418. 
+<p>
+Sollten Sie kein Interesse mehr an einer Prüfung haben, lassen Sie uns das bitte wissen, damit wir Ihren Vorgang schließen können. 
+<p>
+In Erwartung auf Ihre Nachricht verbleibe ich 
+<p>
+mit freundlichen Grüßen 
+<p>
+<p>
+{!User.FirstName} {!User.LastName} 
+{!User.Title}
+<p>
+<p>
+<p><img alt="" src="https://www.verbraucherhilfe24.de/wp-content/uploads/v24-logo-1.png" /></p>
+<span style="font-size:11px;"><span style="Calibri Light;">
+VH24 GmbH<br/>
+Albert-Roßhaupter-Str. 32<br/>
+81369 München<br/>
+Telefon: <b>089 - 124 147 418</b><br/>
+Kontakt: office@verbraucherhilfe24.de
+<p>
+www.verbraucherhilfe24.de
+<p>
+Registergericht beim Amtsgericht München unter 371 E - <b>M 1779 als Inkassodienstleister gem. §10 abs. 1 RDG</b> | Handelsregister: HRB 217774 Amtsgericht München | USt-IDNr: DE277526577
+<p><a href="{!Opportunity.URL_Abmeldung__c}" target="_blank"><span style="color: #0000cd;"><b>Abmelden</b></a>

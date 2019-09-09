@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Vertrag übermitteln</description>
+    <encodingKey>UTF-8</encodingKey>
+    <name>LvKainzLegalAnfrageKorrespondenz</name>
+    <style>none</style>
+    <subject>Vertrag übermitteln | Bearbeitungsnummer: {!Opportunity.Number__c}</subject>
+    <textOnly>Sehr geehrte Damen und Herren,
+
+anbei überlassen wir das diesseitige Schreiben mit der Bitte um Kenntnisnahme.
+
+Mit freundlichen Grüßen
+
+Ihre Verbraucherhilfe24
+
+
+
+VH24 GmbH
+Albert-Roßhaupter-Str. 32
+81369 München
+Telefon: 089 - 124 147 413
+Kontakt: office@verbraucherhilfe24.de
+
+www.verbraucherhilfe24.de
+
+Registergericht beim Amtsgericht München unter 371 E - M 1779 als Inkassodienstleister gem. §10 abs. 1 RDG | Handelsregister: HRB 217774 Amtsgericht München | USt-IDNr: DE277526577
+
+Abmelden</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

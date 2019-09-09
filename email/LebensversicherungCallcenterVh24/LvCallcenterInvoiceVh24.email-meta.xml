@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Rechnung positive Rückabwicklung</description>
+    <encodingKey>UTF-8</encodingKey>
+    <name>LvCallcenterInvoiceVh24</name>
+    <style>none</style>
+    <subject>{!Invoice__c.Opportunity__r.Number__c} Rechnung über positive Rückabwicklung</subject>
+    <textOnly>{!Contact.Salutation__c},
+
+anbei sende ich Ihnen Ihre Rechnung für die positive Rückabwicklung Ihrer Lebensversicherung.
+
+Bitte überweisen Sie den Gesamtbetrag in Höhe von {!Invoice__c.Amount__c} Euro unter Angabe der Rechnungsnummer {!Invoice__c.Number__c} bis zum {!Invoice__c.Due_Date__c} (Zahlungseingang auf unserem Konto).
+
+Ich danke Ihnen für Ihr entgegengebrachtes Vertrauen.
+
+Beste Grüße
+
+
+{!User.FirstName} {!User.LastName} {!User.Title}
+
+
+VH24 GmbH
+Albert-Roßhaupter-Str. 32
+81369 München
+Telefon: 089 - 124 147 418
+Kontakt: office@verbraucherhilfe24.de
+
+www.verbraucherhilfe24.de
+
+Registergericht beim Amtsgericht München unter 371 E - M 1779 als Inkassodienstleister gem. §10 abs. 1 RDG | Handelsregister: HRB 217774 Amtsgericht München | USt-IDNr: DE277526577
+
+Abmelden</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

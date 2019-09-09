@@ -1,0 +1,111 @@
+<apex:page standardController="Invitation__c" renderAs="PDF" applyBodyTag="false">
+
+<head>
+                <style type="text/css" media="print">
+                       @page {
+                                 @top-center {
+                                       content: element(header);
+                               }
+                               @bottom-left {
+                                     content: element(footer);
+                               }
+                            }
+                                     div.header {
+                                      padding: 10px;
+                                      position: running(header);
+                           }
+                       div.footer {
+                                display: block;
+                             padding: 5px;
+                               position: running(footer);
+                      }
+                                     .pagenumber:before {
+                                        content: counter(page);
+                       }
+                                   .pagecount:before {
+                             content: counter(pages);
+                        }
+                    </style>
+              </head>
+              
+<div class="header" style="text-align: right;height: 100px;">
+              <div >
+              <apex:image url="/servlet/servlet.ImageServer?id=0151t0000018MDP&oid=00D1t000000uHYU&lastMod=1552577274000"/><br/><br/>
+              </div>
+</div>
+
+ <div class="footer">
+                <div>Page <span class="pagenumber"/> of <span class="pagecount"/></div>
+          </div>
+          
+
+<p style="margin-bottom: .0001pt; text-align: center; line-height: 150%;"><strong><span style="font-size: 14.0pt; line-height: 150%; font-family: 'Verdana',sans-serif;">Tippgebervereinbarung</span></strong></p>
+<p style="margin-bottom: .0001pt; text-align: justify; line-height: 150%;"><span style="font-size: 10.0pt; line-height: 150%; font-family: 'Verdana',sans-serif;">&nbsp;</span></p>
+<p style="margin-bottom: .0001pt; text-align: justify; line-height: 150%;"><span style="font-size: 10.0pt; line-height: 150%; font-family: 'Verdana',sans-serif;">zwischen der &nbsp;&nbsp;&nbsp; </span></p>
+<p style="margin-bottom: .0001pt; text-align: justify; line-height: 150%;"><strong><span style="font-size: 10.0pt; line-height: 150%; font-family: 'Verdana',sans-serif;">VH24 GmbH</span></strong><span style="font-size: 10.0pt; line-height: 150%; font-family: 'Verdana',sans-serif;">, Albert-Ro&szlig;haupter-Str. 32, 81369 M&uuml;nchen </span></p>
+<p style="margin-bottom: .0001pt; text-align: right; line-height: 150%;"><span style="font-size: 10.0pt; line-height: 150%; font-family: 'Verdana',sans-serif;">- nachfolgend &bdquo;<strong><em>VH24</em></strong>&ldquo; genannt -</span></p>
+<p style="margin-bottom: .0001pt; text-align: justify; line-height: 150%;"><span style="font-size: 10.0pt; line-height: 150%; font-family: 'Verdana',sans-serif;">&nbsp;</span></p>
+<p style="margin-bottom: .0001pt; text-align: justify; line-height: 150%;"><span style="font-size: 10.0pt; line-height: 150%; font-family: 'Verdana',sans-serif;">und </span></p>
+<p style="margin-bottom: .0001pt; text-align: justify; line-height: 150%;"><span style="font-size: 10.0pt; line-height: 150%; font-family: 'Verdana',sans-serif;">&nbsp;</span></p>
+
+<p style="margin-bottom: .0001pt; text-align: justify; line-height: 150%;"><span style="font-size: 10.0pt; line-height: 150%; font-family: 'Verdana',sans-serif;"><strong><span style="font-size: 10.0pt; line-height: 150%; font-family: 'Verdana',sans-serif;">{!Invitation__c.Contact__r.LastName}</span></strong>, {!Invitation__c.Contact__r.MailingStreet}, {!Invitation__c.Contact__r.MailingPostalCode} {!Invitation__c.Contact__r.MailingCity}  </span></p>
+
+<p style="margin-bottom: .0001pt; text-align: right; line-height: 150%;"><span style="font-size: 10.0pt; line-height: 150%; font-family: 'Verdana',sans-serif;">- nachfolgend &bdquo;<strong><em>TIPPGEBERIN</em></strong>&ldquo; genannt - </span></p>
+<p>&nbsp;</p>
+<p style="margin-bottom: .0001pt; text-align: center; line-height: 150%;"><strong><span style="font-size: 10.0pt; line-height: 150%; font-family: 'Verdana',sans-serif;">Pr&auml;ambel</span></strong></p>
+<p style="margin-bottom: .0001pt; text-align: justify; line-height: 15.0pt;"><span style="font-size: 10.0pt; font-family: 'Verdana',sans-serif;">Die TIPPGEBERIN verf&uuml;gt &uuml;ber ein umfassendes Netzwerk an Personen, die grunds&auml;tzlich daran interessiert sind, ihre (ehemaligen) Versicherungsvertr&auml;ge und sonstige verbraucherschutzrelevante Vertragsbeziehungen durch Partneranw&auml;lte der VH24 pr&uuml;fen zu lassen. Zu diesem Zweck vereinbaren die Parteien was folgt:</span></p>
+<p><span style="font-size: 10.0pt; font-family: 'Verdana',sans-serif;">&nbsp;</span></p>
+<p><span style="font-size: 10.0pt; font-family: 'Verdana',sans-serif;">&nbsp;</span></p>
+<p style="text-align: center;"><strong><span style="font-size: 10.0pt; line-height: 150%; font-family: 'Verdana',sans-serif;"> 1 Vertragsgegenstand</span></strong></p>
+<p style="margin-bottom: .0001pt; text-align: justify; line-height: 15.0pt;"><span style="font-size: 10.0pt; font-family: 'Verdana',sans-serif;">Die TIPPGEBERIN vermittelt der VH24 nicht exklusiv und auf nebenberuflicher Basis Kontakt zu rechtschutzversicherten Endkunden, die an Dienstleistungen der VH24 interessiert sind. Hierbei wirkt die TIPPGEBERIN u.a. darauf hin, dass die Kunden ihre (ehemaligen) </span><span style="font-size: 10.0pt; font-family: 'Verdana',sans-serif;">Verbrauchervertr&auml;ge</span><span style="font-size: 10.0pt; font-family: 'Verdana',sans-serif;"> durch Partneranw&auml;lte der </span><span style="font-size: 10.0pt; font-family: 'Verdana',sans-serif;">VH24 </span><span style="font-size: 10.0pt; font-family: 'Verdana',sans-serif;">&uuml;berpr&uuml;fen lassen. Die TIPPGEBERIN verpflichtet sich in diesem Zusammenhang, VH24 potenzielle rechtschutzversicherte Kunden zu benennen und den Kontakt zwischen dem Kunden/ Tippgeber und VH24 herzustellen. VH24 wird sich bem&uuml;hen, eine vertragliche Beziehung zum vermittelten potenziellen Kunden zu begr&uuml;nden, sofern der jeweilige potenzielle Kunde bzw. sein Anliegen den Anforderungen der jeweils geltenden aktuellen Annahmerichtlinien der VH24 gen&uuml;gt.</span></p>
+<p style="margin: 0cm; margin-bottom: .0001pt; text-align: justify; line-height: 15.0pt;"><span style="font-size: 10.0pt; font-family: 'Verdana',sans-serif;">&nbsp;</span></p>
+<p style="text-align: center;"><strong><span style="font-size: 10.0pt; line-height: 150%; font-family: 'Verdana',sans-serif;"> 2 Beginn / K&uuml;ndigung / Beendigung</span></strong></p>
+<p style="margin-bottom: .0001pt; text-align: justify; line-height: 15.0pt;"><span style="font-size: 10.0pt; font-family: 'Verdana',sans-serif;">Diese Vereinbarung l&auml;uft auf unbestimmte Zeit. Jede der Parteien kann diesen Vertrag ordentlich mit einer Frist von drei Monaten zum Monatsende k&uuml;ndigen. Das Recht zur K&uuml;ndigung aus wichtigem Grund bleibt unber&uuml;hrt. </span></p>
+<p style="margin-bottom: .0001pt; text-align: justify; line-height: 15.0pt;"><span style="font-size: 10.0pt; font-family: 'Verdana',sans-serif;">&nbsp;</span></p>
+<p style="text-align: center;"><strong><span style="font-size: 10.0pt; line-height: 150%; font-family: 'Verdana',sans-serif;"> 3 Folgen der Vertragsbeendigung</span></strong></p>
+<p style="text-align: justify; line-height: 15.0pt;"><span style="font-size: 10.0pt; font-family: 'Verdana',sans-serif; color: windowtext;">Nach Vertragsbeendigung erl&ouml;schen s&auml;mtliche Verg&uuml;tungsanspr&uuml;che der TIPPGEBERIN. </span><span style="font-size: 10.0pt; font-family: 'Verdana',sans-serif; color: windowtext;">S&auml;mtliche Kundenkontakte stehen allein VH24 zu. Die TIPPGEBERIN kann diesbez&uuml;glich keinerlei Rechte weder aus dieser Vereinbarung noch aus sonstigen Regelungen oder Vereinbarungen herleiten.</span></p>
+<p style="margin-bottom: .0001pt; text-align: justify; line-height: 15.0pt;"><span style="font-size: 10.0pt; font-family: 'Verdana',sans-serif;">&nbsp;</span></p>
+<p style="text-align: center;"><strong><span style="font-size: 10.0pt; line-height: 150%; font-family: 'Verdana',sans-serif;"> 4 Verg&uuml;tung, Abrechnung und R&uuml;ckzahlung</span></strong></p>
+<p style="margin-bottom: .0001pt; text-align: justify; line-height: 15.0pt;"><span style="font-size: 10.0pt; font-family: 'Verdana',sans-serif;">Die Verg&uuml;tung der TIPPGEBERIN ist abh&auml;ngig von dem Produkt der VH24: </span></p>
+<p style="margin-bottom: .0001pt; text-align: justify; line-height: 15.0pt;"><span style="font-size: 10.0pt; font-family: 'Verdana',sans-serif;">&nbsp;</span></p>
+<ol style="list-style-type: lower-alpha;">
+<li><span style="font-size: 10.0pt; font-family: 'Verdana',sans-serif;">Die TIPPGEBERIN erh&auml;lt von VH24 als Verg&uuml;tung ihrer Leistungen im Zusammenhang mit der Zuf&uuml;hrung von rechtschutzversicherten Kunden ein Honorar in H&ouml;he von 220 Euro zzgl. gesetzlicher Umsatzsteuer je zugef&uuml;hrtem rechtschutzversicherten Kunden, sofern der zugef&uuml;hrte Kunde das Produkt Widerruf KfZ-Kredit, Diesel-Abgas-Skandal oder Lebensversicherungsr&uuml;ckabwicklung bei aktivem, laufendem Lebensversicherungsvertrag gem&auml;&szlig; der jeweils g&uuml;ltigen Annahmerichtlinien der VH24 beauftragt hat und seitens seiner Rechtschutzversicherung Deckungszusage erteilt wurde. Sollte ein Kunde VH24 mehrere Vertr&auml;ge zur Durchsetzung seiner Rechte &uuml;bergeben, entsteht vorstehende Verg&uuml;tung f&uuml;r jede erteilte Deckungszusage.</span></li>
+<li><span style="font-size: 10.0pt; font-family: 'Verdana',sans-serif;">Die TIPPGEBERIN erh&auml;lt von VH24 als Verg&uuml;tung ihrer Leistungen im Zusammenhang mit der Zuf&uuml;hrung von nicht rechtschutzversicherten Kunden ein Honorar gem&auml;&szlig; folgender Staffel je zugef&uuml;hrtem nicht rechtschutzversicherten Kunden, sofern der jeweilige Kunde das Produkt Lebensversicherungsr&uuml;ckabwicklung bei gek&uuml;ndigtem Lebensversicherungsvertrag gem&auml;&szlig; der jeweils g&uuml;ltigen Annahmerichtlinien der VH24 beauftragt hat und ein Erfolg eingetreten ist, der Kunde also einen Betrag vom Lebensversicherungsunternehmen erhalten hat.</span></li>
+</ol>
+<p style="text-align: center;"><span style="font-size: 10.0pt; font-family: 'Verdana',sans-serif;">Ertrag Kunde bis 4.000 &euro;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Verg&uuml;tung in H&ouml;he von 100 &euro;</span></p>
+<p style="text-align: center;"><span style="font-size: 10.0pt; font-family: 'Verdana',sans-serif;">Ertrag Kunde von 4.001 &euro; bis 7.000 &euro;&nbsp; &nbsp; &nbsp; &nbsp;Verg&uuml;tung in H&ouml;he von 200 &euro;</span></p>
+<p style="text-align: center;"><span style="font-size: 10.0pt; font-family: 'Verdana',sans-serif;">Ertrag Kunde von 7.001 &euro; bis 10.000 &euro;&nbsp; &nbsp; &nbsp;Verg&uuml;tung in H&ouml;he von 300 &euro;</span></p>
+<p style="text-align: center;"><span style="font-size: 10.0pt; font-family: 'Verdana',sans-serif;">Ertrag Kunde ab 10.001 &euro;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Verg&uuml;tung in H&ouml;he von 400 &euro; </span><span style="font-size: 8.0pt; font-family: 'Verdana',sans-serif;">&nbsp;</span></p>
+<p style="text-align: justify; line-height: 15.0pt; margin: 0cm 0cm .0001pt 36.0pt;"><span style="font-size: 10.0pt; font-family: 'Verdana',sans-serif;">Vorstehende Verg&uuml;tungsbetr&auml;ge verstehen sich jeweils zzgl. MWST </span></p>
+<p style="text-align: justify; line-height: 15.0pt; margin: 0cm 0cm .0001pt 35.4pt;"><span style="font-size: 10.0pt; font-family: 'Verdana',sans-serif;">Vorstehende Regelung des Absatz b) gilt entsprechend bei einem rechtschutzversicherten Kunden, sofern der zugef&uuml;hrte Kunde das Produkt Lebensversicherungsr&uuml;ckabwicklung gem&auml;&szlig; der jeweils g&uuml;ltigen Annahmerichtlinien der VH24 beauftragt hat, die Rechtschutzversicherung jedoch keine Deckung erteilt hat aber dennoch ein Erfolg eingetreten ist, der Kunde also einen Betrag vom Lebensversicherungsunternehmen erhalten hat.</span></p>
+<p style="margin-bottom: .0001pt; text-align: justify; line-height: 15.0pt;"><span style="font-size: 10.0pt; font-family: 'Verdana',sans-serif;">&nbsp;</span></p><br/>
+<p style="margin-bottom: .0001pt; text-align: justify; line-height: 15.0pt;"><span style="font-size: 10.0pt; font-family: 'Verdana',sans-serif;">In der jeweiligen Verg&uuml;tung sind &ndash; mit Ausnahme der gesondert auszuweisenden Umsatzsteuer- alle etwaigen anfallenden Steuern und Nebenkosten wie Auslagen etc. enthalten. VH24 hat das Recht, die vorgenannte Verg&uuml;tungsh&ouml;he insgesamt oder je Produkt jederzeit mit Wirkung f&uuml;r die Zukunft einseitig zu &auml;ndern. </span><span style="font-size: 10.0pt; font-family: 'Verdana',sans-serif;">Die Parteien gehen davon aus, dass jede Tippgeberverg&uuml;tung grunds&auml;tzlich der Umsatzsteuer unterliegt, weshalb die Verg&uuml;tung brutto, also stets einschlie&szlig;lich einer etwaigen Umsatzsteuer, gezahlt wird.</span><span style="font-size: 10.0pt; font-family: 'Verdana',sans-serif;"> In diesem Zusammenhang ist die TIPPGEBERIN </span><span style="font-size: 10.0pt; font-family: 'Verdana',sans-serif;">f&uuml;r die Einhaltung der ma&szlig;geblichen - insbesondere steuer- und gewerberechtlichen - Vorschriften, verantwortlich. </span></p>
+<p style="margin-bottom: .0001pt; text-align: justify; line-height: 15.0pt;"><span style="font-size: 10.0pt; font-family: 'Verdana',sans-serif;">&nbsp;</span></p>
+<p style="margin-bottom: .0001pt; text-align: justify; line-height: 15.0pt;"><span style="font-size: 10.0pt; font-family: 'Verdana',sans-serif;">Die Verg&uuml;tung wird grunds&auml;tzlich sp&auml;testens 30 Arbeitstage nach erfolgter Deckungszusage f&auml;llig und abgerechnet. In den F&auml;llen des Absatzes b) (nicht rechtschutzversicherter Kunde des Produkts Lebensversicherungsr&uuml;ckabwicklung bei gek&uuml;ndigtem Lebensversicherungsvertrag und rechtschutzversicherter Kunde des Produkts Lebensversicherungsr&uuml;ckabwicklung ohne Deckungszusage) wird die Verg&uuml;tung sp&auml;testens 30 Arbeitstage nach Zahlungseingang bei VH24 f&auml;llig und abgerechnet.</span></p>
+<p style="margin-bottom: .0001pt; text-align: justify; line-height: 15.0pt;"><span style="font-size: 10.0pt; font-family: 'Verdana',sans-serif;">&nbsp;</span></p>
+<p style="margin-bottom: .0001pt; text-align: justify; line-height: 15.0pt;"><span style="font-size: 10.0pt; font-family: 'Verdana',sans-serif;">Die TIPPGEBERIN ist verpflichtet, die erteilten Abrechnungen unverz&uuml;glich auf ihre Richtigkeit zu kontrollieren. Die jeweilige Abrechnung gilt als sachlich und rechnerisch aner&shy;kannt, wenn die TIPPGEBERIN ihr nicht innerhalb einer Frist von vier Wochen nach Zugang schriftlich widerspricht. Mit der Zahlung der Verg&uuml;tung ist die gesamte T&auml;tigkeit der TIPPGEBERIN abgegolten.</span></p>
+<p style="margin-bottom: .0001pt; text-align: justify; line-height: 15.0pt;"><strong><span style="font-size: 10.0pt; font-family: 'Verdana',sans-serif;">&nbsp;</span></strong></p>
+<p style="text-align: center;"><strong><span style="font-size: 10.0pt; line-height: 150%; font-family: 'Verdana',sans-serif;"> 5 Kommunikation</span></strong></p>
+<p style="margin-bottom: .0001pt; text-align: justify; line-height: 15.0pt;"><span style="font-size: 10.0pt; font-family: 'Verdana',sans-serif;">Die Parteien vereinbaren ausdr&uuml;cklich, dass in allen F&auml;llen der vertragsdispositiven Formerfordernisse keine Schriftform erforderlich ist und alle Erkl&auml;rungen und Informationen &ndash; soweit kein Formerfordernis besteht - elektronisch oder per E-Mail abgegeben werden k&ouml;nnen. </span></p>
+<p style="margin-bottom: .0001pt; text-align: justify; line-height: 15.0pt;"><span style="font-size: 10.0pt; font-family: 'Verdana',sans-serif;">&nbsp;</span></p>
+<p style="margin-bottom: .0001pt; text-align: justify; line-height: 15.0pt;"><span style="font-size: 10.0pt; font-family: 'Verdana',sans-serif;">Dar&uuml;ber hinaus vereinbaren die Parteien, dass es der TIPPGEBERIN untersagt ist, mit den beauftragten Anw&auml;lten zu kommunizieren. Im Falle einer Zuwiderhandlung wird eine Vertragsstrafe in H&ouml;he von 2.000,00 &euro; je Fall vereinbart. </span></p>
+<p style="margin-bottom: .0001pt; text-align: justify; line-height: 15.0pt;"><span style="font-size: 10.0pt; font-family: 'Verdana',sans-serif;">&nbsp;</span></p>
+<p style="margin-bottom: .0001pt; text-align: center; line-height: 15.0pt;"><strong><span style="font-size: 10.0pt; font-family: 'Verdana',sans-serif;">&nbsp;</span></strong></p>
+<p style="text-align: center;"><strong><span style="font-size: 10.0pt; line-height: 150%; font-family: 'Verdana',sans-serif;"> 6 Geheimhaltung und Datenschutz</span></strong></p>
+<p style="margin-bottom: .0001pt; text-align: justify; line-height: 15.0pt; tab-stops: 122.25pt;"><span style="font-size: 10.0pt; font-family: 'Verdana',sans-serif;">Die TIPPGEBERIN und VH24 verpflichten sich, Dritten gegen&uuml;ber strengstes Stillschweigen &uuml;ber diesen Vertrag und insbesondere bez&uuml;glich Art und H&ouml;he der Verg&uuml;tung zu wahren. Diese Pflicht besteht nach Beendigung dieses Vertrages fort. Dritte sind nicht zur Berufsverschwiegenheit verpflichtete Personen, insbesondere Steuerberater. Die TIPPGEBERIN verpflichtet sich zur Einhaltung der Bestimmungen des Bundesdatenschutzgesetzes und der Datenschutzgrundverordnung. Es ist danach untersagt, personenbezogene und/oder sonstige Daten von Kunden,<br/><br/><br/><br/> Mitarbeitern oder sonstigen Personen, zu denen die TIPPGEBERIN auf Grund dieses Vertrages Zugang erhalten hat, zu einem anderen als der Erf&uuml;llung dieses Vertrages dienenden Zweck zu verarbeiten, bekannt zu geben, zug&auml;nglich zu machen oder sonst zu nutzen. Die Verpflichtung des Datengeheimnisses besteht auch nach Beendigung dieses Vertrages fort.</span></p>
+<p style="margin-bottom: .0001pt; text-align: justify; line-height: 15.0pt;"><span style="font-size: 10.0pt; font-family: 'Verdana',sans-serif;">&nbsp;</span></p>
+<p style="text-align: center;"><strong><span style="font-size: 10.0pt; line-height: 150%; font-family: 'Verdana',sans-serif;"> 7 Sonstiges</span></strong></p>
+<p style="margin-bottom: .0001pt; text-align: justify; line-height: 15.0pt;"><span style="font-size: 10.0pt; font-family: 'Verdana',sans-serif;">Diese Vereinbarung ersetzt alle ggf. bestehenden Vereinbarungen zwischen beiden Parteien. </span></p>
+<p style="margin-bottom: .0001pt; text-align: justify; line-height: 15.0pt;"><span style="font-size: 10.0pt; font-family: 'Verdana',sans-serif;">Dieser Vertrag unterliegt deutschem Recht. Gerichtsstand f&uuml;r Streitigkeiten aus und im Zusammenhang mit dieser Vereinbarung ist &ndash; sofern gesetzlich zul&auml;ssig - M&uuml;nchen.&nbsp; </span></p>
+<p style="margin-bottom: .0001pt; text-align: justify; line-height: 15.0pt;"><span style="font-size: 10.0pt; font-family: 'Verdana',sans-serif;">&nbsp;</span></p>
+<p style="margin-bottom: .0001pt; text-align: justify; line-height: 15.0pt;"><span style="font-size: 10.0pt; font-family: 'Verdana',sans-serif;">Sollten einzelne Bestimmungen dieses Vertrages ung&uuml;ltig, anfechtbar oder undurchf&uuml;hrbar sein oder werden, so wird dadurch die G&uuml;ltigkeit des Vertrages im &Uuml;brigen nicht ber&uuml;hrt. Anstelle der anfechtbaren, nichtigen oder undurchf&uuml;hrbaren Bestimmung soll eine andere Bestimmung gelten, die m&ouml;glichst dem entspricht, was die Vertragsschlie&szlig;enden mit der ung&uuml;ltigen, anfechtbaren oder undurchf&uuml;hrbaren Bestimmung wirtschaftlich beabsichtigt haben. Entsprechendes gilt f&uuml;r eine erg&auml;nzungsbed&uuml;rftige L&uuml;cke. </span></p>
+<p style="margin-bottom: .0001pt; text-align: justify; line-height: 15.0pt;"><span style="font-size: 10.0pt; font-family: 'Verdana',sans-serif;">&nbsp;</span></p>
+<p style="margin-bottom: .0001pt; text-align: justify; line-height: 150%;"><span style="font-size: 10.0pt; line-height: 150%; font-family: 'Verdana',sans-serif;">&nbsp;</span></p>
+<p style="margin-bottom: .0001pt;  line-height: 150%;"><span style="font-size: 10.0pt; line-height: 150%; font-family: 'Verdana',sans-serif;"><strong>____________________</strong><br />Ort, Datum </span></p>
+<p style="margin-bottom: .0001pt; text-align: justify; line-height: 150%;"><span style="font-size: 10.0pt; line-height: 150%; font-family: 'Verdana',sans-serif;">&nbsp;</span></p>
+<p style="margin-bottom: .0001pt; text-align: justify; line-height: 150%;"><span style="font-size: 10.0pt; line-height: 150%; font-family: 'Verdana',sans-serif;">&nbsp;</span></p>
+<p style="margin-bottom: .0001pt; text-align: justify; line-height: 150%;"><span style="font-size: 10.0pt; line-height: 150%; font-family: 'Verdana',sans-serif;">&nbsp;</span></p>
+<apex:image url="/servlet/servlet.ImageServer?id=0151t000000ojmJ&oid=00D1t000000uHYU&lastMod=1562581695000" height="80px" width="140px"/>
+<p style="margin-bottom: 0.0001pt; line-height: 150%;"><span style="font-size: 10.0pt; line-height: 150%; font-family: 'Verdana',sans-serif;"><strong>____________________&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; ___________________</strong><br />VH24 GmbH&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Tippgeberin</span></p>
+
+</apex:page>

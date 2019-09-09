@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?><CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label><!-- CREATEDDATE_old --></label>
+        <name>CREATEDDATE_old__c</name>
+    </fields>
+    <fields>
+        <label><!-- Excel Ergebnis!B26 --></label>
+        <name>Excel_Ergebnis_B26__c</name>
+    </fields>
+    <fields>
+        <label><!-- Excel Ergebnis!B46 --></label>
+        <name>Excel_Ergebnis_B46__c</name>
+    </fields>
+    <fields>
+        <label><!-- ID_old --></label>
+        <name>ID_old__c</name>
+    </fields>
+    <fields>
+        <label><!-- Old Potentialberechnung ID --></label>
+        <name>Old_Potentialberechnung_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Anfrage --></label>
+        <name>Opportunity__c</name>
+        <relationshipLabel><!-- Potentialberechnungen --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- PotenImpID --></label>
+        <name>PotenImpID__c</name>
+    </fields>
+    <caseValues>
+        <caseType>Nominative</caseType>
+        <plural>false</plural>
+        <value>Potentialberechnung</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Nominative</caseType>
+        <plural>true</plural>
+        <value>Potentialberechnungen</value>
+    </caseValues>
+    <gender>Feminine</gender>
+    <webLinks>
+        <label><!-- Create_Analysis_Xlsx --></label>
+        <name>Create_Analysis_Xlsx</name>
+    </webLinks>
+</CustomObjectTranslation>

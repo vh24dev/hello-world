@@ -1,0 +1,7 @@
+<apex:page showHeader="false" title="{!$Label.site.bandwidth_limit_exceeded}">
+  <apex:composition template="StdExceptionTemplate">
+    <apex:define name="icon">
+    Bandwidth Exceeded
+   </apex:define> 
+  </apex:composition>
+</apex:page>

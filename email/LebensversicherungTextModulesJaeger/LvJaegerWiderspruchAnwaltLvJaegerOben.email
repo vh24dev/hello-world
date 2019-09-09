@@ -1,0 +1,5 @@
+Unsere Mandantschaft hat im Jahr {!Opportunity.Inception_Year__c} mit Ihrem Versicherungsunternehmen eine Lebensversicherung (Versicherungsnummer: {!Opportunity.Insurance_Number__c}) abgeschlossen. 
+
+Namens und in Vollmacht unserer Mandantschaft widersprechen wir dem Vertragsschluss des oben genannten Versicherungsvertrages bzw. erklären den Rücktritt vom oben genannten Versicherungsvertrag. Der Vertrag gilt mithin als nicht abgeschlossen. 
+
+Unsere Mandantschaft hat bei Vertragsschluss nicht sämtliche vom Gesetzgeber geforderten Unterlagen erhalten und wurde nicht in drucktechnisch deutlicher Form über ihr Widerspruchsrecht nach § 5a VVG a.F. bzw. Rücktrittsrecht nach § 8 Abs. 5 des VVG a.F. belehrt.

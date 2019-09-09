@@ -1,0 +1,28 @@
+<span style="font-size:13px;"><span style="font-family: arial, helvetica, sans-serif;">
+<h3>Bitte Ihre Auftragsdaten vervollständigen.</h3><br/>
+{!Contact.Salutation__c},
+<p>wir nehmen Bezug auf Ihre Anfrage für die Rechtsdurchsetzung im Dieselskandal. Wir warten noch auf die Vervollständigung Ihrer Daten, damit wir die Rechtsdurchsetzung für Sie starten können.
+Nutzen sie diese Chance jetzt, denn die Verjährungsfristen laufen Ende 2018 aus!<br/>
+</b> <span style="font-size:11px;"><span style="font-family: arial, helvetica, sans-serif;"></br><span style="font-size:11px;"><span style="font-family: arial, helvetica, sans-serif;">
+<p><br/>
+<a href="{!Opportunity.Document_Upload_Link__c}" rel="noopener noreferrer" target="_blank"><b>Dokumente hochladen</b></a><br/><i>Hinweis: Sie können die Dokumente auch mit Ihrer Handy-Kamera abfotografieren und die Bilder hier hochladen!</i><br/>
+<br/><p><b>Alternative Kontaktmöglichkeiten:</b><br/>
+Senden Sie die Unterlagen alternativ als Scan oder Foto unter Angabe der Vorgangsnummer {!Opportunity.Number__c}<br/>
+per <b>Email</b> an: auto@verbraucherhilfe24.de 
+<p><br/>
+Oder per <b>Post</b> an (bitte Vorgangsnummer vermerken):<br/>
+<i>Verbraucherhilfe24<br/>
+Abt. Diesel-Skandal<br/>
+Albert-Roßhaupter-Str. 32<br/>
+81369 München<br/></i>
+
+<p>Wenn Sie lieber den weiteren Prozess mit uns am Telefon besprechen  möchten, rufen Sie uns auch gerne an <b>089 - 215 413 118</b><br/>Oder fordern Sie <a href="{!Opportunity.Customer_Callback_Link__c}" rel="noopener noreferrer" target="_blank"><b>einen Rückruf</a></b> an.
+<p>&nbsp;</p>
+<hr />
+<p><img style="width: 200px; height: 54px;" src="https://daks2k3a4ib2z.cloudfront.net/58d0ccc5a30805a8243d5fd9/58d22446e07be4a234dc816e_Verbraucherrechte_Logo_Lay01.png" alt="" /></p>
+<p><a href="http://www.verbraucherrechte24.de" target="_blank">www.verbraucherrechte24.de</a></p>
+<p><span style="font-family: Calibri, Verdana, Arial, sans-serif; font-size: 11px;"> VerbraucherRechte24 GmbH<br /> Albert-Ro&szlig;haupter-Stra&szlig;e 32<br /> 81369 M&uuml;nchen </span></p>
+<p><span style="font-family: Calibri, Verdana, Arial, sans-serif; font-size: 11px;"> Gesch&auml;ftsf&uuml;hrer: Steffen Matz, Matthias Hartmann </span></p>
+<p><span style="font-family: Calibri, Verdana, Arial, sans-serif; font-size: 11px;">in Zusammenarbeit mit dem eingetragenen Rechtsdienstleister:</span></p>
+<p><span style="font-family: Calibri, Verdana, Arial, sans-serif; font-size: 9px;"> DEMAFAIR GmbH / Verbraucherhilfe24<br /> Albert-Ro&szlig;haupter-Stra&szlig;e 32<br /> 81369 M&uuml;nchen </span></p>
+<p><span style="font-family: Calibri, Verdana, Arial, sans-serif; font-size: 9px;"> Gesch&auml;ftsf&uuml;hrer: Matthias Hartmann, Denis Krebs<br /><br /> Handelsregister: M&uuml;nchen HRB 217774 Registriert beim Amtsgericht M&uuml;nchen unter 371 E &ndash; M 1779 als Inkassodienstleister gem. &sect; 10 Abs.<p><a href="{!Opportunity.URL_Abmeldung__c}" target="_blank"><span style="color: #0000cd;"><b>Abmelden</b></a>

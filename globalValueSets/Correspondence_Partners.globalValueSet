@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Insurance</fullName>
+        <default>false</default>
+        <label>Versicherung</label>
+    </customValue>
+    <customValue>
+        <fullName>Vehicle Brand</fullName>
+        <default>false</default>
+        <label>Fahrzeughersteller</label>
+    </customValue>
+    <customValue>
+        <fullName>Bank</fullName>
+        <default>false</default>
+        <label>Kreditinstitut</label>
+    </customValue>
+    <customValue>
+        <fullName>Legal Protection Insurance</fullName>
+        <default>false</default>
+        <label>Rechtsschutzversicherung</label>
+    </customValue>
+    <customValue>
+        <fullName>Court</fullName>
+        <default>false</default>
+        <label>Gericht</label>
+    </customValue>
+    <customValue>
+        <fullName>Customer</fullName>
+        <default>false</default>
+        <label>Kunde</label>
+    </customValue>
+    <customValue>
+        <fullName>Individuell</fullName>
+        <default>false</default>
+        <label>Individuell</label>
+    </customValue>
+    <masterLabel>Correspondence Partners</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

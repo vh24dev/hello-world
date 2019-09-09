@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>SB vom Kunden neu anfordern</description>
+    <encodingKey>UTF-8</encodingKey>
+    <name>DieselLeComLegalClaimRequestDeductible</name>
+    <style>none</style>
+    <subject>Rückfrage zur Höhe des Selbstbehaltes Ihrer Rechtsschutzversicherung | Aktenzeichen: {!Claim__c.Reference__c}</subject>
+    <type>text</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>weitere Dokumente benötigt mit Vollmacht im Anhang</description>
+    <encodingKey>UTF-8</encodingKey>
+    <name>LvBackofficeAuthorizationVh24</name>
+    <style>none</style>
+    <subject>Wir benötigen weitere Informationen von Ihnen | Bearbeitungsnummer: {!Opportunity.Number__c}</subject>
+    <textOnly>Bitte Ihre Auftragsdaten vervollständigen.
+{!Contact.Salutation__c},
+
+Wir haben Ihre Anfrage erhalten und werden umgehend die nächsten Schritte zur
+Rechtsdurchsetzung einleiten. Folgende Unterlagen werden hierfür benötigt (als Kopie, Scan oder Foto):
+
+1. Unterschriebene Anwaltliche Vollmacht (siehe Anhang)
+
+Senden Sie die Vollmacht als Scan oder Foto unter Angabe der Vorgangsnummer {!Opportunity.Number__c}
+per Email an: lebensversicherung@verbraucherhilfe24.de
+
+Oder per Post an:
+Verbraucherhilfe24
+Abt. Lebensversicherung
+Albert-Roßhaupter-Str. 32
+81369 München
+
+Wenn Sie lieber den weiteren Prozess mit uns am Telefon besprechen  möchten, rufen Sie uns auch gerne an 089 - 124 147 418
+Oder fordern Sie einen Rückruf an.
+
+Mit freundlichen Grüßen
+
+Ihre Verbraucherhilfe24
+
+
+
+VH24 GmbH
+Albert-Roßhaupter-Str. 32
+81369 München
+Telefon: 089 - 124 147 418
+Kontakt: office@verbraucherhilfe24.de
+
+www.verbraucherhilfe24.de
+
+Registergericht beim Amtsgericht München unter 371 E - M 1779 als Inkassodienstleister gem. §10 abs. 1 RDG | Handelsregister: HRB 217774 Amtsgericht München | USt-IDNr: DE277526577
+
+Abmelden</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

@@ -1,0 +1,8 @@
+DieselLachmairTextModuleWechselAnspruchstypVonBehaltenOben
+Kilometerstand bei Kauf: {!Claim__c.Opportunity__r.Mileage_On_Purchase__c} km
+Aktueller Kilometerstand: {!Claim__c.Opportunity__r.Current_Mileage__c} km
+Voraussichtliche Kilometer: {!Claim__c.Opportunity__r.Expected_Mileage__c} km
+Kaufpreis: {!Claim__c.Opportunity__r.Purchase_Price__c} €
+Nutzungsentschädigung: {!Claim__c.Opportunity__r.Compensation_For_Use__c} €
+Schadensersatz: {!Claim__c.Opportunity__r.Claim_For_Compensation__c} €
+Streitwert: {!Claim__c.Opportunity__r.Amount_In_Dispute__c} €

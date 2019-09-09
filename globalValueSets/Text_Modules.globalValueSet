@@ -1,0 +1,475 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>DeckungsanfrageWiderspruchZurueckgewiesen</fullName>
+        <default>false</default>
+        <label>Widerspruch zurückgewiesen</label>
+    </customValue>
+    <customValue>
+        <fullName>DeckungsanfrageWiderspruchNichtReagiert</fullName>
+        <default>false</default>
+        <label>Nicht auf Widerspruch reagiert</label>
+    </customValue>
+    <customValue>
+        <fullName>DeckungsanfrageWiderspruchAktuarischeBerechnung</fullName>
+        <default>false</default>
+        <label>Aktuarische Berechnung</label>
+    </customValue>
+    <customValue>
+        <fullName>KlageAlternativeKuendigung</fullName>
+        <default>false</default>
+        <label>Alternative Kündigung</label>
+    </customValue>
+    <customValue>
+        <fullName>KlageAuszahlungErfolgt</fullName>
+        <default>false</default>
+        <label>Auszahlung erfolgt</label>
+    </customValue>
+    <customValue>
+        <fullName>KlageBeendetDurchAblauf</fullName>
+        <default>false</default>
+        <label>Beendet durch Ablauf</label>
+    </customValue>
+    <customValue>
+        <fullName>KlageBeendetDurchKuendigung</fullName>
+        <default>false</default>
+        <label>Beendet durch Kündigung</label>
+    </customValue>
+    <customValue>
+        <fullName>KlageBeitragInDm</fullName>
+        <default>false</default>
+        <label>Beitrag in DM</label>
+    </customValue>
+    <customValue>
+        <fullName>KlageBeitragMitDynamik</fullName>
+        <default>false</default>
+        <label>Beitrag mit Dynamik</label>
+    </customValue>
+    <customValue>
+        <fullName>KlageBeitragOhneDynamik</fullName>
+        <default>false</default>
+        <label>Beitrag ohne Dynamik</label>
+    </customValue>
+    <customValue>
+        <fullName>KlageBelehrung</fullName>
+        <default>false</default>
+        <label>Belehrung</label>
+    </customValue>
+    <customValue>
+        <fullName>KlageBerechnungNichtVorhanden</fullName>
+        <default>false</default>
+        <label>Berechnung nicht vorhanden</label>
+    </customValue>
+    <customValue>
+        <fullName>KlageClericalMedicalZusatz</fullName>
+        <default>false</default>
+        <label>Clerical Medical Zusatz</label>
+    </customValue>
+    <customValue>
+        <fullName>KlageDeckungszusageVorhanden</fullName>
+        <default>false</default>
+        <label>Deckungszusage vorhanden</label>
+    </customValue>
+    <customValue>
+        <fullName>KlageHinweisAufFalschesFormerfordernisSchriftform</fullName>
+        <default>false</default>
+        <label>Hinweis auf falsches Formerfordernis (Schriftform)</label>
+    </customValue>
+    <customValue>
+        <fullName>KlageHinweisAufFalschesFormerfordernisTextform</fullName>
+        <default>false</default>
+        <label>Hinweis auf falsches Formerfordernis (Textform)</label>
+    </customValue>
+    <customValue>
+        <fullName>KlageKeinHinweisAufForm</fullName>
+        <default>false</default>
+        <label>Kein Hinweis auf Form</label>
+    </customValue>
+    <customValue>
+        <fullName>KlageStreitwert</fullName>
+        <default>false</default>
+        <label>Streitwert</label>
+    </customValue>
+    <customValue>
+        <fullName>KlageStreitwertAbzueglichRueckkaufswert</fullName>
+        <default>false</default>
+        <label>Streitwert abzüglich Rückkaufswert</label>
+    </customValue>
+    <customValue>
+        <fullName>KlageVertragAbgelaufen</fullName>
+        <default>false</default>
+        <label>Vertrag abgelaufen</label>
+    </customValue>
+    <customValue>
+        <fullName>WiderspruchAnwaltBerechnungLiegtNichtVor</fullName>
+        <default>false</default>
+        <label>Berechnung liegt nicht vor</label>
+    </customValue>
+    <customValue>
+        <fullName>WiderspruchAnwaltBerechnungLiegtVor</fullName>
+        <default>false</default>
+        <label>Berechnung liegt vor, Rückkaufswert nicht abgezogen</label>
+    </customValue>
+    <customValue>
+        <fullName>WiderspruchAnwaltFehlerBeginnFristlaufAnErhaltGeknuepft</fullName>
+        <default>false</default>
+        <label>Fehler: Beginn Fristlauf an Erhalt Bedingungen geknüpft</label>
+    </customValue>
+    <customValue>
+        <fullName>WiderspruchAnwaltFehlerBeginnFristlaufAufUngenannteUnterlagen</fullName>
+        <default>false</default>
+        <label>Fehler: Beginn Fristlauf auf ungenannte Unterlagen</label>
+    </customValue>
+    <customValue>
+        <fullName>WiderspruchAnwaltFehlerBeginnFristlaufNurAufSchein</fullName>
+        <default>false</default>
+        <label>Fehler: Beginn Fristlauf nur auf Schein</label>
+    </customValue>
+    <customValue>
+        <fullName>WiderspruchAnwaltFehlerBeginnFristlaufNurAufUrkunde</fullName>
+        <default>false</default>
+        <label>Fehler: Beginn Fristlauf nur auf Urkunde</label>
+    </customValue>
+    <customValue>
+        <fullName>WiderspruchAnwaltFehlerFristbeginnUnzutreffendDargestellt</fullName>
+        <default>false</default>
+        <label>Fehler: Fristbeginn unzutreffend dargestellt</label>
+    </customValue>
+    <customValue>
+        <fullName>WiderspruchAnwaltFehlerHinweisFristwahrungFehlt</fullName>
+        <default>false</default>
+        <label>Fehler: Hinweis Fristwahrung fehlt</label>
+    </customValue>
+    <customValue>
+        <fullName>WiderspruchAnwaltFehlerSchriftformFehlt</fullName>
+        <default>false</default>
+        <label>Fehler: Schriftform fehlt</label>
+    </customValue>
+    <customValue>
+        <fullName>WiderspruchAnwaltFehlerSchriftformStattTextform</fullName>
+        <default>false</default>
+        <label>Fehler: Schriftform statt Textform</label>
+    </customValue>
+    <customValue>
+        <fullName>WiderspruchAnwaltFehlerTextformFehlt</fullName>
+        <default>false</default>
+        <label>Fehler: Textform fehlt</label>
+    </customValue>
+    <customValue>
+        <fullName>WiderspruchAnwaltFehlerUnterlagenNichtGenauBezeichnet</fullName>
+        <default>false</default>
+        <label>Fehler: Unterlagen nicht genau bezeichnet</label>
+    </customValue>
+    <customValue>
+        <fullName>WiderspruchAnwaltFehlerVerweisAufAllgemeineInformationen</fullName>
+        <default>false</default>
+        <label>Fehler: Verweis auf allgemeine Informationen</label>
+    </customValue>
+    <customValue>
+        <fullName>WiderspruchAnwaltKuendigungErfolgt</fullName>
+        <default>false</default>
+        <label>Kündigung erfolgt</label>
+    </customValue>
+    <customValue>
+        <fullName>WiderspruchAnwaltLaufenderVertrag</fullName>
+        <default>false</default>
+        <label>Laufender Vertrag</label>
+    </customValue>
+    <customValue>
+        <fullName>WiderspruchAnwaltLebensversicherung</fullName>
+        <default>false</default>
+        <label>Lebensversicherung</label>
+    </customValue>
+    <customValue>
+        <fullName>WiderspruchAnwaltRentenversicherung</fullName>
+        <default>false</default>
+        <label>Rentenversicherung</label>
+    </customValue>
+    <customValue>
+        <fullName>WiderspruchAnwaltWiderspruchErklaertUndTeilweiseAnerkannt</fullName>
+        <default>false</default>
+        <label>Widerspruch erklärt und teilweise anerkannt</label>
+    </customValue>
+    <customValue>
+        <fullName>WiderspruchAnwaltWiderspruchErklaertUndZurueckgewiesen</fullName>
+        <default>false</default>
+        <label>Widerspruch erklärt und zurückgewiesen</label>
+    </customValue>
+    <customValue>
+        <fullName>WiderspruchAnwaltWiderspruchErklaert</fullName>
+        <default>false</default>
+        <label>Widerspruch erklärt</label>
+    </customValue>
+    <customValue>
+        <fullName>WiderspruchAnwaltWiderspruchNochNichtErklaert</fullName>
+        <default>false</default>
+        <label>Widerspruch noch nicht erklärt</label>
+    </customValue>
+    <customValue>
+        <fullName>KonzernmarkeStattFahrzeughersteller</fullName>
+        <default>false</default>
+        <label>Konzernmarke statt Fahrzeughersteller</label>
+    </customValue>
+    <customValue>
+        <fullName>RueckantwortRsv</fullName>
+        <default>false</default>
+        <label>Rückantwort RSV</label>
+    </customValue>
+    <customValue>
+        <fullName>SonstigesUebermittlungBankverbindungKundenwiderspruch</fullName>
+        <default>false</default>
+        <label>Übermittlung Bankverbindung (Kundenwiderspruch)</label>
+    </customValue>
+    <customValue>
+        <fullName>SonstigesUebermittlungBankverbindungAnwaltswiderspruch</fullName>
+        <default>false</default>
+        <label>Übermittlung Bankverbindung (Anwaltswiderspruch)</label>
+    </customValue>
+    <customValue>
+        <fullName>Softwareupdate</fullName>
+        <default>false</default>
+        <label>Softwareupdate</label>
+    </customValue>
+    <customValue>
+        <fullName>NurSchadensersatz</fullName>
+        <default>false</default>
+        <label>Schadensersatz</label>
+    </customValue>
+    <customValue>
+        <fullName>WechselAnspruchstypVonBehalten</fullName>
+        <default>false</default>
+        <label>Wechsel des Anspruchstyps von &quot;Behalten&quot;</label>
+    </customValue>
+    <customValue>
+        <fullName>WechselAnspruchstypZuBehalten</fullName>
+        <default>false</default>
+        <label>Wechsel des Anspruchstyps zu &quot;Behalten&quot;</label>
+    </customValue>
+    <customValue>
+        <fullName>1ErinnerungGegenseite</fullName>
+        <default>false</default>
+        <label>1. Erinnerung Gegenseite</label>
+    </customValue>
+    <customValue>
+        <fullName>1ErinnerungRechtsschutzversicherung</fullName>
+        <default>false</default>
+        <label>1. Erinnerung Rechtsschutzversicherung</label>
+    </customValue>
+    <customValue>
+        <fullName>2ErinnerungAndrohungDeckungsklage</fullName>
+        <default>false</default>
+        <label>2. Erinnerung (Androhung Deckungsklage)</label>
+    </customValue>
+    <customValue>
+        <fullName>RSVLehntAb</fullName>
+        <default>false</default>
+        <label>RSV lehnt ab wegen Vor- und Nachvertraglichkeit</label>
+    </customValue>
+    <customValue>
+        <fullName>RueckfrageKlageeingang</fullName>
+        <default>false</default>
+        <label>Rückfrage Klageeingang</label>
+    </customValue>
+    <customValue>
+        <fullName>ErinnerungGerichtskostenrechnung</fullName>
+        <default>false</default>
+        <label>Erinnerung Gerichtskostenrechnung</label>
+    </customValue>
+    <customValue>
+        <fullName>SelbstbehaltNichtBezahlt</fullName>
+        <default>false</default>
+        <label>Selbstbehalt nicht bezahlt</label>
+    </customValue>
+    <customValue>
+        <fullName>Zpo</fullName>
+        <default>false</default>
+        <label>Zpo</label>
+    </customValue>
+    <customValue>
+        <fullName>Replik1</fullName>
+        <default>false</default>
+        <label>Replik 1</label>
+    </customValue>
+    <customValue>
+        <fullName>Keiner</fullName>
+        <default>false</default>
+        <label>Keiner</label>
+    </customValue>
+    <customValue>
+        <fullName>ReplikFehlerBeginnFristlaufAnErhaltGeknuepft</fullName>
+        <default>false</default>
+        <label>Fehler: Beginn Fristlauf an Erhalt Bedingungen geknüpft (Replik)</label>
+    </customValue>
+    <customValue>
+        <fullName>ReplikFehlerBeginnFristlaufAufUngenannteUnterlagen</fullName>
+        <default>false</default>
+        <label>Fehler: Beginn Fristlauf auf ungenannte Unterlagen (Replik)</label>
+    </customValue>
+    <customValue>
+        <fullName>ReplikFehlerBeginnFristlaufNurAufSchein</fullName>
+        <default>false</default>
+        <label>Fehler: Beginn Fristlauf nur auf Schein (Replik)</label>
+    </customValue>
+    <customValue>
+        <fullName>ReplikFehlerBeginnFristlaufNurAufUrkunde</fullName>
+        <default>false</default>
+        <label>Fehler: Beginn Fristlauf nur auf Urkunde (Replik)</label>
+    </customValue>
+    <customValue>
+        <fullName>ReplikFehlerFristbeginnUnzutreffendDargestellt</fullName>
+        <default>false</default>
+        <label>Fehler: Fristbeginn unzutreffend dargestellt (Replik)</label>
+    </customValue>
+    <customValue>
+        <fullName>ReplikFehlerHinweisFristwahrungFehlt</fullName>
+        <default>false</default>
+        <label>Fehler: Hinweis Fristwahrung fehlt (Replik)</label>
+    </customValue>
+    <customValue>
+        <fullName>ReplikFehlerSchriftformStattTextform</fullName>
+        <default>false</default>
+        <label>Fehler: Schriftform statt Textform (Replik)</label>
+    </customValue>
+    <customValue>
+        <fullName>ReplikFehlerTextformFehlt</fullName>
+        <default>false</default>
+        <label>Fehler: Textform fehlt (Replik)</label>
+    </customValue>
+    <customValue>
+        <fullName>ReplikFehlerUnterlagenNichtGenauBezeichnet</fullName>
+        <default>false</default>
+        <label>Fehler: Unterlagen nicht genau bezeichnet (Replik)</label>
+    </customValue>
+    <customValue>
+        <fullName>ReplikFehlerVerweisAufAllgemeineInformationen</fullName>
+        <default>false</default>
+        <label>Fehler: Verweis auf allgemeine Informationen (Replik)</label>
+    </customValue>
+    <customValue>
+        <fullName>AudiBetroffenheitOhneUpdate</fullName>
+        <default>false</default>
+        <label>Audi Betroffenheit</label>
+    </customValue>
+    <customValue>
+        <fullName>AudiBetroffenheitFreiwilligesUpdate</fullName>
+        <default>false</default>
+        <label>Audi Betroffenheit „freiwilliges Update“</label>
+    </customValue>
+    <customValue>
+        <fullName>PorscheBetroffenheit</fullName>
+        <default>false</default>
+        <label>Porsche Betroffenheit</label>
+    </customValue>
+    <customValue>
+        <fullName>DaimlerBetroffenheitFreiwilligesUpdate</fullName>
+        <default>false</default>
+        <label>Daimler Betroffenheit „freiwilliges Update“</label>
+    </customValue>
+    <customValue>
+        <fullName>1SchreibenDaimlerBetroffenheit</fullName>
+        <default>false</default>
+        <label>1. Schreiben Daimler Betroffenheit</label>
+    </customValue>
+    <customValue>
+        <fullName>2SchreibenDaimlerRsv</fullName>
+        <default>false</default>
+        <label>2. Schreiben Daimler RSV</label>
+    </customValue>
+    <customValue>
+        <fullName>RsvAgAbgelehntVersteckteIInstanzZusage</fullName>
+        <default>false</default>
+        <label>RSV AG abgelehnt, versteckte I. Instanz Zusage</label>
+    </customValue>
+    <customValue>
+        <fullName>RsvErklaerungStreitwert</fullName>
+        <default>false</default>
+        <label>RSV Erklärung Streitwert</label>
+    </customValue>
+    <customValue>
+        <fullName>RsvErklaerungWechselSchadensersatz</fullName>
+        <default>false</default>
+        <label>RSV Erklärung Wechsel Schadensersatz</label>
+    </customValue>
+    <customValue>
+        <fullName>RsvKlageantraegeGrSchadensersatz</fullName>
+        <default>false</default>
+        <label>RSV Klageanträge gr. Schadensersatz</label>
+    </customValue>
+    <customValue>
+        <fullName>RsvVerweigertDeckungAg</fullName>
+        <default>false</default>
+        <label>RSV verweigert Deckung AG</label>
+    </customValue>
+    <customValue>
+        <fullName>RsvVwBetroffenheit</fullName>
+        <default>false</default>
+        <label>RSV VW Betroffenheit</label>
+    </customValue>
+    <customValue>
+        <fullName>RsvErklaerungKlagegegnerAudi</fullName>
+        <default>false</default>
+        <label>RSV Erklärung Klagegegner Audi</label>
+    </customValue>
+    <customValue>
+        <fullName>Rsv30MotorKaufNachSep2015</fullName>
+        <default>false</default>
+        <label>RSV 3.0 Motor, Kauf nach Sep. 2015</label>
+    </customValue>
+    <customValue>
+        <fullName>RsvZahltNichtTrotzZusage</fullName>
+        <default>false</default>
+        <label>RSV zahlt nicht trotz Zusage</label>
+    </customValue>
+    <customValue>
+        <fullName>RsvFordertHerstellerAbsage</fullName>
+        <default>false</default>
+        <label>RSV fordert Hersteller Absage</label>
+    </customValue>
+    <customValue>
+        <fullName>2AbsageAudi</fullName>
+        <default>false</default>
+        <label>2. Absage Audi</label>
+    </customValue>
+    <customValue>
+        <fullName>2SchreibenPorsche</fullName>
+        <default>false</default>
+        <label>2. Schreiben Porsche</label>
+    </customValue>
+    <customValue>
+        <fullName>VersicherungsfallRsvBeiWiderrufWiderspruch</fullName>
+        <default>false</default>
+        <label>Versicherungsfall RSV bei Widerruf/Widerspruch</label>
+    </customValue>
+    <customValue>
+        <fullName>AbsageWegenVorvertraglichkeit</fullName>
+        <default>false</default>
+        <label>Absage wegen Vorvertraglichkeit</label>
+    </customValue>
+    <customValue>
+        <fullName>AbsageWegenNachvertraglichkeit</fullName>
+        <default>false</default>
+        <label>Absage wegen Nachvertraglichkeit</label>
+    </customValue>
+    <customValue>
+        <fullName>EinlegungBerufung</fullName>
+        <default>false</default>
+        <label>Einlegung Berufung</label>
+    </customValue>
+    <customValue>
+        <fullName>Einspruch</fullName>
+        <default>false</default>
+        <label>Einspruch</label>
+    </customValue>
+    <customValue>
+        <fullName>Fristverlaengerungsantrag</fullName>
+        <default>false</default>
+        <label>Fristverlängerungsantrag</label>
+    </customValue>
+    <customValue>
+        <fullName>ErinnerungWiderspruchAnwalt</fullName>
+        <default>false</default>
+        <label>Erinnerung VU Anwaltswiderspruch</label>
+    </customValue>
+    <masterLabel>Text Modules</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

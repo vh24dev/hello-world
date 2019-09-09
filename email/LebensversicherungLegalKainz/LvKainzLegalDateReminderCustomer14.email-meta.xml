@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Erinnerung Gerichtstermin an Kunden 14 Tage</description>
+    <encodingKey>UTF-8</encodingKey>
+    <name>LvKainzLegalDateReminderCustomer14</name>
+    <style>none</style>
+    <subject>CLLB Rechtsanwälte, Ihre Bearbeitungsnummer: {!Correspondence__c.Opportunity_Number__c} | Aktenzeichen: {!Correspondence__c.Claim__r.Reference__c}</subject>
+    <type>text</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

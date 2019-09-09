@@ -1,0 +1,25 @@
+{!Contact.Salutation__c},
+
+in vorbezeichneter Angelegenheit möchten wir Ihnen mitteilen, dass wir in Ihrer Angelegenheit gegen die {!Claim__c.Opportunity__r.Insurance_Name__c} in Bearbeitung treten.
+
+Derzeit befinden wir uns mit einem gleichartigen Fall (Präzedenzfall) auf dem Klageweg und möchten hier ein Urteil abwarten, um anschließend Ihre Angelegenheit gegebenenfalls nachzuziehen.
+
+Wir werden nach Urteilsverkündung unaufgefordert auf Sie zukommen, um weitere Schritte zu besprechen. 
+
+Rein vorsorglich möchten wir Sie noch auf Folgendes hinweisen:
+Der Rückforderungsanspruch gegen eine Lebens- oder Rentenversicherung nach ausgeübtem Widerspruch verjährt drei Jahre zum Ende des Jahres, in dem der Widerspruch erklärt wurde. Nach den uns vorliegenden Unterlagen gehen wir davon aus, dass erstmals durch Sie im Jahr 2018 der Widerspruch erklärt wurde, so dass in diesem Fall der Rückforderungsanspruch aus Verjährungsgesichtspunkten spätestens zum 31.12.2021 gerichtlich geltend gemacht werden muss. Eine Verwirkung der Ansprüche kann u.U. früher eintreten.
+
+Mit freundlichen Grüßen 
+
+
+i. A. {!User.FirstName} {!User.LastName} 
+
+Dr. Dominic Krutisch 
+LeCom - Legal & Compliance 
+Rechtsanwaltsgesellschaft mbH 
+
+Albert-Roßhaupter-Str. 32 
+81369 München 
+
+Tel.: 089 / 588088710 
+Fax: 089 / 588088711

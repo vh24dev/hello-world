@@ -1,0 +1,302 @@
+<?xml version="1.0" encoding="utf-8"?><CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label><!-- Abrechnung --></label>
+        <name>Abrechnung__c</name>
+    </fields>
+    <fields>
+        <label><!-- AccountImpID --></label>
+        <name>AccountImpID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Kontoinhaber --></label>
+        <name>Account_Holder__c</name>
+    </fields>
+    <fields>
+        <label><!-- Betrag --></label>
+        <name>Amount__c</name>
+    </fields>
+    <fields>
+        <label><!-- Partner AnfrageBetrag --></label>
+        <name>AnfrageBetrag__c</name>
+    </fields>
+    <fields>
+        <label><!-- BIC --></label>
+        <name>BIC__c</name>
+    </fields>
+    <fields>
+        <label><!-- Bankname --></label>
+        <name>Bank_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Branche --></label>
+        <name>Branche__c</name>
+        <picklistValues>
+            <masterLabel>Bank</masterLabel>
+            <translation><!-- Bank --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Makler</masterLabel>
+            <translation><!-- Makler --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Steuberater</masterLabel>
+            <translation><!-- Steuberater --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>sonstiges (bitte in Notiz vermerken)</masterLabel>
+            <translation><!-- sonstiges (bitte in Notiz vermerken) --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Created Date Old Org --></label>
+        <name>Created_Date_Old_Org__c</name>
+    </fields>
+    <fields>
+        <label><!-- Abteilung --></label>
+        <name>Department__c</name>
+    </fields>
+    <fields>
+        <label><!-- Email --></label>
+        <name>Email__c</name>
+    </fields>
+    <fields>
+        <label><!-- Entschädigungsbetrag --></label>
+        <name>Entsch_digungsbetrag__c</name>
+    </fields>
+    <fields>
+        <label><!-- Ertrag Kunde --></label>
+        <name>Ertrag_Kunde__c</name>
+    </fields>
+    <fields>
+        <label><!-- Externe Id --></label>
+        <name>External_Id__c</name>
+    </fields>
+    <fields>
+        <label><!-- Haupttätigkeit --></label>
+        <name>Hauptt_tigkeit__c</name>
+    </fields>
+    <fields>
+        <label><!-- Haupttätigkeit --></label>
+        <name>Haupttaetigkeit__c</name>
+        <picklistValues>
+            <masterLabel>Bausparverträge</masterLabel>
+            <translation><!-- Bausparverträge --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Investment</masterLabel>
+            <translation><!-- Investment --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Kapitalanlagen</masterLabel>
+            <translation><!-- Kapitalanlagen --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Versicherungen</masterLabel>
+            <translation><!-- Versicherungen --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>sonstiges (bitte in Notiz vermerken)</masterLabel>
+            <translation><!-- sonstiges (bitte in Notiz vermerken) --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Hiermit erkläre ich, dass ich weiterhin --></label>
+        <name>Hiermit_erkl_re_ich_dass_ich_weiterhin__c</name>
+    </fields>
+    <fields>
+        <label><!-- IBAN --></label>
+        <name>IBAN__c</name>
+    </fields>
+    <fields>
+        <label><!-- Ich bin damit einverstanden, dass im Rah --></label>
+        <name>Ich_bin_damIit_einverstanden_dass_im_Rah__c</name>
+    </fields>
+    <fields>
+        <label><!-- Ich stimme hiermit dem SEPA-Einzugsverfa --></label>
+        <name>Ich_stimme_hiermit_dem_SEPA_Einzugsverfa__c</name>
+    </fields>
+    <fields>
+        <label><!-- Ich stimme hiermit dem VH24-Partnervertr --></label>
+        <name>Ich_stimme_hiermit_dem_VH24_Partnervertr__c</name>
+    </fields>
+    <fields>
+        <label><!-- Kleinunternehmer-Regelung --></label>
+        <name>Kleinunternehmer_Regelung__c</name>
+    </fields>
+    <fields>
+        <label><!-- Kooperationspartner Betrag --></label>
+        <name>Kooperationspartner_Betrag__c</name>
+        <picklistValues>
+            <masterLabel>40</masterLabel>
+            <translation><!-- 40 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>50</masterLabel>
+            <translation><!-- 50 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>60</masterLabel>
+            <translation><!-- 60 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>70</masterLabel>
+            <translation><!-- 70 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>80</masterLabel>
+            <translation><!-- 80 --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Korrespondenz --></label>
+        <name>Korrespondenz__c</name>
+    </fields>
+    <fields>
+        <label><!-- Legal Process Type --></label>
+        <name>Legal_Process_Type__c</name>
+    </fields>
+    <fields>
+        <help><!-- Projektverantwortlicher/Portalassistent --></help>
+        <label><!-- Leitung --></label>
+        <name>Leitung__c</name>
+        <relationshipLabel><!-- Unternehmen --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Mobiltelefon --></label>
+        <name>Mobiltelefon__c</name>
+    </fields>
+    <fields>
+        <help><!-- Shows the sum of all balances associated to this account. A positive amount is considered a debt, and a negative amount is considered a credit. --></help>
+        <label><!-- Balance --></label>
+        <name>ONB2__Balance__c</name>
+    </fields>
+    <fields>
+        <help><!-- Specifies the default payment due period (days) for invoices of this account. --></help>
+        <label><!-- Default Payment Due --></label>
+        <name>ONB2__PaymentDue__c</name>
+    </fields>
+    <fields>
+        <help><!-- Specifies the value added tax identification number. --></help>
+        <label><!-- VATIN --></label>
+        <name>ONB2__TaxNumber__c</name>
+    </fields>
+    <fields>
+        <help><!-- Is set to checked if the VAT number is validated successfully. --></help>
+        <label><!-- VAT Number Valid --></label>
+        <name>ONB2__VATIsValid__c</name>
+    </fields>
+    <fields>
+        <help><!-- Stores error messages regarding the last VAT number validation, is empty on success. --></help>
+        <label><!-- Last VAT Validation Error --></label>
+        <name>ONB2__VATLastError__c</name>
+    </fields>
+    <fields>
+        <help><!-- Holds the timestamp of the last successful VAT number validation. --></help>
+        <label><!-- Last Successful VAT Validation --></label>
+        <name>ONB2__VATLastValidationSuccess__c</name>
+    </fields>
+    <fields>
+        <help><!-- Holds the timestamp of the last VAT number validation. --></help>
+        <label><!-- Last VAT Validation --></label>
+        <name>ONB2__VATLastValidation__c</name>
+    </fields>
+    <fields>
+        <help><!-- Contains the address linked to the VAT number. The name may not be available even when VAT number is valid. --></help>
+        <label><!-- VAT Validated Address --></label>
+        <name>ONB2__VATValidatedAddress__c</name>
+    </fields>
+    <fields>
+        <help><!-- Contains the name linked to the VAT number. The name may not be available even when VAT number is valid. --></help>
+        <label><!-- VAT Validated Name --></label>
+        <name>ONB2__VATValidatedName__c</name>
+    </fields>
+    <fields>
+        <label><!-- Old Id --></label>
+        <name>Old_Id__c</name>
+    </fields>
+    <fields>
+        <label><!-- Partnertyp --></label>
+        <name>Partner_Type__c</name>
+        <picklistValues>
+            <masterLabel>Kooperation A</masterLabel>
+            <translation><!-- Kooperation A --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Kooperation B</masterLabel>
+            <translation><!-- Kooperation B --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Repräsentant</masterLabel>
+            <translation><!-- Repräsentant --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Test --></label>
+        <name>Test__c</name>
+    </fields>
+    <fields>
+        <label><!-- Ust-IdNr. --></label>
+        <name>Ust_IdNr__c</name>
+    </fields>
+    <fields>
+        <label><!-- Vermittler --></label>
+        <name>Vermittler__c</name>
+        <relationshipLabel><!-- Unternehmen --></relationshipLabel>
+    </fields>
+    <recordTypes>
+        <label><!-- Kooperationspartner --></label>
+        <name>Kooperationspartner</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Lead Partner --></label>
+        <name>Lead_Partner</name>
+    </recordTypes>
+    <webLinks>
+        <label><!-- GoogleMaps --></label>
+        <name>GoogleMaps</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- GoogleNews --></label>
+        <name>GoogleNews</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- GoogleSearch --></label>
+        <name>GoogleSearch</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- CreateAccountStatement --></label>
+        <name>ONB2__CreateAccountStatement</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- SetMandateReference --></label>
+        <name>ONB2__SetMandateReference</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- VATValidation --></label>
+        <name>ONB2__VATValidation</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Email_Docs --></label>
+        <name>SDOC__Email_Docs</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- S_Docs --></label>
+        <name>SDOC__S_Docs</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- ExactTarget_Resubscribe --></label>
+        <name>et4ae5__ExactTarget_Resubscribe</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- ExactTarget_Unsubscribe --></label>
+        <name>et4ae5__ExactTarget_Unsubscribe</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Send_ExactTarget_Email --></label>
+        <name>et4ae5__Send_ExactTarget_Email</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- View_ExactTarget_Analytics --></label>
+        <name>et4ae5__View_ExactTarget_Analytics</name>
+    </webLinks>
+</CustomObjectTranslation>

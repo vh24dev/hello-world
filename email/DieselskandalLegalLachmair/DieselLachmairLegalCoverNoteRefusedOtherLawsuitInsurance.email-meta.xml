@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Rückfrage RSV an RSV Sonstige Frage mit Task RSV_AW Klage</description>
+    <encodingKey>UTF-8</encodingKey>
+    <name>RSV_AW Sonstige Antwort Klagephase</name>
+    <style>none</style>
+    <subject>Rückfrage zur Schaden-Nr.: {!Claim__c.Legal_Protection_Insurance_Case_Number__c}</subject>
+    <type>text</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

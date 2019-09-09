@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Effektiver Jahreszins 0,00%</description>
+    <encodingKey>UTF-8</encodingKey>
+    <name>FzGeneralRefusalEffektiverJahreszins0,00%Vh24</name>
+    <style>none</style>
+    <subject>Effektiver Jahreszins bei 0,00% | Ihre Bearbeitungsnummer: {!Opportunity.Number__c}</subject>
+    <textOnly>{!Contact.Salutation__c},
+
+Ihre Bearbeitungsnummer: {!Opportunity.Number__c}.
+
+die Überprüfung der Wirtschaftlichkeit Ihrer eingereichten Unterlagen hat ergeben, dass wir in Ihrer Sache nicht weiter vorgehen, da der effektive Jahreszins bei 0% liegt. Daher müssen wir Ihr Mandat niederlegen. Für Ihr Vertrauen bedanken wir uns und wünschen Ihnen für Ihre private und berufliche Zukunft alles Gute.
+
+Mit freundlichen Grüßen
+
+{!User.FirstName} {!User.LastName}
+{!User.Title}
+Abt. Diesel-Skandal
+
+
+
+VH24 GmbH
+Albert-Roßhaupter-Str. 32
+81369 München
+Telefon: 089 - 124 147 413
+Kontakt: office@verbraucherhilfe24.de
+
+www.verbraucherhilfe24.de
+
+Registergericht beim Amtsgericht München unter 371 E - M 1779 als Inkassodienstleister gem. §10 abs. 1 RDG | Handelsregister: HRB 217774 Amtsgericht München | USt-IDNr: DE277526577
+
+Abmelden</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

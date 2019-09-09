@@ -1,0 +1,358 @@
+<?xml version="1.0" encoding="utf-8"?><CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label><!-- Unternehmen --></label>
+        <name>Account_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Freitext --></label>
+        <name>Additional_Text__c</name>
+    </fields>
+    <fields>
+        <label><!-- Berufungsbegründung erstellt --></label>
+        <name>Berufungsbegruendung_created__c</name>
+    </fields>
+    <fields>
+        <label><!-- Berufungsschrift erstellt --></label>
+        <name>Berufungsschrift_erstellt__c</name>
+    </fields>
+    <fields>
+        <label><!-- BypassProcessBuilder --></label>
+        <name>BypassProcessBuilder__c</name>
+    </fields>
+    <fields>
+        <label><!-- Claim Competent Court --></label>
+        <name>Claim_Competent_Court__c</name>
+    </fields>
+    <fields>
+        <label><!-- Claim Legal Id --></label>
+        <name>Claim_Legal_Id__c</name>
+    </fields>
+    <fields>
+        <label><!-- Fall --></label>
+        <name>Claim__c</name>
+        <relationshipLabel><!-- Korrespondenzen --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Contact Id --></label>
+        <name>Contact_Id__c</name>
+    </fields>
+    <fields>
+        <label><!-- Created Date Old Org --></label>
+        <name>Created_Date_Old_Org__c</name>
+    </fields>
+    <fields>
+        <label><!-- Date Clean --></label>
+        <name>Date_Clean__c</name>
+    </fields>
+    <fields>
+        <label><!-- Versanddatum Rückfrage Eigentümerschaft --></label>
+        <name>Date_Link_Ownership__c</name>
+    </fields>
+    <fields>
+        <label><!-- Datum --></label>
+        <name>Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Titel --></label>
+        <name>Description__c</name>
+    </fields>
+    <fields>
+        <label><!-- External Record Type Id --></label>
+        <name>External_Record_Type_Id__c</name>
+    </fields>
+    <fields>
+        <label><!-- Zeit bis Wiedervorlage --></label>
+        <name>Follow_up_Period__c</name>
+    </fields>
+    <fields>
+        <label><!-- Zur Kenntnisnahme --></label>
+        <name>Inform_Customer__c</name>
+    </fields>
+    <fields>
+        <label><!-- Klagemodell --></label>
+        <name>Lawsuit_Type__c</name>
+    </fields>
+    <fields>
+        <label><!-- Schadensnummer --></label>
+        <name>Legal_Protection_Insurance_Case_Number__c</name>
+    </fields>
+    <fields>
+        <label><!-- Old Id --></label>
+        <name>Old_Id__c</name>
+    </fields>
+    <fields>
+        <label><!-- Old Korrespondenz ID --></label>
+        <name>Old_Korrespondenz_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Opportunity Account Id --></label>
+        <name>Opportunity_Account_Id__c</name>
+    </fields>
+    <fields>
+        <label><!-- Opportunity Financing Type --></label>
+        <name>Opportunity_Financing_Type__c</name>
+    </fields>
+    <fields>
+        <label><!-- Opportunity Id --></label>
+        <name>Opportunity_Id__c</name>
+    </fields>
+    <fields>
+        <label><!-- Klagemodell --></label>
+        <name>Opportunity_Lawsuit_Type__c</name>
+    </fields>
+    <fields>
+        <label><!-- Opportunity Legal Account Id --></label>
+        <name>Opportunity_Legal_Account_Id__c</name>
+    </fields>
+    <fields>
+        <label><!-- Bearbeitungsnummer --></label>
+        <name>Opportunity_Number__c</name>
+    </fields>
+    <fields>
+        <label><!-- Opportunity Record Type Id --></label>
+        <name>Opportunity_Record_Type_Id__c</name>
+    </fields>
+    <fields>
+        <label><!-- Opportunity Sales Type --></label>
+        <name>Opportunity_Sales_Type__c</name>
+    </fields>
+    <fields>
+        <label><!-- Opportunity Vehicle Brand Id --></label>
+        <name>Opportunity_Vehicle_Brand_Id__c</name>
+    </fields>
+    <fields>
+        <label><!-- Zeichen des Partners --></label>
+        <name>Partner_Reference__c</name>
+    </fields>
+    <fields>
+        <label><!-- Partner --></label>
+        <name>Partner__c</name>
+    </fields>
+    <fields>
+        <label><!-- Status --></label>
+        <name>Stage__c</name>
+    </fields>
+    <fields>
+        <label><!-- Status set to &quot;Sent&quot; --></label>
+        <name>Stage_set_to_Sent__c</name>
+    </fields>
+    <fields>
+        <label><!-- Task Controller --></label>
+        <name>TaskController__c</name>
+    </fields>
+    <fields>
+        <label><!-- Term + 1 --></label>
+        <name>Term_1__c</name>
+    </fields>
+    <fields>
+        <label><!-- Term Clean --></label>
+        <name>Term_Clean__c</name>
+    </fields>
+    <fields>
+        <label><!-- Frist --></label>
+        <name>Term__c</name>
+    </fields>
+    <fields>
+        <label><!-- Test --></label>
+        <name>Test__c</name>
+    </fields>
+    <fields>
+        <label><!-- Textbausteine --></label>
+        <name>Text_Modules__c</name>
+    </fields>
+    <fields>
+        <label><!-- Typ --></label>
+        <name>Type__c</name>
+    </fields>
+    <fields>
+        <label><!-- Fallzeichen des Fahrzeugherstellers --></label>
+        <name>Vehicle_Brand_Reference__c</name>
+    </fields>
+    <fields>
+        <label><!-- Wiedervorlage erstellen --></label>
+        <name>Wiedervorlage_erstellen__c</name>
+    </fields>
+    <fields>
+        <label><!-- Klagedokumente vollständig --></label>
+        <name>correspondenceLegalDocumentsComplete__c</name>
+    </fields>
+    <caseValues>
+        <caseType>Nominative</caseType>
+        <plural>false</plural>
+        <value>Korrespondenz</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Nominative</caseType>
+        <plural>true</plural>
+        <value>Korrespondenzen</value>
+    </caseValues>
+    <gender>Feminine</gender>
+    <recordTypes>
+        <label><!-- Anspruchsschreiben (Dieselskandal) --></label>
+        <name>Anspruchsschreiben_Dieselskandal</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Deckungsanfrage für Anspruchsschreiben (Dieselskandal) --></label>
+        <name>Deckungsanfrage_fuer_Anspruchsschreiben_Dieselskandal</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Deckungsanfrage für Berufung (Dieselskandal) --></label>
+        <name>Deckungsanfrage_fuer_Berufung_Dieselskandal</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Deckungsanfrage für Berufung (Finanzierung) --></label>
+        <name>Deckungsanfrage_fuer_Berufung_Finanzierung</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Deckungsanfrage für Berufung (Lebensversicherung) --></label>
+        <name>Deckungsanfrage_fuer_Berufung_Lebensversicherung</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Deckungsanfrage für Klage (Dieselskandal) --></label>
+        <name>Deckungsanfrage_fuer_Klage_Dieselskandal</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Deckungsanfrage für Klage (Finanzierung) --></label>
+        <name>Deckungsanfrage_fuer_Klage_Finanzierung</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Deckungsanfrage für Klage (Lebensversicherung) --></label>
+        <name>Deckungsanfrage_fuer_Klage_Lebensversicherung</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Deckungsanfrage für Widerspruch (Finanzierung) --></label>
+        <name>Deckungsanfrage_fuer_Widerspruch_Finanzierung</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Deckungsanfrage für Widerspruch (Lebensversicherung) --></label>
+        <name>Deckungsanfrage_fuer_Widerspruch_Lebensversicherung</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Eingehend (Dieselskandal) --></label>
+        <name>Eingehend_Dieselskandal</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Eingehend (Finanzierung) --></label>
+        <name>Eingehend_Finanzierung</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Eingehend (Lebensversicherung) --></label>
+        <name>Eingehend_Lebensversicherung</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Gerichtskostenrechnung (Dieselskandal) --></label>
+        <name>Gerichtskostenrechnung_Dieselskandal</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Klageschrift (Dieselskandal) --></label>
+        <name>Klageschrift_Dieselskandal</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Klageschrift (Finanzierung) --></label>
+        <name>Klageschrift_Finanzierung</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Klageschrift (Lebensversicherung) --></label>
+        <name>Klageschrift_Lebensversicherung</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Replik (Dieselskandal) --></label>
+        <name>Replik_Dieselskandal</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Replik (Lebensversicherung) --></label>
+        <name>Replik_Lebensversicherung</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Sonstiges (Dieselskandal) --></label>
+        <name>Sonstiges_Dieselskandal</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Sonstiges (Finanzierung) --></label>
+        <name>Sonstiges_Finanzierung</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Sonstiges (Lebensversicherung) --></label>
+        <name>Sonstiges_Lebensversicherung</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Vollmacht §141 ZPO (Dieselskandal) --></label>
+        <name>Vollmacht_141_ZPO_Dieselskandal</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Widerspruch durch Anwalt (Finanzierung) --></label>
+        <name>Widerspruch_durch_Anwalt_Finanzierung</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Widerspruch durch Anwalt (Lebensversicherung) --></label>
+        <name>Widerspruch_durch_Anwalt_Lebensversicherung</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Widerspruch durch Kunden (Finanzierung) --></label>
+        <name>Widerspruch_durch_Kunden_Finanzierung</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Widerspruch durch Kunden (Lebensversicherung) --></label>
+        <name>Widerspruch_durch_Kunden_Lebensversicherung</name>
+    </recordTypes>
+    <webLinks>
+        <label><!-- Create_Document_PDF --></label>
+        <name>Create_Document_PDF</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Create_Document_With_Attachments_PDF --></label>
+        <name>Create_Document_With_Attachments_PDF</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Legal_Documents_Complete --></label>
+        <name>Legal_Documents_Complete</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Opposition --></label>
+        <name>Opposition</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- PerformanceClaim --></label>
+        <name>PerformanceClaim</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Reply_Created --></label>
+        <name>Reply_Created</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Response_At_Customer --></label>
+        <name>Response_At_Customer</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Send_Document_To_Customer --></label>
+        <name>Send_Document_To_Customer</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Send_Document_To_Partner_Via_Email --></label>
+        <name>Send_Document_To_Partner_Via_Email</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Send_Document_To_Partner_Via_Letter_Or_Fax --></label>
+        <name>Send_Document_To_Partner_Via_Letter_Or_Fax</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Send_Ownership_Request --></label>
+        <name>Send_Ownership_Request</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Send_Reminder_To_Partner --></label>
+        <name>Send_Reminder_To_Partner</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Set_Claim_Received --></label>
+        <name>Set_Claim_Received</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Set_To_Sent --></label>
+        <name>Set_To_Sent</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Vorlage_erstellen_DOCX --></label>
+        <name>Vorlage_erstellen_DOCX</name>
+    </webLinks>
+</CustomObjectTranslation>

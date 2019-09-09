@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?><CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label><!-- Anfrage --></label>
+        <name>Opportunity__c</name>
+        <relationshipLabel><!-- OppsOnClaimCacheItems --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- When true it will be returned by OpportunitiesCache --></help>
+        <label><!-- Visible --></label>
+        <name>Visible__c</name>
+    </fields>
+    <caseValues>
+        <caseType>Nominative</caseType>
+        <plural>false</plural>
+        <value>OppsOnClaimCacheItem</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Nominative</caseType>
+        <plural>true</plural>
+        <value>OppsOnClaimCacheItems</value>
+    </caseValues>
+    <gender>Neuter</gender>
+</CustomObjectTranslation>

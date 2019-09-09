@@ -1,0 +1,38 @@
+<apex:page docType="html-5.0" pageStyle="" wizard="false" sidebar="true" standardStylesheets="false" showHeader="false" showQuickActionVfHeader="false"   controller="LebensversicherungLeadController" >
+    <apex:composition template="DieselskandalTemplate">
+        <apex:define name="title"> Lebensversicherung</apex:define>
+        <apex:define name="header">
+            <h2>Vielen Dank für Ihren Auftrag!</h2>
+        </apex:define>
+        <apex:define name="body">
+            <h3 class="begin">Gern werden wir zusammen mit unseren Partneranwälten für Sie tätig - damit Sie so schnell wie möglich zu Ihrem Recht kommen.</h3>
+            <div class="txt-border">
+                <h2 class="orange-head">UND WAS PASSIERT JETZT?</h2>
+                <div class="keyf3">
+                    <ol>
+                        <li>SCHRITT: BESTÄTIGUNG<br/>Wir senden Ihnen in den nächsten Minuten eine Bestätigungs-Mail.</li>
+                        <li>SCHRITT: UNTERLAGEN <br/>Sie schicken uns Ihre <strong>Unterlagen</strong> - Das ist ganz einfach: In der Bestätigungs-Mail erklären wir Ihnen genau, was wir benötigen.</li>   
+                        <li>SCHRITT: ERSTEINSCHÄTZUNG <br/>Anhand Ihrer Dokumente veranlassen wir über Partneranwälte eine kostenlose <strong>Ersteinschätzung</strong>.</li>
+                        <li>SCHRITT: ENTSCHEIDUNG <br/>Sind Ihre Aussichten auf <strong>Widerruf</strong> erfolgsversprechend, entscheiden Sie über das weiter Vorgehen - wollen Sie Ihre Ansprüche mit unserer Unterstützung geltend machen?</li>  
+                        <li>SCHRITT: WIDERRUF <br/>Vorbereitung und Durchsetzung des <strong>Widerrufs</strong>.</li>
+                    </ol>
+                </div>
+            </div>
+            <div class="txt-info">
+                Wir informieren Sie selbstverständlich über alle Schritte und sprechen Sie rechtzeitig an, sollten Kosten* auf Sie zukommen.
+            </div>
+            <div class="magazin">
+                <div class="orange-head">MAGAZIN</div>
+                <apex:image styleClass="dimg" url="{!URLFOR($Resource.VH24, 'images/Verjaehrung_VW_Diesel_Stundenglas_Beitragsbild-e1550065710787-1024x683.jpg')}"/>
+                <p class="porange">Allgemein Dieselgate</p>
+                <p>Verjährung im Diesel-Abgasskandal - Schadensersatz auch 2019 möglich! <br/><br/>Verjährung im Diesel-Abgasskandal - Frist läuft noch 2019! Die Verjährung im VW-Diesel-Abgasskandal ist ein großes...</p>
+            </div>
+            <div class="fragen">
+                Sie haben Fragen?<br/><br/>Rufen Sie uns an: 089 124 147 413 oder schicken Sie uns eine Nachricht per WhatsApp an: 01516 4681012. Sie können auch eine E-Mail mit Ihrer Telefonnummer* an <a href="mailto:auto@verbraucherhilfe24.de">auto@verbraucherhilfe24.de</a> senden und wir rufen zurück. Schreiben Sie uns bitte, wann Sie gut erreichbar sind: vormittags, nachmittags oder abends.
+            </div>
+            <div class="prefooter4">
+                *Ihre Daten werden vertraulich behandelt. Wir nutzen Ihre Telefonnummer nicht zu Werbezwecken sondern nur, um Kontakt mit Ihnen bezogen auf Ihren konkreten Fall aufzunehmen.
+            </div>
+        </apex:define>
+    </apex:composition>
+</apex:page>

@@ -1,0 +1,19 @@
+{!Contact.Salutation__c},
+ 
+leider müssen wir Ihnen mitteilen, dass Ihre Rechtsschutzversicherung die Deckungszusage für unser zunächst außergerichtliches Tätigwerden endgültig verweigert hat.
+
+Das Mandat wird nun in der Variante ohne Rechtsschutz weitergeführt.
+
+
+Mit freundlichen Grüßen 
+
+i. A. {!User.FirstName} {!User.LastName} 
+
+CLLB Rechtsanwälte
+Cocron, Liebl, Leitz, Braun, Kainz, Sittner Partnerschaft mbB München - Berlin
+
+Liebigstr. 21
+80538 München
+Tel.: +49-89-552 999 50
+Fax.:+49-89-552 999 90
+mail: kanzlei@cllb.de

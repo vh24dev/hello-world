@@ -1,0 +1,29 @@
+Sehr geehrte(r) {!Contact.Salutation} {!Contact.FirstName} {!Contact.LastName}, bzw. Rechtsnachfolger,
+
+
+Ihre Bearbeitungsnummer: {!Opportunity.Number__c} 
+
+Wir teilen Ihnen hiermit unser aufrichtiges Beileid mit. Falls wir jetzt diese E-Mail an die Adresse des Verstorbenen gesendet haben, dann nur weil uns die E-Mail des Rechtsnachfolgers nicht bekannt ist, wir bitten hierbei um Ihr Verständnis.
+
+Wir wurden mit der Wahrnehmung der Schadensersatzansprüche gegen den Fahrzeughersteller beauftragt und dieser Auftrag wurde aufgrund des Todesfalles sodann widerrufen. 
+Daher werden wir für Sie nicht mehr tätig mit der Folge, dass vermeintliche Schadensersatzansprüche verjähren, sofern keine verjährungshemmende Maßnahmen unternommen werden. 
+Sollten Sie, als Rechtsnachfolger Ihre Ansprüche gegen VW dennoch durchsetzen möchten, beachten Sie bitte, dass diese verjähren können. Für diesen Fall sollten Sie sich umgehend mit uns erneut oder mit einem Rechtsanwalt in Verbindung setzen. 
+
+Für Ihr Vertrauen bedanken wir uns. 
+
+
+Mit freundlichen Grüßen 
+{!User.FirstName} {!User.LastName} 
+{!User.Title}
+
+Rechtsanwälte 
+Wilhelm Lachmair & Kollegen 
+Ismaninger Straße 19 
+81675 München 
+
+
+Tel.: +49 (0) 89 21 63 33-10 
+Fax: +49 (0) 89 21 63 33-31 
+dieselgate@ra-lachmair.de 
+www.ra-lachmair.de
+Ref-Nr: {!Claim__c.Id}

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Stellungnahme</fullName>
+        <default>false</default>
+        <label>Stellungnahme</label>
+    </customValue>
+    <customValue>
+        <fullName>Mitteilung</fullName>
+        <default>false</default>
+        <label>Mitteilung</label>
+    </customValue>
+    <customValue>
+        <fullName>Einzahlung Auslagenvorschuss</fullName>
+        <default>false</default>
+        <label>Einzahlung Auslagenvorschuss</label>
+    </customValue>
+    <customValue>
+        <fullName>Einzahlung Gerichtskosten</fullName>
+        <default>false</default>
+        <label>Einzahlung Gerichtskosten</label>
+    </customValue>
+    <customValue>
+        <fullName>Schriftsatz vor Termin</fullName>
+        <default>false</default>
+        <label>Schriftsatz vor Termin</label>
+    </customValue>
+    <customValue>
+        <fullName>Sonstige</fullName>
+        <default>false</default>
+        <label>Sonstige</label>
+    </customValue>
+    <masterLabel>Deadline Types</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

@@ -1,0 +1,9 @@
+Sehr geehrte(r) {!Contact.Salutation} {!Contact.LastName},
+
+in obiger Angelegenheit übersenden wir Ihnen angehängtes Schreiben zur Kenntnisnahme.
+
+Mit freundlichen Grüßen
+
+
+{!User.FirstName} {!User.LastName} 
+{!User.Title}

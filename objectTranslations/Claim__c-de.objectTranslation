@@ -1,0 +1,786 @@
+<?xml version="1.0" encoding="utf-8"?><CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label><!-- Unternehmen --></label>
+        <name>Account__c</name>
+    </fields>
+    <fields>
+        <label><!-- Streitwert Außergerichtlich --></label>
+        <name>Amount_In_Dispute_Claim_Letter__c</name>
+    </fields>
+    <fields>
+        <label><!-- Streitwert Gerichtlich --></label>
+        <name>Amount_In_Dispute_Lawsuit__c</name>
+    </fields>
+    <fields>
+        <label><!-- Aktueller Streitwert --></label>
+        <name>Amount_In_Dispute__c</name>
+    </fields>
+    <fields>
+        <label><!-- Datum Berufung --></label>
+        <name>Appeal_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Datum Deckungsanfrage Berufung --></label>
+        <name>Appeal_Insurance_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Vergleich --></label>
+        <name>Arrangement__c</name>
+        <picklistValues>
+            <masterLabel>Abgelehnt</masterLabel>
+            <translation><!-- Abgelehnt --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Angenommen</masterLabel>
+            <translation><!-- Angenommen --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Vollmacht fehlerhaft --></label>
+        <name>Authorization_Incorrect__c</name>
+    </fields>
+    <fields>
+        <label><!-- BypassProcessBuilder --></label>
+        <name>BypassProcessBuilder__c</name>
+    </fields>
+    <fields>
+        <label><!-- Gerichtstermin abgesagt --></label>
+        <name>Canceled_Next_Court_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Claim Letter Date Clean --></label>
+        <name>Claim_Letter_Date_Clean__c</name>
+    </fields>
+    <fields>
+        <label><!-- Datum Anspruchsschreiben --></label>
+        <name>Claim_Letter_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Datum Deckungsanfrage Anspruchsschreiben --></label>
+        <name>Claim_Letter_Insurance_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Claim Letter Response Date Clean --></label>
+        <name>Claim_Letter_Response_Date_Clean__c</name>
+    </fields>
+    <fields>
+        <label><!-- Claim Letter Term + 1 --></label>
+        <name>Claim_Letter_Term_1__c</name>
+    </fields>
+    <fields>
+        <label><!-- Claim Letter Term Clean --></label>
+        <name>Claim_Letter_Term_Clean__c</name>
+    </fields>
+    <fields>
+        <label><!-- Frist Anspruchsschreiben --></label>
+        <name>Claim_Letter_Term__c</name>
+    </fields>
+    <fields>
+        <label><!-- Nachprüfung --></label>
+        <name>Clarification__c</name>
+    </fields>
+    <fields>
+        <label><!-- Sachbearbeiter Berufung --></label>
+        <name>Clerk_Appeal__c</name>
+        <relationshipLabel><!-- Fälle (Sachbearbeiter Berufung) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Sachbearbeiter --></label>
+        <name>Clerk__c</name>
+        <relationshipLabel><!-- Fälle (Sachbearbeiter) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Zuständiges Gericht --></label>
+        <name>Competent_Court__c</name>
+    </fields>
+    <fields>
+        <label><!-- Korrespondenz Status --></label>
+        <name>Correspondece_Status__c</name>
+        <picklistValues>
+            <masterLabel>Canceled</masterLabel>
+            <translation><!-- Canceled --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Draft</masterLabel>
+            <translation><!-- Draft --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Received</masterLabel>
+            <translation><!-- Received --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sent</masterLabel>
+            <translation><!-- Sent --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- CorrespondenceCountFlow --></label>
+        <name>CorrespondenceCountFlow__c</name>
+    </fields>
+    <fields>
+        <label><!-- Korrespondenz Zeit bis Wiedervorlage --></label>
+        <name>Correspondence_Follow_up_Period__c</name>
+    </fields>
+    <fields>
+        <label><!-- Korrespondenz Types --></label>
+        <name>Correspondence_Types__c</name>
+        <picklistValues>
+            <masterLabel>Anspruchsschreiben</masterLabel>
+            <translation><!-- Anspruchsschreiben --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Deckungsanfrage für Anspruchsschreiben</masterLabel>
+            <translation><!-- Deckungsanfrage für Anspruchsschreiben --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Deckungsanfrage für Berufung</masterLabel>
+            <translation><!-- Deckungsanfrage für Berufung --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Deckungsanfrage für Klage</masterLabel>
+            <translation><!-- Deckungsanfrage für Klage --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Deckungsanfrage für Widerspruch</masterLabel>
+            <translation><!-- Deckungsanfrage für Widerspruch --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Deckungszusage für Verteidigungsanzeige</masterLabel>
+            <translation><!-- Deckungszusage für Verteidigungsanzeige --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Eingehend</masterLabel>
+            <translation><!-- Eingehend --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Fristverlängerung</masterLabel>
+            <translation><!-- Fristverlängerung --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Gerichtskostenrechnung</masterLabel>
+            <translation><!-- Gerichtskostenrechnung --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Klageschrift</masterLabel>
+            <translation><!-- Klageschrift --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Replik</masterLabel>
+            <translation><!-- Replik --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sonstiges</masterLabel>
+            <translation><!-- Sonstiges --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Vollmacht §141 ZPO</masterLabel>
+            <translation><!-- Vollmacht §141 ZPO --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Widerspruch durch Anwalt</masterLabel>
+            <translation><!-- Widerspruch durch Anwalt --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Widerspruch durch Kunden</masterLabel>
+            <translation><!-- Widerspruch durch Kunden --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Gericht des Kunden --></label>
+        <lookupFilter>
+            <errorMessage><!-- Nur Gerichte dürfen hier ausgewählt werden. --></errorMessage>
+        </lookupFilter>
+        <name>Court_Customer__c</name>
+        <relationshipLabel><!-- Fälle (Gericht des Kunden) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Gerichtliches Aktenzeichen --></label>
+        <name>Court_Reference__c</name>
+    </fields>
+    <fields>
+        <label><!-- Gericht des Gegners --></label>
+        <lookupFilter>
+            <errorMessage><!-- Nur Gerichte dürfen hier ausgewählt werden. --></errorMessage>
+        </lookupFilter>
+        <name>Court__c</name>
+        <relationshipLabel><!-- Fälle (Gericht) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Deckungszusage Anspruchsschreiben --></label>
+        <name>Cover_Note_For_Claim_Status__c</name>
+    </fields>
+    <fields>
+        <label><!-- Deckungszusage Klage --></label>
+        <name>Cover_Note_For_Lawsuit_Status__c</name>
+    </fields>
+    <fields>
+        <label><!-- Deckungszusage direkt für Klage --></label>
+        <name>Cover_Note_For_Lawsuit__c</name>
+    </fields>
+    <fields>
+        <label><!-- Deckungsumfang --></label>
+        <name>Cover_Note_Scope__c</name>
+    </fields>
+    <fields>
+        <label><!-- Deckungszusage --></label>
+        <name>Cover_Note__c</name>
+    </fields>
+    <fields>
+        <label><!-- Created Date Old Org --></label>
+        <name>Created_Date_Old_Org__c</name>
+    </fields>
+    <fields>
+        <label><!-- Kunde ist nicht Eigentümer --></label>
+        <name>Customer_Is_Not_Owner__c</name>
+    </fields>
+    <fields>
+        <label><!-- Kunde ist Eigentümer --></label>
+        <name>Customer_Is_Owner__c</name>
+    </fields>
+    <fields>
+        <label><!-- Customer Opposition Date + 15 --></label>
+        <name>Customer_Opposition_Date_15__c</name>
+    </fields>
+    <fields>
+        <label><!-- Customer Opposition Date + 5 Clean --></label>
+        <name>Customer_Opposition_Date_5_Clean__c</name>
+    </fields>
+    <fields>
+        <label><!-- Customer Opposition Date + 5 --></label>
+        <name>Customer_Opposition_Date_5__c</name>
+    </fields>
+    <fields>
+        <label><!-- Customer Opposition Date Clean --></label>
+        <name>Customer_Opposition_Date_Clean__c</name>
+    </fields>
+    <fields>
+        <label><!-- Datum Kundenwiderspruch --></label>
+        <name>Customer_Opposition_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Customer Opposition Response Date Clean --></label>
+        <name>Customer_Opposition_Response_Date_Clean__c</name>
+    </fields>
+    <fields>
+        <label><!-- Frist Kundenwiderspruch --></label>
+        <name>Customer_Opposition_Term__c</name>
+    </fields>
+    <fields>
+        <label><!-- Tage seit letztem Statuswechsel --></label>
+        <name>Days_Since_Last_Stage_Change__c</name>
+    </fields>
+    <fields>
+        <label><!-- Motortyp --></label>
+        <name>Engine_Type__c</name>
+    </fields>
+    <fields>
+        <label><!-- Motorcode --></label>
+        <name>Engine_code__c</name>
+    </fields>
+    <fields>
+        <label><!-- External Record Type Id --></label>
+        <name>External_Record_Type_Id__c</name>
+    </fields>
+    <fields>
+        <label><!-- Nummer der ag. Kostennote --></label>
+        <name>Extrajudicial_Cost_Note_Number__c</name>
+    </fields>
+    <fields>
+        <label><!-- Extrajudicial Cost Note Sending Date Cle --></label>
+        <name>Extrajudicial_Cost_Note_Sending_Date_Cle__c</name>
+    </fields>
+    <fields>
+        <label><!-- Versanddatum der ag. Kostennote --></label>
+        <name>Extrajudicial_Cost_Note_Sending_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- First Request Insurance --></label>
+        <name>First_Request_Insurance__c</name>
+    </fields>
+    <fields>
+        <label><!-- First Response Insurance --></label>
+        <name>First_Response_Insurance__c</name>
+    </fields>
+    <fields>
+        <label><!-- Zeit bis Wiedervorlage --></label>
+        <name>Follow_up_Period__c</name>
+    </fields>
+    <fields>
+        <label><!-- Form Hash 1 --></label>
+        <name>Form_Hash_1__c</name>
+    </fields>
+    <fields>
+        <label><!-- Is My Claim --></label>
+        <name>Is_My_Claim__c</name>
+    </fields>
+    <fields>
+        <label><!-- Korrespondenz Status set to Sent --></label>
+        <name>Korrespondenz_Status_set_to_Sent__c</name>
+    </fields>
+    <fields>
+        <label><!-- Korrespondenz Wiedervorlage erstellen --></label>
+        <name>Korrespondenz_Wiedervorlage_erstellen__c</name>
+    </fields>
+    <fields>
+        <label><!-- Korrespondenzen --></label>
+        <name>Korrespondenzen__c</name>
+    </fields>
+    <fields>
+        <label><!-- Last Request Insurance Clean --></label>
+        <name>Last_Request_Insurance_Clean__c</name>
+    </fields>
+    <fields>
+        <label><!-- Last Request Insurance --></label>
+        <name>Last_Request_Insurance__c</name>
+    </fields>
+    <fields>
+        <label><!-- Letzter Statuswechsel --></label>
+        <name>Last_Stage_Change__c</name>
+    </fields>
+    <fields>
+        <label><!-- Datum Klage --></label>
+        <name>Lawsuit_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Datum Deckungsanfrage Klage --></label>
+        <name>Lawsuit_Insurance_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Anwalt Kennung --></label>
+        <name>Lawyer_identifier__c</name>
+    </fields>
+    <fields>
+        <label><!-- Legal Costs Extrajudicial Clean --></label>
+        <name>Legal_Costs_Extrajudicial_Clean__c</name>
+    </fields>
+    <fields>
+        <label><!-- Anwaltskosten (außergerichtlich) --></label>
+        <name>Legal_Costs_Extrajudicial__c</name>
+    </fields>
+    <fields>
+        <label><!-- Anwaltskosten (gerichtlich alt) --></label>
+        <name>Legal_Costs_Judicial_old__c</name>
+    </fields>
+    <fields>
+        <label><!-- Anwaltskosten (gesamt) --></label>
+        <name>Legal_Costs__c</name>
+    </fields>
+    <fields>
+        <label><!-- Legal Opposition Date Clean --></label>
+        <name>Legal_Opposition_Date_Clean__c</name>
+    </fields>
+    <fields>
+        <label><!-- Datum Anwaltswiderspruch --></label>
+        <name>Legal_Opposition_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Datum Deckungsanfrage Anwaltswiderspruch --></label>
+        <name>Legal_Opposition_Insurance_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Legal Opposition Response Date Clean --></label>
+        <name>Legal_Opposition_Response_Date_Clean__c</name>
+    </fields>
+    <fields>
+        <label><!-- Legal Opposition Term Clean --></label>
+        <name>Legal_Opposition_Term_Clean__c</name>
+    </fields>
+    <fields>
+        <label><!-- Frist Anwaltswiderspruch --></label>
+        <name>Legal_Opposition_Term__c</name>
+    </fields>
+    <fields>
+        <label><!-- Schadensnummer --></label>
+        <name>Legal_Protection_Insurance_Case_Number__c</name>
+    </fields>
+    <fields>
+        <label><!-- Rechtsschutzversicherungsnummer --></label>
+        <name>Legal_Protection_Insurance_Number__c</name>
+    </fields>
+    <fields>
+        <label><!-- Legal Protection Response Date Clean --></label>
+        <name>Legal_Protection_Response_Date_Clean__c</name>
+    </fields>
+    <fields>
+        <label><!-- Anwalt --></label>
+        <name>Legal__c</name>
+        <relationshipLabel><!-- Fälle (Anwalt) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Link Rückfrage zur Eigentümerschaft --></label>
+        <name>Link_Ownership__c</name>
+    </fields>
+    <fields>
+        <label><!-- Nächster Gerichtstermin --></label>
+        <name>Next_Court_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Old Fall ID --></label>
+        <name>Old_Fall_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Old Id --></label>
+        <name>Old_Id__c</name>
+    </fields>
+    <fields>
+        <label><!-- Opportunity Amount In Dispute --></label>
+        <name>Opportunity_Amount_In_Dispute__c</name>
+    </fields>
+    <fields>
+        <label><!-- Opportunity Id --></label>
+        <name>Opportunity_Id__c</name>
+    </fields>
+    <fields>
+        <label><!-- Opportunity Legal Account Id --></label>
+        <name>Opportunity_Legal_Account_Id__c</name>
+    </fields>
+    <fields>
+        <label><!-- Bearbeitungsnummer --></label>
+        <name>Opportunity_Number__c</name>
+    </fields>
+    <fields>
+        <label><!-- Produkt --></label>
+        <name>Opportunity_Product__c</name>
+    </fields>
+    <fields>
+        <label><!-- Opportunity Record Type Id --></label>
+        <name>Opportunity_Record_Type_Id__c</name>
+    </fields>
+    <fields>
+        <label><!-- Opportunity Reference --></label>
+        <name>Opportunity_Reference__c</name>
+    </fields>
+    <fields>
+        <label><!-- Opportunity Stage --></label>
+        <name>Opportunity_Stage__c</name>
+    </fields>
+    <fields>
+        <label><!-- Opportunity Vehicle Brand Id --></label>
+        <name>Opportunity_Vehicle_Brand_Id__c</name>
+    </fields>
+    <fields>
+        <label><!-- Anfrage --></label>
+        <name>Opportunity__c</name>
+        <relationshipLabel><!-- Fälle --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Korrespondenzanwalt --></label>
+        <name>Opposing_Counsel__c</name>
+        <relationshipLabel><!-- Fälle --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Datum Eigentümerrückfrage --></label>
+        <name>Ownership_Request_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Link auf Eigentümernachfrage 1 --></label>
+        <name>Ownership_Request_Link_1__c</name>
+    </fields>
+    <fields>
+        <label><!-- Link auf Eigentümernachfrage 2 --></label>
+        <name>Ownership_Request_Link_2__c</name>
+    </fields>
+    <fields>
+        <label><!-- Teilerstattungsbetrag --></label>
+        <name>Partial_Refund__c</name>
+    </fields>
+    <fields>
+        <label><!-- Produkt --></label>
+        <name>Product__c</name>
+    </fields>
+    <fields>
+        <label><!-- Ablehnungsgrund für Deckungszusage --></label>
+        <name>Reason_For_Cover_Note_Refusal__c</name>
+    </fields>
+    <fields>
+        <label><!-- Aktenzeichen --></label>
+        <name>Reference__c</name>
+    </fields>
+    <fields>
+        <label><!-- Erstattungsbetrag --></label>
+        <name>Refund__c</name>
+    </fields>
+    <fields>
+        <label><!-- Antwort Berufung --></label>
+        <name>Response_Appeal__c</name>
+    </fields>
+    <fields>
+        <label><!-- Antwort Anspruchsschreiben --></label>
+        <name>Response_Claim_Letter__c</name>
+    </fields>
+    <fields>
+        <label><!-- Antwort Kundenwiderspruch --></label>
+        <name>Response_Customer_Opposition__c</name>
+    </fields>
+    <fields>
+        <label><!-- Antwort Deckungsanfrage für Berufung --></label>
+        <name>Response_Insurance_Appeal__c</name>
+    </fields>
+    <fields>
+        <label><!-- Antwort Deckungsanfrage Anspruchsschr. --></label>
+        <name>Response_Insurance_Claim_Letter__c</name>
+    </fields>
+    <fields>
+        <label><!-- Antwort Deckungsanfrage für Klage --></label>
+        <name>Response_Insurance_Lawsuit__c</name>
+    </fields>
+    <fields>
+        <label><!-- Antwort Deckungsanfrage Anwaltswiderspr. --></label>
+        <name>Response_Insurance_Legal_Opposition__c</name>
+    </fields>
+    <fields>
+        <label><!-- Antwort Klage --></label>
+        <name>Response_Lawsuit__c</name>
+    </fields>
+    <fields>
+        <label><!-- Antwort Anwaltswiderspruch --></label>
+        <name>Response_Legal_Opposition__c</name>
+    </fields>
+    <fields>
+        <label><!-- Ergebnis --></label>
+        <name>Result__c</name>
+    </fields>
+    <fields>
+        <label><!-- Einzelfallprüfung --></label>
+        <name>Review__c</name>
+    </fields>
+    <fields>
+        <label><!-- Vertriebstyp --></label>
+        <name>Sales_Type__c</name>
+    </fields>
+    <fields>
+        <label><!-- Sent Mail Flag 1 --></label>
+        <name>Sent_Mail_Flag_1__c</name>
+    </fields>
+    <fields>
+        <label><!-- Sent Mail Flag 2 --></label>
+        <name>Sent_Mail_Flag_2__c</name>
+    </fields>
+    <fields>
+        <label><!-- Status --></label>
+        <name>Stage__c</name>
+    </fields>
+    <fields>
+        <label><!-- Status Helper --></label>
+        <name>Status_Helper__c</name>
+        <picklistValues>
+            <masterLabel>Abbruch</masterLabel>
+            <translation><!-- Abbruch --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Abgeschlossen</masterLabel>
+            <translation><!-- Abgeschlossen --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Abwicklung</masterLabel>
+            <translation><!-- Abwicklung --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Anspruchsschreiben</masterLabel>
+            <translation><!-- Anspruchsschreiben --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Anwaltswiderspruch</masterLabel>
+            <translation><!-- Anwaltswiderspruch --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Berufung</masterLabel>
+            <translation><!-- Berufung --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Entwurf</masterLabel>
+            <translation><!-- Entwurf --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Klage</masterLabel>
+            <translation><!-- Klage --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Kundenwiderspruch</masterLabel>
+            <translation><!-- Kundenwiderspruch --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sammelklage</masterLabel>
+            <translation><!-- Sammelklage --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Verteidigungsanzeige</masterLabel>
+            <translation><!-- Verteidigungsanzeige --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Warten auf Grundsatzurteil</masterLabel>
+            <translation><!-- Warten auf Grundsatzurteil --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Übermittlung vor Klage --></label>
+        <name>Submission_Date_Before_Claim_Statement__c</name>
+    </fields>
+    <fields>
+        <label><!-- Übermittlung vor Gerichtstermin --></label>
+        <name>Submission_Date_Before_Lawsuit_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Übermittler vor Klage --></label>
+        <name>Submitter_Before_Claim_Statement__c</name>
+    </fields>
+    <fields>
+        <label><!-- Übermittler vor Gerichtstermin --></label>
+        <name>Submitter_Before_Lawsuit_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Test --></label>
+        <name>Test__c</name>
+    </fields>
+    <fields>
+        <label><!-- Uhrzeit Gerichtstermin --></label>
+        <name>Time_Court_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Web Form Token --></label>
+        <name>Token__c</name>
+    </fields>
+    <fields>
+        <label><!-- URL to Ownership --></label>
+        <name>URL_to_Ownership__c</name>
+    </fields>
+    <fields>
+        <label><!-- Fahrzeugmarke --></label>
+        <name>Vehicle_Brand_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Zeichen des Fahrzeugherstellers --></label>
+        <name>Vehicle_Brand_Reference__c</name>
+    </fields>
+    <fields>
+        <label><!-- Fahrzeughersteller --></label>
+        <name>Vehicle_Brand__c</name>
+    </fields>
+    <fields>
+        <label><!-- Vergleich geprüft --></label>
+        <name>Vergleich_geprueft__c</name>
+    </fields>
+    <fields>
+        <label><!-- Zeit bis Antwort Deckungsanfrage Anspr. --></label>
+        <name>time_taken_claim_response__c</name>
+    </fields>
+    <caseValues>
+        <caseType>Nominative</caseType>
+        <plural>false</plural>
+        <value>Fall</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Nominative</caseType>
+        <plural>true</plural>
+        <value>Fälle</value>
+    </caseValues>
+    <gender>Neuter</gender>
+    <recordTypes>
+        <label><!-- Dieselskandal --></label>
+        <name>Dieselskandal</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Finanzierung --></label>
+        <name>Finanzierung</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Lebensversicherung --></label>
+        <name>Lebensversicherung</name>
+    </recordTypes>
+    <validationRules>
+        <errorMessage><!-- Bitte tragen Sie einen Sachbearbeiter ein. --></errorMessage>
+        <name>Change_Stage_Sachbearbeiter_required</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Korrespondenzanwalt muss Fahrzeughersteller zugeordnet sein. --></errorMessage>
+        <name>CheckOpposingCounselAccountId</name>
+    </validationRules>
+    <webLinks>
+        <label><!-- Ask_Backoffice --></label>
+        <name>Ask_Backoffice</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- ClaimSendTemplateToCustomer --></label>
+        <name>ClaimSendTemplateToCustomer</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Claim_Set_Opp_Partial_Refund --></label>
+        <name>Claim_Set_Opp_Partial_Refund</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Continue_Process --></label>
+        <name>Continue_Process</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Create_Claim_Statement --></label>
+        <name>Create_Claim_Statement</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Create_Class_Action --></label>
+        <name>Create_Class_Action</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Create_Lawsuit_Package --></label>
+        <name>Create_Lawsuit_Package</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Request_Deductible --></label>
+        <name>Request_Deductible</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Request_Documents --></label>
+        <name>Request_Documents</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Resend_Documents --></label>
+        <name>Resend_Documents</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Send_Email --></label>
+        <name>Send_Email</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Send_Failure_Notification --></label>
+        <name>Send_Failure_Notification</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Send_Legal_Protection_Inquiry --></label>
+        <name>Send_Legal_Protection_Inquiry</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Set_Clarification --></label>
+        <name>Set_Clarification</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Set_Cover_Note --></label>
+        <name>Set_Cover_Note</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Set_On_Hold --></label>
+        <name>Set_On_Hold</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Set_Opp_Refund --></label>
+        <name>Set_Opp_Refund</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Set_Opportunity_To_Lost_DG --></label>
+        <name>Set_Opportunity_To_Lost_DG</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Set_Result --></label>
+        <name>Set_Result</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Show_Attachments --></label>
+        <name>Show_Attachments</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Vergleich_geprueft --></label>
+        <name>Vergleich_geprueft</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- set_Claim_Review --></label>
+        <name>set_Claim_Review</name>
+    </webLinks>
+</CustomObjectTranslation>

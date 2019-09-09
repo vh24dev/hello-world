@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>weitere Dokumente benötigt</description>
+    <encodingKey>UTF-8</encodingKey>
+    <name>DieselskandalBackofficeDocumentsIncompleteJäger</name>
+    <style>none</style>
+    <subject>Wir benötigen weitere Informationen von Ihnen | Bearbeitungsnummer: {!Opportunity.Number__c}</subject>
+    <textOnly>{!Contact.Salutation__c}, 
+
+vielen Dank für das nette Gespräch. 
+Wie vereinbart erhalten wir von Ihnen folgende Dokumente: 
+
+vielen Dank für ihre Beauftragung. 
+Sie wollen schnell zu Ihrem Recht / Geld kommen? 
+
+
+-	Fahrzeugschein 
+-	Kaufvertrag oder Rechnung oder verbindliche Bestellung 
+-	Ihre Rechtschutzversicherungsdaten (Police oder letzte Beitragsrechnung, die bei Kauf Ihres Autos bestand) 
+-	Aktuelle Anschrift &amp; Telefonnummer 
+-	Vollständiger Darlehensvertrag inkl. Widerrufsbelehrung (falls vorhanden) 
+-	Tilgungsplan/Zahlungsplan/Kontoauszug der ersten Rate 
+-	Softwareupdateschreiben (falls vorhanden) 
+- Vollmacht vom Käufer unterschrieben. Bei Kreditinstitut bitte Ihre finanzierende Bank eintragen. (im Anhang) 
+-	aktueller Kilometerstand 
+
+
+Alternativ senden Sie uns Ihre Dokumente unter Angabe Ihrer Bearbeitungsnummer per WhatsApp an folgende Nummer – 0151/26547808 
+oder antworten Sie ganz einfach auf die EMail. 
+
+Bevorzugen Sie den Versand per Post: 
+
+Verbraucherhilfe24 GmbH 
+Albert-Roßhaupter-Straße 32 
+81369 München 
+
+Bitte kontaktieren Sie mich stets bei Fragen entweder telefonisch unter 089/124 14 74-13 
+oder senden Sie mir eine eMail an auto@verbraucherhilfe24.de. 
+
+Vielen Dank im Voraus! 
+
+Mit freundlichen Grüßen 
+
+
+Ihre Verbraucherhilfe24 
+
+
+VH24 GmbH 
+Albert-Roßhaupter-Str. 32 
+81369 München 
+Telefon: 089 - 124 147 413 
+Kontakt: office@verbraucherhilfe24.de 
+
+www.verbraucherhilfe24.de 
+
+Registergericht beim Amtsgericht München unter 371 E - M 1779 als Inkassodienstleister gem. §10 abs. 1 RDG | Handelsregister: HRB 217774 Amtsgericht München | USt-IDNr: DE277526577 
+
+{!Opportunity.Unsubscribe_Link__c}</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

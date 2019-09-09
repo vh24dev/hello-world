@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Bitte Informationen ergänzen, Step 2 nach Anmeldung</description>
+    <encodingKey>UTF-8</encodingKey>
+    <name>LvGeneralWebformStep2MessageVr24</name>
+    <style>none</style>
+    <subject>{!Contact.FirstName} {!Contact.LastName}, vielen Dank für die Anfrage. Bitte klicken Sie auf den Link in der E-Mail</subject>
+    <textOnly>Bitte Ihre Auftragsdaten vervollständigen.
+{!Contact.Salutation__c},
+
+Wir haben Ihren Auftrag erhalten und werden umgehend die nächsten Schritte zur
+Rechtsdurchsetzung einleiten. Um für Sie tätig werden zu können, benötigen wir noch weitere Informationen von Ihnen.
+
+Jetzt Daten vervollständigen
+
+Noch Fragen?
+
+Wenn Sie Fragen haben oder mit uns direkt telefonieren möchten, erreichen Sie uns unter  089 - 124 147 418
+
+Wir freuen uns darauf, für Sie tätig zu werden.
+
+
+Mit freundlichen Grüßen,
+
+
+VerbraucherRechte24
+
+
+
+
+
+www.verbraucherrechte24.de
+
+VerbraucherRechte24 GmbH
+Albert-Roßhaupter-Straße 32
+81369 München
+
+Geschäftsführer: Steffen Matz, Matthias Hartmann
+
+
+Jetzt austragen</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

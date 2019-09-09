@@ -1,0 +1,40 @@
+{!Contact.Salutation__c},
+
+wir benötigen noch Zeit zur Klärung von Rückfragen mit Ihrer Rechtsschutzversicherung. 
+Wir kommen ggf. erneut auf Sie zu, wenn wir Ihre Mithilfe benötigen. 
+
+Ihre Daten zum Mandat: 
+Mandant: {!Claim__c.Opportunity__r.Contact__r.FirstName} {!Claim__c.Opportunity__r.Contact__r.LastName} 
+Rechtsschutzversicherung: {!Claim__c.Opportunity__r.Legal_Protection_Insurance__r.Name} 
+Versicherungsnummer: {!Claim__c.Opportunity__r.Legal_Protection_Insurance_Number__c} 
+Schaden-Nr.: {!Claim__c.Legal_Protection_Insurance_Case_Number__c} 
+Aktenzeichen: {!Claim__c.Opportunity__r.Reference__c} 
+Bearbeitungsnummer: {!Claim__c.Opportunity__r.Number__c} 
+Fahrzeug-/ Motorhersteller: {!Claim__c.Opportunity__r.Vehicle_Brand__r.Name} 
+Marke: {!Claim__c.Opportunity__r.Vehicle_Brand_Name__c} 
+Fahrzeugtyp: {!Claim__c.Opportunity__r.Vehicle_Type__c} 
+Motortyp: {!Claim__c.Opportunity__r.Engine_Type__c} 
+Kaufdatum: {!Claim__c.Opportunity__r.Purchase_Date__c} 
+Zulassungsdatum: {!Claim__c.Opportunity__r.Registration_Date__c} 
+Kilometerstand bei Kauf: {!Claim__c.Opportunity__r.Mileage_On_Purchase__c} 
+Aktueller Kilometerstand: {!Claim__c.Opportunity__r.Current_Mileage__c} km 
+Kaufpreis: {!Claim__c.Opportunity__r.Purchase_Price__c} € 
+Nutzungsentschädigung: {!Claim__c.Opportunity__r.Compensation_For_Use__c} € 
+Streitwert: {!Claim__c.Opportunity__r.Amount_In_Dispute__c} € 
+
+
+
+Mit freundlichen Grüßen 
+
+
+i. A. {!User.FirstName} {!User.LastName} 
+
+Dr. Dominic Krutisch 
+LeCom - Legal & Compliance 
+Rechtsanwaltsgesellschaft mbH
+
+Albert-Roßhaupter-Str. 32 
+81369 München 
+
+Tel.: 089 / 588088710 
+Fax: 089 / 588088711

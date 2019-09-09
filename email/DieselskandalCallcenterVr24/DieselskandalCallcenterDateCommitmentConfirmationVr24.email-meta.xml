@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Unterlagen anfordern Callcenter</description>
+    <encodingKey>UTF-8</encodingKey>
+    <name>DieselskandalCallcenterDateCommitmentConfirmationVr24</name>
+    <style>none</style>
+    <subject>Bitte schicken Sie uns Ihre Unterlagen zur Überprüfung | Bearbeitungsnummer: {!Opportunity.Number__c}</subject>
+    <textOnly>{!Contact.Salutation__c},
+
+vielen Dank für das freundliche Gespräch.
+
+Wir freuen uns, dass wir Ihre Verträge für Sie prüfen dürfen und haben die Prüfung Ihrer Unterlagen für den {!Opportunity.Date_Commitment_Clean__c} eingeplant. 
+
+Ihre persönliche Bearbeitungsnummer lautet: {!Opportunity.Number__c}.
+
+Bei Rückfragen, rufen Sie mich gerne an unter meiner Nummer: {!User.Phone}  oder schreiben Sie mir eine E-Mail: diesel-schaden@verbraucherrechte24.de
+
+
+Mit freundlichen Grüßen
+{!User.FirstName} {!User.LastName}
+{!User.Title}</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

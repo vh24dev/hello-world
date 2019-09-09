@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Gerichtstermin</fullName>
+        <default>true</default>
+        <label>Gerichtstermin</label>
+    </customValue>
+    <customValue>
+        <fullName>Berufung</fullName>
+        <default>false</default>
+        <label>Berufung</label>
+    </customValue>
+    <customValue>
+        <fullName>Sonstiges</fullName>
+        <default>false</default>
+        <label>Sonstiges</label>
+    </customValue>
+    <masterLabel>Date Types</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

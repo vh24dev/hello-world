@@ -1,0 +1,14 @@
+<apex:page standardController="Opportunity" extensions="SetOpportunityLost" showheader="false">
+    <apex:pageMessage rendered="{!NOT(errorMsg = '')}" summary="Bitte hinterlegen Sie {!errorMsg}." severity="warning" strength="3" />
+    <apex:pageBlock title="Absagegrund wählen:">
+        <apex:form >
+            <apex:outputLabel value="Absagegrund: "/><br />
+            <apex:inputField value="{!parOpportunity.Reason_For_Loss__c}" id="reason" required="true"/>
+            <br /><br />
+            <apex:outputLabel value="Absagekommentar: "/><br />
+            <apex:inputField value="{!parOpportunity.Comment_On_Loss__c}" id="comment"/>
+            <br /><br />
+            <apex:commandButton value="Ablehnen" action="{!renderPage}" />
+        </apex:form>
+    </apex:pageBlock>
+</apex:page>

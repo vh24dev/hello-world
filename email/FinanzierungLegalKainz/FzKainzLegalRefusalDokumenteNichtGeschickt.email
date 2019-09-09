@@ -1,0 +1,20 @@
+{!Contact.Salutation__c}, 
+
+leider haben wir bis zum heutigen Tage die erforderlichen Unterlagen von Ihnen noch nicht erhalten. Daher weisen wir Sie darauf hin, dass wir das Mandat beenden werden, sollten Sie uns Ihre Unterlagen nicht in den nächsten 5 Tagen übermitteln. 
+
+Mit freundlichen Grüßen 
+
+
+Rechtsanwalt Dr. Henning Leitz 
+Partner 
+
+CLLB Rechtsanwälte 
+Cocron, Liebl, Leitz, Braun, Kainz, Sittner Partnerschaft mbB München - Berlin 
+
+Liebigstr. 21 
+80538 München 
+Tel.: +49-89-552 999 50 
+Fax.:+49-89-552 999 90 
+mail: kanzlei@cllb.de 
+
+Ref-Nr: {!Claim__c.Id}

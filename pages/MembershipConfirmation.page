@@ -1,0 +1,25 @@
+<apex:page docType="html-5.0" controller="MembershipConfirmationController" action="{!init}" pageStyle="" wizard="false" sidebar="false" standardStylesheets="false" showHeader="false" showQuickActionVfHeader="false">
+    <apex:composition template="MembershipTemplate">
+        <apex:define name="body">
+            <div>
+                <apex:pageMessage rendered="{!errorToken}" summary="Es wird eine Anfrage, ein Fall und eine Korrespondenz benötigt." severity="warning" strength="3" />
+                <apex:form >
+                    <h1 style="color: #144A8E">
+                        Zustimmung zur Einzelklage
+                    </h1>
+                    <div>Bearbeitungsnummer: {!number}</div>
+                    <p>
+                    </p>
+					<div>
+                        <div style="display: inline-block; margin-right: 10px;"><b>Aktueller Kilometerstand</b></div>
+                        <div style="display: inline-block;">
+                             <apex:input value="{!numVal}"/>
+
+                        </div>
+                    </div>
+                    <apex:commandButton style="margin-bottom: 40px" value="JETZT BESTÄTIGEN" action="{!confirm}"/>
+                </apex:form>
+            </div>
+        </apex:define>
+    </apex:composition>
+</apex:page>

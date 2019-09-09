@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>weitere Dokumente benötigt mit Vollmacht im Anhang</description>
+    <encodingKey>UTF-8</encodingKey>
+    <name>LvBackofficeAuthorizationVr24</name>
+    <style>none</style>
+    <subject>Wir benötigen weitere Informationen von Ihnen | Bearbeitungsnummer: {!Opportunity.Number__c}</subject>
+    <textOnly>Bitte Ihre Auftragsdaten vervollständigen.
+{!Contact.Salutation__c},
+
+Wir haben Ihren Auftrag erhalten und werden umgehend die nächsten Schritte zur
+Rechtsdurchsetzung einleiten. Folgende Unterlagen werden hierfür benötigt (als Kopie, Scan oder Foto):
+
+1. Versicherungsantrag
+2. Versicherungsvertrag
+3. Unterschriebene Anwaltliche Vollmacht (siehe Anhang)
+
+Dokumente hochladen
+Hinweis: Sie können die Dokumente auch mit Ihrer Handy-Kamera abfotografieren und die Bilder hier hochladen!
+
+Alternative Kontaktmöglichkeiten:
+Senden Sie die Unterlagen alternativ als Scan oder Foto unter Angabe der Vorgangsnummer {!Opportunity.Number__c}
+per Email an: lebensversicherung@verbraucherrechte24.de
+
+
+Oder per Post an:
+Verbraucherrechte24
+Abt. Lebensversicherung
+Albert-Roßhaupter-Str. 32
+81369 München
+
+
+Wenn Sie lieber den weiteren Prozess mit uns am Telefon besprechen  möchten, rufen Sie uns auch gerne an 089 - 124 147 418
+Oder fordern Sie einen Rückruf an.
+
+Mit freundlichen Grüßen
+
+Ihre Verbraucherrechte24
+
+
+www.verbraucherrechte24.de
+
+VerbraucherRechte24 GmbH
+Albert-Roßhaupter-Straße 32
+81369 München
+
+Geschäftsführer: Steffen Matz, Matthias Hartmann
+
+in Zusammenarbeit mit dem eingetragenen Rechtsdienstleister:</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

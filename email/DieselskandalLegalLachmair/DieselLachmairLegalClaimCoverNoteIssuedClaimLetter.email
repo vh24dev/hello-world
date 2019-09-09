@@ -1,0 +1,31 @@
+Sehr geehrte/r {!Contact.Salutation} {!Contact.LastName}, 
+
+Ihre Rechtsschutzversicherung hat die außergerichtliche Deckungszusage für Ihren Fall erteilt.
+
+Als nächstes werden wir eine Kostennote erstellen und zur Anweisung 
+an Ihre Rechtsschutzversicherung senden. 
+Haben Sie eine Selbstbeteiligung mit Ihrer Rechtsschutzversicherung
+vereinbart, erhalten Sie nur eine Kostennote über Ihren Eigenanteil.
+
+Sollte Ihr Fahrzeug-/ Motorenhersteller im Rahmen
+des außergerichtlichen Verfahrens eine Einigung ablehnen, wird dann der Weg der Klage beschritten. 
+
+Über den weiteren Verlauf halten wir Sie selbstverständlich auf dem Laufenden. 
+
+Mit freundlichen Grüßen 
+
+
+{!Claim__c.Legal__r.Name} 
+{!Claim__c.Legal__r.Title} 
+
+
+{!Claim__c.Legal__r.CompanyName} 
+{!Claim__c.Legal__r.Street} 
+{!Claim__c.Legal__r.PostalCode} {!Claim__c.Legal__r.City} 
+
+
+Tel.: +49 (0) 89 41 32 433-0
+Fax: {!Claim__c.Legal__r.Fax} 
+Email: {!Claim__c.Legal__r.Email} 
+Web: www.ra-lachmair.de 
+Ref-Nr: {!Claim__c.Id}

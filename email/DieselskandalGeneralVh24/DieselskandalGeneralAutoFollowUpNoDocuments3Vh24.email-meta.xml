@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>3. Erinnerung zum Dokumentenupload nach Anmeldung</description>
+    <encodingKey>UTF-8</encodingKey>
+    <name>DieselskandalGeneralAutoFollowUpNoDocuments3Vh24</name>
+    <style>none</style>
+    <subject>Dieselskandal: Noch ist es nicht zu spät! - Reichen Sie fehlende Unterlagen ein</subject>
+    <textOnly>{!Contact.Salutation__c},
+
+
+leider haben wir bis jetzt von Ihnen keine Unterlagen erhalten. Diese benötigen wir jedoch, um Ihre Verbraucherrechte durchzusetzen und Schadensersatz im Abgasskandal fordern zu können.
+
+
+Aber noch ist es nicht zu spät!
+
+
+1. Die Kopie Ihres Fahrzeugscheins (Vorder- und Rückseite)
+2. Ihre Fahrzeug-Rechnung oder das Angebot in Kopie
+3. Die unterschriebene anwaltliche Vollmacht. Das Formular zum Download finden Sie auf der Seite, auf der Sie die Dokumente hochladen.
+
+
+Wir weisen Sie drauf hin, dass wir - aufgrund Ihrer unmittelbar bevorstehenden Verjährungsfrist -, Ihren Fall nur fristgerecht weiterbearbeiten können, wenn uns bis, 16.12.2018, die erforderlichen Unterlagen vorliegen.
+Bitte nutzen Sie dazu einfach folgenden Link:
+
+
+LADEN SIE HIER DIREKT IHRE DOKUMENTE HOCH
+
+
+Hinweis: Sie können die Dokumente auch mit Ihrer Handy-Kamera abfotografieren und die Bilder hier hochladen!
+
+
+Alternativ senden Sie uns eine E-Mail mit den Unterlagen an:auto@verbraucherhilfe24.de
+
+
+Oder per Post an (bitte Vorgangsnummer vermerken):
+Verbraucherhilfe24
+Abt. Diesel-Skandal
+Albert-Roßhaupter-Str. 32
+81369 München
+
+
+Nach Eingang Ihrer Unterlagen werden wir unverzüglich für Sie tätig. Sie werden dann von uns fortlaufend über den Stand der Durchsetzung informiert.
+
+
+auto@verbraucherhilfe24.de
+
+089 124 147 413
+
+Rückruf anfordern
+
+Nehmen Sie sich 5 Minuten Zeit, wir übernehmen den Rest.
+
+Holen Sie sich zusätzlich 10.000 Euro
+Schadenersatz für Ihren Diesel
+
+Statt die leidgeprüften Dieselfahrer nach drei Jahren Abgasskandal über eine Schnellstraße direkt ins Ziel zu bringen, schickt der Gesetzgeber sie mit der Musterfeststellungsklage noch mal auf eine Umleitung mit Schlaglöchern.
+
+Denis Krebs
+Geschäftsführer
+
+Verbraucherhilfe24: Starkes Netzwerk an Fachanwälten
+
+Durch unser Netzwerk von knapp 100 Spezial-Anwälten, helfen wir Ihnen bei der Durchsetzung Ihrer Ansprüche. Möglich macht dies unser effizientes Klageverfahren, mit dem wir die Interessen zahlreicher Geschädigter systematisch abwickeln und somit auch gegen große Konzerne Erfolge erzielen.
+
+Anlaufstelle für geschädigte Verbraucher
+
+Durch unsere erfahrenen und stark vernetzten Rechtsexperten, kennen wir alle Verbraucherrechtsthemen. Lassen Sie sich durch unsere Experten über die Rechtslage aufklären. Wir unterstützen Sie und greifen ein, wenn es für Ihren Fall Sinn macht, damit Sie Ihr Recht und Ihr Geld (zurück) bekommen.
+
+Ihre Verbraucherrechte durchsetzen
+
+Unsere Mission ist die Durchsetzung Ihrer Rechte gegenüber Banken, Versicherungen und Konzernen durch erfahrene Rechtsexperten – ohne Kostenrisiko für Sie.
+
+Wir freuen uns darauf für Sie tätig zu werden.
+Ihre Verbraucherhilfe24
+
+VH24 GmbH
+Albert-Roßhaupter-Str. 32
+81369 München
+
+Telefon: 089 - 124 147 413
+Fax: 089 - 124 147 419
+www.verbraucherhilfe24.de
+
+Kontakt: office@verbraucherhilfe24.de
+
+Registriert beim Amtsgericht München unter 371 E – M 1779 als Inkassodienstleister gem. § 10 Abs. 1 RDG Handelsregister: HRB 217774 Amtsgericht München USt-IDNr: DE277526577
+
+Widerrufserklärung inkl. AGB Anfrage widerrufen
+
+Abmelden</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

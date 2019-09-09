@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Vertrag übermitteln</description>
+    <encodingKey>UTF-8</encodingKey>
+    <name>LvJägerLegalAnfrageKorrespondenz</name>
+    <style>none</style>
+    <subject>Vertrag übermitteln | Bearbeitungsnummer: {!Opportunity_Correspondence__c.Opportunity__r.Number__c} | Aktenzeichen: {!Opportunity_Correspondence__c.Opportunity__r.Reference__c}</subject>
+    <textOnly>Sehr geehrte Damen und Herren,
+
+anbei überlassen wir das diesseitige Schreiben mit der Bitte um Kenntnisnahme.
+
+Mit freundlichen Grüßen
+
+i. A. {!User.FirstName} {!User.LastName}
+
+Heinrich Jäger
+J &amp; C Anwälte
+
+Sonnenstraße 18
+80331 München
+
+Telefon: +49 (0) 89 90 41 03 444
+Telefax: +49 (0) 89 90 41 03 499
+E-Mail: lebensversicherung@jc-anwaelte.de
+Web: www.jc-anwaelte.de</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

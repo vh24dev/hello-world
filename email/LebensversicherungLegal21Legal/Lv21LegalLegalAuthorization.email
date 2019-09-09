@@ -1,0 +1,12 @@
+Sehr geehrte(r) {!Contact.Salutation} {!Contact.LastName},
+
+leider bemängelt Ihre Versicherungsgesellschaft unsere Vollmacht, da der Vor- und Nachname nicht erkennbar ist. Wir haben diese entsprechend angepasst und bitten Sie, diese nochmal zu unterschreiben und an uns zurück zu senden. Vielen Dank im Voraus!
+
+Mit freundlichen Grüßen
+
+{!User.FirstName} {!User.LastName} 
+{!User.Title} 
+
+{!User.CompanyName} 
+{!User.Street} 
+{!User.PostalCode} {!User.City}

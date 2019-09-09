@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Dienstleistungvertrag zusenden</description>
+    <encodingKey>UTF-8</encodingKey>
+    <name>LvCallcenterResendContractVr24</name>
+    <style>none</style>
+    <subject>VerbraucherRechte24 | Ihre Bearbeitungsnummer: {!Contract__c.Opportunity_Number__c}</subject>
+    <textOnly>{!Contact.Salutation__c},
+
+wie wir soeben telefonisch besprochen haben, lasse ich Ihnen unseren Dienstleistungsvertrag erneut zukommen.
+
+Bei Fragen stehe ich Ihnen wie gewohnt unter meiner unten angegebenen Telefonnummer zur Verfügung.
+
+Mit freundlichen Grüßen
+
+
+{!User.FirstName} {!User.LastName} 
+{!User.Title}</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

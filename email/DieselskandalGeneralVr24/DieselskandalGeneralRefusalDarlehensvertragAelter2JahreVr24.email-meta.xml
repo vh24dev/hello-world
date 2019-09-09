@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Darlehensvertrag älter als 2 Jahre</description>
+    <encodingKey>UTF-8</encodingKey>
+    <name>DieselskandalGeneralRefusalDarlehensvertragAelter2JahreVr24</name>
+    <style>none</style>
+    <subject>Darlehensvertrag | Ihre Bearbeitungsnummer: {!Opportunity.Number__c}</subject>
+    <textOnly>{!Contact.Salutation__c}, 
+
+Ihre Bearbeitungsnummer: {!Opportunity.Number__c}. 
+
+Ihr Darlehensvertrag wurde vor 2 Jahren abbezahlt und ist somit nicht mehr erfolgreich angreifbar, da eine Verwirkung eingetreten ist. 
+Sollten Sie eine Anschlussfinanzierung haben, kann diese nicht berücksichtigt werden, da immer nur der Ursprungsvertrag anfechtbar ist. 
+
+Oder Sie haben das Darlehen getilgt und sind somit Eigentümer. 
+
+Daher müssen wir Ihr Mandat leider niederlegen. Für Ihr Vertrauen bedanken wir uns und wünschen Ihnen für Ihre private und berufliche Zukunft alles Gute. 
+
+Mit freundlichen Grüßen 
+
+{!User.FirstName} {!User.LastName} 
+{!User.Title} 
+Abt. Diesel-Skandal</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

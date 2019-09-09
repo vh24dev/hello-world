@@ -1,0 +1,29 @@
+<span style="font-size:13px;"><span style="font-family: arial, helvetica, sans-serif;">
+{!Contact.Salutation__c},
+<p>wir bedanken uns ganz herzlich für das Vertrauen in unser Haus, das Sie mit der Registrierung Ihres Fahrzeugs auf unserer Homepage zum Ausdruck gebracht haben.
+<br/>Für die weitere Bearbeitung Ihres Falles benötigen wir noch weitere Informationen. Aus diesem Grund haben wir bereits mehrfach versucht Sie telefonisch zu erreichen- leider ohne Erfolg.
+<p>Im Einzelnen benötigen wir folgende Unterlagen von Ihnen:
+<p>1. Ihren Fahrzeugschein (Vorder- und Rückseite)
+<br/>2. Ihr Fahrzeug-Angebot oder Ihre Rechnung
+<br/>3. Die unterschrieben Anwaltlichs-Vollmacht
+<p>Sie können uns Kopien bzw. Bilder/Scans der Dokumente über einen der folgende Wege übermitteln:
+<p> Nutzen Sie folgendes Upload-Formular:
+<br /> Tipp: Mit Ihrem Handy können Sie einfach Fotos von den Dokumenten machen und diese unter folgendem Link hochladen.
+<p><br/><a href="{!Opportunity.Document_Upload_Link__c}" rel="noopener noreferrer" target="_blank"><b>>> Jetzt Unterlagen hochladen <<</b></a>
+<p>
+<p>
+<p>oder schicken Sie uns eine E-Mail an: diesel-schaden@verbraucherrechte24.de
+<p> oder mit der Post an: 
+<br/>VerbraucherRechte24 GmbH
+<br /> Abt. Diesel-Skandal
+<br /> Albert-Roßhaupter-Str. 32
+<br /> 81369 München
+<p>
+<br/>Der Übersendung Ihrer Unterlagen sehen wir mit Freude entgegen. 
+<p>Haben Sie bereits vorab vielen Dank für Ihre Mühen. 
+<p>Mit freundlichen Grüßen
+<p><span style="font-family: Calibri, Verdana, Arial, sans-serif; font-size: font-size: 14px;"><p>&nbsp;</p>
+<p><img style="width: 200px; height: 54px;" src="https://daks2k3a4ib2z.cloudfront.net/58d0ccc5a30805a8243d5fd9/58d22446e07be4a234dc816e_Verbraucherrechte_Logo_Lay01.png" alt="" /></p>
+<p><a href="http://www.verbraucherrechte24.de" target="_blank">www.verbraucherrechte24.de</a></p>
+<p><span style="font-family: Calibri, Verdana, Arial, sans-serif; font-size: 11px;"> VerbraucherRechte24 GmbH<br /> Albert-Ro&szlig;haupter-Stra&szlig;e 32<br /> 81369 M&uuml;nchen </span></p>
+<p><span style="font-family: Calibri, Verdana, Arial, sans-serif; font-size: 11px;"> Gesch&auml;ftsf&uuml;hrer: Steffen Matz, Matthias Hartmann </span></p><p><a href="{!Opportunity.URL_Abmeldung__c}" target="_blank"><span style="color: #0000cd;"><b>Abmelden</b></a>

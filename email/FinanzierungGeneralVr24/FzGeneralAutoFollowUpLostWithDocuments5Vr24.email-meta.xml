@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>false</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>FzGeneralAutoFollowUpLostWithDocuments5Vr24</name>
+    <style>none</style>
+    <subject>Betreff: [Reminder]  Ihr Diesel verliert täglich an Wert. Jetzt schützen -</subject>
+    <textOnly>{!Contact.Salutation__c},
+
+Dieselfahrverbote in deutschen Städten, manipulierte Dieselfahrzeuge mit deutlich höheren Abgaswerten -
+die Zeichen stehen nicht gut für Besitzer von Dieselfahrzeugen. Nun wird das auch in den Verkaufspreisen bemerkbar.
+
+Verschenken Sie kein Geld und werden Sie Ihren Diesel durch eine Rückabwicklung los, denn warum sollten Sie für die Fehler Ihres Autoherstellers mit einem Wertverlust bezahlen?
+
+Fahrzeugdaten vervollständigen und Klage einreichen
+
+Unsere Partneranwälte arbeiten auf Hochtouren, seien Sie jetzt dabei, bevor es zu spät ist.
+
+Gerne können wir das weitere Vorgehen auch telefonisch besprechen.
+
+Kostenlose Beratung zu Ihrem Fall mit der Nr. {!Opportunity.Number__c} unter der Nummer:
+089 - 215 413 118
+
+Oder teilen Sie uns einfach per Email mit wann Sie am besten erreichbar sind: vormittags, nachmittags, abends.
+
+Unsere Spezialisten zu diesem Thema beraten Sie kostenlos!
+
+Sparen Sie sich den Stress durch erhöhte Wartungskosten, Wertverlust, Dieselfahrverbote und mögliche frühzeitige Motorschäden und handeln Sie jetzt!
+
+
+Mit freundlichen Grüßen
+
+
+
+www.verbraucherrechte24.de
+
+VerbraucherRechte24 GmbH
+Albert-Roßhaupter-Straße 32
+81369 München
+
+Geschäftsführer: Steffen Matz, Matthias Hartmann</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

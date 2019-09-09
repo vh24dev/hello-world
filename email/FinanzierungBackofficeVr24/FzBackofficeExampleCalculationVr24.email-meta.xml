@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Beispielrechnung</description>
+    <encodingKey>UTF-8</encodingKey>
+    <name>FzBackofficeExampleCalculationVr24</name>
+    <style>none</style>
+    <subject>Beispielrechnung | Bearbeitungsnummer: {!Opportunity.Number__c}</subject>
+    <textOnly>{!Contact.Salutation__c},
+
+nachfolgend erhalten Sie wie gewünscht eine Beispielrechnung. Hier handelt es sich um pauschale Werte, diese sollen den Kunden einen Einblick in die Berechnung des Erstattungsbetrages ermöglichen. Sollten Sie über eine Rechtsschutzversicherung verfügen und die Deckungsanfrage ist positiv, entfällt nachfolgendes Honorar natürlich.
+
+Wenn Sie Ihr Fahrzeug behalten möchten fordern wir eine sogenannte Wertminderung, hier spricht man von ca 30% der Kaufpreises. Das Honorar wäre hier 29,75% (auf maximal 2.900€ gedeckelt). Sollten Sie Ihr Fahrzeug zurückgeben wollen, fordern wir den Kaufpreis abzüglich der bereits gefahrenen Kilometer, hier entspricht die Höhe unseres Honorars 9% (auf maximal 2.900€ gedeckelt). 
+
+
+Beispielrechnung: (bei Behalt): 
+
+20.000€ Kaufpreis 
+30% = 6.000€ zu fordernde Wertminderung 
+29,75% Honorar = 1.785€ 
+Erstattungsbetrag abzüglich aller Kosten für Sie = 4.215€ 
+
+
+Beispielrechnung: (bei Rückgabe): (hier rechnet man mit einer &quot;voraussichtlichen Laufleistung von 300.000km&quot; 
+
+20.000€ Kaufpreis akt. KM-Stand 100.000 
+
+20.000€ * 100.000 / 300.000 = 6.667€ Nutzungsgebühr (Wird nun vom Kaufpreis abgezogen) 
+20.000€ - 6.667€ = 13.333€ zu fordernder Erstattungsbetrag 
+9% Honorar = 1.199€ 
+Erstattungsbetrag abzüglich aller Kosten für Sie = 12.134€ 
+
+
+Bei Rückfragen, rufen Sie mich gerne an unter meiner Nummer: {!User.Phone}  oder schreiben Sie mir eine E-Mail: diesel-schaden@verbraucherrechte24.de
+
+Mit freundlichen Grüßen 
+
+
+{!User.FirstName} {!User.LastName} 
+{!User.Title}
+Team Kundenservice
+Verbraucherrechte24
+
+Telefon: +49 (0) 89 215 413 118
+Telefax: +49 (0) 89 90 41 03 499
+E-Mail: diesel-schaden@verbraucherrechte24.de
+Web: www.diesel-schaden.de</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

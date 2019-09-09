@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Versicherungsantrag</fullName>
+        <default>false</default>
+        <label>Versicherungsantrag</label>
+    </customValue>
+    <customValue>
+        <fullName>Versicherungsvertrag</fullName>
+        <default>false</default>
+        <label>Versicherungsvertrag</label>
+    </customValue>
+    <customValue>
+        <fullName>Wertstandsmitteilung</fullName>
+        <default>false</default>
+        <label>Wertstandsmitteilung</label>
+    </customValue>
+    <customValue>
+        <fullName>Vollmacht</fullName>
+        <default>false</default>
+        <label>Vollmacht</label>
+    </customValue>
+    <customValue>
+        <fullName>DG_Registration</fullName>
+        <default>false</default>
+        <label>Fahrzeugschein</label>
+    </customValue>
+    <customValue>
+        <fullName>DG_Invoice</fullName>
+        <default>false</default>
+        <label>Vertrag/Rechnung</label>
+    </customValue>
+    <customValue>
+        <fullName>DG_Authorization_Manufacturer</fullName>
+        <default>false</default>
+        <label>Vollmacht (Hersteller)</label>
+    </customValue>
+    <customValue>
+        <fullName>DG_Authorization_Dealer</fullName>
+        <default>false</default>
+        <label>Vollmacht (Autohaus)</label>
+    </customValue>
+    <customValue>
+        <fullName>Vollmacht (Kreditinstitut)</fullName>
+        <default>false</default>
+        <label>Vollmacht (Kreditinstitut)</label>
+    </customValue>
+    <customValue>
+        <fullName>DG_Update_Confirmation</fullName>
+        <default>false</default>
+        <label>Bestätigung zum Softwareupdate</label>
+    </customValue>
+    <customValue>
+        <fullName>DG_Legal_Protection_Insurance_Policy</fullName>
+        <default>false</default>
+        <label>Rechtsschutzversicherungspolice</label>
+    </customValue>
+    <customValue>
+        <fullName>Darlehensvertrag</fullName>
+        <default>false</default>
+        <label>Darlehensvertrag</label>
+    </customValue>
+    <customValue>
+        <fullName>Other</fullName>
+        <default>true</default>
+        <label>Sonstiges</label>
+    </customValue>
+    <customValue>
+        <fullName>Widerspruch</fullName>
+        <default>false</default>
+        <label>Widerspruch</label>
+    </customValue>
+    <customValue>
+        <fullName>Allgemeine Vertragsbedingungen</fullName>
+        <default>false</default>
+        <label>Allgemeine Vertragsbedingungen</label>
+    </customValue>
+    <description>Document Types</description>
+    <masterLabel>Document Types</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

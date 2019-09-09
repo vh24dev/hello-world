@@ -1,0 +1,9 @@
+<apex:page standardController="Opportunity" extensions="SetOppRecordType" showHeader="false">
+    <apex:pageBlock title="In Bearbeitung...">
+       <apex:form >
+            <apex:actionFunction name="create" action="{!renderPage}"/>
+            <script>window.setTimeout(create,1000)</script>
+            <apex:outputLabel value="Bitte warten. Anfrage wird übergeben."/>
+       </apex:form>
+    </apex:pageBlock>
+</apex:page>

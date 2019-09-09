@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>DieselKainzLegalRequestOwnership</name>
+    <style>none</style>
+    <subject>Status des Mandats, Ref-Nr: {!Correspondence__c.Id}, Vertrags-Nr.: {!Correspondence__c.Claim__r.Opportunity__r.CS_Number__c} | Aktenzeichen: {!Correspondence__c.Claim__r.Reference__c}</subject>
+    <textOnly>&lt;p&gt; 
+{!Contact.Salutation__c}, 
+&lt;/p&gt; 
+nachdem sich der Hersteller einer außergerichtlichen Einigung endgültig verweigert hatte, das entsprechende Schreiben des Herstellers ist diesem Schreiben zu Ihrer Kenntnisnahme beigefügt, haben wir bei Ihrer Rechtsschutzversicherung um Erteilung einer Kostendeckungszusage für das gerichtliche Vorgehen gegen den Hersteller angefragt. 
+&lt;p&gt; 
+&lt;b&gt;Der nächste Schritt ist daher nunmehr die Erhebung der Klage.&lt;/b&gt; 
+&lt;/p&gt; 
+Nach den uns vorliegenden Informationen sind Sie immer noch der Eigentümer des Kfz. 
+Sollten Sie das Kfz zwischenzeitlich verkauft haben und daher nicht mehr dessen Eigentümer sein, bitten wir Sie den folgenden Link zu verwenden und Ihre Antworten zu hinterlegen: 
+&lt;p&gt;&lt;br/&gt; 
+&lt;a href=&quot;{!Claim__c.URL_to_Ownership__c}&quot; target=&quot;_blank&quot; rel=&quot;noopener noreferrer&quot;&gt;&lt;b&gt;Eigentümerschaft bestätigen&lt;/b&gt;&lt;/a&gt;&lt;br/&gt; 
+&lt;p&gt; 
+Ansonsten gehen wir davon aus, dass Sie noch immer der Eigentümer des Kfz sind. 
+
+Die bei Gericht einzureichende Klageschrift haben wir diesem Schreiben zu Ihrer Kenntnisnahme beigefügt. Sollten wir innerhalb der nächsten 3 Tage nichts anderslautendes von Ihnen hören, werden wir die Klage in der Ihnen übersandten Form, nach Erteilung der gerichtlichen Deckungszusage seitens der Rechtschutzversicherung, beim zuständigen Gericht einreichen. 
+&lt;p&gt; 
+&lt;p&gt; 
+Rechtsanwalt Dr. Henning Leitz 
+&lt;br&gt;Partner 
+&lt;p&gt; 
+CLLB Rechtsanwälte 
+&lt;br&gt;Cocron, Liebl, Leitz, Braun, Kainz, Sittner Partnerschaft mbB München - Berlin 
+&lt;p&gt; 
+Liebigstr. 21 
+&lt;br&gt;80538 München 
+&lt;br&gt;Tel.: +49-89-552 999 50 
+&lt;br&gt;Fax.:+49-89-552 999 90 
+&lt;br&gt;mail: kanzlei@cllb.de 
+&lt;p&gt; 
+Ref-Nr: {!Correspondence__c.Id}</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

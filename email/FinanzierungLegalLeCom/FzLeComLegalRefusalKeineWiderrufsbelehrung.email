@@ -1,0 +1,21 @@
+{!Contact.Salutation__c},
+
+Ihre Bearbeitungsnummer: {!Opportunity.Number__c}.
+
+Leider können wir Ihren Vorgang nicht weiterführen, da Ihr Vertrag ohne Widerrufsbelehrung, nicht anfechtbar ist. 
+Daher müssen wir Ihr Mandat leider niederlegen. Für Ihr Vertrauen bedanken wir uns und wünschen Ihnen für Ihre private und beruflich Zukunft alles Gute.
+
+Mit freundlichen Grüßen 
+
+
+i. A. {!User.FirstName} {!User.LastName} 
+
+Dr. Dominic Krutisch 
+LeCom - Legal & Compliance 
+Rechtsanwaltsgesellschaft mbH
+
+Albert-Roßhaupter-Str. 32 
+81369 München 
+
+Tel.: 089 / 588088710 
+Fax: 089 / 588088711

@@ -1,0 +1,30 @@
+<span style="font-size:13px;"><span style="font-family: arial, helvetica, sans-serif;">
+<p>{!Contact.Salutation__c},</p>
+<p>Dieselfahrverbote in deutschen Städten, manipulierte Dieselfahrzeuge mit deutlich höheren Abgaswerten -
+<br/>die Zeichen stehen nicht gut für Besitzer von Dieselfahrzeugen. Nun wird das auch in den Verkaufspreisen bemerkbar.
+<p>Verschenken Sie kein Geld und werden Sie Ihren Diesel durch eine Rückabwicklung los, 
+<br/>denn warum sollten Sie für die Fehler Ihres Autoherstellers mit einem Wertverlust bezahlen?
+<p><a href="{!Opportunity.Form_Step_2_Link__c}" rel="noopener noreferrer" target="_blank"><b>Fahrzeugdaten vervollständigen und Klage einreichen.</b></a>
+<p>oder
+<p>Infos zum Wiederruf einer eventuellen Fahrzeugfinanzierung einholen
+<p>Gerne würden wir das weitere Vorgehen auch telefonisch besprechen. 
+<p>Kostenlose Beratung zu Ihrem Fall mit der Nr.: {!Opportunity.Number__c} unter der Nummer:
+<br/>089 - 215 413 118
+<p>Sparen Sie sich den Stress durch erhöhte Wartungskosten, Wertverlust, Dieselfahrverbote 
+<br/>und mögliche frühzeitige Motorschäden und handeln Sie jetzt!
+<p>
+<p>
+<p>Mit freundlichen Gr&uuml;&szlig;en,</p>
+<p>Ihr Service-Team<br /> <em>VerbraucherRechte24</em></p>
+<p>&nbsp;</p>
+<h3>&nbsp;</h3>
+<p>&nbsp;</p>
+<hr />
+<p><img style="width: 200px; height: 54px;" src="https://daks2k3a4ib2z.cloudfront.net/58d0ccc5a30805a8243d5fd9/58d22446e07be4a234dc816e_Verbraucherrechte_Logo_Lay01.png" alt="" /></p>
+<p><a href="http://www.verbraucherrechte24.de" target="_blank">www.verbraucherrechte24.de</a></p>
+<p><span style="font-family: Calibri, Verdana, Arial, sans-serif; font-size: 11px;"> VerbraucherRechte24 GmbH<br /> Albert-Ro&szlig;haupter-Stra&szlig;e 32<br /> 81369 M&uuml;nchen </span></p>
+<p><span style="font-family: Calibri, Verdana, Arial, sans-serif; font-size: 11px;"> Gesch&auml;ftsf&uuml;hrer: Steffen Matz, Matthias Hartmann</span>
+
+</p>
+
+<p><span style="font-family: Calibri, Verdana, Arial, sans-serif;">&nbsp;<p><a href="{!Opportunity.URL_Abmeldung__c}" target="_blank"><span style="color: #0000cd;"><b>Abmelden</b></a>

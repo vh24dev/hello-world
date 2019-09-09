@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Blank Email</description>
+    <encodingKey>UTF-8</encodingKey>
+    <name>DieselskandalGeneralBlankTemplateVr24</name>
+    <style>none</style>
+    <subject>VerbraucherRechte24 | Ihre Bearbeitungsnummer: {!Opportunity.Number__c}</subject>
+    <textOnly>{!Contact.Salutation__c},
+
+leider kann ich Sie telefonisch nicht erreichen. Es geht um das Thema Abgasskandal. 
+
+Sie haben sich bei uns registriert. Hierzu habe ich noch ein paar offene Fragen und würde Sie bitten, mich während unserer Geschäftszeiten von 9.00 -12.00 Uhr und von 13.00-18.00 Uhr unter folgender Nummer {!User.Phone} zurück zurufen, um Ihren Vorgang abschließen zu können. 
+
+Mit freundlichen Grüßen 
+
+
+{!User.FirstName} {!User.LastName} 
+{!User.Title}</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

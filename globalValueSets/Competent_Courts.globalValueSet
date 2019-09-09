@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Opponent</fullName>
+        <default>true</default>
+        <label>Gegner</label>
+    </customValue>
+    <customValue>
+        <fullName>Customer</fullName>
+        <default>false</default>
+        <label>Kunde</label>
+    </customValue>
+    <masterLabel>Competent Courts</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

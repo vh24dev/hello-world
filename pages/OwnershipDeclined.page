@@ -1,0 +1,11 @@
+<apex:page docType="html" >
+    <apex:composition template="{!$Site.Template}">
+        <apex:define name="body">
+            <div>
+                <p>
+                    Wir haben zur Kenntnis genommen, dass Sie nicht mehr der Fahrzeugeigentümer sind.
+                </p>
+            </div>
+        </apex:define>
+    </apex:composition>
+</apex:page>

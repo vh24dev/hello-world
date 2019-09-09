@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Dokumente vollständig</description>
+    <encodingKey>UTF-8</encodingKey>
+    <name>LvCallcenterDocumentsCompleteVr24</name>
+    <style>none</style>
+    <subject>Ihre Bearbeitungsnummer: {!Opportunity.Number__c} | Wir haben Ihre vollständigen Unterlagen erhalten</subject>
+    <textOnly>{!Contact.Salutation__c},
+
+zunächst möchten wir uns für das entgegengebrachte Vertrauen bedanken und bestätigen hiermit den Eingang Ihrer Unterlagen und die Vollständigkeit.
+
+Wir werden Ihre Unterlagen von der {!Opportunity.Insurance_Name__c} mit der Versicherungsnummer {!Opportunity.Insurance_Number__c} unserem Team aus erfahrenen und spezialisierten Rechtsanwälten und Fachjuristen zur juristischen Prüfung vorlegen.
+
+In der Regel erhalten Sie innerhalb von 2-3 Werktagen eine entsprechende Rückmeldung, mit Informationen, ob Ihr Versicherungsvertrag juristisch angreifbar ist und über das weiteres Vorgehen.
+
+Mit freundlichen Grüßen
+
+
+{!User.FirstName} {!User.LastName}
+{!User.Title}</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

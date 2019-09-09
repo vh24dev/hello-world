@@ -1,0 +1,16 @@
+<apex:page docType="html-5.0" pageStyle="" wizard="false" sidebar="true" standardStylesheets="false" showHeader="false" showQuickActionVfHeader="false" controller="AbtretungslinkController" action="{!init}">
+    <apex:composition template="{!$Site.Template}">
+        <apex:define name="body">
+            <h1>
+                Hiermit bestätigen wir Ihnen, dass Sie wieder Inhaber Ihrer Rechte gegen den Fahrzeughersteller sind.
+            </h1>
+            <p>
+                Beachten Sie: Ab dem 20.11.2018 werden wir für Sie die Registrierung (Zustimmung erforderlich) für die
+                <br/>
+                Musterfeststellungsklage durchführen.
+                <br/>
+                Danach werden Sie von uns über den weiteren Verlauf informiert.
+            </p>
+        </apex:define>
+    </apex:composition>
+</apex:page>

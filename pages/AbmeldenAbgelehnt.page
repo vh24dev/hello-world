@@ -1,0 +1,9 @@
+<apex:page pageStyle="" wizard="false" sidebar="true" standardStylesheets="false" showHeader="false" showQuickActionVfHeader="false" docType="html">
+    <apex:composition template="{!$Site.Template}">
+        <apex:define name="body">
+            <h3>
+                Sie bleiben angemeldet.
+            </h3>
+        </apex:define>
+    </apex:composition>
+</apex:page>

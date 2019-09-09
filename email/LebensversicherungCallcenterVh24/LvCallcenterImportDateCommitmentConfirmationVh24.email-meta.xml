@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Wichtige Datumsverpflichtung</description>
+    <encodingKey>UTF-8</encodingKey>
+    <name>LvCallcenterImportDateCommitmentConfirmationVh24</name>
+    <style>none</style>
+    <subject>Verbraucherhilfe24 - Mehrertrag aus Lebensversicherungen - Clerical Medical (CMI) | Bearbeitungsnummer: {!Opportunity.Number__c}</subject>
+    <textOnly>{!Contact.Salutation__c},
+
+vielen Dank für das freundliche Gespräch.
+
+Als zugelassener Rechtsdienstleister ermitteln und archivieren wir bedeutsame Urteile aus dem verbraucherrechtlichen Bereich und unterstützen Kunden durch zielführende Leistungen, ihr Recht und ihr Geld (zurück) zu bekommen.
+
+Unser Team besteht aus Bank- und Finanzfachwirten sowie spezialisierten Anwälten mit viel Erfahrung im Durchsetzen von Verbraucherrechten, insbesondere im Thema Rückabwicklung von Lebensversicherungen.
+
+Nutzen auch Sie unser starkes Netzwerk und unsere Erfahrung aus über 45.000 bearbeiteten Verträgen.
+
+Die Aufgabe von VerbraucherRechte24 besteht in der Unterstützung bei der Durchsetzung Ihrer Rechte gegenüber Banken, Versicherungen und Konzernen – ohne Kostenrisiko für Sie.
+
+
+Weitere Informationen über unsere Tätigkeitsschwerpunkte erhalten Sie unter: www.verbraucherhilfe24.de/lebens-und-rentenversicherung/
+
+
+Wie funktioniert die Rückabwicklung Ihrer Lebensversicherungen?
+
+1. Wir lassen für Sie Lebens- und Rentenversicherungen, die im Zeitraum vom 1. Januar 1991 bis 31. Dezember 2007 abgeschlossen worden sind, von spezialisierten Anwälten prüfen.
+
+Eine Anspruchsgrundlage liegt vor, wenn Sie über Ihr Widerrufsrecht nicht ordnungsgemäß belehrt wurden sind oder formale Fehler gemacht wurden. Dies ist nach unserer Erfahrung bei CMI / Clerical Medical häufig der Fall (auch zahlreiche weitere Gesellschaften sind betroffen).
+
+
+Betroffen sind gekündigte, laufende und regulär abgelaufene Lebens -und Rentenversicherungen.
+Für die Erstprüfung benötigen wir idealerweise:
+
+Bei laufenden Verträgen:
+
+- Bestmöglich ausgefüllte Checkliste (siehe Anlage)
+- Rückkaufswert (sollte nicht älter als 3 Monate sein)
+
+Bei gekündigten Verträgen:
+
+- Bestmöglich ausgefüllte Checkliste
+- Höhe des ausgezahlten Rückkaufswertes inkl. Abrechnung des Versicherers
+
+
+Je mehr Unterlagen Sie zur Verfügung stellen können, desto hilfreicher ist dies für die Anwälte.
+Die Überprüfung Ihrer Verträge durch auf Clerical Medical spezialisierte Anwälte ist für Sie selbstverständlich kostenfrei.
+
+
+Bitten senden Sie uns die beigefügte ausgefüllte Checkliste und Ihre Unterlagen zurück und geben Sie bitte Ihre persönliche Bearbeitungsnummer an: {!Opportunity.Number__c}
+
+Antworten Sie auf unsere Mail oder schicken Sie eine E-Mail an:
+lebensversicherung@verbraucherhilfe24.de
+
+oder
+per Fax an:
+
+089 124 147 419
+
+oder
+mit der Post an:
+
+VerbraucherHilfe24 GmbH
+Abt. Lebensversicherung
+Albert-Roßhaupter-Str. 32
+81369 München
+
+
+Bei Rückfragen, rufen Sie mich gerne an unter meiner Nummer: {!User.Phone} oder schreiben Sie mir eine E-Mail: lebensversicherung@verbraucherhilfe24.de
+
+Mit freundlichen Grüßen
+{!User.FirstName} {!User.LastName} {!User.Title}
+
+
+
+VH24 GmbH
+Albert-Roßhaupter-Str. 32
+81369 München
+Telefon: 089 - 124 147 418
+Kontakt: office@verbraucherhilfe24.de
+
+www.verbraucherhilfe24.de
+
+Registergericht beim Amtsgericht München unter 371 E - M 1779 als Inkassodienstleister gem. §10 abs. 1 RDG | Handelsregister: HRB 217774 Amtsgericht München | USt-IDNr: DE277526577
+
+Abmelden</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

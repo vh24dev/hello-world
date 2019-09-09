@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>EA189</fullName>
+        <default>false</default>
+        <label>EA189</label>
+    </customValue>
+    <customValue>
+        <fullName>EA897</fullName>
+        <default>false</default>
+        <label>EA897</label>
+    </customValue>
+    <customValue>
+        <fullName>OM622</fullName>
+        <default>false</default>
+        <label>OM622</label>
+    </customValue>
+    <customValue>
+        <fullName>OM626</fullName>
+        <default>false</default>
+        <label>OM626</label>
+    </customValue>
+    <customValue>
+        <fullName>OM642</fullName>
+        <default>false</default>
+        <label>OM642</label>
+    </customValue>
+    <customValue>
+        <fullName>OM651</fullName>
+        <default>false</default>
+        <label>OM651</label>
+    </customValue>
+    <customValue>
+        <fullName>OM607</fullName>
+        <default>false</default>
+        <label>OM607</label>
+    </customValue>
+    <customValue>
+        <fullName>Anderer Motortyp</fullName>
+        <default>false</default>
+        <label>Anderer Motortyp</label>
+    </customValue>
+    <masterLabel>Motortyp</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

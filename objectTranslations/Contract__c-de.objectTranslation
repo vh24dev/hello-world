@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?><CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label><!-- BypassProcessBuilder --></label>
+        <name>BypassProcessBuilder__c</name>
+    </fields>
+    <fields>
+        <label><!-- Zeit bis Follow-up --></label>
+        <name>Follow_up_Period__c</name>
+    </fields>
+    <fields>
+        <label><!-- Old Id --></label>
+        <name>Old_Id__c</name>
+    </fields>
+    <fields>
+        <label><!-- Old Vertrag ID --></label>
+        <name>Old_Vertrag_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Opportunity Id --></label>
+        <name>Opportunity_Id__c</name>
+    </fields>
+    <fields>
+        <label><!-- Bearbeitungsnummer --></label>
+        <name>Opportunity_Number__c</name>
+    </fields>
+    <fields>
+        <label><!-- Anfrage --></label>
+        <name>Opportunity__c</name>
+        <relationshipLabel><!-- Verträge --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Re-contracting --></label>
+        <name>Re_contracting__c</name>
+    </fields>
+    <fields>
+        <label><!-- Status --></label>
+        <name>Stage__c</name>
+    </fields>
+    <caseValues>
+        <caseType>Nominative</caseType>
+        <plural>false</plural>
+        <value>Vertrag</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Nominative</caseType>
+        <plural>true</plural>
+        <value>Verträge</value>
+    </caseValues>
+    <gender>Neuter</gender>
+    <webLinks>
+        <label><!-- Create_Document --></label>
+        <name>Create_Document</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- DidNotReceiveContract --></label>
+        <name>DidNotReceiveContract</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Resend_Contract --></label>
+        <name>Resend_Contract</name>
+    </webLinks>
+</CustomObjectTranslation>

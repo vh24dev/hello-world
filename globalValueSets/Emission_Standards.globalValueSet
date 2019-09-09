@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Nicht betroffen</fullName>
+        <default>false</default>
+        <label>Nicht betroffen</label>
+    </customValue>
+    <customValue>
+        <fullName>EURO4</fullName>
+        <default>false</default>
+        <label>EURO4</label>
+    </customValue>
+    <customValue>
+        <fullName>EURO5</fullName>
+        <default>false</default>
+        <label>EURO5</label>
+    </customValue>
+    <customValue>
+        <fullName>EURO6</fullName>
+        <default>false</default>
+        <label>EURO6</label>
+    </customValue>
+    <customValue>
+        <fullName>Fahrzeugschein fehlt</fullName>
+        <default>false</default>
+        <label>Fahrzeugschein fehlt</label>
+    </customValue>
+    <customValue>
+        <fullName>Nur Fahrzeugbrief</fullName>
+        <default>false</default>
+        <label>Nur Fahrzeugbrief</label>
+    </customValue>
+    <customValue>
+        <fullName>Fahrzeugschein ohne Norm</fullName>
+        <default>false</default>
+        <label>Fahrzeugschein ohne Norm</label>
+    </customValue>
+    <masterLabel>Emission Standards</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

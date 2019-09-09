@@ -1,0 +1,4 @@
+<apex:page standardController="Invoice__c" recordSetVar="invoices" extensions="PickInvoice" showHeader="true" action="{!renderPage}">
+    <apex:pageBlock title="In Bearbeitung...">
+    </apex:pageBlock>
+</apex:page>

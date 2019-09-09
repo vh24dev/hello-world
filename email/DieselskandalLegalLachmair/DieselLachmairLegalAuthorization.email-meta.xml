@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Vollmacht neu anfordern</description>
+    <encodingKey>UTF-8</encodingKey>
+    <name>DieselLachmairLegalAuthorization</name>
+    <style>none</style>
+    <subject>Ihre Vollmacht an RAe Wilhelm Lachmair und Kollegen, {!Authorization__c.Opportunity__r.Number__c}</subject>
+    <type>text</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

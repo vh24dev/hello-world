@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>BMW Erstzulassung nach 2014</description>
+    <encodingKey>UTF-8</encodingKey>
+    <name>DieselskandalGeneralRefusalBmwEzNach2014Vr24</name>
+    <style>none</style>
+    <subject>BMW Erstzulassung nach 2014 | Ihre Bearbeitungsnummer: {!Opportunity.Number__c}</subject>
+    <textOnly>{!Contact.Salutation__c}, 
+
+Ihre Bearbeitungsnummer: {!Opportunity.Number__c}. 
+
+BMW hat am 01.06.2014 die Widerrufsbelehrung und auch den Darlehens- bzw. Leasingvertrag so angepasst, dass nur noch kleine Fehler enthalten sind. Deshalb können die Verträge von BMW ab diesem Zeitpunkt nicht erfolgsversprechende bearbeitet werden. 
+Daher müssen wir Ihr Mandat leider niederlegen. Für Ihr Vertrauen bedanken wir uns und wünschen Ihnen für Ihre private und berufliche Zukunft alles Gute. 
+
+Mit freundlichen Grüßen 
+
+{!User.FirstName} {!User.LastName} 
+{!User.Title} 
+Abt. Diesel-Skandal</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

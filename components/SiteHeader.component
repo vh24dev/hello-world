@@ -1,0 +1,8 @@
+<apex:component id="headerComponent">
+    <div>
+        
+        
+Verbraucherhilfe24
+        
+    </div>
+</apex:component>

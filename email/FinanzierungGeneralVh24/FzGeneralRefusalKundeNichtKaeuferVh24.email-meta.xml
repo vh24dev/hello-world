@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Kunde nicht Käufer</description>
+    <encodingKey>UTF-8</encodingKey>
+    <name>FzGeneralRefusalKundeNichtKäuferVh24</name>
+    <style>none</style>
+    <subject>Kunde Nicht Käufer | Ihre Bearbeitungsnummer: {!Opportunity.Number__c}</subject>
+    <textOnly>{!Contact.Salutation__c},
+
+Ihre Bearbeitungsnummer: {!Opportunity.Number__c}
+
+Bei der Durchsicht Ihrer Unterlagen ist uns aufgefallen, dass Sie der Halter und nicht der Eigentümer des streitgegenständlichen Fahrzeugs sind. Ansprüche gegen den Hersteller stehen grds. nur dem Eigentümer des Fahrzeugs zu. Daher benötigen wir zur Geltendmachung der Ansprüche eine wirksame Vollmacht des KFZ-Eigentümers. Bitte informieren Sie den Eigentümer, dieser kann sich zur Wahrnehmung seiner rechtlichen Interessen gerne von der Verbraucherhilfe24 vertreten lassen. 
+
+Aus diesem Grund müssen wir Ihnen leider mitteilen, dass wir Ihr Mandat niederlegen müssen. 
+
+Für Ihr Vertrauen bedanken wir uns. 
+
+Mit freundlichen Grüßen
+
+
+{!User.FirstName} {!User.LastName}
+{!User.Title}
+Abt. Diesel-Skandal</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

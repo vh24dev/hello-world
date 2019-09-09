@@ -1,0 +1,83 @@
+<apex:page docType="html-5.0" controller="MissingDocumentsController" action="{!init}" pageStyle="" wizard="false" sidebar="false" standardStylesheets="false" showHeader="false" showQuickActionVfHeader="false">
+
+    <apex:composition template="MissingDocumentsTemplate">
+        <apex:define name="title">{! title}</apex:define>
+        <apex:define name="header">
+            <apex:pageBlock rendered="{!renderLv = false}">
+                <h2>Dokumente zu Ihrem Auftrag</h2>
+                <div class="txt-init begin">Nach Übermittlung der Unterlagen werden wir umgehend für Sie tätig!<br/></div><br/>
+            </apex:pageBlock>
+            <apex:pageBlock rendered="{!renderLv = true}">
+                <h2>Dokumente zur Versicherungspolice</h2>
+                <div class="begin">
+                    <strong>Hinweis: </strong> Wenn Sie sicher sind, dass Sie alle Ihnen vorliegenden Dokumente zum Hochladen ausgewählt haben,
+                    aktivieren Sie bitte die untere Checkbox. Sie können pro Dokumententyp mehrere Datein zum Hochladen auswählen.
+                </div>
+                <br/>
+            </apex:pageBlock>
+        </apex:define>
+        <apex:define name="body">
+            <apex:pageMessage rendered="{!errorNoDocuments}" summary="Bitte laden Sie ein Dokument hoch." severity="warning" strength="3" />
+            <apex:pageBlock rendered="{!renderLv = false}">
+                <h3 class="begin">
+                    Hier können Sie die Muster-Vollmacht(en) herunterladen:
+                </h3>
+                <div class="vollmacht-doc">
+                    <ul>
+                        <apex:repeat value="{!vollmachts}" var="vm">
+                            <li><apex:outputLink value="{!URLFOR($Action.Attachment.Download, vm.id)}">{!vm.name}</apex:outputLink></li>
+                        </apex:repeat>
+                    </ul>
+                </div>
+                <apex:form >
+                    <label>Fahrzeugschein Teil 1, nur Vorderseite</label>
+                    <apex:inputFile value="{!registrationData}" filename="{!registrationName}" contentType="{!registrationContentType}"/>
+                    <label>Kopie Kaufvertrag oder Rechnung (kein Angebot, keine Bestellung)</label>
+                    <apex:inputFile value="{!invoiceData}" filename="{!invoiceName}" contentType="{!invoiceContentType}"/>
+                    <label>Bescheinigung Software-Update (wenn vorhanden)</label>
+                    <apex:inputFile value="{!confirmationData}" filename="{!confirmationName}" contentType="{!confirmationContentType}"/>
+                    <label>Unterschriebene anwaltliche Vollmacht</label>
+                    <apex:inputFile value="{!authData}" filename="{!authName}" contentType="{!authContentType}"/>
+                    <label>Darlehens-/Leasingvertrag</label>
+                    <apex:inputFile value="{!loanData}" filename="{!loanName}" contentType="{!loanContentType}"/>
+                    <div>
+                        <apex:commandButton value="Jetzt Hochladen" action="{!upload}"/>
+                    </div>
+                    <br /><br /><br />
+                </apex:form>
+            </apex:pageBlock>
+            <apex:pageBlock rendered="{!renderLv = true}">
+                <h3 class="begin">
+                    Hier können Sie die Muster-Vollmacht(en) herunterladen:<br/><br/>
+                    <!--Keine Vollmacht vorhanden.<br/>                -->
+                </h3>
+               <div class="vollmacht-doc">
+                    <ul>
+                        <apex:repeat value="{!vollmachts}" var="vm">
+                            <li><apex:outputLink value="{!URLFOR($Action.Attachment.Download, vm.id)}">{!vm.name}</apex:outputLink></li>
+                        </apex:repeat>
+                    </ul>
+                </div>
+                
+                <apex:form >
+                    <label>Vollmacht</label>
+                    <apex:inputFile value="{!authDataLv}" filename="{!authNameLv}" contentType="{!authContentTypeLv}"/>
+                    <label>Sonstiges</label>
+                    <apex:inputFile value="{!otherData}" filename="{!otherName}" contentType="{!otherContentType}"/>
+                    <div>
+                        <h2>
+                            Bemerkung
+                        </h2>
+                        <div>
+                            <apex:input value="{!note}" required="false"/>   
+                        </div>
+                    </div>
+                    <div>
+                        <apex:commandButton value="Jetzt Daten übermitteln" action="{!upload}"/>
+                    </div>
+                    <br /><br /><br />
+                </apex:form>
+            </apex:pageBlock>
+        </apex:define>
+    </apex:composition>
+</apex:page>

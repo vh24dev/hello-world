@@ -1,0 +1,8 @@
+<apex:page showheader="true">
+    <apex:messages />
+    <apex:pageBlock title="Fehler!">
+       <apex:form >
+            <apex:outputLabel value="Auswählen von Anfragen für Deine Nutzerrolle nicht gestattet."/>     
+        </apex:form>
+    </apex:pageBlock>
+</apex:page>

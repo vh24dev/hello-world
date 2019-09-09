@@ -1,0 +1,6 @@
+<apex:page standardController="Contract__c" extensions="DidNotReceiveContract"
+           showHeader="false" action="{! renderPage}">
+    <apex:pageBlock title="In Bearbeitung....">
+        <apex:pageMessages />
+    </apex:pageBlock>
+</apex:page>

@@ -1,0 +1,13 @@
+<apex:page standardController="Claim__c"  recordSetVar="claims" extensions="CreateLawsuitPackage" showheader="false">
+       <apex:pageBlock title="Klagepaket erstellen">
+       <apex:form >
+            <apex:pageBlockSection columns="1" id="lawsuitPackageSection">
+                <apex:inputField label="Bezeichnung:" required="true" value="{!parLawsuitPackage.Label__c}" id="label"/>
+                <apex:inputField label="Typ:" required="true" value="{!parLawsuitPackage.Type__c}" id="type"/>
+            </apex:pageBlockSection>
+            <br /><br />
+
+            <apex:commandButton value="Erstellen" action="{!renderPage}" /> 
+        </apex:form>
+    </apex:pageBlock>
+</apex:page>

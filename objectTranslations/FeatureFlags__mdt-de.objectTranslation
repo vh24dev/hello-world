@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?><CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label><!-- Is Active --></label>
+        <name>Is_Active__c</name>
+    </fields>
+    <fields>
+        <label><!-- Vollmacht Email Attachment Fix --></label>
+        <name>Vollmacht_Email_Attachment_Fix__c</name>
+    </fields>
+    <caseValues>
+        <caseType>Nominative</caseType>
+        <plural>false</plural>
+        <value>FeatureFlags</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Nominative</caseType>
+        <plural>true</plural>
+        <value>FeatureFlags</value>
+    </caseValues>
+    <gender>Neuter</gender>
+</CustomObjectTranslation>

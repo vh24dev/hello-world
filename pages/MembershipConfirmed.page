@@ -1,0 +1,14 @@
+<apex:page docType="html" pageStyle="" wizard="false" sidebar="false" standardStylesheets="false" showHeader="false" showQuickActionVfHeader="false">
+    <apex:composition template="MembershipTemplate">
+        <apex:define name="body">
+            <div>
+                <h1 style="color: #144A8E">
+                    Zustimmung zur Einzelklage
+                </h1>
+                <p>
+                    Vielen Dank!
+                </p>
+            </div>
+        </apex:define>
+    </apex:composition>
+</apex:page>

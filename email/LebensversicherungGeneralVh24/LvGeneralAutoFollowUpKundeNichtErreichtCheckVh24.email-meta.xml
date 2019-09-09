@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Kunde nicht erreicht</description>
+    <encodingKey>UTF-8</encodingKey>
+    <name>LvGeneralAutoFollowUpKundeNichtErreichtCheckVh24</name>
+    <style>none</style>
+    <subject>Betreff: [Reminder] {!Contact.FirstName} {!Contact.LastName} bitte um Rückruf zur Bearbeitungsnummer {!Opportunity.Number__c}</subject>
+    <textOnly>{!Contact.Salutation__c},
+
+in den vergangenen Tagen haben wir für Sie geprüft, ob Ihre Versicherung rückabgewickelt werden kann.
+Nun ist es an der Zeit aktiv zu werden!
+
+Gerne würden wir mit Ihnen das weitere Vorgehen besprechen, jedoch haben wir Sie telefonisch nicht erreicht.
+
+Bitte um Rückruf unter der Nummer: 089 - 124 147 418
+
+Oder teilen Sie uns einfach per Email mit wann Sie am besten erreichbar sind: vormittags, nachmittags, abends.
+Unsere Spezialisten zu diesem Thema beraten Sie kostenlos!
+
+Alternativ können Sie natürlich gerne: Ihre Daten vervollständigen
+(Bitte beachten Sie: Den Dokumentenupload finden Sie ganz unten im Formular)
+
+Wir freuen uns darauf, für Sie tätig zu werden.
+
+
+Mit freundlichen Grüßen
+
+Ihre Verbraucherhilfe24
+
+
+
+VH24 GmbH
+Albert-Roßhaupter-Str. 32
+81369 München
+Telefon: 089 - 124 147 418
+Kontakt: office@verbraucherhilfe24.de
+
+www.verbraucherhilfe24.de
+
+Registergericht beim Amtsgericht München unter 371 E - M 1779 als Inkassodienstleister gem. §10 abs. 1 RDG | Handelsregister: HRB 217774 Amtsgericht München | USt-IDNr: DE277526577
+
+Abmelden</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

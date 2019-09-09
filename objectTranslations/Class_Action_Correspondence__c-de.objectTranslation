@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?><CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label><!-- Sammelklage --></label>
+        <name>Class_Action__c</name>
+        <relationshipLabel><!-- Sammelklagenkorrespondenzen --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Datum --></label>
+        <name>Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Titel --></label>
+        <name>Description__c</name>
+    </fields>
+    <fields>
+        <label><!-- Zeit bis Wiedervorlage --></label>
+        <name>Follow_up_Period__c</name>
+    </fields>
+    <fields>
+        <label><!-- Zur Kenntnisnahme --></label>
+        <name>Inform_Customer__c</name>
+    </fields>
+    <fields>
+        <label><!-- Old Sammelklagenkorrespondenz ID --></label>
+        <name>Old_Sammelklagenkorrespondenz_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Zeichen des Gegners --></label>
+        <name>Opponent_Reference__c</name>
+    </fields>
+    <fields>
+        <label><!-- Status --></label>
+        <name>Stage__c</name>
+    </fields>
+    <fields>
+        <label><!-- Term Clean --></label>
+        <name>Term_Clean__c</name>
+    </fields>
+    <fields>
+        <label><!-- Frist --></label>
+        <name>Term__c</name>
+    </fields>
+    <fields>
+        <label><!-- Typ --></label>
+        <name>Type__c</name>
+    </fields>
+    <caseValues>
+        <caseType>Nominative</caseType>
+        <plural>false</plural>
+        <value>Sammelklagenkorrespondenz</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Nominative</caseType>
+        <plural>true</plural>
+        <value>Sammelklagenkorrespondenzen</value>
+    </caseValues>
+    <gender>Feminine</gender>
+</CustomObjectTranslation>

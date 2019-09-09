@@ -1,0 +1,30 @@
+{!Contact.Salutation__c}, 
+
+Ihre Bearbeitungsnummer: {!Opportunity.Number__c}. 
+
+Vielen Dank für Ihr Vertrauen, 
+
+leider können wir Ihren Fall nicht weiterbearbeiten und beenden im Zuge dessen das Klageverfahren gegen den Hersteller. 
+
+Aufgrund der Tatsache, dass zum Kauf des KFZ bereits Kenntnis über den Dieselabgasskandal und der daraus folgenden Mängel bestanden haben muss fehlt der rechtliche Hintergrund dagegen vorzugehen. 
+
+Die Abgasaffäre war bereits seit September 2015 öffentlich in den Medien vertreten und damit hinlänglich bekannt. 
+
+Wir bedanken uns diesbezüglich für Ihr Verständnis. 
+
+Mit freundlichen Grüßen 
+
+
+Rechtsanwalt Dr. Henning Leitz 
+Partner 
+
+CLLB Rechtsanwälte 
+Cocron, Liebl, Leitz, Braun, Kainz, Sittner Partnerschaft mbB München - Berlin 
+
+Liebigstr. 21 
+80538 München 
+Tel.: +49-89-552 999 50 
+Fax.:+49-89-552 999 90 
+mail: kanzlei@cllb.de 
+
+Ref-Nr: {!Claim__c.Id}

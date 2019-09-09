@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Beginn Fristlauf auf Ungenannten Unterlagen</description>
+    <encodingKey>UTF-8</encodingKey>
+    <name>LvLeComWiderspruchAnwaltFehlerBeginnFristlaufAufUngenannteUnterlagen</name>
+    <style>none</style>
+    <subject>Fehler: Beginn Fristlauf auf ungenannte Unterlagen</subject>
+    <type>text</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

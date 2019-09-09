@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Nicht im Zeitraum</fullName>
+        <default>false</default>
+        <label>Nicht im Zeitraum</label>
+    </customValue>
+    <customValue>
+        <fullName>Kunde möchte nicht wegen Preis</fullName>
+        <default>false</default>
+        <label>Kunde möchte nicht wegen Preis</label>
+    </customValue>
+    <customValue>
+        <fullName>Kunde will nicht</fullName>
+        <default>false</default>
+        <label>Kunde will nicht</label>
+    </customValue>
+    <customValue>
+        <fullName>Widerruf nicht angreifbar</fullName>
+        <default>false</default>
+        <label>Widerruf nicht angreifbar</label>
+    </customValue>
+    <customValue>
+        <fullName>Potential zu gering</fullName>
+        <default>false</default>
+        <label>Potential zu gering</label>
+    </customValue>
+    <customValue>
+        <fullName>Kein wirtschaftliches Potential</fullName>
+        <default>false</default>
+        <label>Kein wirtschaftliches Potential</label>
+    </customValue>
+    <customValue>
+        <fullName>Dokumente nicht geschickt</fullName>
+        <default>false</default>
+        <label>Dokumente nicht geschickt</label>
+    </customValue>
+    <customValue>
+        <fullName>Kunde hat widerrufen</fullName>
+        <default>false</default>
+        <label>Kunde hat widerrufen</label>
+    </customValue>
+    <customValue>
+        <fullName>Auto verkauft</fullName>
+        <default>false</default>
+        <label>Auto verkauft</label>
+    </customValue>
+    <customValue>
+        <fullName>Fahrzeug nicht betroffen</fullName>
+        <default>false</default>
+        <label>Fahrzeug nicht betroffen</label>
+    </customValue>
+    <customValue>
+        <fullName>Kunde nicht Käufer</fullName>
+        <default>false</default>
+        <label>Kunde nicht Käufer</label>
+    </customValue>
+    <customValue>
+        <fullName>Kunde nicht erreichbar</fullName>
+        <default>false</default>
+        <label>Kunde nicht erreichbar</label>
+    </customValue>
+    <customValue>
+        <fullName>Kunde verstorben</fullName>
+        <default>false</default>
+        <label>Kunde verstorben</label>
+    </customValue>
+    <customValue>
+        <fullName>Kunde hat keine RSV</fullName>
+        <default>false</default>
+        <label>Kunde hat keine RSV</label>
+    </customValue>
+    <customValue>
+        <fullName>Leasing Vertrag</fullName>
+        <default>false</default>
+        <label>Leasing Vertrag</label>
+    </customValue>
+    <customValue>
+        <fullName>Keine Widerrufsbelehrung</fullName>
+        <default>false</default>
+        <label>Keine Widerrufsbelehrung</label>
+    </customValue>
+    <customValue>
+        <fullName>BMW EZ nach 01.06.2014</fullName>
+        <default>false</default>
+        <label>BMW EZ nach 01.06.2014</label>
+    </customValue>
+    <customValue>
+        <fullName>Darlehensvertrag älter als 2 Jahre</fullName>
+        <default>false</default>
+        <label>Darlehensvertrag älter als 2 Jahre</label>
+    </customValue>
+    <customValue>
+        <fullName>Nutzungsanteil zu gering</fullName>
+        <default>false</default>
+        <label>Nutzungsanteil zu gering</label>
+    </customValue>
+    <customValue>
+        <fullName>Kapital zu gering</fullName>
+        <default>false</default>
+        <label>Kapital zu gering</label>
+    </customValue>
+    <customValue>
+        <fullName>Österreich/Schweiz kleiner Motor</fullName>
+        <default>false</default>
+        <label>Österreich/Schweiz kleiner Motor</label>
+    </customValue>
+    <customValue>
+        <fullName>Umrüstung erfolgt</fullName>
+        <default>false</default>
+        <label>Umrüstung erfolgt</label>
+    </customValue>
+    <customValue>
+        <fullName>Mfk nicht bestätigt</fullName>
+        <default>false</default>
+        <label>Mfk nicht bestätigt</label>
+    </customValue>
+    <customValue>
+        <fullName>Effektiver Jahreszins 0,00%</fullName>
+        <default>false</default>
+        <label>Effektiver Jahreszins 0,00%</label>
+    </customValue>
+    <customValue>
+        <fullName>Sonstige Gründe</fullName>
+        <default>false</default>
+        <label>Sonstige Gründe</label>
+    </customValue>
+    <customValue>
+        <fullName>Sonstige Gründe (ohne Mail)</fullName>
+        <default>false</default>
+        <label>Sonstige Gründe (ohne Mail)</label>
+    </customValue>
+    <customValue>
+        <fullName>Aussortiert</fullName>
+        <default>false</default>
+        <label>Aussortiert</label>
+    </customValue>
+    <customValue>
+        <fullName>Absage wegen Kenntnis</fullName>
+        <default>false</default>
+        <label>Absage wegen Kenntnis</label>
+    </customValue>
+    <masterLabel>Reasons For Loss</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

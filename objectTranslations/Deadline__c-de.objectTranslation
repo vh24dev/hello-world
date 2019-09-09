@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?><CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label><!-- Anfrage --></label>
+        <name>Anfrage__c</name>
+        <relationshipLabel><!-- Fristen --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- BypassProcessBuilder --></label>
+        <name>BypassProcessBuilder__c</name>
+    </fields>
+    <fields>
+        <label><!-- Fall --></label>
+        <name>Claim__c</name>
+        <relationshipLabel><!-- Fristen --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Datum --></label>
+        <name>Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Warnzeitraum vor Fristablauf --></label>
+        <name>Follow_up_Period__c</name>
+    </fields>
+    <fields>
+        <label><!-- FristImpID --></label>
+        <name>FristImpID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Is My Deadline --></label>
+        <name>Is_My_Deadline__c</name>
+    </fields>
+    <fields>
+        <label><!-- Anwalt --></label>
+        <name>Legal_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Old Frist ID --></label>
+        <name>Old_Frist_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Opportunity Id --></label>
+        <name>Opportunity_Id__c</name>
+    </fields>
+    <fields>
+        <label><!-- Status --></label>
+        <name>Stage__c</name>
+    </fields>
+    <fields>
+        <label><!-- Bezeichnung --></label>
+        <name>Subject__c</name>
+    </fields>
+    <fields>
+        <label><!-- Typ --></label>
+        <name>Type__c</name>
+    </fields>
+    <caseValues>
+        <caseType>Nominative</caseType>
+        <plural>false</plural>
+        <value>Frist</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Nominative</caseType>
+        <plural>true</plural>
+        <value>Fristen</value>
+    </caseValues>
+    <gender>Feminine</gender>
+</CustomObjectTranslation>

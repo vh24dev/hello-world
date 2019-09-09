@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>AGB anfordern Template</description>
+    <encodingKey>UTF-8</encodingKey>
+    <name>DieselskandalCallcenterFormstep2LinkVh24</name>
+    <style>none</style>
+    <subject>Jetzt handeln! Ihr Recht im Dieselskandal</subject>
+    <textOnly>Auftragsdaten in wenigen Schritten hochladen.
+
+{!Lead.Salutation__c},
+
+wir haben Ihre Anfrage für die Durchsetzung Ihrer Rechte im Dieselskandal erhalten und können
+bestätigen, dass Ihre Chancen auf Schadensersatz sehr gut sind.
+Um für Sie tätig werden zu können, benötigen wir noch weitere Informationen von Ihnen.
+
+Daten jetzt vervollständigen.Nur noch wenige Informationen und wir werden für Sie tätig!
+
+Noch Fragen?
+
+Wenn Sie Fragen haben oder mit uns direkt telefonieren möchten, erreichen Sie uns unter 089 - 124 147 413 oder Sie fordern einfach einen Rückruf an.
+
+
+Wir freuen uns darauf, für Sie tätig zu werden.
+
+Ihre Verbraucherhilfe24
+
+
+
+VH24 GmbH
+Albert-Roßhaupter-Str. 32
+81369 München
+Telefon: 089 - 124 147 413
+Kontakt: office@verbraucherhilfe24.de
+
+www.verbraucherhilfe24.de
+
+Registergericht beim Amtsgericht München unter 371 E - M 1779 als Inkassodienstleister gem. §10 abs. 1 RDG | Handelsregister: HRB 217774 Amtsgericht München | USt-IDNr: DE277526577
+
+
+Abmelden
+
+
+Widerrufserklärung inkl. AGB</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Auto verkauft</description>
+    <encodingKey>UTF-8</encodingKey>
+    <name>DieselskandalGeneralRefusalAutoVerkauftVh24</name>
+    <style>none</style>
+    <subject>Sie haben Ihr Auto verkauft | Ihre Bearbeitungsnummer: {!Opportunity.Number__c}</subject>
+    <textOnly>Ihre Anfrage im Diesel-Abgasskandal
+
+
+
+{!Contact.Salutation__c},
+
+
+Ihre Bearbeitungsnummer: {!Opportunity.Number__c}
+
+Sie haben uns mit der Wahrnehmung Ihrer Ansprüche gegen den Fahrzeughersteller im Diesel-Abgasskandal beauftragt. Vielen Dank für das uns entgegengebrachte Vertrauen. Da Sie Ihr Fahrzeug zwischenzeitlich verkauft haben, können wir leider nicht mehr nachweisen, welche Schäden durch die Abgasmanipulation entstanden sind. Daher müssen wir das Mandat niederlegen.
+
+Gern möchten wir Sie auch in Zukunft rund um den Dieselskandal informieren und Sie mit Updates zu anderen spannenden Rechtsthemen im Verbraucherbereich auf dem Laufenden halten. Dazu können Sie sich zu unserem kostenlosen Newsletter anmelden.
+
+Wir hoffen, dass wir Sie bei Ihrem nächsten Verbraucherrechts-Thema erneut unterstützen können! Bis dahin wünschen wir Ihnen alles Gute und verbleiben
+
+mit freundlichen Grüßen
+
+Ihr Team von Verbraucherhilfe24
+
+
+
+auto@verbraucherhilfe24.de
+
+089 124 147 413
+
+Rückruf vereinbaren
+
+Nehmen Sie sich 5 Minuten Zeit - Wir übernehmen den Rest!
+
+Sichern Sie sich jetzt bis zu 10.000 Euro Schadensersatz für Ihren Diesel! Dafür ist es übrigens noch nicht zu spät. So haben Sie voraussichtlich auch 2019 noch die Chance, Ihre Ansprüche gegen den VW-Konzern durchzusetzen. Nach aktuellem Stand verjähren die Schadensersatzansprüche gegen VW nicht Ende 2018 und Sie haben auch jetzt noch die Möglichkeit, zu Ihrem Recht zu kommen.
+
+Verbraucherhilfe24 – Wer wir sind
+
+Wir sind eine erfolgreiche Anlaufstelle für geschädigte Verbraucher und arbeiten mit einem Netzwerk von knapp 100 spezialisierten Partneranwälten sowie externen Bank- und Finanzfachwirten zusammen. Gemeinsam mit unseren Partneranwälten begleiten wir Sie zuverlässig und seriös bei der Durchsetzung Ihrer Ansprüche. Möglich macht dies unser effizientes Klageverfahren, bei dem wir zusammen mit externen Experten die Interessen vieler Geschädigter systematisch abwickeln und so auch gegen große Konzerne Erfolge erzielen.
+
+Verbraucherhilfe24 – Was wir tun
+
+Lassen Sie sich durch unsere erfahrenen Partneranwälte über die Rechtslage aufklären. Gemeinsam unterstützen wir Sie und greifen ein, wenn es für Ihren Fall Sinn macht. Mit unseren Partneranwälten ermitteln und archivieren wir bedeutsame Urteile aus dem verbraucherrechtlichen Bereich und unterstützen Sie dabei, Ihr Recht und Ihr Geld (zurück)zubekommen.
+
+Verbraucherhilfe24 – Wofür wir stehen
+
+Unsere Mission ist die Durchsetzung Ihrer Rechte gegenüber Autoherstellern, Banken, Versicherungen und Konzernen durch erfahrene, externe Rechtsexperten – ohne Kostenrisiko für Sie.
+
+Statt die leidgeprüften Dieselfahrer nach drei Jahren Abgasskandal über eine Schnellstraße direkt ins Ziel zu bringen, schickt der Gesetzgeber sie mit der Musterfeststellungsklage noch mal auf eine Umleitung mit Schlaglöchern.
+
+Denis Krebs
+Geschäftsführer
+
+Wir freuen uns darauf für Sie aktiv zu werden!
+Ihr Team von Verbraucherhilfe24
+
+*Ihre Daten werden vertraulich behandelt. Wir nutzen Ihre Telefonnummer nicht zu Werbezwecken sondern nur, um Kontakt mit Ihnen bezogen auf Ihren konkreten Fall aufzunehmen.
+
+VH24 GmbH
+Albert-Roßhaupter-Str. 32
+81369 München
+
+Telefon: 089 - 124 147 413
+Fax: 089 - 124 147 419
+www.verbraucherhilfe24.de
+
+Kontakt: office@verbraucherhilfe24.de
+
+Registriert beim Amtsgericht München unter 371 E – M 1779 als Inkassodienstleister gem. § 10 Abs. 1 RDG Handelsregister: HRB 217774 Amtsgericht München USt-IDNr: DE277526577
+Abmelden</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?><CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label><!-- Anrede --></label>
+        <name>Anrede__c</name>
+        <picklistValues>
+            <masterLabel>Frau</masterLabel>
+            <translation><!-- Frau --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Herr</masterLabel>
+            <translation><!-- Herr --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Contact --></label>
+        <name>Contact__c</name>
+        <relationshipLabel><!-- Invitations --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Email --></label>
+        <name>Email__c</name>
+    </fields>
+    <fields>
+        <label><!-- Invitation URL --></label>
+        <name>Invitation_URL__c</name>
+    </fields>
+    <fields>
+        <label><!-- Invitee Id --></label>
+        <name>Invitee_Id__c</name>
+    </fields>
+    <fields>
+        <label><!-- Jahresgebühr abrechnen --></label>
+        <name>Jahresgeb_hr_abrechnen__c</name>
+        <picklistValues>
+            <masterLabel>ja</masterLabel>
+            <translation><!-- ja --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>nein</masterLabel>
+            <translation><!-- nein --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Nachname --></label>
+        <name>Nachname__c</name>
+    </fields>
+    <fields>
+        <label><!-- Partneranteil % --></label>
+        <name>Partneranteil__c</name>
+        <picklistValues>
+            <masterLabel>10</masterLabel>
+            <translation><!-- 10 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>20</masterLabel>
+            <translation><!-- 20 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>30</masterLabel>
+            <translation><!-- 30 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>40</masterLabel>
+            <translation><!-- 40 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>50</masterLabel>
+            <translation><!-- 50 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>60</masterLabel>
+            <translation><!-- 60 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>70</masterLabel>
+            <translation><!-- 70 --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Status --></label>
+        <name>Status__c</name>
+        <picklistValues>
+            <masterLabel>Accepted</masterLabel>
+            <translation><!-- Accepted --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>New</masterLabel>
+            <translation><!-- New --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sent</masterLabel>
+            <translation><!-- Sent --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Title --></label>
+        <name>Title__c</name>
+    </fields>
+    <fields>
+        <label><!-- Unternehmen --></label>
+        <name>Unternehmen__c</name>
+        <relationshipLabel><!-- Invitations (Unternehmen) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Vermittler --></label>
+        <name>Vermittler__c</name>
+        <relationshipLabel><!-- Invitations (Vermittler) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Vorname --></label>
+        <name>Vorname__c</name>
+    </fields>
+    <caseValues>
+        <caseType>Nominative</caseType>
+        <plural>false</plural>
+        <value>Partner Einladung</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Nominative</caseType>
+        <plural>true</plural>
+        <value>Invitations</value>
+    </caseValues>
+    <gender>Neuter</gender>
+</CustomObjectTranslation>

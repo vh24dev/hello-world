@@ -1,0 +1,19 @@
+Sehr geehrte Damen und Herren, 
+
+anbei überlassen wir das diesseitige Schreiben mit der Bitte um Kenntnisnahme. 
+
+Mit freundlichen Grüßen 
+
+
+{!Correspondence__c.Claim__r.Legal__r.Name}
+{!Correspondence__c.Claim__r.Legal__r.Title}
+
+{!Correspondence__c.Claim__r.Legal__r.CompanyName}
+{!Correspondence__c.Claim__r.Legal__r.Street} 
+{!Correspondence__c.Claim__r.Legal__r.PostalCode} {!Correspondence__c.Claim__r.Legal__r.City}
+
+
+Tel.: {!Correspondence__c.Claim__r.Legal__r.Phone} 
+Fax: {!Correspondence__c.Claim__r.Legal__r.Fax} 
+E-Mail: {!Correspondence__c.Claim__r.Legal__r.Email} 
+Ref-Nr: {!Correspondence__c.Id}

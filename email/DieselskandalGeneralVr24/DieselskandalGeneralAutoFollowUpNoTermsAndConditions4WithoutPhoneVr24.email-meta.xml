@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>4. Erinnerung nach Anmeldung</description>
+    <encodingKey>UTF-8</encodingKey>
+    <name>DieselskandalGeneralAutoFollowUpNoTermsAndConditions4WithoutPhoneVr24</name>
+    <style>none</style>
+    <subject>Kostenfreie Dieselklage - Ein ausgezeichneter Service von VH24 - Nr: {!Opportunity.Number__c}</subject>
+    <textOnly>{!Contact.Salutation__c},
+
+machen Sie es wie tausende vom Diesel Skandal Betroffene und nutzen Sie jetzt den Klage-Service von VH24.
+Durch unser Netzwerk an erfahrenen Experten können wir Klagen professionell und und erfolgsversprechend abwickeln.
+
+Daten in wenigen Minuten vervollständigen und kostenfrei klagen.
+
+Holen Sie sich jetzt Ihren Schadensersatz!
+
+Das schätzen unsere Kunden an uns - Top Bewertungen auf Proven Experts:
+
+- Klare Handlungsempfehlungen (4,4 / 5 Sternen)
+- Entscheidungsfokus - Sie entscheiden selbst (4,4 / 5 Sternen)
+- Vertretung Ihrer Interessen (4,4 / 5 Sternen)
+
+
+
+Mit freundlichen Grüßen,
+
+Ihr Service-Team
+VerbraucherRechte24
+
+
+
+
+www.verbraucherrechte24.de
+
+VerbraucherRechte24 GmbH
+Albert-Roßhaupter-Straße 32
+81369 München
+
+Geschäftsführer: Steffen Matz, Matthias Hartmann
+
+Jetzt austragen</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

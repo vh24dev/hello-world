@@ -1,0 +1,33 @@
+Sehr geehrte/r {!Contact.Salutation} {!Contact.LastName}, 
+
+bei der Durchsicht Ihrer Unterlagen ist aufgefallen, dass Ihre Vollmacht 
+
+- nicht leserlich oder 
+- unvollständig oder 
+- nicht zusätzlich in Maschinenschrift vorhanden oder
+- nicht auf den Käufer/ Eigentümer ausgestellt ist oder 
+- nicht vorhanden ist. 
+
+Wir bitten Sie die beiliegende Ausfertigung zu unterschreiben und uns als PDF Datei zuzusenden, in Ausnahmefällen auch als Bilddatei. Bitte belassen Sie hierzu Ihre o.g. BN-Nummer {!Authorization__c.Opportunity__r.Number__c} im Betreff Ihrer Antwortmail, 
+Ihre neue Vollmacht kann dann direkt Ihrem Fall maschinell zugeordnet werden. 
+
+Vielen Dank im voraus. 
+
+
+Mit freundlichen Grüßen 
+
+
+Jörg Hörner 
+Backoffice 
+
+
+Rechtsanwälte 
+Wilhelm Lachmair & Kollegen 
+Ismaninger Straße 19 
+81675 München 
+
+
+Tel.: +49 (0) 89 41 32 433-0 
+Fax: +49 (0) 89 21 63 33-31 
+dieselgate@ra-lachmair.de 
+www.ra-lachmair.de

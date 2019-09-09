@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?><CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label><!-- Base URL --></label>
+        <name>Base_URL__c</name>
+    </fields>
+    <fields>
+        <label><!-- Batch Size --></label>
+        <name>Batch_Size__c</name>
+    </fields>
+    <fields>
+        <label><!-- Client ID --></label>
+        <name>Client_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Client Secret --></label>
+        <name>Client_Secret__c</name>
+    </fields>
+    <fields>
+        <label><!-- Is Active --></label>
+        <name>Is_Active__c</name>
+    </fields>
+    <fields>
+        <help><!-- Defines the number of Transaction__c records to be processed. The last N in the database will be processed. --></help>
+        <label><!-- Map last N --></label>
+        <name>Map_last_N__c</name>
+    </fields>
+    <fields>
+        <help><!-- Used as latest date to map &quot;Map last N&quot; transactions. If empty, Today() will be used. --></help>
+        <label><!-- Map last N before date --></label>
+        <name>Map_last_N_before_date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Pwd --></label>
+        <name>Pwd__c</name>
+    </fields>
+    <fields>
+        <label><!-- Timeframe (last n days) --></label>
+        <name>Timeframe__c</name>
+    </fields>
+    <fields>
+        <label><!-- Username --></label>
+        <name>Username__c</name>
+    </fields>
+    <caseValues>
+        <caseType>Nominative</caseType>
+        <plural>false</plural>
+        <value>FinAPI Settings</value>
+    </caseValues>
+    <caseValues>
+        <caseType>Nominative</caseType>
+        <plural>true</plural>
+        <value>FinAPI Settings</value>
+    </caseValues>
+    <gender>Neuter</gender>
+</CustomObjectTranslation>

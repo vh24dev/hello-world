@@ -1,0 +1,14 @@
+<apex:page standardController="Claim__c" recordSetVar="claims" extensions="CreateClassAction" showheader="false">
+       <apex:pageBlock title="Sammelklage erstellen">
+       <apex:form >
+            <apex:pageBlockSection columns="1" id="mailSection">
+                <apex:inputField label="Aktenzeichen:" required="false" value="{!parClassAction.Reference__c}" id="reference"/>
+                <apex:inputField label="Anwalt:" required="false" value="{!parClassAction.Legal__c}" id="legal"/>
+                <apex:inputField label="Gegner:" required="true" value="{!parClassAction.Opponent__c}" id="opponent"/>
+            </apex:pageBlockSection>
+            <br /><br />
+
+            <apex:commandButton value="Erstellen" action="{!renderPage}" /> 
+        </apex:form>
+    </apex:pageBlock>
+</apex:page>

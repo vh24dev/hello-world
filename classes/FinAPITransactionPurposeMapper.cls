@@ -1,5 +1,10 @@
 public class FinAPITransactionPurposeMapper implements FinAPITransactionMapper {
     private Log log;
+    
+    public FinAPITransactionPurposeMapper() {
+    }
+
+    
     public FinAPITransactionPurposeMapper(Log log) {
         this.log = log;
     }
@@ -733,7 +738,7 @@ public class FinAPITransactionPurposeMapper implements FinAPITransactionMapper {
             }
         }
 
-        this.log.debug('FinAPITransactionMapper :: process :: results: total: ' + totalConsidered + ' processedWithError: ' + processedWithError + ' processedWithNoError: ' + processedWithNoError + ' notProcessed: ' + notProcessed + ' lastN: ' + lastN + ' lastNBefore: ' + lastNBefore + ' oldest: ' + tt[tt.size()-1].date__c + ' newest: ' + tt[0].date__c);
+        //this.log.debug('FinAPITransactionMapper :: process :: results: total: ' + totalConsidered + ' processedWithError: ' + processedWithError + ' processedWithNoError: ' + processedWithNoError + ' notProcessed: ' + notProcessed + ' lastN: ' + lastN + ' lastNBefore: ' + lastNBefore + ' oldest: ' + tt[tt.size()-1].date__c + ' newest: ' + tt[0].date__c);
         Logger.debug('FinAPITransactionMapper :: process :: results: total: ' + totalConsidered + ' processedWithError: ' + processedWithError + ' processedWithNoError: ' + processedWithNoError + ' notProcessed: ' + notProcessed + ' lastN: ' + lastN + ' lastNBefore: ' + lastNBefore + ' oldest: ' + tt[tt.size()-1].date__c + ' newest: ' + tt[0].date__c);
     }
 }

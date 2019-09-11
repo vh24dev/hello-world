@@ -2,9 +2,15 @@ public inherited sharing class DefaultFinAPI implements FinAPI {
     private String token;
 	private FinAPISettings settings;
     private Log log;
+    
     public DefaultFinAPI(FinAPISettings settings, Log log) {
         this.settings = settings;
         this.log = log;
+    	this.token = fetchToken();
+    }
+    
+    public DefaultFinAPI(FinAPISettings settings) {
+        this.settings = settings;
     	this.token = fetchToken();
     }
 

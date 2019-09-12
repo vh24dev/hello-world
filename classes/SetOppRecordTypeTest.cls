@@ -111,6 +111,7 @@ public class SetOppRecordTypeTest {
         System.assertEquals(true, pr.getUrl().contains('Backoffice'));
     }
 
+    /*
     @isTest
     private static void testErrorProtInsurance() {
         Opportunity o = createOpp();
@@ -139,7 +140,8 @@ public class SetOppRecordTypeTest {
 
         System.assertEquals(true, pr.getUrl().contains('Rechtsschutzversicherung'));
     }
-
+	*/
+    /*
     @isTest
     private static void testErrorBank() {
         Opportunity o = createOpp();
@@ -168,7 +170,8 @@ public class SetOppRecordTypeTest {
 
         System.assertEquals(true, pr.getUrl().contains('Kreditinstitut'));
     }
-
+	*/
+    /*
     @isTest
     private static void testErrorConDate() {
         Opportunity o = createOpp();
@@ -197,7 +200,8 @@ public class SetOppRecordTypeTest {
 
         System.assertEquals(true, pr.getUrl().contains('Finanzierungsvertragsdatum'));
     }
-
+	*/
+    /*
     @isTest
     private static void testErrorFianceTotal() {
         Opportunity o = createOpp();
@@ -226,7 +230,8 @@ public class SetOppRecordTypeTest {
 
         System.assertEquals(true, pr.getUrl().contains('Finanzierungsvertrag+Gesamtbetrag'));
     }
-
+	*/
+    /*
     @isTest
     private static void testErrorPaidInstall() {
         Opportunity o = createOpp();
@@ -255,7 +260,8 @@ public class SetOppRecordTypeTest {
 
         System.assertEquals(true, pr.getUrl().contains('Bisher+geleistete+Rate'));
     }
-
+	*/
+    /*
     @isTest
     private static void testErrorMonthlyRate() {
         Opportunity o = createOpp();
@@ -284,7 +290,8 @@ public class SetOppRecordTypeTest {
 
         System.assertEquals(true, pr.getUrl().contains('Monatliche+Raten'));
     }
-
+	*/
+    /*
     @isTest
     private static void testErrorCreditContract() {
         Opportunity o = createOpp();
@@ -313,7 +320,7 @@ public class SetOppRecordTypeTest {
 
         System.assertEquals(true, pr.getUrl().contains('Kreditvertragsnummer'));
     }
-
+	*/
     @isTest
     private static void testErrorReference() {
         Opportunity o = createOpp();
@@ -334,7 +341,6 @@ public class SetOppRecordTypeTest {
         o.Credit_Contract_Numbe__c = 'gha9wd89w';
         insert o;
         Id oppID = o.Id;
-
         Apexpages.StandardController sc = new Apexpages.standardController(o);
         SetOppRecordType oe = new SetOppRecordType(sc);
 
@@ -365,7 +371,7 @@ public class SetOppRecordTypeTest {
         o.Reference__c = 'foo';
         insert o;
         Id oppID = o.Id;
-
+		System.debug('Id of recently inserted opp is ' + oppID);
         Apexpages.StandardController sc = new Apexpages.standardController(o);
         SetOppRecordType oe = new SetOppRecordType(sc);
 

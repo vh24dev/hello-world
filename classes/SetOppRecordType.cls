@@ -54,10 +54,12 @@ public class SetOppRecordType {
         } */else if (this.opp.Reference__c == null) {
             pageRef = Errors.page('Benötigtes Feld', 'Bitte tragen Sie einen Wert in das Aktenzeichen Feld ein.');
         } else {
+            //System.debug('Id of recently updated opp is ' + opp.Id);
             this.opp.StageName = 'Claim';
             this.opp.RecordTypeId = Opportunities.finanzierungRecordType();
+            //System.debug('Id of recordtypeID is ' + Opportunities.finanzierungRecordType());
             this.opp.Legal__c = Users.JCLegal(); // 0050Y000004hLE3
-            update this.opp;
+         	update this.opp;
             pageRef = Page.SuccessPage;
         }
 

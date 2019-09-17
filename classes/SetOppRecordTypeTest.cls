@@ -352,6 +352,7 @@ public class SetOppRecordTypeTest {
 
     @isTest
     private static void testSuccess() {
+	TriggerConfiguration.allInactive = true;
         Opportunity o = createOpp();
         RecordType rt = [SELECT ID FROM RecordType WHERE Name='Dieselskandal' AND sObjectType = 'Opportunity'];
         o.recordTypeId = rt.ID;
@@ -370,6 +371,7 @@ public class SetOppRecordTypeTest {
         o.Credit_Contract_Numbe__c = '4242';
         o.Reference__c = 'foo';
         insert o;
+	TriggerConfiguration.allInactive = false;
         Id oppID = o.Id;
 		System.debug('Id of recently inserted opp is ' + oppID);
         Apexpages.StandardController sc = new Apexpages.standardController(o);

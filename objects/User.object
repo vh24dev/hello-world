@@ -304,6 +304,23 @@
         <type>Text</type>
         <unique>false</unique>
     </fields>
+    <fields>
+        <fullName>Disable_Auto_Email_Sending__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>in Analogy to General Settings Metadata Type "Disalbe  Auto Email Sending" should also be able to be disabled for respective User</description>
+        <externalId>false</externalId>
+        <label>Disable Auto Email Sending</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Disable_Trigger__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Disable Triggers</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Checkbox</type>
+    </fields>
     <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
     <enableEnhancedLookup>true</enableEnhancedLookup>
     <enableFeeds>true</enableFeeds>

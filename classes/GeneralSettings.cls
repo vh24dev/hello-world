@@ -19,10 +19,12 @@ public inherited sharing class GeneralSettings {
             WHERE Is_Active__c = true
         ];
 
-        if (/*s.size() == 0 &&*/ Test.isRunningTest()) {
-            s = new General_Settings__mdt[]{fakeSettings()};
+        if (Test.isRunningTest()) {
+            s = new General_Settings__mdt[]{
+               	TestData.SettingsEMailAndTriggerTrue()
+            };
         }
-
+            
         if (s.size() == 0) {
            throw new GeneralSettings.GeneralSettingsException('No general settings found. Please create them in Setup -> Custom Metadata Types -> General Settings -> Manage Records');
         }
@@ -35,8 +37,10 @@ public inherited sharing class GeneralSettings {
         OPPSONCLAIM_LIMIT = s[0].oppsOnClaimCache_Query_LIMIT__c;
         DEFAULT_OWNER = s[0].default_Owner_username__c;
         REASSIGN_IF_OWNERS = s[0].reassign_if_owned_by__c;
+
     }
 
+   	/*
     private static General_Settings__mdt fakeSettings() {
         return new General_Settings__mdt(
             Disable_Auto_Email_Sending__c = true,
@@ -46,4 +50,14 @@ public inherited sharing class GeneralSettings {
             Reassign_if_owned_by__c = 'test'
         );
     }
+	*/
+    
+    public static void setGeneralSettings(General_Settings__mdt gs) {
+    	DISABLE_AUTO_EMAIL_SENDING = gs.disable_Auto_Email_Sending__c;
+        DISABLE_ALL_TRIGGERS = gs.disable_all_triggers__c;
+        OPPSONCLAIM_LIMIT = gs.oppsOnClaimCache_Query_LIMIT__c;
+        DEFAULT_OWNER = gs.default_Owner_username__c;
+        REASSIGN_IF_OWNERS = gs.reassign_if_owned_by__c;
+    }
+    
 }

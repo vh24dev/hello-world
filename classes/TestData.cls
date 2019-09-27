@@ -100,7 +100,14 @@ public class TestData {
 		System.debug ('Created test user.');
         return user;
     }
-
+    
+    public static User createUserWithTriggerDisabled(){
+        User user = createUser();
+        user.Disable_Trigger__c = true;
+        user.Disable_Auto_Email_Sending__c = true;
+        return user;
+    }
+    
     public static Lead createLead(){
         Lead lead = new Lead(
            	LastName = 'Testlead',
@@ -742,4 +749,24 @@ public class TestData {
 		System.debug('Created commission rate');
 		return commissionRate;
 	}
+    
+    public static General_Settings__mdt SettingsEMailAndTriggerTrue() {
+        return new General_Settings__mdt(
+            Disable_Auto_Email_Sending__c = true,
+            Disable_all_triggers__c = true,
+            OppsOnClaimCache_Query_LIMIT__c = 1000,
+            Default_Owner_username__c = 'test@test@com',
+            Reassign_if_owned_by__c = 'test'
+        );
+    }
+    
+    public static General_Settings__mdt SettingsEMailAndTriggerFalse() {
+        return new General_Settings__mdt(
+            Disable_Auto_Email_Sending__c = false,
+            Disable_all_triggers__c = false,
+            OppsOnClaimCache_Query_LIMIT__c = 1000,
+            Default_Owner_username__c = 'test@test@com',
+            Reassign_if_owned_by__c = 'test'
+        );
+    }
 }

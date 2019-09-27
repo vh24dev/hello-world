@@ -1225,13 +1225,13 @@ public class EmailUtilities {
                     googleAttachmentIds.clear();
                 }
 
-                if (GeneralSettings.DISABLE_AUTO_EMAIL_SENDING) {
+                if (Settings.DISABLE_AUTO_EMAIL_SENDING) {
                     System.debug('EmaiUtilities :: dryRun :: would send email: ' + email);
                 }
                 
                 // Sends the email
                 Messaging.SendEmailResult [] results;
-                if(!Test.isRunningTest() && !GeneralSettings.DISABLE_AUTO_EMAIL_SENDING){
+                if(!Test.isRunningTest() && !Settings.DISABLE_AUTO_EMAIL_SENDING){
                     /*
                     if (this.wipGA) {
                         // todo: WIP on google attachments limit

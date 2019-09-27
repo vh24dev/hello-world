@@ -1854,51 +1854,52 @@ public class EmailUtilitiesTest {
 
 	@isTest
 	static void testCostNoteGenericSuccess(){
-		// Testsetup
-		TriggerConfiguration.allInactive = true;
-
-		User user = TestData.createUser();
-		insert user;
-		Account account = TestData.createAccount();
-		insert account;
-		Contact contact = TestData.createContact(account.Id);
-		insert contact;
-		Opportunity opportunity = TestData.CreateOpportunity(account.Id,'New');
-		insert opportunity;
-		Claim__c claim = TestData.createClaim(opportunity.Id,'Draft');
-		insert claim;
-		Cost_Note__c costNote = TestData.createCostNote(claim.Id,'Draft');
-		insert costNote;
-		Cost_Note_Line_Item__c costNoteLineItem = TestData.createCostNoteLineItem(costNote.Id,10000);
-		insert costNoteLineItem;
-
-		TriggerConfiguration.allInactive = false;
-
-		// Test
-		Test.startTest();
-
-		Test.setCurrentPageReference(new PageReference('/apex/EmailUtilities'));
-		System.currentPageReference().getParameters().put('id', costNote.Id);
-		System.currentPageReference().getParameters().put('recipient', contact.Id);
-		System.currentPageReference().getParameters().put('tpl', EmailTemplates.idOf(EmailTemplates.Name.LvGeneralBlankTemplateVr24));
-		System.currentPageReference().getParameters().put('tplatt', 'false');
-		System.currentPageReference().getParameters().put('noprtatt', 'false');
-		System.currentPageReference().getParameters().put('noatt', 'false');
-		System.currentPageReference().getParameters().put('attreq', 'false');
-		System.currentPageReference().getParameters().put('newestattonly', 'false');
-		System.currentPageReference().getParameters().put('bcc', 'testbcc@cloudworx.agency');
-		System.currentPageReference().getParameters().put('thdl', 'Testsubject');
-		System.currentPageReference().getParameters().put('showCostNotesList', 'true');
-		EmailUtilities emailUtilities = new EmailUtilities();
-		emailUtilities.createFollowUp = true;
-		PageReference nextPage = emailUtilities.sendButton();
-
-		Test.stopTest();
-
-		// Assertion
-		costNote = [SELECT Id, Stage__c FROM Cost_Note__c WHERE Id = :costNote.Id];
-		System.assertEquals('/apex/successpage',nextPage.getUrl());
-		System.assertEquals('Sent',costNote.Stage__c);
+        User userByPass = TestData.bypassUser();
+        System.runAs(userByPass) {
+            // Testsetup
+            TriggerConfiguration.allInactive = true;
+            //User user = TestData.createUser();
+            //insert user;
+            Account account = TestData.createAccount();
+            insert account;
+            Contact contact = TestData.createContact(account.Id);
+            insert contact;
+            Opportunity opportunity = TestData.CreateOpportunity(account.Id,'New');
+            insert opportunity;
+            Claim__c claim = TestData.createClaim(opportunity.Id,'Draft');
+            insert claim;
+            Cost_Note__c costNote = TestData.createCostNote(claim.Id,'Draft');
+            insert costNote;
+            Cost_Note_Line_Item__c costNoteLineItem = TestData.createCostNoteLineItem(costNote.Id,10000);
+            insert costNoteLineItem;
+    
+            // Test
+            Test.startTest();
+    
+            Test.setCurrentPageReference(new PageReference('/apex/EmailUtilities'));
+            System.currentPageReference().getParameters().put('id', costNote.Id);
+            System.currentPageReference().getParameters().put('recipient', contact.Id);
+            System.currentPageReference().getParameters().put('tpl', EmailTemplates.idOf(EmailTemplates.Name.LvGeneralBlankTemplateVr24));
+            System.currentPageReference().getParameters().put('tplatt', 'false');
+            System.currentPageReference().getParameters().put('noprtatt', 'false');
+            System.currentPageReference().getParameters().put('noatt', 'false');
+            System.currentPageReference().getParameters().put('attreq', 'false');
+            System.currentPageReference().getParameters().put('newestattonly', 'false');
+            System.currentPageReference().getParameters().put('bcc', 'testbcc@cloudworx.agency');
+            System.currentPageReference().getParameters().put('thdl', 'Testsubject');
+            System.currentPageReference().getParameters().put('showCostNotesList', 'true');
+            EmailUtilities emailUtilities = new EmailUtilities();
+            emailUtilities.createFollowUp = true;
+            PageReference nextPage = emailUtilities.sendButton();
+    
+            Test.stopTest();
+    
+            // Assertion
+            costNote = [SELECT Id, Stage__c FROM Cost_Note__c WHERE Id = :costNote.Id];
+            System.assertEquals('/apex/successpage',nextPage.getUrl());
+            System.assertEquals('Sent',costNote.Stage__c);
+            TriggerConfiguration.allInactive = false;
+        }
 	}
 
 	@isTest

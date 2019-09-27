@@ -140,7 +140,9 @@ public class LeadAnmeldungController {
         }
         update l;
 
-        if (Leads.isLebensversicherung(l.RecordTypeId)) { // 0121t000000EBhLAAW
+        if (Leads.isLebensversicherung(l.RecordTypeId) &&
+           this.tos == true
+           ) { // 0121t000000EBhLAAW
             LeadConversion.convert(new List<Id>{l.Id});
         }
 

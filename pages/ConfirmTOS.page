@@ -41,10 +41,11 @@
                     <br />
                     <apex:input label="Fahrzeugtyp" value="{!LeadVehicleType}" />
                     <br />
+                    <h1>
+                    	Direkt Beauftragung Ihrer Schadenersatzklage:
+                	</h1>
                 </apex:pageBlock>
-                <h1>
-                    Direkt Beauftragung Ihrer Schadenersatzklage:
-                </h1>
+              
                 <h3>
                     Geben Sie einfach Ihre Kontaktdaten ein:
                 </h3>

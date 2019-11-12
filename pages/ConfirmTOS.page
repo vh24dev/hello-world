@@ -4,11 +4,17 @@
             <h1>
                 {!LeadName}, wir werden gerne für Sie tätig!
             </h1>
-            <h2>
-                Ihre Optionen: Risikofreie Klage mit oder ohne bestehender Rechtsschutzversicherung
-            </h2>
-            <br/>
+            <apex:pageBlock rendered="{!IF(IsLv == true,true,false)}">
+            	<h2>
+                	Ihre Optionen: Risikofreie Prüfung Ihrer Lebensversicherung
+            	</h2>
+              <br/>
+            </apex:pageBlock>  
             <apex:pageBlock rendered="{!NOT(IsLv)}">
+                <h2>
+                	Ihre Optionen: Risikofreie Klage mit oder ohne bestehender Rechtsschutzversicherung
+            	</h2>
+              <br/>
                 <div>
                     <strong>Mit Rechtsschutzversicherung</strong>
                     <br/>
@@ -69,12 +75,22 @@
                         </apex:outputLabel>
                     </div>
                     <br />
-                    <div class="checkbox-wrapper">
-                        <apex:inputCheckbox id="agb-legal" value="{!isLegal}"/>
-                        <apex:outputLabel for="agb-legal">
-                            Ich bevollmächtige die Kanzlei LeCom - Legal &amp; Compliance Rechtsanwaltsgesellschaft mbH, meine Ansprüche gegenüber dem Hersteller durchzusetzten.
-                        </apex:outputLabel>
-                    </div>
+                    <apex:pageBlock rendered="{!IF(IsLv == true,true,false)}">
+                    	<div class="checkbox-wrapper">
+                        	<apex:inputCheckbox id="agb-legal" value="{!isLegal}"/>
+                        	<apex:outputLabel for="agb-legal">
+                            	Ich bevollmächtige die Kanzlei LC - Legal &amp; Compliance Rechtsanwaltsgesellschaft mbH, meine Ansprüche gegenüber der Versicherung durchzusetzten.
+                        	</apex:outputLabel>
+                    	</div>
+                    </apex:pageBlock>
+                    <apex:pageBlock rendered="{!NOT(IsLv)}">
+                    	<div class="checkbox-wrapper">
+                        	<apex:inputCheckbox id="agb-legal" value="{!isLegal}"/>
+                        	<apex:outputLabel for="agb-legal">
+                            	Ich bevollmächtige die Kanzlei LC - Legal &amp; Compliance Rechtsanwaltsgesellschaft mbH, meine Ansprüche gegenüber dem Hersteller durchzusetzten.
+                        	</apex:outputLabel>
+                    	</div>
+                    </apex:pageBlock>
                     <br />
                     <h2>
                         Datensicherheit

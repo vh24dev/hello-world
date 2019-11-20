@@ -34,6 +34,22 @@ public class LeadTriggerHandler extends BaseTriggerHandler {
             AutoconvertLead.convert(l);
         }
         Logger.debug('<< LeadTriggerHandler :: afterUpdate');
+     	processConvertedLeads(ll);
+    }
+    
+    private void processConvertedLeads(Lead[] leads) {
+        List<Id> convertedContactIds = new List<Id>();
+        for(Lead lead:leads){
+        	if(lead.IsConverted && isLVLead(lead)){
+            	convertedContactIds.add(lead.ConvertedContactId);
+            }
+        }
+        LVAGBMailManager.sendAGBMail(convertedContactIds);
+    }
+    
+    private boolean isLVLead(Lead lead){
+        RecordType rtlv = [SELECT Id FROM RecordType WHERE DeveloperName = 'Lebensversicherung' AND sObjectType = 'Lead' LIMIT 1].get(0);
+        return rtlv.Id == lead.RecordTypeId;
     }
     
     private void setUniqueID(Lead[] ll) {

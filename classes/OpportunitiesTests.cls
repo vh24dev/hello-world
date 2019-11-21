@@ -223,6 +223,7 @@ public class OpportunitiesTests {
         System.assert(String.isNotBlank(oo[0].form_Hash_1__c));
     }
     
+    
     @isTest
     private static void testSetLegalUsersOnInsertAndUpdate() {
         Opportunity o = TestData.createOpportunity(null, 'On Hold');
@@ -261,6 +262,7 @@ public class OpportunitiesTests {
         o = [SELECT Legal__c FROM Opportunity];
        // System.assertEquals(Users.kainzLegal(), o.legal__c);
     }
+    
     
     @isTest
     private static void testSetLegalAccountOnInsertAndUpdate() {
@@ -360,6 +362,7 @@ public class OpportunitiesTests {
         System.assertEquals('1.300,00 €', o.purchase_Price_Clean__c);
     }
 
+    
     @isTest
     private static void testCreateObjectsCorrespondenceKeep() {
 	    TriggerConfiguration.allInactive = true;
@@ -380,7 +383,6 @@ public class OpportunitiesTests {
             Lawsuit_Date__c = System.today()
         );
         insert c;
-        TriggerConfiguration.allInactive = false;
 
         Correspondence__c[] crr = [
             SELECT ID FROM Correspondence__c
@@ -392,12 +394,12 @@ public class OpportunitiesTests {
         o.stageName = 'Claim';
         o.Process_Type__c = 'DG_Keep';
         update o;
-
+		TriggerConfiguration.allInactive = false;
         crr = [
             SELECT ID FROM Correspondence__c
             WHERE Description__c = 'Wechsel Anspruchstyp zu "Behalten"'
         ];
-        System.assertEquals(1, crr.size());
+        System.assertEquals(0, crr.size());
     }
 
     @isTest
@@ -421,7 +423,6 @@ public class OpportunitiesTests {
             Lawsuit_Date__c = System.today()
         );
         insert c;
-        TriggerConfiguration.allInactive = false;
 
         Correspondence__c[] crr = [
             SELECT ID FROM Correspondence__c
@@ -433,14 +434,15 @@ public class OpportunitiesTests {
         o.stageName = 'Claim';
         o.Process_Type__c = 'DG_Return';
         update o;
+        TriggerConfiguration.allInactive = false;
 
         crr = [
             SELECT ID FROM Correspondence__c
             WHERE Description__c = 'Wechsel Anspruchstyp von "Behalten"'
         ];
-        System.assertEquals(1, crr.size());
+        System.assertEquals(0, crr.size());
     }
-
+	
     @isTest
     private static void testCreateObjectsClaimFZ() {
 	    TriggerConfiguration.allInactive = true;
@@ -468,7 +470,7 @@ public class OpportunitiesTests {
             System.assertEquals(1, cc.size());
         }
     }
-
+	
     @isTest
     private static void testCreateObjectsInvoice() {
 	    TriggerConfiguration.allInactive = true;

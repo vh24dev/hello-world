@@ -7,11 +7,10 @@ public class LVAGBMailManagerTest {
         contact.FirstName = 'Ich bin ein automatisierter Testname';
         contact.LastName = 'Ich bin ein automatisierter Nachname';
         insert contact;
-        List<Id> ids = new List<Id>();
-        ids.add(contact.Id);
-        LVAGBMailManager.sendAGBMail(ids);
+        Map<Id, String> testMap = new Map<Id, String> ();
+        testMap.put(contact.Id,'BN123456');
         system.assertNotEquals(null,
-              LVAGBMailManager.sendAGBMail(ids)
+               LVAGBMailManager.executeMailPrivate(testMap)
         );
     }
 }

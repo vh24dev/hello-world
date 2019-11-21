@@ -12,18 +12,23 @@ public class LVSendAGBDelegation implements iVH24MailDelegation {
     private Id UserId;
     private Id senderAdressId;
     private string subject;
+    private Map<String,String> mergeMappings;
+    private String bn;
     
-    public LVSendAGBDelegation(Contact contact) {
+    public LVSendAGBDelegation(String bn,Contact contact) {
+        this.bn = bn;
         this.contact = contact;
         this.userId = Users.vh24Lv();
         this.eMailMapping = fetchConfig();
         this.template = fetchTemplate();
         this.attachment = fetchAndMapAttachment();
         fileAttachment = mapToFile();
+        this.subject = buildSubject();
         buildBody();
         buildHtmlBody();
+        prepareMergeMappings();
+        mergeFields();
         getSenderAdress();
-        this.subject = buildSubject();
     }
     
     public string getPlainTextBody(){
@@ -66,7 +71,7 @@ public class LVSendAGBDelegation implements iVH24MailDelegation {
        return [Select Attachment__c, 
                               Template__c, 
                               UniqueName__c,
-               				  IsEnabled__C
+               				  IsEnabled__c
                               FROM  EMailMapping__mdt 
                               WHERE UniqueName__c = 'LVLeadOppConversion' LIMIT 1];
     }
@@ -90,39 +95,47 @@ public class LVSendAGBDelegation implements iVH24MailDelegation {
     }
       
     private Messaging.Emailfileattachment mapToFile() {
-          this.fileAttachment = new Messaging.Emailfileattachment();
-          this.fileAttachment.setFileName(this.attachment.Name);
-          this.fileAttachment.setBody(this.attachment.Body);
-        	return this.fileAttachment;
-          //attachmentSize += attachment.BodyLength;
+        this.fileAttachment = new Messaging.Emailfileattachment();
+        this.fileAttachment.setFileName(this.attachment.Name);
+        this.fileAttachment.setBody(this.attachment.Body);
+        return this.fileAttachment;
+        //attachmentSize += attachment.BodyLength;
     }
     
     private void buildBody() {
          Id recipientId = contact.Id;
          Id parentId = template.Id;
+         this.body = template.Body;
+         /*
          body = Utilities.mergeText(template.Body, new Map<Id, String>{
              		parentId => parentId.getSObjectType().getDescribe().Name, 
              		recipientId => recipientId.getSObjectType().getDescribe().Name, 
                 	userId => 'User'});
+		 */
     }
     
     private void buildHtmlBody() {
         Id recipientId = contact.Id;
         Id parentId = template.Id;
         this.htmlBody = template.HtmlValue.replace('{text_body}',body.replace('\n','<br/>'));
+        /*
         this.htmlBody = Utilities.mergeText(this.htmlBody,new Map<Id,String>{
             parentId => parentId.getSObjectType().getDescribe().Name,
             recipientId => recipientId.getSObjectType().getDescribe().Name,
             userId => 'User'
     	});
+		*/
     }
     
     private string buildSubject(){
         Id recipientId = contact.Id;
         Id parentId = template.Id;
+        return template.subject;
+        /*
     	return Utilities.mergeText(template.Subject,new Map<Id,String>{parentId => parentId.getSObjectType().getDescribe().Name,
             recipientId => recipientId.getSObjectType().getDescribe().Name,
             userId => 'User'});
+		*/
     }
     
     private void getSenderAdress(){
@@ -131,5 +144,23 @@ public class LVSendAGBDelegation implements iVH24MailDelegation {
                                                      from OrgWideEmailAddress 
                                                      Where Address = 'lebensversicherung@verbraucherhilfe24.de' LIMIT 1];
         senderAdressId = (Id)orgWideEmailAddresses.Id;
+    }
+    
+    private void prepareMergeMappings(){
+        this.mergeMappings = new Map<String,String>();
+        this.mergeMappings.put('{!Opportunity.Number__c}',this.bn);
+        if(Contact.Salutation__c != null) {
+        	this.mergeMappings.put('{!Contact.Salutation__c}',Contact.Salutation__c);  
+        } else {
+          	this.mergeMappings.put('{!Contact.Salutation__c}',''); 
+        }    
+    }
+    
+    private void mergeFields(){
+        for (String key : this.mergeMappings.keySet()) {
+            this.htmlBody = this.htmlBody.replace(key,this.mergeMappings.get(key));
+            this.body = this.body.replace(key,this.mergeMappings.get(key));
+            this.subject = this.subject.replace(key,this.mergeMappings.get(key));            
+		}
     }
 }

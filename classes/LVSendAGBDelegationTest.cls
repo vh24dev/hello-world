@@ -8,7 +8,7 @@ public class LVSendAGBDelegationTest {
         contact.FirstName = 'Ich bin ein automatisierter Testname';
         contact.LastName = 'Ich bin ein automatisierter Nachname';
         insert contact;
-		LVSendAGBDelegation delegation = new LVSendAGBDelegation(contact);
+		LVSendAGBDelegation delegation = new LVSendAGBDelegation('BN123123123',contact);
         system.assertNotEquals(null,delegation);
     }
 
@@ -19,7 +19,7 @@ public class LVSendAGBDelegationTest {
         contact.FirstName = 'Ich bin ein automatisierter Testname';
         contact.LastName = 'Ich bin ein automatisierter Nachname';
         insert contact;
-		LVSendAGBDelegation delegation = new LVSendAGBDelegation(contact);
+		LVSendAGBDelegation delegation = new LVSendAGBDelegation('BN123123123',contact);
     	system.assertNotEquals(null,delegation.GetPlainTextBody());
     }
     
@@ -30,7 +30,7 @@ public class LVSendAGBDelegationTest {
         contact.FirstName = 'Ich bin ein automatisierter Testname';
         contact.LastName = 'Ich bin ein automatisierter Nachname';
         insert contact;
-		LVSendAGBDelegation delegation = new LVSendAGBDelegation(contact);
+		LVSendAGBDelegation delegation = new LVSendAGBDelegation('BN123123123',contact);
     	system.assertNotEquals(null,delegation.GetHtmlBody());
     }
     
@@ -41,7 +41,7 @@ public class LVSendAGBDelegationTest {
         contact.FirstName = 'Ich bin ein automatisierter Testname';
         contact.LastName = 'Ich bin ein automatisierter Nachname';
         insert contact;
-		LVSendAGBDelegation delegation = new LVSendAGBDelegation(contact);
+		LVSendAGBDelegation delegation = new LVSendAGBDelegation('BN123123123',contact);
     	system.assertNotEquals(null,delegation.getAddresses());
     }
     
@@ -52,7 +52,7 @@ public class LVSendAGBDelegationTest {
         contact.FirstName = 'Ich bin ein automatisierter Testname';
         contact.LastName = 'Ich bin ein automatisierter Nachname';
         insert contact;
-		LVSendAGBDelegation delegation = new LVSendAGBDelegation(contact);
+		LVSendAGBDelegation delegation = new LVSendAGBDelegation('BN123123123',contact);
     	system.assertNotEquals(null,delegation.getSubject());   
     }
 
@@ -63,7 +63,7 @@ public class LVSendAGBDelegationTest {
         contact.FirstName = 'Ich bin ein automatisierter Testname';
         contact.LastName = 'Ich bin ein automatisierter Nachname';
         insert contact;
-		LVSendAGBDelegation delegation = new LVSendAGBDelegation(contact);
+		LVSendAGBDelegation delegation = new LVSendAGBDelegation('BN123123123',contact);
     	system.assertNotEquals(null,delegation.getAttachments());   
     } 
     
@@ -74,7 +74,7 @@ public class LVSendAGBDelegationTest {
         contact.FirstName = 'Ich bin ein automatisierter Testname';
         contact.LastName = 'Ich bin ein automatisierter Nachname';
         insert contact;
-		LVSendAGBDelegation delegation = new LVSendAGBDelegation(contact);
+		LVSendAGBDelegation delegation = new LVSendAGBDelegation('BN123123123',contact);
     	system.assertNotEquals(null,delegation.getMailTemplate()); 
     }
     /*

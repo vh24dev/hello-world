@@ -38,13 +38,13 @@ public class LeadTriggerHandler extends BaseTriggerHandler {
     }
     
     private void processConvertedLeads(Lead[] leads) {
-        List<Id> convertedContactIds = new List<Id>();
+        Map<Id,String> bnids = new Map<Id, String>();
         for(Lead lead:leads){
         	if(lead.IsConverted && isLVLead(lead)){
-            	convertedContactIds.add(lead.ConvertedContactId);
+				bnids.put(lead.ConvertedContactId,lead.Bearbeitungsnummer__c);           
             }
         }
-        LVAGBMailManager.sendAGBMail(convertedContactIds);
+        LVAGBMailManager.executeLVAGBMail(bnids);
     }
     
     private boolean isLVLead(Lead lead){

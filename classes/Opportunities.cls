@@ -542,10 +542,12 @@ public without sharing class Opportunities {
                 // LV
                 // // Removed /*(opportunity.Sales_Type__c == 'Online') && (opportunity.StageName == 'Check') &&*/ as per https://salesfive.atlassian.net/browse/VH24-78
                 if ((opportunity.Authorizations__r.size() == 0) && (opportunity.Confirmed_Terms_And_Conditions__c == true) && (opportunity.Legal__c != null)){
+                    /*
                     newAuthorizations.add(new Authorization__c(
                         Opportunity__c = opportunity.Id,
                         Stage__c = 'Draft'
                     ));
+					*/
                 }
                 if ((opportunity.Sales_Type__c == 'Online') && (opportunity.Welcome_Letters__r.size() == 0) && (opportunity.Legal__c != null) && (opportunity.Assignment_Type__c != null) && (opportunity.Confirmed_Terms_And_Conditions__c == true)){
                     newWelcomeLetters.add(new Welcome_Letter__c(
@@ -835,6 +837,12 @@ public without sharing class Opportunities {
             o.ownerID = newOwner.ID;
             Logger.debug('Opportunities :: setDefaultOwner :: did set to user: ' + newOwner.alias + ' opp: ' + o.ID);
         }
+    }
+  
+    
+    private static string getRecordTypeName(Opportunity opp) {
+		Map<ID,Schema.RecordTypeInfo> rt_Map = Opportunity.sObjectType.getDescribe().getRecordTypeInfosById(); 
+        return rt_map.get(opp.recordTypeID).getName();
     }
 
     // todo: on hold, we may not need this

@@ -16,6 +16,7 @@ public class LVAGBMailManagerTest {
     
     @isTest
     public static void testProcessResult(){
+        Test.startTest();
         User user = testdata.createUser();
         insert  user;
         Account account = TestData.createAccount();
@@ -30,9 +31,10 @@ public class LVAGBMailManagerTest {
         results.add(er);
         LVAGBMailManager.processResult(results,'BN123456123456');
      
-		Opportunity opportunityResult = [Select AGBMail_Send_Result__c From Opportunity Where Number__c = 'BN123456' ];
+		Opportunity opportunityResult = [Select AGBMail_Send_Result__c From Opportunity Where Number__c = 'BN123456123456' ];
         String sendResult = opportunityResult.AGBMail_Send_Result__c;
         System.assert(sendResult.startsWithIgnoreCase('Successfully sent'));
+        Test.stopTest();
     
     }
 }

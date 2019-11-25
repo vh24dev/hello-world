@@ -114,6 +114,8 @@ public class LeadConversion {
             insert personAccount;
             lc.setAccountId(personAccount.Id);
             
+            System.debug('PersonAccount = ' + personAccount);
+            
             Database.LeadConvertResult lcr;
             try {
                 Database.DMLOptions dml = new Database.DMLOptions();
@@ -127,7 +129,7 @@ public class LeadConversion {
                 //throw new LeadConversionFailedException('Failed to convert lead: ' + e.getMessage());
                 // todo: better UX
             } 
-            
+
             if (!lcr.isSuccess()) {
                System.debug('AutoConvertLeads :: convert :: actually failed to convert lead : ');
                 For(Database.Error e : lcr.getErrors()) {
@@ -150,7 +152,26 @@ public class LeadConversion {
             Id opportunityId = lcr.getOpportunityId();
             Id contactId = lcr.getContactId();
             
-            Opportunity opportunity = [select Id, RecordTypeId, Callcenter__c, AccountId, Account__c from Opportunity where Id = :opportunityId];
+            Opportunity opportunity = [select Id,
+                                       Refund__c,
+                                       Backoffice__c,
+                                       Assignment_Type__c,
+                                       Partial_Refund__c,
+                                       Legal__c,
+                                       Legal_Process_Type__c,
+                                       StageName,
+                                       Reference__c,
+                                       Sales_Type__c,
+                                       Account_Id__c,
+                                       Process_Type__c,
+                                       Priority_Level__c,
+                                       Vehicle_Brand__c,
+                                       Confirmed_Terms_And_Conditions__c, 
+                                       RecordTypeId, 
+                                       Callcenter__c, 
+                                       AccountId, 
+                                       Account__c from Opportunity where Id = :opportunityId];
+            
             System.debug('LeadConversion :: convert :: convertedOpp: ' + opportunity);
             System.debug('LeadConversion :: convert :: convertedContact: ' + contactId);
             
@@ -262,8 +283,20 @@ public class LeadConversion {
 				Logger.debug('LeadConversion :: setting async email templateID vollmacht_Email_TemplateID__c:' + templID);
 				opportunity.vollmacht_Email_TemplateID__c = templID;
             }
+            
+            if(!Opportunities.isLebensversicherung(opportunity.RecordTypeId)){
+            	createAuthorizations(opportunity);
+            }
+            
+            if(Opportunities.isLebensversicherung(opportunity.RecordTypeId) &&
+               lcr.getContactId() != null
+              ){
+        		Map<Id,String> bnids = new Map<Id, String>();
+               	LVAGBMailManager.executeLVAGBMail(lcr.getContactId(),lead.Bearbeitungsnummer__c);
+            }
 
             updateOpportunities.add(opportunity);
+            
         }
 
         if (updateOpportunities.size() > 0){
@@ -274,10 +307,26 @@ public class LeadConversion {
             insert newOpportunityLineItems;
         }
     }
+    
+    private static void createAuthorizations(Opportunity opp){
+    	if ((opp.Authorizations__r.size() == 0) && 
+            (opp.Confirmed_Terms_And_Conditions__c == true) && 
+            (opp.Legal__c != null) 
+            ){
+				Authorization__c auth = new Authorization__c(
+                	Opportunity__c = opp.Id,
+                    Stage__c = 'Draft'
+                );	
+                insert auth;
+             }      
+    }
 
     private static Lead[] fetchLeads(ID[] ll) {
         return [
             SELECT  ID,
+            Bearbeitungsnummer__c,
+            ConvertedContactId,
+            IsConverted,
             RecordTypeID,
             FirstName,
             LastName,
@@ -300,4 +349,5 @@ public class LeadConversion {
             WHERE ID IN :ll
         ];    
     }
+   
 }

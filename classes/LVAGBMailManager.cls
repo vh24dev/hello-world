@@ -1,51 +1,50 @@
 public class LVAGBMailManager {
-    
+    //LVAGBMailManager.executeLVAGBMail(lead.ConvertedContactId,lead.Bearbeitungsnummer__c);
+
     @future
-    public static void executeLVAGBMail(Map<Id, String> idbns){
+    public static void executeLVAGBMail(Id convertedContactId, String bearbeitungsnummer ) {
         try {
-			Map<String,Messaging.SendEmailResult []> results = executeMailPrivate(idbns);
+			Messaging.SendEmailResult [] result = executeMailPrivate(convertedContactId,bearbeitungsnummer);
+            processResult(result, bearbeitungsnummer);
 		} catch(Exception e) {
-            documentErrorResults(e.getMessage());
+            //documentErrorResults(e.getMessage());
         }   
     }
     
     @TestVisible
-    private static Map<String,Messaging.SendEmailResult []> executeMailPrivate(Map<Id, String> idbns) {
-        Map<String,Messaging.SendEmailResult []> results = new Map<String,Messaging.SendEmailResult []>();
-        Map<String,Contact> bnsToCons = prepareData(idbns);
-        for(String bn : prepareData(idbns).keySet()) {
-        	iVH24MailDelegation agbDelegation = new LVSendAGBDelegation(bn,bnsToCons.get(bn));
-            if(agbDelegation.isEnabled()){
-        		VH24Mail vH24Mail = new VH24Mail();
-	    		vH24Mail.setDelegation(agbDelegation);
-        		Messaging.SendEmailResult [] mailResult = vH24Mail.sendMail();
-            	results.put(bn,mailResult);
-            }
+    private static Messaging.SendEmailResult [] executeMailPrivate(Id convertedContactId, String bearbeitungsnummer) {
+        Messaging.SendEmailResult [] mailResult = null;
+        iVH24MailDelegation agbDelegation = new LVSendAGBDelegation(bearbeitungsnummer,mapIdToContact(convertedContactId));
+        if(agbDelegation.isEnabled()){
+        	VH24Mail vH24Mail = new VH24Mail();
+	    	vH24Mail.setDelegation(agbDelegation);
+        	mailResult = vH24Mail.sendMail();
         }
-        return results;
+        return mailResult;
     }
     
-    private static Map<String,Contact>  prepareData(Map<Id, String> idbns) {
-        List<Id> contactIds=new List<Id>();
-		contactIds.addAll(idbns.keySet());
-        return mapIdsToContacts(idbns);
-    }
-    
-    private static Map<String,Contact> mapIdsToContacts(Map<Id, String> idbns){
-        Map<String,Contact> cobns = new Map<String,Contact>();
-        List<Contact> contacts = [Select EMail,Id,Salutation__c FROM Contact WHERE Id IN: idbns.keySet()];
-        for(Contact contact :contacts){
-            cobns.put(idbns.get(contact.id),contact);
-        }
-  		return cobns;
+    private static Contact mapIdToContact(Id contactId){
+       	return [Select EMail,Id,Salutation__c FROM Contact WHERE Id =: contactId];
     } 
     
-    /*
-    private static void documentMailResults(Map<String,Messaging.SendEmailResult []> results){
-        // still to do // next sprint
+    @TestVisible    
+    private static void processResult(Messaging.SendEmailResult [] result, String bearbeitungsnummer) {
+        Opportunity opp = [Select AGBMail_Send_Result__c From Opportunity Where Number__c =: bearbeitungsnummer];
+        boolean success = false;
+        string resultMessage = 'could not build result message: probably something went wrong';
+        if(result != null && result.size() > 0) {
+            success = result[0].isSuccess();
+        }
+        if(success == true) {
+            Datetime now = Datetime.now();
+            resultMessage = 'Successfully sent AGBMail on: ' + String.valueOf(now);
+        }
+        opp.AGBMail_Send_Result__c = resultMessage;
+        update opp;
     }
-    */
+/*
     private static void documentErrorResults(String errorMessage){
         System.debug('AGB Mail Sending failed, reason:' + errorMessage);
-    }     
+    }
+*/
 }

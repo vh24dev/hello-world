@@ -34,9 +34,10 @@ public class LeadTriggerHandler extends BaseTriggerHandler {
             AutoconvertLead.convert(l);
         }
         Logger.debug('<< LeadTriggerHandler :: afterUpdate');
-     	processConvertedLeads(ll);
+     	//processConvertedLeads(ll);
     }
-    
+    /*
+    NHC: needs to be removed
     private void processConvertedLeads(Lead[] leads) {
         Map<Id,String> bnids = new Map<Id, String>();
         for(Lead lead:leads){
@@ -44,9 +45,9 @@ public class LeadTriggerHandler extends BaseTriggerHandler {
 				bnids.put(lead.ConvertedContactId,lead.Bearbeitungsnummer__c);           
             }
         }
-        LVAGBMailManager.executeLVAGBMail(bnids);
+        //LVAGBMailManager.executeLVAGBMail(bnids);
     }
-    
+    */
     private boolean isLVLead(Lead lead){
         RecordType rtlv = [SELECT Id FROM RecordType WHERE DeveloperName = 'Lebensversicherung' AND sObjectType = 'Lead' LIMIT 1].get(0);
         return rtlv.Id == lead.RecordTypeId;

@@ -42,9 +42,10 @@ public without sharing class Opportunities {
         if (oppRecordTypeID == null) {
             return false;
         }
+		
         return oppRecordTypeID == dkRtID;
     }
-    
+ 
     public static Id finanzierungRecordType() {
         return fzRtID;
     }
@@ -484,14 +485,18 @@ public without sharing class Opportunities {
         
         for (Opportunity opportunity: oo) {
             if (Opportunities.isDieselSkandal(opportunity.RecordTypeId)) {
+                
+                System.debug('--------------- IsDieselSkandal');
                 // DG
                 // Removed /*(opportunity.Sales_Type__c == 'Online') && (opportunity.StageName == 'Check') &&*/ as per https://salesfive.atlassian.net/browse/VH24-78
+                /*
                 if ((opportunity.Authorizations__r.size() == 0) && (opportunity.Confirmed_Terms_And_Conditions__c == true) && (opportunity.Legal__c != null)){
                     newAuthorizations.add(new Authorization__c(
                         Opportunity__c = opportunity.Id,
                         Stage__c = 'Draft'
                     ));
                 }
+                */
                 if ((opportunity.Sales_Type__c == 'Online') && (opportunity.Welcome_Letters__r.size() == 0) && (opportunity.Legal__c != null) && (opportunity.Assignment_Type__c != null) && (opportunity.Confirmed_Terms_And_Conditions__c == true)){
                     newWelcomeLetters.add(new Welcome_Letter__c(
                         Opportunity__c = opportunity.Id,
@@ -540,6 +545,7 @@ public without sharing class Opportunities {
                 }
             } else {
                 // LV
+                System.debug('--------------- IsLebensversicherung');
                 // // Removed /*(opportunity.Sales_Type__c == 'Online') && (opportunity.StageName == 'Check') &&*/ as per https://salesfive.atlassian.net/browse/VH24-78
                 if ((opportunity.Authorizations__r.size() == 0) && (opportunity.Confirmed_Terms_And_Conditions__c == true) && (opportunity.Legal__c != null)){
                     /*
@@ -617,9 +623,11 @@ public without sharing class Opportunities {
         if (newCorrespondencies.size() > 0) {
             insert newCorrespondencies;
         }
+        /*
         if (newAuthorizations.size() > 0) {
             insert newAuthorizations;
         }
+		*/
         if (newInvoices.size() > 0) {
             insert newInvoices;
         }

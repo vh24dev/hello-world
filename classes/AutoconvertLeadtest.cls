@@ -19,7 +19,6 @@ public class AutoconvertLeadtest {
         User user = Testdata.bypassUser();
         System.runAs(user) {
             Lead lead = TestData.createLead();
-            lead.Confirmed_Terms_And_Conditions__c = true;
             insert lead;
             lead = [Select Bearbeitungsnummer__c FROM Lead Where Id =: lead.Id];
             try {

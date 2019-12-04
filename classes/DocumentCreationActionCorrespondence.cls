@@ -92,7 +92,7 @@ public class DocumentCreationActionCorrespondence {
                     if (Accounts.isJCLegal(opp.Legal_Account__c)) { // 0010Y000011MYHW
                         // Jäger
                         if (opp.Financing_Type__c == 'Finanzierung') {
-                            templateId = CloudworxTemplates.idOf(CloudworxTemplates.FZJaeger.FZJaegerKlageschrift);
+                            templateId = CloudworxTemplates.idOf(CloudworxTemplates.DGJaeger.DGJaegerKlageschriftDaimler);
                         } else {
                             if (opp.Process_Type__c == 'DG_Keep') {
                                 templateId = CloudworxTemplates.idOf(CloudworxTemplates.DGJaeger.DGJaegerKlageschriftkleinerSchadensersatzDaimler);
@@ -348,7 +348,7 @@ public class DocumentCreationActionCorrespondence {
                     if (Accounts.isJCLegal(opp.Legal_Account__c)) { // 0010Y000011MYHW
                         // Jäger
                         if (opp.Financing_Type__c == 'Finanzierung') {
-                            templateId = CloudworxTemplates.idOf(CloudworxTemplates.FZJaeger.FZJaegerKlageschrift);
+                            templateId = CloudworxTemplates.idOf(CloudworxTemplates.DGJaeger.DGJaegerKlageschriftPorsche);
                         } else {
                             if (opp.Process_Type__c == 'DG_Keep') {
                                 templateId = CloudworxTemplates.idOf(CloudworxTemplates.DGJaeger.DGJaegerKlageschriftkleinerSchadensersatzPorsche);
@@ -604,7 +604,7 @@ public class DocumentCreationActionCorrespondence {
                     if (Accounts.isJCLegal(opp.Legal_Account__c)) { // 0010Y000011MYHW
                         // Jäger
                         if (opp.Financing_Type__c == 'Finanzierung') {
-                            templateId = CloudworxTemplates.idOf(CloudworxTemplates.FZJaeger.FZJaegerKlageschrift);
+                            templateId = CloudworxTemplates.idOf(CloudworxTemplates.DGJaeger.DGJaegerKlageschriftAudi);
                         } else {
                             if (opp.Process_Type__c == 'DG_Keep') {
                                 templateId = CloudworxTemplates.idOf(CloudworxTemplates.DGJaeger.DGJaegerKlageschriftkleinerSchadensersatzAudi);
@@ -860,7 +860,7 @@ public class DocumentCreationActionCorrespondence {
                     if (Accounts.isJCLegal(opp.Legal_Account__c)) { // 0010Y000011MYHW
                         // Jäger
                         if (opp.Financing_Type__c == 'Finanzierung') {
-                            templateId = CloudworxTemplates.idOf(CloudworxTemplates.FZJaeger.FZJaegerKlageschrift);
+                            templateId = CloudworxTemplates.idOf(CloudworxTemplates.DGJaeger.DGJaegerKlageschriftOpel);
                         } else {
                             if (opp.Process_Type__c == 'DG_Keep') {
                                 templateId = CloudworxTemplates.idOf(CloudworxTemplates.DGJaeger.DGJaegerKlageschriftkleinerSchadensersatzOpel);
@@ -1116,7 +1116,7 @@ public class DocumentCreationActionCorrespondence {
                     if (Accounts.isJCLegal(opp.Legal_Account__c)) { // 0010Y000011MYHW
                         // Jäger
                         if (opp.Financing_Type__c == 'Finanzierung') {
-                            templateId = CloudworxTemplates.idOf(CloudworxTemplates.FZJaeger.FZJaegerKlageschrift);
+                            templateId = CloudworxTemplates.idOf(CloudworxTemplates.DGJaeger.DGJaegerKlageschriftVW);
                         } else {
                             if (opp.Process_Type__c == 'DG_Keep') {
                                 templateId = CloudworxTemplates.idOf(CloudworxTemplates.DGJaeger.DGJaegerKlageschriftkleinerSchadensersatzVW);

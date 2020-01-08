@@ -19,12 +19,12 @@
                     <strong>Mit Rechtsschutzversicherung</strong>
                     <br/>
                     sind alle Verfahrenskosten (abzgl. evtl. Selbstbehalt) gedeckt.
-                    Im Erfolgsfall berechnen wir ein anteiliges Serviceentgelt von max. 6% vom Mehrertrag.
+                    Im Erfolgsfall berechnen wir ein anteiliges Serviceentgelt zwischen 6 und 17% der Erfolgssumme. 
                 </div>
                 <div>
                     <strong>Ohne Rechtsschutzversicherung</strong>
                     <br />
-                    übernehmen wir sämtliche Kosten und berechnen nur im Erfolgsfall eine Vergütung von 20% bis max 35% vom Mehrertrag.
+                    übernehmen wir sämtliche Kosten und berechnen nur im Erfolgsfall eine Vergütung zwischen 11 und 35% des Erfolgsbetrages. Die Preise verstehen sich inkl. MwSt.
                 </div>
                 <hr/>
             </apex:pageBlock>
@@ -35,12 +35,7 @@
                     <apex:selectRadio value="{!insurance}">
                         <apex:selectOptions value="{!YesNo}"/>
                     </apex:selectRadio>
-                    Weitere Details zu ihrem Fahrzeug:
-                    <br />
-                    <span style="color: gray">Fahrzeugtyp (Bsp. Passat, A6, Alhambra, etc.)</span>
-                    <br />
-                    <apex:input label="Fahrzeugtyp" value="{!LeadVehicleType}" />
-                    <br />
+                    
                     <h1>
                     	Direkt Beauftragung Ihrer Schadenersatzklage:
                 	</h1>
@@ -75,23 +70,6 @@
                             Ich beauftrage die VH24 GmbH (Verbraucherhilfe24) und bestätige die AGB.
                         </apex:outputLabel>
                     </div>
-                    <br />
-                    <apex:pageBlock rendered="{!IF(IsLv == true,true,false)}">
-                    	<div class="checkbox-wrapper">
-                        	<apex:inputCheckbox id="agb-legal" value="{!isLegal}"/>
-                        	<apex:outputLabel for="agb-legal">
-                            	Ich bevollmächtige die Kanzlei LC - Legal &amp; Compliance Rechtsanwaltsgesellschaft mbH, meine Ansprüche gegenüber der Versicherung durchzusetzten.
-                        	</apex:outputLabel>
-                    	</div>
-                    </apex:pageBlock>
-                    <apex:pageBlock rendered="{!NOT(IsLv)}">
-                    	<div class="checkbox-wrapper">
-                        	<apex:inputCheckbox id="agb-legal" value="{!isLegal}"/>
-                        	<apex:outputLabel for="agb-legal">
-                            	Ich bevollmächtige die Kanzlei LC - Legal &amp; Compliance Rechtsanwaltsgesellschaft mbH, meine Ansprüche gegenüber dem Hersteller durchzusetzten.
-                        	</apex:outputLabel>
-                    	</div>
-                    </apex:pageBlock>
                     <br />
                     <h2>
                         Datensicherheit

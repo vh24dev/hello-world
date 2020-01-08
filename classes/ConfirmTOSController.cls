@@ -72,9 +72,11 @@ public class ConfirmTOSController {
         if (this.isPrivacy != true) {
             errorMsg = 'Bitte bestätigen Sie unsere AGB.';
         }
-        if (this.isLegal != true) {
+		/*
+        if (this.isLegal != true && !getIsLv() ) {
             errorMsg = 'Bitte bevollmächtigen Sie J & C Anwälte.';
         }
+		*/
         if (errorMsg != '') {
             System.debug('errorMsg: ' + errorMsg);
             return null;
@@ -97,6 +99,7 @@ public class ConfirmTOSController {
         return new PageReference('/TOSConfirmed');
     }
 
+    @TestVisible
     private lead getLead() {
         string leadId = getLeadUniqueId();
         if (leadId == null) {

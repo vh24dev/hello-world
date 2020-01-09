@@ -19,19 +19,19 @@
                     <strong>Mit Rechtsschutzversicherung</strong>
                     <br/>
                     sind alle Verfahrenskosten (abzgl. evtl. Selbstbehalt) gedeckt.
-                    Im Erfolgsfall berechnen wir ein anteiliges Serviceentgelt zwischen 6 und 17% der Erfolgssumme. 
+                    Im Erfolgsfall berechnen wir ein anteiliges Serviceentgelt von 20% der Erfolgssumme. 
                 </div>
                 <div>
-                    <strong>Ohne Rechtsschutzversicherung</strong>
+                    <strong>Ohne Rechtsschutzversicherung oder keiner Deckungszusage</strong>
                     <br />
-                    übernehmen wir sämtliche Kosten und berechnen nur im Erfolgsfall eine Vergütung zwischen 11 und 35% des Erfolgsbetrages. Die Preise verstehen sich inkl. MwSt.
+                    übernehmen wir sämtliche Kosten und berechnen nur im Erfolgsfall eine Vergütung von 35% des Erfolgsbetrages. Die Preise verstehen sich zzgl. MwSt.
                 </div>
                 <hr/>
             </apex:pageBlock>
             <apex:pageMessage rendered="{!errorMsg != ''}" summary="{!errorMsg}" severity="warning" strength="3" />
             <apex:form >
                 <apex:pageBlock rendered="{!NOT(IsLv)}">
-                    Haben Sie eine Rechtsschutzversicherung? (bereits vor dem Autokauf abgeschlossen.)
+                    Haben Sie eine Rechtsschutzversicherung?
                     <apex:selectRadio value="{!insurance}">
                         <apex:selectOptions value="{!YesNo}"/>
                     </apex:selectRadio>

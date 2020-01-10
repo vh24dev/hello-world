@@ -43,7 +43,7 @@ public class MandateMailController {
     }
     
     private static boolean isEnabled(Claim__c claim){
-        system.debug('----claim opp producz-----' + claim.Opportunity__r.Product__c);  
+        system.debug('----claim opp product-----' + claim.Opportunity__r.Product__c);  
 
         if(claim.Opportunity__r.Product__c == 'Lebensversicherung'
           && claim.Stage__c == 'Legal Opposition') {

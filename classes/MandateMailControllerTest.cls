@@ -45,10 +45,10 @@ public class MandateMailControllerTest {
 		String returnValue = MandateMailController.init(claim.Id);
         System.assertEquals(null, returnValue);
     }
-    
+    /*
     @isTest
     private static void testInitEnabled02(){
-        Account accountInsurance = TestData.createInsurance('123456789');
+        Account accountInsurance = TestData.createInsurance('12345678');
 		insert accountInsurance;
         Account account = TestData.createAccount();
 		insert account;
@@ -68,7 +68,7 @@ public class MandateMailControllerTest {
 		String returnValue = MandateMailController.init(claim.Id);
         System.assertEquals(null, returnValue);
     }
-    
+    */
     @isTest
     private static void testInitEnabled03(){
         Account accountInsurance = TestData.createInsurance('123456789');
@@ -83,6 +83,7 @@ public class MandateMailControllerTest {
         opp.Insurance_Type__c = 'Rentenversicherung';
         opp.Insurance_Rate__c = 'Dummy-Tarifbezeichnung';
         opp.Backoffice__c= backoffice.Id;
+        opp.Callcenter__c =backoffice.Id;
         //opp.Legal__c = legal.Id;
         insert opp;
         Claim__c claim = TestData.createClaim(opp.Id,'Legal Opposition');
@@ -91,7 +92,7 @@ public class MandateMailControllerTest {
 		String returnValue = MandateMailController.init(claim.Id);
         System.assertEquals(null, returnValue);
     }
-    
+ 
     @isTest
     private static void testTriggerEvent(){  
         Test.startTest();

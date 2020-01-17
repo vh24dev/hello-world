@@ -16,6 +16,7 @@ public class VH24Mail {
     public Messaging.SendEmailResult [] sendMail() {
         delegation.prepareMail();
         mail = new Messaging.SingleEmailMessage();
+        
         mail.setSubject(
            delegation.getSubject()             
         );
@@ -29,12 +30,13 @@ public class VH24Mail {
             delegation.getHtmlBody()
             
         );
-        mail.setFileAttachments(
-			this.delegation.getAttachments()            
-        );
         mail.setOrgWideEmailAddressId (
         	this.delegation.getSenderId()
         );
+        mail.setFileAttachments(
+			this.delegation.getAttachments()            
+        );
+ 
         
         sendMail(new Messaging.SingleEmailMessage[] {mail});  
         return null;

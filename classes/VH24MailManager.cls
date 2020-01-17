@@ -4,6 +4,9 @@ public class VH24MailManager {
     VH24Mail executor;
     VH24MailData  data;
     
+    // drei delegations Typen
+    // 
+    
     public VH24MailManager(VH24MailData data) {
         this.data = data;
         this.eventName = data.mailType;
@@ -36,5 +39,40 @@ public class VH24MailManager {
                 return null;
    			}
 		}
-    }  
+    } 
+    
+    // refactoring needs to be done 
+    /*
+    @TestVisible
+    private iVH24TemplateCreator buildTemplateCreator( ) {
+        switch on eventName {
+   			when 'LVAGBLeadConversion' {
+       			return null;
+   			}
+   			when 'MandateAsMail' {
+       			return null;
+   			}
+   			when else {
+       			System.debug('Event not registered!');
+                return null;
+   			}
+		}
+    } 
+    
+    @TestVisible
+    private iVH24AttachmentCreator buildAttachmentCreator( ) {
+        switch on eventName {
+   			when 'LVAGBLeadConversion' {
+       			return null;
+   			}
+   			when 'MandateAsMail' {
+       			return null;
+   			}
+   			when else {
+       			System.debug('Event not registered!');
+                return null;
+   			}
+		}
+    } 
+*/
 }

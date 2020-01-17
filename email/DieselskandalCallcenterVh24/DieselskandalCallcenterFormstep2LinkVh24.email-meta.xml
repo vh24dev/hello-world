@@ -5,43 +5,65 @@
     <encodingKey>UTF-8</encodingKey>
     <name>DieselskandalCallcenterFormstep2LinkVh24</name>
     <style>none</style>
-    <subject>Jetzt handeln! Ihr Recht im Dieselskandal</subject>
-    <textOnly>Auftragsdaten in wenigen Schritten hochladen.
+    <subject>Dieselskandal: Auftragsdaten vervollständigen und Recht fordern</subject>
+    <textOnly>{!Contact.Salutation__c}
 
-{!Lead.Salutation__c},
+Bearbeitungsnummer: {!Lead.Bearbeitungsnummer__c}
 
-wir haben Ihre Anfrage für die Durchsetzung Ihrer Rechte im Dieselskandal erhalten und können
-bestätigen, dass Ihre Chancen auf Schadensersatz sehr gut sind.
-Um für Sie tätig werden zu können, benötigen wir noch weitere Informationen von Ihnen.
+Danke für Ihre Anfrage zur Rechtedurchsetzung im Dieselskandal
 
-Daten jetzt vervollständigen.Nur noch wenige Informationen und wir werden für Sie tätig!
+Bitte nehmen Sie sich 2 Minuten Zeit, um Ihre Angaben zu vervollständigen
 
-Noch Fragen?
+HIER ANGABEN VERVOLLSTÄNDIGEN
 
-Wenn Sie Fragen haben oder mit uns direkt telefonieren möchten, erreichen Sie uns unter 089 - 124 147 413 oder Sie fordern einfach einen Rückruf an.
+Profitieren Sie von unseren Stärken und Leistungen.
+Bis zu 10.000€ Schadensersatz sichern!
+
+Unkomplizierte Abwicklung
+Sie müssen sich um nichts kümmern
+
+Kein Kostenrisiko
+Eine Provision wird erst im Erfolgsfall fällig
+
+Schneller Erfolg
+Schadensersatz in 3 bis 5 Monaten möglich
+
+Noch Fragen? Wir helfen Ihnen gern. Rufen Sie uns unter der 089 124 147 413 an
+oder kontaktieren Sie uns per Mail an info@verbraucherhilfe24.de
+
+Wehren Sie sich - Warten Sie nicht - Handeln Sie jetzt!
+
+Herzliche Grüße
+Ihr Team von Verbraucherhilfe24
 
 
-Wir freuen uns darauf, für Sie tätig zu werden.
+Nehmen Sie sich 5 Minuten Zeit - Wir übernehmen den Rest!
 
-Ihre Verbraucherhilfe24
+Verbraucherhilfe24 – Wofür wir stehen
 
-
+Unsere Mission ist die Durchsetzung Ihrer Rechte gegenüber Autoherstellern, Banken, Versicherungen und Konzernen durch erfahrene, externe
+Rechtsexperten – ohne Kostenrisiko für Sie.​
 
 VH24 GmbH
 Albert-Roßhaupter-Str. 32
 81369 München
-Telefon: 089 - 124 147 413
-Kontakt: office@verbraucherhilfe24.de
 
+Telefon: 089 - 124 147 413
+Fax: 089 - 124 147 419
 www.verbraucherhilfe24.de
 
-Registergericht beim Amtsgericht München unter 371 E - M 1779 als Inkassodienstleister gem. §10 abs. 1 RDG | Handelsregister: HRB 217774 Amtsgericht München | USt-IDNr: DE277526577
+Kontakt: office@verbraucherhilfe24.de
+
+Registriert beim Amtsgericht München unter 371 E – M 1779 als
+Inkassodienstleister gem. § 10 Abs. 1 RDG Handelsregister: HRB 217774
+Amtsgericht München USt-IDNr: DE277526577
 
 
-Abmelden
+ZUM BLOG
 
+IMPRESSUM
 
-Widerrufserklärung inkl. AGB</textOnly>
+DATENSCHUTZ</textOnly>
     <type>custom</type>
     <uiType>Aloha</uiType>
 </EmailTemplate>

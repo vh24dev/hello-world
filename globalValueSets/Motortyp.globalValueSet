@@ -40,6 +40,11 @@
         <default>false</default>
         <label>Anderer Motortyp</label>
     </customValue>
+    <customValue>
+        <fullName>EA897 Evo</fullName>
+        <default>false</default>
+        <label>EA897 Evo</label>
+    </customValue>
     <masterLabel>Motortyp</masterLabel>
     <sorted>false</sorted>
 </GlobalValueSet>

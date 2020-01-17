@@ -68,6 +68,14 @@
         <label><!-- insuranceCostNoteReminderExisting --></label>
         <name>insuranceCostNoteReminderExisting__c</name>
     </fields>
+    <fields>
+        <label><!-- Kreditinstitut --></label>
+        <name>Kreditinstitut__c</name>
+    </fields>
+    <fields>
+        <label><!-- Versicherung --></label>
+        <name>Versicherung__c</name>
+    </fields>
     <caseValues>
         <caseType>Nominative</caseType>
         <plural>false</plural>

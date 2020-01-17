@@ -7,7 +7,6 @@
     <style>none</style>
     <subject>Beispielrechnung | Bearbeitungsnummer: {!Opportunity.Number__c}</subject>
     <textOnly>Was kostet eine Abwicklung über Verbraucherhilfe24?
-Was kostet eine Abwicklung über Verbraucherhilfe24?
 
 {!Contact.Salutation__c},
 
@@ -66,13 +65,7 @@ Fax: 089 – 124 147 419
 email: office@verbraucherhilfe24.de
 www.verbraucherhilfe24.de
 
-Registriert beim Amtsgericht München unter: 371 E - M 1779 als Inkassodienstleister gem. §10 abs. 1 RDG I Handelsregister: HRB 217774 Amtsgericht München
-
-
-Abmeldung
-
-
-Widerrufserklärung inkl. AGB</textOnly>
+Registriert beim Amtsgericht München unter: 371 E - M 1779 als Inkassodienstleister gem. §10 abs. 1 RDG I Handelsregister: HRB 217774 Amtsgericht München</textOnly>
     <type>custom</type>
     <uiType>Aloha</uiType>
 </EmailTemplate>

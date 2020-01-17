@@ -24,7 +24,7 @@
     </values>
     <values>
         <field>Kainz_Legal__c</field>
-        <value xsi:type="xsd:double">0.0</value>
+        <value xsi:type="xsd:double">100.0</value>
     </values>
     <values>
         <field>Krutisch_Legal__c</field>
@@ -32,7 +32,7 @@
     </values>
     <values>
         <field>Lachmair_Legal__c</field>
-        <value xsi:type="xsd:double">100.0</value>
+        <value xsi:type="xsd:double">0.0</value>
     </values>
     <values>
         <field>Legal_Account__c</field>

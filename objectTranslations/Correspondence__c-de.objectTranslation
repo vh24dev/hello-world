@@ -176,6 +176,10 @@
         <label><!-- Klagedokumente vollständig --></label>
         <name>correspondenceLegalDocumentsComplete__c</name>
     </fields>
+    <fields>
+        <label><!-- Produkt --></label>
+        <name>Produkt__c</name>
+    </fields>
     <caseValues>
         <caseType>Nominative</caseType>
         <plural>false</plural>

@@ -15,6 +15,7 @@ public class LVAGBMailManager {
     private static Messaging.SendEmailResult [] executeMailPrivate(Id convertedContactId, String bearbeitungsnummer) {
         Messaging.SendEmailResult [] mailResult = null;
         iVH24MailDelegation agbDelegation = new LVSendAGBDelegation(bearbeitungsnummer,mapIdToContact(convertedContactId));
+        agbDelegation.prepareMail();
         if(agbDelegation.isEnabled()){
         	VH24Mail vH24Mail = new VH24Mail();
 	    	vH24Mail.setDelegation(agbDelegation);
@@ -31,7 +32,8 @@ public class LVAGBMailManager {
     private static void processResult(Messaging.SendEmailResult [] result, String bearbeitungsnummer) {
         Opportunity opp = [Select AGBMail_Send_Result__c From Opportunity Where Number__c =: bearbeitungsnummer];
         boolean success = false;
-        string resultMessage = 'could not build result message: probably something went wrong';
+        string resultMessage = 'not set at present';
+        //string resultMessage = 'could not build result message: probably something went wrong';
         if(result != null && result.size() > 0) {
             success = result[0].isSuccess();
         }

@@ -741,7 +741,7 @@ Registriert beim Amtsgericht M&#252;nchen unter: 371 E - M 1779 als Inkassodiens
           <div class="layout__inner" style="border-collapse: collapse;display: table;width: 100%;">
           <!--[if (mso)|(IE)]><table align="center" cellpadding="0" cellspacing="0" role="presentation"><tr class="layout-email-footer"><td style="width: 600px;" class="w560"><![endif]-->
             <div class="column" style="text-align: left;font-size: 9px;line-height: 19px;color: #3c494d;font-family: Open Sans,sans-serif;max-width: 600px;min-width: 320px; width: 320px;width: calc(28000% - 167400px);">
-              <div style="Margin-left: 20px;Margin-right: 20px;Margin-top: 10px;Margin-bottom: 10px;"><p><div style="font-size: 12px;line-height: 19px;"><a href="{!Lead.URL_Abmeldung__c}" target="_blank"><span style="color: #0000cd;"><b>Abmelden</b></a>
+              <div style="Margin-left: 20px;Margin-right: 20px;Margin-top: 10px;Margin-bottom: 10px;"><p><div style="font-size: 12px;line-height: 19px;">
 
 <p><div style="font-size: 12px;line-height: 19px;"><a href="https://www.verbraucherhilfe24.de/agb/dg/AGB_VH24_mitRS_B.pdf" target="_blank"><span style="color: #0000cd;"><b>Widerrufserklärung inkl. AGB</b></a></div>
               </div>

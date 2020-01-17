@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?><CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label><!-- CustomQuestion1 --></label>
+        <name>CustomQuestion1__c</name>
+    </fields>
+    <fields>
+        <label><!-- CustomQuestion2 --></label>
+        <name>CustomQuestion2__c</name>
+    </fields>
+    <fields>
+        <label><!-- CustomQuestion3 --></label>
+        <name>CustomQuestion3__c</name>
+    </fields>
+    <fields>
+        <label><!-- CustomQuestion4 --></label>
+        <name>CustomQuestion4__c</name>
+    </fields>
+    <fields>
+        <label><!-- CustomResponse1 --></label>
+        <name>CustomResponse1__c</name>
+    </fields>
+    <fields>
+        <label><!-- CustomResponse2 --></label>
+        <name>CustomResponse2__c</name>
+    </fields>
+    <fields>
+        <label><!-- CustomResponse3 --></label>
+        <name>CustomResponse3__c</name>
+    </fields>
+    <fields>
+        <label><!-- CustomResponse4 --></label>
+        <name>CustomResponse4__c</name>
+    </fields>
+    <fields>
+        <label><!-- Event Cancel Reason --></label>
+        <name>EventCancelReason__c</name>
+    </fields>
+    <fields>
+        <label><!-- Event Canceled --></label>
+        <name>EventCanceled__c</name>
+    </fields>
+    <fields>
+        <label><!-- Event Canceler Name --></label>
+        <name>EventCancelerName__c</name>
+    </fields>
+    <fields>
+        <label><!-- Event Created At --></label>
+        <name>EventCreatedAt__c</name>
+    </fields>
+    <fields>
+        <label><!-- Event Description --></label>
+        <name>EventDescription__c</name>
+    </fields>
+    <fields>
+        <label><!-- Event End Time --></label>
+        <name>EventEndTime__c</name>
+    </fields>
+    <fields>
+        <label><!-- Event Primary Publisher Email --></label>
+        <name>EventPrimaryPublisherEmail__c</name>
+    </fields>
+    <fields>
+        <label><!-- Event Primary Publisher Name --></label>
+        <name>EventPrimaryPublisherName__c</name>
+    </fields>
+    <fields>
+        <label><!-- Event Start Time --></label>
+        <name>EventStartTime__c</name>
+    </fields>
+    <fields>
+        <label><!-- Event Subject --></label>
+        <name>EventSubject__c</name>
+    </fields>
+    <fields>
+        <label><!-- Event Type Duration --></label>
+        <name>EventTypeDuration__c</name>
+    </fields>
+    <fields>
+        <label><!-- Event Type Kind --></label>
+        <name>EventTypeKind__c</name>
+    </fields>
+    <fields>
+        <label><!-- Event Type Name --></label>
+        <name>EventTypeName__c</name>
+    </fields>
+    <fields>
+        <label><!-- Event Type Slug --></label>
+        <name>EventTypeSlug__c</name>
+    </fields>
+    <fields>
+        <label><!-- Event Uuid --></label>
+        <name>EventUuid__c</name>
+    </fields>
+    <fields>
+        <label><!-- Invitee Cancel Reason --></label>
+        <name>InviteeCancelReason__c</name>
+    </fields>
+    <fields>
+        <label><!-- Invitee Canceled At --></label>
+        <name>InviteeCanceledAt__c</name>
+    </fields>
+    <fields>
+        <label><!-- Invitee Canceled --></label>
+        <name>InviteeCanceled__c</name>
+    </fields>
+    <fields>
+        <label><!-- Invitee Canceler Name --></label>
+        <name>InviteeCancelerName__c</name>
+    </fields>
+    <fields>
+        <label><!-- Invitee Created At --></label>
+        <name>InviteeCreatedAt__c</name>
+    </fields>
+    <fields>
+        <label><!-- Invitee Email --></label>
+        <name>InviteeEmail__c</name>
+    </fields>
+    <fields>
+        <label><!-- Invitee First Name --></label>
+        <name>InviteeFirstName__c</name>
+    </fields>
+    <fields>
+        <label><!-- Invitee Last Name --></label>
+        <name>InviteeLastName__c</name>
+    </fields>
+    <fields>
+        <label><!-- Invitee Name --></label>
+        <name>InviteeName__c</name>
+    </fields>
+    <fields>
+        <label><!-- Invitee Timezone --></label>
+        <name>InviteeTimezone__c</name>
+    </fields>
+    <fields>
+        <label><!-- Invitee Uuid --></label>
+        <name>InviteeUuid__c</name>
+    </fields>
+    <fields>
+        <label><!-- Location --></label>
+        <name>Location__c</name>
+    </fields>
+    <fields>
+        <label><!-- Object Id --></label>
+        <name>ObjectId__c</name>
+    </fields>
+    <fields>
+        <label><!-- UtmCampaign --></label>
+        <name>UtmCampaign__c</name>
+    </fields>
+    <fields>
+        <label><!-- UtmContent --></label>
+        <name>UtmContent__c</name>
+    </fields>
+    <fields>
+        <label><!-- UtmMedium --></label>
+        <name>UtmMedium__c</name>
+    </fields>
+    <fields>
+        <label><!-- UtmSource --></label>
+        <name>UtmSource__c</name>
+    </fields>
+    <fields>
+        <label><!-- UtmTerm --></label>
+        <name>UtmTerm__c</name>
+    </fields>
+    <caseValues>
+        <plural>false</plural>
+        <value>CalendlyAction</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>CalendlyActions</value>
+    </caseValues>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

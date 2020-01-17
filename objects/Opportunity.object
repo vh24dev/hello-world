@@ -1,7 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?><CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
     <actionOverrides>
         <actionName>AddInfluence</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>AddInfluence</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>AddInfluence</actionName>
         <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Large</formFactor>
         <type>Default</type>
     </actionOverrides>
     <actionOverrides>
@@ -11,7 +29,25 @@
     </actionOverrides>
     <actionOverrides>
         <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
         <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Large</formFactor>
         <type>Default</type>
     </actionOverrides>
     <actionOverrides>
@@ -21,7 +57,25 @@
     </actionOverrides>
     <actionOverrides>
         <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
         <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Large</formFactor>
         <type>Default</type>
     </actionOverrides>
     <actionOverrides>
@@ -31,7 +85,25 @@
     </actionOverrides>
     <actionOverrides>
         <actionName>New</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
         <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Large</formFactor>
         <type>Default</type>
     </actionOverrides>
     <actionOverrides>
@@ -41,7 +113,28 @@
     </actionOverrides>
     <actionOverrides>
         <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
         <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <comment>Action override created by Lightning App Builder during activation.</comment>
+        <content>Opportunity_Record_Page</content>
+        <formFactor>Large</formFactor>
+        <skipRecordTypeSelect>false</skipRecordTypeSelect>
+        <type>Flexipage</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
         <type>Default</type>
     </actionOverrides>
     <actionOverrides>
@@ -2120,9 +2213,18 @@ MOD( DATE(YEAR(Created_Date__c), 1, 1) - DATE (1900, 1, 7), 7),
     </fields>
     <fields>
         <fullName>Gericht_des_Kunden__c</fullName>
-        <deleteConstraint>SetNull</deleteConstraint>
+        <deleteConstraint>Restrict</deleteConstraint>
         <externalId>false</externalId>
         <label>Account</label>
+        <lookupFilter>
+            <active>true</active>
+            <filterItems>
+                <field>Account.Type</field>
+                <operation>equals</operation>
+                <value>Gericht</value>
+            </filterItems>
+            <isOptional>false</isOptional>
+        </lookupFilter>
         <referenceTo>Account</referenceTo>
         <relationshipLabel>Opportunities (Account)</relationshipLabel>
         <relationshipName>Opportunities1</relationshipName>
@@ -2509,9 +2611,13 @@ MOD( DATE(YEAR(Created_Date__c), 1, 1) - DATE (1900, 1, 7), 7),
     </fields>
     <fields>
         <fullName>Invoice_Amount__c</fullName>
+        <description>Defines the unit price net, according to the compensation rate and the effective obtained amount.</description>
         <externalId>false</externalId>
-        <formula>IF(ON_CompensationRateInclTax__c, ON_CompensationRate__c * ON_ObtainedAmount__c / (1 + ON_TaxRate__c), ON_CompensationRate__c * ON_ObtainedAmount__c)</formula>
+        <formula>IF(CompensationRateInclTax__c, CompensationRate__c * EffectiveObtainedAmount__c / (1.19), CompensationRate__c * EffectiveObtainedAmount__c)
+
+/*IF(CompensationRateInclTax__c, CompensationRate__c * EffectiveObtainedAmount__c / (1 + ON_TaxRate__c), CompensationRate__c * EffectiveObtainedAmount__c)*/</formula>
         <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <inlineHelpText>Defines the unit price net, according to the compensation rate and the effective obtained amount. NET amount.</inlineHelpText>
         <label>Rechnungsbetrag (netto)</label>
         <precision>18</precision>
         <required>false</required>
@@ -3047,9 +3153,10 @@ MOD( DATE(YEAR(Created_Date__c), 1, 1) - DATE (1900, 1, 7), 7),
         <fullName>ON_Account__c</fullName>
         <description>Specifies the Salesforce account ID or external ID.</description>
         <externalId>false</externalId>
-        <formula>Account__c</formula>
+        <formula>AccountId</formula>
         <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
-        <label>ON-Account</label>
+        <inlineHelpText>Specifies the Salesforce account ID or external ID.</inlineHelpText>
+        <label>ON_Account</label>
         <required>false</required>
         <trackHistory>false</trackHistory>
         <trackTrending>false</trackTrending>
@@ -3057,33 +3164,13 @@ MOD( DATE(YEAR(Created_Date__c), 1, 1) - DATE (1900, 1, 7), 7),
         <unique>false</unique>
     </fields>
     <fields>
-        <fullName>ON_CompensationRateInclTax__c</fullName>
-        <defaultValue>false</defaultValue>
-        <externalId>false</externalId>
-        <label>ON-Verguetungssatz inkl. USt.?</label>
-        <trackFeedHistory>false</trackFeedHistory>
-        <trackHistory>false</trackHistory>
-        <trackTrending>false</trackTrending>
-        <type>Checkbox</type>
-    </fields>
-    <fields>
-        <fullName>ON_CompensationRate__c</fullName>
-        <externalId>false</externalId>
-        <label>ON-Verguetungssatz</label>
-        <precision>18</precision>
-        <required>false</required>
-        <scale>2</scale>
-        <trackFeedHistory>false</trackFeedHistory>
-        <trackHistory>false</trackHistory>
-        <trackTrending>false</trackTrending>
-        <type>Percent</type>
-    </fields>
-    <fields>
         <fullName>ON_CustomerNo__c</fullName>
+        <description>Defines the customer number for this specific account</description>
         <externalId>false</externalId>
-        <formula>Customer_Number__c</formula>
+        <formula>IF( NOT(ISBLANK(Account.Debitor_Nummer__c)), Account.Debitor_Nummer__c, Customer_Number__c)</formula>
         <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
-        <label>ON-Kundennummer</label>
+        <inlineHelpText>Defines the customer number for this specific account. Returns the 'Debitor Nummer' from the Account. If missing, returns the 'Customer Number' from the Opportunity.</inlineHelpText>
+        <label>ON_CustomerNo</label>
         <required>false</required>
         <trackHistory>false</trackHistory>
         <trackTrending>false</trackTrending>
@@ -3094,7 +3181,8 @@ MOD( DATE(YEAR(Created_Date__c), 1, 1) - DATE (1900, 1, 7), 7),
         <fullName>ON_InvoiceBuildError__c</fullName>
         <description>Shows errors that occurred during the last invoice run.</description>
         <externalId>false</externalId>
-        <label>Last Error</label>
+        <inlineHelpText>Shows errors that occurred during the last invoice run.</inlineHelpText>
+        <label>ON_Last Error</label>
         <length>255</length>
         <required>false</required>
         <trackFeedHistory>false</trackFeedHistory>
@@ -3108,7 +3196,8 @@ MOD( DATE(YEAR(Created_Date__c), 1, 1) - DATE (1900, 1, 7), 7),
         <deleteConstraint>SetNull</deleteConstraint>
         <description>The invoice that resulted from this record.</description>
         <externalId>false</externalId>
-        <label>Invoice</label>
+        <inlineHelpText>The invoice that resulted from this record.</inlineHelpText>
+        <label>ON_Invoice</label>
         <referenceTo>ONB2__Invoice__c</referenceTo>
         <relationshipLabel>Anfragen</relationshipLabel>
         <relationshipName>Anfragen</relationshipName>
@@ -3124,7 +3213,8 @@ MOD( DATE(YEAR(Created_Date__c), 1, 1) - DATE (1900, 1, 7), 7),
         <externalId>false</externalId>
         <formula>true</formula>
         <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
-        <label>Is Line Item</label>
+        <inlineHelpText>Forces JustOn to use this object as the source for both the invoice and the invoice line items.</inlineHelpText>
+        <label>ON_Is Line Item</label>
         <trackHistory>false</trackHistory>
         <trackTrending>false</trackTrending>
         <type>Checkbox</type>
@@ -3134,7 +3224,8 @@ MOD( DATE(YEAR(Created_Date__c), 1, 1) - DATE (1900, 1, 7), 7),
         <deleteConstraint>SetNull</deleteConstraint>
         <description>Shows the last invoice run that has processed this object.</description>
         <externalId>false</externalId>
-        <label>Invoice Run</label>
+        <inlineHelpText>Shows the last invoice run that has processed this object.</inlineHelpText>
+        <label>ON_Invoice Run</label>
         <referenceTo>ONB2__InvoiceRun__c</referenceTo>
         <relationshipLabel>Anfragen</relationshipLabel>
         <relationshipName>Anfragen</relationshipName>
@@ -3145,106 +3236,13 @@ MOD( DATE(YEAR(Created_Date__c), 1, 1) - DATE (1900, 1, 7), 7),
         <type>Lookup</type>
     </fields>
     <fields>
-        <fullName>ON_MailingCity__c</fullName>
-        <externalId>false</externalId>
-        <formula>Contact__r.MailingCity</formula>
-        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
-        <label>Mailing City</label>
-        <required>false</required>
-        <trackHistory>false</trackHistory>
-        <trackTrending>false</trackTrending>
-        <type>Text</type>
-        <unique>false</unique>
-    </fields>
-    <fields>
-        <fullName>ON_MailingCountry__c</fullName>
-        <externalId>false</externalId>
-        <formula>Contact__r.MailingCountry</formula>
-        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
-        <label>Mailing Country</label>
-        <required>false</required>
-        <trackHistory>false</trackHistory>
-        <trackTrending>false</trackTrending>
-        <type>Text</type>
-        <unique>false</unique>
-    </fields>
-    <fields>
-        <fullName>ON_MailingFirstName__c</fullName>
-        <externalId>false</externalId>
-        <formula>Contact__r.FirstName</formula>
-        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
-        <label>Mailing First Name</label>
-        <required>false</required>
-        <trackHistory>false</trackHistory>
-        <trackTrending>false</trackTrending>
-        <type>Text</type>
-        <unique>false</unique>
-    </fields>
-    <fields>
-        <fullName>ON_MailingLastName__c</fullName>
-        <externalId>false</externalId>
-        <formula>Contact__r.LastName</formula>
-        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
-        <label>Mailing Last Name</label>
-        <required>false</required>
-        <trackHistory>false</trackHistory>
-        <trackTrending>false</trackTrending>
-        <type>Text</type>
-        <unique>false</unique>
-    </fields>
-    <fields>
-        <fullName>ON_MailingPostalCode__c</fullName>
-        <externalId>false</externalId>
-        <formula>Contact__r.MailingPostalCode</formula>
-        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
-        <label>Mailing Postal Code</label>
-        <required>false</required>
-        <trackHistory>false</trackHistory>
-        <trackTrending>false</trackTrending>
-        <type>Text</type>
-        <unique>false</unique>
-    </fields>
-    <fields>
-        <fullName>ON_MailingStreet__c</fullName>
-        <externalId>false</externalId>
-        <formula>Contact__r.MailingStreet</formula>
-        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
-        <label>Mailing Street</label>
-        <required>false</required>
-        <trackHistory>false</trackHistory>
-        <trackTrending>false</trackTrending>
-        <type>Text</type>
-        <unique>false</unique>
-    </fields>
-    <fields>
-        <fullName>ON_MandateDate__c</fullName>
-        <externalId>false</externalId>
-        <label>ON-Mandatierungsdatum</label>
-        <required>false</required>
-        <trackFeedHistory>false</trackFeedHistory>
-        <trackHistory>false</trackHistory>
-        <trackTrending>false</trackTrending>
-        <type>Date</type>
-    </fields>
-    <fields>
-        <fullName>ON_ObtainedAmount__c</fullName>
-        <externalId>false</externalId>
-        <label>ON-Erstrittener_Betrag</label>
-        <precision>18</precision>
-        <required>false</required>
-        <scale>2</scale>
-        <trackFeedHistory>false</trackFeedHistory>
-        <trackHistory>false</trackHistory>
-        <trackTrending>false</trackTrending>
-        <type>Currency</type>
-    </fields>
-    <fields>
         <fullName>ON_Quantity__c</fullName>
         <description>The quantity to be billed for this invoice line item.</description>
         <externalId>false</externalId>
         <formula>1</formula>
         <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
-        <label>Quantity</label>
+        <inlineHelpText>The quantity to be billed for this invoice line item.</inlineHelpText>
+        <label>ON_Quantity</label>
         <precision>18</precision>
         <required>false</required>
         <scale>2</scale>
@@ -3255,10 +3253,12 @@ MOD( DATE(YEAR(Created_Date__c), 1, 1) - DATE (1900, 1, 7), 7),
     </fields>
     <fields>
         <fullName>ON_Salutation__c</fullName>
+        <description>Returns the salutation maintained at the contact</description>
         <externalId>false</externalId>
         <formula>Contact__r.Salutation__c</formula>
         <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
-        <label>ON-Anrede</label>
+        <inlineHelpText>Returns the salutation maintained at the contact</inlineHelpText>
+        <label>ON_Anrede</label>
         <required>false</required>
         <trackHistory>false</trackHistory>
         <trackTrending>false</trackTrending>
@@ -3269,34 +3269,30 @@ MOD( DATE(YEAR(Created_Date__c), 1, 1) - DATE (1900, 1, 7), 7),
         <fullName>ON_ServiceDate__c</fullName>
         <description>The record will be invoiced when the date is null or within the service period of the invoice run.</description>
         <externalId>false</externalId>
-        <formula>null</formula>
+        <formula>NULL</formula>
         <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
-        <label>Service Date</label>
+        <inlineHelpText>The record will be invoiced when the date is null or within the service period of the invoice run. 
+Set to null.</inlineHelpText>
+        <label>ON_Service Date</label>
         <required>false</required>
         <trackHistory>false</trackHistory>
         <trackTrending>false</trackTrending>
         <type>Date</type>
     </fields>
     <fields>
-        <fullName>ON_TaxRate__c</fullName>
-        <externalId>false</externalId>
-        <formula>0.19</formula>
-        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
-        <label>ON-USt-Satz</label>
-        <precision>18</precision>
-        <required>false</required>
-        <scale>2</scale>
-        <trackHistory>false</trackHistory>
-        <trackTrending>false</trackTrending>
-        <type>Percent</type>
-    </fields>
-    <fields>
         <fullName>ON_Template__c</fullName>
         <description>Specifies the Salesforce ID of the related template.</description>
         <externalId>false</externalId>
-        <formula>"a301t000001DWwC"</formula>
+        <formula>IF( Text( Account.Type) = "Legal Office", 'a301t0000015DVg', 'a301t0000015DVb')
+
+/*CASE( Product__c, 
+"Dieselskandal","a301t000001DWwC",  
+"Finanzierung","a301t000001DYAd", 
+"Lebensversicherung","a301t000001DYAi", 
+"noch kein passendes Template vorhanden")*/</formula>
         <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
-        <label>Template</label>
+        <inlineHelpText>Specifies the Salesforce ID of the related template. Set to 'Default'.</inlineHelpText>
+        <label>ON_Template</label>
         <required>false</required>
         <trackHistory>false</trackHistory>
         <trackTrending>false</trackTrending>
@@ -3307,9 +3303,10 @@ MOD( DATE(YEAR(Created_Date__c), 1, 1) - DATE (1900, 1, 7), 7),
         <fullName>ON_Title__c</fullName>
         <description>The name or short description of the invoice line item.</description>
         <externalId>false</externalId>
-        <formula>"&lt;span style='font-size:8pt;'&gt;Vorgang " + Number__c + ":&lt;br&gt;" + ON_MailingLastName__c  + " ./. " + Vehicle_Brand__r.Name + "&lt;br&gt;(" + TEXT(ON_CompensationRate__c * 100) + " % " + IF(ON_CompensationRateInclTax__c, "inkl. USt", "zzgl. USt") + " aus " + IF( ON_ObtainedAmount__c &gt;= 1000000, TEXT(FLOOR(ON_ObtainedAmount__c / 1000000)) + ".", "") + IF(ON_ObtainedAmount__c &gt;= 1000, RIGHT(TEXT(FLOOR(ON_ObtainedAmount__c / 1000)), 3) + ".", "") + RIGHT(TEXT(FLOOR(ON_ObtainedAmount__c)), 3) + "," + IF(MOD(ON_ObtainedAmount__c , 1) * 100 &lt; 10, "0" + TEXT(ROUND(MOD(ON_ObtainedAmount__c , 1), 2) * 100), TEXT(MIN(ROUND(MOD(ON_ObtainedAmount__c , 1), 2) * 100, 99))) + " € " + "&lt;br&gt;lt. Vereinbarung vom " + IF(LEN(TEXT(DAY(ON_MandateDate__c))) &gt; 1 , TEXT(DAY(ON_MandateDate__c)), "0" + TEXT(DAY(ON_MandateDate__c))) + "." + IF( LEN(TEXT(MONTH(ON_MandateDate__c))) &gt; 1 , TEXT(MONTH(ON_MandateDate__c)), "0" + TEXT(MONTH(ON_MandateDate__c))) + "." + TEXT(YEAR(ON_MandateDate__c)) + ")&lt;/span&gt;"</formula>
+        <formula>"&lt;span style='font-size:8pt;display:block;max-width:5cm'&gt;Vorgang " + Number__c + ":&lt;br&gt;" + ContactLastName__c  + " ./. " + IF(Product__c = "Lebensversicherung", Insurance_Name__c, Autohersteller__c) + "&lt;br&gt;(" + TEXT(CompensationRate__c * 100) + " % " + IF(CompensationRateInclTax__c, "inkl. USt", "zzgl. USt") + " aus " + IF(EffectiveObtainedAmount__c &gt;= 1000, RIGHT(TEXT(FLOOR(EffectiveObtainedAmount__c / 1000)), 3) + ".", "") + RIGHT(TEXT(FLOOR(EffectiveObtainedAmount__c)), 3) + "," + IF(MOD(EffectiveObtainedAmount__c , 1) * 100 &lt; 10, "0" + TEXT(ROUND(MOD(EffectiveObtainedAmount__c , 1), 2) * 100), TEXT(MIN(ROUND(MOD(EffectiveObtainedAmount__c , 1), 2) * 100, 99))) + " € " + "&lt;br&gt;lt. Vereinbarung vom " + IF(LEN(TEXT(DAY(MandateDate__c))) &gt; 1 , TEXT(DAY(MandateDate__c)), "0" + TEXT(DAY(MandateDate__c))) + "." + IF( LEN(TEXT(MONTH(MandateDate__c))) &gt; 1 , TEXT(MONTH(MandateDate__c)), "0" + TEXT(MONTH(MandateDate__c))) + "." + TEXT(YEAR(MandateDate__c)) + ")&lt;/span&gt;"</formula>
         <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
-        <label>Title</label>
+        <inlineHelpText>The name or short description of the invoice line item.</inlineHelpText>
+        <label>ON_Title</label>
         <required>false</required>
         <trackHistory>false</trackHistory>
         <trackTrending>false</trackTrending>
@@ -3322,7 +3319,8 @@ MOD( DATE(YEAR(Created_Date__c), 1, 1) - DATE (1900, 1, 7), 7),
         <externalId>false</externalId>
         <formula>Invoice_Amount__c</formula>
         <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
-        <label>Unit Price</label>
+        <inlineHelpText>The net price of one unit of this item.</inlineHelpText>
+        <label>ON_Unit Price</label>
         <precision>18</precision>
         <required>false</required>
         <scale>2</scale>
@@ -3600,7 +3598,7 @@ MOD( DATE(YEAR(Created_Date__c), 1, 1) - DATE (1900, 1, 7), 7),
     <fields>
         <fullName>Priority_Level__c</fullName>
         <externalId>false</externalId>
-        <formula>IF(Insurance__c = null,'',CASE(Insurance__r.External_Id__c,'lv001','I','lv002','I','lv104','I','lv003','I','lv106','I','lv032','I','lv039','I','lv031','I','lv046','I','lv071','I','lv047','I','lv053','I','lv008','I','lv005','I','lv067','I', 'lv068','I', 'lv089','I','lv054','I','lv048','I', 'lv049','I', 'lv045','I', 'lv035','I', 'lv098','I', 'lv016','I', 'lv027','I', 'lv078','I', 'lv009','I', 'lv034','I','lv777','I','lv004','II','III'))</formula>
+        <formula>IF(Insurance__c = null, 'III', 'III')</formula>
         <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
         <label>Prioritätsstufe</label>
         <required>false</required>
@@ -4589,6 +4587,490 @@ MOD( DATE(YEAR(Created_Date__c), 1, 1) - DATE (1900, 1, 7), 7),
             <valueSetName>Zufriedenheit_Renditenentwicklung</valueSetName>
         </valueSet>
     </fields>
+    <fields>
+        <fullName>AGBMail_Send_Result__c</fullName>
+        <description>Field to monitor if AGB Mail was successfully sent.</description>
+        <externalId>false</externalId>
+        <label>AGBMail Send Result</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Aktion_Admin__c</fullName>
+        <externalId>false</externalId>
+        <label>Aktion Admin</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Aktionsvorgang__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>Aktionsvorgang</description>
+        <externalId>false</externalId>
+        <label>Aktionsvorgang</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Anwalt_f_r_diesen_Fall__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>gewählter Anwalt für diesen Fall</label>
+        <lookupFilter>
+            <active>true</active>
+            <filterItems>
+                <field>User.UserRole.Name</field>
+                <operation>equals</operation>
+                <value>Legal</value>
+            </filterItems>
+            <isOptional>true</isOptional>
+        </lookupFilter>
+        <referenceTo>User</referenceTo>
+        <relationshipName>Opportunities1</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Autohersteller__c</fullName>
+        <externalId>false</externalId>
+        <formula>Vehicle_Brand__r.Name</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Autohersteller</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Berechnete_Potential_LV_Mail__c</fullName>
+        <externalId>false</externalId>
+        <label>Berechnete Potential LV Mail</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Best_tigungsdatum_AGB_Ohne_RSV__c</fullName>
+        <externalId>false</externalId>
+        <label>Bestätigungsdatum AGB Ohne RSV</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>CashInValue__c</fullName>
+        <defaultValue>0</defaultValue>
+        <externalId>false</externalId>
+        <label>Rückkaufswert</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>CompensationRateInclTax__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Verguetungssatz inkl. USt.?</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>CompensationRate__c</fullName>
+        <externalId>false</externalId>
+        <label>Verguetungssatz</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Percent</type>
+    </fields>
+    <fields>
+        <fullName>ContactLastName__c</fullName>
+        <description>Returns the contact last name.</description>
+        <externalId>false</externalId>
+        <formula>Contact__r.LastName</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <inlineHelpText>Returns the contact last name. To be shown on the invoice, under 'Bezeichnung'.</inlineHelpText>
+        <label>Contact Last Name</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Contact_Email_Opt_Out__c</fullName>
+        <externalId>false</externalId>
+        <formula>Contact__r.HasOptedOutOfEmail</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Contact Email Opt Out</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Contact_ID__c</fullName>
+        <externalId>false</externalId>
+        <formula>Contact__r.Id</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Contact ID</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Document_Upload_MC__c</fullName>
+        <externalId>false</externalId>
+        <formula>$Label.SiteRoot + '/MissingDocuments?token=' + Token__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Document Upload MC</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>EffectiveObtainedAmount__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF(Product__c = "Lebensversicherung", ObtainedAmount__c - CashInValue__c, ObtainedAmount__c)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Effektiver_Vorteil</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Fall__c</fullName>
+        <deleteConstraint>Restrict</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Fall</label>
+        <referenceTo>Claim__c</referenceTo>
+        <relationshipLabel>Opportunity</relationshipLabel>
+        <relationshipName>Opportunity</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Heutiges_Datum__c</fullName>
+        <externalId>false</externalId>
+        <formula>TODAY()</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Heutiges Datum</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>LV_Vollmacht_manuell_versenden__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>LV Vollmacht manuell versenden</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Link_zur_Ohne_RSV_AGB_Best_tigung__c</fullName>
+        <externalId>false</externalId>
+        <formula>'https://verbraucherhilfe24.formstack.com/forms/dieselskandal_agb_ohnersv?'+'sf_id='+Id +'&amp;Name='+ Name+ '&amp;close date='+TEXT(CloseDate) + '&amp;Stage='+TEXT(StageName)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Link zur Ohne RSV AGB Bestätigung</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Mail_Berechnung_Ergebnis__c</fullName>
+        <externalId>false</externalId>
+        <label>Mail Berechnung Ergebnis</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Mandat_versandt_am__c</fullName>
+        <description>Kontrollfeld zur Überprüfung der Mandatversendung des</description>
+        <externalId>false</externalId>
+        <label>Mandat versandt am</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>MandateDate__c</fullName>
+        <externalId>false</externalId>
+        <label>Mandatierungsdatum</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Marked_For_Action__c</fullName>
+        <externalId>false</externalId>
+        <label>Marked For Action</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Monatlicher_Beitrag__c</fullName>
+        <externalId>false</externalId>
+        <label>Monatlicher Beitrag</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>ON_Bearbeitungsnummer__c</fullName>
+        <description>Returns the 'Bearbeitungsnummer', without 'BN'</description>
+        <externalId>false</externalId>
+        <formula>RIGHT( Number__c , 6)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <inlineHelpText>Returns the 'Bearbeitungsnummer', without 'BN'</inlineHelpText>
+        <label>ON_Bearbeitungsnummer</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>ON_Buchungstext__c</fullName>
+        <description>Returns the name of the opportunity. For the export to Datev, as 'Buchungstext'</description>
+        <externalId>false</externalId>
+        <formula>Name</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <inlineHelpText>Returns the name of the opportunity. For the export to Datev, as 'Buchungstext'</inlineHelpText>
+        <label>ON_Buchungstext</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>ON_CustomGLRule__c</fullName>
+        <description>Depending on the template, defines if the customer is VB (Verbraucher) or AW (Anwalt)</description>
+        <externalId>false</externalId>
+        <formula>CASE(  ON_Template__c , 'a301t0000015DVb', 'VB', 'a301t0000015DVg', 'AW', NULL)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <inlineHelpText>Depending on the template, defines if the customer is VB (Verbraucher) or AW (Anwalt).</inlineHelpText>
+        <label>ON_CustomGLRule</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>ON_EffectiveAmountBreakdown__c</fullName>
+        <description>Defines the text of the amount breakdown to be displayed on the invoice, below the total amount.</description>
+        <externalId>false</externalId>
+        <formula>IF(AND(Product__c = "Lebensversicherung", CashInValue__c &gt; 0),
+"Ihr Vorteilsbetrag (" + IF(EffectiveObtainedAmount__c &gt;= 1000, RIGHT(TEXT(FLOOR(EffectiveObtainedAmount__c / 1000)), 3) + ".", "") + RIGHT(TEXT(FLOOR(EffectiveObtainedAmount__c)), 3) + "," + IF(MOD(EffectiveObtainedAmount__c , 1) * 100 &lt; 10, "0" + TEXT(ROUND(MOD(EffectiveObtainedAmount__c , 1), 2) * 100), TEXT(MIN(ROUND(MOD(EffectiveObtainedAmount__c , 1), 2) * 100, 99))) + " €) errechnet sich wie folgt: Rückabwicklungsbetrag (" + IF(ObtainedAmount__c &gt;= 1000, RIGHT(TEXT(FLOOR(ObtainedAmount__c / 1000)), 3) + ".", "") + RIGHT(TEXT(FLOOR(ObtainedAmount__c)), 3) + "," + IF(MOD(ObtainedAmount__c , 1) * 100 &lt; 10, "0" + TEXT(ROUND(MOD(ObtainedAmount__c , 1), 2) * 100), TEXT(MIN(ROUND(MOD(ObtainedAmount__c , 1), 2) * 100, 99))) + " €) abzügl. Rückkaufswert (" + IF(CashInValue__c &gt;= 1000, RIGHT(TEXT(FLOOR(CashInValue__c / 1000)), 3) + ".", "") + RIGHT(TEXT(FLOOR(CashInValue__c)), 3) + "," + IF(MOD(CashInValue__c , 1) * 100 &lt; 10, "0" + TEXT(ROUND(MOD(CashInValue__c , 1), 2) * 100), TEXT(MIN(ROUND(MOD(CashInValue__c , 1), 2) * 100, 99))) + " €).&lt;br&gt;&lt;br&gt;",
+"")</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <inlineHelpText>Defines the text of the amount breakdown to be displayed on the invoice, below the total amount.
+Only for 'Lebensversicherung' product. 
+'Rückkaufswert' need to be maintained.</inlineHelpText>
+        <label>ON_EffectiveAmountBreakdown</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>ON_EmailContact__c</fullName>
+        <description>Refers to the contact person that should receive the invoice.</description>
+        <externalId>false</externalId>
+        <formula>Contact__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <inlineHelpText>Refers to the contact person that should receive the invoice.</inlineHelpText>
+        <label>ON_EmailContact</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>ON_Email__c</fullName>
+        <description>Returns the Email Address of the contact, that should receive the invoice.</description>
+        <externalId>false</externalId>
+        <formula>Contact__r.Email</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <inlineHelpText>Returns the Email Address of the contact, that should receive the invoice.</inlineHelpText>
+        <label>ON_Email</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>ON_ProductGroup__c</fullName>
+        <description>Defines the product group, according to the record type of the opportunity</description>
+        <externalId>false</externalId>
+        <formula>CASE( RecordType.DeveloperName, 
+"Dieselskandal","Dieselskandal", 
+"Finanzierung", "Finanzierung", 
+"Lebensversicherung", "Lebensversicherung", 
+NULL)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <inlineHelpText>Defines the product group, according to the record type of the opportunity</inlineHelpText>
+        <label>ON_ProductGroup</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>ON_ProductInitial__c</fullName>
+        <description>Defines the initials of the product, depending on the record type of the opportunity. Possible values: DG, FZ, LV</description>
+        <externalId>false</externalId>
+        <formula>CASE(RecordType.DeveloperName, 'Dieselskandal', 'DG','Finanzierung', 'FZ', 'Lebensversicherung', 'LV', null)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <inlineHelpText>Defines the initials of the product, depending on the record type of the opportunity. Possible values: DG, FZ, LV</inlineHelpText>
+        <label>ON_ProductInitial</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>ON_Tenant__c</fullName>
+        <description>Set the Tenant to VH24 for all the invoices</description>
+        <externalId>false</externalId>
+        <formula>'VH24'</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <inlineHelpText>Set the Tenant to VH24 for all the invoices</inlineHelpText>
+        <label>ON_Tenant</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>ObtainedAmount__c</fullName>
+        <externalId>false</externalId>
+        <label>Erstrittener_Betrag</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>PF_AGB_Ohne_RSV_Best_tigt__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>AGB Ohne RSV Bestätigt</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Send_Ssign__c</fullName>
+        <externalId>false</externalId>
+        <formula>If( Document_Count__c &gt;= 1 || Dokumente_vollst_ndig__c = True || Vollmacht_Versenden__c = True,True,False)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Send Ssign</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Vollmacht_Versenden__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>Vollmacht für elektronische Unterschrift versenden</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Vollmacht für elektronische Unterschrift versenden</inlineHelpText>
+        <label>Vollmacht versenden</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>ca_Jahre_Beitr_ge__c</fullName>
+        <externalId>false</externalId>
+        <label>ca Jahre Beiträge</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetName>ca_Jahre_Beitr_ge</valueSetName>
+        </valueSet>
+    </fields>
     <compactLayoutAssignment>New_Awesome_Companct_Layout</compactLayoutAssignment>
     <enableEnhancedLookup>true</enableEnhancedLookup>
     <enableFeeds>true</enableFeeds>
@@ -4616,6 +5098,7 @@ MOD( DATE(YEAR(Created_Date__c), 1, 1) - DATE (1900, 1, 7), 7),
     <sharingModel>Private</sharingModel>
     <listViews>
         <fullName>AllOpportunities</fullName>
+        <columns>Product__c</columns>
         <columns>OPPORTUNITY.NAME</columns>
         <columns>ACCOUNT.NAME</columns>
         <columns>OPPORTUNITY.AMOUNT</columns>
@@ -5482,65 +5965,6 @@ MOD( DATE(YEAR(Created_Date__c), 1, 1) - DATE (1900, 1, 7), 7),
         </sharedTo>
     </listViews>
     <listViews>
-        <fullName>L_Neue_BO_RSV_Nummer_MERGIM</fullName>
-        <booleanFilter>1 AND 2 AND 3 AND 4 AND 5 AND 6 AND 7 AND 8 AND 9</booleanFilter>
-        <columns>OPPORTUNITY.NAME</columns>
-        <columns>ACCOUNT.NAME</columns>
-        <columns>OPPORTUNITY.STAGE_NAME</columns>
-        <columns>Number__c</columns>
-        <columns>Financing_Type__c</columns>
-        <columns>Days_Since_Last_Stage_Change__c</columns>
-        <columns>OPPORTUNITY.CREATED_DATE</columns>
-        <filterScope>Everything</filterScope>
-        <filters>
-            <field>OPPORTUNITY.STAGE_NAME</field>
-            <operation>equals</operation>
-            <value>New</value>
-        </filters>
-        <filters>
-            <field>Product__c</field>
-            <operation>equals</operation>
-            <value>Lebensversicherung</value>
-        </filters>
-        <filters>
-            <field>Account__c</field>
-            <operation>equals</operation>
-            <value>VH24</value>
-        </filters>
-        <filters>
-            <field>Sales_Type__c</field>
-            <operation>equals</operation>
-            <value>Online</value>
-        </filters>
-        <filters>
-            <field>Test__c</field>
-            <operation>equals</operation>
-            <value>0</value>
-        </filters>
-        <filters>
-            <field>OPPORTUNITY.NAME</field>
-            <operation>notContain</operation>
-            <value>Test</value>
-        </filters>
-        <filters>
-            <field>Phone__c</field>
-            <operation>notEqual</operation>
-        </filters>
-        <filters>
-            <field>Backoffice__c</field>
-            <operation>equals</operation>
-        </filters>
-        <filters>
-            <field>Confirmed_Terms_And_Conditions__c</field>
-            <operation>equals</operation>
-            <value>1</value>
-        </filters>
-        <label>L_Neue BO RSV + Nummer --&gt; MERGIM</label>
-        <sharedTo>
-            <group>Team_Kathi</group>
-        </sharedTo>
-    </listViews>
-    <listViews>
         <fullName>MyOpportunities</fullName>
         <filterScope>Mine</filterScope>
         <label>My Opportunities</label>
@@ -5648,6 +6072,106 @@ MOD( DATE(YEAR(Created_Date__c), 1, 1) - DATE (1900, 1, 7), 7),
         <sharedTo>
             <group>Team_Kathi</group>
         </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>Import_LV</fullName>
+        <columns>OPPORTUNITY.NAME</columns>
+        <columns>ACCOUNT.NAME</columns>
+        <columns>OPPORTUNITY.AMOUNT</columns>
+        <columns>OPPORTUNITY.CLOSE_DATE</columns>
+        <columns>OPPORTUNITY.STAGE_NAME</columns>
+        <columns>OPPORTUNITY.PROBABILITY</columns>
+        <columns>OPPORTUNITY.TYPE</columns>
+        <columns>OPPORTUNITY.LEAD_SOURCE</columns>
+        <columns>CORE.USERS.FULL_NAME</columns>
+        <columns>OPPORTUNITY.CREATED_DATE</columns>
+        <columns>Token__c</columns>
+        <columns>Number__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>AdWords_Source__c</field>
+            <operation>contains</operation>
+            <value>Ascent 50_Liste Nr. 14_27.08.2019</value>
+        </filters>
+        <label>Import LV</label>
+    </listViews>
+    <listViews>
+        <fullName>JustOn_Ready_to_bill</fullName>
+        <booleanFilter>1 AND 2 AND (3 OR 4)</booleanFilter>
+        <columns>OPPORTUNITY.NAME</columns>
+        <columns>ACCOUNT.NAME</columns>
+        <columns>Customer_Number__c</columns>
+        <columns>Number__c</columns>
+        <columns>Contact__c</columns>
+        <columns>ON_EmailContact__c</columns>
+        <columns>Product__c</columns>
+        <columns>ON_UnitPrice__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>ON_UnitPrice__c</field>
+            <operation>greaterThan</operation>
+            <value>0</value>
+        </filters>
+        <filters>
+            <field>ON_Invoice__c</field>
+            <operation>equals</operation>
+        </filters>
+        <filters>
+            <field>Mandating_Date__c</field>
+            <operation>notEqual</operation>
+        </filters>
+        <filters>
+            <field>MandateDate__c</field>
+            <operation>notEqual</operation>
+        </filters>
+        <label>JustOn - Ready to bill</label>
+    </listViews>
+    <listViews>
+        <fullName>LV_Neue_Anfragen</fullName>
+        <booleanFilter>1 AND 2 AND 3 AND 4 AND 5 AND 6 AND 7</booleanFilter>
+        <columns>Number__c</columns>
+        <columns>OPPORTUNITY.NAME</columns>
+        <columns>Versicherung_LV_RV__c</columns>
+        <columns>OPPORTUNITY.STAGE_NAME</columns>
+        <columns>OPPORTUNITY.CREATED_DATE</columns>
+        <columns>Confirmed_Terms_And_Conditions__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>Product__c</field>
+            <operation>equals</operation>
+            <value>Lebensversicherung</value>
+        </filters>
+        <filters>
+            <field>OPPORTUNITY.STAGE_NAME</field>
+            <operation>equals</operation>
+            <value>New</value>
+        </filters>
+        <filters>
+            <field>Test__c</field>
+            <operation>equals</operation>
+            <value>0</value>
+        </filters>
+        <filters>
+            <field>Sales_Type__c</field>
+            <operation>equals</operation>
+            <value>Online</value>
+        </filters>
+        <filters>
+            <field>Confirmed_Terms_And_Conditions__c</field>
+            <operation>equals</operation>
+            <value>1</value>
+        </filters>
+        <filters>
+            <field>OPPORTUNITY.CREATED_DATE</field>
+            <operation>greaterOrEqual</operation>
+            <value>6/18/2019 12:00 AM</value>
+        </filters>
+        <filters>
+            <field>OPPORTUNITY.NAME</field>
+            <operation>notContain</operation>
+            <value>webform,test</value>
+        </filters>
+        <label>LV_Neue Anfragen</label>
     </listViews>
     <recordTypes>
         <fullName>Dieselskandal</fullName>
@@ -5860,6 +6384,10 @@ MOD( DATE(YEAR(Created_Date__c), 1, 1) - DATE (1900, 1, 7), 7),
                 <default>false</default>
             </values>
             <values>
+                <fullName>EA897 Evo</fullName>
+                <default>false</default>
+            </values>
+            <values>
                 <fullName>ENS</fullName>
                 <default>false</default>
             </values>
@@ -5937,29 +6465,7 @@ MOD( DATE(YEAR(Created_Date__c), 1, 1) - DATE (1900, 1, 7), 7),
                 <default>false</default>
             </values>
         </picklistValues>
-        <picklistValues>
-            <picklist>ForecastCategoryName</picklist>
-            <values>
-                <fullName>Best Case</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Closed</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Commit</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Omitted</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Pipeline</fullName>
-                <default>false</default>
-            </values>
-        </picklistValues>
+        
         <picklistValues>
             <picklist>H_he_Finanzierungsbetrag__c</picklist>
             <values>
@@ -6770,7 +7276,7 @@ MOD( DATE(YEAR(Created_Date__c), 1, 1) - DATE (1900, 1, 7), 7),
                 <default>false</default>
             </values>
             <values>
-                <fullName>AachenMuenchner Lebensversicherung AG</fullName>
+                <fullName>AachenMuenchener Lebensversicherung AG</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -6778,27 +7284,19 @@ MOD( DATE(YEAR(Created_Date__c), 1, 1) - DATE (1900, 1, 7), 7),
                 <default>false</default>
             </values>
             <values>
+                <fullName>Allianz Lebensversicherungs-Aktiengesellschaft</fullName>
+                <default>false</default>
+            </values>
+            <values>
                 <fullName>Allianz Life Luxembourg S%2EA%2E</fullName>
                 <default>false</default>
             </values>
             <values>
-                <fullName>Allianz_Lebensversicherungs-Aktiengesellschaft</fullName>
+                <fullName>Aspecta Lebensversicherung %28jetzt HDI Lebensversicherung AG%29</fullName>
                 <default>false</default>
             </values>
             <values>
-                <fullName>Aspecta Lebensversicherung AG %28jetzt HDI%29</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Athene Lebensversicherung Aktiengesellschaft</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Athora Lebensversicherung</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Atlanticlux Lebensversicherung S%2EA%2E</fullName>
+                <fullName>Athora Lebensversicherung Aktiengesellschaft</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -6814,11 +7312,11 @@ MOD( DATE(YEAR(Created_Date__c), 1, 1) - DATE (1900, 1, 7), 7),
                 <default>false</default>
             </values>
             <values>
-                <fullName>Condor Lebensversicherungs-AG</fullName>
+                <fullName>Condor Lebensversicherungs-Aktiengesellschaft</fullName>
                 <default>false</default>
             </values>
             <values>
-                <fullName>Continentale Lebensversicherung a%2EG%2E</fullName>
+                <fullName>Continentale Lebensversicherung AG</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -6830,7 +7328,7 @@ MOD( DATE(YEAR(Created_Date__c), 1, 1) - DATE (1900, 1, 7), 7),
                 <default>false</default>
             </values>
             <values>
-                <fullName>DBW-Winterthur Leebnsversicherung AG</fullName>
+                <fullName>DBV-Winterthur Lebensversicherung AG</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -6870,7 +7368,11 @@ MOD( DATE(YEAR(Created_Date__c), 1, 1) - DATE (1900, 1, 7), 7),
                 <default>false</default>
             </values>
             <values>
-                <fullName>ERGO Vorsorge Lebensversicherung AG</fullName>
+                <fullName>ERGO Direkt Lebensversicherung AG</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>ERGO Vorsorge Lebensversicherung AG %28ehemals VORSORGE Lebensversicherung%29</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -6878,7 +7380,19 @@ MOD( DATE(YEAR(Created_Date__c), 1, 1) - DATE (1900, 1, 7), 7),
                 <default>false</default>
             </values>
             <values>
+                <fullName>FWU Life Insurance Lux S%2EA%2E</fullName>
+                <default>false</default>
+            </values>
+            <values>
                 <fullName>Familienfürsorge Lebensversicherung</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Familienfürsorge Lebensversicherung AG im Raum der Kirchen %28Bruderhilfe%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Frankfurt Münchener Lebensversicherung AG</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -7034,6 +7548,10 @@ MOD( DATE(YEAR(Created_Date__c), 1, 1) - DATE (1900, 1, 7), 7),
                 <default>false</default>
             </values>
             <values>
+                <fullName>R%2BV Luxembourg Lebensversicherung S%2EA%2E</fullName>
+                <default>false</default>
+            </values>
+            <values>
                 <fullName>RheinLand Lebensversicherung Aktiengesellschaft</fullName>
                 <default>false</default>
             </values>
@@ -7070,7 +7588,7 @@ MOD( DATE(YEAR(Created_Date__c), 1, 1) - DATE (1900, 1, 7), 7),
                 <default>false</default>
             </values>
             <values>
-                <fullName>Swiss Life AG</fullName>
+                <fullName>Swiss Independance AG</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -7110,7 +7628,7 @@ MOD( DATE(YEAR(Created_Date__c), 1, 1) - DATE (1900, 1, 7), 7),
                 <default>false</default>
             </values>
             <values>
-                <fullName>Vienna Life Lebensversicherung AG</fullName>
+                <fullName>Vienna-Life Lebensversicherung AG</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -7122,7 +7640,7 @@ MOD( DATE(YEAR(Created_Date__c), 1, 1) - DATE (1900, 1, 7), 7),
                 <default>false</default>
             </values>
             <values>
-                <fullName>Vorsorge Lebensversicherung SA</fullName>
+                <fullName>Vorsorge Lebensversicherung SA %28Luxemburg%29</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -7138,7 +7656,7 @@ MOD( DATE(YEAR(Created_Date__c), 1, 1) - DATE (1900, 1, 7), 7),
                 <default>false</default>
             </values>
             <values>
-                <fullName>Würtembergische Lebensversicherung Aktiengesellschaft</fullName>
+                <fullName>Württembergische Lebensversicherung Aktiengesellschaft</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -7190,6 +7708,89 @@ MOD( DATE(YEAR(Created_Date__c), 1, 1) - DATE (1900, 1, 7), 7),
             </values>
             <values>
                 <fullName>Nein</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>ca_Jahre_Beitr_ge__c</picklist>
+            <values>
+                <fullName>1</fullName>
+                <default>true</default>
+            </values>
+            <values>
+                <fullName>10</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>11</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>12</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>13</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>14</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>15</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>16</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>17</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>18</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>19</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>2</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>20</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>3</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>4</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>5</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>6</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>7</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>8</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>9</fullName>
                 <default>false</default>
             </values>
         </picklistValues>
@@ -7405,6 +8006,10 @@ MOD( DATE(YEAR(Created_Date__c), 1, 1) - DATE (1900, 1, 7), 7),
                 <default>false</default>
             </values>
             <values>
+                <fullName>EA897 Evo</fullName>
+                <default>false</default>
+            </values>
+            <values>
                 <fullName>ENS</fullName>
                 <default>false</default>
             </values>
@@ -7482,29 +8087,7 @@ MOD( DATE(YEAR(Created_Date__c), 1, 1) - DATE (1900, 1, 7), 7),
                 <default>false</default>
             </values>
         </picklistValues>
-        <picklistValues>
-            <picklist>ForecastCategoryName</picklist>
-            <values>
-                <fullName>Best Case</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Closed</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Commit</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Omitted</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Pipeline</fullName>
-                <default>false</default>
-            </values>
-        </picklistValues>
+        
         <picklistValues>
             <picklist>H_he_Finanzierungsbetrag__c</picklist>
             <values>
@@ -8315,7 +8898,7 @@ MOD( DATE(YEAR(Created_Date__c), 1, 1) - DATE (1900, 1, 7), 7),
                 <default>false</default>
             </values>
             <values>
-                <fullName>AachenMuenchner Lebensversicherung AG</fullName>
+                <fullName>AachenMuenchener Lebensversicherung AG</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -8323,27 +8906,19 @@ MOD( DATE(YEAR(Created_Date__c), 1, 1) - DATE (1900, 1, 7), 7),
                 <default>false</default>
             </values>
             <values>
+                <fullName>Allianz Lebensversicherungs-Aktiengesellschaft</fullName>
+                <default>false</default>
+            </values>
+            <values>
                 <fullName>Allianz Life Luxembourg S%2EA%2E</fullName>
                 <default>false</default>
             </values>
             <values>
-                <fullName>Allianz_Lebensversicherungs-Aktiengesellschaft</fullName>
+                <fullName>Aspecta Lebensversicherung %28jetzt HDI Lebensversicherung AG%29</fullName>
                 <default>false</default>
             </values>
             <values>
-                <fullName>Aspecta Lebensversicherung AG %28jetzt HDI%29</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Athene Lebensversicherung Aktiengesellschaft</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Athora Lebensversicherung</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Atlanticlux Lebensversicherung S%2EA%2E</fullName>
+                <fullName>Athora Lebensversicherung Aktiengesellschaft</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -8359,11 +8934,11 @@ MOD( DATE(YEAR(Created_Date__c), 1, 1) - DATE (1900, 1, 7), 7),
                 <default>false</default>
             </values>
             <values>
-                <fullName>Condor Lebensversicherungs-AG</fullName>
+                <fullName>Condor Lebensversicherungs-Aktiengesellschaft</fullName>
                 <default>false</default>
             </values>
             <values>
-                <fullName>Continentale Lebensversicherung a%2EG%2E</fullName>
+                <fullName>Continentale Lebensversicherung AG</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -8375,7 +8950,7 @@ MOD( DATE(YEAR(Created_Date__c), 1, 1) - DATE (1900, 1, 7), 7),
                 <default>false</default>
             </values>
             <values>
-                <fullName>DBW-Winterthur Leebnsversicherung AG</fullName>
+                <fullName>DBV-Winterthur Lebensversicherung AG</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -8415,7 +8990,11 @@ MOD( DATE(YEAR(Created_Date__c), 1, 1) - DATE (1900, 1, 7), 7),
                 <default>false</default>
             </values>
             <values>
-                <fullName>ERGO Vorsorge Lebensversicherung AG</fullName>
+                <fullName>ERGO Direkt Lebensversicherung AG</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>ERGO Vorsorge Lebensversicherung AG %28ehemals VORSORGE Lebensversicherung%29</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -8423,7 +9002,19 @@ MOD( DATE(YEAR(Created_Date__c), 1, 1) - DATE (1900, 1, 7), 7),
                 <default>false</default>
             </values>
             <values>
+                <fullName>FWU Life Insurance Lux S%2EA%2E</fullName>
+                <default>false</default>
+            </values>
+            <values>
                 <fullName>Familienfürsorge Lebensversicherung</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Familienfürsorge Lebensversicherung AG im Raum der Kirchen %28Bruderhilfe%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Frankfurt Münchener Lebensversicherung AG</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -8579,6 +9170,10 @@ MOD( DATE(YEAR(Created_Date__c), 1, 1) - DATE (1900, 1, 7), 7),
                 <default>false</default>
             </values>
             <values>
+                <fullName>R%2BV Luxembourg Lebensversicherung S%2EA%2E</fullName>
+                <default>false</default>
+            </values>
+            <values>
                 <fullName>RheinLand Lebensversicherung Aktiengesellschaft</fullName>
                 <default>false</default>
             </values>
@@ -8615,7 +9210,7 @@ MOD( DATE(YEAR(Created_Date__c), 1, 1) - DATE (1900, 1, 7), 7),
                 <default>false</default>
             </values>
             <values>
-                <fullName>Swiss Life AG</fullName>
+                <fullName>Swiss Independance AG</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -8655,7 +9250,7 @@ MOD( DATE(YEAR(Created_Date__c), 1, 1) - DATE (1900, 1, 7), 7),
                 <default>false</default>
             </values>
             <values>
-                <fullName>Vienna Life Lebensversicherung AG</fullName>
+                <fullName>Vienna-Life Lebensversicherung AG</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -8667,7 +9262,7 @@ MOD( DATE(YEAR(Created_Date__c), 1, 1) - DATE (1900, 1, 7), 7),
                 <default>false</default>
             </values>
             <values>
-                <fullName>Vorsorge Lebensversicherung SA</fullName>
+                <fullName>Vorsorge Lebensversicherung SA %28Luxemburg%29</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -8683,7 +9278,7 @@ MOD( DATE(YEAR(Created_Date__c), 1, 1) - DATE (1900, 1, 7), 7),
                 <default>false</default>
             </values>
             <values>
-                <fullName>Würtembergische Lebensversicherung Aktiengesellschaft</fullName>
+                <fullName>Württembergische Lebensversicherung Aktiengesellschaft</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -8735,6 +9330,89 @@ MOD( DATE(YEAR(Created_Date__c), 1, 1) - DATE (1900, 1, 7), 7),
             </values>
             <values>
                 <fullName>Nein</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>ca_Jahre_Beitr_ge__c</picklist>
+            <values>
+                <fullName>1</fullName>
+                <default>true</default>
+            </values>
+            <values>
+                <fullName>10</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>11</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>12</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>13</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>14</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>15</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>16</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>17</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>18</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>19</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>2</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>20</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>3</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>4</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>5</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>6</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>7</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>8</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>9</fullName>
                 <default>false</default>
             </values>
         </picklistValues>
@@ -8950,6 +9628,10 @@ MOD( DATE(YEAR(Created_Date__c), 1, 1) - DATE (1900, 1, 7), 7),
                 <default>false</default>
             </values>
             <values>
+                <fullName>EA897 Evo</fullName>
+                <default>false</default>
+            </values>
+            <values>
                 <fullName>ENS</fullName>
                 <default>false</default>
             </values>
@@ -9027,29 +9709,7 @@ MOD( DATE(YEAR(Created_Date__c), 1, 1) - DATE (1900, 1, 7), 7),
                 <default>false</default>
             </values>
         </picklistValues>
-        <picklistValues>
-            <picklist>ForecastCategoryName</picklist>
-            <values>
-                <fullName>Best Case</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Closed</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Commit</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Omitted</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Pipeline</fullName>
-                <default>false</default>
-            </values>
-        </picklistValues>
+        
         <picklistValues>
             <picklist>H_he_Finanzierungsbetrag__c</picklist>
             <values>
@@ -9860,7 +10520,7 @@ MOD( DATE(YEAR(Created_Date__c), 1, 1) - DATE (1900, 1, 7), 7),
                 <default>false</default>
             </values>
             <values>
-                <fullName>AachenMuenchner Lebensversicherung AG</fullName>
+                <fullName>AachenMuenchener Lebensversicherung AG</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -9868,27 +10528,19 @@ MOD( DATE(YEAR(Created_Date__c), 1, 1) - DATE (1900, 1, 7), 7),
                 <default>false</default>
             </values>
             <values>
+                <fullName>Allianz Lebensversicherungs-Aktiengesellschaft</fullName>
+                <default>false</default>
+            </values>
+            <values>
                 <fullName>Allianz Life Luxembourg S%2EA%2E</fullName>
                 <default>false</default>
             </values>
             <values>
-                <fullName>Allianz_Lebensversicherungs-Aktiengesellschaft</fullName>
+                <fullName>Aspecta Lebensversicherung %28jetzt HDI Lebensversicherung AG%29</fullName>
                 <default>false</default>
             </values>
             <values>
-                <fullName>Aspecta Lebensversicherung AG %28jetzt HDI%29</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Athene Lebensversicherung Aktiengesellschaft</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Athora Lebensversicherung</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Atlanticlux Lebensversicherung S%2EA%2E</fullName>
+                <fullName>Athora Lebensversicherung Aktiengesellschaft</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -9904,11 +10556,11 @@ MOD( DATE(YEAR(Created_Date__c), 1, 1) - DATE (1900, 1, 7), 7),
                 <default>false</default>
             </values>
             <values>
-                <fullName>Condor Lebensversicherungs-AG</fullName>
+                <fullName>Condor Lebensversicherungs-Aktiengesellschaft</fullName>
                 <default>false</default>
             </values>
             <values>
-                <fullName>Continentale Lebensversicherung a%2EG%2E</fullName>
+                <fullName>Continentale Lebensversicherung AG</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -9920,7 +10572,7 @@ MOD( DATE(YEAR(Created_Date__c), 1, 1) - DATE (1900, 1, 7), 7),
                 <default>false</default>
             </values>
             <values>
-                <fullName>DBW-Winterthur Leebnsversicherung AG</fullName>
+                <fullName>DBV-Winterthur Lebensversicherung AG</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -9960,7 +10612,11 @@ MOD( DATE(YEAR(Created_Date__c), 1, 1) - DATE (1900, 1, 7), 7),
                 <default>false</default>
             </values>
             <values>
-                <fullName>ERGO Vorsorge Lebensversicherung AG</fullName>
+                <fullName>ERGO Direkt Lebensversicherung AG</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>ERGO Vorsorge Lebensversicherung AG %28ehemals VORSORGE Lebensversicherung%29</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -9968,7 +10624,19 @@ MOD( DATE(YEAR(Created_Date__c), 1, 1) - DATE (1900, 1, 7), 7),
                 <default>false</default>
             </values>
             <values>
+                <fullName>FWU Life Insurance Lux S%2EA%2E</fullName>
+                <default>false</default>
+            </values>
+            <values>
                 <fullName>Familienfürsorge Lebensversicherung</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Familienfürsorge Lebensversicherung AG im Raum der Kirchen %28Bruderhilfe%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Frankfurt Münchener Lebensversicherung AG</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -10124,6 +10792,10 @@ MOD( DATE(YEAR(Created_Date__c), 1, 1) - DATE (1900, 1, 7), 7),
                 <default>false</default>
             </values>
             <values>
+                <fullName>R%2BV Luxembourg Lebensversicherung S%2EA%2E</fullName>
+                <default>false</default>
+            </values>
+            <values>
                 <fullName>RheinLand Lebensversicherung Aktiengesellschaft</fullName>
                 <default>false</default>
             </values>
@@ -10160,7 +10832,7 @@ MOD( DATE(YEAR(Created_Date__c), 1, 1) - DATE (1900, 1, 7), 7),
                 <default>false</default>
             </values>
             <values>
-                <fullName>Swiss Life AG</fullName>
+                <fullName>Swiss Independance AG</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -10200,7 +10872,7 @@ MOD( DATE(YEAR(Created_Date__c), 1, 1) - DATE (1900, 1, 7), 7),
                 <default>false</default>
             </values>
             <values>
-                <fullName>Vienna Life Lebensversicherung AG</fullName>
+                <fullName>Vienna-Life Lebensversicherung AG</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -10212,7 +10884,7 @@ MOD( DATE(YEAR(Created_Date__c), 1, 1) - DATE (1900, 1, 7), 7),
                 <default>false</default>
             </values>
             <values>
-                <fullName>Vorsorge Lebensversicherung SA</fullName>
+                <fullName>Vorsorge Lebensversicherung SA %28Luxemburg%29</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -10228,7 +10900,7 @@ MOD( DATE(YEAR(Created_Date__c), 1, 1) - DATE (1900, 1, 7), 7),
                 <default>false</default>
             </values>
             <values>
-                <fullName>Würtembergische Lebensversicherung Aktiengesellschaft</fullName>
+                <fullName>Württembergische Lebensversicherung Aktiengesellschaft</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -10280,6 +10952,89 @@ MOD( DATE(YEAR(Created_Date__c), 1, 1) - DATE (1900, 1, 7), 7),
             </values>
             <values>
                 <fullName>Nein</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>ca_Jahre_Beitr_ge__c</picklist>
+            <values>
+                <fullName>1</fullName>
+                <default>true</default>
+            </values>
+            <values>
+                <fullName>10</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>11</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>12</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>13</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>14</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>15</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>16</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>17</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>18</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>19</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>2</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>20</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>3</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>4</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>5</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>6</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>7</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>8</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>9</fullName>
                 <default>false</default>
             </values>
         </picklistValues>
@@ -10495,6 +11250,10 @@ MOD( DATE(YEAR(Created_Date__c), 1, 1) - DATE (1900, 1, 7), 7),
                 <default>false</default>
             </values>
             <values>
+                <fullName>EA897 Evo</fullName>
+                <default>false</default>
+            </values>
+            <values>
                 <fullName>ENS</fullName>
                 <default>false</default>
             </values>
@@ -10572,29 +11331,7 @@ MOD( DATE(YEAR(Created_Date__c), 1, 1) - DATE (1900, 1, 7), 7),
                 <default>false</default>
             </values>
         </picklistValues>
-        <picklistValues>
-            <picklist>ForecastCategoryName</picklist>
-            <values>
-                <fullName>Best Case</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Closed</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Commit</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Omitted</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Pipeline</fullName>
-                <default>false</default>
-            </values>
-        </picklistValues>
+        
         <picklistValues>
             <picklist>H_he_Finanzierungsbetrag__c</picklist>
             <values>
@@ -11405,7 +12142,7 @@ MOD( DATE(YEAR(Created_Date__c), 1, 1) - DATE (1900, 1, 7), 7),
                 <default>false</default>
             </values>
             <values>
-                <fullName>AachenMuenchner Lebensversicherung AG</fullName>
+                <fullName>AachenMuenchener Lebensversicherung AG</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -11413,27 +12150,19 @@ MOD( DATE(YEAR(Created_Date__c), 1, 1) - DATE (1900, 1, 7), 7),
                 <default>false</default>
             </values>
             <values>
+                <fullName>Allianz Lebensversicherungs-Aktiengesellschaft</fullName>
+                <default>false</default>
+            </values>
+            <values>
                 <fullName>Allianz Life Luxembourg S%2EA%2E</fullName>
                 <default>false</default>
             </values>
             <values>
-                <fullName>Allianz_Lebensversicherungs-Aktiengesellschaft</fullName>
+                <fullName>Aspecta Lebensversicherung %28jetzt HDI Lebensversicherung AG%29</fullName>
                 <default>false</default>
             </values>
             <values>
-                <fullName>Aspecta Lebensversicherung AG %28jetzt HDI%29</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Athene Lebensversicherung Aktiengesellschaft</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Athora Lebensversicherung</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Atlanticlux Lebensversicherung S%2EA%2E</fullName>
+                <fullName>Athora Lebensversicherung Aktiengesellschaft</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -11449,11 +12178,11 @@ MOD( DATE(YEAR(Created_Date__c), 1, 1) - DATE (1900, 1, 7), 7),
                 <default>false</default>
             </values>
             <values>
-                <fullName>Condor Lebensversicherungs-AG</fullName>
+                <fullName>Condor Lebensversicherungs-Aktiengesellschaft</fullName>
                 <default>false</default>
             </values>
             <values>
-                <fullName>Continentale Lebensversicherung a%2EG%2E</fullName>
+                <fullName>Continentale Lebensversicherung AG</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -11465,7 +12194,7 @@ MOD( DATE(YEAR(Created_Date__c), 1, 1) - DATE (1900, 1, 7), 7),
                 <default>false</default>
             </values>
             <values>
-                <fullName>DBW-Winterthur Leebnsversicherung AG</fullName>
+                <fullName>DBV-Winterthur Lebensversicherung AG</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -11505,7 +12234,11 @@ MOD( DATE(YEAR(Created_Date__c), 1, 1) - DATE (1900, 1, 7), 7),
                 <default>false</default>
             </values>
             <values>
-                <fullName>ERGO Vorsorge Lebensversicherung AG</fullName>
+                <fullName>ERGO Direkt Lebensversicherung AG</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>ERGO Vorsorge Lebensversicherung AG %28ehemals VORSORGE Lebensversicherung%29</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -11513,7 +12246,19 @@ MOD( DATE(YEAR(Created_Date__c), 1, 1) - DATE (1900, 1, 7), 7),
                 <default>false</default>
             </values>
             <values>
+                <fullName>FWU Life Insurance Lux S%2EA%2E</fullName>
+                <default>false</default>
+            </values>
+            <values>
                 <fullName>Familienfürsorge Lebensversicherung</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Familienfürsorge Lebensversicherung AG im Raum der Kirchen %28Bruderhilfe%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Frankfurt Münchener Lebensversicherung AG</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -11669,6 +12414,10 @@ MOD( DATE(YEAR(Created_Date__c), 1, 1) - DATE (1900, 1, 7), 7),
                 <default>false</default>
             </values>
             <values>
+                <fullName>R%2BV Luxembourg Lebensversicherung S%2EA%2E</fullName>
+                <default>false</default>
+            </values>
+            <values>
                 <fullName>RheinLand Lebensversicherung Aktiengesellschaft</fullName>
                 <default>false</default>
             </values>
@@ -11705,7 +12454,7 @@ MOD( DATE(YEAR(Created_Date__c), 1, 1) - DATE (1900, 1, 7), 7),
                 <default>false</default>
             </values>
             <values>
-                <fullName>Swiss Life AG</fullName>
+                <fullName>Swiss Independance AG</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -11745,7 +12494,7 @@ MOD( DATE(YEAR(Created_Date__c), 1, 1) - DATE (1900, 1, 7), 7),
                 <default>false</default>
             </values>
             <values>
-                <fullName>Vienna Life Lebensversicherung AG</fullName>
+                <fullName>Vienna-Life Lebensversicherung AG</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -11757,7 +12506,7 @@ MOD( DATE(YEAR(Created_Date__c), 1, 1) - DATE (1900, 1, 7), 7),
                 <default>false</default>
             </values>
             <values>
-                <fullName>Vorsorge Lebensversicherung SA</fullName>
+                <fullName>Vorsorge Lebensversicherung SA %28Luxemburg%29</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -11773,7 +12522,7 @@ MOD( DATE(YEAR(Created_Date__c), 1, 1) - DATE (1900, 1, 7), 7),
                 <default>false</default>
             </values>
             <values>
-                <fullName>Würtembergische Lebensversicherung Aktiengesellschaft</fullName>
+                <fullName>Württembergische Lebensversicherung Aktiengesellschaft</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -11828,10 +12577,93 @@ MOD( DATE(YEAR(Created_Date__c), 1, 1) - DATE (1900, 1, 7), 7),
                 <default>false</default>
             </values>
         </picklistValues>
+        <picklistValues>
+            <picklist>ca_Jahre_Beitr_ge__c</picklist>
+            <values>
+                <fullName>1</fullName>
+                <default>true</default>
+            </values>
+            <values>
+                <fullName>10</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>11</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>12</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>13</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>14</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>15</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>16</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>17</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>18</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>19</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>2</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>20</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>3</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>4</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>5</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>6</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>7</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>8</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>9</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
     </recordTypes>
     <validationRules>
         <fullName>Auftragstyp_RSV_and_RSV_false</fullName>
-        <active>false</active>
+        <active>true</active>
         <description>Der Auftragstyp kann nicht RSV sein, wenn keine Rechtsschutzversicherung vorhanden ist.</description>
         <errorConditionFormula>AND( 
 $User.Bypass_validation_rule__c = false,
@@ -11844,7 +12676,7 @@ NOT(ISPICKVAL( StageName, 'Lost'))
     </validationRules>
     <validationRules>
         <fullName>Auftragstyp_equals_share_RSV_true</fullName>
-        <active>false</active>
+        <active>true</active>
         <errorConditionFormula>AND(
 $User.Bypass_validation_rule__c = false,
 ISPICKVAL( Assignment_Type__c, 'Share') , 
@@ -11856,7 +12688,7 @@ NOT(ISPICKVAL( StageName, 'Lost'))
     </validationRules>
     <validationRules>
         <fullName>Closed_Lost_Grund</fullName>
-        <active>false</active>
+        <active>true</active>
         <description>Es muss ein Absagegrund ausgewählt werden.</description>
         <errorConditionFormula>AND(
 $User.Bypass_validation_rule__c = false,
@@ -11867,7 +12699,7 @@ ISBLANK(TEXT(Reason_For_Loss__c )))</errorConditionFormula>
     </validationRules>
     <validationRules>
         <fullName>DG_Stage_Claim_Requirements</fullName>
-        <active>false</active>
+        <active>true</active>
         <description>Anfragen ohne Rechtsschutzversicherung und Motortyp EA189 können nicht an Anwalt oder Finanzierungsprozess übergeben werden.</description>
         <errorConditionFormula>AND ( $User.Bypass_validation_rule__c = false,
       ISPICKVAL( StageName, "Claim"),
@@ -11900,7 +12732,7 @@ $User.Bypass_validation_rule__c = false)</errorConditionFormula>
     </validationRules>
     <validationRules>
         <fullName>Stage_Check_RSV_vorhanden</fullName>
-        <active>false</active>
+        <active>true</active>
         <description>Bevor die Stage auf "Claim" gestezt werden kann muss "RSV vorhanden" gecheckt sein.</description>
         <errorConditionFormula>AND( 
 ISPICKVAL(StageName, "Claim"), 
@@ -11913,7 +12745,7 @@ $User.Bypass_validation_rule__c = false)</errorConditionFormula>
     </validationRules>
     <validationRules>
         <fullName>Stage_New_Callcenter_Mitarbeiter</fullName>
-        <active>false</active>
+        <active>true</active>
         <description>In der Stage "Check" muss ein Callcenter Mitarbeiter eingetragen werden.</description>
         <errorConditionFormula>AND (
 ISPICKVAL( StageName , "Check"),

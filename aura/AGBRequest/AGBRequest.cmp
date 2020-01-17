@@ -1,0 +1,26 @@
+<aura:component implements="flexipage:availableForRecordHome,force:hasRecordId,force:lightningQuickAction"
+                access="global" controller="AGBRequestController" >
+    <aura:handler name="init" value="{! this}" action="{! c.handleInit}"/>
+
+	<aura:attribute name="customerReached" type="String"/>
+    <aura:attribute name="customerReachedOptions" type="List" default="[
+        {'label': 'Ja', 'value': 'true'},
+        {'label': 'Nein', 'value': 'false'}
+    ]"/>    
+    <aura:attribute name="customerNotes" type="String"/>
+    <aura:attribute name="errors" type="String"/>
+
+    <div style="margin-bottom: 10px;">
+    	<div style="margin-bottom: 10px;">
+            <lightning:radioGroup name="customerReachedRadio"
+                                  label="Kunde erreicht?"
+                                  options="{! v.customerReachedOptions}"
+                                  value="{! v.customerReached}"
+                                  type="radio"/>
+	    </div>
+        <lightning:input type="text" label="Kommentar" value="{! v.customerNotes}"/>
+    </div>
+    <lightning:button label="OK" variant="brand" onclick="{!c.handleOK}" />    
+	
+    <div style="margin: 10px 0;" class="slds-text-color_error">{! v.errors}</div>
+</aura:component>

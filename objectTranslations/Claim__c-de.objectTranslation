@@ -664,6 +664,14 @@
         <label><!-- Zeit bis Antwort Deckungsanfrage Anspr. --></label>
         <name>time_taken_claim_response__c</name>
     </fields>
+    <fields>
+        <label><!-- GrKunde --></label>
+        <name>GrKunde__c</name>
+    </fields>
+    <fields>
+        <label><!-- MKS --></label>
+        <name>MKS__c</name>
+    </fields>
     <caseValues>
         <caseType>Nominative</caseType>
         <plural>false</plural>

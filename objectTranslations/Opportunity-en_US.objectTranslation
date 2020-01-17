@@ -765,6 +765,7 @@
         <relationshipLabel><!-- Opportunities (Vermittler) --></relationshipLabel>
     </fields>
     <fields>
+        <help><!-- Defines the unit price net, according to the compensation rate and the effective obtained amount. NET amount. --></help>
         <label><!-- Rechnungsbetrag (netto) --></label>
         <name>Invoice_Amount__c</name>
     </fields>
@@ -945,97 +946,77 @@
         <name>Number_of_Pending_Vollmacht_Docs__c</name>
     </fields>
     <fields>
-        <label><!-- ON-Account --></label>
+        <help><!-- Specifies the Salesforce account ID or external ID. --></help>
+        <label><!-- ON_Account --></label>
         <name>ON_Account__c</name>
     </fields>
+    
+    
     <fields>
-        <label><!-- ON-Verguetungssatz inkl. USt.? --></label>
-        <name>ON_CompensationRateInclTax__c</name>
-    </fields>
-    <fields>
-        <label><!-- ON-Verguetungssatz --></label>
-        <name>ON_CompensationRate__c</name>
-    </fields>
-    <fields>
-        <label><!-- ON-Kundennummer --></label>
+        <help><!-- Defines the customer number for this specific account. Returns the &apos;Debitor Nummer&apos; from the Account. If missing, returns the &apos;Customer Number&apos; from the Opportunity. --></help>
+        <label><!-- ON_CustomerNo --></label>
         <name>ON_CustomerNo__c</name>
     </fields>
     <fields>
-        <label><!-- Last Error --></label>
+        <help><!-- Shows errors that occurred during the last invoice run. --></help>
+        <label><!-- ON_Last Error --></label>
         <name>ON_InvoiceBuildError__c</name>
     </fields>
     <fields>
-        <label><!-- Invoice --></label>
+        <help><!-- The invoice that resulted from this record. --></help>
+        <label><!-- ON_Invoice --></label>
         <name>ON_Invoice__c</name>
         <relationshipLabel><!-- Anfragen --></relationshipLabel>
     </fields>
     <fields>
-        <label><!-- Is Line Item --></label>
+        <help><!-- Forces JustOn to use this object as the source for both the invoice and the invoice line items. --></help>
+        <label><!-- ON_Is Line Item --></label>
         <name>ON_IsItem__c</name>
     </fields>
     <fields>
-        <label><!-- Invoice Run --></label>
+        <help><!-- Shows the last invoice run that has processed this object. --></help>
+        <label><!-- ON_Invoice Run --></label>
         <name>ON_LastInvoiceRun__c</name>
         <relationshipLabel><!-- Anfragen --></relationshipLabel>
     </fields>
+    
+    
+    
+    
+    
+    
+    
+    
     <fields>
-        <label><!-- Mailing City --></label>
-        <name>ON_MailingCity__c</name>
-    </fields>
-    <fields>
-        <label><!-- Mailing Country --></label>
-        <name>ON_MailingCountry__c</name>
-    </fields>
-    <fields>
-        <label><!-- Mailing First Name --></label>
-        <name>ON_MailingFirstName__c</name>
-    </fields>
-    <fields>
-        <label><!-- Mailing Last Name --></label>
-        <name>ON_MailingLastName__c</name>
-    </fields>
-    <fields>
-        <label><!-- Mailing Postal Code --></label>
-        <name>ON_MailingPostalCode__c</name>
-    </fields>
-    <fields>
-        <label><!-- Mailing Street --></label>
-        <name>ON_MailingStreet__c</name>
-    </fields>
-    <fields>
-        <label><!-- ON-Mandatierungsdatum --></label>
-        <name>ON_MandateDate__c</name>
-    </fields>
-    <fields>
-        <label><!-- ON-Erstrittener_Betrag --></label>
-        <name>ON_ObtainedAmount__c</name>
-    </fields>
-    <fields>
-        <label><!-- Quantity --></label>
+        <help><!-- The quantity to be billed for this invoice line item. --></help>
+        <label><!-- ON_Quantity --></label>
         <name>ON_Quantity__c</name>
     </fields>
     <fields>
-        <label><!-- ON-Anrede --></label>
+        <help><!-- Returns the salutation maintained at the contact --></help>
+        <label><!-- ON_Anrede --></label>
         <name>ON_Salutation__c</name>
     </fields>
     <fields>
-        <label><!-- Service Date --></label>
+        <help><!-- The record will be invoiced when the date is null or within the service period of the invoice run. 
+Set to null. --></help>
+        <label><!-- ON_Service Date --></label>
         <name>ON_ServiceDate__c</name>
     </fields>
+    
     <fields>
-        <label><!-- ON-USt-Satz --></label>
-        <name>ON_TaxRate__c</name>
-    </fields>
-    <fields>
-        <label><!-- Template --></label>
+        <help><!-- Specifies the Salesforce ID of the related template. Set to &apos;Default&apos;. --></help>
+        <label><!-- ON_Template --></label>
         <name>ON_Template__c</name>
     </fields>
     <fields>
-        <label><!-- Title --></label>
+        <help><!-- The name or short description of the invoice line item. --></help>
+        <label><!-- ON_Title --></label>
         <name>ON_Title__c</name>
     </fields>
     <fields>
-        <label><!-- Unit Price --></label>
+        <help><!-- The net price of one unit of this item. --></help>
+        <label><!-- ON_Unit Price --></label>
         <name>ON_UnitPrice__c</name>
     </fields>
     <fields>
@@ -1459,6 +1440,173 @@
         <label><!-- Zufriedenheit Renditenentwicklung --></label>
         <name>Zufriedenheit_Renditenentwicklung__c</name>
     </fields>
+    <fields>
+        <label><!-- AGBMail Send Result --></label>
+        <name>AGBMail_Send_Result__c</name>
+    </fields>
+    <fields>
+        <label><!-- Aktion Admin --></label>
+        <name>Aktion_Admin__c</name>
+    </fields>
+    <fields>
+        <label><!-- Aktionsvorgang --></label>
+        <name>Aktionsvorgang__c</name>
+    </fields>
+    <fields>
+        <label><!-- gewählter Anwalt für diesen Fall --></label>
+        <name>Anwalt_f_r_diesen_Fall__c</name>
+        <relationshipLabel><!-- Anfragen (gewählter Anwalt für diesen Fall) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Autohersteller --></label>
+        <name>Autohersteller__c</name>
+    </fields>
+    <fields>
+        <label><!-- Berechnete Potential LV Mail --></label>
+        <name>Berechnete_Potential_LV_Mail__c</name>
+    </fields>
+    <fields>
+        <label><!-- Bestätigungsdatum AGB Ohne RSV --></label>
+        <name>Best_tigungsdatum_AGB_Ohne_RSV__c</name>
+    </fields>
+    <fields>
+        <label><!-- Rückkaufswert --></label>
+        <name>CashInValue__c</name>
+    </fields>
+    <fields>
+        <label><!-- Verguetungssatz inkl. USt.? --></label>
+        <name>CompensationRateInclTax__c</name>
+    </fields>
+    <fields>
+        <label><!-- Verguetungssatz --></label>
+        <name>CompensationRate__c</name>
+    </fields>
+    <fields>
+        <help><!-- Returns the contact last name. To be shown on the invoice, under &apos;Bezeichnung&apos;. --></help>
+        <label><!-- Contact Last Name --></label>
+        <name>ContactLastName__c</name>
+    </fields>
+    <fields>
+        <label><!-- Contact Email Opt Out --></label>
+        <name>Contact_Email_Opt_Out__c</name>
+    </fields>
+    <fields>
+        <label><!-- Contact ID --></label>
+        <name>Contact_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Document Upload MC --></label>
+        <name>Document_Upload_MC__c</name>
+    </fields>
+    <fields>
+        <label><!-- Effektiver_Vorteil --></label>
+        <name>EffectiveObtainedAmount__c</name>
+    </fields>
+    <fields>
+        <label><!-- Fall --></label>
+        <name>Fall__c</name>
+        <relationshipLabel><!-- Opportunity --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Heutiges Datum --></label>
+        <name>Heutiges_Datum__c</name>
+    </fields>
+    <fields>
+        <label><!-- LV Vollmacht manuell versenden --></label>
+        <name>LV_Vollmacht_manuell_versenden__c</name>
+    </fields>
+    <fields>
+        <label><!-- Link zur Ohne RSV AGB Bestätigung --></label>
+        <name>Link_zur_Ohne_RSV_AGB_Best_tigung__c</name>
+    </fields>
+    <fields>
+        <label><!-- Mail Berechnung Ergebnis --></label>
+        <name>Mail_Berechnung_Ergebnis__c</name>
+    </fields>
+    <fields>
+        <label><!-- Mandat versandt am --></label>
+        <name>Mandat_versandt_am__c</name>
+    </fields>
+    <fields>
+        <label><!-- Mandatierungsdatum --></label>
+        <name>MandateDate__c</name>
+    </fields>
+    <fields>
+        <label><!-- Marked For Action --></label>
+        <name>Marked_For_Action__c</name>
+    </fields>
+    <fields>
+        <label><!-- Monatlicher Beitrag --></label>
+        <name>Monatlicher_Beitrag__c</name>
+    </fields>
+    <fields>
+        <help><!-- Returns the &apos;Bearbeitungsnummer&apos;, without &apos;BN&apos; --></help>
+        <label><!-- ON_Bearbeitungsnummer --></label>
+        <name>ON_Bearbeitungsnummer__c</name>
+    </fields>
+    <fields>
+        <help><!-- Returns the name of the opportunity. For the export to Datev, as &apos;Buchungstext&apos; --></help>
+        <label><!-- ON_Buchungstext --></label>
+        <name>ON_Buchungstext__c</name>
+    </fields>
+    <fields>
+        <help><!-- Depending on the template, defines if the customer is VB (Verbraucher) or AW (Anwalt). --></help>
+        <label><!-- ON_CustomGLRule --></label>
+        <name>ON_CustomGLRule__c</name>
+    </fields>
+    <fields>
+        <help><!-- Defines the text of the amount breakdown to be displayed on the invoice, below the total amount.
+Only for &apos;Lebensversicherung&apos; product. 
+&apos;Rückkaufswert&apos; need to be maintained. --></help>
+        <label><!-- ON_EffectiveAmountBreakdown --></label>
+        <name>ON_EffectiveAmountBreakdown__c</name>
+    </fields>
+    <fields>
+        <help><!-- Refers to the contact person that should receive the invoice. --></help>
+        <label><!-- ON_EmailContact --></label>
+        <name>ON_EmailContact__c</name>
+    </fields>
+    <fields>
+        <help><!-- Returns the Email Address of the contact, that should receive the invoice. --></help>
+        <label><!-- ON_Email --></label>
+        <name>ON_Email__c</name>
+    </fields>
+    <fields>
+        <help><!-- Defines the product group, according to the record type of the opportunity --></help>
+        <label><!-- ON_ProductGroup --></label>
+        <name>ON_ProductGroup__c</name>
+    </fields>
+    <fields>
+        <help><!-- Defines the initials of the product, depending on the record type of the opportunity. Possible values: DG, FZ, LV --></help>
+        <label><!-- ON_ProductInitial --></label>
+        <name>ON_ProductInitial__c</name>
+    </fields>
+    <fields>
+        <help><!-- Set the Tenant to VH24 for all the invoices --></help>
+        <label><!-- ON_Tenant --></label>
+        <name>ON_Tenant__c</name>
+    </fields>
+    <fields>
+        <label><!-- Erstrittener_Betrag --></label>
+        <name>ObtainedAmount__c</name>
+    </fields>
+    <fields>
+        <label><!-- AGB Ohne RSV Bestätigt --></label>
+        <name>PF_AGB_Ohne_RSV_Best_tigt__c</name>
+    </fields>
+    <fields>
+        <label><!-- Send Ssign --></label>
+        <name>Send_Ssign__c</name>
+    </fields>
+    <fields>
+        <help><!-- Vollmacht für elektronische Unterschrift versenden --></help>
+        <label><!-- Vollmacht versenden --></label>
+        <name>Vollmacht_Versenden__c</name>
+    </fields>
+    <fields>
+        <label><!-- ca Jahre Beiträge --></label>
+        <name>ca_Jahre_Beitr_ge__c</name>
+    </fields>
     <caseValues>
         <plural>false</plural>
         <value>Anfrage</value>
@@ -1580,14 +1728,8 @@
         <label><!-- Resend_Authorization --></label>
         <name>Resend_Authorization</name>
     </webLinks>
-    <webLinks>
-        <label><!-- Email_Docs --></label>
-        <name>SDOC__Email_Docs</name>
-    </webLinks>
-    <webLinks>
-        <label><!-- S_Docs --></label>
-        <name>SDOC__S_Docs</name>
-    </webLinks>
+    
+    
     <webLinks>
         <label><!-- S_Docs_Translated --></label>
         <name>S_Docs_Translated</name>

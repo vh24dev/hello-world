@@ -80,6 +80,11 @@
         <default>false</default>
         <label>OM 646.812</label>
     </customValue>
+    <customValue>
+        <fullName>EA897 Evo</fullName>
+        <default>false</default>
+        <label>EA897 Evo</label>
+    </customValue>
     <masterLabel>Engine Types</masterLabel>
     <sorted>false</sorted>
 </GlobalValueSet>

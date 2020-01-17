@@ -9,11 +9,12 @@ public class VH24Mail {
         this.delegation = delegation;
     }
     
-    public boolean isSpecificMailEnabled(){
+    public boolean isSpecificMailEnabled() {
         return delegation.isEnabled();
     }
     
     public Messaging.SendEmailResult [] sendMail() {
+        delegation.prepareMail();
         mail = new Messaging.SingleEmailMessage();
         mail.setSubject(
            delegation.getSubject()             
@@ -34,8 +35,37 @@ public class VH24Mail {
         mail.setOrgWideEmailAddressId (
         	this.delegation.getSenderId()
         );
-        Messaging.SendEmailResult [] r = Messaging.sendEmail(new Messaging.SingleEmailMessage[] {mail});  
-        return r;
+        
+        sendMail(new Messaging.SingleEmailMessage[] {mail});  
+        return null;
     }
     
+    private void sendMail (Messaging.SingleEmailMessage[] mails) {
+        try{
+        	Messaging.SendEmailResult [] r = Messaging.sendEmail(mails);
+            for (Messaging.SendEmailResult result : r ) {
+                delegation.processResult(r);
+            }
+        } catch(EmailException e) {
+             delegation.processError('EMAIL EXCEPTION ' + e.getMessage());            
+        } catch(DmlException e) {
+             delegation.processError('DML EXCEPTION ' + e.getMessage());
+        } catch(Exception e) {
+             delegation.processError('GENERAL EXCEPTION ' + e.getMessage());
+        }
+    } 
+    
+    /*
+    private void prepareMail() {
+        
+    }
+    
+    private void prepareAttachment() {
+        
+    }
+    
+    public void processResult(Messaging.SendEmailResult [] r) {
+		// not used at present
+    }
+    */
 }

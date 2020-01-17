@@ -1,80 +1,8 @@
-<?xml version="1.0" encoding="utf-8"?><CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
-    <fields>
-        <help><!-- The global transfer status regarding the upload to Amazon S3. --></help>
-        <label><!-- Amazon S3 Transfer Status --></label>
-        <name>ONB2__AmazonS3TransferStatus__c</name>
-        <picklistValues>
-            <masterLabel>New</masterLabel>
-            <translation><!-- New --></translation>
-        </picklistValues>
-        <picklistValues>
-            <masterLabel>Partial</masterLabel>
-            <translation><!-- Partial --></translation>
-        </picklistValues>
-        <picklistValues>
-            <masterLabel>Transferred</masterLabel>
-            <translation><!-- Transferred --></translation>
-        </picklistValues>
-    </fields>
-    <fields>
-        <help>Die Referenz dieser Datei im Basware-System.</help>
-        <label><!-- Basware File Reference --></label>
-        <name>ONB2__BaswareFileReference__c</name>
-    </fields>
-    <fields>
-        <help><!-- Stores information regarding the transfer status to external cloud storages. --></help>
-        <label><!-- External Targets --></label>
-        <name>ONB2__ExternalTargets__c</name>
-    </fields>
-    <fields>
-        <help><!-- The global transfer status regarding the upload to Google Drive. --></help>
-        <label><!-- Google Drive Transfer Status --></label>
-        <name>ONB2__GoogleDriveTransferStatus__c</name>
-        <picklistValues>
-            <masterLabel>New</masterLabel>
-            <translation><!-- New --></translation>
-        </picklistValues>
-        <picklistValues>
-            <masterLabel>Partial</masterLabel>
-            <translation><!-- Partial --></translation>
-        </picklistValues>
-        <picklistValues>
-            <masterLabel>Redistribute</masterLabel>
-            <translation><!-- Redistribute --></translation>
-        </picklistValues>
-        <picklistValues>
-            <masterLabel>Transferred</masterLabel>
-            <translation><!-- Transferred --></translation>
-        </picklistValues>
-    </fields>
-    <fields>
-        <help><!-- The id of the record, which is the cause or directly related to this content version. --></help>
-        <label><!-- Related Record --></label>
-        <name>ONB2__RelatedRecord__c</name>
-    </fields>
-    <fields>
-        <help>Der Dateityp im Kontext von JustOn.</help>
-        <label><!-- Type --></label>
-        <name>ONB2__Type__c</name>
-        <picklistValues>
-            <masterLabel>Booking Detail Export</masterLabel>
-            <translation><!-- Booking Detail Export --></translation>
-        </picklistValues>
-        <picklistValues>
-            <masterLabel>Dunning PDF</masterLabel>
-            <translation><!-- Dunning PDF --></translation>
-        </picklistValues>
-        <picklistValues>
-            <masterLabel>Invoice Export</masterLabel>
-            <translation><!-- Invoice Export --></translation>
-        </picklistValues>
-        <picklistValues>
-            <masterLabel>Invoice PDF</masterLabel>
-            <translation><!-- Invoice PDF --></translation>
-        </picklistValues>
-        <picklistValues>
-            <masterLabel>Template Logo</masterLabel>
-            <translation><!-- Template Logo --></translation>
-        </picklistValues>
-    </fields>
+﻿<?xml version="1.0" encoding="utf-8"?><CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    
+    
+    
+    
+    
+    
 </CustomObjectTranslation>

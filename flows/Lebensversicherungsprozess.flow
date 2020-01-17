@@ -6,7 +6,7 @@
         <locationX>0</locationX>
         <locationY>0</locationY>
         <defaultConnector>
-            <targetReference>isChangedDecision17_myRule_16_Confirmed_Terms_And_Conditions_c</targetReference>
+            <targetReference>isChangedDecision13_myRule_12_Confirmed_Terms_And_Conditions_c</targetReference>
         </defaultConnector>
         <defaultConnectorLabel>default</defaultConnectorLabel>
         <rules>
@@ -27,22 +27,22 @@
                 </rightValue>
             </conditions>
             <connector>
-                <targetReference>isChangedDecision17_myRule_16_Confirmed_Terms_And_Conditions_c</targetReference>
+                <targetReference>isChangedDecision13_myRule_12_Confirmed_Terms_And_Conditions_c</targetReference>
             </connector>
             <label>isChangedRule_10_myRule_8_StageName</label>
         </rules>
     </decisions>
     <decisions>
-        <name>isChangedDecision17_myRule_16_Confirmed_Terms_And_Conditions_c</name>
-        <label>isChangedDecision17_myRule_16_Confirmed_Terms_And_Conditions_c</label>
+        <name>isChangedDecision13_myRule_12_Confirmed_Terms_And_Conditions_c</name>
+        <label>isChangedDecision13_myRule_12_Confirmed_Terms_And_Conditions_c</label>
         <locationX>0</locationX>
         <locationY>0</locationY>
         <defaultConnector>
-            <targetReference>isChangedDecision18_myRule_16_StageName</targetReference>
+            <targetReference>isChangedDecision14_myRule_12_StageName</targetReference>
         </defaultConnector>
         <defaultConnectorLabel>default</defaultConnectorLabel>
         <rules>
-            <name>isChangedRule_17_myRule_16_Confirmed_Terms_And_Conditions_c</name>
+            <name>isChangedRule_13_myRule_12_Confirmed_Terms_And_Conditions_c</name>
             <conditionLogic>and</conditionLogic>
             <conditions>
                 <leftValueReference>myVariable_old</leftValueReference>
@@ -59,14 +59,14 @@
                 </rightValue>
             </conditions>
             <connector>
-                <targetReference>isChangedDecision18_myRule_16_StageName</targetReference>
+                <targetReference>isChangedDecision14_myRule_12_StageName</targetReference>
             </connector>
-            <label>isChangedRule_17_myRule_16_Confirmed_Terms_And_Conditions_c</label>
+            <label>isChangedRule_13_myRule_12_Confirmed_Terms_And_Conditions_c</label>
         </rules>
     </decisions>
     <decisions>
-        <name>isChangedDecision18_myRule_16_StageName</name>
-        <label>isChangedDecision18_myRule_16_StageName</label>
+        <name>isChangedDecision14_myRule_12_StageName</name>
+        <label>isChangedDecision14_myRule_12_StageName</label>
         <locationX>0</locationX>
         <locationY>0</locationY>
         <defaultConnector>
@@ -74,7 +74,7 @@
         </defaultConnector>
         <defaultConnectorLabel>default</defaultConnectorLabel>
         <rules>
-            <name>isChangedRule_18_myRule_16_StageName</name>
+            <name>isChangedRule_14_myRule_12_StageName</name>
             <conditionLogic>or</conditionLogic>
             <conditions>
                 <leftValueReference>myVariable_old</leftValueReference>
@@ -93,7 +93,7 @@
             <connector>
                 <targetReference>myDecision</targetReference>
             </connector>
-            <label>isChangedRule_18_myRule_16_StageName</label>
+            <label>isChangedRule_14_myRule_12_StageName</label>
         </rules>
     </decisions>
     <decisions>
@@ -170,71 +170,9 @@
         <label>myDecision11</label>
         <locationX>50</locationX>
         <locationY>0</locationY>
-        <defaultConnector>
-            <targetReference>myDecision13</targetReference>
-        </defaultConnector>
         <defaultConnectorLabel>default</defaultConnectorLabel>
         <rules>
             <name>myRule_12</name>
-            <conditionLogic>and</conditionLogic>
-            <conditions>
-                <leftValueReference>formula_myRule_12</leftValueReference>
-                <operator>EqualTo</operator>
-                <rightValue>
-                    <booleanValue>true</booleanValue>
-                </rightValue>
-            </conditions>
-            <connector>
-                <targetReference>myRule_12_A1</targetReference>
-            </connector>
-            <label>RSV vorhanden = FALSE &amp; Prio III</label>
-        </rules>
-    </decisions>
-    <decisions>
-        <processMetadataValues>
-            <name>index</name>
-            <value>
-                <numberValue>5.0</numberValue>
-            </value>
-        </processMetadataValues>
-        <name>myDecision13</name>
-        <label>myDecision13</label>
-        <locationX>50</locationX>
-        <locationY>0</locationY>
-        <defaultConnector>
-            <targetReference>myDecision15</targetReference>
-        </defaultConnector>
-        <defaultConnectorLabel>default</defaultConnectorLabel>
-        <rules>
-            <name>myRule_14</name>
-            <conditionLogic>and</conditionLogic>
-            <conditions>
-                <leftValueReference>formula_myRule_14</leftValueReference>
-                <operator>EqualTo</operator>
-                <rightValue>
-                    <booleanValue>true</booleanValue>
-                </rightValue>
-            </conditions>
-            <connector>
-                <targetReference>myRule_14_A1</targetReference>
-            </connector>
-            <label>RSV vorhanden = TRUE &amp; Prio III &amp; Status = gekündigt</label>
-        </rules>
-    </decisions>
-    <decisions>
-        <processMetadataValues>
-            <name>index</name>
-            <value>
-                <numberValue>6.0</numberValue>
-            </value>
-        </processMetadataValues>
-        <name>myDecision15</name>
-        <label>myDecision15</label>
-        <locationX>50</locationX>
-        <locationY>0</locationY>
-        <defaultConnectorLabel>default</defaultConnectorLabel>
-        <rules>
-            <name>myRule_16</name>
             <conditionLogic>(3 AND 4 AND 5 AND 6 AND 7 AND 8 AND 9) AND (1 OR 2)</conditionLogic>
             <conditions>
                 <processMetadataValues>
@@ -453,7 +391,7 @@
                         <stringValue>Boolean</stringValue>
                     </value>
                 </processMetadataValues>
-                <leftValueReference>isChangedRule_17_myRule_16_Confirmed_Terms_And_Conditions_c</leftValueReference>
+                <leftValueReference>isChangedRule_13_myRule_12_Confirmed_Terms_And_Conditions_c</leftValueReference>
                 <operator>EqualTo</operator>
                 <rightValue>
                     <booleanValue>true</booleanValue>
@@ -515,14 +453,14 @@
                         <stringValue>Boolean</stringValue>
                     </value>
                 </processMetadataValues>
-                <leftValueReference>isChangedRule_18_myRule_16_StageName</leftValueReference>
+                <leftValueReference>isChangedRule_14_myRule_12_StageName</leftValueReference>
                 <operator>EqualTo</operator>
                 <rightValue>
                     <booleanValue>true</booleanValue>
                 </rightValue>
             </conditions>
             <connector>
-                <targetReference>myRule_16_A1</targetReference>
+                <targetReference>myRule_12_A1</targetReference>
             </connector>
             <label>Prio I or II, RSV =false</label>
         </rules>
@@ -930,7 +868,7 @@
                 <stringValue>Today()</stringValue>
             </value>
         </processMetadataValues>
-        <name>formula_6_myRule_5_A1_3066361183</name>
+        <name>formula_6_myRule_5_A1_7049794697</name>
         <dataType>Date</dataType>
         <expression>Today()</expression>
     </formulas>
@@ -944,54 +882,6 @@
         <name>formula_myRule_1</name>
         <dataType>Boolean</dataType>
         <expression>{!$User.Bypass_process_builder__c}</expression>
-    </formulas>
-    <formulas>
-        <processMetadataValues>
-            <name>originalFormula</name>
-            <value>
-                <stringValue>AND(
-          NOT(ISCHANGED([Opportunity].StageName)),
-          ([Opportunity].RecordTypeId == &apos;0121t000000EBhLAAW&apos;),
-          ([Opportunity].Priority_Level__c == &apos;III&apos;),
-          ([Opportunity].Has_Legal_Protection_Insurance__c == FALSE),
-          NOT(ISPICKVAL([Opportunity].StageName, &apos;On Hold&apos;))
-)</stringValue>
-            </value>
-        </processMetadataValues>
-        <name>formula_myRule_12</name>
-        <dataType>Boolean</dataType>
-        <expression>AND(
-          NOT(ISCHANGED({!myVariable_current.StageName})),
-          ({!myVariable_current.RecordTypeId} == &apos;0121t000000EBhLAAW&apos;),
-          ({!myVariable_current.Priority_Level__c} == &apos;III&apos;),
-          ({!myVariable_current.Has_Legal_Protection_Insurance__c} == FALSE),
-          NOT(ISPICKVAL({!myVariable_current.StageName}, &apos;On Hold&apos;))
-)</expression>
-    </formulas>
-    <formulas>
-        <processMetadataValues>
-            <name>originalFormula</name>
-            <value>
-                <stringValue>AND(
-         NOT(ISCHANGED([Opportunity].StageName)),
-         ([Opportunity].RecordTypeId == &apos;0121t000000EBhLAAW&apos;),
-         ([Opportunity].Priority_Level__c == &apos; III&apos;),
-         ([Opportunity].Insurance_Status__c = &apos;bereits gekündigt&apos; || 
-          [Opportunity].Insurance_Status__c = &apos;regulär abgelaufen&apos;),
-          NOT(ISPICKVAL([Opportunity].StageName, &apos;On Hold&apos;))
-)</stringValue>
-            </value>
-        </processMetadataValues>
-        <name>formula_myRule_14</name>
-        <dataType>Boolean</dataType>
-        <expression>AND(
-         NOT(ISCHANGED({!myVariable_current.StageName})),
-         ({!myVariable_current.RecordTypeId} == &apos;0121t000000EBhLAAW&apos;),
-         ({!myVariable_current.Priority_Level__c} == &apos; III&apos;),
-         ({!myVariable_current.Insurance_Status__c} = &apos;bereits gekündigt&apos; || 
-          {!myVariable_current.Insurance_Status__c} = &apos;regulär abgelaufen&apos;),
-          NOT(ISPICKVAL({!myVariable_current.StageName}, &apos;On Hold&apos;))
-)</expression>
     </formulas>
     <formulas>
         <processMetadataValues>
@@ -1084,7 +974,7 @@
             </processMetadataValues>
             <field>ActivityDate</field>
             <value>
-                <elementReference>formula_6_myRule_5_A1_3066361183</elementReference>
+                <elementReference>formula_6_myRule_5_A1_7049794697</elementReference>
             </value>
         </inputAssignments>
         <inputAssignments>
@@ -1313,174 +1203,8 @@
             <name>referenceTargetField</name>
         </processMetadataValues>
         <name>myRule_12_A1</name>
-        <label>Update Stage to &quot;On Hold&quot;</label>
-        <locationX>1200</locationX>
-        <locationY>200</locationY>
-        <connector>
-            <targetReference>myDecision13</targetReference>
-        </connector>
-        <filters>
-            <processMetadataValues>
-                <name>implicit</name>
-                <value>
-                    <booleanValue>true</booleanValue>
-                </value>
-            </processMetadataValues>
-            <field>Id</field>
-            <operator>EqualTo</operator>
-            <value>
-                <elementReference>myVariable_current.Id</elementReference>
-            </value>
-        </filters>
-        <inputAssignments>
-            <processMetadataValues>
-                <name>dataType</name>
-                <value>
-                    <stringValue>Picklist</stringValue>
-                </value>
-            </processMetadataValues>
-            <processMetadataValues>
-                <name>isRequired</name>
-                <value>
-                    <booleanValue>false</booleanValue>
-                </value>
-            </processMetadataValues>
-            <processMetadataValues>
-                <name>leftHandSideLabel</name>
-                <value>
-                    <stringValue>Stage</stringValue>
-                </value>
-            </processMetadataValues>
-            <processMetadataValues>
-                <name>leftHandSideReferenceTo</name>
-                <value>
-                    <stringValue></stringValue>
-                </value>
-            </processMetadataValues>
-            <processMetadataValues>
-                <name>rightHandSideType</name>
-                <value>
-                    <stringValue>Picklist</stringValue>
-                </value>
-            </processMetadataValues>
-            <field>StageName</field>
-            <value>
-                <stringValue>On Hold</stringValue>
-            </value>
-        </inputAssignments>
-        <object>Opportunity</object>
-    </recordUpdates>
-    <recordUpdates>
-        <processMetadataValues>
-            <name>evaluationType</name>
-            <value>
-                <stringValue>always</stringValue>
-            </value>
-        </processMetadataValues>
-        <processMetadataValues>
-            <name>extraTypeInfo</name>
-        </processMetadataValues>
-        <processMetadataValues>
-            <name>isChildRelationship</name>
-            <value>
-                <booleanValue>false</booleanValue>
-            </value>
-        </processMetadataValues>
-        <processMetadataValues>
-            <name>reference</name>
-            <value>
-                <stringValue>[Opportunity]</stringValue>
-            </value>
-        </processMetadataValues>
-        <processMetadataValues>
-            <name>referenceTargetField</name>
-        </processMetadataValues>
-        <name>myRule_14_A1</name>
-        <label>Update Stage to &quot;On Hold&quot;</label>
-        <locationX>1400</locationX>
-        <locationY>200</locationY>
-        <connector>
-            <targetReference>myDecision15</targetReference>
-        </connector>
-        <filters>
-            <processMetadataValues>
-                <name>implicit</name>
-                <value>
-                    <booleanValue>true</booleanValue>
-                </value>
-            </processMetadataValues>
-            <field>Id</field>
-            <operator>EqualTo</operator>
-            <value>
-                <elementReference>myVariable_current.Id</elementReference>
-            </value>
-        </filters>
-        <inputAssignments>
-            <processMetadataValues>
-                <name>dataType</name>
-                <value>
-                    <stringValue>Picklist</stringValue>
-                </value>
-            </processMetadataValues>
-            <processMetadataValues>
-                <name>isRequired</name>
-                <value>
-                    <booleanValue>false</booleanValue>
-                </value>
-            </processMetadataValues>
-            <processMetadataValues>
-                <name>leftHandSideLabel</name>
-                <value>
-                    <stringValue>Stage</stringValue>
-                </value>
-            </processMetadataValues>
-            <processMetadataValues>
-                <name>leftHandSideReferenceTo</name>
-                <value>
-                    <stringValue></stringValue>
-                </value>
-            </processMetadataValues>
-            <processMetadataValues>
-                <name>rightHandSideType</name>
-                <value>
-                    <stringValue>Picklist</stringValue>
-                </value>
-            </processMetadataValues>
-            <field>StageName</field>
-            <value>
-                <stringValue>On Hold</stringValue>
-            </value>
-        </inputAssignments>
-        <object>Opportunity</object>
-    </recordUpdates>
-    <recordUpdates>
-        <processMetadataValues>
-            <name>evaluationType</name>
-            <value>
-                <stringValue>always</stringValue>
-            </value>
-        </processMetadataValues>
-        <processMetadataValues>
-            <name>extraTypeInfo</name>
-        </processMetadataValues>
-        <processMetadataValues>
-            <name>isChildRelationship</name>
-            <value>
-                <booleanValue>false</booleanValue>
-            </value>
-        </processMetadataValues>
-        <processMetadataValues>
-            <name>reference</name>
-            <value>
-                <stringValue>[Opportunity]</stringValue>
-            </value>
-        </processMetadataValues>
-        <processMetadataValues>
-            <name>referenceTargetField</name>
-        </processMetadataValues>
-        <name>myRule_16_A1</name>
         <label>Update Stage to Claim</label>
-        <locationX>1600</locationX>
+        <locationX>1200</locationX>
         <locationY>200</locationY>
         <filters>
             <processMetadataValues>
@@ -1863,7 +1587,7 @@
         <object>Opportunity</object>
     </recordUpdates>
     <startElementReference>isChangedDecision9_myRule_8_Confirmed_Terms_And_Conditions_c</startElementReference>
-    <status>Draft</status>
+    <status>Active</status>
     <variables>
         <name>myVariable_current</name>
         <dataType>SObject</dataType>

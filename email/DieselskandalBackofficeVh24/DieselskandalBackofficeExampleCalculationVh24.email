@@ -674,38 +674,5 @@ email: office@verbraucherhilfe24.de<br />
 www.verbraucherhilfe24.de<br />
 <br />
 Registriert beim Amtsgericht M&#252;nchen unter: 371 E - M 1779 als Inkassodienstleister gem. &#167;10 abs. 1 RDG I Handelsregister: HRB 217774 Amtsgericht M&#252;nchen</div>
-                </div>
-                <div style="font-size: 12px;line-height: 19px;Margin-top: 18px;">
-                  
-                </div>
-                <!--[if mso]>&nbsp;<![endif]-->
-              </div>
-            </div>
-          <!--[if (mso)|(IE)]></td><td style="width: 200px;" valign="top" class="w160"><![endif]-->
-            <div class="column narrow" style="text-align: left;font-size: 12px;line-height: 19px;color: #3c494d;font-family: Open Sans,sans-serif;Float: left;max-width: 320px;min-width: 200px; width: 320px;width: calc(72200px - 12000%);">
-              <div style="Margin-left: 20px;Margin-right: 20px;Margin-top: 10px;Margin-bottom: 10px;">
-                
-              </div>
-            </div>
-          <!--[if (mso)|(IE)]></td></tr></table><![endif]-->
-          </div>
-        </div>
-        <div class="layout one-col email-footer" style="Margin: 0 auto;max-width: 600px;min-width: 320px; width: 320px;width: calc(28000% - 167400px);overflow-wrap: break-word;word-wrap: break-word;word-break: break-word;">
-          <div class="layout__inner" style="border-collapse: collapse;display: table;width: 100%;">
-          <!--[if (mso)|(IE)]><table align="center" cellpadding="0" cellspacing="0" role="presentation"><tr class="layout-email-footer"><td style="width: 600px;" class="w560"><![endif]-->
-            <div class="column" style="text-align: left;font-size: 9px;line-height: 19px;color: #3c494d;font-family: Open Sans,sans-serif;max-width: 600px;min-width: 320px; width: 320px;width: calc(28000% - 167400px);">
-              <div style="Margin-left: 20px;Margin-right: 20px;Margin-top: 10px;Margin-bottom: 10px;">
-			  <p>
-<div style="font-size: 12px;line-height: 19px;"><a href="{!Opportunity.URL_Abmeldung__c}" rel="noopener noreferrer" target="_blank"><b>Abmeldung</b></a><p><div style="font-size: 12px;line-height: 19px;"><a href="https://www.verbraucherhilfe24.de/agb/dg/AGB_VH24_mitRS_B.pdf" target="_blank"><span style="color: #0000cd;"><b>Widerrufserklärung inkl. AGB</b></a></div>					
-						</p>
-
-              </div>
-            </div>
-          <!--[if (mso)|(IE)]></td></tr></table><![endif]-->
-          </div>
-        </div>
-      </div>
-      <div style="mso-line-height-rule: exactly;line-height: 40px;font-size: 40px;">&nbsp;</div>
-    </div></td></tr></tbody></table>
   
 </body></html>

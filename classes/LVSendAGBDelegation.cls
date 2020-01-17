@@ -14,10 +14,22 @@ public class LVSendAGBDelegation implements iVH24MailDelegation {
     private string subject;
     private Map<String,String> mergeMappings;
     private String bn;
-    
+
     public LVSendAGBDelegation(String bn,Contact contact) {
         this.bn = bn;
         this.contact = contact;
+    }
+    
+    public LVSendAGBDelegation(VH24MailData data) {
+        this.bn = data.bn;
+        mapIdToContact(data.objectId);  
+    }
+    
+    private void  mapIdToContact(Id contactId) {
+        this.contact = [Select EMail,Id,Salutation__c FROM Contact WHERE Id =: contactId];
+    }
+    
+    public void prepareMail() {
         this.userId = Users.vh24Lv();
         this.eMailMapping = fetchConfig();
         this.template = fetchTemplate();
@@ -34,6 +46,7 @@ public class LVSendAGBDelegation implements iVH24MailDelegation {
     public string getPlainTextBody(){
         return body;
     }
+    
     
     public string getHtmlBody(){
 		return htmlBody;
@@ -65,6 +78,14 @@ public class LVSendAGBDelegation implements iVH24MailDelegation {
     
     public boolean isEnabled(){
         return eMailMapping.isEnabled__c;
+    }
+    
+    public void processResult(Messaging.SendEmailResult [] r) {
+        
+    }
+        
+    public void processError(String message) {
+            
     }
     
     private EMailMapping__mdt fetchConfig(){
@@ -106,36 +127,18 @@ public class LVSendAGBDelegation implements iVH24MailDelegation {
          Id recipientId = contact.Id;
          Id parentId = template.Id;
          this.body = template.Body;
-         /*
-         body = Utilities.mergeText(template.Body, new Map<Id, String>{
-             		parentId => parentId.getSObjectType().getDescribe().Name, 
-             		recipientId => recipientId.getSObjectType().getDescribe().Name, 
-                	userId => 'User'});
-		 */
-    }
+     }
     
     private void buildHtmlBody() {
         Id recipientId = contact.Id;
         Id parentId = template.Id;
         this.htmlBody = template.HtmlValue.replace('{text_body}',body.replace('\n','<br/>'));
-        /*
-        this.htmlBody = Utilities.mergeText(this.htmlBody,new Map<Id,String>{
-            parentId => parentId.getSObjectType().getDescribe().Name,
-            recipientId => recipientId.getSObjectType().getDescribe().Name,
-            userId => 'User'
-    	});
-		*/
     }
     
     private string buildSubject(){
         Id recipientId = contact.Id;
         Id parentId = template.Id;
         return template.subject;
-        /*
-    	return Utilities.mergeText(template.Subject,new Map<Id,String>{parentId => parentId.getSObjectType().getDescribe().Name,
-            recipientId => recipientId.getSObjectType().getDescribe().Name,
-            userId => 'User'});
-		*/
     }
     
     private void getSenderAdress(){
@@ -163,4 +166,9 @@ public class LVSendAGBDelegation implements iVH24MailDelegation {
             this.subject = this.subject.replace(key,this.mergeMappings.get(key));            
 		}
     }
+    
+    public void processResult(){
+        
+    }
+    
 }

@@ -1,0 +1,37 @@
+<aura:component implements="force:lightningQuickAction,force:hasRecordId"
+                controller="MandateMailController">
+    
+    <lightning:empApi aura:id="empApi"/>
+	<aura:attribute name="channel" type="String" default="/event/SendMailResult__e"/>
+	<aura:attribute name="subscription" type="Map"/>
+
+    <aura:handler name="init" value="this" action="{!c.doInit}"/>
+	<aura:attribute name="recordId" type="Id" />
+    <aura:attribute name="oppId" type="Id" />
+    <aura:attribute name="mailAdress" type="string"/>
+    <aura:attribute name="disabled" type="boolean"/>
+    <aura:attribute name="enabled" type="boolean"/>
+    <aura:attribute name="mailId" type="string"/>
+    <div align="center">
+    <aura:if isTrue="{!v.enabled}">
+        <div class="slds-text-heading--small">
+        	Der Fall wird mit allen erforderlichen Daten an die zugeordneten Anwalt per Email übergeben.	  
+        </div>
+      
+         <div class="slds-p-around_medium lgc-bg" style="width:400px;">
+            <lightning:input type="email" name="email1" value="{!v.mailAdress}" label="Adresse des Empfängers ggf. ändern" />
+            </div>
+    
+        <lightning:button variant="brand"
+                   label="Mail versenden"
+                   title="Cancel"
+                   onclick="{!c.sendMailFrontend}"/>
+
+    </aura:if> 
+    <aura:if isTrue="{!v.disabled}">  
+    	<div class="slds-text-heading--small">
+           Der Fall befindet sich um Status "Kundenwiderspruch". Fälle können in diesem Status nicht an die entsprechende Kanzlei übergeben werden.  
+        </div> 
+    </aura:if> 
+	</div>
+</aura:component>

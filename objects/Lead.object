@@ -1,7 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?><CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
     <actionOverrides>
         <actionName>Accept</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
         <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>AddToCampaign</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>AddToCampaign</actionName>
+        <formFactor>Large</formFactor>
         <type>Default</type>
     </actionOverrides>
     <actionOverrides>
@@ -11,7 +29,25 @@
     </actionOverrides>
     <actionOverrides>
         <actionName>CallHighlightAction</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CallHighlightAction</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CallHighlightAction</actionName>
         <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Large</formFactor>
         <type>Default</type>
     </actionOverrides>
     <actionOverrides>
@@ -21,7 +57,25 @@
     </actionOverrides>
     <actionOverrides>
         <actionName>ChangeStatus</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>ChangeStatus</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>ChangeStatus</actionName>
         <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Large</formFactor>
         <type>Default</type>
     </actionOverrides>
     <actionOverrides>
@@ -31,7 +85,25 @@
     </actionOverrides>
     <actionOverrides>
         <actionName>Convert</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Convert</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Convert</actionName>
         <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Large</formFactor>
         <type>Default</type>
     </actionOverrides>
     <actionOverrides>
@@ -41,7 +113,25 @@
     </actionOverrides>
     <actionOverrides>
         <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
         <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>EmailHighlightAction</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>EmailHighlightAction</actionName>
+        <formFactor>Large</formFactor>
         <type>Default</type>
     </actionOverrides>
     <actionOverrides>
@@ -51,7 +141,25 @@
     </actionOverrides>
     <actionOverrides>
         <actionName>FindDup</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>FindDup</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>FindDup</actionName>
         <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Large</formFactor>
         <type>Default</type>
     </actionOverrides>
     <actionOverrides>
@@ -61,7 +169,25 @@
     </actionOverrides>
     <actionOverrides>
         <actionName>ListClean</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>ListClean</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>ListClean</actionName>
         <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Large</formFactor>
         <type>Default</type>
     </actionOverrides>
     <actionOverrides>
@@ -71,7 +197,25 @@
     </actionOverrides>
     <actionOverrides>
         <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
         <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SmsHighlightAction</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SmsHighlightAction</actionName>
+        <formFactor>Large</formFactor>
         <type>Default</type>
     </actionOverrides>
     <actionOverrides>
@@ -81,7 +225,28 @@
     </actionOverrides>
     <actionOverrides>
         <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
         <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <comment>Action override created by Lightning App Builder during activation.</comment>
+        <content>Lead_Record_Page</content>
+        <formFactor>Large</formFactor>
+        <skipRecordTypeSelect>false</skipRecordTypeSelect>
+        <type>Flexipage</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
         <type>Default</type>
     </actionOverrides>
     <actionOverrides>
@@ -671,7 +836,7 @@
     <fields>
         <fullName>Company_Name__c</fullName>
         <externalId>false</externalId>
-        <label>Unternehmen</label>
+        <label>Unternehmen NIU</label>
         <length>255</length>
         <required>false</required>
         <trackFeedHistory>false</trackFeedHistory>
@@ -1634,7 +1799,7 @@ Für alle Notizen bitte die History besuchen.</inlineHelpText>
     <fields>
         <fullName>Salutation__c</fullName>
         <externalId>false</externalId>
-        <formula>IF(Title = "Herr","Sehr geehrter Herr " + LastName,IF(Title = "Frau","Sehr geehrte Frau " + LastName,"Hallo " + FirstName + " " + LastName))</formula>
+        <formula>IF(Title = "Herr" || (ISPICKVAL(Salutation, "Herr")),"Sehr geehrter Herr " + LastName,IF(Title = "Frau" || (ISPICKVAL(Salutation, "Frau")),"Sehr geehrte Frau " + LastName,"Hallo " + FirstName + " " + LastName))</formula>
         <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
         <label>Salutation</label>
         <required>false</required>
@@ -1881,6 +2046,288 @@ Für alle Notizen bitte die History besuchen.</inlineHelpText>
             <valueSetName>Zufriedenheit_Renditenentwicklung</valueSetName>
         </valueSet>
     </fields>
+    <fields>
+        <fullName>Admin__c</fullName>
+        <externalId>false</externalId>
+        <label>Admin</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>Aktion_Admin__c</fullName>
+        <externalId>false</externalId>
+        <label>Aktion Admin</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Anwalt__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Anwalt für diesen Fall</label>
+        <lookupFilter>
+            <active>true</active>
+            <filterItems>
+                <field>User.UserRole.Name</field>
+                <operation>equals</operation>
+                <value>Legal</value>
+            </filterItems>
+            <isOptional>false</isOptional>
+        </lookupFilter>
+        <referenceTo>User</referenceTo>
+        <relationshipName>Leads2</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Berechnete_Potential__c</fullName>
+        <externalId>false</externalId>
+        <formula>Mail_Berechnung_Ergebnis__c *0.3</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Berechnete Potential LV Mail</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>CalendlyCreated__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>CalendlyCreated</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Finanzierungsstatus__c</fullName>
+        <externalId>false</externalId>
+        <label>Finanzierungsstatus</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetName>Finanzierungsstatus</valueSetName>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Insurance_2__c</fullName>
+        <externalId>false</externalId>
+        <formula>TEXT(Versicherung_LV_RV__c)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Insurance_2</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>LV_AGB_versenden__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>AGB versenden</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>LV_Wertigkeit_gek_ndigt__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF(ISPICKVAL(Insurance_Status__c,"bereits gekündigt")&amp;&amp;(Mail_Berechnung_Ergebnis__c &gt;= 10000)||ISPICKVAL(Insurance_Status__c ,"regulär abgelaufen")&amp;&amp;(Mail_Berechnung_Ergebnis__c &gt;= 10000),TRUE,FALSE)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>LV Wertigkeit [gekündigt]</label>
+        <trackHistory>false</trackHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>LV_wertigkeit_Aktiv__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF(ISPICKVAL(Insurance_Status__c,"noch aktiv")&amp;&amp;(Mail_Berechnung_Ergebnis__c  &gt;= 7000)||ISPICKVAL(Insurance_Status__c ,"beitragsfrei gestellt")&amp;&amp;(Mail_Berechnung_Ergebnis__c  &gt;= 7000),TRUE,FALSE)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>LV Wertigkeit [noch aktiv]</label>
+        <trackHistory>false</trackHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Lead_Number__c</fullName>
+        <displayFormat>{0}</displayFormat>
+        <externalId>false</externalId>
+        <label>Lead Number</label>
+        <trackHistory>false</trackHistory>
+        <type>AutoNumber</type>
+    </fields>
+    <fields>
+        <fullName>Lead_Round_Robin_ID__c</fullName>
+        <externalId>false</externalId>
+        <formula>MOD(VALUE(Lead_Number__c) ,3) +1</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Lead Round Robin ID</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Link_zur_Port_Berechnung_Email__c</fullName>
+        <externalId>false</externalId>
+        <formula>'https://www.tfaforms.com/4796523?webtoken='+Token__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Link zur Port-Berechnung Email</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Low_Potential_LV_Lead__c</fullName>
+        <externalId>false</externalId>
+        <formula>ISPICKVAL(Abschluss_zwischen_1991_2007__c, 'Nein')|| ISPICKVAL(Bestandteil_betriebl_Altersvorsorge__c,'Ja')</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Low Potential LV Lead</label>
+        <trackHistory>false</trackHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Mail_Berechnung_Ergebnis__c</fullName>
+        <externalId>false</externalId>
+        <formula>VALUE(TEXT(ca_Jahre_Beitr_ge__c)) *  (Monatlicher_Beitrag__c * 12)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Mail Berechnung Ergebnis</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Monatlicher_Beitrag__c</fullName>
+        <externalId>false</externalId>
+        <label>Monatlicher Beitrag</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Not_For_MC__c</fullName>
+        <externalId>false</externalId>
+        <formula>OR( Confirmed_Terms_And_Conditions__c =TRUE, HasOptedOutOfEmail=TRUE, Test__c =TRUE, IsConverted =TRUE)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Not For MC</label>
+        <trackHistory>false</trackHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Port_berechnet_EMail__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Pot-berechnet EMail</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Potential_20__c</fullName>
+        <externalId>false</externalId>
+        <formula>Potential__c *0.8</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Potential - 20%</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Potential__c</fullName>
+        <externalId>false</externalId>
+        <label>Potential</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Prio2__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF(Contains($Label.LVPrio1,Insurance_2__c),"I","II")</formula>
+        <label>Prio2</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Prio_LV__c</fullName>
+        <externalId>false</externalId>
+        <formula>If(Priorit_tsstufe__c =='I',True,False)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Prio LV</label>
+        <trackHistory>false</trackHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Priorit_tsstufe__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF(Insurance_2__c = null,'',CASE(Insurance_Lookup__r.External_Id__c ,'lvXX1','I','lv001','I','lv002','I','lv104','I','lv003','I','lv106','I','lv078','I','lv032','I','lv039','I','lv031','I','lv046','I','lv071','I','lv047','I','lv008','I','lv053','I','lv005','I','lv067','I','lv068','I','lv089','I','lv059','I','lv054','I','lv048','I','lv092','I','lv049','I','lv045','I','lv035','I','lv016','I','lv098','I','lv027','I','lv009','I','lv034','I','lv052','I','lvXX2','II','lv004','II','IV'))</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Prioritätsstufe</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Strecke__c</fullName>
+        <description>Variante der Landing Page, über welche der Lead generiert wurde.</description>
+        <externalId>false</externalId>
+        <label>Strecke</label>
+        <length>250</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Vertrag_vollst_ndig__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Vertrag vollständig</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>ca_Jahre_Beitr_ge__c</fullName>
+        <externalId>false</externalId>
+        <label>ca Jahre Beiträge</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetName>ca_Jahre_Beitr_ge</valueSetName>
+        </valueSet>
+    </fields>
     <compactLayoutAssignment>Leads_Custom_Compact_Layout</compactLayoutAssignment>
     <enableFeeds>true</enableFeeds>
     <enableHistory>true</enableHistory>
@@ -1981,14 +2428,14 @@ Für alle Notizen bitte die History besuchen.</inlineHelpText>
     </listViews>
     <listViews>
         <fullName>Offene_Leads_Diesel</fullName>
-        <booleanFilter>1 AND 2 AND 3 AND 4 AND 5 AND 6</booleanFilter>
+        <booleanFilter>1 AND 2 AND 3 AND 4 AND 5 AND 6 AND 7</booleanFilter>
+        <columns>Bearbeitungsnummer__c</columns>
         <columns>LEAD.TITLE</columns>
         <columns>FULL_NAME</columns>
         <columns>LEAD.PHONE</columns>
-        <columns>LEAD.MOBILE_PHONE</columns>
-        <columns>LEAD.EMAIL</columns>
+        <columns>Assignment_Type__c</columns>
+        <columns>Has_Legal_Protection_Insurance__c</columns>
         <columns>AdWords_Source__c</columns>
-        <columns>Partner_Id__c</columns>
         <columns>Product_Family__c</columns>
         <columns>LEAD.STATUS</columns>
         <columns>LEAD.CREATED_DATE</columns>
@@ -2016,12 +2463,16 @@ Für alle Notizen bitte die History besuchen.</inlineHelpText>
         <filters>
             <field>LEAD.STATUS</field>
             <operation>notEqual</operation>
-            <value>Converted,Lost</value>
+            <value>Converted,Lost,Callcenter,Follow-up</value>
         </filters>
         <filters>
             <field>LEAD.EMAIL</field>
             <operation>notContain</operation>
             <value>verbraucherhilfe24</value>
+        </filters>
+        <filters>
+            <field>LEAD.PHONE</field>
+            <operation>notEqual</operation>
         </filters>
         <label>Offene Leads (Diesel)</label>
     </listViews>
@@ -2076,12 +2527,13 @@ Für alle Notizen bitte die History besuchen.</inlineHelpText>
     <listViews>
         <fullName>Offene_Leads_Finanzierung</fullName>
         <booleanFilter>1 AND 2 AND 3 AND 4 AND 5 AND 6 AND 7</booleanFilter>
+        <columns>Bearbeitungsnummer__c</columns>
         <columns>LEAD.TITLE</columns>
         <columns>FULL_NAME</columns>
         <columns>LEAD.PHONE</columns>
-        <columns>LEAD.EMAIL</columns>
+        <columns>Assignment_Type__c</columns>
+        <columns>Has_Legal_Protection_Insurance__c</columns>
         <columns>AdWords_Source__c</columns>
-        <columns>Partner_Id__c</columns>
         <columns>Product_Family__c</columns>
         <columns>LEAD.STATUS</columns>
         <columns>LEAD.CREATED_DATE</columns>
@@ -2109,40 +2561,36 @@ Für alle Notizen bitte die History besuchen.</inlineHelpText>
         <filters>
             <field>LEAD.STATUS</field>
             <operation>notEqual</operation>
-            <value>Converted,Lost</value>
+            <value>Converted,Lost,Callcenter,Follow-up</value>
         </filters>
         <filters>
-            <field>LEAD.CREATED_DATE</field>
-            <operation>greaterOrEqual</operation>
-            <value>6/18/2019 12:00 AM</value>
+            <field>LEAD.EMAIL</field>
+            <operation>notContain</operation>
+            <value>verbraucherhilfe24</value>
         </filters>
         <filters>
-            <field>Callcenter__c</field>
-            <operation>equals</operation>
+            <field>LEAD.PHONE</field>
+            <operation>notEqual</operation>
         </filters>
         <label>Offene Leads (Finanzierung)</label>
-        <sharedTo>
-            <group>Team_Kathi</group>
-        </sharedTo>
     </listViews>
     <listViews>
         <fullName>Offene_Leads_Lebensversicherung</fullName>
-        <booleanFilter>1 AND 2 AND 3 AND 4 AND 5 AND 6</booleanFilter>
-        <columns>LEAD.TITLE</columns>
-        <columns>FULL_NAME</columns>
-        <columns>LEAD.PHONE</columns>
-        <columns>LEAD.MOBILE_PHONE</columns>
-        <columns>LEAD.EMAIL</columns>
-        <columns>AdWords_Source__c</columns>
-        <columns>Partner_Id__c</columns>
-        <columns>Product_Family__c</columns>
-        <columns>LEAD.STATUS</columns>
+        <booleanFilter>1 AND 2 AND 3 AND 4 AND 5 AND 6 AND 7 AND 8 AND 9 AND 10</booleanFilter>
         <columns>LEAD.CREATED_DATE</columns>
+        <columns>Bearbeitungsnummer__c</columns>
+        <columns>LEAD.FIRST_NAME</columns>
+        <columns>LEAD.LAST_NAME</columns>
+        <columns>LEAD.PHONE</columns>
+        <columns>Assignment_Type__c</columns>
+        <columns>Has_Legal_Protection_Insurance__c</columns>
+        <columns>AdWords_Source__c</columns>
+        <columns>LEAD.STATUS</columns>
         <filterScope>Everything</filterScope>
         <filters>
             <field>Product_Family__c</field>
-            <operation>notEqual</operation>
-            <value>Dieselskandal,Finanzierung</value>
+            <operation>equals</operation>
+            <value>Lebensversicherung</value>
         </filters>
         <filters>
             <field>LEAD.LAST_NAME</field>
@@ -2162,12 +2610,31 @@ Für alle Notizen bitte die History besuchen.</inlineHelpText>
         <filters>
             <field>LEAD.STATUS</field>
             <operation>notEqual</operation>
-            <value>Converted,Lost</value>
+            <value>Converted,Lost,Callcenter,Follow-up</value>
+        </filters>
+        <filters>
+            <field>LEAD.EMAIL</field>
+            <operation>notContain</operation>
+            <value>verbraucherhilfe24</value>
+        </filters>
+        <filters>
+            <field>LEAD.PHONE</field>
+            <operation>notEqual</operation>
         </filters>
         <filters>
             <field>LEAD.CREATED_DATE</field>
             <operation>greaterOrEqual</operation>
             <value>6/18/2019 12:00 AM</value>
+        </filters>
+        <filters>
+            <field>Bestandteil_betriebl_Altersvorsorge__c</field>
+            <operation>equals</operation>
+            <value>Nein</value>
+        </filters>
+        <filters>
+            <field>Abschluss_zwischen_1991_2007__c</field>
+            <operation>equals</operation>
+            <value>Ja</value>
         </filters>
         <label>Offene Leads (Lebensversicherung)</label>
     </listViews>
@@ -2236,6 +2703,69 @@ Für alle Notizen bitte die History besuchen.</inlineHelpText>
             <value>test</value>
         </filters>
         <label>Today's Leads</label>
+    </listViews>
+    <listViews>
+        <fullName>Offene_Leads_LV_Low_Potential_Lead</fullName>
+        <booleanFilter>(1 AND 2 AND 3 AND 4 AND 5 AND 6 AND 7) AND (8 OR 9)</booleanFilter>
+        <columns>LEAD.CREATED_DATE</columns>
+        <columns>Bearbeitungsnummer__c</columns>
+        <columns>LEAD.FIRST_NAME</columns>
+        <columns>LEAD.LAST_NAME</columns>
+        <columns>LEAD.PHONE</columns>
+        <columns>Assignment_Type__c</columns>
+        <columns>Has_Legal_Protection_Insurance__c</columns>
+        <columns>AdWords_Source__c</columns>
+        <columns>LEAD.STATUS</columns>
+        <columns>Abschluss_zwischen_1991_2007__c</columns>
+        <columns>Bestandteil_betriebl_Altersvorsorge__c</columns>
+        <columns>Low_Potential_LV_Lead__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>Product_Family__c</field>
+            <operation>equals</operation>
+            <value>Lebensversicherung</value>
+        </filters>
+        <filters>
+            <field>LEAD.LAST_NAME</field>
+            <operation>notContain</operation>
+            <value>test,Unknown,Do not delete,Increment Reference</value>
+        </filters>
+        <filters>
+            <field>LEAD.FIRST_NAME</field>
+            <operation>notContain</operation>
+            <value>test</value>
+        </filters>
+        <filters>
+            <field>Test__c</field>
+            <operation>equals</operation>
+            <value>0</value>
+        </filters>
+        <filters>
+            <field>LEAD.STATUS</field>
+            <operation>notEqual</operation>
+            <value>Converted,Lost,Callcenter,Follow-up</value>
+        </filters>
+        <filters>
+            <field>LEAD.EMAIL</field>
+            <operation>notContain</operation>
+            <value>verbraucherhilfe24</value>
+        </filters>
+        <filters>
+            <field>LEAD.CREATED_DATE</field>
+            <operation>greaterOrEqual</operation>
+            <value>6/18/2019 12:00 AM</value>
+        </filters>
+        <filters>
+            <field>Bestandteil_betriebl_Altersvorsorge__c</field>
+            <operation>equals</operation>
+            <value>Ja</value>
+        </filters>
+        <filters>
+            <field>Abschluss_zwischen_1991_2007__c</field>
+            <operation>equals</operation>
+            <value>Nein</value>
+        </filters>
+        <label>Offene Leads (LV Low Potential Lead)</label>
     </listViews>
     <recordTypes>
         <fullName>Dieselskandal</fullName>
@@ -2478,6 +3008,10 @@ Für alle Notizen bitte die History besuchen.</inlineHelpText>
                 <default>false</default>
             </values>
             <values>
+                <fullName>EA897 Evo</fullName>
+                <default>false</default>
+            </values>
+            <values>
                 <fullName>ENS</fullName>
                 <default>false</default>
             </values>
@@ -2545,6 +3079,17 @@ Für alle Notizen bitte die History besuchen.</inlineHelpText>
             </values>
             <values>
                 <fullName>Sonstiges</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Finanzierungsstatus__c</picklist>
+            <values>
+                <fullName>abgelaufen</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>noch aktiv</fullName>
                 <default>false</default>
             </values>
         </picklistValues>
@@ -3138,25 +3683,7 @@ Für alle Notizen bitte die History besuchen.</inlineHelpText>
                 <default>false</default>
             </values>
         </picklistValues>
-        <picklistValues>
-            <picklist>Name</picklist>
-            <values>
-                <fullName>Divers</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Firma</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Frau</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Herr</fullName>
-                <default>false</default>
-            </values>
-        </picklistValues>
+        
         <picklistValues>
             <picklist>Payment_Term__c</picklist>
             <values>
@@ -3246,7 +3773,7 @@ Für alle Notizen bitte die History besuchen.</inlineHelpText>
                 <default>false</default>
             </values>
             <values>
-                <fullName>Athora Lebensversicherung</fullName>
+                <fullName>Athora Lebensversicherung Aktiengesellschaft</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -3294,11 +3821,27 @@ Für alle Notizen bitte die History besuchen.</inlineHelpText>
                 <default>false</default>
             </values>
             <values>
+                <fullName>ERGO Direkt Lebensversicherung AG</fullName>
+                <default>false</default>
+            </values>
+            <values>
                 <fullName>EUROPA Lebensversicherung AG</fullName>
                 <default>false</default>
             </values>
             <values>
+                <fullName>FWU Life Insurance Lux S%2EA%2E</fullName>
+                <default>false</default>
+            </values>
+            <values>
                 <fullName>Familienfürsorge Lebensversicherung</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Familienfürsorge Lebensversicherung AG im Raum der Kirchen %28Bruderhilfe%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Frankfurt Münchener Lebensversicherung AG</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -3442,6 +3985,10 @@ Für alle Notizen bitte die History besuchen.</inlineHelpText>
                 <default>false</default>
             </values>
             <values>
+                <fullName>R%2BV Luxembourg Lebensversicherung S%2EA%2E</fullName>
+                <default>false</default>
+            </values>
+            <values>
                 <fullName>RheinLand Lebensversicherung Aktiengesellschaft</fullName>
                 <default>false</default>
             </values>
@@ -3474,7 +4021,7 @@ Für alle Notizen bitte die History besuchen.</inlineHelpText>
                 <default>false</default>
             </values>
             <values>
-                <fullName>Swiss Life AG</fullName>
+                <fullName>Swiss Independance AG</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -3582,6 +4129,89 @@ Für alle Notizen bitte die History besuchen.</inlineHelpText>
             </values>
             <values>
                 <fullName>Nein</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>ca_Jahre_Beitr_ge__c</picklist>
+            <values>
+                <fullName>1</fullName>
+                <default>true</default>
+            </values>
+            <values>
+                <fullName>10</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>11</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>12</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>13</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>14</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>15</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>16</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>17</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>18</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>19</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>2</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>20</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>3</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>4</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>5</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>6</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>7</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>8</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>9</fullName>
                 <default>false</default>
             </values>
         </picklistValues>
@@ -4826,6 +5456,10 @@ Für alle Notizen bitte die History besuchen.</inlineHelpText>
                 <default>false</default>
             </values>
             <values>
+                <fullName>EA897 Evo</fullName>
+                <default>false</default>
+            </values>
+            <values>
                 <fullName>ENS</fullName>
                 <default>false</default>
             </values>
@@ -4889,6 +5523,17 @@ Für alle Notizen bitte die History besuchen.</inlineHelpText>
             </values>
             <values>
                 <fullName>Leasing</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Finanzierungsstatus__c</picklist>
+            <values>
+                <fullName>abgelaufen</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>noch aktiv</fullName>
                 <default>false</default>
             </values>
         </picklistValues>
@@ -5482,25 +6127,7 @@ Für alle Notizen bitte die History besuchen.</inlineHelpText>
                 <default>false</default>
             </values>
         </picklistValues>
-        <picklistValues>
-            <picklist>Name</picklist>
-            <values>
-                <fullName>Divers</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Firma</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Frau</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Herr</fullName>
-                <default>false</default>
-            </values>
-        </picklistValues>
+        
         <picklistValues>
             <picklist>Payment_Term__c</picklist>
             <values>
@@ -5590,7 +6217,7 @@ Für alle Notizen bitte die History besuchen.</inlineHelpText>
                 <default>false</default>
             </values>
             <values>
-                <fullName>Athora Lebensversicherung</fullName>
+                <fullName>Athora Lebensversicherung Aktiengesellschaft</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -5638,11 +6265,27 @@ Für alle Notizen bitte die History besuchen.</inlineHelpText>
                 <default>false</default>
             </values>
             <values>
+                <fullName>ERGO Direkt Lebensversicherung AG</fullName>
+                <default>false</default>
+            </values>
+            <values>
                 <fullName>EUROPA Lebensversicherung AG</fullName>
                 <default>false</default>
             </values>
             <values>
+                <fullName>FWU Life Insurance Lux S%2EA%2E</fullName>
+                <default>false</default>
+            </values>
+            <values>
                 <fullName>Familienfürsorge Lebensversicherung</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Familienfürsorge Lebensversicherung AG im Raum der Kirchen %28Bruderhilfe%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Frankfurt Münchener Lebensversicherung AG</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -5786,6 +6429,10 @@ Für alle Notizen bitte die History besuchen.</inlineHelpText>
                 <default>false</default>
             </values>
             <values>
+                <fullName>R%2BV Luxembourg Lebensversicherung S%2EA%2E</fullName>
+                <default>false</default>
+            </values>
+            <values>
                 <fullName>RheinLand Lebensversicherung Aktiengesellschaft</fullName>
                 <default>false</default>
             </values>
@@ -5818,7 +6465,7 @@ Für alle Notizen bitte die History besuchen.</inlineHelpText>
                 <default>false</default>
             </values>
             <values>
-                <fullName>Swiss Life AG</fullName>
+                <fullName>Swiss Independance AG</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -5926,6 +6573,89 @@ Für alle Notizen bitte die History besuchen.</inlineHelpText>
             </values>
             <values>
                 <fullName>Nein</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>ca_Jahre_Beitr_ge__c</picklist>
+            <values>
+                <fullName>1</fullName>
+                <default>true</default>
+            </values>
+            <values>
+                <fullName>10</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>11</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>12</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>13</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>14</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>15</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>16</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>17</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>18</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>19</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>2</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>20</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>3</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>4</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>5</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>6</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>7</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>8</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>9</fullName>
                 <default>false</default>
             </values>
         </picklistValues>
@@ -7126,6 +7856,10 @@ Für alle Notizen bitte die History besuchen.</inlineHelpText>
                 <default>false</default>
             </values>
             <values>
+                <fullName>EA897 Evo</fullName>
+                <default>false</default>
+            </values>
+            <values>
                 <fullName>ENS</fullName>
                 <default>false</default>
             </values>
@@ -7189,6 +7923,17 @@ Für alle Notizen bitte die History besuchen.</inlineHelpText>
             </values>
             <values>
                 <fullName>Leasing</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Finanzierungsstatus__c</picklist>
+            <values>
+                <fullName>abgelaufen</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>noch aktiv</fullName>
                 <default>false</default>
             </values>
         </picklistValues>
@@ -7782,25 +8527,7 @@ Für alle Notizen bitte die History besuchen.</inlineHelpText>
                 <default>false</default>
             </values>
         </picklistValues>
-        <picklistValues>
-            <picklist>Name</picklist>
-            <values>
-                <fullName>Divers</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Firma</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Frau</fullName>
-                <default>false</default>
-            </values>
-            <values>
-                <fullName>Herr</fullName>
-                <default>false</default>
-            </values>
-        </picklistValues>
+        
         <picklistValues>
             <picklist>Payment_Term__c</picklist>
             <values>
@@ -7890,11 +8617,15 @@ Für alle Notizen bitte die History besuchen.</inlineHelpText>
                 <default>false</default>
             </values>
             <values>
+                <fullName>ASPECTA Assurance International Luxembourg S%2EA%2E</fullName>
+                <default>false</default>
+            </values>
+            <values>
                 <fullName>AXA Lebensversicherung AG</fullName>
                 <default>false</default>
             </values>
             <values>
-                <fullName>AachenMuenchner Lebensversicherung AG</fullName>
+                <fullName>AachenMuenchener Lebensversicherung AG</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -7902,31 +8633,47 @@ Für alle Notizen bitte die History besuchen.</inlineHelpText>
                 <default>false</default>
             </values>
             <values>
+                <fullName>Allianz Lebensversicherungs-Aktiengesellschaft</fullName>
+                <default>false</default>
+            </values>
+            <values>
                 <fullName>Allianz Life Luxembourg S%2EA%2E</fullName>
                 <default>false</default>
             </values>
             <values>
-                <fullName>Allianz_Lebensversicherungs-Aktiengesellschaft</fullName>
+                <fullName>Aspecta Lebensversicherung %28jetzt HDI Lebensversicherung AG%29</fullName>
                 <default>false</default>
             </values>
             <values>
-                <fullName>Aspecta Lebensversicherung AG %28jetzt HDI%29</fullName>
+                <fullName>Asstel %28Gothaer Gruppe%29</fullName>
                 <default>false</default>
             </values>
             <values>
-                <fullName>Athene Lebensversicherung Aktiengesellschaft</fullName>
+                <fullName>Athora Lebensversicherung Aktiengesellschaft</fullName>
                 <default>false</default>
             </values>
             <values>
-                <fullName>Athora Lebensversicherung</fullName>
+                <fullName>BHW Lebensversicherung AG</fullName>
                 <default>false</default>
             </values>
             <values>
-                <fullName>Atlanticlux Lebensversicherung S%2EA%2E</fullName>
+                <fullName>Barmenia Lebensversicherung a%2EG%2E</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Basler Lebensversicherungs-AG</fullName>
                 <default>false</default>
             </values>
             <values>
                 <fullName>Bayerische Beamten Lebensversicherung a%2EG%2E</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Bayern-Versicherung Lebensversicherung Aktiengesellschaft</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Canada Life Assurance Europe Limited</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -7938,11 +8685,15 @@ Für alle Notizen bitte die History besuchen.</inlineHelpText>
                 <default>false</default>
             </values>
             <values>
-                <fullName>Condor Lebensversicherungs-AG</fullName>
+                <fullName>Condor Lebensversicherungs-Aktiengesellschaft</fullName>
                 <default>false</default>
             </values>
             <values>
-                <fullName>Continentale Lebensversicherung a%2EG%2E</fullName>
+                <fullName>Continentale Lebensversicherung AG</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Cosmos Lebensversicherungs-Aktiengesellschaft</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -7954,7 +8705,7 @@ Für alle Notizen bitte die History besuchen.</inlineHelpText>
                 <default>false</default>
             </values>
             <values>
-                <fullName>DBW-Winterthur Leebnsversicherung AG</fullName>
+                <fullName>DBV-Winterthur Lebensversicherung AG</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -7963,6 +8714,10 @@ Für alle Notizen bitte die History besuchen.</inlineHelpText>
             </values>
             <values>
                 <fullName>DEVK Deutsche Eisenbahn Versicherung Lebensversicherungsverein</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Debeka Lebensversicherungsverein a%2EG%2E</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -7994,7 +8749,15 @@ Für alle Notizen bitte die History besuchen.</inlineHelpText>
                 <default>false</default>
             </values>
             <values>
-                <fullName>ERGO Vorsorge Lebensversicherung AG</fullName>
+                <fullName>ERGO Direkt Lebensversicherung AG</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>ERGO Lebensversicherung AG</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>ERGO Vorsorge Lebensversicherung AG %28ehemals VORSORGE Lebensversicherung%29</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -8002,7 +8765,19 @@ Für alle Notizen bitte die History besuchen.</inlineHelpText>
                 <default>false</default>
             </values>
             <values>
+                <fullName>FWU Life Insurance Lux S%2EA%2E</fullName>
+                <default>false</default>
+            </values>
+            <values>
                 <fullName>Familienfürsorge Lebensversicherung</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Familienfürsorge Lebensversicherung AG im Raum der Kirchen %28Bruderhilfe%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Frankfurt Münchener Lebensversicherung AG</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -8015,6 +8790,10 @@ Für alle Notizen bitte die History besuchen.</inlineHelpText>
             </values>
             <values>
                 <fullName>Friends Provident International</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Generali Lebensversicherung Aktiengesellschaft</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -8094,6 +8873,14 @@ Für alle Notizen bitte die History besuchen.</inlineHelpText>
                 <default>false</default>
             </values>
             <values>
+                <fullName>Lebensversicherung von 1871 a%2EG%2E Muenchen</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Liberty Europe</fullName>
+                <default>false</default>
+            </values>
+            <values>
                 <fullName>Lifestyle Protection Lebensversicherung AG</fullName>
                 <default>false</default>
             </values>
@@ -8106,6 +8893,10 @@ Für alle Notizen bitte die History besuchen.</inlineHelpText>
                 <default>false</default>
             </values>
             <values>
+                <fullName>Mannheimer Lebensversicherung</fullName>
+                <default>false</default>
+            </values>
+            <values>
                 <fullName>MassMutual Europe S%2EA%2E</fullName>
                 <default>false</default>
             </values>
@@ -8114,11 +8905,19 @@ Für alle Notizen bitte die History besuchen.</inlineHelpText>
                 <default>false</default>
             </values>
             <values>
+                <fullName>MetLife Europe d%2Ea%2Ec%2E</fullName>
+                <default>false</default>
+            </values>
+            <values>
                 <fullName>Money Maxx %28Basler Lebensversicherungs-AG%29</fullName>
                 <default>false</default>
             </values>
             <values>
                 <fullName>Muenchner Verein Lebensversicherung AG</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>NUERNBERGER Lebensversicherung AG</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -8134,11 +8933,19 @@ Für alle Notizen bitte die History besuchen.</inlineHelpText>
                 <default>false</default>
             </values>
             <values>
+                <fullName>PB Lebensversicherung AG</fullName>
+                <default>false</default>
+            </values>
+            <values>
                 <fullName>PLUS Lebensversicherungs AG</fullName>
                 <default>false</default>
             </values>
             <values>
                 <fullName>Pax-Familienfürsorge Krankenversicherung AG</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Prisma Life AG %28Liechtenstein%29</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -8155,6 +8962,14 @@ Für alle Notizen bitte die History besuchen.</inlineHelpText>
             </values>
             <values>
                 <fullName>Prudentia Lebensversicherungs-AG</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>R%2BV Lebensversicherung AG</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>R%2BV Luxembourg Lebensversicherung S%2EA%2E</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -8194,7 +9009,7 @@ Für alle Notizen bitte die History besuchen.</inlineHelpText>
                 <default>false</default>
             </values>
             <values>
-                <fullName>Swiss Life AG</fullName>
+                <fullName>Swiss Independance AG</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -8234,7 +9049,7 @@ Für alle Notizen bitte die History besuchen.</inlineHelpText>
                 <default>false</default>
             </values>
             <values>
-                <fullName>Vienna Life Lebensversicherung AG</fullName>
+                <fullName>Vienna-Life Lebensversicherung AG</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -8246,7 +9061,7 @@ Für alle Notizen bitte die History besuchen.</inlineHelpText>
                 <default>false</default>
             </values>
             <values>
-                <fullName>Vorsorge Lebensversicherung SA</fullName>
+                <fullName>Vorsorge Lebensversicherung SA %28Luxemburg%29</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -8262,7 +9077,7 @@ Für alle Notizen bitte die History besuchen.</inlineHelpText>
                 <default>false</default>
             </values>
             <values>
-                <fullName>Würtembergische Lebensversicherung Aktiengesellschaft</fullName>
+                <fullName>Württembergische Lebensversicherung Aktiengesellschaft</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -8314,6 +9129,89 @@ Für alle Notizen bitte die History besuchen.</inlineHelpText>
             </values>
             <values>
                 <fullName>Nein</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>ca_Jahre_Beitr_ge__c</picklist>
+            <values>
+                <fullName>1</fullName>
+                <default>true</default>
+            </values>
+            <values>
+                <fullName>10</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>11</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>12</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>13</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>14</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>15</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>16</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>17</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>18</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>19</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>2</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>20</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>3</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>4</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>5</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>6</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>7</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>8</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>9</fullName>
                 <default>false</default>
             </values>
         </picklistValues>

@@ -9,7 +9,7 @@ public class LVAGBMailManagerTest {
         insert contact;
         Map<Id, String> testMap = new Map<Id, String> ();
         testMap.put(contact.Id,'BN123456');
-        system.assertNotEquals(null,
+        system.assertEquals(null,
                LVAGBMailManager.executeMailPrivate(contact.Id,'BN123456')
         );
     }

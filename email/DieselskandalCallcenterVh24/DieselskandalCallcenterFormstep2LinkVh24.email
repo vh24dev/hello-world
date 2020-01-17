@@ -478,31 +478,23 @@ body{background-color:#fbfbfb}.logo a:hover,.logo a:focus{color:#1e2e3b !importa
         
       </div>
       <div>
-      <div class="layout one-col fixed-width" style="Margin: 0 auto;max-width: 600px;min-width: 320px; width: 320px;width: calc(28000% - 167400px);overflow-wrap: break-word;word-wrap: break-word;word-break: break-word;">
+      <div class="layout three-col fixed-width" style="Margin: 0 auto;max-width: 600px;min-width: 320px; width: 320px;width: calc(28000% - 167400px);overflow-wrap: break-word;word-wrap: break-word;word-break: break-word;">
         <div class="layout__inner" style="border-collapse: collapse;display: table;width: 100%;background-color: #ffffff;" emb-background-style>
-        <!--[if (mso)|(IE)]><table align="center" cellpadding="0" cellspacing="0" role="presentation"><tr class="layout-fixed-width" emb-background-style><td style="width: 600px" class="w560"><![endif]-->
-          <div class="column" style="text-align: left;color: #565656;font-size: 14px;line-height: 21px;font-family: Georgia,serif;max-width: 600px;min-width: 320px; width: 320px;width: calc(28000% - 167400px);">
-        
+        <!--[if (mso)|(IE)]><table align="center" cellpadding="0" cellspacing="0" role="presentation"><tr class="layout-fixed-width" emb-background-style><td style="width: 200px" valign="top" class="w160"><![endif]-->
+          <div class="column" style="text-align: left;color: #565656;font-size: 14px;line-height: 21px;font-family: Georgia,serif;Float: left;max-width: 320px;min-width: 200px; width: 320px;width: calc(72200px - 12000%);">
+          
         <div style="font-size: 12px;font-style: normal;font-weight: normal;line-height: 19px;" align="center">
-          <img class="gnd-corner-image gnd-corner-image-center gnd-corner-image-top gnd-corner-image-bottom" style="border: 0;display: block;height: auto;width: 100%;max-width: 900px;" alt="" width="600" src="https://www.verbraucherhilfe24.de/nlb/Header_1.Mail.png" />
+          <img class="gnd-corner-image gnd-corner-image-center gnd-corner-image-top gnd-corner-image-bottom" style="border: 0;display: block;height: auto;width: 100%;max-width: 235px;" alt="" width="200" src="https://www.verbraucherhilfe24.de/nlb/V24-Logo-rgb.png" />
         </div>
       
           </div>
-        <!--[if (mso)|(IE)]></td></tr></table><![endif]-->
-        </div>
-      </div>
-  
-      <div class="layout one-col fixed-width" style="Margin: 0 auto;max-width: 600px;min-width: 320px; width: 320px;width: calc(28000% - 167400px);overflow-wrap: break-word;word-wrap: break-word;word-break: break-word;">
-        <div class="layout__inner" style="border-collapse: collapse;display: table;width: 100%;background-color: #ffffff;" emb-background-style>
-        <!--[if (mso)|(IE)]><table align="center" cellpadding="0" cellspacing="0" role="presentation"><tr class="layout-fixed-width" emb-background-style><td style="width: 600px" class="w560"><![endif]-->
-          <div class="column" style="text-align: left;color: #565656;font-size: 14px;line-height: 21px;font-family: Georgia,serif;max-width: 600px;min-width: 320px; width: 320px;width: calc(28000% - 167400px);">
-        
-            <div style="Margin-left: 20px;Margin-right: 20px;Margin-top: 24px;Margin-bottom: 24px;">
-      <div style="mso-line-height-rule: exactly;mso-text-raise: 4px;">
-        <p style="Margin-top: 0;Margin-bottom: 0;font-family: arial,sans-serif;text-align: center;"> <span class="font-arial"><span style="color: #565656"><strong>Ihre Bearbeitungsnummer: {!Opportunity.Number__c}</strong></span></p><p style="Margin-top: 20px;Margin-bottom: 0;font-family: arial,sans-serif;text-align: center;"><span class="font-arial">{!Contact.Salutation__c},</span></p><p style="Margin-top: 20px;Margin-bottom: 0;font-family: arial,sans-serif;text-align: center;"><span class="font-arial">danke f&#252;r Ihre Anfrage zur Rechtsdurchsetzung im <strong>Dieselskandal!</strong></span></p><p style="Margin-top: 20px;Margin-bottom: 0;font-family: arial,sans-serif;text-align: center;"><span class="font-arial"><strong>Bitte best&#228;tigen Sie hier Ihre Angaben:</strong></span></p>
-      </div>
-    </div>
-        
+        <!--[if (mso)|(IE)]></td><td style="width: 200px" valign="top" class="w160"><![endif]-->
+          <div class="column" style="text-align: left;color: #565656;font-size: 14px;line-height: 21px;font-family: Georgia,serif;Float: left;max-width: 320px;min-width: 200px; width: 320px;width: calc(72200px - 12000%);">
+          
+          </div>
+        <!--[if (mso)|(IE)]></td><td style="width: 200px" valign="top" class="w160"><![endif]-->
+          <div class="column" style="text-align: left;color: #565656;font-size: 14px;line-height: 21px;font-family: Georgia,serif;Float: left;max-width: 320px;min-width: 200px; width: 320px;width: calc(72200px - 12000%);">
+          
           </div>
         <!--[if (mso)|(IE)]></td></tr></table><![endif]-->
         </div>
@@ -514,30 +506,26 @@ body{background-color:#fbfbfb}.logo a:hover,.logo a:focus{color:#1e2e3b !importa
           <div class="column" style="text-align: left;color: #565656;font-size: 14px;line-height: 21px;font-family: Georgia,serif;max-width: 600px;min-width: 320px; width: 320px;width: calc(28000% - 167400px);">
         
             <div style="Margin-left: 20px;Margin-right: 20px;Margin-top: 24px;">
-      <div class="btn btn--flat fullwidth btn--large" style="Margin-bottom: 20px;text-align: center;">
-        <![if !mso]><a style="border-radius: 4px;display: block;font-size: 14px;font-weight: bold;line-height: 24px;padding: 12px 24px;text-align: center;text-decoration: none !important;transition: opacity 0.1s ease-in;color: #ffffff !important;background-color: #e08625;font-family: Arial, sans-serif;" href="{!Lead.URL_AGB_anfordern__c}">HIER ANGABEN VERVOLLST&#196;NDIGEN</a><![endif]>
-      <!--[if mso]><p style="line-height:0;margin:0;">&nbsp;</p><v:roundrect xmlns:v="urn:schemas-microsoft-com:vml" href={!Lead.URL_AGB_anfordern__c}" style="width:560px" arcsize="9%" fillcolor="#E08625" stroke="f"><v:textbox style="mso-fit-shape-to-text:t" inset="0px,11px,0px,11px"><center style="font-size:14px;line-height:24px;color:#FFFFFF;font-family:Arial,sans-serif;font-weight:bold;mso-line-height-rule:exactly;mso-text-raise:4px">HIER ANGABEN VERVOLLST&#196;NDIGEN</center></v:textbox></v:roundrect><![endif]--></div>
-    </div>
-        
-            <div style="Margin-left: 20px;Margin-right: 20px;">
       <div style="mso-line-height-rule: exactly;mso-text-raise: 4px;">
-        <p style="Margin-top: 0;Margin-bottom: 0;font-family: arial,sans-serif;text-align: center;"><span class="font-arial">Nutzen Sie unsere St&#228;rken und Vorteile:</span></p><p style="Margin-top: 20px;Margin-bottom: 0;font-family: arial,sans-serif;text-align: center;"><span class="font-arial">&gt;<strong>unkomplizierte Abwicklung</strong> - Sie m&#252;ssen sich um nichts k&#252;mmern<br />
-&gt;<strong>Kein Kostenrisiko</strong> (eine Provision wird nur um Erfolgsfall f&#228;llig)<br />
-&gt;<strong>schneller Erfolg</strong>: Schadensersatz in 3 bis 5 Monaten m&#246;glich</span></p><p style="Margin-top: 20px;Margin-bottom: 20px;font-family: arial,sans-serif;text-align: center;"><span class="font-arial">Sie haben noch Fragen? Wir helfen ihnen gern. Rufen Sie unter der&nbsp;<br />
-<strong>089 124 147 413</strong> an. Oder Sie fordern einfach einen R&#252;ckruf an.</span></p>
+        <p style="Margin-top: 0;Margin-bottom: 0;font-family: arial,sans-serif;text-align: center;"><span class="font-arial"><strong>{!Contact.Salutation__c}</strong></span></p><p style="Margin-top: 20px;Margin-bottom: 0;font-family: arial,sans-serif;text-align: center;"><span class="font-arial">Bearbeitungsnummer:&nbsp;{!Lead.Bearbeitungsnummer__c}<br />
+<br />
+Danke f&#252;r Ihre Anfrage zur Rechtedurchsetzung im Dieselskandal<br />
+&nbsp;</span></p><p class="size-13" style="Margin-top: 20px;Margin-bottom: 20px;font-family: arial,sans-serif;font-size: 13px;line-height: 21px;text-align: center;" lang="x-size-13"><span class="font-arial"><strong>Bitte nehmen Sie sich 2 Minuten Zeit, um Ihre Angaben zu vervollst&#228;ndigen</strong></span></p>
       </div>
     </div>
         
             <div style="Margin-left: 20px;Margin-right: 20px;Margin-bottom: 24px;">
-      <div class="btn btn--flat fullwidth btn--large" style="text-align: center;">
-        <![if !mso]><a style="border-radius: 4px;display: block;font-size: 14px;font-weight: bold;line-height: 24px;padding: 12px 24px;text-align: center;text-decoration: none !important;transition: opacity 0.1s ease-in;color: #ffffff !important;background-color: #e08625;font-family: Arial, sans-serif;" href="{!Lead.URL_AGB_anfordern__c}">IHR RECHT EINFORDERN</a><![endif]>
-      <!--[if mso]><p style="line-height:0;margin:0;">&nbsp;</p><v:roundrect xmlns:v="urn:schemas-microsoft-com:vml" href="{!Lead.URL_AGB_anfordern__c}" style="width:560px" arcsize="9%" fillcolor="#E08625" stroke="f"><v:textbox style="mso-fit-shape-to-text:t" inset="0px,11px,0px,11px"><center style="font-size:14px;line-height:24px;color:#FFFFFF;font-family:Arial,sans-serif;font-weight:bold;mso-line-height-rule:exactly;mso-text-raise:4px">IHR RECHT EINFORDERN</center></v:textbox></v:roundrect><![endif]--></div>
+      <div class="btn btn--flat btn--large" style="text-align:center;">
+        <![if !mso]><a style="border-radius: 4px;display: inline-block;font-size: 14px;font-weight: bold;line-height: 24px;padding: 12px 24px;text-align: center;text-decoration: none !important;transition: opacity 0.1s ease-in;color: #ffffff !important;background-color: #e08625;font-family: Arial, sans-serif;" href="{!Lead.URL_AGB_anfordern__c}">HIER ANGABEN VERVOLLST&#196;NDIGEN</a><![endif]>
+      <!--[if mso]><p style="line-height:0;margin:0;">&nbsp;</p><v:roundrect xmlns:v="urn:schemas-microsoft-com:vml" href="{!Lead.URL_AGB_anfordern__c}" style="width:308px" arcsize="9%" fillcolor="#E08625" stroke="f"><v:textbox style="mso-fit-shape-to-text:t" inset="0px,11px,0px,11px"><center style="font-size:14px;line-height:24px;color:#FFFFFF;font-family:Arial,sans-serif;font-weight:bold;mso-line-height-rule:exactly;mso-text-raise:4px">HIER ANGABEN VERVOLLST&#196;NDIGEN</center></v:textbox></v:roundrect><![endif]--></div>
     </div>
         
           </div>
         <!--[if (mso)|(IE)]></td></tr></table><![endif]-->
         </div>
       </div>
+  
+      <div style="line-height:1px;font-size:1px;">&nbsp;</div>
   
       <div class="layout one-col fixed-width" style="Margin: 0 auto;max-width: 600px;min-width: 320px; width: 320px;width: calc(28000% - 167400px);overflow-wrap: break-word;word-wrap: break-word;word-break: break-word;">
         <div class="layout__inner" style="border-collapse: collapse;display: table;width: 100%;background-color: #ffffff;" emb-background-style>
@@ -546,8 +534,32 @@ body{background-color:#fbfbfb}.logo a:hover,.logo a:focus{color:#1e2e3b !importa
         
             <div style="Margin-left: 20px;Margin-right: 20px;Margin-top: 24px;Margin-bottom: 24px;">
       <div style="mso-line-height-rule: exactly;mso-text-raise: 4px;">
-        <p style="Margin-top: 0;Margin-bottom: 0;font-family: arial,sans-serif;text-align: center;"><span class="font-arial"><strong>Wehren Sie sich - Warten Sie nicht - Handeln Sie jetzt!</strong></span></p><p style="Margin-top: 20px;Margin-bottom: 0;font-family: arial,sans-serif;text-align: center;"><span class="font-arial">Herzliche Gr&#252;&#223;e<br />
-Ihr Team von Verbraucherhilfe24</span></p>
+        <p style="Margin-top: 0;Margin-bottom: 0;font-family: arial,sans-serif;text-align: center;"><span class="font-arial">Profitieren Sie von unseren St&#228;rken und Leistungen.<br />
+Bis zu <strong>10.000&#8364; Schadensersatz</strong> sichern!</span></p><p class="size-14" style="Margin-top: 20px;Margin-bottom: 0;font-family: arial,sans-serif;font-size: 14px;line-height: 21px;text-align: center;" lang="x-size-14"><span class="font-arial"><strong>Unkomplizierte Abwicklung</strong><br />
+Sie m&#252;ssen sich um nichts k&#252;mmern</span></p><p class="size-14" style="Margin-top: 20px;Margin-bottom: 0;font-family: arial,sans-serif;font-size: 14px;line-height: 21px;text-align: center;" lang="x-size-14"><span class="font-arial"><strong>Kein Kostenrisiko</strong><br />
+Eine Provision wird erst im Erfolgsfall f&#228;llig</span></p><p class="size-14" style="Margin-top: 20px;Margin-bottom: 0;font-family: arial,sans-serif;font-size: 14px;line-height: 21px;text-align: center;" lang="x-size-14"><span class="font-arial"><strong>Schneller Erfolg</strong><br />
+Schadensersatz in 3 bis 5 Monaten m&#246;glich</span></p><p style="Margin-top: 20px;Margin-bottom: 0;font-family: arial,sans-serif;text-align: center;"><span class="font-arial">Noch Fragen? Wir helfen Ihnen gern. Rufen Sie uns unter der <strong>089 124 147 413</strong> an<br />
+oder kontaktieren Sie uns per Mail an <strong>info@verbraucherhilfe24.de</strong><br />
+<br />
+<p style="Margin-top: 0;Margin-bottom: 0;font-family: arial,sans-serif;text-align: center;"><span class="font-arial"><strong>Wehren Sie sich - Warten Sie nicht - Handeln Sie jetzt!</strong></span></p><p style="Margin-top: 20px;Margin-bottom: 0;font-family: arial,sans-serif;text-align: center;"><span class="font-arial">Herzliche Gr&#252;&#223;e<br />
+Ihr Team von Verbraucherhilfe24</span></h3>
+      </div>
+    </div>
+        
+            <div style="Margin-left: 20px;Margin-right: 20px;">
+      <div style="mso-line-height-rule: exactly;line-height: 20px;font-size: 1px;">&nbsp;</div>
+    </div>
+        
+            <div style="Margin-left: 20px;Margin-right: 20px;">
+      <div style="mso-line-height-rule: exactly;mso-text-raise: 4px;">
+        <p style="Margin-top: 0;Margin-bottom: 20px;font-family: arial,sans-serif;text-align: center;"><span class="font-arial"><span style="color:#999999">Verbraucherhilfe24<br />
+GEPR&#220;FT UND ZERTIFIZIERT&nbsp;</span></span></p>
+      </div>
+    </div>
+        
+        <div style="font-size: 12px;font-style: normal;font-weight: normal;line-height: 19px;" align="center">
+          <img style="border: 0;display: block;height: auto;width: 100%;max-width: 216px;" alt="" width="216" src="https://www.verbraucherhilfe24.de/tr/vh24_tuev.png" />
+        </div>
       </div>
     </div>
         
@@ -629,7 +641,7 @@ Telefon: 089 - 124 147 413<br />
 Fax: 089 - 124 147 419<br />
 <a style="text-decoration: underline;transition: opacity 0.1s ease-in;color: #41637e;" href="http://www.verbraucherhilfe24.de">www.verbraucherhilfe24.de</a></span></p><p style="Margin-top: 20px;Margin-bottom: 0;font-family: arial,sans-serif;text-align: left;"><span class="font-arial">Kontakt:&nbsp;<a style="text-decoration: underline;transition: opacity 0.1s ease-in;color: #41637e;" href="mailto:office@verbraucherhilfe24.de">office@verbraucherhilfe24.de</a></span></p><p style="Margin-top: 20px;Margin-bottom: 0;font-family: arial,sans-serif;text-align: left;"><span class="font-arial">Registriert beim Amtsgericht M&#252;nchen unter 371 E &#8211; M 1779 als<br />
 Inkassodienstleister gem. &#167; 10 Abs. 1 RDG Handelsregister: HRB 217774<br />
-Amtsgericht M&#252;nchen USt-IDNr: DE277526577&nbsp;</span></p><p style="Margin-top: 20px;Margin-bottom: 0;font-family: arial,sans-serif;text-align: left;"><span class="font-arial"><a style="text-decoration: underline;transition: opacity 0.1s ease-in;color: #41637e;" href="https://www.verbraucherhilfe24.de/agb/dg/AGB_VH24_mitRSV.pdf"><strong>Widerrufserkl&#228;rung inkl. AGB</strong></a></span></p>
+Amtsgericht M&#252;nchen USt-IDNr: DE277526577&nbsp;</span></p><p style="Margin-top: 20px;Margin-bottom: 0;font-family: arial,sans-serif;text-align: left;"><span class="font-arial">
       </div>
     </div>
         

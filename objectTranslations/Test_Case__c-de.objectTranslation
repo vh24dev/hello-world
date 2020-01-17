@@ -88,6 +88,10 @@
         <label><!-- URL Bestätigungslink --></label>
         <name>URL_ConfirmationLink__c</name>
     </fields>
+    <fields>
+        <label><!-- Gericht K --></label>
+        <name>Gericht_K__c</name>
+    </fields>
     <caseValues>
         <caseType>Nominative</caseType>
         <plural>false</plural>

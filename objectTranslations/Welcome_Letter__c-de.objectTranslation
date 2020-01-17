@@ -56,6 +56,10 @@
         <label><!-- Test --></label>
         <name>Test__c</name>
     </fields>
+    <fields>
+        <label><!-- Datum des Mandats --></label>
+        <name>Datum_des_Mandats__c</name>
+    </fields>
     <caseValues>
         <caseType>Nominative</caseType>
         <plural>false</plural>

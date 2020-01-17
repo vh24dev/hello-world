@@ -8,7 +8,7 @@
     <subject>Beispielrechnung | Bearbeitungsnummer: {!Lead.Bearbeitungsnummer__c}</subject>
     <textOnly>Was kostet eine Abwicklung über Verbraucherhilfe24?
 
-{!Lead.Salutation__c}
+{!Lead.Salutation__c},
 
 wie telefonisch besprochen, gibt es unterschiedliche Varianten, die ich Ihnen gerne anhand von Beispielen erläutere.
 
@@ -77,9 +77,9 @@ www.verbraucherhilfe24.de
 
 Registriert beim Amtsgericht München unter: 371 E - M 1779 als Inkassodienstleister gem. §10 abs. 1 RDG I Handelsregister: HRB 217774 Amtsgericht München
 
-Widerrufserklärung inkl. AGB Anfrage widerrufen
 
-Abmelden</textOnly>
+
+Widerrufserklärung inkl. AGB</textOnly>
     <type>custom</type>
     <uiType>Aloha</uiType>
 </EmailTemplate>

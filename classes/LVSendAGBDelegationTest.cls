@@ -20,6 +20,7 @@ public class LVSendAGBDelegationTest {
         contact.LastName = 'Ich bin ein automatisierter Nachname';
         insert contact;
 		LVSendAGBDelegation delegation = new LVSendAGBDelegation('BN123123123',contact);
+        delegation.prepareMail();
     	system.assertNotEquals(null,delegation.GetPlainTextBody());
     }
     
@@ -31,6 +32,7 @@ public class LVSendAGBDelegationTest {
         contact.LastName = 'Ich bin ein automatisierter Nachname';
         insert contact;
 		LVSendAGBDelegation delegation = new LVSendAGBDelegation('BN123123123',contact);
+        delegation.prepareMail();
     	system.assertNotEquals(null,delegation.GetHtmlBody());
     }
     
@@ -42,6 +44,7 @@ public class LVSendAGBDelegationTest {
         contact.LastName = 'Ich bin ein automatisierter Nachname';
         insert contact;
 		LVSendAGBDelegation delegation = new LVSendAGBDelegation('BN123123123',contact);
+        delegation.prepareMail();
     	system.assertNotEquals(null,delegation.getAddresses());
     }
     
@@ -53,6 +56,7 @@ public class LVSendAGBDelegationTest {
         contact.LastName = 'Ich bin ein automatisierter Nachname';
         insert contact;
 		LVSendAGBDelegation delegation = new LVSendAGBDelegation('BN123123123',contact);
+        delegation.prepareMail();
     	system.assertNotEquals(null,delegation.getSubject());   
     }
 
@@ -64,6 +68,7 @@ public class LVSendAGBDelegationTest {
         contact.LastName = 'Ich bin ein automatisierter Nachname';
         insert contact;
 		LVSendAGBDelegation delegation = new LVSendAGBDelegation('BN123123123',contact);
+        delegation.prepareMail();
     	system.assertNotEquals(null,delegation.getAttachments());   
     } 
     
@@ -75,6 +80,7 @@ public class LVSendAGBDelegationTest {
         contact.LastName = 'Ich bin ein automatisierter Nachname';
         insert contact;
 		LVSendAGBDelegation delegation = new LVSendAGBDelegation('BN123123123',contact);
+        delegation.prepareMail();
     	system.assertNotEquals(null,delegation.getMailTemplate()); 
     }
     /*

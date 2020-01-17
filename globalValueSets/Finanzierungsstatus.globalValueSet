@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>abgelaufen</fullName>
+        <default>false</default>
+        <label>abgelaufen</label>
+    </customValue>
+    <customValue>
+        <fullName>noch aktiv</fullName>
+        <default>false</default>
+        <label>noch aktiv</label>
+    </customValue>
+    <description>Finanzierungsstatus</description>
+    <masterLabel>Finanzierungsstatus</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

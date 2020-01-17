@@ -374,7 +374,7 @@ public class ClaimMailTest {
      * * * * * * * * */
 
     // Issued
-
+/*
     @isTest
     public static void testFZLawsuitIssuedJCLegal() {
         id uId = setLegal('J & C Anwälte');
@@ -514,7 +514,7 @@ public class ClaimMailTest {
 
         update c;
     }
-
+	*/
     /* * * * * * * * * * * *
      * Lebenesversicherung *
      * * * * * * * * * * * */

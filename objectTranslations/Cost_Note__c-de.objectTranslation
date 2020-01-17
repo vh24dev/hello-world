@@ -253,6 +253,10 @@
         <label><!-- insuranceCostNoteReminderExisting --></label>
         <name>insuranceCostNoteReminderExisting__c</name>
     </fields>
+    <fields>
+        <label><!-- Umsatz2 --></label>
+        <name>Umsatz2__c</name>
+    </fields>
     <caseValues>
         <caseType>Nominative</caseType>
         <plural>false</plural>

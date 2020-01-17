@@ -8,11 +8,11 @@
     </values>
     <values>
         <field>Disable_Auto_Email_Sending__c</field>
-        <value xsi:type="xsd:boolean">true</value>
+        <value xsi:type="xsd:boolean">false</value>
     </values>
     <values>
         <field>Disable_all_triggers__c</field>
-        <value xsi:type="xsd:boolean">true</value>
+        <value xsi:type="xsd:boolean">false</value>
     </values>
     <values>
         <field>Is_Active__c</field>

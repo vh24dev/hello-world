@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
     <customValue>
-        <fullName>AachenMuenchner Lebensversicherung AG</fullName>
+        <fullName>AachenMuenchener Lebensversicherung AG</fullName>
         <default>false</default>
-        <label>AachenMuenchner Lebensversicherung AG</label>
+        <label>AachenMuenchener Lebensversicherung AG</label>
     </customValue>
     <customValue>
         <fullName>Aioi Nissay Dowa Life Insurance of Europe Aktiengesellschaft</fullName>
@@ -11,7 +11,7 @@
         <label>Aioi Nissay Dowa Life Insurance of Europe Aktiengesellschaft</label>
     </customValue>
     <customValue>
-        <fullName>Allianz_Lebensversicherungs-Aktiengesellschaft</fullName>
+        <fullName>Allianz Lebensversicherungs-Aktiengesellschaft</fullName>
         <default>false</default>
         <label>Allianz Lebensversicherungs-Aktiengesellschaft</label>
     </customValue>
@@ -31,24 +31,14 @@
         <label>ARAG Lebensversicherungs-AG</label>
     </customValue>
     <customValue>
-        <fullName>Aspecta Lebensversicherung AG (jetzt HDI)</fullName>
+        <fullName>Aspecta Lebensversicherung (jetzt HDI Lebensversicherung AG)</fullName>
         <default>false</default>
-        <label>Aspecta Lebensversicherung AG (jetzt HDI)</label>
+        <label>Aspecta Lebensversicherung (jetzt HDI Lebensversicherung AG)</label>
     </customValue>
     <customValue>
-        <fullName>Athene Lebensversicherung Aktiengesellschaft</fullName>
+        <fullName>Athora Lebensversicherung Aktiengesellschaft</fullName>
         <default>false</default>
-        <label>Athene Lebensversicherung Aktiengesellschaft</label>
-    </customValue>
-    <customValue>
-        <fullName>Athora Lebensversicherung</fullName>
-        <default>false</default>
-        <label>Athora Lebensversicherung</label>
-    </customValue>
-    <customValue>
-        <fullName>Atlanticlux Lebensversicherung S.A.</fullName>
-        <default>false</default>
-        <label>Atlanticlux Lebensversicherung S.A.</label>
+        <label>Athora Lebensversicherung Aktiengesellschaft</label>
     </customValue>
     <customValue>
         <fullName>AXA Lebensversicherung AG</fullName>
@@ -71,14 +61,14 @@
         <label>Concordia oeco Lebensversicherungs-AG</label>
     </customValue>
     <customValue>
-        <fullName>Condor Lebensversicherungs-AG</fullName>
+        <fullName>Condor Lebensversicherungs-Aktiengesellschaft</fullName>
         <default>false</default>
-        <label>Condor Lebensversicherungs-AG</label>
+        <label>Condor Lebensversicherungs-Aktiengesellschaft</label>
     </customValue>
     <customValue>
-        <fullName>Continentale Lebensversicherung a.G.</fullName>
+        <fullName>Continentale Lebensversicherung AG</fullName>
         <default>false</default>
-        <label>Continentale Lebensversicherung a.G.</label>
+        <label>Continentale Lebensversicherung AG</label>
     </customValue>
     <customValue>
         <fullName>Credit Life AG</fullName>
@@ -91,9 +81,9 @@
         <label>DBV Deutsche Beamtenversicherung Lebensversicherung</label>
     </customValue>
     <customValue>
-        <fullName>DBW-Winterthur Leebnsversicherung AG</fullName>
+        <fullName>DBV-Winterthur Lebensversicherung AG</fullName>
         <default>false</default>
-        <label>DBW-Winterthur Leebnsversicherung AG</label>
+        <label>DBV-Winterthur Lebensversicherung AG</label>
     </customValue>
     <customValue>
         <fullName>Delta Direkt Lebensversicherung Aktiengesellschaft München</fullName>
@@ -141,9 +131,9 @@
         <label>Direkte Leben Versicherung Aktiengesellschaft</label>
     </customValue>
     <customValue>
-        <fullName>ERGO Vorsorge Lebensversicherung AG</fullName>
+        <fullName>ERGO Vorsorge Lebensversicherung AG (ehemals VORSORGE Lebensversicherung)</fullName>
         <default>false</default>
-        <label>ERGO Vorsorge Lebensversicherung AG</label>
+        <label>ERGO Vorsorge Lebensversicherung AG (ehemals VORSORGE Lebensversicherung)</label>
     </customValue>
     <customValue>
         <fullName>EUROPA Lebensversicherung AG</fullName>
@@ -421,9 +411,9 @@
         <label>SV SparkassenVersicherung Lebensversicherung Aktiengesellschaft</label>
     </customValue>
     <customValue>
-        <fullName>Swiss Life AG</fullName>
+        <fullName>Swiss Independance AG</fullName>
         <default>false</default>
-        <label>Swiss Life AG</label>
+        <label>Swiss Independance AG</label>
     </customValue>
     <customValue>
         <fullName>TARGO Lebensversicherung AG</fullName>
@@ -466,9 +456,9 @@
         <label>Victoria Lebensversicherung Aktiengesellschaft</label>
     </customValue>
     <customValue>
-        <fullName>Vienna Life Lebensversicherung AG</fullName>
+        <fullName>Vienna-Life Lebensversicherung AG</fullName>
         <default>false</default>
-        <label>Vienna Life Lebensversicherung AG</label>
+        <label>Vienna-Life Lebensversicherung AG</label>
     </customValue>
     <customValue>
         <fullName>Volksfürsorge Deutsche Lebensversicherung AG</fullName>
@@ -481,9 +471,9 @@
         <label>Volkswohl Bund Lebensversicherung a.G.</label>
     </customValue>
     <customValue>
-        <fullName>Vorsorge Lebensversicherung SA</fullName>
+        <fullName>Vorsorge Lebensversicherung SA (Luxemburg)</fullName>
         <default>false</default>
-        <label>Vorsorge Lebensversicherung SA</label>
+        <label>Vorsorge Lebensversicherung SA (Luxemburg)</label>
     </customValue>
     <customValue>
         <fullName>VPV LEBENSVERSICHERUNGS-AG</fullName>
@@ -501,9 +491,9 @@
         <label>WGV-Lebensversicherung AG</label>
     </customValue>
     <customValue>
-        <fullName>Würtembergische Lebensversicherung Aktiengesellschaft</fullName>
+        <fullName>Württembergische Lebensversicherung Aktiengesellschaft</fullName>
         <default>false</default>
-        <label>Würtembergische Lebensversicherung Aktiengesellschaft</label>
+        <label>Württembergische Lebensversicherung Aktiengesellschaft</label>
     </customValue>
     <customValue>
         <fullName>Wüstenrot Versicherungs-AG</fullName>
@@ -526,88 +516,124 @@
         <label>Zurich Lebensversicherung AG</label>
     </customValue>
     <customValue>
-        <fullName>Clerical Medical / Scottish Widows Limited</fullName>
+        <fullName>Barmenia Lebensversicherung a.G.</fullName>
         <default>false</default>
-        <isActive>false</isActive>
-        <label>Clerical Medical / Scottish Widows Limited</label>
-    </customValue>
-    <customValue>
-        <fullName>Concordia Lebensversicherungs-AG</fullName>
-        <default>false</default>
-        <isActive>false</isActive>
-        <label>Concordia Lebensversicherungs-AG</label>
-    </customValue>
-    <customValue>
-        <fullName>Cosmos Lebensversicherungs-Aktiengesellschaft</fullName>
-        <default>false</default>
-        <isActive>false</isActive>
-        <label>Cosmos Lebensversicherungs-Aktiengesellschaft</label>
+        <label>Barmenia Lebensversicherung a.G.</label>
     </customValue>
     <customValue>
         <fullName>Debeka Lebensversicherungsverein a.G.</fullName>
         <default>false</default>
-        <isActive>false</isActive>
         <label>Debeka Lebensversicherungsverein a.G.</label>
+    </customValue>
+    <customValue>
+        <fullName>Basler Lebensversicherungs-AG</fullName>
+        <default>false</default>
+        <label>Basler Lebensversicherungs-AG</label>
+    </customValue>
+    <customValue>
+        <fullName>Canada Life Assurance Europe Limited</fullName>
+        <default>false</default>
+        <label>Canada Life Assurance Europe Limited</label>
+    </customValue>
+    <customValue>
+        <fullName>ASPECTA Assurance International Luxembourg S.A.</fullName>
+        <default>false</default>
+        <label>ASPECTA Assurance International Luxembourg S.A.</label>
+    </customValue>
+    <customValue>
+        <fullName>Asstel (Gothaer Gruppe)</fullName>
+        <default>false</default>
+        <label>Asstel (Gothaer Gruppe)</label>
+    </customValue>
+    <customValue>
+        <fullName>Bayern-Versicherung Lebensversicherung Aktiengesellschaft</fullName>
+        <default>false</default>
+        <label>Bayern-Versicherung Lebensversicherung Aktiengesellschaft</label>
+    </customValue>
+    <customValue>
+        <fullName>BHW Lebensversicherung AG</fullName>
+        <default>false</default>
+        <label>BHW Lebensversicherung AG</label>
+    </customValue>
+    <customValue>
+        <fullName>Cosmos Lebensversicherungs-Aktiengesellschaft</fullName>
+        <default>false</default>
+        <label>Cosmos Lebensversicherungs-Aktiengesellschaft</label>
     </customValue>
     <customValue>
         <fullName>ERGO Lebensversicherung AG</fullName>
         <default>false</default>
-        <isActive>false</isActive>
         <label>ERGO Lebensversicherung AG</label>
+    </customValue>
+    <customValue>
+        <fullName>ERGO Direkt Lebensversicherung AG</fullName>
+        <default>false</default>
+        <label>ERGO Direkt Lebensversicherung AG</label>
+    </customValue>
+    <customValue>
+        <fullName>Familienfürsorge Lebensversicherung AG im Raum der Kirchen (Bruderhilfe)</fullName>
+        <default>false</default>
+        <label>Familienfürsorge Lebensversicherung AG im Raum der Kirchen (Bruderhilfe)</label>
+    </customValue>
+    <customValue>
+        <fullName>Frankfurt Münchener Lebensversicherung AG</fullName>
+        <default>false</default>
+        <label>Frankfurt Münchener Lebensversicherung AG</label>
+    </customValue>
+    <customValue>
+        <fullName>FWU Life Insurance Lux S.A.</fullName>
+        <default>false</default>
+        <label>FWU Life Insurance Lux S.A.</label>
     </customValue>
     <customValue>
         <fullName>Generali Lebensversicherung Aktiengesellschaft</fullName>
         <default>false</default>
-        <isActive>false</isActive>
         <label>Generali Lebensversicherung Aktiengesellschaft</label>
     </customValue>
     <customValue>
         <fullName>Lebensversicherung von 1871 a.G. Muenchen</fullName>
         <default>false</default>
-        <isActive>false</isActive>
         <label>Lebensversicherung von 1871 a.G. Muenchen</label>
     </customValue>
     <customValue>
         <fullName>Liberty Europe</fullName>
         <default>false</default>
-        <isActive>false</isActive>
         <label>Liberty Europe</label>
     </customValue>
     <customValue>
         <fullName>Mannheimer Lebensversicherung</fullName>
         <default>false</default>
-        <isActive>false</isActive>
         <label>Mannheimer Lebensversicherung</label>
     </customValue>
     <customValue>
         <fullName>MetLife Europe d.a.c.</fullName>
         <default>false</default>
-        <isActive>false</isActive>
         <label>MetLife Europe d.a.c.</label>
     </customValue>
     <customValue>
         <fullName>NUERNBERGER Lebensversicherung AG</fullName>
         <default>false</default>
-        <isActive>false</isActive>
         <label>NUERNBERGER Lebensversicherung AG</label>
     </customValue>
     <customValue>
         <fullName>PB Lebensversicherung AG</fullName>
         <default>false</default>
-        <isActive>false</isActive>
         <label>PB Lebensversicherung AG</label>
     </customValue>
     <customValue>
-        <fullName>Prisma Life AG</fullName>
+        <fullName>Prisma Life AG (Liechtenstein)</fullName>
         <default>false</default>
-        <isActive>false</isActive>
-        <label>Prisma Life AG</label>
+        <label>Prisma Life AG (Liechtenstein)</label>
     </customValue>
     <customValue>
-        <fullName>R + V Lebensversicherung AG</fullName>
+        <fullName>R+V Lebensversicherung AG</fullName>
         <default>false</default>
-        <isActive>false</isActive>
-        <label>R + V Lebensversicherung AG</label>
+        <label>R+V Lebensversicherung AG</label>
+    </customValue>
+    <customValue>
+        <fullName>R+V Luxembourg Lebensversicherung S.A.</fullName>
+        <default>false</default>
+        <label>R+V Luxembourg Lebensversicherung S.A.</label>
     </customValue>
     <customValue>
         <fullName>Allianz Lebensversicherungs-AG</fullName>
@@ -616,52 +642,34 @@
         <label>Allianz Lebensversicherungs-AG</label>
     </customValue>
     <customValue>
+        <fullName>Concordia Lebensversicherungs-AG</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Concordia Lebensversicherungs-AG</label>
+    </customValue>
+    <customValue>
+        <fullName>Clerical Medical / Scottish Widows Limited</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Clerical Medical / Scottish Widows Limited</label>
+    </customValue>
+    <customValue>
+        <fullName>Atlanticlux Lebensversicherung S.A.</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Atlanticlux Lebensversicherung S.A.</label>
+    </customValue>
+    <customValue>
+        <fullName>Athene Lebensversicherung Aktiengesellschaft</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Athene Lebensversicherung Aktiengesellschaft</label>
+    </customValue>
+    <customValue>
         <fullName>-- Bitte wählen Sie Ihre Gesellschaft --</fullName>
         <default>false</default>
         <isActive>false</isActive>
         <label>-- Bitte wählen Sie Ihre Gesellschaft --</label>
-    </customValue>
-    <customValue>
-        <fullName>Canada Life Assurance Europe Limited</fullName>
-        <default>false</default>
-        <isActive>false</isActive>
-        <label>Canada Life Assurance Europe Limited</label>
-    </customValue>
-    <customValue>
-        <fullName>BHW Lebensversicherung AG</fullName>
-        <default>false</default>
-        <isActive>false</isActive>
-        <label>BHW Lebensversicherung AG</label>
-    </customValue>
-    <customValue>
-        <fullName>Bayern-Versicherung Lebensversicherung</fullName>
-        <default>false</default>
-        <isActive>false</isActive>
-        <label>Bayern-Versicherung Lebensversicherung</label>
-    </customValue>
-    <customValue>
-        <fullName>Basler Lebensversicherungs-AG</fullName>
-        <default>false</default>
-        <isActive>false</isActive>
-        <label>Basler Lebensversicherungs-AG</label>
-    </customValue>
-    <customValue>
-        <fullName>Barmenia Lebensversicherung a.G.</fullName>
-        <default>false</default>
-        <isActive>false</isActive>
-        <label>Barmenia Lebensversicherung a.G.</label>
-    </customValue>
-    <customValue>
-        <fullName>ASPECTA Assurance International Luxembourg S.A.</fullName>
-        <default>false</default>
-        <isActive>false</isActive>
-        <label>ASPECTA Assurance International Luxembourg S.A.</label>
-    </customValue>
-    <customValue>
-        <fullName>Asstel (Gothaer Gruppe)</fullName>
-        <default>false</default>
-        <isActive>false</isActive>
-        <label>Asstel (Gothaer Gruppe)</label>
     </customValue>
     <masterLabel>Versicherungen (LV/RV)</masterLabel>
     <sorted>false</sorted>

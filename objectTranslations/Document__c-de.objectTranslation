@@ -60,6 +60,10 @@
         <label><!-- Typ --></label>
         <name>Type__c</name>
     </fields>
+    <fields>
+        <label><!-- IsAccessibleForLegal --></label>
+        <name>IsAccessibleForLegal__c</name>
+    </fields>
     <caseValues>
         <caseType>Nominative</caseType>
         <plural>false</plural>

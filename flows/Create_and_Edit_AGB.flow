@@ -1,21 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Flow xmlns="http://soap.sforce.com/2006/04/metadata">
-    <assignments>
-        <name>myVariable_waitStartTimeAssignment</name>
-        <label>myVariable_waitStartTimeAssignment</label>
-        <locationX>0</locationX>
-        <locationY>0</locationY>
-        <assignmentItems>
-            <assignToReference>myVariable_waitStartTimeVariable</assignToReference>
-            <operator>Assign</operator>
-            <value>
-                <elementReference>$Flow.CurrentDateTime</elementReference>
-            </value>
-        </assignmentItems>
-        <connector>
-            <targetReference>myDecision</targetReference>
-        </connector>
-    </assignments>
     <decisions>
         <processMetadataValues>
             <name>index</name>
@@ -45,65 +29,6 @@
                 <targetReference>myRule_1_A1</targetReference>
             </connector>
             <label>BypassProcessBuilder</label>
-        </rules>
-    </decisions>
-    <decisions>
-        <processMetadataValues>
-            <name>index</name>
-            <value>
-                <numberValue>5.0</numberValue>
-            </value>
-        </processMetadataValues>
-        <name>myDecision10</name>
-        <label>myDecision10</label>
-        <locationX>50</locationX>
-        <locationY>0</locationY>
-        <defaultConnector>
-            <targetReference>myDecision12</targetReference>
-        </defaultConnector>
-        <defaultConnectorLabel>default</defaultConnectorLabel>
-        <rules>
-            <name>myRule_11</name>
-            <conditionLogic>and</conditionLogic>
-            <conditions>
-                <leftValueReference>formula_myRule_11</leftValueReference>
-                <operator>EqualTo</operator>
-                <rightValue>
-                    <booleanValue>true</booleanValue>
-                </rightValue>
-            </conditions>
-            <connector>
-                <targetReference>myRule_11_A1</targetReference>
-            </connector>
-            <label>AGB_LV RSV and TC Confirmed</label>
-        </rules>
-    </decisions>
-    <decisions>
-        <processMetadataValues>
-            <name>index</name>
-            <value>
-                <numberValue>6.0</numberValue>
-            </value>
-        </processMetadataValues>
-        <name>myDecision12</name>
-        <label>myDecision12</label>
-        <locationX>50</locationX>
-        <locationY>0</locationY>
-        <defaultConnectorLabel>default</defaultConnectorLabel>
-        <rules>
-            <name>myRule_13</name>
-            <conditionLogic>and</conditionLogic>
-            <conditions>
-                <leftValueReference>formula_myRule_13</leftValueReference>
-                <operator>EqualTo</operator>
-                <rightValue>
-                    <booleanValue>true</booleanValue>
-                </rightValue>
-            </conditions>
-            <connector>
-                <targetReference>myRule_13_A1</targetReference>
-            </connector>
-            <label>AGB_LV Share and TC Confirmed</label>
         </rules>
     </decisions>
     <decisions>
@@ -210,9 +135,6 @@
         <label>myDecision8</label>
         <locationX>50</locationX>
         <locationY>0</locationY>
-        <defaultConnector>
-            <targetReference>myDecision10</targetReference>
-        </defaultConnector>
         <defaultConnectorLabel>default</defaultConnectorLabel>
         <rules>
             <name>myRule_9</name>
@@ -246,154 +168,90 @@
             <name>originalFormula</name>
             <value>
                 <stringValue>AND(
- OR(
-     ISNEW(),
-        ISCHANGED(([Opportunity].Confirmed_Terms_And_Conditions__c )),
-          ([Opportunity].RecordTypeId = &apos;0121t000000DzR5AAK&apos;),
-          (ISPICKVAL([Opportunity].Assignment_Type__c, &apos;RSV&apos;)),
-          ([Opportunity].Confirmed_Terms_And_Conditions__c = TRUE)
-))</stringValue>
-            </value>
-        </processMetadataValues>
-        <name>formula_myRule_11</name>
-        <dataType>Boolean</dataType>
-        <expression>AND(
- OR(
-     ISNEW(),
-        ISCHANGED(({!myVariable_current.Confirmed_Terms_And_Conditions__c} )),
-          ({!myVariable_current.RecordTypeId} = &apos;0121t000000DzR5AAK&apos;),
-          (ISPICKVAL({!myVariable_current.Assignment_Type__c}, &apos;RSV&apos;)),
-          ({!myVariable_current.Confirmed_Terms_And_Conditions__c} = TRUE)
-))</expression>
-    </formulas>
-    <formulas>
-        <processMetadataValues>
-            <name>originalFormula</name>
-            <value>
-                <stringValue>AND(
- OR(
-     ISNEW(),
-        ISCHANGED(([Opportunity].Confirmed_Terms_And_Conditions__c )),
-          ([Opportunity].RecordTypeId = &apos;0121t000000DzR5AAK&apos;),
-          (ISPICKVAL([Opportunity].Assignment_Type__c, &apos;Share&apos;)),
-          ([Opportunity].Confirmed_Terms_And_Conditions__c = TRUE)
-))</stringValue>
-            </value>
-        </processMetadataValues>
-        <name>formula_myRule_13</name>
-        <dataType>Boolean</dataType>
-        <expression>AND(
- OR(
-     ISNEW(),
-        ISCHANGED(({!myVariable_current.Confirmed_Terms_And_Conditions__c} )),
-          ({!myVariable_current.RecordTypeId} = &apos;0121t000000DzR5AAK&apos;),
-          (ISPICKVAL({!myVariable_current.Assignment_Type__c}, &apos;Share&apos;)),
-          ({!myVariable_current.Confirmed_Terms_And_Conditions__c} = TRUE)
-))</expression>
-    </formulas>
-    <formulas>
-        <processMetadataValues>
-            <name>originalFormula</name>
-            <value>
-                <stringValue>AND(
- OR(
-     ISNEW(),
-        ISCHANGED(([Opportunity].Confirmed_Terms_And_Conditions__c )),
+Isnew(),
+         ([Opportunity].RecordTypeId = &apos;0121t000000DzR3AAK&apos;),
          ([Opportunity].Confirmed_Terms_And_Conditions__c = TRUE),
-         (ISPICKVAL([Opportunity].Assignment_Type__c, &apos;RSV&apos;)),
-          ([Opportunity].RecordTypeId = &apos;0121t000000DzR3AAK&apos;)          
+         (ISPICKVAL([Opportunity].Assignment_Type__c, &apos;RSV&apos;))
+                   
           
-))</stringValue>
+)</stringValue>
             </value>
         </processMetadataValues>
         <name>formula_myRule_3</name>
         <dataType>Boolean</dataType>
         <expression>AND(
- OR(
-     ISNEW(),
-        ISCHANGED(({!myVariable_current.Confirmed_Terms_And_Conditions__c} )),
+Isnew(),
+         ({!myVariable_current.RecordTypeId} = &apos;0121t000000DzR3AAK&apos;),
          ({!myVariable_current.Confirmed_Terms_And_Conditions__c} = TRUE),
-         (ISPICKVAL({!myVariable_current.Assignment_Type__c}, &apos;RSV&apos;)),
-          ({!myVariable_current.RecordTypeId} = &apos;0121t000000DzR3AAK&apos;)          
+         (ISPICKVAL({!myVariable_current.Assignment_Type__c}, &apos;RSV&apos;))
+                   
           
-))</expression>
+)</expression>
     </formulas>
     <formulas>
         <processMetadataValues>
             <name>originalFormula</name>
             <value>
                 <stringValue>AND(
-  OR(
-     ISNEW(),
-        ISCHANGED(([Opportunity].Confirmed_Terms_And_Conditions__c )),
+Isnew(),
           ([Opportunity].RecordTypeId = &apos;0121t000000DzR3AAK&apos;),
           (ISPICKVAL([Opportunity].Assignment_Type__c, &apos;Share&apos;)),
           ([Opportunity].Confirmed_Terms_And_Conditions__c = TRUE)
-))</stringValue>
+)</stringValue>
             </value>
         </processMetadataValues>
         <name>formula_myRule_5</name>
         <dataType>Boolean</dataType>
         <expression>AND(
-  OR(
-     ISNEW(),
-        ISCHANGED(({!myVariable_current.Confirmed_Terms_And_Conditions__c} )),
+Isnew(),
           ({!myVariable_current.RecordTypeId} = &apos;0121t000000DzR3AAK&apos;),
           (ISPICKVAL({!myVariable_current.Assignment_Type__c}, &apos;Share&apos;)),
           ({!myVariable_current.Confirmed_Terms_And_Conditions__c} = TRUE)
-))</expression>
+)</expression>
     </formulas>
     <formulas>
         <processMetadataValues>
             <name>originalFormula</name>
             <value>
                 <stringValue>AND(
- OR(
-     ISNEW(),
-        ISCHANGED(([Opportunity].Confirmed_Terms_And_Conditions__c )),
+Isnew(),
           ([Opportunity].RecordTypeId = &apos;0121t000000DzR4AAK&apos;),
           (ISPICKVAL([Opportunity].Assignment_Type__c, &apos;RSV&apos;)),
           ([Opportunity].Confirmed_Terms_And_Conditions__c = TRUE)
-))</stringValue>
+)</stringValue>
             </value>
         </processMetadataValues>
         <name>formula_myRule_7</name>
         <dataType>Boolean</dataType>
         <expression>AND(
- OR(
-     ISNEW(),
-        ISCHANGED(({!myVariable_current.Confirmed_Terms_And_Conditions__c} )),
+Isnew(),
           ({!myVariable_current.RecordTypeId} = &apos;0121t000000DzR4AAK&apos;),
           (ISPICKVAL({!myVariable_current.Assignment_Type__c}, &apos;RSV&apos;)),
           ({!myVariable_current.Confirmed_Terms_And_Conditions__c} = TRUE)
-))</expression>
+)</expression>
     </formulas>
     <formulas>
         <processMetadataValues>
             <name>originalFormula</name>
             <value>
                 <stringValue>AND(
- OR(
-     ISNEW(),
-        ISCHANGED(([Opportunity].Confirmed_Terms_And_Conditions__c )),
+Isnew(),
           ([Opportunity].RecordTypeId = &apos;0121t000000DzR4AAK&apos;),
           (ISPICKVAL([Opportunity].Assignment_Type__c, &apos;Share&apos;)),
           ([Opportunity].Confirmed_Terms_And_Conditions__c = TRUE)
-))</stringValue>
+)</stringValue>
             </value>
         </processMetadataValues>
         <name>formula_myRule_9</name>
         <dataType>Boolean</dataType>
         <expression>AND(
- OR(
-     ISNEW(),
-        ISCHANGED(({!myVariable_current.Confirmed_Terms_And_Conditions__c} )),
+Isnew(),
           ({!myVariable_current.RecordTypeId} = &apos;0121t000000DzR4AAK&apos;),
           (ISPICKVAL({!myVariable_current.Assignment_Type__c}, &apos;Share&apos;)),
           ({!myVariable_current.Confirmed_Terms_And_Conditions__c} = TRUE)
-))</expression>
+)</expression>
     </formulas>
-    <interviewLabel>Create_and_Edit_AGB-7_InterviewLabel</interviewLabel>
+    <interviewLabel>Create_and_Edit_AGB-13_InterviewLabel</interviewLabel>
     <label>Create and Edit AGB</label>
     <processMetadataValues>
         <name>ObjectType</name>
@@ -420,392 +278,6 @@
         </value>
     </processMetadataValues>
     <processType>Workflow</processType>
-    <recordCreates>
-        <name>myRule_11_A1</name>
-        <label>Create AGB LV RSV</label>
-        <locationX>1100</locationX>
-        <locationY>200</locationY>
-        <inputAssignments>
-            <processMetadataValues>
-                <name>dataType</name>
-                <value>
-                    <stringValue>String</stringValue>
-                </value>
-            </processMetadataValues>
-            <processMetadataValues>
-                <name>isRequired</name>
-                <value>
-                    <booleanValue>false</booleanValue>
-                </value>
-            </processMetadataValues>
-            <processMetadataValues>
-                <name>leftHandSideLabel</name>
-                <value>
-                    <stringValue>AGB Link</stringValue>
-                </value>
-            </processMetadataValues>
-            <processMetadataValues>
-                <name>leftHandSideReferenceTo</name>
-                <value>
-                    <stringValue></stringValue>
-                </value>
-            </processMetadataValues>
-            <processMetadataValues>
-                <name>rightHandSideType</name>
-                <value>
-                    <stringValue>String</stringValue>
-                </value>
-            </processMetadataValues>
-            <field>AGB_Link__c</field>
-            <value>
-                <stringValue>https://verbraucherhilfe24.my.salesforce.com/0151t0000018Nj7</stringValue>
-            </value>
-        </inputAssignments>
-        <inputAssignments>
-            <processMetadataValues>
-                <name>dataType</name>
-                <value>
-                    <stringValue>Date</stringValue>
-                </value>
-            </processMetadataValues>
-            <processMetadataValues>
-                <name>isRequired</name>
-                <value>
-                    <booleanValue>false</booleanValue>
-                </value>
-            </processMetadataValues>
-            <processMetadataValues>
-                <name>leftHandSideLabel</name>
-                <value>
-                    <stringValue>AGB Startdatum</stringValue>
-                </value>
-            </processMetadataValues>
-            <processMetadataValues>
-                <name>leftHandSideReferenceTo</name>
-                <value>
-                    <stringValue></stringValue>
-                </value>
-            </processMetadataValues>
-            <processMetadataValues>
-                <name>rightHandSideType</name>
-                <value>
-                    <stringValue>Date</stringValue>
-                </value>
-            </processMetadataValues>
-            <field>AGB_Start_Date__c</field>
-            <value>
-                <dateValue>2019-03-05</dateValue>
-            </value>
-        </inputAssignments>
-        <inputAssignments>
-            <processMetadataValues>
-                <name>dataType</name>
-                <value>
-                    <stringValue>Currency</stringValue>
-                </value>
-            </processMetadataValues>
-            <processMetadataValues>
-                <name>isRequired</name>
-                <value>
-                    <booleanValue>false</booleanValue>
-                </value>
-            </processMetadataValues>
-            <processMetadataValues>
-                <name>leftHandSideLabel</name>
-                <value>
-                    <stringValue>Fixes Erfolgshonorar</stringValue>
-                </value>
-            </processMetadataValues>
-            <processMetadataValues>
-                <name>leftHandSideReferenceTo</name>
-                <value>
-                    <stringValue></stringValue>
-                </value>
-            </processMetadataValues>
-            <processMetadataValues>
-                <name>rightHandSideType</name>
-                <value>
-                    <stringValue>Currency</stringValue>
-                </value>
-            </processMetadataValues>
-            <field>Fixed_Success_Fee__c</field>
-            <value>
-                <numberValue>690.0</numberValue>
-            </value>
-        </inputAssignments>
-        <inputAssignments>
-            <processMetadataValues>
-                <name>dataType</name>
-                <value>
-                    <stringValue>String</stringValue>
-                </value>
-            </processMetadataValues>
-            <processMetadataValues>
-                <name>isRequired</name>
-                <value>
-                    <booleanValue>false</booleanValue>
-                </value>
-            </processMetadataValues>
-            <processMetadataValues>
-                <name>leftHandSideLabel</name>
-                <value>
-                    <stringValue>AGB Name</stringValue>
-                </value>
-            </processMetadataValues>
-            <processMetadataValues>
-                <name>rightHandSideType</name>
-                <value>
-                    <stringValue>String</stringValue>
-                </value>
-            </processMetadataValues>
-            <field>Name</field>
-            <value>
-                <stringValue>AGB_VH24_mitRS_LV_05.03.2019</stringValue>
-            </value>
-        </inputAssignments>
-        <inputAssignments>
-            <processMetadataValues>
-                <name>dataType</name>
-                <value>
-                    <stringValue>ID</stringValue>
-                </value>
-            </processMetadataValues>
-            <processMetadataValues>
-                <name>isRequired</name>
-                <value>
-                    <booleanValue>true</booleanValue>
-                </value>
-            </processMetadataValues>
-            <processMetadataValues>
-                <name>leftHandSideLabel</name>
-                <value>
-                    <stringValue>Anfrage</stringValue>
-                </value>
-            </processMetadataValues>
-            <processMetadataValues>
-                <name>rightHandSideType</name>
-                <value>
-                    <stringValue>Reference</stringValue>
-                </value>
-            </processMetadataValues>
-            <field>Opportunity__c</field>
-            <value>
-                <elementReference>myVariable_current.Id</elementReference>
-            </value>
-        </inputAssignments>
-        <inputAssignments>
-            <processMetadataValues>
-                <name>dataType</name>
-                <value>
-                    <stringValue>Picklist</stringValue>
-                </value>
-            </processMetadataValues>
-            <processMetadataValues>
-                <name>isRequired</name>
-                <value>
-                    <booleanValue>false</booleanValue>
-                </value>
-            </processMetadataValues>
-            <processMetadataValues>
-                <name>leftHandSideLabel</name>
-                <value>
-                    <stringValue>Produkt</stringValue>
-                </value>
-            </processMetadataValues>
-            <processMetadataValues>
-                <name>leftHandSideReferenceTo</name>
-                <value>
-                    <stringValue></stringValue>
-                </value>
-            </processMetadataValues>
-            <processMetadataValues>
-                <name>rightHandSideType</name>
-                <value>
-                    <stringValue>Reference</stringValue>
-                </value>
-            </processMetadataValues>
-            <field>Product__c</field>
-            <value>
-                <elementReference>myVariable_current.Product__c</elementReference>
-            </value>
-        </inputAssignments>
-        <object>AGB__c</object>
-    </recordCreates>
-    <recordCreates>
-        <name>myRule_13_A1</name>
-        <label>Create AGB LV Share</label>
-        <locationX>1300</locationX>
-        <locationY>200</locationY>
-        <inputAssignments>
-            <processMetadataValues>
-                <name>dataType</name>
-                <value>
-                    <stringValue>String</stringValue>
-                </value>
-            </processMetadataValues>
-            <processMetadataValues>
-                <name>isRequired</name>
-                <value>
-                    <booleanValue>false</booleanValue>
-                </value>
-            </processMetadataValues>
-            <processMetadataValues>
-                <name>leftHandSideLabel</name>
-                <value>
-                    <stringValue>AGB Link</stringValue>
-                </value>
-            </processMetadataValues>
-            <processMetadataValues>
-                <name>leftHandSideReferenceTo</name>
-                <value>
-                    <stringValue></stringValue>
-                </value>
-            </processMetadataValues>
-            <processMetadataValues>
-                <name>rightHandSideType</name>
-                <value>
-                    <stringValue>String</stringValue>
-                </value>
-            </processMetadataValues>
-            <field>AGB_Link__c</field>
-            <value>
-                <stringValue>https://verbraucherhilfe24.my.salesforce.com/0151t0000018NjC</stringValue>
-            </value>
-        </inputAssignments>
-        <inputAssignments>
-            <processMetadataValues>
-                <name>dataType</name>
-                <value>
-                    <stringValue>Date</stringValue>
-                </value>
-            </processMetadataValues>
-            <processMetadataValues>
-                <name>isRequired</name>
-                <value>
-                    <booleanValue>false</booleanValue>
-                </value>
-            </processMetadataValues>
-            <processMetadataValues>
-                <name>leftHandSideLabel</name>
-                <value>
-                    <stringValue>AGB Startdatum</stringValue>
-                </value>
-            </processMetadataValues>
-            <processMetadataValues>
-                <name>leftHandSideReferenceTo</name>
-                <value>
-                    <stringValue></stringValue>
-                </value>
-            </processMetadataValues>
-            <processMetadataValues>
-                <name>rightHandSideType</name>
-                <value>
-                    <stringValue>Date</stringValue>
-                </value>
-            </processMetadataValues>
-            <field>AGB_Start_Date__c</field>
-            <value>
-                <dateValue>2019-01-22</dateValue>
-            </value>
-        </inputAssignments>
-        <inputAssignments>
-            <processMetadataValues>
-                <name>dataType</name>
-                <value>
-                    <stringValue>String</stringValue>
-                </value>
-            </processMetadataValues>
-            <processMetadataValues>
-                <name>isRequired</name>
-                <value>
-                    <booleanValue>false</booleanValue>
-                </value>
-            </processMetadataValues>
-            <processMetadataValues>
-                <name>leftHandSideLabel</name>
-                <value>
-                    <stringValue>AGB Name</stringValue>
-                </value>
-            </processMetadataValues>
-            <processMetadataValues>
-                <name>rightHandSideType</name>
-                <value>
-                    <stringValue>String</stringValue>
-                </value>
-            </processMetadataValues>
-            <field>Name</field>
-            <value>
-                <stringValue>AGB_VH24_ohneRS_LV_22.01.2019</stringValue>
-            </value>
-        </inputAssignments>
-        <inputAssignments>
-            <processMetadataValues>
-                <name>dataType</name>
-                <value>
-                    <stringValue>ID</stringValue>
-                </value>
-            </processMetadataValues>
-            <processMetadataValues>
-                <name>isRequired</name>
-                <value>
-                    <booleanValue>true</booleanValue>
-                </value>
-            </processMetadataValues>
-            <processMetadataValues>
-                <name>leftHandSideLabel</name>
-                <value>
-                    <stringValue>Anfrage</stringValue>
-                </value>
-            </processMetadataValues>
-            <processMetadataValues>
-                <name>rightHandSideType</name>
-                <value>
-                    <stringValue>Reference</stringValue>
-                </value>
-            </processMetadataValues>
-            <field>Opportunity__c</field>
-            <value>
-                <elementReference>myVariable_current.Id</elementReference>
-            </value>
-        </inputAssignments>
-        <inputAssignments>
-            <processMetadataValues>
-                <name>dataType</name>
-                <value>
-                    <stringValue>Number</stringValue>
-                </value>
-            </processMetadataValues>
-            <processMetadataValues>
-                <name>isRequired</name>
-                <value>
-                    <booleanValue>false</booleanValue>
-                </value>
-            </processMetadataValues>
-            <processMetadataValues>
-                <name>leftHandSideLabel</name>
-                <value>
-                    <stringValue>Erfolgshonorar</stringValue>
-                </value>
-            </processMetadataValues>
-            <processMetadataValues>
-                <name>leftHandSideReferenceTo</name>
-                <value>
-                    <stringValue></stringValue>
-                </value>
-            </processMetadataValues>
-            <processMetadataValues>
-                <name>rightHandSideType</name>
-                <value>
-                    <stringValue>Number</stringValue>
-                </value>
-            </processMetadataValues>
-            <field>Success_Fee__c</field>
-            <value>
-                <numberValue>35.0</numberValue>
-            </value>
-        </inputAssignments>
-        <object>AGB__c</object>
-    </recordCreates>
     <recordCreates>
         <name>myRule_3_A1</name>
         <label>Create AGB DG RSV</label>
@@ -2162,7 +1634,7 @@
         </inputAssignments>
         <object>Opportunity</object>
     </recordUpdates>
-    <startElementReference>myVariable_waitStartTimeAssignment</startElementReference>
+    <startElementReference>myDecision</startElementReference>
     <status>Active</status>
     <variables>
         <name>myVariable_current</name>
@@ -2179,15 +1651,5 @@
         <isInput>true</isInput>
         <isOutput>false</isOutput>
         <objectType>Opportunity</objectType>
-    </variables>
-    <variables>
-        <name>myVariable_waitStartTimeVariable</name>
-        <dataType>DateTime</dataType>
-        <isCollection>false</isCollection>
-        <isInput>false</isInput>
-        <isOutput>false</isOutput>
-        <value>
-            <elementReference>$Flow.CurrentDateTime</elementReference>
-        </value>
     </variables>
 </Flow>

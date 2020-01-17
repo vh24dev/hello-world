@@ -230,6 +230,7 @@ public class ClaimMail {
                     System.debug('Sent automatic mail with result: ' + result);
                 }
             } else if (claims.isFinanzierung(claim.RecordTypeId)) { // 0121v00000032Pe
+                /*
                 // FZ
                 Logger.debug('ClaimMail :: Finanzierung');
                 if (
@@ -338,6 +339,7 @@ public class ClaimMail {
                         System.debug('Sent automatic mail with result: ' + result);
                     }
                 }
+			*/
             } else {
                 // LV
                 Logger.debug('ClaimMail :: Lebensversicherung');

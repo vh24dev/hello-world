@@ -2,7 +2,7 @@
 <h3>Bitte Ihre Auftragsdaten vervollständigen.</h3><br/>
 {!Lead.Salutation__c}, 
 <p>
-Wir haben Ihren Auftrag erhalten und werden umgehend die nächsten Schritte zur <br/>Rechtsdurchsetzung einleiten. Um für Sie tätig werden zu können, benötigen wir noch weitere Informationen von Ihnen. 
+wir haben Ihren Auftrag erhalten und werden umgehend die nächsten Schritte zur <br/>Rechtsdurchsetzung einleiten. Um für Sie tätig werden zu können, benötigen wir noch weitere Informationen von Ihnen. 
 <p>
 <a href="{!Lead.URL_AGB_anfordern__c}" rel="noopener noreferrer" target="_blank"><strong style="font-weight: 700;"><span style="font-size: 13px;">Jetzt Daten vervollständigen</span></strong></a>
 <p>

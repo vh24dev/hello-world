@@ -61,6 +61,14 @@
         <label><!-- Textbausteine --></label>
         <name>Text_Modules__c</name>
     </fields>
+    <fields>
+        <label><!-- Produkt --></label>
+        <name>Produkt__c</name>
+    </fields>
+    <fields>
+        <label><!-- Vertriebstyp --></label>
+        <name>Vertriebstyp__c</name>
+    </fields>
     <caseValues>
         <caseType>Nominative</caseType>
         <plural>false</plural>

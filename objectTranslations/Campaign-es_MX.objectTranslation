@@ -1,19 +1,78 @@
-﻿<?xml version="1.0" encoding="utf-8"?><CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
+<?xml version="1.0" encoding="utf-8"?><CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <label><!-- Campaign Monitor Id --></label>
+        <name>wbsendit__Campaign_Monitor_Id__c</name>
+    </fields>
+    <fields>
+        <help><!-- Connect this Salesforce Campaign to sent campaigns in Campaign Monitor. Use this to manage campaign reports from within Salesforce. Send It will add any members it finds in Campaign Monitor to this campaign. --></help>
+        <label><!-- Campaign Monitor --></label>
+        <name>wbsendit__Campaign_Monitor__c</name>
+    </fields>
+    <fields>
+        <help><!-- Text version of the email sent. --></help>
+        <label><!-- Email Text Version --></label>
+        <name>wbsendit__Email_Text_Version__c</name>
+    </fields>
+    <fields>
+        <help><!-- Web version of the email campaign. --></help>
+        <label><!-- Email Web Version --></label>
+        <name>wbsendit__Email_Web_Version__c</name>
+    </fields>
+    <fields>
+        <help><!-- Number of bounced emails for the Campaign Monitor campaign. --></help>
+        <label><!-- Num Bounced --></label>
+        <name>wbsendit__Num_Bounced__c</name>
+    </fields>
+    <fields>
+        <help><!-- Number of clicks for the Campaign Monitor campaign. --></help>
+        <label><!-- Num Clicks --></label>
+        <name>wbsendit__Num_Clicks__c</name>
+    </fields>
+    <fields>
+        <help><!-- Number of forwarded emails for the Campaign Monitor campaign. --></help>
+        <label><!-- Num Forwards --></label>
+        <name>wbsendit__Num_Forwards__c</name>
+    </fields>
+    <fields>
+        <help><!-- Number of likes for the Campaign Monitor campaign. --></help>
+        <label><!-- Num Likes --></label>
+        <name>wbsendit__Num_Likes__c</name>
+    </fields>
+    <fields>
+        <help><!-- Number of &quot;Mentions&quot; for the Campaign Monitor campaign. --></help>
+        <label><!-- Num Mentions --></label>
+        <name>wbsendit__Num_Mentions__c</name>
+    </fields>
+    <fields>
+        <help><!-- Number of open emails for the associated Campaign Monitor campaign. --></help>
+        <label><!-- Num Opens --></label>
+        <name>wbsendit__Num_Opens__c</name>
+    </fields>
+    <fields>
+        <help><!-- Number of recipients for the associated Campaign Monitor campaign. --></help>
+        <label><!-- Num Recipients --></label>
+        <name>wbsendit__Num_Recipients__c</name>
+    </fields>
+    <fields>
+        <help><!-- Number of Spam Complaints for the Campaign Monitor campaign. --></help>
+        <label><!-- Num Spam Complaints --></label>
+        <name>wbsendit__Num_Spam_Complaints__c</name>
+    </fields>
+    <fields>
+        <help><!-- Number of unique open emails for the associated Campaign Monitor campaign. --></help>
+        <label><!-- Num Unique Opens --></label>
+        <name>wbsendit__Num_Unique_Opens__c</name>
+    </fields>
+    <fields>
+        <help><!-- Number of unsubscribes for the Campaign Monitor campaign. --></help>
+        <label><!-- Num Unsubscribed --></label>
+        <name>wbsendit__Num_Unsubscribed__c</name>
+    </fields>
+    <fields>
+        <help><!-- World view of the email campaign tracking. --></help>
+        <label><!-- World View Email Tracking --></label>
+        <name>wbsendit__World_View_Email_Tracking__c</name>
+    </fields>
     <webLinks>
         <label><!-- ViewAllCampaignMembers --></label>
         <name>ViewAllCampaignMembers</name>
@@ -22,6 +81,12 @@
         <label><!-- ViewCampaignInfluenceReport --></label>
         <name>ViewCampaignInfluenceReport</name>
     </webLinks>
-    
-    
+    <webLinks>
+        <label><!-- Send_ExactTarget_Email --></label>
+        <name>et4ae5__Send_ExactTarget_Email</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- ViewCampaignInfluenceReport --></label>
+        <name>et4ae5__ViewCampaignInfluenceReport</name>
+    </webLinks>
 </CustomObjectTranslation>

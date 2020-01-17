@@ -950,8 +950,6 @@
         <label><!-- ON_Account --></label>
         <name>ON_Account__c</name>
     </fields>
-    
-    
     <fields>
         <help><!-- Defines the customer number for this specific account. Returns the &apos;Debitor Nummer&apos; from the Account. If missing, returns the &apos;Customer Number&apos; from the Opportunity. --></help>
         <label><!-- ON_CustomerNo --></label>
@@ -979,14 +977,6 @@
         <name>ON_LastInvoiceRun__c</name>
         <relationshipLabel><!-- Anfragen --></relationshipLabel>
     </fields>
-    
-    
-    
-    
-    
-    
-    
-    
     <fields>
         <help><!-- The quantity to be billed for this invoice line item. --></help>
         <label><!-- ON_Quantity --></label>
@@ -1003,7 +993,6 @@ Set to null. --></help>
         <label><!-- ON_Service Date --></label>
         <name>ON_ServiceDate__c</name>
     </fields>
-    
     <fields>
         <help><!-- Specifies the Salesforce ID of the related template. Set to &apos;Default&apos;. --></help>
         <label><!-- ON_Template --></label>
@@ -1728,8 +1717,6 @@ Only for &apos;Lebensversicherung&apos; product.
         <label><!-- Resend_Authorization --></label>
         <name>Resend_Authorization</name>
     </webLinks>
-    
-    
     <webLinks>
         <label><!-- S_Docs_Translated --></label>
         <name>S_Docs_Translated</name>
@@ -1781,5 +1768,13 @@ Only for &apos;Lebensversicherung&apos; product.
     <webLinks>
         <label><!-- SyncToLegal --></label>
         <name>SyncToLegal</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Email_Docs --></label>
+        <name>SDOC__Email_Docs</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- S_Docs --></label>
+        <name>SDOC__S_Docs</name>
     </webLinks>
 </CustomObjectTranslation>

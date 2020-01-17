@@ -165,15 +165,6 @@
         <label><!-- Mobiltelefon --></label>
         <name>Mobiltelefon__c</name>
     </fields>
-    
-    
-    
-    
-    
-    
-    
-    
-    
     <fields>
         <label><!-- Old Id --></label>
         <name>Old_Id__c</name>
@@ -225,6 +216,51 @@
         <label><!-- Update Account --></label>
         <name>Update_Account__c</name>
     </fields>
+    <fields>
+        <help><!-- Shows the sum of all balances associated to this account. A positive amount is considered a debt, and a negative amount is considered a credit. --></help>
+        <label><!-- Balance --></label>
+        <name>ONB2__Balance__c</name>
+    </fields>
+    <fields>
+        <help><!-- Specifies the default payment due period (days) for invoices of this account. --></help>
+        <label><!-- Default Payment Due --></label>
+        <name>ONB2__PaymentDue__c</name>
+    </fields>
+    <fields>
+        <help><!-- Specifies the value added tax identification number. --></help>
+        <label><!-- VATIN --></label>
+        <name>ONB2__TaxNumber__c</name>
+    </fields>
+    <fields>
+        <help><!-- Is set to checked if the VAT number is validated successfully. --></help>
+        <label><!-- VAT Number Valid --></label>
+        <name>ONB2__VATIsValid__c</name>
+    </fields>
+    <fields>
+        <help><!-- Stores error messages regarding the last VAT number validation, is empty on success. --></help>
+        <label><!-- Last VAT Validation Error --></label>
+        <name>ONB2__VATLastError__c</name>
+    </fields>
+    <fields>
+        <help><!-- Holds the timestamp of the last successful VAT number validation. --></help>
+        <label><!-- Last Successful VAT Validation --></label>
+        <name>ONB2__VATLastValidationSuccess__c</name>
+    </fields>
+    <fields>
+        <help><!-- Holds the timestamp of the last VAT number validation. --></help>
+        <label><!-- Last VAT Validation --></label>
+        <name>ONB2__VATLastValidation__c</name>
+    </fields>
+    <fields>
+        <help><!-- Contains the address linked to the VAT number. The name may not be available even when VAT number is valid. --></help>
+        <label><!-- VAT Validated Address --></label>
+        <name>ONB2__VATValidatedAddress__c</name>
+    </fields>
+    <fields>
+        <help><!-- Contains the name linked to the VAT number. The name may not be available even when VAT number is valid. --></help>
+        <label><!-- VAT Validated Name --></label>
+        <name>ONB2__VATValidatedName__c</name>
+    </fields>
     <recordTypes>
         <label><!-- Kooperationspartner --></label>
         <name>Kooperationspartner</name>
@@ -245,13 +281,40 @@
         <label><!-- GoogleSearch --></label>
         <name>GoogleSearch</name>
     </webLinks>
-    
-    
-    
-    
-    
-    
-    
-    
-    
+    <webLinks>
+        <label><!-- CreateAccountStatement --></label>
+        <name>ONB2__CreateAccountStatement</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- SetMandateReference --></label>
+        <name>ONB2__SetMandateReference</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- VATValidation --></label>
+        <name>ONB2__VATValidation</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Email_Docs --></label>
+        <name>SDOC__Email_Docs</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- S_Docs --></label>
+        <name>SDOC__S_Docs</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- ExactTarget_Resubscribe --></label>
+        <name>et4ae5__ExactTarget_Resubscribe</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- ExactTarget_Unsubscribe --></label>
+        <name>et4ae5__ExactTarget_Unsubscribe</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Send_ExactTarget_Email --></label>
+        <name>et4ae5__Send_ExactTarget_Email</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- View_ExactTarget_Analytics --></label>
+        <name>et4ae5__View_ExactTarget_Analytics</name>
+    </webLinks>
 </CustomObjectTranslation>

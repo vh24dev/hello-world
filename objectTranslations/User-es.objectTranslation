@@ -47,7 +47,6 @@
         <label><!-- Managing Directors --></label>
         <name>Managing_Directors__c</name>
     </fields>
-    
     <fields>
         <label><!-- Old User ID --></label>
         <name>Old_User_ID__c</name>
@@ -96,15 +95,6 @@
         <label><!-- Vat Number --></label>
         <name>Vat_Number__c</name>
     </fields>
-    
-    
-    
-    
-    
-    
-    
-    
-    
     <fields>
         <label><!-- Calendy Link --></label>
         <name>Calendy_Link__c</name>
@@ -116,5 +106,47 @@
     <fields>
         <label><!-- Disable Triggers --></label>
         <name>Disable_Trigger__c</name>
+    </fields>
+    <fields>
+        <help><!-- CTI Data Connector Login ID --></help>
+        <label><!-- CTI Data Connector Login ID --></label>
+        <name>Mirage__Mirage_OpenCTI_OwnLoginId__c</name>
+    </fields>
+    <fields>
+        <label><!-- Default Marketing Cloud Page --></label>
+        <name>et4ae5__Default_ET_Page__c</name>
+    </fields>
+    <fields>
+        <label><!-- Default MID --></label>
+        <name>et4ae5__Default_MID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Marketing Cloud for AppExchange Admin --></label>
+        <name>et4ae5__ExactTargetForAppExchangeAdmin__c</name>
+    </fields>
+    <fields>
+        <label><!-- Marketing Cloud for AppExchange User --></label>
+        <name>et4ae5__ExactTargetForAppExchangeUser__c</name>
+    </fields>
+    <fields>
+        <label><!-- Marketing Cloud Username --></label>
+        <name>et4ae5__ExactTargetUsername__c</name>
+    </fields>
+    <fields>
+        <label><!-- @deprecated --></label>
+        <name>et4ae5__ExactTarget_OAuth_Token__c</name>
+    </fields>
+    <fields>
+        <label><!-- Valid Marketing Cloud Admin --></label>
+        <name>et4ae5__ValidExactTargetAdmin__c</name>
+    </fields>
+    <fields>
+        <label><!-- Valid Marketing Cloud User --></label>
+        <name>et4ae5__ValidExactTargetUser__c</name>
+    </fields>
+    <fields>
+        <help><!-- Used with the Campaign Monitor connector. Enter the users Campaign Monitor email address. --></help>
+        <label><!-- Campaign Monitor User --></label>
+        <name>wbsendit__Campaign_Monitor_User__c</name>
     </fields>
 </CustomObjectTranslation>

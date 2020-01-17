@@ -3,6 +3,13 @@ public class DocumentEmailHandler implements Messaging.InboundEmailHandler {
         Messaging.InboundEmailResult result = new Messaging.InboundEmailResult();
         Logger.debug('Handling email with subject: ' + email.subject);
         
+        /*
+        if(claimIsMonitored(email.subject)) {
+           Claim__c claim = retrieveClaim(email.subject);
+           updateClaimStatus(claim, email.subject);
+        }
+		*/
+        
         Opportunity o = fetchOpportunity(email);
         
         if(o == null) {
@@ -170,4 +177,57 @@ public class DocumentEmailHandler implements Messaging.InboundEmailHandler {
         );
         insert cdl;
     }
+    
+    /*
+    private static boolean claimIsMonitored(String subject) { 
+        List<String> subjectSplitted = subject.split('-');
+        for (String item : subjectSplitted) {
+            String trimmedItem = item.trim();
+            if(trimmedItem.equalsIgnoreCase('monitored')){
+                return true;
+            }
+        }
+        return false;
+    }
+    
+  	private static Claim__c retrieveClaim(String subject) { 
+	    List<String> subjectSplitted = subject.split('-');
+        Claim__c  claim = null;
+        for (String item : subjectSplitted) {
+            String trimmedItem = item.trim();
+            String identifier = extractNumber(trimmedItem);
+            if(!String.isBlank(identifier)){
+                claim = [SELECT Id, Correspondece_Status__c, Stage__c From Claim__c Where Opportunity_Number__c =: identifier or Reference__c =: identifier LIMIT 1];
+                break;
+            }
+        }
+        return claim;
+    }
+    
+    private static void updateClaimStatus(Claim__c claim, String subject){
+    	List<String> subjectSplitted = subject.split('-');
+        String newStatus;
+        if( subjectSplitted.size() == 3) {
+        	newStatus = subjectSplitted.get(2);
+        } else {
+            // hier status auch auf not clear setzen
+         	return;   
+        }
+        boolean success = updateClaim(claim, newStatus);
+        if(!success){
+        	updateClaim(claim, 'status not clear');
+            // ggf neuen Überprüfungstask erstellen
+        }
+    }
+    
+    private static boolean updateClaim (Claim__c claim, String value) {
+    	claim.Correspondece_Status__c = value;
+        try {
+        	update claim;
+        } catch(DmlException e) {
+           return false;     
+        } 
+        return true;    
+    }
+	*/
 }

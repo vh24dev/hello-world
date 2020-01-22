@@ -284,7 +284,8 @@ public class LeadConversion {
 				opportunity.vollmacht_Email_TemplateID__c = templID;
             }
             
-            if(Opportunities.isFinanzierung(opportunity.RecordTypeId)){
+            if(Opportunities.isFinanzierung(opportunity.RecordTypeId) ||
+              Opportunities.isDieselskandal(opportunity.RecordTypeId)){
             	createAuthorizations(opportunity);
             }
             

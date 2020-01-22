@@ -284,7 +284,7 @@ public class LeadConversion {
 				opportunity.vollmacht_Email_TemplateID__c = templID;
             }
             
-            if(!Opportunities.isLebensversicherung(opportunity.RecordTypeId)){
+            if(Opportunities.isFinanzierung(opportunity.RecordTypeId)){
             	createAuthorizations(opportunity);
             }
             

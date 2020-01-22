@@ -3,6 +3,13 @@ public class TaskRelatedOpportunity {
         System.debug('>> TaskRelatedOpportunity :: setOn :: tt: ' + tt);
 
         for (Task t: tt) {
+            if(t.whoID != null && 
+               t.WhatId == null && 
+               t.whoID.getSObjectType() == Schema.SObjectType.Lead.getSObjectType()){
+            	Lead l = [SELECT Id FROM Lead WHERE ID = :t.whoID];
+                t.related_Lead__c = l.Id;
+            }
+            
             if (t.whatID == null) {
                 System.debug('>> TaskRelatedOpportunity :: setOn :: whatID is null for t: ' + t);
                 continue;
@@ -14,6 +21,7 @@ public class TaskRelatedOpportunity {
             }
             
             Schema.SObjectType ot = t.whatID.getSObjectType();
+
             if (t.whatID.getSObjectType() == Schema.SObjectType.Opportunity.getSObjectType()) {
                 t.related_Opportunity__c = t.whatID;
             } else if (t.whatID.getSObjectType() == Schema.SObjectType.Claim__c.getSObjectType()) {

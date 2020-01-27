@@ -288,14 +288,14 @@ public class LeadConversion {
               Opportunities.isDieselskandal(opportunity.RecordTypeId)){
             	createAuthorizations(opportunity);
             }
-            
+            /*
             if(Opportunities.isLebensversicherung(opportunity.RecordTypeId) &&
                lcr.getContactId() != null
               ){
         		Map<Id,String> bnids = new Map<Id, String>();
                	LVAGBMailManager.executeLVAGBMail(lcr.getContactId(),lead.Bearbeitungsnummer__c);
             }
-
+			*/
             updateOpportunities.add(opportunity);
             
         }
@@ -307,6 +307,14 @@ public class LeadConversion {
         if (newOpportunityLineItems.size() > 0){
             insert newOpportunityLineItems;
         }
+    }
+    
+    private static void setLegalAccount() {
+        
+    }
+    
+    private static void setLegalUser() {
+        
     }
     
     private static void createAuthorizations(Opportunity opp){

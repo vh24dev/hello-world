@@ -40,7 +40,7 @@ global class MandateAsMailDelegation implements iVH24MailDelegation {
             this.opp = (Opportunity) genericObjects[0];
             xlsString = initParsingLoop(genericObjects, fields, xlsString);
             // template
-            this.eMailMapping = fetchConfig();
+            this.eMailMapping = fetchConfig(this.opp);
             this.template = fetchTemplate();
             buildBody();
             buildHtmlBody();
@@ -415,13 +415,22 @@ global class MandateAsMailDelegation implements iVH24MailDelegation {
     
     // prepare MailTemplate 
     
-    private EMailMapping__mdt fetchConfig(){
-    return [Select Attachment__c, 
-                              Template__c, 
-                              UniqueName__c,
-               				  IsEnabled__c
-                              FROM  EMailMapping__mdt 
-                              WHERE UniqueName__c = 'SendMadateAsMail' LIMIT 1];
+    private EMailMapping__mdt fetchConfig(Opportunity opp){
+        String product = opp.product__c;
+        String uniqueName;
+        if(product == 'Lebensversicherung') {
+        	uniqueName = 'SendMandateAsMailLV';
+        } else if(product == 'Finanzierung') {
+            uniqueName = 'SendMandateAsMailFZ';
+        } else if(product == 'Dieselskandal') {
+        	uniqueName = 'SendMandateAsMailDS';
+        }
+        return [Select Attachment__c, 
+                                  Template__c, 
+                                  UniqueName__c,
+                                  IsEnabled__c
+                                  FROM  EMailMapping__mdt 
+                                  WHERE UniqueName__c =: uniqueName LIMIT 1];
     }
     
     private EmailTemplate fetchTemplate(){

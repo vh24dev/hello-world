@@ -44,7 +44,8 @@ public class MandateMailController {
     
     private static boolean isEnabled(Claim__c claim){
         system.debug('----claim opp product-----' + claim.Opportunity__r.Product__c);  
-
+	    // not relevant temporarily
+        /*		
         if(claim.Opportunity__r.Product__c == 'Lebensversicherung'
           && claim.Stage__c == 'Legal Opposition') {
         	return true;    
@@ -54,7 +55,8 @@ public class MandateMailController {
         } else if(claim.Opportunity__r.Product__c == 'Dieselskandal') {
         	return true; 
         }
-        return false;
+		*/
+        return true;
     }
 
    

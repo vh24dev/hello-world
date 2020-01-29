@@ -21,7 +21,7 @@ public class MandateMailControllerTest {
         claim.Clerk__c = backoffice.Id;
  		insert claim;
 		String returnValue = MandateMailController.init(claim.Id);
-        System.assertEquals('disabled', returnValue);
+        System.assertEquals(null, returnValue);
     }
     
     @isTest

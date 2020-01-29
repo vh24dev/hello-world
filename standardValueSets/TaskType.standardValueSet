@@ -26,4 +26,14 @@
         <default>false</default>
         <label>Sonstiges</label>
     </standardValue>
+    <standardValue>
+        <fullName>KontrolleAnwaltFehler</fullName>
+        <default>false</default>
+        <label>KontrolleAnwaltFehler</label>
+    </standardValue>
+    <standardValue>
+        <fullName>KontrolleAnwaltErfolg</fullName>
+        <default>false</default>
+        <label>KontrolleAnwaltErfolg</label>
+    </standardValue>
 </StandardValueSet>

@@ -2,13 +2,11 @@ public class DocumentEmailHandler implements Messaging.InboundEmailHandler {
     public static Messaging.InboundEmailResult handleInboundEmail(Messaging.inboundEmail email, Messaging.InboundEnvelope envelop) {
         Messaging.InboundEmailResult result = new Messaging.InboundEmailResult();
         Logger.debug('Handling email with subject: ' + email.subject);
-        
-        /*
-        if(claimIsMonitored(email.subject)) {
-           Claim__c claim = retrieveClaim(email.subject);
-           updateClaimStatus(claim, email.subject);
+    
+        boolean claimIsMonitored = claimIsMonitored(email.subject);
+        if(claimIsMonitored) {
+            handleMonitoredClaim(email);
         }
-		*/
         
         Opportunity o = fetchOpportunity(email);
         
@@ -25,8 +23,10 @@ public class DocumentEmailHandler implements Messaging.InboundEmailHandler {
         
         ID uID = o.backoffice__c != null ? o.backoffice__c : o.ownerID;
         User owner = [SELECT ID, IsActive FROM User WHERE ID = :uID];
-        createTask(email.subject, o, owner);
         
+        if(!claimIsMonitored) {
+        	createTask(email.subject, o, owner);
+        }
         return null;
     }
     
@@ -177,8 +177,8 @@ public class DocumentEmailHandler implements Messaging.InboundEmailHandler {
         );
         insert cdl;
     }
-    
-    /*
+
+    @Testvisible
     private static boolean claimIsMonitored(String subject) { 
         List<String> subjectSplitted = subject.split('-');
         for (String item : subjectSplitted) {
@@ -189,7 +189,23 @@ public class DocumentEmailHandler implements Messaging.InboundEmailHandler {
         }
         return false;
     }
+     
+    private static void handleMonitoredClaim(Messaging.inboundEmail email) {
+        boolean success = false;
+        Claim__c claim = retrieveClaim(email.subject);
+        if(claim != null) {
+        	success =updateClaimStatus(claim, email.subject);
+        } else {
+            return;
+        }    
+        if(success) {   
+          createReviewSuccessTask(claim, email.subject, email.fromName);
+        } else {
+          createReviewProblemsTask(claim, email.subject, email.fromName);   
+        }
+    }
     
+    @Testvisible
   	private static Claim__c retrieveClaim(String subject) { 
 	    List<String> subjectSplitted = subject.split('-');
         Claim__c  claim = null;
@@ -197,37 +213,74 @@ public class DocumentEmailHandler implements Messaging.InboundEmailHandler {
             String trimmedItem = item.trim();
             String identifier = extractNumber(trimmedItem);
             if(!String.isBlank(identifier)){
-                claim = [SELECT Id, Correspondece_Status__c, Stage__c From Claim__c Where Opportunity_Number__c =: identifier or Reference__c =: identifier LIMIT 1];
+                claim = [SELECT Id, Clerk__c, Letzte_Mail_Empfangen_Am__c, Statuskontrolle_Anwalt__c, Correspondece_Status__c, Stage__c, Opportunity__r.backoffice__c, Opportunity__r.Number__c  From Claim__c Where Opportunity_Number__c =: identifier LIMIT 1];
                 break;
             }
         }
         return claim;
     }
     
-    private static void updateClaimStatus(Claim__c claim, String subject){
+    @Testvisible
+    private static boolean updateClaimStatus(Claim__c claim, String subject){
     	List<String> subjectSplitted = subject.split('-');
         String newStatus;
+        boolean success = false;
         if( subjectSplitted.size() == 3) {
         	newStatus = subjectSplitted.get(2);
         } else {
-            // hier status auch auf not clear setzen
-         	return;   
+        	updateClaim(claim, 'status not clear');
+       		return success;   
         }
-        boolean success = updateClaim(claim, newStatus);
+        success = updateClaim(claim, newStatus);
         if(!success){
         	updateClaim(claim, 'status not clear');
-            // ggf neuen Überprüfungstask erstellen
         }
+        return success;
     }
     
     private static boolean updateClaim (Claim__c claim, String value) {
-    	claim.Correspondece_Status__c = value;
+    	claim.Statuskontrolle_Anwalt__c	 = value;
+        claim.Letzte_Mail_Empfangen_Am__c = date.today();
         try {
-        	update claim;
+      		update claim;
         } catch(DmlException e) {
-           return false;     
+           	return false;     
         } 
         return true;    
     }
-	*/
+    
+    private static void createReviewProblemsTask(Claim__c claim, String subject, String sender) {
+        String description = 'Folgende Betreffzeile ist fehlerhaft: ' +
+            subject + '.' +
+            'Bitte bei zuständiger Kanzlei den Status einholen.';
+        Task task = new Task(
+            OwnerId = claim.clerk__c,
+            Subject = 'Fehler bei Kontrollmail für Fall mit BN: '+ claim.opportunity__r.Number__c,
+            ActivityDate = Date.today(),
+            Status = 'Open',
+            Priority = 'Normal',
+            Type = 'KontrolleAnwaltFehler',
+            Description = description,
+            Follow_Up_Task__c = false,
+			whatID = claim.id
+        );
+		insert task;
+    }
+    
+    private static void createReviewSuccessTask(Claim__c claim, String subject, String sender) {
+        String description = 'Bitte das entsprechende Fall-Objekt updaten';
+        Task task = new Task(
+            OwnerId = claim.clerk__c,
+            Subject = 'Neue Kontrollmail für Fall mit BN: '+ claim.opportunity__r.Number__c,
+            ActivityDate = Date.today(),
+            Status = 'Open',
+            Priority = 'Normal',
+            Type = 'KontrolleAnwaltErfolg',
+            Description = description,
+            Follow_Up_Task__c = false,
+			whatID = claim.id
+        );
+		insert task;
+    }
+        
 }

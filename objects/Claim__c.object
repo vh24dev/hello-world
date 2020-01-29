@@ -1887,6 +1887,162 @@ TEXT(FLOOR(Legal_Costs_Extrajudicial__c)))
         <trackTrending>false</trackTrending>
         <type>Checkbox</type>
     </fields>
+    <fields>
+        <fullName>Letzte_Mail_Empfangen_Am__c</fullName>
+        <description>Eingangsdatum der letzten Kontroll-Mail</description>
+        <externalId>false</externalId>
+        <label>Letzte mail empfangen am</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Statuskontrolle_Anwalt__c</fullName>
+        <description>Alle Status, die von zuständigen Anwalt per Mail übersandt werden.</description>
+        <externalId>false</externalId>
+        <label>Statuskontrolle Anwalt</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Anwaltswiderspruch versendet</fullName>
+                    <default>false</default>
+                    <label>Anwaltswiderspruch versendet</label>
+                </value>
+                <value>
+                    <fullName>Absage AW WSP</fullName>
+                    <default>false</default>
+                    <label>Absage AW WSP</label>
+                </value>
+                <value>
+                    <fullName>Annahme AW WSP</fullName>
+                    <default>false</default>
+                    <label>Annahme AW WSP</label>
+                </value>
+                <value>
+                    <fullName>Deckungsanfrage AG</fullName>
+                    <default>false</default>
+                    <label>Deckungsanfrage AG</label>
+                </value>
+                <value>
+                    <fullName>Deckungszusage AG</fullName>
+                    <default>false</default>
+                    <label>Deckungszusage AG</label>
+                </value>
+                <value>
+                    <fullName>Kostennote AG versendet</fullName>
+                    <default>false</default>
+                    <label>Kostennote AG versendet</label>
+                </value>
+                <value>
+                    <fullName>1.Mahnung KN AG versendet</fullName>
+                    <default>false</default>
+                    <label>1.Mahnung KN AG versendet</label>
+                </value>
+                <value>
+                    <fullName>2.Mahnung KN AG versendet</fullName>
+                    <default>false</default>
+                    <label>2.Mahnung KN AG versendet</label>
+                </value>
+                <value>
+                    <fullName>Kostennote AG bezahlt</fullName>
+                    <default>false</default>
+                    <label>Kostennote AG bezahlt</label>
+                </value>
+                <value>
+                    <fullName>Deckungsanfrage 1.Instanz</fullName>
+                    <default>false</default>
+                    <label>Deckungsanfrage 1.Instanz</label>
+                </value>
+                <value>
+                    <fullName>Deckungszusage 1.Instanz</fullName>
+                    <default>false</default>
+                    <label>Deckungszusage 1.Instanz</label>
+                </value>
+                <value>
+                    <fullName>Kostennote 1.Instanz versendet</fullName>
+                    <default>false</default>
+                    <label>Kostennote 1.Instanz versendet</label>
+                </value>
+                <value>
+                    <fullName>1.Mahnung KN 1.Instanz versendet</fullName>
+                    <default>false</default>
+                    <label>1.Mahnung KN 1.Instanz versendet</label>
+                </value>
+                <value>
+                    <fullName>2.Mahnung KN 1.Instanz versendet</fullName>
+                    <default>false</default>
+                    <label>2.Mahnung KN 1.Instanz versendet</label>
+                </value>
+                <value>
+                    <fullName>Kostennote 1.Instanz bezahlt</fullName>
+                    <default>false</default>
+                    <label>Kostennote 1.Instanz bezahlt</label>
+                </value>
+                <value>
+                    <fullName>Klageschrift versendet</fullName>
+                    <default>false</default>
+                    <label>Klageschrift versendet</label>
+                </value>
+                <value>
+                    <fullName>Ergebnis der Klage positiv</fullName>
+                    <default>false</default>
+                    <label>Ergebnis der Klage positiv</label>
+                </value>
+                <value>
+                    <fullName>Ergebnis der Klage negativ</fullName>
+                    <default>false</default>
+                    <label>Ergebnis der Klage negativ</label>
+                </value>
+                <value>
+                    <fullName>Anwaltswiderspruch an VU versendet</fullName>
+                    <default>false</default>
+                    <label>Anwaltswiderspruch an VU versendet</label>
+                </value>
+                <value>
+                    <fullName>Erinnerung an VU gesendet</fullName>
+                    <default>false</default>
+                    <label>Erinnerung an VU gesendet</label>
+                </value>
+                <value>
+                    <fullName>Außergerichtliches Schreiben an VU</fullName>
+                    <default>false</default>
+                    <label>Außergerichtliches Schreiben an VU</label>
+                </value>
+                <value>
+                    <fullName>Absage AG durch VU</fullName>
+                    <default>false</default>
+                    <label>Absage AG durch VU</label>
+                </value>
+                <value>
+                    <fullName>Annahme AG durch VU</fullName>
+                    <default>false</default>
+                    <label>Annahme AG durch VU</label>
+                </value>
+                <value>
+                    <fullName>Anspruchsschreiben versendet</fullName>
+                    <default>false</default>
+                    <label>Anspruchsschreiben versendet</label>
+                </value>
+                <value>
+                    <fullName>Herstellerabsage</fullName>
+                    <default>false</default>
+                    <label>Herstellerabsage</label>
+                </value>
+                <value>
+                    <fullName>status not clear</fullName>
+                    <default>false</default>
+                    <label>status not clear</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
     <allowInChatterGroups>false</allowInChatterGroups>
     <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
     <deploymentStatus>Deployed</deploymentStatus>
